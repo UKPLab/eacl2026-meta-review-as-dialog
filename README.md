@@ -8,7 +8,7 @@
 > Meta-reviewing is a pivotal stage in the peer-review process, serving as the final step in determining whether a paper is recommended for acceptance. Prior research on meta-reviewing has treated this as a summarization problem over review reports. However, complementary to this perspective, meta-reviewing is a decision-making process that requires weighing reviewer arguments and placing them within a broader context. Prior research has demonstrated that decision-makers can be effectively assisted in such scenarios via dialogue agents. In line with this framing,
 we explore the practical challenges for realizing dialog agents that can effectively assist meta-reviewers. Concretely, we first address the issue of data scarcity for training dialogue agents by generating synthetic data using Large Language Models (LLMs) based on a self-refinement strategy to improve the relevance of these dialogues to expert domains. Our experiments demonstrate that this method produces higher-quality synthetic data and can serve as a valuable resource towards training meta-reviewing assistants. Subsequently, we utilize this data to train dialogue agents tailored for meta-reviewing and find that these agents outperform *off-the-shelf* LLM-based assistants for this task. Finally, we apply our agents in real-world meta-reviewing scenarios and confirm their effectiveness in enhancing the efficiency of meta-reviewing.
 >
-This repository contains the code to reproduce the ReMuSE experiments on different domains along with the dialogue agent setups that we used in our paper. 
+This repository contains the code to reproduce the experiments in our **EACL 2026** main paper, **"Decision-Making with Deliberation: Meta-reviewing as a Document-grounded Dialogue"**. 
 
 <p align="center">
 <img src="assets/Fig1_v2.png" width="500">
@@ -114,6 +114,11 @@ To generate the feedback and refinement, we use the following code:
 The ``model`` argument is the shortened name for the model taht we have used throughout. The ``metrics`` can be any combination of `k-prec, q2 and specificity'. The ``epochs`` argument can be any number.
 
 One can iteratively run the codes within the ``Evaluation`` section again to get the scores for the refined dialogues.
+
+## Data
+The final dataset created is in the folder ``final_dataset`` in this repository.
+
+
 ## Citation
 
 ```bib
