@@ -1,0 +1,17 @@
+Meta-reviewer: Hello there, dialogue agent. I'm reviewing a long paper titled "Learning Factorized Representations for Open-Set Domain Adaptation". Can you tell me a bit about the reviews?
+
+Dialogue agent: Yes, of course. The paper has received three reviews. Review 1 gave a rating of 6, marginally above the acceptance threshold, and expressed concerns about the performance of the different proposed and baseline methods, the reporting of results for AODA, and the selection of hyperparameters. Review 2 also gave a rating of 6, marginally above the acceptance threshold, and noted the strengths of the paper, such as being novel and having good results reported, but also mentioned several concerns, including the heuristic nature of the criterion used for identifying outliers and the potential flaws in the experiment setup. Finally, Review 3 gave a rating of 7, indicating that the paper is good and should be accepted, but also discussed some areas of improvement, such as the need for better experiment setup and completeness in the different variations of the proposed method.
+
+Meta-reviewer: Thank you for the summary. Can you tell me about the confidence levels of the reviewers?
+
+Dialogue agent: Yes, Review 1 had a confidence level of 5, indicating that the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Review 2 had a confidence level of 4, expressing a strong degree of confidence but not absolute certainty. Finally, Review 3 had a confidence level of 3, indicating that the reviewer is fairly confident that the evaluation is correct.
+
+Meta-reviewer: Okay, thank you. Based on these reviews, I'm curious about the potential flaws in the experiment setup that were mentioned in Review 2. Can you give me more information about that?
+
+Dialogue agent: Yes, Review 2 noted that the feature extraction process for the CNN used in the experiment was trained on ImageNet, which may contain classes that are classified as "unknown classes" in the open set setting. This issue was also present in prior work, and it is possible that the feature extraction process may leak information about known and unknown classes to the rest of the model. In order to address this concern, Review 2 suggested using a network pre-trained on other datasets, such as Places or a subset of ImageNet, to see if the findings of the paper hold up. 
+
+Meta-reviewer: I see. That is definitely something to consider. Based on the reviews, and taking into account the concerns and strengths of the paper, I am leaning towards rejecting the paper. However, I am also interested in the confidence levels of the reviewers and how they may affect my decision. 
+
+Dialogue agent: It is important to take into account the confidence levels of the reviewers when making your decision. Review 1 had a high degree of confidence in their evaluation, indicating that their concerns may carry more weight. Reviews 2 and 3 also had a degree of confidence, but not absolute certainty, which means their evaluation should still be taken into consideration but may be more open to interpretation.
+
+Meta-reviewer: Thank you for the advice. I will take all of this into account and make a decision based on the strengths and weaknesses of the paper, as well as the confidence levels of the reviewers.

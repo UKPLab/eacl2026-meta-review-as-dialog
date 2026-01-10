@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today. I have reviewed the reviews for the paper titled "DecayNet: A Study on the Cell States of Long Short Term Memories." Can you provide me with some information about the paper and its reviews?
+
+Dialogue agent: Of course, the paper focuses on analyzing and modifying the forget gate of the LSTM structure to produce a monotonically decreasing propagation, which they call DecayNet. The main goal is to improve the expressive power of LSTMs and reduce abrupt shrinkage and sudden growth. The paper received three reviews, and I can provide you with a summary of each.
+
+Meta-reviewer: Yes, please.
+
+Dialogue agent: Review 1 rated the paper 8 out of 10 and recommended acceptance. The reviewer appreciated the theoretical analysis and empirical outcomes presented in the paper. In addition, they noted that the authors' contribution - DecayNet - achieves state-of-the-art performance on difficult tasks. They also provided a minor comment on clarifying the contribution label.
+
+Meta-reviewer: That sounds promising. What about review 2?
+
+Dialogue agent: Review 2 rated the paper 4 out of 10 and recommended rejection. The reviewer found the paper interesting but not convincing enough. They were not satisfied with the motivation, experiment results, and generalization of proposed modifications. They had doubts about the validity of the claim that controlled forget gates increase the expressive power of LSTMs. The reviewer also raised concerns about the experiments' range, tasks, and settings, and the lack of qualitative interpretation. 
+
+Meta-reviewer: I see. And Review 3?
+
+Dialogue agent: Review 3 also rated the paper 4 out of 10 and recommended rejection. The reviewer shared similar concerns about the motivation, experiment results, and generalization as review 2. They emphasized more on the absence of supports for the conceptual observations presented in the paper, the hand-crafted nature of the reformulation, the unrepresentative choice of datasets, and the lack of experimental details.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on them, I have to decide whether to accept or reject the paper. I am wondering how confident the reviewers were about their ratings.
+
+Dialogue agent: Reviewer 1 expressed a fairly confident level of confidence, 3 out of 5, while reviewers 2 and 3 expressed a confident level of confidence, 4 out of 5.
+
+Meta-reviewer: I see. Considering the mixed reviews and the level of confidence, I need to make a careful judgment. Can you tell me more about the paper's type and length?
+
+Dialogue agent: The paper is long, and its title is "DecayNet: A Study on the Cell States of Long Short Term Memories."
+
+Meta-reviewer: Okay. Thank you for the information. Based on the reviews and the confidence levels, I have to decide whether to accept or reject the paper. I value both theoretical analysis and empirical outcomes. Thus, the positive feedback from Review 1 is appealing, but the negative feedback from Review 2 and 3 is significant. I am also concerned about the lack of clarity, explanation, and justification that some reviewers mentioned. Given the mixed reviews, and since two out of three reviewers recommended rejection, I have to side with them and reject the paper.

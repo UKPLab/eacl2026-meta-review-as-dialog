@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the title "Semi-supervised Ensemble Learning with Weak Supervision for Biomedical Relation Extraction":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper on semi-supervised ensemble learning for biomedical relation extraction. Can you tell me about the paper's strengths and weaknesses?
+
+Dialogue Agent: Certainly! The paper proposes a novel combination of semi-supervised learning and ensemble learning for biomedical relation extraction, with experiments conducted on a single dataset. The proposed method shows promise in improving the accuracy of biomedical relation extraction, but there are some limitations to the evaluation.
+
+Turn 2:
+
+Meta-reviewer: Can you tell me more about the limitations of the evaluation?
+
+Dialogue Agent: Yes, the paper only uses one dataset and only one split of training data, which may not be representative of the true performance of the method. Additionally, the experiments are not comparable to other semi-supervised learning methods for information extraction, so it's not clear how competent the proposed method is compared to other alternatives.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the discussion of related work? Does the paper adequately discuss the relevant literature?
+
+Dialogue Agent: The paper could improve in discussing related work. The authors seem to be unaware of a growing body of recent work in biomedical machine reading using indirect supervision, e.g., Deep Probabilistic Logic (EMNLP-18). These methods have demonstrated success in extracting biomedical relations across sentences and beyond abstracts, using zero labeled examples.
+
+Turn 4:
+
+Meta-reviewer: That's a good point. What about the technical and experimental details of the paper? Are they adequately presented?
+
+Dialogue Agent: The paper could improve in providing technical and experimental details. For example, the ensemble of base learners is key to the proposed method, but it's unclear from the paper how many base learners have been considered, what are their types, etc. Additionally, the paper does not provide enough information about the variation of the base learners, such as SVM kernels or NN architectures.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the summary. Based on the limitations of the evaluation and the lack of discussion of related work, I would rate this paper as marginally below acceptance threshold. However, the paper does show promise in improving the accuracy of biomedical relation extraction, and the proposed method is novel and intuitively plausible.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

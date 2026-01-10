@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the paper titled "Representation-Constrained Autoencoders and an Application to Wireless Positioning," and I have some questions for you. Can you tell me what the paper is about?
+
+Dialogue agent: Sure, the paper proposes a variant of autoencoders that incorporates pairwise constraints and applies it to wireless positioning. The paper explores different constraint types, which enforce pairwise distance between points to be close to a desired value or below a maximal desired value, either as an "absolute" constraint where one point is fixed or a "relative" constraint where both points are optimized. These constraints are encoded as nonconvex regularization terms.
+
+Meta-reviewer: That sounds interesting. What do the reviews say about the paper?
+
+Dialogue agent: Review 1 suggests that the work is not particularly novel. The specific application of regularized autoencoders to the channel charting problem may be novel, but the idea of imposing some structure on the latent space of an autoencoder is not new. On the whole, the reviewer does not think there is enough novel work for the venue. Review 2 mentions that combining autoencoders with suitable additional regularizers can be a meaningful approach. However, the evaluation of the proposed method is considered to be insufficient. Review 3 points out that the proposed approach may benefit from learning the constraints directly on the manifolds (than via regularizers), and suggests some related works.
+
+Meta-reviewer: I see. Can you tell me more about the evaluations mentioned in Review 2?
+
+Dialogue agent: Review 2 notes that the evaluation of the proposed method is very insufficient because there are no comparisons to any other dimensionality reduction methods. The reviewer finds that to be a severe problem because numerous dimensionality reduction methods have been proposed previously and would be applicable to the data used here. The reviewer also mentions that in terms of novelty, the method is somewhat lacking.
+
+Meta-reviewer: Thank you for the clarification. Now, what is the type of the paper?
+
+Dialogue agent: The type of the paper is long.
+
+Meta-reviewer: Finally, what is the confidence level of the reviewers in their evaluations?
+
+Dialogue agent: Review 1 rates the paper as marginally below the acceptance threshold with a confidence level of 4, meaning that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 rates the paper as Ok but not good enough - rejection with a confidence level of 4, meaning that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 3 rates the paper as marginally above the acceptance threshold with a confidence level of 2, meaning that the reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper.

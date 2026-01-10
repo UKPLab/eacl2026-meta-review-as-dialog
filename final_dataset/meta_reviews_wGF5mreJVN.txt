@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide some insights on the reviews we have received for the paper titled "Learning to Navigate Wikipedia by Taking Random Walks"?
+
+Dialogue agent: Sure, what would you like to know?
+
+Meta-reviewer: Based on the reviews we received, what are the strengths and weaknesses of the paper?
+
+Dialogue agent: Review 1 mentioned that the proposed method is more effective than the baseline methods and scalable to large Wikipedia graphs. Additionally, the paper presents an extensive analysis of its results and limitations. However, one major weakness pointed out in the review is the lack of novelty in the proposed trajectories, which are based on random walks. The paper also only compared the proposed method with random and greedy methods, not other state-of-the-art methods, making it difficult to measure its effectiveness fully. Review 2 commended the proposed method's efficiency in navigating the Wikipedia graph and its competitive performance in the fact verification task. Meanwhile, a significant weakness mentioned in the review is the limited evaluation compared to Nogueira and Cho’s work. Finally, Review 3 praised the proposed system's improved performance on navigation and fact verification benchmarks and the paper’s execution, as well as conducting ablation studies on different design choices. One of the weaknesses mentioned is the method's limited novelty, which seems to be a simple application of existing techniques. Moreover, the experiments only used Wikipedia graph, which is smaller than the real-world web.
+
+Meta-reviewer: I see. How would you rate the paper based on these reviews?
+
+Dialogue agent: Review 1 recommends a moderate-to-high impact paper with no major concerns on evaluation, resources, reproducibility, or ethical considerations. However, given the lack of novelty in the proposed method and limited evaluation, they rated it as a weak accept with a rating of 6. Review 2 is a borderline accept, but the authors need to clarify the large difference in performance with Nogueira and Cho’s work. Reviewer 3 also recommended a borderline accept, but they emphasized the need for clarification on the paper's main contribution and its significance to the research community.
+
+Meta-reviewer: Thank you. One final question. How confident are the reviewers in their assessment of the paper?
+
+Dialogue agent: Review 1 and 2 expressed a confidence level of 4, indicating that they are confident in their assessment but not absolutely certain. Review 3's confidence level is 3, which means they are reasonably confident but still noticed some gaps in the paper's presentation and related works.

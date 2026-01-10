@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the paper "High-dimensional Additive Gaussian Processes under Monotonicity Constraints". I have reviewed the reviews provided by the reviewers, and I have a few questions about the paper before I make my decision.
+
+Dialogue agent: Hello, meta-reviewer. I'm happy to answer any questions you have.
+
+Meta-reviewer: Great. Let's start with review 1. The reviewer mentions that the authors did not provide performance certificates. Can you explain why that is?
+
+Dialogue agent: The authors did provide numerical results to demonstrate the effectiveness of their proposed approach. However, performance certificates, such as convergence guarantees, were not included in the paper.
+
+Meta-reviewer: I see. Would you say that the lack of performance certificates is a significant weakness of the paper?
+
+Dialogue agent: I can't provide an opinion on that matter as it goes beyond my role as a dialogue agent. However, I can say that review 1 rated the paper as a borderline reject due to limited evaluation.
+
+Meta-reviewer: Understood. Moving on to review 2, the reviewer raises a concern about how the kernel parameters are estimated. Can you provide more information on this?
+
+Dialogue agent: The authors used a constrained quadratic optimization to estimate the kernel parameters. However, the reviewer raises a valid point that this approach may be non-convex and difficult to solve efficiently.
+
+Meta-reviewer: Thank you for clarifying. Now, review 3 raises a concern that the contribution of the paper regarding the extension of existing work for handling high-dimensional, additive models is over-claimed. Can you provide more information on how the authors responded to this concern?
+
+Dialogue agent: The authors acknowledged the similarity between their proposed method and existing methods in the field. However, they argued that their approach is distinct in terms of the specific constraints and optimization techniques used. They also provided experimental results to demonstrate the effectiveness of their approach in comparison to existing methods.
+
+Meta-reviewer: I see. Based on these reviews, it seems that the paper has some strengths but also some weaknesses and concerns. Can you provide your recommendation for whether to accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide a recommendation or opinion on the paper but can summarize the ratings and opinions of the reviewers. Review 1 rated the paper as a borderline reject, while review 2 rated it as a weak accept, and review 3 rated it as an accept. It is up to you, meta-reviewer, to weigh these ratings and make a decision on whether to accept or reject the paper.

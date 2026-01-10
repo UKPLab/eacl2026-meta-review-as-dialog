@@ -1,0 +1,37 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper about neural differential equations for learning to program neural nets through continuous learning rules. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper presents a continuous time version of the Fast Weight Programmers family of sequence classification models. It introduces continuous time versions of multiple FWPs variants and empirically tests them on three standard sequence classification tasks. Additionally, the paper applies the method to two basic RL problems.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper presents a thorough explanation of the method and its applications. The continuous analogous of FWPs is an original contribution to the literature of neural ODEs. The paper also provides a wide variety of experiments, which is a strength of the paper.
+
+Turn 3:
+
+Meta-reviewer: Okay, what are the weaknesses of the paper?
+
+Dialogue Agent: The main weakness of the paper is that each experiment only has one baseline method as comparison, and does not have enough details. The authors focus on how their method mitigates limitations of the original family of methods, but do not discuss potential negative societal impacts that are particular to their work.
+
+Turn 4:
+
+Meta-reviewer: I see. How does the paper compare to other works in the field?
+
+Dialogue Agent: The paper ties together many individual lines of work in the field, including neural CDEs, neural RDEs, long sequence modeling, learning rules, FWP, etc. It provides complete references for all of them. However, the paper does not discuss comparisons with other baselines from non-ODE based neural networks, which is a limitation.
+
+Turn 5:
+
+Meta-reviewer: That's helpful to know. What is your overall rating of the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would rate it as a 7: Accept, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your help! I will use this information to make my final decision on the paper.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

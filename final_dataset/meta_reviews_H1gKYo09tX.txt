@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you both for your reviews on the paper "code2seq: Generating Sequences from Structured Representations of Code". Based on your feedback and the quality of the paper, I am leaning towards accepting it for publication. However, I have a few questions for the dialogue agent based on the reviews provided.
+
+Dialogue agent: Sure, I will try my best to answer your questions.
+
+Meta-reviewer: Reviewer 1 raised concerns about the novelty of the proposed model compared to code2vec and suggested additional evaluations to better understand the advantages of code2seq. How would you respond to these concerns, and do you think additional evaluations are necessary?
+
+Dialogue agent: As mentioned in the paper, the key difference between code2vec and code2seq is that code2seq uses LSTM to encode individual paths instead of fixed vocabulary used in code2vec, which allows it to generalize to new paths. While it may not be a huge conceptual leap in model architecture, it is a more natural choice for embedding paths. As for additional evaluations, the paper has already conducted an ablation study to show the importance of various design choices and has compared its performance with other baseline methods. However, if the meta-reviewer feels that additional evaluations are necessary, it would be worth exploring the suggestions raised by the reviewer.
+
+Meta-reviewer: Reviewer 2 had some clarifying questions about the implementation of the model, such as the process of encoding function bodies and the use of k=200. How would you address these concerns, and do you think providing additional details on the datasets would be helpful?
+
+Dialogue agent: The paper explicitly states that for each sample, all k (k=200 in this case) paths in the function body are processed together. As for the choice of k=200, it was based on preliminary experiments and the approximate size of a function body in their datasets. While more details on the datasets may be helpful, the paper has already provided statistics such as the number of functions and paths in each dataset in Table 2. However, if the meta-reviewer feels that more details would be beneficial, they may suggest so.
+
+Meta-reviewer: Reviewer 3 suggested comparing the results of code2seq with other program embedding papers that use Tree-RNN or graph neural networks, and using smaller values of k. How would you address these concerns, and do you think they are valid?
+
+Dialogue agent: While the paper has already compared the results of code2seq with a range of baseline methods including BiLSTM and Transformer, it would be interesting to see a comparison with Tree-RNN or GNN models. The use of smaller values of k may also be an interesting avenue to explore and can help understand the effect of the model on different paths. If the meta-reviewer feels that these suggestions are valid, they may suggest the authors to perform additional experiments.
+
+Meta-reviewer: Thank you for your responses, Dialogue Agent. After considering the reviews and your responses, I have decided to accept the paper for publication.

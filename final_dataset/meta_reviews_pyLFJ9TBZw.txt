@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I'm reviewing a paper titled "Generative multitask learning mitigates target-causing confounding." Can you give me a brief summary of the paper's proposed method and its strengths?
+
+Dialogue agent: Sure. The paper proposes generative multitask learning (GMTL) to handle the existence of target-causing confounding. The goal is to find the invariant information under different interventions, or in the case of target shift, with the help of an auxiliary target. They formulate the GMTL loss function with clear logic and show experimentally that it is effective in improving robustness to target shifts.
+
+Meta-reviewer: Thank you. I have a few questions regarding the paper. In Review 1, the reviewer raises concerns about the framing of the paper and the assumptions made. Can you comment on that?
+
+Dialogue agent: The reviewer addresses the assumption made by the authors that models of data likelihood will be invariant to shifts in target-causing confounding. They also raise the concern that the framing of GMTL as an alternative approach to traditional discriminative MTL (DMTL) is problematic because DMTL's assumption of $Y\perp Y'|X$ is testable through conditional independence tests. Finally, the reviewer suggests that alternative approaches to fitting the model, such as inverse propensity weights (IPW), could potentially be used.
+
+Meta-reviewer: Interesting. In Review 2, the reviewer questions why $p(y,y'|x)$ in Eq. (5) can be transferred to the product of $p(y|x)$ and $p(y'|x)$ in Eq. (6). Can you clarify?
+
+Dialogue agent: The reviewer is correct in pointing out that, according to Figure 1(c), $Y$ and $Y'$ are not independent conditional on $X$ but are independent with each other conditional on latent variable $U$. However, the authors indicate that they allow $p(y,y'|x)$ to factorize purely out of convenience, and thus would need to justify this choice with further experiments or a theoretical justification.
+
+Meta-reviewer: I see. In Review 3, the reviewer questions the assumptions made in the experiments and whether multiple targets can be handled. Can you address those concerns?
+
+Dialogue agent: The reviewer is correct in pointing out that the assumption of a hidden confounding factor causing $Y$ and $Y'$ may not be satisfied in all cases. As for multiple targets, the authors mention that they use two targets only "without loss of generality" and do not address the limitations of this method for handling multiple targets in the paper. This may be a limitation to consider in future work.

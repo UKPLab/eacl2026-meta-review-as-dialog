@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews on the paper entitled "Graph Matching Networks for Learning the Similarity of Graph Structured Objects." Based on the reviews, I have some questions about the paper that I would like you to answer.
+
+Dialogue Agent: Hello, meta-reviewer. I'm here to help. Please go ahead and ask your questions.
+
+Meta-reviewer: The first review raised concerns about the performance improvement of the proposed model and called for an ablation study on the new matching module. Can you explain the matching module and why it is important for graph matching?
+
+Dialogue Agent: Certainly, meta-reviewer. The new matching module proposed in the paper accepts the hidden vector of nodes from two graphs and maps them to a hidden matching variable, which serves as messages, similar to Graph Embedding Networks. This module is important because it allows the proposed model to match graphs in the graph level by predicting the similarities of the two graphs. However, the exact source of performance improvement needs further examination using an ablation study.
+
+Meta-reviewer: The second review raised concerns about the experiments, the generalization ability of the model, and the cost of inference time and model size. Can you address these concerns?
+
+Dialogue Agent: Regarding the experiments, the paper did not provide detailed information on the dataset split, leading the reviewer to question the validity of the results. Moreover, the proposed model seems sensitive to the size and edge density of graphs. To address these concerns, additional experiments with more data splitting and on different datasets could be conducted. As for generalization ability, the reviewer suggested testing on the small unrar dataset using the proposed model trained on the ffmpeg dataset. The model's performance could be compared to baseline methods such as heuristics for graph edit distance. Finally, the cost of inference time and model size could be compared with baseline methods to investigate their scalability.
+
+Meta-reviewer: The third review raised a question about the non-trainable cross-graph similarity and how it affects the model. Can you explain this?
+
+Dialogue Agent: The non-trainable cross-graph similarity was chosen to reduce the number of parameters and to ensure that it operates similarly across all tasks. This means that the similarity function is predefined and not learned from the data. However, the reviewer's concern is valid and suggests exploring the effect that making the cross-graph similarity trainable might have on the model's performance.
+
+Meta-reviewer: Thank you, dialogue agent. Based on the reviews, the paper is marginally above the acceptance threshold. However, as the reviewer in the first review pointed out, the paper's contribution needs further examination. Given the mixed reception of the reviews, I'm hesitant to make a final decision. Can you provide further insight?
+
+Dialogue Agent: As a dialogue agent, I cannot provide my own opinion or recommendation. However, I can reaffirm that the proposed method is a novel approach to graph matching and that it achieved improvements over baseline methods. The weaknesses highlighted by the reviewers can be addressed by conducting additional experiments and further analyzing the new matching module and cross-graph attention mechanism. Ultimately, it is up to you to weigh the importance of reviewer confidence and decide whether to accept or reject the paper.

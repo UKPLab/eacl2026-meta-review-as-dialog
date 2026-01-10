@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have received three reviews for the paper "Structured Prediction using cGANs with Fusion Discriminator." Can you give me a summary of the reviews?
+
+Dialogue agent: Certainly. Review 1 praises the proposed method for incorporating conditional information into a GAN for structured prediction tasks and verifies its efficacy through experiments. The reviewer suggests the paper shows a promising approach to solve structured prediction problems. Review 2, on the other hand, thinks the entire technical approach can be summarized in 2-3 sentences and is not particularly novel, suggesting clear rejection of the paper. Furthermore, the theoretical motivation equations in Sec. 3.1 could be skipped entirely. Review 3 presents a particular architecture for conditional discriminators in the cGAN framework. The writing is mostly clear and easy to follow. However, the theoretical justification of the approach is quite weak, and the experimental section is not particularly convincing. Therefore, the reviewer would not recommend the paper for acceptance.
+
+Meta-reviewer: Thank you for your summary. Do you have any information on the confidence of each reviewer's evaluation?
+
+Dialogue agent: Yes. Reviewer 1 is fairly confident that the evaluation is correct, with a confidence level of 3. Reviewer 2 is confident but not absolute about their evaluation, with a confidence level of 4. Reviewer 3 is also confident but not absolute about their evaluation, with a confidence level of 4.
+
+Meta-reviewer: I see. Review 1 seems to suggest that the proposed method is promising, while reviews 2 and 3 have more negative opinions. Can you tell me more about the type of paper we are dealing with?
+
+Dialogue agent: Yes. The type of the paper is long.
+
+Meta-reviewer: Given the mixed reviews and the fact that it is a long paper, I need to weigh the importance of reviewer confidence in making the final decision. Can you tell me more about the proposed method and how it compares to existing methods?
+
+Dialogue agent: Review 1 praises the proposed method for incorporating conditional information into a GAN for structured prediction tasks and verifies its efficacy through experiments. However, Review 2 suggests that the technical approach is not particularly novel, while Review 3 thinks that the proposed method is neither sufficiently novel nor properly justified.
+
+Meta-reviewer: That's helpful. Is there any information on how the proposed method performs compared to the existing methods?
+
+Dialogue agent: Review 1 mentions thorough experimental results on Cityscapes and NYU v2 verify the efficacy of the proposed method. However, Review 3 thinks that the authors never compare their results with the state-of-the-art, and the narrative would be much more convincing if the proposed way of conditioning yielded superior performance compared to the existing systems.
+
+Meta-reviewer: I see. Based on the reviews and the confidence levels, I think I need to seek more clarity on the theoretical justification for the proposed method, and also check the experimental results for their validity. Can you tell me more about the language and presentation of the paper?
+
+Dialogue agent: Review 1 thinks the paper is written clearly, the math is well laid out, and the English is fine. Review 2 thinks that the theoretical "motivation" equations in Sec. 3.1 are obvious and could be skipped entirely. Review 3 thinks the writing is mostly clear and easy to follow, but suggests rephrasing a few sections and providing more details in others.
+
+Meta-reviewer: Thank you for the additional information. I need to make a decision on whether to accept or reject the paper. Based on the reviews and the confidence levels, it is clear that the proposed method has mixed opinions. However, as Review 1 suggests, the paper shows a promising approach to solve structured prediction problems, and the writing is clear and well laid out. On the other hand, Review 2 suggests that the technical approach is not very novel, and Review 3 thinks that the proposed method is neither sufficiently novel nor properly justified. 
+
+Given all this information, I still feel like I need more clarity on the theoretical motivation and experimental results before making a final decision. Therefore, I will request that the authors address these concerns and resubmit the paper for a second review.

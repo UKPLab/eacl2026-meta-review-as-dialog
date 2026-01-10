@@ -1,0 +1,21 @@
+ Sure, here is a simulated dialogue between a dialogue agent and a meta-reviewer for a paper titled "Transferring SLU Models in Novel Domains":
+
+Dialogue Agent: Hello! I'm here to help you assess the acceptability of the paper "Transferring SLU Models in Novel Domains". Can you tell me a little bit about the paper and what you're looking for in terms of feedback?
+
+Meta-Reviewer: Sure! The paper focuses on dealing with a scenario where there are "unseen" intents or slots, which is very important in terms of the application perspective. The proposed approach, TSSM, tries to form the embeddings for such unseen intents or slots with little training data in order to detect a new intent or slot in the current input. I'm looking for feedback on the novelty, contributions, and effectiveness of the proposed approach.
+
+Dialogue Agent: Great! Based on the reviews, the paper seems to have some strengths and weaknesses. One reviewer praised the paper for its interesting transfer learning approach, while another reviewer noted that the novelty of the paper is incremental and some points are not clear. Can you tell me more about your concerns and what you'd like to know more about?
+
+Meta-Reviewer: Well, I'm not sure if the paper fully justifies its contributions and how they compare to prior work. The authors state that the knowledge transfer is the main contribution of this paper, but I'm not convinced that the transfer scheme is very straightforward. Additionally, I'd like to see more discussion on the overarching message of fine-tuning a suitable model initialisation using small amounts of data from the target domain, and how it relates to other word-embeddings papers cited in the section.
+
+Dialogue Agent: I see. Based on your feedback, it seems like you're looking for more information on the novelty and contributions of the paper, as well as a better understanding of how the proposed approach compares to prior work. Is that correct?
+
+Meta-Reviewer: Yes, that's correct. I'd also like to see more discussion on the potential risks of overfitting and how the authors plan to address them.
+
+Dialogue Agent: Thank you for your feedback! Based on your input, I can provide a summary of the reviews and offer some suggestions for the authors. The first reviewer praised the paper for its interesting transfer learning approach, while the second reviewer noted that the novelty of the paper is incremental and some points are not clear. Additionally, both reviewers expressed concerns about the lack of clarity on the contributions and how the proposed approach compares to prior work. To address these concerns, the authors may want to provide more discussion on the overarching message of fine-tuning a suitable model initialisation using small amounts of data from the target domain, and how it relates to other word-embeddings papers cited in the section. Furthermore, the authors may want to address the potential risks of overfitting and how they plan to address them.
+
+Meta-Reviewer: Thank you! That's helpful to know. Based on the reviews and your summary, I think the paper is marginally above the acceptance threshold. However, I would like to see more discussion on the novelty and contributions of the paper before making a final decision.
+
+Dialogue Agent: Understood! I will provide the authors with your feedback and suggestions. Thank you for your time and input!
+
+Meta-Reviewer: Thank you!

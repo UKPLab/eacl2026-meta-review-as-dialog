@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read through the reviews for "Double Check Your State Before Trusting It: Confidence-Aware Bidirectional Offline Model-Based Imagination." Based on the reviews, I am leaning towards accepting the paper, but I have some questions I would like to ask you first.
+
+Dialogue agent: Of course, I am happy to answer any questions you may have.
+
+Meta-reviewer: Reviewer 1 mentioned hyperparameter tuning as a weakness. Can you tell me more about the importance of the ratio η and the rollout horizon?
+
+Dialogue agent: The ratio η determines the trade-off between the number of forward and backward rollouts generated. It strongly depends on the dataset, and different datasets may require different values of η. The rollout horizon determines the length of the trajectory generated from each rollout policy. Both of these parameters are important for the performance of the proposed method, but the exact values may need to be determined through experimentation.
+
+Meta-reviewer: I see. Also, Reviewer 2 mentioned some missing evaluations. Can you explain why some baseline methods were not included?
+
+Dialogue agent: The authors chose to include several state-of-the-art baseline methods in their experiments, but not all possible baseline methods. S4RL, mentioned by Reviewer 2, is a method that also handles data augmentation in offline RL, but it was not included in the experiments. MOReL, another important model-based offline RL method, was also not included. The authors may have chosen to focus on methods that are more directly comparable to their proposed method or have been shown to perform well on similar tasks.
+
+Meta-reviewer: That makes sense. Finally, Reviewer 3 mentioned limited gains on the MuJoCo environments. Can you explain this limitation and how the authors addressed it?
+
+Dialogue agent: The authors found that their proposed method led to only a minor improvement on the MuJoCo environments when combined with the TD3+BC algorithm, compared to a larger improvement on the Adroit environments with the BCQ algorithm. They attribute this discrepancy to the use of the BC term in TD3+BC, which may already be benefiting from similar correction as the double check. The authors suggest that a different algorithm, such as CQL, could lead to a similar strong gain with their proposed method. 
+
+Meta-reviewer: Thank you for all of your answers. Based on your responses and the reviews, I believe I am comfortable with accepting the paper. Thank you for your help. 
+
+Dialogue agent: You're welcome. It was my pleasure to assist you.

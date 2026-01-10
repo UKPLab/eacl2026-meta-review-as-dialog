@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, can you introduce yourself and explain your role in the paper's review process?
+
+Dialogue agent: Hi, I am a dialogue agent designed to assist you in navigating the reviews of the paper titled Multi-Class Uncertainty Calibration via Mutual Information Maximization-based Binning. My role is to provide you with factual information based on the reviews and the paper type, without expressing any opinions or recommendations.
+
+Meta-reviewer: Great, thank you. Can you summarize the main contributions and strengths of the paper as described in the reviews?
+
+Dialogue agent: Sure. According to Review 1, the paper proposes a novel information maximization binning scheme for calibration that is theoretically sound and empirically superior to other binning and scaling approaches in terms of accuracy and expected calibration error. The reviewer also appreciated the authors' efforts in addressing concerns raised by other reviewers and overall rated the paper as a good contribution to the field. 
+
+Review 2 also commended the authors on their proposal and empirical evaluation, but pointed out some weaknesses in the paper's discussion of computational cost and metrics for comparison. The reviewer recommended acceptance of the paper after addressing these issues.
+
+Review 3 highlighted the author's motivation for using mutual information between labels and quantized logits for multi-class calibration, as well as their introduction of a shared class-wise strategy that fits a single calibrator on the merged training sets of all K class-wise problems to improve sample efficiency. However, the reviewer raised concerns about potential bias in the sCW approach and the need for a comparison with existing work that uses regularization for uncertainty estimation.
+
+Meta-reviewer: Thank you for the summary. Given these strengths and weaknesses, what is your overall assessment of the paper and its reviews? 
+
+Dialogue agent: Based on the reviews, Review 1 rated the paper highly and recommended acceptance, while Review 2 found some weaknesses but still recommended acceptance. Review 3 raised concerns that put the paper marginally below the acceptance threshold, but still recognized the paper's contributions. Overall, the reviews suggest that the paper is a good contribution to the field with some room for improvement. 
+
+Meta-reviewer: Can you remind me of the paper's type and the specific concerns raised by Review 1 about its generalizability?
+
+Dialogue agent: According to Review 1, the paper is of the long type. The reviewer raised concerns about the paper's assumptions that classes are equally distributed on the test data, and that some algorithms proposed in the paper might not generalize to an unbalanced multiclass setting. The reviewer suggested that these concerns need to be addressed before publication. 
+
+Meta-reviewer: Thank you for the reminder. Given the reviews and the paper type, how confident should I be in making the final decision on whether to accept or reject the paper?
+
+Dialogue agent: Based on the reviews and the paper type, an appropriate level of confidence for making the final decision on whether to accept or reject the paper would be moderate to high. None of the reviews raised major issues that would definitively determine the paper's fate, but rather highlighted strengths and weaknesses that should be carefully considered.

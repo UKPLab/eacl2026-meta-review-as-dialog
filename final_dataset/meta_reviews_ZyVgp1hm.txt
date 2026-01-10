@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Bi-directional Weakly Supervised Knowledge Distillation for Whole Slide Image Classification":
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper titled "Bi-directional Weakly Supervised Knowledge Distillation for Whole Slide Image Classification". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a novel method called WENO, which combines multi-instance learning (MIL) with weakly-supervised knowledge distillation to improve instance classification in whole slide images (WSI). The method addresses the issue of attention-based MIL methods where the teacher's performance stops improving after a while and even decreases because it focuses more and more on a few easy-to-classify examples.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the proposed method?
+
+Dialogue Agent: Sure! The method consists of three key parts: distillation, shared-encoder, and hard-example-selector. The distillation part uses the teacher's bag-level attention scores to train the student, while the shared-encoder part shares the feature extractor between the teacher and student models. The hard-example-selector part uses the student's instance model to select hard examples for the teacher's bag.
+
+Turn 3:
+Meta-reviewer: I see. How does the method improve upon existing MIL methods?
+
+Dialogue Agent: The method improves upon existing MIL methods by addressing the issue of the teacher's performance decreasing over time due to the focus on easy-to-classify examples. The proposed HPM (hard-positive-mining) module selects hard examples for the teacher's bag, which improves the teacher's performance on difficult instances. Additionally, the method combines MIL with weakly-supervised knowledge distillation, which has not been done before.
+
+Turn 4:
+Meta-reviewer: That's great. Can you tell me more about the evaluation of the method?
+
+Dialogue Agent: Sure! The method was evaluated on 2 synthetic and 3 real-world datasets of WSI histology images, and was compared to two state-of-the-art MIL methods (ABMIL and DSMIL). The results show that the proposed method outperforms SOTA by a significant margin on datasets where the prevalence of the positive class is low, and by a small margin for real-world datasets. An ablation study was also performed to show that each key part of the method (distillation, shared-encoder and hard-example-selector) all participate in improving the baseline.
+
+Turn 5:
+Meta-reviewer: That sounds impressive. Do you have any limitations of the method?
+
+Dialogue Agent: The achieved improvement over SOTA is relatively small for the real-world datasets, and hyperparameter tuning has to be performed for the HPM module to determine the best threshold. However, beyond the author-stated limitation related to hyperparameter tuning, I see no further limitations of the approach.
+
+Turn 6:
+Meta-reviewer: Thank you for the information. Based on the information you provided, I would rate the paper as 8: Strong Accept, with excellent impact on at least one area, or high-to-excellent impact on multiple areas, with excellent evaluation, resources, and reproducibility, and no unaddressed ethical considerations.
+
+Dialogue Agent: Thank you for your feedback! The paper does have a strong impact on the field of WSI classification, and the proposed method has the potential to improve the accuracy of instance classification in WSI. The evaluation and resources provided in the paper are also excellent.

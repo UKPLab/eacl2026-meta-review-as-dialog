@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. I have gone through the reviews for the paper "Augmented Sliced Wasserstein Distances" and I have a few queries. Can you please clarify them for me?
+
+Dialogue Agent: Sure. I'll do my best to help you. What queries do you have?
+
+Meta-Reviewer: Reviewer 1 has pointed out that the numerical results in the paper show the distance computed by ASWD is smaller than other measures. However, the reviewer is skeptical that this may not validate the superiority of the distance metric. Can you please give me more information on this?
+
+Dialogue Agent: The paper provides a novel solution to the problem of exploiting nonlinear subspaces in computing distances. The numerical results show that the proposed method outperforms other measures in terms of distance computed. However, in some cases, the small distance obtained can be misleading if the sliced Wasserstein distances are computed along orthogonal directions to the primary features. Therefore, we must exercise caution in interpreting the numerical results. The paper acknowledges this limitation and discusses it in detail.
+
+Meta-Reviewer: Reviewer 1 has also asked if the proposed method can be used to construct arbitrary nonlinear projections of choice instead of the projection that gives the best distinction. Can you please explain this to me?
+
+Dialogue Agent: Yes. The proposed method can be used to create arbitrary nonlinear projections of choice. However, the paper mainly focuses on the method's utility in exploring nonlinear projections in arbitrary subspaces and provides convincing empirical evidence of its effectiveness in measuring distances.
+
+Meta-Reviewer: In Reviewer 2's review, it has been mentioned that the theoretical and numerical aspects of the paper are well described. However, the reviewer has some questions, such as if the authors have tried other types of injective maps and their comments on the impact of regularization strength lambda in practice. Can you provide me with some additional information on this?
+
+Dialogue Agent: Based on the architecture proposed in the paper, the initial mapping is parameterized as the concatenation of the input and its output using a neural network. The paper provides justification for using this mapping and its injectivity under certain conditions. Therefore, other types of injective maps might not be suitable. With respect to the impact of regularization strength lambda, the paper discusses the role of lambda and reports experiments to demonstrate its significance in controlling the initial mapping's behavior.
+
+Meta-Reviewer: Okay. Reviewer 2 recommends accepting the paper as it brings theoretical and numerical valuable contributions to the literature. Do you have anything to add?
+
+Dialogue Agent: The paper proposes a novel approach to measure distances in nonlinear subspaces, provides a thorough literature review, numerically evaluates the proposed method, and demonstrates its effectiveness in two applications. Additionally, the paper acknowledges the limitations and discusses future directions, making it a valuable contribution to the literature.

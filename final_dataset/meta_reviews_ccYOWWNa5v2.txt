@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews of the paper titled "Lifelong Neural Predictive Coding: Learning Cumulatively Online without Forgetting." Can you tell me more about the type of paper and its strengths and weaknesses?
+
+Dialogue agent: Certainly. The paper is categorized as a long paper. As for its strengths, the method proposed in the paper is closer to biological neural networks, which leads to efficient learning. The treatment of local knowledge propagation among the hidden layers is also a novel idea. However, the writing and presentation of the ideas could be improved for clarity, and the experimental setup needs to be made more clear and reproducible. Furthermore, the authors did not compare their method with other local learning-based continual learning approaches, and limitations were not discussed in detail, although potential negative societal impacts were briefly touched upon.
+
+Meta-reviewer: Thank you for explaining. Can you tell me more about the first review?
+
+Dialogue agent: Sure. In the first review, the reviewer praises the proposed method for its biological plausibility and multiple mechanisms that demonstrate continual learning capabilities on image recognition datasets. The review also mentions that the back propagation-alternative approaches are closer to the biological neural networks and provide an avenue for efficient learning. However, the reviewer criticizes the paper for the lack of clarity in writing and presentation, lack of clear experimental setup, and missing comparison with other local learning-based continual learning approaches.
+
+Meta-reviewer: And what about the second review?
+
+Dialogue agent: The second review also praises the proposed method for its efficacy in leveraging a context mechanism to avoid forgetting while learning multiple tasks, as well as its impressive empirical results. However, the reviewer notes that the experiments section is missing some important analysis, and would like to see more information on how the update equations can be derived from Equation 6. Furthermore, the reviewer would like a clearer discussion of the differences between the proposed approach, "Learning to Adapt by Minimizing Discrepancy," and "Continual Learning of Recurrent Neural Networks by Locally Aligning Distributed Representations."
+
+Meta-reviewer: And finally, what are the main points of the third review?
+
+Dialogue agent: The third review is positive about the paper's idea and the experimental results that confirm the intuition of the authors. The use of generative predictive coding models to perform continuous learning is original, and the paper is well-written. However, the reviewer calls for a proper discussion of the literature about these models, including a comparison with the models that inspired the architecture. 
+
+Meta-reviewer: Thank you for explaining the reviews, dialogue agent. Based on these reviews, what is the rating and confidence level of the decision?
+
+Dialogue agent: Review 1 and 2 both suggest a borderline accept rating with a confidence level of 5 for review 1 and 3 for review 2. Review 3, on the other hand, recommends an accept rating with a confidence level of 7.

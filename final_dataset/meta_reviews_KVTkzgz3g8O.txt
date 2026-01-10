@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you provide me with a brief summary of the paper and its contributions?
+
+Dialog agent: This paper proposes TraDE, a transformer-based density estimator for continuous and discrete data. TraDE uses a self-attention module to model long-range dependencies, eliminates the need for explicit vertex ordering, and is regularized using the Maximum Mean Discrepancy penalty. TraDE outperforms state-of-the-art baselines on standardized benchmark datasets and is evaluated on a suite of various tasks, showcasing its qualitative performance.
+
+Meta-reviewer: Thank you. Reviewer 2 mentions a lack of novelty and inadequate evaluation. What is your response to these concerns?
+
+Dialog agent: While TraDE is built upon existing transformer architecture, its adaptation for density estimation, mixture of Gaussian output, and use of MMD loss are novel contributions. Additionally, the proposed suite of tasks go beyond traditional log-likelihood evaluation and demonstrate the practical utility of TraDE. However, we acknowledge the use of some of these evaluation tasks in prior work and the potential for further exploration.
+
+Meta-reviewer: Reviewer 1 asks for clarification on sampling methodology, table citations, and the training time tradeoff for including MMD loss. Can you address these concerns?
+
+Dialog agent: We apologize for any confusion on the sampling methodology and will provide further explanation in the revised manuscript. Citations will be added to Table 1 as requested. As for the training time tradeoff, the inclusion of MMD loss does increase the time for each epoch but the difference in training time is relatively small. In Table 3, TraDE with MMD consistently outperforms TraDE without MMD on most tasks, although the difference is minor. Reviewer 1 also asks for a quantitative comparison of TraDE-MMD with TraDE without MMD, which we will include in the revised manuscript.
+
+Meta-reviewer: Reviewer 3 notes a lack of novelty and confusion on outlier classes in the datasets. How do you respond to these concerns?
+
+Dialog agent: We understand Reviewer 3's perspective but believe that our proposed contributions, such as mixture of Gaussian output and MMD loss, are novel and have not been explored in prior work. We apologize for any confusion on the outlier classes and will clarify their definitions in the revised manuscript. We will also address the minor comments provided by Reviewer 3, such as the numbering of lemmas and remarks and a description of the baselines used in the experiments.

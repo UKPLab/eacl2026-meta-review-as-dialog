@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I am reviewing a paper titled "AC-VAE: Learning Semantic Representation with VAE for Adaptive Clustering". Can you provide a summary of the paper?
+
+Dialogue Agent: Certainly! The paper proposes an adaptive clustering method using a variant of VAE for image semantic clustering. The method utilizes the estimated variance of the representation space to obtain reliable neighbors for each instance, leading to improved clustering performances.
+
+Turn 2:
+
+Meta-reviewer: I see. Can you tell me more about the main term, VAE, and why it is called that without a decoder?
+
+Dialogue Agent: The proposed network contains only the encoder, and it applies the stochastic process in the middle of the encoder. The term VAE is used because the proposed training can be considered as contrastive learning with stochastic regularization. However, the reviewer questions why not imposing the normal distribution on the final representation.
+
+Turn 3:
+
+Meta-reviewer: I have noticed some typos in the paper. Can you please clarify the meaning of "z-scores are usually defined as (mu-x)/std"?
+
+Dialogue Agent: Sure! In Equation (3), the z-scores are defined as (mu_i - x_j) / std, where mu_i is the mean of the i-th instance, x_j is the j-th instance, and std is the standard deviation of the representation space. The term -0.5 in the equation can result in negative values when abs(mu_i-mu_j) is small.
+
+Turn 4:
+
+Meta-reviewer: I see. Can you explain the use of the term "neighbor cluster performance" in the paper?
+
+Dialogue Agent: The term "neighbor cluster performance" refers to the evaluation of the model's ability to map similar clusters close to each other. The authors use this term to evaluate the clustering accuracy, but it is not clearly defined and can be confusing.
+
+Turn 5:
+
+Meta-reviewer: I have noticed that the paper only provides results on CIFAR. Can you please explain why the authors choose to use only CIFAR for evaluation?
+
+Dialogue Agent: The authors choose to use only CIFAR for evaluation because it is a widely used dataset for clustering evaluation. However, the paper misses some important articles, which should also be compared with in the experiments. Additionally, evaluating clustering using only one metric is usually not enough and misleading.
+
+Turn 6:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I would say that the paper is marginally below acceptance threshold. What is your final assessment?
+
+Dialogue Agent: Based on the reviews, I assess the paper as marginally below acceptance threshold, with a confidence level of 3. The reviewer questions the soundness of the results due to the lack of evaluation with other metrics and different datasets, and the use of only one metric to evaluate clustering. Additionally, the reviewer suggests including other experiments to show that the alpha and theta parameters are easier to adjust than K.

@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have reviewed the paper "Timing is Everything: Learning to Act Selectively with Costly Actions and Budgetary Constraints" and I have a few questions before I make my final decision.
+
+Dialogue Agent: Hello, Meta-Reviewer. I will do my best to answer your questions to the best of my ability without providing any opinions or recommendations.
+
+Meta-Reviewer: Great. My first question is regarding the novelty of the proposed algorithm. Review 2 mentioned that it is a novel method for impulse control using two RL policies. Can you confirm this?
+
+Dialogue Agent: Yes, Review 2's comment is correct. The authors proposed a novel method for impulse control using two RL policies. By first learning when to act, the complexity of the problem is reduced compared to standard RL configurations.
+
+Meta-Reviewer: I see. Review 1 raised a concern about the experiment evaluations. Can you provide more information about this issue?
+
+Dialogue Agent: Review 1 indeed pointed out that more evaluation is necessary to validate the LICRA framework. The authors introduce different versions of LICRA algorithms, but there are discrepancies in the experiments. For example, in Figure 1, LICRA_SAC is not present, and in Figure 2, only "LICRA" is present. Review 1 suggested that there should be full coverage of the combinations, and more experiments should be done to validate the theoretical results in the tabular and linear cases.
+
+Meta-Reviewer: Thank you for the explanation. Review 3 mentioned that the proposed method LICRA is not well-motivated and questioned the need to learn two separate policies. Can you clarify this issue?
+
+Dialogue Agent: Yes, Review 3's comment is correct, but it is also mentioned in the paper. The authors acknowledge that we can simply augment the action space with a null action and apply classical RL algorithms instead of using LICRA. However, they argue that including a null action in the rest of the action set would be inefficient in the learning process due to action cardinality. By using two separate policies, they can reduce complexity and achieve better results. However, Review 3 believes that constrained RL approaches could also be applied in this setting, and LICRA's advantages over other methods are not shown.
+
+Meta-Reviewer: Interesting. Finally, Review 3 pointed out that the empirical evaluations are weak and suggested involving more algorithms for comparison, improving the clarity of the theoretical results and notations, and mentioning related work that studies RL problems where the amounts of some specific actions are limited. Can you comment on that?
+
+Dialogue Agent: Yes, Review 3's suggestions are valid. The empirical evaluations could be improved by involving more algorithms for comparison, including constrained RL algorithms, and providing clearer explanations of the baseline algorithms in Figure 2 and Figure 3. Also, the theoretical results and notations in Sec 5 could be improved to enhance clarity, as Review 3 suggested. Finally, related work that studies RL problems where the amounts of some specific actions are limited could be added to the paper.
+
+Meta-Reviewer: Thank you for the information, Dialogue Agent. Based on the reviews and your answers, I have decided to accept the paper with a rating of 6 (Weak Accept).
+
+Dialogue Agent: Thank you for your time, Meta-Reviewer. I hope I was helpful.

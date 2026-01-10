@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am tasked with deciding whether to accept or reject a paper titled "Projective Subspace Networks For Few-Shot Learning," which is a long paper on few-shot learning. Can you tell me more about what this paper proposes and how it differs from previous work?
+
+Dialogue agent: Certainly, meta-reviewer. This paper proposes a new approach to embedding-based few-shot learning by computing a low-dimensional subspace to represent each class and using the distance from an embedded query point to this subspace for classification. In contrast to previous work such as Matching Networks and Prototypical Networks, the authors use truncated Singular Value Decomposition (SVD) on the normalized embeddings of all points in the support set for that class, and use the top n left singular vectors as the basis for the class's subspace. This approach is claimed to be more robust to outliers and can work at the presence of distractors. 
+
+Meta-reviewer: I see. What are the reviewers' opinions on this paper? 
+
+Dialogue agent: Reviewer 1 thinks that the proposed idea is novel and proposes an interesting change to existing embedding-based few-shot learning techniques. However, they find the performance benefit to be a bit disappointing. Reviewer 2 also thinks that the proposed subspace method is reasonable and simple, and the performance is better than some related works on few-shot learning. However, they pointed out several issues with the paper, including missing justification for the claim that the proposed method is more robust to noise and missing sensitivity analysis of the dimensionality of the subspace. Reviewer 3 thinks that the proposed method is neat and achieves competitive results, but they also have some concerns regarding the justification behind the approach and its comparison with previous methods.
+
+Meta-reviewer: That's quite a mixed bag of opinions. Can you tell me which review carries more weight in terms of reviewer confidence?
+
+Dialogue agent: Reviewer 1 and 2 both have a confidence level of 6, which means they are fairly confident that their evaluation is correct. Reviewer 3 has a confidence level of 4, which means they are confident but not absolutely certain that their evaluation is correct.
+
+Meta-reviewer: I see. In that case, can you provide more details on the issues raised by reviewers 1 and 2?
+
+Dialogue agent: Reviewer 1 raised some concerns about the performance improvement in the few-shot learning setting. They also pointed out that the paper is missing information about the dimensionality of the subspace for the experiments. Reviewer 2 pointed out several issues, including missing justification for the claim that the proposed method is more robust to noise, and the missing sensitivity analysis of the dimensionality of the subspace. They also raise questions about the effect of the fake class with zero means in the semi-supervised few-shot setting.
+
+Meta-reviewer: I see. While all three reviewers raised some important issues, I am inclined to accept the paper since it proposes a novel approach and achieves competitive results. However, I will request the authors to address the concerns raised by the reviewers, especially regarding the missing information on the dimensionality of the subspace and the analysis of the sensitivity of the method to noise and outliers. Thank you for your help, dialogue agent. 
+
+Dialogue agent: You're welcome, meta-reviewer. Let me know if you have any more questions.

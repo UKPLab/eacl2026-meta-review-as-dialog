@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you summarize the main contributions of this paper?
+
+Dialogue agent: The paper proposes a group invariant learning method that prevents classifiers from depending on spurious correlations in the training set. The authors also develop a novel method guided by falsity exposure criterion and label balance criterion, which they analyze theoretically. They conduct experiments on image and natural language and demonstrate the effectiveness of their model.
+
+Meta-reviewer: What are the strengths and weaknesses of this paper?
+
+Dialogue agent: One strength is that the motivation is reasonable, and the problem formulation is well-constructed with related works. The criterion analysis is well-explained and theoretically supported. The proposed model can be applied to most invariant learning methods, and the experiment results show its effectiveness. The weaknesses include the use of reference models and ERM models, which may provide ambiguous information about spurious correlations. Also, the proposed model in section 5 is quite simple compared to the analysis until section 4. The experiments are limited in terms of datasets, and the detailed experimental analysis is also limited.
+
+Meta-reviewer: What is the overall recommendation of the reviewers?
+
+Dialogue agent: Reviewer 1 recommends accepting the paper with a rating of 7, citing that it is technically solid with high impact and good-to-excellent evaluation, resources, and reproducibility. Reviewer 2 recommends weak acceptance with a rating of 6, describing the paper as technically solid with a moderate-to-high impact and no major concerns. Reviewer 3 suggests a borderline acceptance with a rating of 5, noting some issues with the technical results and presentations that make it difficult for readers to follow the results.
+
+Meta-reviewer: That's quite conflicting. Can you tell me more about the weaknesses mentioned by the reviewers?
+
+Dialogue agent: Reviewer 1 mentioned the use of reference models and ERM models as a weakness, which might provide ambiguous information about spurious correlations. Reviewer 2 suggests an ablation study to check the importance of the two proposed criteria, as well as varying arguments that affect the results, including the grouping and the weights in the objective. Reviewer 3 points out that the main results of the paper seem to center around the construction of the random mapping G as a function of Y, Xinv, and Xsp to achieve the independent criteria for group invariant learning. But the current presentation of results does not completely bridge the gap between the criteria and the final conclusion and nail the requirement of G in terms of the spurious features.

@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, can you tell me about the paper's main contributions?
+
+Dialogue agent: The paper proposes a new framework called ISA-VAE that combines independent subspace analysis with variational autoencoders, using a family of Lp-nested distributions as the prior for the code vector of VAE. The proposed method aims to learn disentangled and interpretable representations, and experimental results on sPrites dataset show promising results compared to state-of-the-art methods.
+
+Meta-reviewer: Can you explain the proposed family of distributions in more detail?
+
+Dialogue agent: The Lp-nested distribution family is rotationally asymmetric and non-Gaussian. It is designed to enforce independence across different dimensions and enable the learning of disentangled representations. The specific form of the distribution is not provided in the paper, but it can be combined with existing VAE models by replacing the prior.
+
+Meta-reviewer: Reviewer 1 was unclear about the technical details of the paper. Can you provide more information on the encoder, decoder, and the specific prior used?
+
+Dialogue agent: The paper does not provide detailed technical specifications of the encoder, decoder, or the specific prior used. However, implementation details can be found in the appendix. 
+
+Meta-reviewer: Reviewer 2 suggested that the paper needs some revisions, particularly in terms of providing more details on the models and experiments. Can you comment on this?
+
+Dialogue agent: Reviewer 2 suggested improvements such as providing more implementation details in the appendix, improving clarity on the experiments and results descriptions, and addressing some minor mistakes in the text and equations. The paper could benefit from these revisions, but it is overall considered good and acceptable for publication by reviewer 2.
+
+Meta-reviewer: Reviewer 3 had some major concerns about the paper's contributions and proposed a list of questions. Can you address these?
+
+Dialogue agent: Reviewer 3 had questions about the shape of the posterior distribution, the reparametrization trick, the layout of subspaces, the formal definition of subspaces, the type of distributions used, the learned parameters, and the Lp layout. The paper does not explicitly address all of these questions, but it provides some context and background for understanding the proposed method. Additionally, the paper's discussion and explanation of the various figures could have been clearer to help the reader understand the different concepts and alternatives. 
+
+Meta-reviewer: Based on the reviews and your responses, I gather that there are some issues with the clarity and completeness of the paper, but it also presents some novel and promising contributions. What is your overall recommendation for accepting or rejecting the paper?
+
+Dialogue agent: Reviewer 1 and 3 had some concerns about the paper's clarity and completeness, and reviewer 1's confidence in the evaluation was fairly low. However, the paper was considered good and acceptable by reviewer 2. Based on the overall feedback, I would suggest that the paper undergo some revisions to address the concerns raised by the reviewers and improve its clarity and completeness, but it should ultimately be accepted for publication.

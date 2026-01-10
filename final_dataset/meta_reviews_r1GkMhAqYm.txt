@@ -1,0 +1,29 @@
+ Sure, I'd be happy to help! Here's the dialogue between the meta-reviewer and the dialogue agent for the paper "CoDraw: Collaborative Drawing as a Testbed for Grounded Goal-driven Communication":
+
+Meta-Reviewer: Hello, I'm the meta-reviewer for this paper. I'd like to ask you some questions about the paper's content and evaluation.
+
+Dialogue Agent: Hello! I'm here to help answer any questions you may have about the paper. Please go ahead and ask your questions.
+
+Meta-Reviewer: Great, let's start with the task introduced in the paper. Can you tell me more about the task of collaborative drawing and how it's different from other tasks in the literature?
+
+Dialogue Agent: Sure! The task of collaborative drawing is a new task that involves a teller describing a scene and a drawer trying to select clip art components and place them on a canvas to draw the description. The task is different from other tasks in the literature because it involves a more complex and nuanced understanding of natural language, as well as the ability to generate visually coherent images.
+
+Meta-Reviewer: I see. Can you tell me more about the evaluation method used in the paper? How did the authors determine the success of their approach?
+
+Dialogue Agent: The authors used a combination of imitation learning and REINFORCE to evaluate the performance of their approach. They also introduced a new metric based on the presence of components in the original image and the generated image to compute similarity.
+
+Meta-Reviewer: Interesting. Can you tell me more about the dataset used in the paper? How was it collected and what are some of the key features of the dataset?
+
+Dialogue Agent: The dataset is a novel dataset of collaborative drawing scenarios, with 9993 dialogs and 10020 scenes. The dataset is useful for exploring the grounded and goal-driven communication paradigm. The dialogs are paired with specific scenes, and the drawings are generated based on the descriptions.
+
+Meta-Reviewer: I see. Can you tell me more about the authors' conclusion regarding the crosstalk protocol and its impact on the performance of their approach?
+
+Dialogue Agent: The authors identified the need for a "crosstalk" protocol to prevent leakage via common training data and the development of non-language, shared codebooks that defeat the purpose of focusing on the natural language dialog. They proposed a "crosstalk" protocol that allows for pairing of human and human, machine and machine, and human and machine for the two roles, which enables comparison to human performance baselines in several perspectives.
+
+Meta-Reviewer: Thank you for the information. Based on the information you've provided, I have a few follow-up questions. First, can you tell me more about the authors' use of imitation learning and REINFORCE in their evaluation method? Second, can you provide more information about the new metric introduced in the paper and how it is used to compute similarity? Finally, can you tell me more about the dataset and how it was collected?
+
+Dialogue Agent: Sure, I'd be happy to answer your questions! The authors used imitation learning and REINFORCE to evaluate the performance of their approach because they wanted to measure the end-to-end performance of the system in a well-specified nonlinguistic task. The new metric introduced in the paper is based on the presence of components in the original image and the generated image, and it is used to compute similarity between the generated image and the original image. The dataset was collected by having human evaluators describe scenes and drawers generating images based on the descriptions. The dataset is useful for exploring the grounded and goal-driven communication paradigm.
+
+Meta-Reviewer: Thank you for the information. Based on the information you've provided, I would rate this paper as a 7 out of 10. The paper presents a novel task and dataset, and the authors provide a detailed evaluation method and analysis of their approach. However, I would like to see more information about the authors' use of imitation learning and REINFORCE in their evaluation method, as well as more details about the new metric introduced in the paper and how it is used to compute similarity. Additionally, I would like to see more information about the dataset and how it was collected.
+
+Dialogue Agent: Thank you for the feedback! I'll make sure to provide more information about the authors' use of imitation learning and REINFORCE in their evaluation method, as well as more details about the new metric introduced in the paper and how it is used to compute similarity. Additionally, I'll make sure to provide more information about the dataset and how it was collected. Thank you for the opportunity to dialogue with you!

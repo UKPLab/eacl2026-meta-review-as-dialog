@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have been assigned to make a decision on a paper titled "Characteristic Neural Ordinary Differential Equations". Can you tell me what you think about the reviews?
+
+Dialogue Agent: Of course. The paper received two reviews. Review 1 rated the paper as a borderline reject with a confidence level of 3. The reviewer found the paper technically solid but with limited evaluation. Review 2 rated the paper as a weak accept with a confidence level of 4. The reviewer found the paper technically solid, with good evaluation and no major concerns.
+
+Meta-reviewer: Thank you for that information. What can you tell me about the paper type and reviews?
+
+Dialogue Agent: The paper is a long one and the reviews were generally positive. Review 1 considered the paper to be easy to follow, but the clarity and insufficient baselines were a main weakness. Review 2 found the paper to have good contributions and methodology, but the work felt incomplete.
+
+Meta-reviewer: Can you provide more details on the strengths and weaknesses of the paper according to each review?
+
+Dialogue Agent: Certainly. Review 1 found the paper strengths to be the analysis and rich experiments of the properties of C-NODEs. However, the paper raised several questions about clarity and lacked sufficient baselines. Review 2 found the paper strengths to be the theoretical grounding of C-NODEs and good experiments, but noted that the paper generally felt incomplete. Specifically, Review 2 found the missing results on testing Continuous Normalizing Flows and discrete flows on SVHN, the need to explicitly test parameter efficiency, and to test the effect of combining C-NODEs with ANODEs as major weaknesses.
+
+Meta-reviewer: Based on these reviews, what do you think about the confidence levels of the reviewers and the paper recommendation?
+
+Dialogue Agent: Both reviewers had confidence levels of 4, indicating a high level of confidence in their assessment, but not absolute certainty. Review 1 recommended a borderline reject while Review 2 recommended a weak accept. It is up to your judgment to weigh the differences in the reviews and decide on the paper's acceptance or rejection.

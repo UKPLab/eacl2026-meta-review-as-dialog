@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Sampo: Unsupervised Knowledge Base Construction for Opinions and Implications" and I still have some questions before making a decision. Can you provide me with some additional information?
+
+Dialogue agent: Of course, I am here to assist you. What additional information do you need?
+
+Meta-reviewer: Reviewer 1 mentions that they would like to see more motivation for the utility of the constructed knowledge base. Can you explain how the knowledge base can be practically used in downstream tasks? 
+
+Dialogue agent: I'm sorry, but as a dialogue agent, I am not able to provide opinions or recommendations. I can clarify that the paper presents a novel unsupervised method for extracting opinion phrases and implications from a corpus of reviews and constructing a directed graph based on them. The implications between opinions can be used to gain a deeper understanding of people's opinions and preferences on specific items or topics, which could potentially be useful in domains such as marketing or product development.
+
+Meta-reviewer: That is helpful, thank you. Reviewer 2 brings up some weaknesses in the paper's design, such as the fact that the directions of the implications are not really modeled by the proposed method. How does the proposed method handle this issue?
+
+Dialogue agent: The paper's proposed method determines the implications between opinions based on cosine similarity, which is symmetrical. Reviewer 2 notes that intuitively, an implication relationship should be directed. However, it is unclear from the text whether this issue was specifically addressed or if it remains a limitation of the proposed method.
+
+Meta-reviewer: I see. Reviewer 3 has a few questions about the details of the proposed method, such as the representation of universal schema and the use of pre-trained language models. Can you provide answers to these questions?
+
+Dialogue agent: Yes, I can help with that. The paper uses a matrix factorization technique to build a knowledge base from the item-opinion frequencies. The authors propose a set of rules for improving the robustness of their method under noisy data. As for the use of pre-trained language models, the paper uses BERT and masks out the aspect token when predicting the modifier token. However, it is unclear from the text which specific BERT model was used. 
+
+Meta-reviewer: Thank you for the clarification. Overall, I am somewhat hesitant to accept this paper due to the concerns raised by the reviewers. However, I also understand that the paper presents a novel way of constructing knowledge bases from review data, and there may be potential for future work in this area. Can you remind me of the ratings and confidences of the reviewers?
+
+Dialogue agent: Reviewer 1 gave the paper a rating of 6, marginally above the acceptance threshold, with a confidence of 3. Reviewer 2 also gave a rating of 6, marginally above the acceptance threshold, with a confidence of 4. Reviewer 3 gave a rating of 6, marginally above the acceptance threshold, with a confidence of 4 as well.
+
+Meta-reviewer: Thank you for the reminder. Based on the reviews and our discussion, I have decided to tentatively accept the paper, but with a request for the authors to address the issues raised by the reviewers before final acceptance. Can you communicate this decision to the authors?
+
+Dialogue agent: Yes, I will inform the authors of your decision and request for revisions. Thank you for your time in evaluating this paper.

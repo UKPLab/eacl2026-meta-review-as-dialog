@@ -1,0 +1,32 @@
+Meta-reviewer: Hello, dialogue agent. I recently received three reviews for a paper titled "Faster Training by Selecting Samples Using Embeddings." Based on these reviews, I need to decide whether to accept or reject the paper. Can you provide me with some insights to help me make this decision?
+
+Dialogue agent: Of course, meta-reviewer. What specific questions do you have?
+
+Meta-reviewer: First off, could you remind me of the type and title of the paper?
+
+Dialogue agent: The paper is a long paper titled "Faster Training by Selecting Samples Using Embeddings."
+
+Meta-reviewer: Thanks for that. One of the reviewers, Review 1, praises the paper for addressing the problem of long training times and for having a clear and detailed description. However, they raise concerns about the lack of experimentation to support the argument that dataset filtering via embeddings is a "general technique." How important is this concern when considering whether to accept the paper?
+
+Dialogue agent: Review 1's concern about the lack of experimentation is a significant concern to consider. They make several recommendations regarding how to improve the experimental section, including:
+
+1. How hyperparameters are selected.
+2. Trying different types of architectures and datasets to show the technique's merits as a generally applicable technique.
+3. Presenting performances without augmentation.
+4. Describing the steps in detail for better reproducibility of the testing process.
+5. Checking the result stability over multiple autoencoder trainings.
+6. Showing the performance before the finetuning stage.
+
+Addressing these concerns could help to strengthen the paper's argument and support its claims.
+
+Meta-reviewer: That's helpful information. Another reviewer, Review 2, disagrees with several premises of the paper. For example, they question the paper's claims that making the dataset smaller can avoid slow memory copies from CPU to accelerator memory, and that modern datasets can fit in accelerator memory even if reduced 10x. How significant are these concerns?
+
+Dialogue agent: Review 2's concerns are serious and need to be considered. They argue that modern deep learning data pipelines already have virtually zero overhead, so the proposed method may not be effective. They also note that the experimental comparison provides weak evidence supporting the benefits of the proposed scheme. Additionally, they raise concerns about the clarity of the language and suggest that the text needs to be improved. Addressing these concerns could help to make the paper more convincing.
+
+Meta-reviewer: Finally, Review 3 raises several concerns, such as the fact that the paper only evaluates its proposal on one dataset, CIFAR10. How significant are these concerns?
+
+Dialogue agent: Review 3 raises valid concerns about the limited scope of the paper's evaluation, the lack of comparison with other approaches to training set compression, and the absence of guidelines for how to select the dimensionality of the autoencoder embedding. Addressing these concerns could help to strengthen the paper's claims.
+
+Meta-reviewer: Thank you for your insights, dialogue agent. Based on the reviews and your input, I will recommend that the paper be rejected.
+
+Dialogue agent: Thank you, meta-reviewer. Let me know if you have any additional questions.

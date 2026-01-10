@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper and I have some questions about it. Can you help me?
+
+Dialogue Agent: Of course! I'd be happy to help. What's the paper about and what questions do you have?
+
+Meta-Reviewer: The paper is titled "PCNN: Environment Adaptive Model Without Finetuning". I have three reviews for it, and I'd like to discuss them with you.
+
+Turn 2:
+
+Dialogue Agent: Sure, I've seen the reviews. What specific questions do you have?
+
+Meta-Reviewer: Well, Review 1 says the paper proposes a simple idea to calibrate probabilities outputted by a CNN model to adapt easily to environments where class distributions change with space and time. But the reviewer questions whether the proposed calibration method takes into account CNN specific details. Review 2 says the paper is quite simple and heuristic, and the technical contribution is marginal. Review 3 suggests that the paper does not have a good baseline and the tasks are quite artificial.
+
+Turn 3:
+
+Dialogue Agent: I see. Based on the reviews, it seems like the main concerns are the simplicity of the approach and the lack of a good baseline. The paper proposes a method to calibrate probabilities outputted by a CNN model to adapt to changing class distributions, but the reviews suggest that the approach may not be robust or effective in real-world scenarios.
+
+Meta-Reviewer: Yes, that's correct. I'm considering rejecting the paper because it doesn't seem to meet the standards of a applied conference like MobiCom. But I'm not absolutely certain, so I'd like to hear your thoughts.
+
+Turn 4:
+
+Dialogue Agent: Well, based on the reviews, it seems like the paper has some limitations. The approach may not be robust or effective in real-world scenarios, and the lack of a good baseline is a concern. However, the paper does propose a simple and heuristic method for calibrating probabilities outputted by a CNN model, which could be useful in certain scenarios. Ultimately, the decision of whether to accept or reject the paper should be based on the reviewer's confidence in the evaluation and the potential impact of the paper on the field.
+
+Meta-Reviewer: Thank you for your input. Based on our discussion, I'm going to reject the paper. I'm not absolutely certain that the evaluation is correct, and the paper doesn't seem to meet the standards of a applied conference like MobiCom.
+
+Turn 5:
+
+Dialogue Agent: I understand your decision. Thank you for considering my input. If the authors would like to resubmit the paper with addressing the concerns raised in the reviews, I would be happy to help evaluate their revised submission.
+
+Meta-Reviewer: Thank you for your offer. I'll let the authors know of your willingness to help.

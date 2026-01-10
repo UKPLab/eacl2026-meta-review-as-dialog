@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you for joining me today. Let's discuss your paper on Graph U-Net. Firstly, can you talk me through the main contributions of your paper?
+
+Dialogue Agent: Certainly. Our paper introduces a novel technique to add pooling and unpooling layers to a graph neural network. This approach deals with the lack of spatial locality in graphs, allowing for downsampling and upsampling while still maintaining the adjacency matrix. We thoroughly tested our method on three citation networks, and performed ablation studies to isolate the importance of the pool and unpool operations.
+
+Meta-Reviewer: I see. Reviewer 1 seemed to be impressed with your approach, but pointed out that you only evaluated the model on three specific datasets. How would you respond to this concern?
+
+Dialogue Agent: While we acknowledge that these datasets are standard in the GCN/GNN community, we believe that our approach is generalizable to other datasets as well. Additionally, we plan to apply our method to graph classification and link prediction in future work.
+
+Meta-Reviewer: Reviewer 2 had a number of concerns about your paper, including the fact that the evaluation was only done for transductive learning settings, and that the technique was not 'local' in the way that graph pooling should be. How would you address these points?
+
+Dialogue Agent: We chose transductive learning settings for our evaluation because most previous works in this area have also done so, but we agree that more analysis is needed in the inductive setting. As for the 'locality' concern, we believe that our pooling operation is still a useful feature to add to GNNs, even if it is different from traditional pooling operations used in image processing.
+
+Meta-Reviewer: Finally, Reviewer 3 seemed to be generally positive about your paper, but raised concerns about the connectivity of the adjacency matrix and the fact that the evaluation was only done for transductive learning settings. How would you respond to these points?
+
+Dialogue Agent: We agree with Reviewer 3's concerns, and in fact, we addressed the concern about connectivity in Section 3.4 of our paper. As for the transductive learning settings, we intend to explore other settings in future work. 
+
+Meta-Reviewer: Thank you for addressing these points. Based on the three reviews, I am inclined to accept your paper. However, I do have concerns about the limited number of datasets used in the evaluation and the fact that the technique is not truly 'local'. How confident are you in your approach?
+
+Dialogue Agent: We are confident that our method is sound and can be applied in other settings. However, we are aware of the limitations of the evaluation and plan to address these in future work.
+
+Meta-Reviewer: Based on your response, I feel comfortable accepting your paper. Thank you for your time today.

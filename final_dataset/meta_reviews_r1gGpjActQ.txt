@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Hint-based Training for Non-Autoregressive Translation":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Hint-based Training for Non-Autoregressive Translation". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a new training method for non-autoregressive neural machine translation that uses hints from an autoregressive teacher model to improve the accuracy of the non-autoregressive model. The authors also propose a new technique for reducing the KL divergence between the attention distribution of the teacher and the student model.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the hints used in the training process?
+
+Dialogue Agent: Certainly! The authors use two types of hints: 1) If the pairwise cosine similarity between two successive hidden states in the student NART model is above a certain threshold, while the similarity is lower than another threshold in the ART model, then the NART model incurs a cost proportional to this similarity. 2) A KL term is used to encourage the distribution of attention weights of the student ART model to match that of the teacher NART model.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of this paper according to the reviews?
+
+Dialogue Agent: According to Review 1, the strengths of this paper are the speedup improvements of using these techniques on the student model while also improving BLEU scores. The review also mentions that the paper is easy to read and the visualisations are useful. However, the review also states that the delta contribution of this paper is not as significant as other works in the field, and that more analysis on how much the word repetition reduces using these techniques quantitatively would be helpful. Review 2 also mentions that the discussion of related work is deficient and that the authors miss comparing their work to that of Roy et al.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the summary. Based on these reviews, what is your recommendation for acceptance or rejection of this paper?
+
+Dialogue Agent: Based on the reviews, I would recommend rejecting this paper due to the lack of significant contribution and the deficient discussion of related work. However, the paper's strengths in terms of ease of reading and useful visualisations are worth considering. Ultimately, the decision will depend on the importance of these factors in relation to the paper's contributions and the overall quality of the work.

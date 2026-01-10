@@ -1,0 +1,41 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hi there! I'm reviewing a paper about a dataset for modeling worlds in text. What can you tell me about the paper?
+
+Dialogue Agent: The paper presents a new dataset for modeling worlds in text, called JerichoWorld. The dataset includes a collection of text adventure games and a set of knowledge graphs that reflect the state of the world in each game.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The paper provides three baseline models for performing two tasks: knowledge graph prediction and action prediction. The authors also provide a detailed evaluation of the dataset and the baseline models.
+
+Turn 3:
+Meta-Reviewer: Can you tell me more about the dataset?
+
+Dialogue Agent: Sure! The dataset includes 27 text adventure games with a total of 24,000 instances. The authors collected the data by scraping walkthroughs of the games and manually extracting knowledge graphs and item attributes.
+
+Turn 4:
+Meta-Reviewer: That's a lot of data. How did the authors evaluate the dataset and the baseline models?
+
+Dialogue Agent: The authors evaluated the dataset and the baseline models using a set of held-out test sets. They also performed a cross-fold validation to ensure the robustness of the evaluation.
+
+Turn 5:
+Meta-Reviewer: I see. What are some of the limitations of the dataset?
+
+Dialogue Agent: One limitation of the dataset is that it is based on a specific genre of text adventure games, which may not be representative of all types of games. Additionally, the authors note that the dataset is limited to what was seen during a particular walkthrough, which may not capture all possible game states.
+
+Turn 6:
+Meta-Reviewer: Those are good points. What is the advantage of using this dataset compared to other approaches?
+
+Dialogue Agent: The dataset provides a challenging evaluation setting for research in the development of world-exploring agents that interact with their environment through language. It also makes it easier to access game states and a limited number of reactions from text adventure games compared to having a learning agent interact with the text game itself.
+
+Turn 7:
+Meta-Reviewer: I see. Based on the reviews, I think the paper is well-written and the contributions are significant. What is your rating for the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as 7: Good paper, accept. The paper provides a valuable resource for research in the development of world-exploring agents, and the evaluation is well-performed.
+
+Turn 8:
+Meta-Reviewer: That's consistent with my own assessment. Thank you for your help!
+
+Dialogue Agent: You're welcome! Is there anything else I can assist you with?

@@ -1,0 +1,17 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "GraphSeq2Seq: Graph-Sequence-to-Sequence for Neural Machine Translation":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "GraphSeq2Seq: Graph-Sequence-to-Sequence for Neural Machine Translation". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a Graph-Sequence-to-Sequence (GraphSeq2Seq) model that fuses the dependency graph among words into the traditional Seq2Seq framework. The proposed method combines the word representation, sub-graph state, incoming and outgoing representations, which seems to be a novel approach.
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to Review 1, the paper is well-written though there are some grammatical errors. The reviewer finds the motivation and goal of the paper clear, and the method is novel. However, the reviewer is not sure if the proposed method has essential effectiveness to improve the performance on the top-line NMT baselines, as the experiments were only performed on small datasets. Review 2 praises the good results of the proposed approach, but suggests that the method may be somewhat incremental and dependent on the quality of the dependency parse. Review 3 appreciates the synthesis of methods presented in the paper and finds it a logical and practical implementation that provides solid benefits over the existing state of the art. However, the reviewer notes that the paper's readability suffers from poor grammar in some places.
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, what is your assessment of the paper?
+
+Dialogue Agent: Based on the reviews, the paper seems to have some novel and interesting contributions, but the effectiveness of the proposed method on large datasets is uncertain. The reviews also suggest that the paper's readability could be improved. Overall, the paper seems to have some potential, but further research is needed to confirm its effectiveness.
+
+Meta-Reviewer: Thank you for your help. I will consider your assessment and make my final decision based on the reviews and my own judgment.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

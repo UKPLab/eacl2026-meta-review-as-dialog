@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Secure Split Learning against Property Inference and Data Reconstruction Attacks":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Secure Split Learning against Property Inference and Data Reconstruction Attacks". Can you tell me about the paper's main contributions and highlights?
+
+Dialogue Agent: Sure! The paper proposes a privacy-preserving technique for split learning, which is a machine learning paradigm that partitions the data and model training process into two parts: the host and the guest. The proposed technique adds noise to the activation function in a randomized manner to provide differential privacy against property inference and data reconstruction attacks. The paper also evaluates the proposed technique on recommendation and classification models, showing that it improves the utility-privacy tradeoff of split-NNs.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the reviewers' comments?
+
+Dialogue Agent: Sure! Reviewer 1 mentions that the paper tackles a new topic in split learning and provides an original approach to privacy-preserving split learning. However, they also mention that the evaluation results are not that impressive in terms of model utility, and the paper could benefit from a more insightful explanation of certain phenomena. Reviewer 2 notes that the proposed technique is based on a randomized response mechanism, which provides differential privacy against property inference and data reconstruction attacks. However, they also mention that the writing in the evaluation section is unclear and missing key details, and that the proposed defense has limitations. Reviewer 3 praises the idea of using a randomized activation function to add noise during forward and backward propagation, but notes that the paper could benefit from more details on the experimental setup and the limitations of the proposed defense.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, what are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The strengths of the paper include its original approach to privacy-preserving split learning, its evaluation on recommendation and classification models, and its contribution to the field of differential privacy. However, the weaknesses of the paper include the limited evaluation results, the unclear writing in the evaluation section, and the limitations of the proposed defense.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for your summary. Based on the reviews and your summary, I think I have a good understanding of the paper's contributions and limitations. What is your final recommendation for the paper?
+
+Dialogue Agent: Based on the reviews and the paper's contributions and limitations, I recommend that the paper be accepted with minor revisions. The revisions should address the limitations of the proposed defense and provide more details on the experimental setup and the additional attributes used in the evaluation.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your recommendation. I will take your suggestions into consideration when making my final decision.
+
+Dialogue Agent: You're welcome! I hope my summary and recommendations were helpful in your decision-making process.

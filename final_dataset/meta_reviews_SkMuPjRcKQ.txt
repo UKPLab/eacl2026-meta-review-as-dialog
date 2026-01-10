@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper about feed-forward propagation in probabilistic neural networks with categorical and max layers. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors focus on the problem of uncertainty propagation in deep neural networks, specifically in max and argmax layers. They propose two main contributions: an analysis of the feed-forward method and a new approximation for argmax/max based operations.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the first contribution? I was expecting some new insights about the method, but I didn't find them.
+
+Dialogue Agent: The authors revisit the assumptions of the feed-forward method, previously proposed by several authors as an inference method for Bayesian neural networks based on ADF/EP. They suggest refactoring this section as a background section and making it shorter, focusing on the representation of probabilities as latent variables through a function.
+
+Turn 3:
+Meta-reviewer: Okay, that makes sense. What about the second contribution? I see that the authors propose a new approximation for argmax/max operations. Can you tell me more about that?
+
+Dialogue Agent: Yes, the authors propose an approximation for argmax operations, e.g. latent variable view of the softmax, that avoids resorting to the normal cdf function, which has numerical stability issues. They also suggest an approximation for max based operations, e.g. leaky ReLU, that again, does not depend on the gaussian cdf. The authors evaluate the accuracy of the proposed method approximating the posterior of the neurons and show end-to-end training benefits.
+
+Turn 4:
+Meta-reviewer: I see. Can you tell me more about the comparison with other state-of-the-art methods? The authors claim that their method is more computationally efficient than Monte Carlo dropout, but I would like to see a direct comparison.
+
+Dialogue Agent: The authors do not compare their method directly with other feed-forward methods, such as those proposed by Gast and Roth (2018). However, they do show that their method is more computationally efficient than Monte Carlo dropout. Additionally, the authors evaluate the accuracy of their method using MC to collect the ground truth statistics and compare it with a classical NN.
+
+Turn 5:
+Meta-reviewer: That's a good point. What about the organization of the paper? I found that the notion of nonlinearity is not mentioned until Section 3, which made it a bit confusing to understand the context of the paper.
+
+Dialogue Agent: The authors could improve the organization of the paper by clarifying the notion of nonlinearity at the start of Section 2. Additionally, the authors could investigate more about the accuracy of the approximation when there are more than two variables, as the current approximation is only exact in the case of two input variables.
+
+Turn 6:
+Meta-reviewer: Okay, I think that covers everything. Can you give me a final summary of the paper's main contributions and limitations?
+
+Dialogue Agent: Sure! The authors propose two main contributions: an analysis of the feed-forward method and a new approximation for argmax/max based operations. The authors also propose a new method to propagate uncertainty through argmax/max based operations. However, the authors do not compare their method directly with other feed-forward methods, and the organization of the paper could be improved. Overall, the paper provides a useful analysis of the feed-forward propagation in probabilistic neural networks with categorical and max layers.

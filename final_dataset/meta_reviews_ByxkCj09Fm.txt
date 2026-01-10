@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Deep Hierarchical Model for Hierarchical Selective Classification and Zero Shot Learning", and I'm trying to decide whether to accept or reject the paper. Can you tell me more about the paper type and the reviews?
+
+Dialogue agent: Of course. The paper is categorized as long, and the reviews have raised some concerns about the paper's completeness, clarity, and comparison to prior work.
+
+Meta-reviewer: Can you summarize the main contributions and drawbacks of the proposed method?
+
+Dialogue agent: According to Review 2, the new soft negative log-likelihood loss formulation for multi-class classification problems provides better semantic generalization ability compared to a regular N-way classifier and yields more accurate and meaningful super-class predictions. However, Review 1 points out that the paper is missing references to key prior work in this space, and the experimental setup is confusing. Review 3 also mentions that the paper lacks theoretical justification and provides some ad-hoc solutions.
+
+Meta-reviewer: I see. How confident are the reviewers in their evaluations?
+
+Dialogue agent: Review 1 rates the paper as "Ok but not good enough" with a confidence level of 4, Review 2 rates the paper as "Marginally below acceptance threshold" with a confidence level of 3, and Review 3 rates the paper as "Strong rejection" with a confidence level of 4.
+
+Meta-reviewer: Review 3 also mentions that the paper violates the double blind submission policy by including an acknowledgments section, which is a serious concern. Based on the overall reviews, I'm not convinced that the paper is strong enough to be accepted. Therefore, I will reject the paper. Thank you for your help, dialogue agent.
+
+Dialogue agent: You're welcome, meta-reviewer. Let me know if you have any other questions.

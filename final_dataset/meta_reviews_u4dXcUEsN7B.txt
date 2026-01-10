@@ -1,0 +1,11 @@
+Meta-reviewer: Thank you for your reviews of the paper "Exploring Example Influence in Continual Learning." I have a few questions regarding the paper. To the dialogue agent, can you explain how the MetaSP approach approximates the gradient in Equation (6)? Reviewer 2 mentioned that they are not sure how the Importance Function (IF) motivation connects with the final MetaSP algorithm.
+
+Dialogue agent: The MetaSP approach approximates the gradient by using a two-level optimization technique that aims to balance the importance of each example for both stability and plasticity. The authors argue that the gradient approximation is motivated by the idea of disentangling plasticity and stability through the IF-like approach. However, as Reviewer 2 pointed out, a theoretical or empirical argument confirming the connection between IF and MetaSP would be useful.
+
+Meta-reviewer: Thank you for the explanation. Reviewer 1 mentioned that the paper's presentation could benefit from another iteration. What specific improvements do you think the authors could make to the paper's presentation?
+
+Dialogue agent: Reviewer 1 suggested that the authors improve the presentation's readability, particularly by revising many sentences that currently need improvement. The reviewer also noted confusion over Equation (6) and the use of "iff" in the presentation's background material on influence functions. The authors could further provide a better explanation of their proposed method and experiment results.
+
+Meta-reviewer: Thank you for the information. Reviewer 3 mentioned that the definition of the metrics in the paper is not very clear. What specific improvements do you think the authors could make to the metrics' definition?
+
+Dialogue agent: Reviewer 3 suggested that the authors clarify the definition of the metrics used in the paper, such as "Finished Accuracy," "First Accuracy," and "Mean Average Accuracy." Additionally, the reviewer suggested the authors provide more precise terminology in the table to show which results are statistically significant. The authors could consider using other ways to measure stability and "backward transfer" from "Gradient Episodic Memory for Continual Learning" Lopez-Paz et al.

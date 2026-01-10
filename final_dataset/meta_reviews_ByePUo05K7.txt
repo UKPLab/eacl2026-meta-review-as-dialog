@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the reviews for the paper "What a difference a pixel makes: An empirical examination of features used by CNNs for categorisation". Can you tell me more about the paper type and what it aims to achieve?
+
+Dialogue Agent: Certainly. The paper is a long paper and its goal is to examine the features used by convolutional neural networks (CNNs) for categorisation. Specifically, the authors investigate whether CNNs are able to recognise objects based on their shape or if they focus on non-shape features such as noise-like (additive or salt-and-pepper) masks or single pixels. The paper presents a series of experiments to test these hypotheses.
+
+Meta-Reviewer: Interesting. Reviewer 1 mentioned that dataset bias is an important factor in designing a dataset. Do you think this point is relevant to the paper's main findings?
+
+Dialogue Agent: The paper does discuss the issue of dataset bias and its potential impact on the ability of CNNs to recognise objects based on shape features. However, the paper's main focus is on examining the influence of non-shape features on categorisation performance. Therefore, while dataset bias is an important consideration in general, it is not the main focus of this paper's findings.
+
+Meta-Reviewer: Reviewer 2 mentions difficulty in replicating some of the paper's reported results. How do you respond to this concern?
+
+Dialogue Agent: The authors have responded to this concern by addressing the issue of reproducibility in a revision. They have provided additional details about their experiments, including clarifying certain parameter values. Reviewer 2 has updated their rating to acknowledge the improvements made to address the reproducibility issue.
+
+Meta-Reviewer: Lastly, Reviewer 3 notes that the findings in the paper are not groundbreaking, but still provide value in examining the role of shape in object recognition. Do you think this is a fair assessment?
+
+Dialogue Agent: Yes, I think that is a fair assessment. The paper's findings are not necessarily groundbreaking, but they do provide valuable insights into CNNs' reliance on non-shape features in object recognition. Additionally, the experiments are well-designed, and the paper's focus on examining the influence of non-shape features is an important contribution to the field.

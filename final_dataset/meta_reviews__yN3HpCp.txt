@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Label-invariant Augmentation for Semi-Supervised Graph Classification":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Label-invariant Augmentation for Semi-Supervised Graph Classification". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a label-invariant augmentation technique for graph-structured data, which conducts the augmentation in the representation space and generates the augmented samples in the most difficult direction while keeping the label of the augmented data the same as the original samples.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. First, it presents a label-invariant augmentation strategy for graph contrastive learning, which involves involving labels in the downstream task to guide the contrastive augmentation. Second, the authors present a lightweight technique to randomly generate a set of qualified candidates and selecting the most difficult one for increasing the model generalization. Finally, the experimental results on eight graph benchmark datasets have verified the effectiveness of the developed label-invariant augmentation.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: Sure. The paper has some weaknesses. One reviewer noted that it is unclear why selecting the hardest augmented sample can enhance the performance. Another reviewer noted that the authors do not discuss failure cases of the developed method. Additionally, the results of the developed method are not always best among different datasets, as shown in Table 2.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, I'm leaning towards rejecting the paper. However, I'm open to changing my mind if you can provide any additional information or insights.
+
+Dialogue Agent: I understand your concerns. However, I would like to point out that the paper has several strengths, such as its innovative approach to label-invariant augmentation and its extensive experimental results on eight graph benchmark datasets. Additionally, the authors have discussed the limitations and potential negative societal impact of their method.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. After careful consideration, I have decided to accept the paper with minor revisions.
+
+Dialogue Agent: Thank you for your decision. I'm glad that I could assist you in making an informed decision about the paper.
+
+Output:
+
+The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points. The dialogue should have a minimum of 4 turns.

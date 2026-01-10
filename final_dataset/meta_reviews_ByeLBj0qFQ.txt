@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about unsupervised image to sequence translation with canvas-drawer networks. What do you think of the paper?
+
+Dialogue Agent: Based on the reviews, the paper presents an interesting idea but the execution needs some improvement, especially in terms of evaluation. The reviewer comments mention that the proposed approach is limited to one kind of curves and does not learn when to stop.
+
+Turn 2:
+
+Meta-reviewer: Can you summarize the paper's main idea and contributions?
+
+Dialogue Agent: The paper proposes differentiable "canvas" networks and "drawer" networks based on convolutional neural networks to generate sequences of high-level visual elements for recreation or translation of images. The authors replace the non-differentiable "renderer" with differentiable "canvas" networks to end-to-end train the whole model with mean-squared error loss.
+
+Turn 3:
+
+Meta-reviewer: How does the paper compare to other works, like GANs or RL?
+
+Dialogue Agent: The paper does not provide quantitative comparisons with other works, but the reviewer comments mention that the proposed approach is marginally above acceptance threshold and does not show significant improvement over other state-of-the-art methods.
+
+Turn 4:
+
+Meta-reviewer: What are the limitations of the proposed approach?
+
+Dialogue Agent: The proposed approach is limited to one kind of curves and does not learn when to stop. The authors mention that the approach does not explore "brush strokes" in paintings and is limited to simple visual elements, line drawings or box generations.
+
+Turn 5:
+
+Meta-reviewer: Can you provide more information about the experimental procedure and statistics of the datasets used?
+
+Dialogue Agent: The experimental procedure is not clear, and the authors do not provide sufficient information about the datasets used. The reporting figures only show the results for the ablation study and do not include quantitative results for the proposed method.
+
+Turn 6:
+
+Meta-reviewer: What is your overall rating and confidence level for the paper?
+
+Dialogue Agent: Based on the reviews and the limitations mentioned, my overall rating is 4: Ok but not good enough - rejection, and my confidence level is 4: The reviewer is confident but not absolutely certain that the evaluation is correct.

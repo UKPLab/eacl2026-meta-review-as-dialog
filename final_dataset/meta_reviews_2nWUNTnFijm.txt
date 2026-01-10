@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning Substructure Invariance for Out-of-Distribution Molecular Representations":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Learning Substructure Invariance for Out-of-Distribution Molecular Representations". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper introduces techniques to enhance the robustness of molecule representation learning against distribution shifts. The authors propose a learning framework that incorporates substructure-aware attention-based molecular encoders and a VAE-based environment inference model.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper addresses an important topic in molecule representation learning (distribution shift) and introduces innovative techniques to mitigate the issue. The authors provide sufficient experiments over different public benchmarks under OOD settings and ablation studies to demonstrate the effectiveness of each component.
+
+Turn 3:
+
+Meta-Reviewer: What about the weaknesses of the paper?
+
+Dialogue Agent: Some key notations are not clearly defined, and the experiments section is not clearly described. The assumptions and proposed model are not convincing, and the paper does not provide enough information about the dataset used.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I'm considering the paper for acceptance. However, I'm concerned about the weaknesses mentioned in the reviews. Can you provide any additional insights?
+
+Dialogue Agent: The paper has good novelty and the proposed solution is sufficiently novel. The presentation of each section is clear and well-organized. However, the scaffold and decomposing strategies may not be robust to OOD settings, and the paper could have benefited from more detailed information about the dataset used.
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews and your input, I will consider the paper for acceptance with some minor revisions.
+
+Dialogue Agent: You're welcome. I'm glad I could help.

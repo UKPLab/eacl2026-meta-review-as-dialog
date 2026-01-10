@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you for your reviews of this paper on ProcTHOR. I have carefully read through all the reviews, and I appreciate the insights and concerns raised. 
+
+Dialogue Agent: Thank you for the opportunity to respond to the reviews. I'm happy to answer any questions that you have regarding the paper and the reviews.
+
+Meta-Reviewer: Let me start by asking about the comments made in Review 1. The reviewer raised concerns about the technical aspects of the paper, particularly with regards to its contribution and evaluation. Can you provide some clarifications on these points?
+
+Dialogue Agent: Certainly. Regarding the contribution, we agree with the reviewer that the ProcTHOR generator can be seen as a dataset contribution. However, we would like to emphasize that our paper focuses on the technical details of how this dataset was created, as well as its extensive evaluation on multiple embodied AI tasks. We believe that the scale and diversity of ProcTHOR, as well as the demonstrated performance gains on various tasks, represent a significant contribution to the field of embodied AI.
+
+As for the evaluation, we acknowledge the reviewer's concerns regarding the focus on RGB-only agents and the need for evaluation with other sensing modalities. However, we would like to point out that the focus on RGB-only agents allows us to better isolate the effects of ProcTHOR generation on task performance and scalability. We believe that our evaluation provides a strong baseline for future work to build upon, and we encourage researchers to explore the use of ProcTHOR with other sensing modalities.
+
+Meta-Reviewer: I see. In Review 2, the reviewer raised concerns about reproducibility and code release. Can you address those concerns?
+
+Dialogue Agent: Yes, we understand the importance of reproducibility and open access to code and data in scientific research. We are committed to releasing our code and dataset for use by the research community. We are currently in the process of finalizing the code release and intend to make it publicly available upon publication of the paper. We apologize for any delay in making the code available, and we appreciate the reviewer's concerns.
+
+Meta-Reviewer: Finally, Review 3 raised concerns about the submission of the paper to the main track instead of the dataset and benchmarks track. Can you comment on that?
+
+Dialogue Agent: We acknowledge the reviewer's concerns regarding the submission track. We submitted the paper to the main track because we believe that ProcTHOR represents a significant technical contribution to the field of embodied AI, and we wanted to highlight the technical details of how the dataset was created and evaluated. However, we appreciate the point made by the reviewer about the dataset and benchmarks track being a more suitable fit for our work, and we will consider this for future submissions.
+
+Meta-Reviewer: Thank you for your responses. Based on your answers and the reviews, I'm inclined to accept this paper. However, since there were concerns raised about the submission and evaluation, I would like to assign a rating of 6: Marginally above acceptance threshold: Some strong points but also some weaknesses, and the overall merit is uncertain.
+
+Dialogue Agent: Thank you for considering our paper for acceptance. We appreciate the constructive feedback provided by the reviewers and the meta-reviewer, and we are committed to addressing any remaining concerns in the final version of the paper.

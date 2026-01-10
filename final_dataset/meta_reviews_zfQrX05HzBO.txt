@@ -1,0 +1,31 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Grow and Merge: A Unified Framework for Continuous Categories Discovery". The meta-reviewer is aware only of the paper's title, and the dialogue agent is equipped with reviews and paper type information.
+
+Turn 1:
+Meta-Reviewer: Can you tell me about the paper's main contribution?
+
+Dialogue Agent: The paper proposes a grow and merge framework for continuous categories discovery, which balances novel category discovery and merging the newly discovered information with the knowledge already known to the model.
+
+Turn 2:
+Meta-Reviewer: How does the proposed framework address the problem of catastrophic forgetting?
+
+Dialogue Agent: The proposed framework uses a dynamic setting where unlabeled data are continuously fed into the model, and it utilizes a grow and merge strategy to address the challenge of catastrophic forgetting.
+
+Turn 3:
+Meta-Reviewer: Can you tell me more about the proposed experimental setting?
+
+Dialogue Agent: The proposed setting involves using a continuous version of GCD, where unlabeled data from novel and known categories appear in batches. The authors also propose a framework/method to iteratively update representation and novel category discovery for CCD.
+
+Turn 4:
+Meta-Reviewer: What are the key strengths and weaknesses of the paper?
+
+Dialogue Agent: The key strengths of the paper include its proposal of a useful continuous adaptation variation of GCD, and the authors' proposal of a framework to address the setup and alleviate challenges of catastrophic forgetting. However, the paper's weaknesses include the lack of evaluation with different techniques, especially considering a continuous version of GCD or other semi/self-supervised representation updates. Additionally, the paper could benefit from more detailed explanations of the setting and experiments.
+
+Turn 5:
+Meta-Reviewer: What are your suggestions for the authors?
+
+Dialogue Agent: The authors could consider adopting the proposed framework to other methods for self-supervised representational learning and updating representation within CCD iterations. Additionally, the authors could perform experiments with different techniques and provide more detailed explanations of the setting and experiments to improve the paper's clarity and impact.
+
+Turn 6:
+Meta-Reviewer: Based on the reviews, what is your final decision regarding the paper?
+
+Dialogue Agent: Based on the reviews and my summary of the paper's main contribution, strengths, and weaknesses, I recommend a weak accept with a confidence level of 6. The paper presents a technically solid and moderate-to-high impact paper with no major concerns regarding evaluation, resources, reproducibility, or ethical considerations. However, the paper's weaknesses include the lack of evaluation with different techniques and the need for more detailed explanations of the setting and experiments.

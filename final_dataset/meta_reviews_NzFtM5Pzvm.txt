@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you give me a brief summary of the paper's approach for spatio-temporal video grounding?
+
+Dialogue agent: The paper proposes a one-stage end-to-end framework for spatio-temporal video grounding, which follows an encoder-decoder strategy without any pre-trained object detectors. The model adopts a novel multi-modal template to alleviate alignment inconsistency and prediction inconsistency issues in the task. Specifically, the proposed Spatio-Temporal Consistency-Aware Transformer (STCAT) architecture consists of an encoder, a template generator, and a corresponding decoder with couples of prediction heads.
+
+Meta-reviewer: How does the STCAT architecture achieve semantic consistency in the task?
+
+Dialogue agent: The STCAT architecture sets a new state-of-the-art performance on both VidSTG and HC-STVG datasets under most evaluation metrics. The main contribution is the semantic-consistency flow pattern between the encoder and decoder, which enhances the visual-linguistic feature fusion and the semantic consistency intra- and inter-frames. 
+
+Meta-reviewer: Are there any weaknesses in the paper's proposed approach?
+
+Dialogue agent: Review 2 mentions some weaknesses. Firstly, the reviewer questioned the selection of ResNet instead of ViT as the visual feature extractor. Secondly, the reviewer found the naming of the “Spatial Interaction Layer” a bit imprecise. Thirdly, the reviewer suggested that the authors provide detailed information about the input for the cross-attention layer in each decoder block. Fourthly, the usage of certain loss functions also seemed unreasonable as the reviewer suggests that the CIoU or DIoU might be a better metric than the combination, which also avoids tolerating the slow converge speed of GIoU. Lastly, the comparison between STCAT with other one-stage attention-based models seems insufficient, and the reviewer suggested that the authors provide efficiency analysis such as FLOPs, latency, and running time on the proposed method and the baselines.
+
+Meta-reviewer: Overall, what is your opinion of the paper based on the reviews?
+
+Dialogue agent: Based on the three reviews, the paper is considered weak accept with no major concerns with respect to evaluation, resources, reproducibility, ethical considerations. Review 1 and 3 are quite confident in their assessment, with the latter finding the paper's contribution limited due to the use of DETR, while review 2 is fairly confident and has some concerns and suggestions for the paper's proposed approach.

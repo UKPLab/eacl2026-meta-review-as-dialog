@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper on Interpretable Continual Learning:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper on Interpretable Continual Learning. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes an extension to the continual learning framework using existing variational continual learning (VCL) as the base method. It also introduces a new metric for the saliency map, called Flexible Saliency Metric (FSM), which takes pixel count to compute the area instead of using rectangular region area, as well as taking the distance between pixels into account.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the proposed method and how it differs from previous works?
+
+Dialogue Agent: Sure! The proposed method uses the weight of evidence (WE) from Zintgraf et al. (2017) for each task, and generates a silence map (by smoothing the WE) for the next task. This is interpreted as the learned attention region. The novelty of this paper is the use of the WE from the current task to generate a silence map for the next task, which is not previously proposed in the literature.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the FSM metric and how it relates to the proposed method?
+
+Dialogue Agent: Sure! The FSM metric is an extension of existing metric SSR, which takes pixel count to compute the area instead of using rectangular region area, as well as taking the distance between pixels into account. The proposed method uses the FSM metric to evaluate the level of catastrophic forgetting. The use of FSM metric is a key contribution of the paper, as it provides a more flexible and interpretable way of evaluating the saliency maps.
+
+Turn 4:
+
+Meta-Reviewer: I understand. Can you tell me more about the evaluation of the proposed method and how it compares to previous works?
+
+Dialogue Agent: Sure! The paper demonstrates superior performance with the proposed method on continual learning on all classic tasks comparing with VCL and EWC. The presentation is very easy to follow. However, the theoretical contribution is very limited, and the work is rather incremental from current state-of-the-art methods. The paper could benefit from a better discussion of related work on the topic.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on our conversation, I would rate the paper as marginally above acceptance threshold.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

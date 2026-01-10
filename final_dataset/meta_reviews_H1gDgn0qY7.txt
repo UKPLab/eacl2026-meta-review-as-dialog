@@ -1,0 +1,19 @@
+ Sure! Here's the dialogue between the meta-reviewer and the dialogue agent for the paper "A Study of Robustness of Neural Nets Using Approximate Feature Collisions":
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "A Study of Robustness of Neural Nets Using Approximate Feature Collisions". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper studies the robustness of neural networks using approximate feature collisions. It proposes a method for generating adversarial examples using a polytope of feature collisions and demonstrates the effectiveness of the method on MNIST and ImageNet datasets.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the method proposed in the paper?
+
+Dialogue Agent: Sure! The method involves finding a polytope of feature collisions using a gradient descent-like algorithm and then generating adversarial examples by combining image patches from multiple seed images. The weights of the combination are optimized using a similar method as standard gradient-based approaches to generating adversarial examples.
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include the observation of the existence of the polytope in the presence of ReLU activation and the clear and comprehensive presentation of all the basic steps. The paper also demonstrates the feasibility of the method on MNIST and ImageNet datasets. However, the reviews also mention that the experiments are very limited and the statements on the similarity of images seem incorrect. Additionally, the paper does not compare the proposed method with other methods to generate adversarial examples.
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, do you think the paper is acceptable or should it be rejected?
+
+Dialogue Agent: Based on the reviews, the paper seems to have some weaknesses that need to be addressed before it can be accepted. The limited experiments and incorrect statements on the similarity of images are some of the issues that need to be addressed. Therefore, I would recommend rejecting the paper.
+
+Meta-Reviewer: Thank you for your input. I will take your recommendations into consideration when making my final decision.

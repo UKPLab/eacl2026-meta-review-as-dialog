@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper "On the Effectiveness of Fine-tuning Versus Meta-reinforcement Learning". Can you provide me with some information about the reviews for this paper?
+
+Dialogue agent: Of course, meta-reviewer. There were three reviews in total. Review 1 suggests that the authors only investigated several approaches with vision-based benchmarks and their conclusion may only apply to vision-based settings. The reviewer also mentions that meta-learning approaches generally require a large number of tasks to be experienced during training and that the experiments do not have enough tasks. Finally, the reviewer believes that the authors haven't provided any meaningful research direction to improve existing meta-RL approaches. 
+
+Review 2 mentions that the paper is well-written and easy to read. The reviewer likes the selection of tasks and the experimental setup. However, they suggest that the paper could have included some results on variations of the same (vision-based?) task to provide a better sense of how much performance difference exists between multi-task pretraining and fine-tuning versus meta-RL approaches. Additionally, the reviewer suggests that the paper could have included some additional baseline comparisons, such as fine-tuning Pearl or RL^2 during adaptation.
+
+Review 3 finds the paper interesting but raises concerns regarding the appropriateness of the meta-RL baseline extensions. The reviewer suggests that the authors should have started from some traditional meta-RL benchmarks to make the final comparison more fair. The reviewer also suggests some more ablation studies to analyze why Meta-RL algorithms fail.
+
+Meta-reviewer: Thank you, dialogue agent. Given what you mentioned, can you tell me what the ratings were for each review?
+
+Dialogue agent: Review 1 gave a rating of 4, which is a borderline reject. Review 2 gave a rating of 6, which is a weak accept. Review 3 also gave a rating of 4, which is a borderline reject.
+
+Meta-reviewer: Based on these ratings, how confident are you in the overall assessment of this paper?
+
+Dialogue agent: I would say I am confident with a level 4 confidence. This means that I am confident in my assessment, but not absolutely certain. It is unlikely, but not impossible, that I did not understand some parts of the submission or that I am unfamiliar with some pieces of related work.
+
+Meta-reviewer: Thank you for your help, dialogue agent. Based on this information, I will need some time to consider whether to accept or reject the paper.

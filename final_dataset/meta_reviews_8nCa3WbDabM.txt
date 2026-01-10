@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Personal+Context Navigation: Combining AR and Shared Displays in Network Path-following":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I am reviewing a paper titled "Personal+Context Navigation: Combining AR and Shared Displays in Network Path-following". Can you please provide me with a summary of the paper and the reviews it has received?
+
+Dialogue Agent: Certainly! The paper "Personal+Context Navigation: Combining AR and Shared Displays in Network Path-following" is a long paper that describes a series of overlay techniques appropriate for an augmented reality device used in concert with a shared public display, in particular for the task of graph traversal. The techniques are designed to help a user do two things: select and follow a path, and find their way back to a selected path/node when it is out of their immediate field of view. The authors describe two studies on path following tasks that make use of the system, demonstrating that for certain kinds of tasks and in particular configurations it is superior to a baseline system.
+
+The reviews for the paper are as follows:
+
+* Review 1: Thank you for submitting a revised version of this submission, and addressing concerns raised in the previous round of reviews. The reviewer is satisfied with the changes in the modified manuscript, and changing their recommendation to accept. However, they noted that there are several typos throughout the text, and recommend a thorough editing pass for the camera-ready version.
+* Review 2: The reviewer appreciates that the authors of this submission produced a rebuttal and highlighted in orange the changes compared to their previous submission. The reviewer is satisfied with the changes applied to most of the concerns they had raised. However, they are not sure that the sentence "We thus conducted our study using head-tracking" is fair use, as the paragraph on eye-tracking has been added after the choice of using head-tracking. The reviewer keeps their rating unchanged.
+* Review 3: The reviewer enjoyed this paper, but it did take a couple of readthroughs to orient themselves. The reviewer found that the words "personal" and "context" are used throughout the paper in a variety of different ways, and found this confusing to follow. They suggest that the authors have an explicit sentence upfront which says "context" is the view that ... , "personal" is a view that... and use the words consistently throughout the document. The reviewer also suggests that a figure demonstrating the four experimental conditions tested in the user studies would be helpful.
+
+Turn 2:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, it seems that the paper has addressed most of the concerns raised in the previous round of reviews. However, I have some questions about the methodology of the user studies and the clarity of the presentation. Can you please provide me with more information about the four experimental conditions tested in the user studies and the results of the studies?
+
+Dialogue Agent: Certainly! The authors describe two studies on path following tasks that make use of the system, demonstrating that for certain kinds of tasks and in particular configurations it is superior to a baseline system. The first study, the Path Tracing Experiment, tested four experimental conditions: a baseline condition with no navigation assistance, a condition with the authors' path tracing technique, a condition with a simple overlay technique, and a condition with a more complex overlay technique. The results showed that the path tracing technique was superior to the other conditions in terms of completion time and accuracy.
+
+The second study, the Shared Display Experiment, tested three experimental conditions: a condition with the authors' shared display technique, a condition with a simple overlay technique, and a condition with no navigation assistance. The results showed that the shared display technique was superior to the other conditions in terms of completion time and accuracy.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the information you provided, it seems that the paper has addressed most of the concerns raised in the previous round of reviews. However, I am still unsure about the clarity of the presentation and the variety of ways the authors refer to specific components of their work. Can you please provide me with more information about the authors' use of the words "personal" and "context"?
+
+Dialogue Agent: Sure! The authors use the words "personal" and "context" throughout the paper in a variety of different ways. The authors use "personal" to refer to the user's personal view of the network, while "context" refers to the additional information provided by the system. The authors suggest that the use of "personal" and "context" is intended to distinguish between the user's personal view and the additional context provided by the system. However, the reviewer found that the use of these words is sometimes confusing and suggests that the authors should have an explicit sentence upfront which says "context" is the view that ... , "personal" is a view that... and use the words consistently throughout the document.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the information you provided, I am leaning towards accepting the paper. However, I have one final question about the related work section. Can you please provide me with more information about the related work cited in the paper, specifically the work by Paul Dietz and Matt Lathrop presented at SIGGRAPH '19?
+
+Dialogue Agent: Certainly! The authors cite the work by Paul Dietz and Matt Lathrop presented at SIGGRAPH '19 as related work. The authors suggest that this work is relevant to theirs because it also provides personal/private information in public display scenarios. However, the authors note that their work differs from the previous work in that it focuses on the use of augmented reality and shared displays in network path-following, while the previous work focuses on the use of personal displays in public settings.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the information you provided, I am accepting the paper. Thank you for your help!

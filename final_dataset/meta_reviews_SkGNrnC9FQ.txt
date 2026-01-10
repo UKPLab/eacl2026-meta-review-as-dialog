@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read the reviews for the paper "Manifold Alignment via Feature Correspondence" and I have some questions that I hope you can answer.
+
+Dialogue Agent: Of course, I will do my best to answer your questions.
+
+Meta-reviewer: Firstly, Review 1 points out that the paper proposes to use the diffusion kernel method, which is one of the spectral methods. However, the reviewer notes that these methods are frequently sensitive to perturbations of the datasets. Can you elaborate on this and explain how the proposed normalization method addresses this issue?
+
+Dialogue Agent: The diffusion kernel method is a specific type of spectral method that is used for manifold learning. Spectral methods are often sensitive to perturbations because they rely on the eigenvalues and eigenvectors of the Laplacian matrix, which can change significantly with small variations in the data. To mitigate this issue, the paper proposes to use a normalization method to construct the kernel, which ensures that the similarity between data points is scale-invariant.
+
+Meta-reviewer: Thank you for explaining this. Review 1 also comments on the equation (1) and suggests that the motivation for the tensor construction is not strong enough. Can you shed some light on this and clarify the use of window functions g?
+
+Dialogue Agent: The authors propose a tensor-based method for constructing the manifold functions in the aligned space. The window functions g are used to weight the eigenvectors of the Laplacian matrix in order to improve the performance of the method. Specifically, the window functions are used to ensure that the method is invariant to small variations in the data, such as rotations or translations. However, the choice of the window functions could affect the performance of the method, and the reviewer suggests that more detail should be provided on this aspect.
+
+Meta-reviewer: I see. Review 2 raised concerns about the experimental section and suggested that more comparison with other algorithms and more complex datasets should be included. Can you comment on this?
+
+Dialogue Agent: The paper compares the proposed method with two other algorithms and provides experimental results on toy image datasets and a biological dataset. However, the reviewer suggests that more comparisons with other algorithms, such as domain adaptation approaches, and more complex datasets, such as Cifar 10, would be informative. The paper could benefit from such comparisons to better establish the strength and limitations of the proposed method.
+
+Meta-reviewer: Lastly, Review 3 highlights some technical issues with the paper and suggests that it is not clear enough for acceptance at this point. Can you comment on this?
+
+Dialogue Agent: Review 3 comments on various technical issues with the paper, such as the derivation of the technical details, the notation, and the clarity of the experimental section. These comments suggest that the paper needs to be more explicit and clear in its presentation of the method and its experimental results. The reviewer also notes some specific errors and typos that should be corrected. Overall, the reviewer suggests that the paper should be rejected in its current form.

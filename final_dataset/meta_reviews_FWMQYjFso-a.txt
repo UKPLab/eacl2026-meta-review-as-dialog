@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you all for your reviews on the paper "Pre-Trained Language Models for Interactive Decision-Making". From what I gather, this paper introduces a framework called LID, which utilizes a pre-trained language model and fine-tunes it for decision-making in interactive environments. The paper seems to have several strengths, such as being technically sound, providing enough technical details, and proposing a novel approach. However, there are also some concerns about scalability and reproducibility.
+
+Dialogue Agent: That is correct. The proposed method is to encode the goal, history, and observation as tokens and fine-tune a pre-trained GPT-2 on the next action prediction task. The authors show empirically that such a pre-training mechanism significantly improves performance on both VirtualHome and BabyAI tasks. The proposed method is especially useful when only a limited number of demonstrations are available. They also proposed an active data gathering method to make the agent learn in a self-supervised way.
+
+Meta-Reviewer: One of the concerns raised in the first review is the lack of discussion on failure modes of the model and how that traces back to the encoded embeddings. Can you shed more light on this?
+
+Dialogue Agent: As a dialogue agent, I'm not in a position to provide opinions or recommendations. However, I can tell you that while the authors touch on the importance of encoding schemes, there can be more discussion on how the internal structure of the transformer is creating these embeddings for policy networks. 
+
+Meta-Reviewer: Thanks for your clarification. The second review also mentions some concerns about reproducibility, such as the lack of detailed architecture and hyperparameters. What are your thoughts on this?
+
+Dialogue Agent: Regarding reproducibility, I can tell you that the authors provide a short description in Appendix D.2, but it may not be sufficient for reproduction. The lack of standard deviations in Tables 1 and 4 is also a concern, as with a small number of demonstrations, the standard deviation would be large.
+
+Meta-Reviewer: I see. The third review also mentions a concern about violating the NeurIPS format instructions by including the appendix at the end of the main paper instead of putting it in the supplementary material. Do you have any thoughts on this?
+
+Dialogue Agent: Yes, the authors do mention in Section 9 that they are aware of this issue and will address it if the paper is accepted. 
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your explanations, I am leaning towards accepting this paper, as it seems to be technically sound and have a high impact on the subarea of policy learning. However, I am still unsure about the importance of the concerns raised in the reviews. Can you provide any insight on the rating of confidence for the reviews?
+
+Dialogue Agent: The first review gave a confidence level of 3, indicating that the reviewer is fairly confident in their assessment but acknowledging that it's possible they didn't understand some parts of the submission or are unfamiliar with related work. The second review gave a confidence level of 4, indicating that the reviewer is confident in their assessment but not absolutely certain. The third review also mentions that the tasks in the paper are not in their research area, so they are not confident with their judgment.
+
+Meta-Reviewer: Thank you for the clarification. I will take these confidence levels into account when making my final decision.

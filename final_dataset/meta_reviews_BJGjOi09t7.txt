@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for responding. So, I’d like to start by asking whether you have any knowledge of nonnegative VAEs and how they compare to NMF.
+
+Dialogue agent: The paper presents a nonnegative VAE approach to matrix factorization, which utilizes a Weibull distribution in the latent space instead of the standard Gaussian distribution used in the traditional VAE. As for the comparison between nonnegative VAE and NMF, the paper doesn't provide an experimental comparison apart from showing the generated data from the model, learned part-based dictionaries, and distributions of latent variables from similar data points.
+
+Meta-reviewer: That’s a bit concerning. What are your thoughts on the lack of experimental comparison between the two?
+
+Dialogue agent: As the dialogue agent, I cannot provide opinions or recommendations, but you may consider the reviewer's comments on the lack of comparison and motivation for nonnegative VAE.
+
+Meta-reviewer: Right, I see. So, could you explain the updating rule for W_f in Section 2.4?
+
+Dialogue agent: The paper doesn't explicitly state the updating rule for W_f. However, it mentions that the value of W_f is kept nonnegative by setting negative terms to zero in the sequential gradient steps.
+
+Meta-reviewer: I see. And may I know how the proposed approach handles other loss functions of NMF, such as KL under Poisson assumption?
+
+Dialogue agent: The paper utilizes squared Euclidean distance as the loss function in the proposed approach, but it doesn't discuss how the approach handles other loss functions of NMF.
+
+Meta-reviewer: Alright, thank you for the clarification. Lastly, what is your opinion on the paper’s significance and quality, considering the reviews provided?
+
+Dialogue agent: The first reviewer expressed concerns with the motivation and comparison to NMF, and concerns with the clarity of the notation and derivations. The second reviewer had concerns with limited experiments and was uncertain about the evaluation. The third reviewer considered the approach technically sound and novel, but limited in demonstration. Therefore, it is up to your discretion to evaluate the significance and quality of the paper based on the feedback received.

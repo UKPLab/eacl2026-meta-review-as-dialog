@@ -1,0 +1,28 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper and I would like to know your opinion on it.
+
+Dialogue Agent: Sure, I'd be happy to help! Can you tell me the title of the paper and what type of paper it is?
+
+Meta-reviewer: The title is "Empirical Study of Easy and Hard Examples in CNN Training" and it's a long paper.
+
+Turn 2:
+Dialogue Agent: Great! Based on the title and type of paper, I can provide a summary of the reviews. The first review states that the paper forms a definition of easy and hard examples and studies the properties and training implications of such examples. However, the reviewer does not think the paper presents any insights that change training for the better, and the analysis does not meet the bar for a cutting-edge insight. The second review states that the paper extends the observation made in Arpit et al (2018) that deep networks prioritize learning simple patterns that are shared across many training examples. The reviewer finds the empirical observations and some of the other arguments in the paper interesting, but there is a lot of scope for improvement in the paper.
+
+Meta-reviewer: That's helpful, thank you! Can you tell me more about the reviews? What are the strengths and weaknesses of the paper, and what are the reviewer's confidence levels?
+
+Turn 3:
+Dialogue Agent: Sure! Based on the reviews, the strengths of the paper include quantifying easy and hard examples and using that as a starting point for further analysis. The paper also presents interesting empirical observations and introduces a new terminology of "contradicted pattern" and "non-contradicted pattern". However, the weaknesses of the paper include the lack of a clear hypothesis and the fact that the authors do not adequately justify some of their claims. The reviewer's confidence levels are 4 out of 5 for the first review and 3 out of 5 for the second review.
+
+Meta-reviewer: I see, thank you for the information. Based on the reviews, I think I have a good understanding of the paper's strengths and weaknesses. Do you have any recommendations for me as a meta-reviewer?
+
+Turn 4:
+Dialogue Agent: As a meta-reviewer, you may want to consider the following points. Firstly, the paper does not provide a clear hypothesis or explanation for why easy and hard examples are important. Secondly, the authors do not adequately justify some of their claims, such as the claim that the set of easy and hard examples is similar across different architectures. Finally, the paper does not provide a clear conclusion or contribution to the field. Based on these points, you may want to consider rejecting the paper or requesting major revisions.
+
+Meta-reviewer: Thank you for your input. I will take these points into consideration when making my decision.
+
+Turn 5:
+Meta-reviewer: Thank you for your help, I have a good understanding of the paper now.
+
+Dialogue Agent: You're welcome! If you have any other questions or need further assistance, please don't hesitate to ask.

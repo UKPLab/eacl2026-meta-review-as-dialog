@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, I've read all the reviews for the paper "Learning Global Additive Explanations for Neural Nets Using Model Distillation." Based on the reviews, I am having some doubts about whether to accept or reject the paper. Can you give me more information about the paper, please?
+
+Dialogue Agent: Certainly. The paper proposes a method to provide global explanations of black box models such as neural nets using generalized additive models. The authors conduct experiments on synthetic and real tabular data and demonstrate the potential of the proposed approach.
+
+Meta-Reviewer: What type of paper is it?
+
+Dialogue Agent: It is a long paper.
+
+Meta-Reviewer: Review 1 claims that although the paper is well written and the experiments are detailed and thorough, there is limited novelty in the core approach and the paper only presents applications in tabular data. Can you verify this?
+
+Dialogue Agent: I can confirm that Review 1 mentioned the limited novelty of the core approach since generalized additive models (GAMs) have been explored in the literature. Moreover, the paper only presents applications in tabular data, which may limit its generalizability to other types of data. However, the paper explores the use of model distillation to explain black-box models globally, which is a novel aspect.
+
+Meta-Reviewer: Review 2 is skeptical about the use of GAMs to explain other complex models and claims that the proposed approach lacks novelty. Can you provide more detail about this?
+
+Dialogue Agent: Review 2 agrees that the paper is well written and experiments are thorough. However, the reviewer doubts whether GAMs are even interpretable and therefore questions the basis for using this method to explain black-box models. Additionally, the reviewer claims that although the paper proposes the use of GAMs to approximate complex models, this idea of using simpler models to approximate more complex ones has been explored before. 
+
+Meta-Reviewer: In Review 3, the reviewer describes the method as elegant and simple and praises the paper's clarity and carefully conducted experiments. However, they mention that the qualification of the paper as a representation learning paper is a small stretch. Can you clarify this point?
+
+Dialogue Agent: Review 3 agrees that the proposed method is elegant and simple and praises the paper's quality and clarity. However, the reviewer questions whether the paper should be classified as a representation learning paper. They suggest that the paper may be better suited for conferences such as ICML or NIPS. 
+
+Meta-Reviewer: Okay. How confident are the reviewers in their evaluations?
+
+Dialogue Agent: Review 1 is very familiar with the relevant literature and is absolutely certain that the evaluation is correct. However, the reviewer rates the paper as marginally above the acceptance threshold. Review 2 is confident but not absolutely certain that the evaluation is correct. The reviewer rates the paper as not good enough for acceptance. Finally, Review 3 is confident but not absolutely certain that the evaluation is correct and rates the paper as marginally above the acceptance threshold. 
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think there are mixed opinions about the paper's novelty and overall contribution to the field. I am particularly concerned about the limited generalizability of the proposed method to other types of data. However, since two of the reviewers rate the paper as marginally above the acceptance threshold, I think I will accept the paper.

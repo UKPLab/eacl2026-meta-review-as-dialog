@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Demo: Knowledge Graph-Based Housing Market Analysis":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Demo: Knowledge Graph-Based Housing Market Analysis". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper presents a complete pipeline for constructing and exploiting a knowledge graph for housing market analysis. The pipeline involves data crawling from different data sources, data cleaning, and entity linking.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the data sources used in the paper?
+
+Dialogue Agent: Sure! The paper uses data from multiple sources, including US Census data, Covid-19 data, and apartment listings from websites like Zillow and Redfin. The data is cleaned and linked to a unique schema in a graph database.
+
+Turn 3:
+
+Meta-Reviewer: I see. How does the paper address the issue of integrating data from different sources?
+
+Dialogue Agent: The paper uses a label property graph to integrate the data from different sources. The graph is populated with entities and relationships from the different data sources, and a question answering/entity resolution mechanism is implemented on the populated knowledge graph.
+
+Turn 4:
+
+Meta-Reviewer: That sounds like a solid work. Can you tell me more about the evaluation of the paper?
+
+Dialogue Agent: Sure! The paper presents a limited evaluation of a recommendation service built on top of the knowledge graph. The evaluation shows that the recommendation service can provide valuable insights to users. However, the paper notes that a more comprehensive evaluation is needed to fully understand the impact of the contribution.
+
+Turn 5:
+
+Meta-Reviewer: I see. Are there any specific issues or concerns that the authors should address in the final version of the paper?
+
+Dialogue Agent: Yes, there are a few issues that the authors should address. Firstly, the paper should provide more details on how the mapping process has been implemented and how the data sources have been integrated in Neo4j. Secondly, the authors should avoid using the term ontology mapping and instead explain the process as defining a mapping between heterogeneous data sources and a unique graph schema. Finally, the paper should provide more information on the limited evaluation and how it relates to the recommendation service built on top of the knowledge graph.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, I would rate the paper as marginally above acceptance threshold. What is your confidence level for the evaluation?
+
+Dialogue Agent: My confidence level for the evaluation is 4, as there are some issues and concerns that the authors should address in the final version of the paper. However, the paper presents a solid work that stands on the shoulders of giants, and it makes a great case of the use of knowledge graph technology in extracting value from multiple data sources.

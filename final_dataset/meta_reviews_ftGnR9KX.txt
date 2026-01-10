@@ -1,0 +1,19 @@
+ Meta-Reviewer: Hello, I'm reviewing a paper titled "FlowQA: Grasping Flow in History for Conversational Machine Comprehension". Can you tell me a little bit about the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper proposes a new model called FlowQA, which is designed to improve the performance of conversational question answering tasks. The main contribution of the paper is the introduction of a new mechanism called "flow" that captures the contextual information in the conversation history.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the flow mechanism and how it improves the performance of the model?
+
+Dialogue Agent: Sure! The flow mechanism is a sequence of contextual information in the conversation history that is used to answer questions. The model uses an additional encoder to handle the conversation history and a classifier to handle no-answerable questions. The authors show that the proposed model achieves state-of-the-art performance on two conversational question answering datasets, CoQA and QuAC.
+
+Meta-Reviewer: I see. Can you tell me more about the reviews of the paper?
+
+Dialogue Agent: Sure! The reviews are generally positive, with one reviewer stating that the paper presents a new and nontrivial improvement over previous works. Another reviewer mentions that the paper is well-written and has strong results. However, one reviewer also mentions that the paper lacks detailed analysis of how the conversation history affects results and what types of questions the proposed model are handled well.
+
+Meta-Reviewer: That's helpful to know. Can you tell me more about the paper's strengths and weaknesses?
+
+Dialogue Agent: Sure! The paper's strengths include its introduction of a new mechanism for capturing contextual information in the conversation history, which improves the performance of the model. The authors also provide strong results on two conversational question answering datasets. However, the paper's weaknesses include a lack of detailed analysis of how the conversation history affects results and what types of questions the proposed model are handled well. Additionally, one reviewer notes that the paper lacks motivation and clarity in some sections.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your summary of the paper's strengths and weaknesses, what is your recommendation for accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews and my summary of the paper's strengths and weaknesses, I would recommend accepting the paper with minor revisions. The paper presents a new and nontrivial improvement over previous works, and the authors provide strong results on two conversational question answering datasets. However, the paper could benefit from more detailed analysis of how the conversation history affects results and what types of questions the proposed model are handled well. Additionally, the paper could be improved by providing more motivation and clarity in some sections.

@@ -1,0 +1,21 @@
+ Dialogue Agent: Hello! I'm here to assist you with your paper review. What would you like to know or discuss?
+
+Meta-Reviewer: Well, I have some questions about the paper's approach and results. Firstly, I'm not sure if the proposed method is able to indicate what part of the image content drove the model to predict class A. Can you help me understand this aspect?
+
+Dialogue Agent: Sure! The proposed method, CDeepEx, generates contrastive explanations by training a GAN to traverse the data manifold and find an example that is close to the original sample, but belongs to the other class. While the generated explanations do not explicitly highlight the image pixels that support the decision of an image belonging to class A, they provide insights into the features that distinguish class A from class B.
+
+Meta-Reviewer: That's helpful. But isn't the proposed method specific to the generation of contrastive explanations, and not able to indicate what part of the image content drove the model to predict class A?
+
+Dialogue Agent: Actually, no. The proposed method can provide some insight into the features that drove the model's prediction. The generated explanations highlight the differences between class A and class B, which can give some indication of the features that contributed to the model's decision. However, it's important to note that the method is not designed to provide a comprehensive understanding of the model's decision-making process.
+
+Meta-Reviewer: I see. What about the comparison with other methods in the literature? Some of the compared methods, like Lime, GradCam, and PDA, are not designed for producing contrastive explanations. How does the proposed method compare to these methods?
+
+Dialogue Agent: Good point. The proposed method differs from other interpretability methods in its approach to generating contrastive explanations. While Lime, GradCam, and PDA provide local explanations that highlight the features responsible for the model's prediction, CDeepEx provides global explanations that highlight the differences between class A and class B. The proposed method is not directly comparable to these methods, but it can be seen as a complementary approach that provides a different perspective on the model's decision-making process.
+
+Meta-Reviewer: I see. Can you tell me more about the experimental setup and results? The paper reports qualitative results, but I'm not sure if they are sufficient to support the conclusions drawn.
+
+Dialogue Agent: Sure! The proposed method was evaluated on the MNIST and Fashion-MNIST datasets, and the results showed that CDeepEx is effective in generating contrastive explanations that provide insights into the decision-making process of the model. However, the experimental results are qualitative, and the paper does not provide a comprehensive evaluation of the method's performance. The authors suggest that future work could include quantitative evaluations using protocols proposed in existing work, such as occlusion analysis or pointing experiments.
+
+Meta-Reviewer: Thank you for the information. I have some more questions, but I'll save them for now. Can you tell me more about the baseline proposed in the review?
+
+Dialogue Agent: Certainly! The baseline proposed in the review is to find an image from class B that is similar to the original image from class A, but with minimal L2 norm. This baseline is not directly comparable to the proposed method, as it does not generate explanations in the form of contrastive visualizations. However, it could be used as a starting point for future work that aims to improve the performance of the proposed method.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I'm interested in discussing the reviews for the paper titled "Learning in Congestion Games with Bandit Feedback." Can you summarize the main contributions of this paper?
+
+Dialogue Agent: Of course. This paper proposes novel algorithms for learning congestion games with semi-bandit or bandit feedback, both in the centralized and decentralized cases. Additionally, a new problem, Markov congestion game, is defined, and the paper proposes a centralized algorithm to learn it. The theoretical results of this paper are significant as they are independent of the size of the action set, which avoids the curse of exponential action set.
+
+Meta-reviewer: Thank you for your response. Reviewer 1 had two questions that I'd like to discuss. Firstly, can we still propose a UCB-type algorithm for the decentralized case? Secondly, is it possible to lower the order of powers in the dependence of the sample complexity on m and F?
+
+Dialogue Agent: The paper does not directly address whether a UCB-type algorithm can be proposed for the decentralized case. However, the paper explains that the proposed algorithm uses the Frank-Wolfe method and G-optimal design to solve the problem, which has technical advantages compared to the UCB-type algorithm. As for the second question, the paper currently does not provide a method to reduce the order of the sample complexity's dependence on m and F.
+
+Meta-reviewer: Understood. Reviewer 2 mentioned some weaknesses of the paper, including the difficulty in following some parts of the paper's presentation of the results. Do you have any suggestions on how this issue can be addressed?
+
+Dialogue Agent: The paper may benefit from removing some notation that is not needed in the main paper and putting it in the appendix. Additionally, the authors could consider providing more examples or illustrations to clarify the results' presentation.
+
+Meta-reviewer: Lastly, Reviewer 3 mentioned that it is unclear what the authors mean by "sample complexity." Can you please explain what the authors mean and provide further insight into the computational complexity of the proposed algorithms?
+
+Dialogue Agent: In this paper, sample complexity refers to the number of samples required to achieve a certain regret bound with high probability. As for computational complexity, the paper states that the proposed algorithms have polynomial time complexity. However, the paper does not provide simulations to illustrate the efficiency of the algorithms.

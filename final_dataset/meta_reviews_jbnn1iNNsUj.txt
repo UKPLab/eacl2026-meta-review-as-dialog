@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper on multilingual fact linking:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper on multilingual fact linking. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Certainly! The authors of the paper propose a new task called multilingual fact linking, which involves linking abstract representations of facts to their language-specific representations in multiple languages. They also introduce a new dataset called IndicLink, which is created by translating a portion of WebRED into five Indian languages and English.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the evaluation of the paper?
+
+Dialogue Agent: Sure! The authors evaluate their proposed model, called ReFCOG, on the IndicLink dataset and show that it outperforms previous retrieval-based models. They also perform ablation studies to analyze the contributions of different components of the model.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you help me understand the weaknesses of the paper?
+
+Dialogue Agent: Certainly! One of the main weaknesses of the paper is that the IndicLink dataset is limited in typological scope to a select family of languages, and the fact that it is translated from English may introduce artifacts that hurt generalization performance to purely native text. Additionally, the proposed model is composed of several existing components previously proposed in multi-lingual work, which may make it seem more like a baseline than a purely "novel" approach.
+
+Turn 4:
+
+Meta-reviewer: I understand. Can you help me understand the constrained generation aspect of the paper?
+
+Dialogue Agent: Sure! The authors propose a constrained autoregressive decoder to generate valid facts. However, it seems counterintuitive that constrained generation would reduce performance, as one would expect the constrained search to filter out any invalid candidates. The authors do not provide a convincing analysis or explanation for this phenomenon.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. Based on the reviews, I think the paper has some interesting contributions, but the limitations of the dataset and the lack of a convincing analysis of the constrained generation aspect may be a concern.
+
+Dialogue Agent: Yes, I understand. The authors could potentially address these concerns by expanding the scope of the dataset, providing a more detailed analysis of the constrained generation aspect, or proposing alternative models that can better handle the limitations of the dataset.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper titled "Molecule Generation by Principal Subgraph Mining and Assembling". Based on the reviews, I would like to discuss the strengths and weaknesses of the paper to decide whether to accept or reject it. Can you summarize the major strengths of the paper?
+
+Dialogue agent: Sure, the paper proposes a relatively novel approach to molecule generation by introducing the concept of principal subgraphs. The approach involves extracting principal subgraphs from a training dataset and generating molecular graphs using these subgraphs. The authors show that the proposed PS-VAE method outperforms baseline methods on various benchmarks, including distribution-learning, (constrained) property optimization, and GuacaMol goal-directed benchmarks. The authors also provide ample examples and illustrations to facilitate understanding of the various proposed components.
+
+Meta-reviewer: What are the main weaknesses pointed out by the reviewers?
+
+Dialogue agent: The reviewers have pointed out several weaknesses of the paper. First, they have suggested that it is unclear what final performance the PS-VAE would achieve with different choices of N, the number of fragments. Second, although the authors have compared the running time of proposed method with two baseline models, it would be better to compare with more baselines or at least provide the complexity associated with all the methods that are compared across the three tasks in the main paper. Finally, the concept of principal subgraphs is not explored in full detail. The authors state that principal subgraphs can be computed more efficiently than frequent subgraphs, but the reviewers have pointed out that a detailed complexity analysis is needed to support this argument.
+
+Meta-reviewer: What are the ratings of the reviews and the recommendations?
+
+Dialogue agent: Review 1 has given a rating of 7 and recommended accepting the paper. Review 2 has given a rating of 6 and recommended weak acceptance of the paper. Review 3 has also recommended weak acceptance of the paper and given a rating of 6.
+
+Meta-reviewer: It seems that the reviewers have some concerns about the paper, but overall, they have recommended accepting the paper. Do you think it is a good paper to accept?
+
+Dialogue agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can provide information that the paper is technically solid and has moderate-to-high impact, and that there are no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. Based on your assessment of the reviewer comments and your own judgment, you can decide whether to accept or reject the paper.

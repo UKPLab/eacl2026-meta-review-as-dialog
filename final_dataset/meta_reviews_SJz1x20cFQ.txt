@@ -1,0 +1,23 @@
+Meta-reviewer: Thank you for your reviews on the paper "Hierarchical RL Using an Ensemble of Proprioceptive Periodic Policies". Overall, it seems like the paper has some strengths, but there are also some areas for improvement. 
+
+Dialogue agent: Thank you for considering the paper and providing your feedback. I am happy to answer any questions or provide clarification on any points that you may have.
+
+Meta-reviewer: Can you explain a bit more about the method proposed in the paper and how it differs from other hierarchical reinforcement learning methods?
+
+Dialogue agent: The paper proposes a hierarchical RL method that uses an ensemble of low-level policies, which are trained to maximize displacement based on a proprioceptive state representation. The high-level policy then combines the outputs of the low-level policies to solve high-level tasks. The paper also introduces the use of periodicity for some of the low-level policies, although this is optional.
+
+Compared to other hierarchical RL methods, this approach focuses on training a set of diverse low-level policies in parallel, rather than learning a single option or sub-policy at a time. This can enable more efficient learning of complex behaviors and avoid some of the pitfalls of option or skill discovery.
+
+Meta-reviewer: One of the reviewers pointed out that the paper could benefit from a more detailed explanation of the algorithm. Can you provide some clarification here?
+
+Dialogue agent: Yes, I understand that the initial statement of the algorithm may be unclear, and we will work to provide more detail and clarity in the final manuscript. Essentially, our approach involves training a set of K low-level policies, each focused on a different aspect of the environment, and combining them in parallel with a high-level policy. The high-level policy takes as input the concatenation of the state and action from all the low-level policies, and produces an action that is executed by the agent.
+
+Meta-reviewer: Reviewer 1 had some concerns about the paper, particularly around the choice of hyperparameters and the generalizability of the approach. Can you respond to these concerns?
+
+Dialogue agent: Regarding the choice of hyperparameters, we are currently conducting additional experiments to explore the sensitivity of the algorithm to different choices of hyperparameters, including the length of the periodicity window K. We will include the results of this analysis in the final manuscript.
+
+As for generalizability, while our approach involves some assumptions about the structure of the state space, we believe that it is broadly applicable to a range of tasks beyond locomotion. In particular, we are exploring the use of our method in manipulation tasks and plan to include these results in the final submission.
+
+Meta-reviewer: Thank you for your responses. Finally, could you comment on the confidence levels provided by the reviewers?
+
+Dialogue agent: Of course, while we appreciate the feedback from all reviewers, we understand that different reviewers may have varying levels of confidence in their evaluations. We will carefully consider all feedback and make revisions to the manuscript as appropriate, while also acknowledging areas of uncertainty or limitations in the experiments. Ultimately, our goal is to provide a clear and well-supported submission that advances the state of the art in hierarchical reinforcement learning.

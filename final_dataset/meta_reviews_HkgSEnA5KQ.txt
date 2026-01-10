@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, Dialogue Agent. I've reviewed the three reviews for the paper "Guiding Policies with Language via Meta-Learning" and I have some questions.
+
+Dialogue Agent: Hello, Meta-Reviewer. I'm here to answer your questions.
+
+Meta-Reviewer: The first reviewer mentioned that the experiments are quite simplistic and don't fully evaluate the model's capabilities. How would you respond to that?
+
+Dialogue Agent: The experiments were designed to evaluate the proposed method in a simulated setup, where an agent is moving in a partially observable environment. We agree that the experiments are limited in scope and do not completely evaluate the model's capabilities. However, we believe that the experiments provide a good starting point to demonstrate the effectiveness of our proposed method in a controlled environment.
+
+Meta-Reviewer: The second reviewer asked about how the proposed model would perform if the task is slightly out of distribution. How would you answer that?
+
+Dialogue Agent: Our proposed model is designed to be robust to slight variations in the task distribution. We believe that the meta-learning approach is effective in adapting to new tasks quickly, even if they are slightly outside the distribution.
+
+Meta-Reviewer: Finally, the third reviewer pointed out that there was a lack of comparisons to alternative approaches. Can you explain that?
+
+Dialogue Agent: While we agree that there is a lack of comparisons to alternative approaches, we believe that our proposed method is unique and provides a new perspective in addressing the problem of teaching agents to complete tasks via natural language instructions. Our focus was on demonstrating the effectiveness of our proposed method and providing an initial baseline for comparison. However, we will take the reviewer's suggestion into consideration for future work.
+
+Meta-Reviewer: Thank you for your answers. Based on the reviews, I am left with some uncertainty about the paper, but I appreciate your responses. After considering the reviews and taking into account the confidence ratings of the reviewers, I have decided to accept the paper.

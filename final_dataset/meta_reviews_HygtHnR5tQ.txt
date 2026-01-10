@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Generative Adversarial Networks for Extreme Learned Image Compression":
+
+Meta-Reviewer: Hello, I am reviewing a paper titled "Generative Adversarial Networks for Extreme Learned Image Compression". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a generative adversarial network (GAN) based framework for image compression, which achieves improved results over several baseline methods. The proposed solution combines existing methods in a novel way, and the authors provide a comprehensive set of results on three datasets.
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper has several strengths, including the reported compression results with the GAN-based framework for large images, the comprehensive set of results on three datasets, and the well-written presentation of the core results and idea. However, there are also some weaknesses, such as the unclear quality metrics used for comparison, the lack of ablation studies, and the novelty of the paper.
+
+Meta-Reviewer: Can you elaborate on the unclear quality metrics used for comparison?
+
+Dialogue Agent: Yes, the reviewers have noted that the quality metrics used for comparison are unclear, particularly for global consistency (GC) models. The authors use visual inspection as the primary evaluation metric, but do not provide a clear definition of what constitutes a "good" or "bad" image. Additionally, the authors do not provide a comprehensive comparison of their method with other state-of-the-art methods using standardized metrics such as MS-SSIM and PSNR.
+
+Meta-Reviewer: That's a good point. What about the addition of the distortion term in the GAN loss function? Can the authors elaborate on this?
+
+Dialogue Agent: Yes, the reviewers have also questioned the addition of the distortion term in the GAN loss function. The authors claim that the distortion term acts as a regularizer, but the reviewers are not convinced by this claim. They have requested additional analysis or ablation studies to better understand the effects of the distortion term.
+
+Meta-Reviewer: I see. What about the novelty of the paper? Do the reviewers feel that the paper offers enough novelty to justify its publication?
+
+Dialogue Agent: The reviewers have expressed mixed opinions on the novelty of the paper. One reviewer feels that the paper does not offer enough novelty, while the other reviewer notes that the proposed method combines existing methods in a novel way. However, both reviewers agree that the paper does not provide a comprehensive comparison of its method with other state-of-the-art methods.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews and your summary, I will consider the paper's contributions, strengths and weaknesses, and novelty when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

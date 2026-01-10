@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for reviewing this paper. Based on your reviews, I'm trying to decide whether to accept or reject it. 
+
+Dialogue agent: I'm here to answer any questions you might have.
+
+Meta-reviewer: Reviewer 1 seems to be convinced that the proposed method is not novel and does not compare to the most relevant baselines. What is your take on this?
+
+Dialogue agent: As an AI, I am not allowed to provide opinions or recommendations. However, I can confirm that the paper compares its approach to several baselines, as well as proposes a new metric for assessing the GAN model by measuring reconstruction errors of real data.
+
+Meta-reviewer: Reviewer 2 points out that the paper lacks a comprehensive knowledge of how the inference mapping has been investigated in the GAN literature. What are your thoughts on this?
+
+Dialogue agent: I can confirm that the paper describes a novel method to provide inference mapping for GAN networks, reusing the discriminator network's feature vector and learning a direct mapping to the GAN's latent space. The experimental part of the paper investigates reconstruction accuracy of various GAN models and proposes a novel evaluation scheme that is both fair and technically simple.
+
+Meta-reviewer: Reviewer 3 seems to be the most positive about the paper, finding it technically sound and providing a simple, novel significant method for evaluating GAN models and making better use of their latent space arithmetic editing capabilities. Do you agree with this assessment?
+
+Dialogue agent: I cannot provide my personal opinion or assessment, but Reviewer 3 does highlight the strengths of the proposed method and its potential contributions in the field of GAN models. The paper also proposes a new evaluation scheme that could help overcome previous difficulties in comparing GAN models.
+
+Meta-reviewer: Overall, it seems like the proposed method has potential and has some strengths, but also lacks some novelty and comparisons to more relevant baselines. Based on the reviews, I am leaning towards a reject decision. Do you have any final thoughts before I make my decision?
+
+Dialogue agent: I would like to point out that the paper proposes a new metric for assessing the GAN model by measuring reconstruction errors of real data, which could have significant implications for the field. Additionally, the proposed approach is technically sound and could be of interest to researchers working in the area of GAN models. Ultimately, however, the decision to accept or reject the paper is up to you.

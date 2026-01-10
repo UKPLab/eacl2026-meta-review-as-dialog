@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, I have read through the reviews for the paper titled "Unsupervised Conditional Generation using noise engineered mode matching GAN". Based on the reviews, I am trying to decide whether to accept or reject the paper. Dialogue agent, can you provide me with some general information about the paper and its type?
+
+Dialogue Agent: Certainly. The paper is a long paper that proposes modifications to GAN architecture for unsupervised conditional image generation. The authors achieve this by making the distribution of noise z dependent on variable y that can depend on the label distribution when available.
+
+Meta-Reviewer: Thanks for that information. Review 1 mentions that there are some typos and a lack of rigorous experimentation, but the approach outlined is interesting. Can you tell me more about the experimental results mentioned?
+
+Dialogue Agent: The paper presents early evidence that the method allows for latent space class separation given a prior on the number of classes. However, Review 1 notes that a little more experimental evidence would be welcome. For example, the paper could benefit from more detailed studies of how adding supervision and varying the strength of the inductive bias affects performance.
+
+Meta-Reviewer: I see. Review 2 expresses concern about the motivation and method of the paper, particularly about the definition of semantics of the data and the transformation from the latent to the observed. Can you provide me with more information on this?
+
+Dialogue Agent: Review 2 suggests that it is not clear how the "semantics" of the data were defined and whether it's possible to find it with some automated method. The reviewer also raises questions about why the transformation from the latent to the observed does not change the number of modes or why keeping the same number of modes would endow the latent distribution with a "semantics" meaning. The paper proposes simple modifications to GAN architecture for unsupervised conditional image generations, but Review 2 is not quite sure how engineering the latent distribution this way can give it a "semantics" meaning.
+
+Meta-Reviewer: Understood. Finally, Review 3 mentions that the paper is well written and easy to follow, with simple modifications to the noise distribution leading to good results for unsupervised conditional image generation. However, the paper could use more ablation studies and evaluations. Can you provide more information on this?
+
+Dialogue Agent: Yes. Review 3 suggests that the paper could benefit from ablation studies on the loss term for the z reconstruction. The reviewer also mentions that it will be useful to show FID and similar scores to better evaluate the learned generative model. Including mode counting experiments will also strengthen the paper. Additionally, Review 3 notes that ACGAN can suffer from the issue of generating images where it is easy to infer y, leading to mode collapse within each category or class. The reviewer wonders if the proposed approach will suffer from similar issues.
+
+Meta-Reviewer: Thank you for the detailed information. Based on the reviews, it's clear that the paper has some interesting ideas, but it could benefit from more experimental evidence and ablation studies. I am also concerned about the issues raised in Review 2 regarding the motivation and method. Can you tell me more about the confidence levels of the reviewers?
+
+Dialogue Agent: Well, Review 1 expressed a confidence level of 3, which means that the reviewer is fairly confident that the evaluation is correct. Review 2 expressed the same confidence level. On the other hand, Review 3 expressed a confidence level of 4, which means that the reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Meta-Reviewer: Thank you for the information. In light of the reviews, I've decided that I can accept the paper with some reservations. The authors should be encouraged to address the issues raised by the reviewers and provide additional experiments and ablations in future work.

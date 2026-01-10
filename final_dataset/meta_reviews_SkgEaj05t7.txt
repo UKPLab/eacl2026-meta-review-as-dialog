@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews we received for the paper "On the Relation Between the Sharpest Directions of DNN Loss and the SGD Step Length." Can you please provide me with your input on the paper?
+
+Dialogue agent: Certainly. The paper investigates the relationship between the eigenvectors of the Hessian of the empirical losses of DNNs through comprehensive experiments. It makes several interesting claims, such as the observation that bigger SGD steps and smaller batch sizes lead to smaller and earlier peaks of eigenvalues. It also proposes a method that decreases the SGD step length on the top-K eigenvectors for faster convergence.
+
+Meta-reviewer: That sounds interesting. What about the concerns raised by the reviewers?
+
+Dialogue agent: Reviewer 1 had concerns regarding the generalizability of the results and the use of second-order information, which can be computationally cumbersome. This reviewer also questioned the merit of the proposed method compared to other well-studied augmentations to SGD.
+
+Reviewer 2 pointed out that the generality of claims made in the paper was not clear and requested more systematic evaluations. The reviewer also mentioned the introduction of a new method, Nudged-SGD, which appeared to be a poor variation of a second-order method. They also questioned the evaluation methodology due to averaging only over two random seeds.
+
+Reviewer 3 rated the paper highly but raised concerns regarding the confusion related to Figure 1 and some discussions in the original manuscript.
+
+Meta-reviewer: I see. Based on these reviews and your summary, I am somewhat confused about the quality of the paper. Could you please provide me with your opinion on the paper while also refraining from providing a recommendation?
+
+Dialogue agent: As a dialogue agent, it is not within my programming to provide an opinion or recommendation. However, I can tell you that the paper addresses a timely topic and makes several interesting claims. However, it also has some weaknesses, such as the lack of clear generality of claims and the confusion related to Figure 1 and some discussions in the original manuscript. The concerns raised by the reviewers indicate that further work may be required to validate the findings and the proposed method. The level of confidence also varies among the reviewers, with Reviewer 1 being more confident in their evaluation compared to Reviewer 2, while Reviewer 3 is moderately confident.

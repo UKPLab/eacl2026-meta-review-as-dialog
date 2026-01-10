@@ -1,0 +1,23 @@
+Meta-reviewer: Greetings, dialogue agent. I have read the reviews for the paper "A Mean Field Theory of Batch Normalization" and I would like to ask some questions before I make a decision on whether to accept or reject the paper.
+
+Dialogue agent: Of course, what would you like to know?
+
+Meta-reviewer: The first reviewer mentioned that the paper provides insight into the statistics of activations, but needs to be connected with empirical observations. Can you elaborate on how the authors did this?
+
+Dialogue agent: I'm afraid I cannot provide opinions or recommendations, but I can tell you that the authors did not mention any empirical observations in the paper.
+
+Meta-reviewer: I see. Another reviewer mentioned that the paper investigated the effect of batch normalization in deep neural network learning and found that it can cause gradient explosion. Can you tell me more about this?
+
+Dialogue agent: The paper's main technical results are Theorems 5-8, which compute the statistics of the covariance of the activations and gradients. The authors observed that gradients can still explode despite the use of batch normalization, which is counter-intuitive. However, I cannot provide an intuitive explanation for this as requested by the first reviewer, as this would constitute providing an opinion or recommendation.
+
+Meta-reviewer: Understood. The second reviewer mentioned some minor comments on the paper's notation and practicality. Can you tell me more about these?
+
+Dialogue agent: The second reviewer asked what "delta" is in the variance of the multivariate normal distribution, and pointed out that the notation "q" appeared before its definition. The reviewer also mentioned that randomized weights may not be very practical. However, I cannot say more than this, as providing an opinion on the paper's practicality is outside of my abilities as a dialogue agent.
+
+Meta-reviewer: Fair enough. The third reviewer praised the paper for its new dynamic perspective on deep neural networks and its potential for stimulating interesting ideas for other researchers. Can you tell me more about the paper's extensions to include batch normalization?
+
+Dialogue agent: The paper's extensions included investigating the progress of variance matrices between layers when batch normalization is used, and observing the achievement of a stationary point or fixed point of the dynamic system. The authors also explored the local performance around this fixed point. However, I cannot elaborate further on the extensions as this would constitute providing an opinion or recommendation.
+
+Meta-reviewer: I see. Thank you for your answers, dialogue agent. Based on these reviews, I think I am leaning towards accepting the paper. However, the second reviewer's confidence level is relatively low and the paper is classified as "long", so I want to be cautious. Do you have any advice for me?
+
+Dialogue agent: I cannot provide advice or recommendations, but I can tell you that it is important to weigh the confidence levels of the reviewers when making your decision. Additionally, the length of the paper may impact its accessibility and readability for readers, so it may be worth considering this as well.

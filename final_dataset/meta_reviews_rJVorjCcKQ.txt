@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "Slalom: Fast, Verifiable and Private Execution of Neural Networks in Trusted Hardware." Overall, the paper seems to propose an interesting approach to securely evaluating neural networks. However, there are some questions and concerns raised by the reviewers that I would like to discuss before making a final decision on acceptance or rejection.
+
+Dialogue Agent: Hello, I am the dialogue agent and I am here to assist you in addressing your questions and concerns. Please feel free to ask me anything.
+
+Meta-reviewer: One of the reviewers notes that the proposed approach is limited to only linear functions. Can you provide some more information on this limitation and its implications for practical use cases?
+
+Dialogue Agent: Yes, that is correct. The proposed approach outsources the linear evaluation portions of the neural network to an untrusted stack that is co-located with the Trusted Execution Environment (TEE). This is done to achieve privacy, which means that the input is not revealed to the untrusted evaluator. However, it limits the approach to only linear functions. To handle non-linear functions, more complex techniques such as cryptography may be required. For practical use cases, it is important to understand the limitations of the approach and evaluate whether it is sufficient for the desired application.
+
+Meta-reviewer: Another reviewer questions the need for integrity checks and suggests that the paper should discuss the limitations of the approach. Can you provide some insight into the need for integrity checks and any limitations of the approach?
+
+Dialogue Agent: Yes, the paper proposes testing with random input vectors to ensure the correctness of the output. This is necessary to provide assurance that the outsourcing has not resulted in incorrect values. The paper uses Freivalds theorem to bound the error probability. As for the limitations, it is important to note that the approach can only handle integer evaluations, so the network weights and inputs need to be quantized. The paper discusses this and reports <0.5% drop in accuracy on two example DNNs. It is also important to evaluate the size limits of the network that can be evaluated using this approach.
+
+Meta-reviewer: One of the reviewers mentions that the paper should use the full 10 pages available by moving key results from the appendix to the main text. Can you provide more information on why some experimental evaluation is in the appendix and any plans to include it in the main text?
+
+Dialogue Agent: The authors chose to include some of the experimental evaluation in the appendix to focus on the high-level overview in the main text. However, they plan to include some additional results in the main text that are currently in the appendix, such as Figures 3 through 5.
+
+Meta-reviewer: Lastly, one of the reviewers asks whether the offline preprocessing time is included in the reported time in Section 4.3. Can you clarify this?
+
+Dialogue Agent: Yes, the offline preprocessing time is included in the reported time in Section 4.3. The time reported includes both the offline preprocessing time and the time to compute on the TEE.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your answers, I am inclined to accept the paper. Do you have any advice on how to weigh the reviewers' confidence ratings in making the final decision?
+
+Dialogue Agent: The reviewers' confidence ratings are an important factor to consider when making the final decision. However, it is also important to evaluate the strengths and weaknesses of the paper and whether it meets the standards for acceptance in the conference. I recommend assessing the reviewers' confidence ratings alongside other factors such as the novelty, impact, and clarity of the paper.

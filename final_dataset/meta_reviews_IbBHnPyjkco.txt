@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I'm reviewing a paper titled "(De-)Randomized Smoothing for Decision Stump Ensembles." Can you provide me with some information about the reviews for this paper?
+
+Dialogue Agent: Sure. The paper received three reviews. Review 1 gave a rating of 6, Weak Accept, and pointed out that the experimental results need to be further validated on more datasets. Review 2 gave a rating of 7, Accept and highlighted the impact of the paper's contributions and good evaluation. Review 3 gave a rating of 5, Borderline Accept, and argued that the contribution of the paper is incremental.
+
+Meta-reviewer: Thank you for the information. I'm concerned about the limitations mentioned in Review 1, particularly about the limited experimental results. What do you know about this issue?
+
+Dialogue Agent: Well, Review 1 suggests that the authors should conduct more experiments to assess the proposed method's effectiveness thoroughly. The concern is that the datasets used in the experimental evaluation are not sufficient. The authors must demonstrate the proposed method's robustness on more datasets to address this issue.
+
+Meta-reviewer: That's a valid concern. What about the strengths mentioned in the other reviews? Can you give me more details about them?
+
+Dialogue Agent: Sure. Review 2 highlights the impact of the paper's contribution, efficient solutions, and novel construction of robust decision tree stumps through leveraging the efficient computation of output distribution. Review 3 acknowledges the paper's good presentation but argues that the contribution is incremental. Nevertheless, Review 2 and Review 3 agree that the paper is technically solid.
+
+Meta-reviewer: I see. Based on these reviews, I'm inclined to accept the paper. However, the limited experimental results are still a concern. Can you tell me more about the paper's type, length, and area of study?
+
+Dialogue Agent: Certainly. The paper's type is long, and it belongs to the area of study concerned with robust classification. The paper proposes a method for de-randomized smoothing of decision stump ensembles to provide a robust certificate and demonstrates its effectiveness through experiments.
+
+Meta-reviewer: Thank you for the information. Based on the reviews and the paper's type and area of study, I will accept the paper.

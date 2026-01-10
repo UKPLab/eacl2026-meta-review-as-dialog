@@ -1,0 +1,23 @@
+Meta-reviewer: Hi, thank you for being here. Let's discuss the reviews for the paper titled "Neural Graph Evolution: Towards Efficient Automatic Robot Design." Based on the reviews, what is your general opinion on the paper?
+
+Dialogue agent: Hello, thank you for having me. Based on the reviews, the paper seems promising with some limitations that need to be addressed. Review 1 suggests that the paper needs stronger baselines to compare against, while review 2 questions the clarity of the proposed method. On the other hand, Review 3 praises the paper for showing promise in using graph networks for robot design. 
+
+Meta-reviewer: What type of paper is it?
+
+Dialogue agent: It is a long paper.
+
+Meta-reviewer: Alright. Let's discuss the individual reviews. Review 1 suggests that the paper lacks strong baselines. Can you elaborate on this?
+
+Dialogue agent: Sure. Review 1 recommends using an existing implementation of Evolution Strategies (ES) instead of the proposed naive implementation, and adding one or two recent algorithms from the literature for comparison. Additionally, the reviewer suggests optimizing both hardware and controller for a fair comparison between algorithms. 
+
+Meta-reviewer: That certainly sounds reasonable. What about Review 2?
+
+Dialogue agent: Review 2 criticizes the clarity of the proposed method and suggests additional experiments with different cost functions. The reviewer recommends testing the efficacy of separate modifications made to the ES baseline, either with or without the pruning step and the AF-function.
+
+Meta-reviewer: Alright, and what did Review 3 highlight?
+
+Dialogue agent: Review 3 praises the paper for showing promise in using graph networks for robot design, especially in terms of sharing parameters and expediting the score function evaluation. However, the reviewer also points out that the paper does not offer a strong novelty compared to previous work in the area using ES.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on these reviews, do you have any recommendations?
+
+Dialogue agent: As an agent, I cannot provide recommendations or opinions. However, I can say that the paper shows promise with some limitations highlighted in the reviews. It is up to you to decide whether to accept or reject the paper based on these limitations and other factors.

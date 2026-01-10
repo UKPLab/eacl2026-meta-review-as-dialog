@@ -1,0 +1,25 @@
+Meta-reviewer: Thank you for joining me. I have reviewed the three reviews and have some questions regarding the paper "BNN+: Improved Binary Network Training". Can you please start by telling me about the type of paper and its main contributions?
+
+Dialogue agent: Sure, the paper is a long one and proposes three small improvements for training binarized neural networks. The first contribution is a modified straight-through estimator, the second is a novel regularizer to push weights to +/- 1, and the third is the use of scaling factors for the binarized weights. The proposed methods significantly improve the validation accuracy on ImageNet and CIFAR-10 by just under 2 percentage points.
+
+Meta-reviewer: I see. Review 1 criticized the novelty of the paper and found the abstract to lack technical contributions. Are these three contributions significant enough to be considered novel?
+
+Dialogue agent: Well, Review 2 also mentioned that the contributions are not particularly original. However, the proposed combination of tweaks leads to state-of-the-art results. The new activation function, the SignSwish, is based on the Swish-activation from Ramachandran et al. (2018) but is modified by centering it and taking the derivative. The paper's main selling point is not originality, but rather that it achieves state-of-the-art results.
+
+Meta-reviewer: Review 2 asked about the stability of the training method. Can you elaborate on that?
+
+Dialogue agent: Unfortunately, the authors did not provide a detailed discussion of the instability, but some of the architectures did not converge. Review 2 also asked whether the authors tried implementing shortcut connections into their architecture, but I cannot comment on that.
+
+Meta-reviewer: Review 3 has some concerns regarding the clarity of the paper. In particular, the use of the SS_beta activation is unclear. Can you explain how it is used and whether it is used in the forward pass or only its derivative is used?
+
+Dialogue agent: Review 3 is correct that the paper appears to contradict itself in this regard. At the beginning of Section 3.3, the authors state that they modify the training procedure by replacing the sign binarization with the SS_beta activation, but the pseudocode suggests that they use the sign function for weight binarization and sign() as the per-layer activation. It is not entirely clear from the paper whether SS_beta is used in the forward pass at all for either the weight or activation binarization.
+
+Meta-reviewer: Okay, thank you for clarifying that. Lastly, Review 3 suggests that the paper is poorly written and confusing. What are your thoughts on that?
+
+Dialogue agent: I understand the reviewer's concerns, but I must remain neutral and not provide opinions or recommendations. However, I can repeat Review 3's suggestions that the authors run ablation experiments, compare to existing work such as [1], and evaluate on additional datasets. These tasks would help to further evaluate the proposed contributions and improve the clarity of the paper.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your answers, I believe that this paper has potential, but improvements are necessary. Considering the confidence levels of the reviewers, I am inclined towards acceptance, but I would like to see the authors address the concerns regarding clarity and additional experimentation. What is your recommendation?
+
+Dialogue agent: As a dialogue agent, I must not provide recommendations or express my opinion. I can only provide information and answer questions.
+
+Meta-reviewer: Alright, thank you for your time.

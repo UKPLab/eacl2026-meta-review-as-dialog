@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies":
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "TotalSelfScan: Learning Full-body Avatars from Self-Portrait Videos of Faces, Hands, and Bodies". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! Based on the reviews, the paper presents a new method for creating full-body avatars from self-portrait monocular videos. The proposed method specifically models the body, the head, and the hands, and the neural volumetric renderings of which are later fused together. The reviews mention that the proposed method demonstrates clear progress in neural human avatars, achieving sharp and clear renderings under novel views and novel poses.
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper has several strengths. One strength is that the proposed method demonstrates clear progress in neural human avatars, achieving sharp and clear renderings under novel views and novel poses. Another strength is that the proposed method is compared against strong existing baselines and ablated carefully. Additionally, the reviews mention that the method description could benefit from more additional details, such as the latent code, which is mentioned several times but not fully explained in the overall diagram.
+
+Meta-reviewer: I see. What are the weaknesses of the paper according to the reviews?
+
+Dialogue Agent: Based on the reviews, the paper has several weaknesses. One weakness is that the non-rigid ray transformation seems to make the texture static across view directions, which may result in unnatural color artifacts. Additionally, the reviews mention that the method description could benefit from more additional details, such as the latent code, which is mentioned several times but not fully explained in the overall diagram.
+
+Meta-reviewer: I understand. What is the overall rating and confidence level of the reviews?
+
+Dialogue Agent: Based on the reviews, the overall rating is 7: Accept, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. The confidence level is 4: You are confident in your assessment, but not absolutely certain. It is unlikely, but not impossible, that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.
+
+Meta-reviewer: Thank you for your help! I will consider these points when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there's anything else I can help with.

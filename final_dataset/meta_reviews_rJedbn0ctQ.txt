@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Zero-training Sentence Embedding via Orthogonal Basis":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Zero-training Sentence Embedding via Orthogonal Basis". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for sentence embedding based on orthogonal decomposition of the spanned space by word embeddings. The authors use a geometry-based approach to quantify the novelty, significance, and corpus-wise uniqueness of each word in a sentence, and then compute a weighted average of the word embeddings based on these scores to obtain the sentence embedding.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main novelties of the paper compared to previous work?
+
+Dialogue Agent: The main novelties of the paper are the geometrical analysis of the contribution of each word of the sentence to the sentence overall semantic meaning, and the definition of the scores that allow for improving the weighted average sentence representation. However, the idea of using word embeddings to represent sentences is not new.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper demonstrates competitive performance with other non-training methods, and the method is robust to slight changes in the hyperparameters. However, the method is not novel, and the definition of the scores could be further justified. Additionally, the length of the sentence may affect the performance of the method, and the order of the incoming vectors in the Gram-Schmidt process may be an issue.
+
+Turn 4:
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, I think the paper is marginally below the acceptance threshold. What is your confidence in the evaluation?
+
+Dialogue Agent: My confidence is 4 out of 5. The paper demonstrates competitive performance, but the novelty and justification of the method could be further improved.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. I will consider the reviews and your summary when making my final decision.

@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Few-shot Classification on Graphs with Structural Regularized GCNs":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Few-shot Classification on Graphs with Structural Regularized GCNs". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new regularization approach for graph convolutional networks (GCNs) that incorporates a transposed GCN to model the structural information of the graph. This approach is designed to improve the few-shot classification performance of GCNs.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the reviewer's concerns about the paper?
+
+Dialogue Agent: Based on the reviews, the reviewers have concerns about the presentation of the paper, specifically the lack of details on the proposed model and the effects of the regularization term. Additionally, the reviewers would like to see a more comprehensive evaluation and comparison to latest work on graph neural networks.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you tell me more about the regularization term proposed in the paper?
+
+Dialogue Agent: Sure! The regularization term is a reconstruction loss of the node features under an autoencoder. The encoder is the usual GCN, and the decoder is a transpose version of it. The approach is reasonable because the unsupervised loss restrains GCN from being overfitted with very few unknown labels.
+
+Turn 4:
+
+Meta-reviewer: That's interesting. What about the theorem presented in the paper? Is it well-received by the reviewers?
+
+Dialogue Agent: The reviewers have some concerns about the theorem. Specifically, they feel that the proof is not mathematical and the result is derived based on the ignorance of the nonlinearities of the network. The authors hide the assumption of linearity in the proof rather than stating it in the theorem.
+
+Turn 5:
+
+Meta-reviewer: I see. What about the experimental results presented in the paper? Are they well-received by the reviewers?
+
+Dialogue Agent: The reviewers have some concerns about the experimental results. Specifically, they would like to see a more comprehensive evaluation and comparison to latest work on graph neural networks. Additionally, they would like to see the accuracy distribution of GAT (Graph Attention Network) as well.
+
+Turn 6:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper has some potential but needs more work before it can be accepted.
+
+Dialogue Agent: Understood. The paper does have some strengths, such as the proposed regularization approach, but there are also some areas for improvement, such as the presentation and evaluation of the paper.

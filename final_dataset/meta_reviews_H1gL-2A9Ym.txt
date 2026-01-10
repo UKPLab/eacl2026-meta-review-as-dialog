@@ -1,0 +1,35 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Predict then Propagate: Graph Neural Networks meet Personalized PageRank":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Predict then Propagate: Graph Neural Networks meet Personalized PageRank". Can you tell me a bit about the paper?
+
+Dialogue Agent: Sure! The paper proposes a new variant of graph neural networks (GNNs) that incorporates personalized PageRank for node embedding. The authors claim that this approach can avoid the limitations of traditional GNNs, such as oversmoothing and lack of long-range dependencies.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The paper proposes two methods, PEP and PEPa, based on personalized PageRank for node embedding. The authors also compare their methods against state-of-the-art GNN-based methods and show that they can perform well using few training examples.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are some of the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper has several strengths, such as its innovative approach to node embedding and its comprehensive experimental evaluation. However, one weakness is that the authors do not compare their methods against other state-of-the-art methods that use similar approaches.
+
+Turn 4:
+
+Meta-Reviewer: That's a good point. What do you think about the experimental evaluation in the paper?
+
+Dialogue Agent: The experimental evaluation is comprehensive and covers several important points, such as data split, training set size, number of hops, teleport probability, and ablation study. However, the authors do not provide a thorough analysis of the results, which could be a limitation.
+
+Turn 5:
+
+Meta-Reviewer: I see. Based on your summary, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would recommend accepting the paper with minor revisions. The paper has several innovative ideas and a comprehensive experimental evaluation, but could benefit from a more thorough analysis of the results and a comparison against other state-of-the-art methods.
+
+Rating: 7 (Good paper, accept)
+
+Confidence: 4 (The reviewer is confident but not absolutely certain that the evaluation is correct)

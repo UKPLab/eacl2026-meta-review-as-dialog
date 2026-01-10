@@ -1,0 +1,21 @@
+Meta-reviewer: Hello there. I have read through the reviews of the paper "Q-map: a Convolutional Approach for Goal-Oriented Reinforcement Learning" and I have a few questions before deciding whether to accept or reject it. Dialogue agent, could you provide some answers based on the reviews?
+
+Dialogue agent: Certainly, I will try my best to help you make an informed decision.
+
+Meta-reviewer: The first review raises concerns about the paper's writing and clarity. Specifically, the reviewer suggests that the paper would benefit from an algorithm box or a better explanation of the methods. Can you confirm if the paper is written in a clear and understandable way?
+
+Dialogue agent: While I cannot provide my own opinion, I can say that the paper has been reviewed by our community of experts and the feedback has been taken into consideration. The authors may choose to revise the writing and presentation of their methods based on the feedback.
+
+Meta-reviewer: The same reviewer also asks for comparisons to previous work and asks for evidence of the effectiveness of the proposed exploration strategy. Can you provide any details on this?
+
+Dialogue agent: The paper discusses some related work, but the reviewer suggests that more comprehensive comparisons could be made. As for the exploration strategy, the paper provides results on some 2D maze environments, Mario, and Montezuma's Revenge, but the reviewer suggests that more thorough quantitative evaluation is required. The authors could choose to address these concerns in their revisions.
+
+Meta-reviewer: The second reviewer appears to be more critical of the paper and suggests that the architecture is not novel and requires the avatar's position during training. Can you expand on this claim and provide any additional information?
+
+Dialogue agent: According to the review, the architecture used in the paper has been used before by other authors. Additionally, the Q-map architecture requires access to the avatar's position on the screen during training, which could limit its applicability in other settings. The reviewer suggests that the paper could benefit from more challenging exploration tasks and additional ways of using the Q-map.
+
+Meta-reviewer: Finally, the third reviewer points out that the proposed exploration scheme could be unnecessarily complicated and that there are some issues with the writing and experiment results. Can you discuss these concerns?
+
+Dialogue agent: The third reviewer raises several concerns, including the complexity of the proposed exploration scheme, the lack of comparisons to similar methods, and grammar errors in the writing. The reviewer also suggests that the paper could benefit from more challenging experiments, such as environments with agents surrounded by walls, to test the Q-map's ability to learn geodesic distance with only local information.
+
+Meta-reviewer: Thank you for your responses. Based on these reviews, it seems that there are some significant concerns regarding the paper's clarity, novelty, and thoroughness of evaluation. While the idea of incentivizing exploration without changing the reward function is interesting, it appears that more work must be done to validate the claims made in the paper. Therefore, I have decided to reject the paper.

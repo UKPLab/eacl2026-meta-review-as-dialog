@@ -1,0 +1,13 @@
+Meta-reviewer: Thank you for providing your reviews of the paper "Stabilized Medical Image Attacks." From what I gather, you all have positive things to say about the paper. Reviewer 1, you expressed some concerns about the presentation of the paper but still voted to accept it. Can you elaborate more on what you thought was unclear?
+
+Reviewer 1: Yes, I think the presentation could benefit from some more visual aids. Specifically, I would like to see visuals for multiple datasets and multiple tasks. Additionally, the paper did not include information on how hyper-parameters were determined. I think including that information would add to the clarity of the paper.
+
+Meta-reviewer: Thank you for your feedback, Reviewer 1. Reviewer 2, you also voted to accept the paper, but you suggested that the title of the paper be changed to "Medical Image Attacks." Can you explain why you think the current title is misleading?
+
+Reviewer 2: Yes, I think the current title implies that the paper focuses on attacks across all medical modalities, when in reality, the paper only focuses on medical images. Additionally, the term "universal" is used several times throughout the paper, which can be misleading because the authors only tested the proposed method on three datasets. I think the title should reflect the focus on medical images to avoid confusion.
+
+Meta-reviewer: Thank you for your input, Reviewer 2. Reviewer 3, you had some really positive things to say about the paper. Can you elaborate on what you thought were the most impressive aspects of the paper?
+
+Reviewer 3: Sure, I thought the authors did an excellent job developing a novel objective function that includes two terms to produce consistent adversarial examples across several medical imaging domains. The derivation of the stabilized medical attack (SMA) loss via KL divergence was insightful and well done. The ablation study demonstrated that the proposed method results in a significantly greater reduction in model performance across medical imaging datasets compared to previous methods. Overall, the paper's methodology and empirical studies were sound.
+
+Meta-reviewer: Thank you for your review, Reviewer 3. It seems like all of you have positive things to say about the paper and voted to accept it. Based on your evaluations, I am confident in my decision to accept the paper. Thank you all for your time and thoughtful input.

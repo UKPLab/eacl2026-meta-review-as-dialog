@@ -1,0 +1,29 @@
+Meta-reviewer: Hello Dialogue Agent, thank you for speaking with me today. I have read through the reviews for the paper titled ALMA: Hierarchical Learning for Composite Multi-Agent Tasks, and I have a few questions for you.
+
+Dialogue Agent: Happy to help. What would you like to know?
+
+Meta-reviewer: First, can you tell me what type of paper this is and what the general goal of the proposed method is?
+
+Dialogue Agent: Yes, the paper is classified as long, and it proposes a method for achieving hierarchical multi-agent learning. The goal is to learn a high-level allocator network with a low-level action executor network, which can be trained to assign subtasks to each agent. The proposed method was tested on two challenging multi-agent environments and compared to baselines.
+
+Meta-reviewer: I see. One of the reviews expressed concern about the generality of ALMA. Can you tell me more about that?
+
+Dialogue Agent: Yes, the review pointed out that for different tasks, the task allocator might have different action spaces, and in some certain problems, the scheduling problem can be solved by other non-deep methods. The authors only empirically show that the proposed method is better than others without sufficient discussion.
+
+Meta-reviewer: That's a valid concern. Another reviewer mentioned the lack of baselines. Can you elaborate on that?
+
+Dialogue Agent: Certainly. The reviewer thought that in order to show the superior performance of hierarchical multi-agent learning, the paper needed to compare it against simple centralized training and decentralized execution methods. Additionally, the reviewer wanted to see a comparison in the Starcraft setting against papers like QMIX, RODE, and ROMA.
+
+Meta-reviewer: I understand. One more question for you - one review mentioned a reservation about the motivation of the problem formulation. What is your take on that?
+
+Dialogue Agent: The reviewer thought that while the related work section was helpful, it wasn't comprehensive enough to convince them of the importance of the allocator/actor framework. The reviewer suggested doing a better job in this section to prevent the paper from feeling like 'yet another MARL framework'.
+
+Meta-reviewer: Thank you for your answers. Overall, how confident are you in the assessment of this paper?
+
+Dialogue Agent: I gave this paper a rating of 6, which is a weak accept. I believe it is a technically solid paper with moderate-to-high impact, and no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. However, some of the reviewers expressed valid concerns that should be addressed.
+
+Meta-reviewer: And how confident are you in your assessment?
+
+Dialogue Agent: I gave myself a confidence rating of 5, which means I am absolutely certain about my assessment. I am very familiar with the related work and checked the math and other details carefully.
+
+Meta-reviewer: Thank you for your time and your assessment. I will take this information into consideration when making my final decision.

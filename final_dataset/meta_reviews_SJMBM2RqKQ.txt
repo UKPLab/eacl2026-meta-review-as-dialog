@@ -1,0 +1,33 @@
+Meta-Reviewer: Hello, dialogue agent. I've read the reviews for the paper "Uncertainty-guided Lifelong Learning in Bayesian Networks" and I have a few questions.
+
+Dialogue Agent: Hello, meta-reviewer. I'm here to help. What are your questions?
+
+Meta-Reviewer: First of all, can you tell me what type of paper it is?
+
+Dialogue Agent: Yes, it's a long paper.
+
+Meta-Reviewer: Thank you. Reviewer 1 mentioned some issues with the clarity of the paper. Can you provide any clarification on these points?
+
+Dialogue Agent: Of course. Reviewer 1 mentioned that some claims in the introduction were improper and that the writing could be improved. They also pointed out some typos. Regarding the specific question about equation (6), it includes three terms on the right side, but the second term does not include the third term. Both terms are needed for the equation to be correct.
+
+Meta-Reviewer: I see. Reviewer 1 also asked about the overhead memory caused by saving the binary mask. Can you provide more information on this?
+
+Dialogue Agent: Yes, saving the binary mask means saving a "partial" model. This does mean additional parameter saving, but the overhead memory, which is less than 20MB for ResNet18, is negligible given the fact that it completely eliminates the problem of forgetting.
+
+Meta-Reviewer: Okay, thanks for the clarification. Reviewer 2 had some issues with the paper's experimental results. Can you address these?
+
+Dialogue Agent: Sure. Reviewer 2 mentioned that the datasets used were very small and that stronger baselines, such as EWC, should have been considered. They also pointed out an issue with the regularization of the variance parameter in equation (6).
+
+Meta-Reviewer: I see. Can you tell me more about the regularization issue?
+
+Dialogue Agent: The paper applies regularization to the parameter of the softplus transformation used for the variance parameter, but scales it with the inverse standard deviation, which is the “classical” parameterization. The choice of parameterization was not discussed, and different parameterizations may lead to very different results.
+
+Meta-Reviewer: That's useful to know. Finally, Reviewer 3 mentioned a lack of explanation and justification for the combination of two ideas in the paper. Can you address this?
+
+Dialogue Agent: Yes, Reviewer 3 mentioned that the algorithm lacks justification in general and that more explanation is needed on how to apply the whole algorithm. They also thought that stronger baselines should have been considered for the experiments.
+
+Meta-Reviewer: Thank you for the summary. Given all these points, what is your confidence level in the evaluation of the paper?
+
+Dialogue Agent: Based on the reviews, I would estimate my confidence level as 3.5 out of 5. There are some valid concerns and suggestions, but without further information, it's difficult to say whether the paper should be accepted or rejected.
+
+Meta-Reviewer: I appreciate your honesty. Thank you for your help.

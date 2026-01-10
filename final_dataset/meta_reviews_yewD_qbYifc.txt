@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you please provide an overview of the paper and its contributions?
+
+Dialogue agent: Sure, the paper proposes a Priority Convention Reinforcement Learning (PCRL) approach to tackle large action spaces in Multi-Agent Markov Decision Processes (MMDPs) by embedding agreed priority conventions into RL. PCRL generates a sequence of actions that are lexicographically smallest, and it is evaluated on coverage planning and pong domains. 
+
+Meta-reviewer: I noticed that Review 1 commented on the writing of the paper. Can you comment on the novelty of the approach proposed by the authors?
+
+Dialogue agent: While the paper does leverage RNNs to sequentially generate Q-values for the actions, as used in some other works, the proposed equality auxiliary loss and the priority convention mechanism distinguish it. The authors claim that their approach can handle large action spaces and maintain optimality while using significantly fewer parameters.
+
+Meta-reviewer: Review 1 also mentioned that the experiments could have been designed better. Can you give me more information on this?
+
+Dialogue agent: Review 1 suggests that the authors should compare their approach against recent works that use role-based learning and centralized training decentralize execution frameworks. The authors only compare against joint-action DQN. Additionally, Review 1 suggests that the authors could have evaluated PCRL on a large-scale multi-agent RL domain like Starcraft II, which would have been more convincing.
+
+Meta-reviewer: Lastly, Review 2 was critical of the writing, the experiments, and the choice of comparisons in the paper. What are your thoughts on that?
+
+Dialogue agent: Review 2 pointed out that the paper lacks proper definitions, has abundant spelling errors, and the figures are of low quality. Additionally, Review 2 argues that the experiments are not compelling enough to compare PCRL against any standard multi-agent RL algorithm. The reviewer suggests that the authors compare their method against a relevant algorithm and provide more information on the priority convention mechanism.
+ 
+Meta-reviewer: Thank you for your responses. Based on the reviews provided, do you think we should accept or reject the paper?
+
+Dialogue agent: Review 1 was relatively positive about the approach and suggested some minor revisions, while Review 2 and Review 3 were very critical of the paper. In general, Review 2 and Review 3 have raised important concerns that need to be addressed before the paper can be published. Therefore, I recommend rejecting the paper.

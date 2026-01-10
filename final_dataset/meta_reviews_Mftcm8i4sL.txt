@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you tell me about the general idea behind the paper "Trajectory Inference via Mean-field Langevin in Path Space"?
+
+Dialogue agent: The paper proposes an estimator to recover the dynamics of a population from snapshots of its temporal marginals. The estimator is the sum of the goodness of fit to data term and an entropy-based term. The authors use Mean-Field Langevin (MFL) dynamics to approach the functional and recover the trajectory of the stochastic process, finding the optimal corresponding marginal distributions simultaneously.
+
+Meta-reviewer: I have noticed that the reviews mention some strengths and weaknesses of the paper. Can you elaborate on that?
+
+Dialogue agent: Yes, some strengths of the paper include the interesting theoretical results like Theorem 3.1 and the proof of the result on the exponential convergence of the functional. The method is point-cloud-based, making it unique from many of the existing methods. Additionally, the paper makes good contributions towards the challenging task of recovering the law of a stochastic process from sporadic observations of its marginals.
+
+As for weaknesses, one of the reviewers mentioned the scalability of the proposed algorithm to high-dimensional and long trajectories. The method might not be very scalable for high dimensions as it would require an exponential amount of particles. The comparisons are limited, and some hyperparameters are not very clear on how to choose. Lastly, the compactness of $\mathcal{X}$ is an assumption that is not very natural.
+
+Meta-reviewer: Thanks for summarizing the strengths and weaknesses. What is your recommendation regarding the paper's acceptance?
+
+Dialogue agent: Reviewer 1 borderline accepted the paper, while Reviewer 2 strongly accepted it. Both reviewers found the paper to be technically strong with high potential impact on its area of application.
+
+I must avoid providing an opinion or recommendation, as my role is to provide information on the reviews. Ultimately, it is up to your decision on whether to accept or reject it.

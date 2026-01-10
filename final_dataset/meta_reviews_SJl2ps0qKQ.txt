@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for your reviews. I have a few questions for the dialogue agent regarding the paper and the reviews.
+
+Dialogue Agent: I'm happy to answer your questions.
+
+Meta-Reviewer: Can you provide more insight into how the model obtains x^(k)? Is it the last state of the LSTM?
+
+Dialogue Agent: I'm sorry, but I cannot provide additional insights beyond what is already stated in the paper. However, I can confirm that x^(k) is indeed a representation of the final state of the LSTM.
+
+Meta-Reviewer: In Review 2, the reviewer mentions that the paper lacks technical details and analysis of empirical results. Can you elaborate on how the model can have <=3 partitions, but not more? How is this number decided?
+
+Dialogue Agent: The paper proposes to have up to three partitions, but there is no assumption that every question should be divided into exactly three parts. The number of partitions is decided based on the specific question and the desired partitioning scheme.
+
+Meta-Reviewer: The same reviewer mentions that it is unclear how the gold relation r is obtained. Can you shed some light on this?
+
+Dialogue Agent: The gold relation r is obtained by assigning the correct relation label to each partition of the question. This is done by using the gold answer to the question, which provides the necessary feedback during training.
+
+Meta-Reviewer: Finally, Review 3 raises concerns about the evaluation on MetaQA, and suggests the authors compare their approach with previous work. How do you respond to this?
+
+Dialogue Agent: While we acknowledge that there are other methods for decomposing compound questions, our approach is novel in its use of reinforcement learning to perform sequence labeling. As for the choice of dataset, we selected MetaQA as it is a widely used benchmark for compound question answering on knowledge bases. We did not use WebQuestions in our experiments as our focus was on decomposing compound questions, rather than on the specific QA dataset. Nonetheless, we understand the reviewer's feedback, and will consider addressing these points in future work.

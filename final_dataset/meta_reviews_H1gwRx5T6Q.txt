@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the title "Scaling Hierarchical Coreference with Homomorphic Compression":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper called "Scaling Hierarchical Coreference with Homomorphic Compression". Can you tell me a bit about it?
+
+Dialogue Agent: Sure! The paper addresses the problem of model scaling and efficiency in coreference resolution. It proposes a homomorphic hash function to expedite similarity calculations, and experiments show that it performs within 1 F1 point of the exact similarity model.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I noticed that the paper doesn't compare with other valid baselines. Does it fall short in that regard?
+
+Dialogue Agent: Yes, the paper does not compare with other baselines. However, it proposes some interesting ideas and has a clear presentation.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the relationship to other coreference resolution methods? Is it unclear or completely unrelated?
+
+Dialogue Agent: The paper is specific to the considered application and does not address the relationship to other coreference resolution methods. However, the proposed techniques are simple and can be effective.
+
+Turn 4:
+
+Meta-Reviewer: I'm still not convinced. Can you tell me more about the pros and cons of the paper?
+
+Dialogue Agent: Sure! The pros include simple techniques, analysis given, and convincing experimental results in the considered application. However, the cons include the specificity of the paper, potentially little impact, and an unclear relationship to other coreference resolution methods.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the paper's content, I'm leaning towards rejecting the paper. But I want to hear your final thoughts before making a decision.
+
+Dialogue Agent: Understood. In summary, the paper proposes some interesting ideas but falls short in comparison to other baselines and does not address the relationship to other coreference resolution methods. However, the proposed techniques are simple and can be effective.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews and our conversation, I'm going to reject the paper. But I appreciate your assistance in evaluating its content.

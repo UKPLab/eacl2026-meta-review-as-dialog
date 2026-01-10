@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Semi-Automating Knowledge Base Construction for Cancer Genetics":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Semi-Automating Knowledge Base Construction for Cancer Genetics". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: The paper proposes two tasks in cancer genetics domain: extracting text snippets about ascertainment and extracting reported risk estimates for different germline mutations. The authors use BERT-based sentence representation and joint learning to classify spans into entities and their relation type.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. Can you tell me more about the distant supervision used for the tasks?
+
+Dialogue Agent: The authors use manually curated KB for distant supervision. However, the reviewer points out that the distant supervision is imperfect, with many false positives. The authors address this by using noisy labels for each sentence from human-extracted snippets and converting the task to a classification task.
+
+Turn 3:
+Meta-Reviewer: I see. What about the evaluation of the paper's methodology?
+
+Dialogue Agent: The paper evaluates the proposed methods using a combination of F1 score, precision, recall, and Matthews correlation coefficient (MCC). The reviewer notes that the novelty in the method is limited, but the authors propose two meaningful tasks with real-world applications.
+
+Turn 4:
+Meta-Reviewer: That's helpful. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper proposes two challenging tasks that are critical for characterizing the findings reported in cancer genetics studies. The authors use BERT-based sentence representation and joint learning to classify spans into entities and their relation type, which performs better than SVM baselines and disjoint learning baselines. However, the reviewer notes that the novelty in the method is limited, and there isn't much new insight into the methods.
+
+Turn 5:
+Meta-Reviewer: Thank you for the information. Based on the reviews, do you think the paper is acceptable or not?
+
+Dialogue Agent: Based on the reviews, the paper is marginally above the acceptance threshold. The reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Turn 6:
+Meta-Reviewer: That's helpful. I think I have enough information to make a decision. Thank you for your help!
+
+Dialogue Agent: You're welcome! If you have any more questions or need further clarification, feel free to ask.

@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Understanding Cross-Domain Few-Shot Learning Based on Domain Similarity and Few-Shot Difficulty":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Understanding Cross-Domain Few-Shot Learning Based on Domain Similarity and Few-Shot Difficulty". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper studies the problem of cross-domain few-shot learning, and proposes two metrics, domain similarity and few-shot difficulty, to help diagnose the model performance. The authors also propose two additional pre-training strategies to improve the performance of cross-domain few-shot learning.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and structured, and the considered problem is important in the area of few-shot learning. The paper also has several observations regarding cross-domain few-shot learning.
+
+Meta-Reviewer: Okay, what are the weaknesses of the paper?
+
+Dialogue Agent: Most of the observations are not surprising, and the domain similarity in the paper is computed based on EMD, which may not reflect the actual similarity between the datasets. Additionally, the lack of visualization on the trained representation makes it hard to understand what causes the difference between self-supervised pre-training and supervised pre-training for cross-domain few-shot learning.
+
+Meta-Reviewer: I see. How do the authors address these weaknesses?
+
+Dialogue Agent: The authors provide a rebuttal addressing the concerns, and in the revised version, the authors are expected to add additional results which can greatly improve the paper.
+
+Meta-Reviewer: Alright, based on the reviews and the dialogue, I would rate the paper as borderline accept with a confidence level of 4.
+
+Dialogue Agent: Thank you for the feedback! The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.

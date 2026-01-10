@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "End-to-End Hierarchical Text Classification with Label Assignment Policy":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating the paper "End-to-End Hierarchical Text Classification with Label Assignment Policy". Can you provide a summary of the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper proposes an end-to-end hierarchical text classification approach using reinforcement learning to optimize the label assignment policy. The approach uses a label hierarchy to drive the search process over a set of labels, and the authors claim that it outperforms other structured classification methods. The main contributions include a novel label assignment policy and a new training method using reinforcement learning.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the label assignment policy and how it's different from other methods?
+
+Dialogue Agent: The label assignment policy is based on the hierarchy of labels, and it uses reinforcement learning to learn the optimal positioning of a document in the hierarchy. The policy is designed to capture the global hierarchical structure during training and prediction phases, which is different from most methods that either exploit local information or neural net approaches that ignore the hierarchical structure.
+
+Turn 3:
+
+Meta-Reviewer: I see. How does the approach handle inconsistent labeling, and what is the significance of the approach in terms of scale and impact?
+
+Dialogue Agent: The approach is designed to handle inconsistent labeling by capturing the label weighted performance using the macro-F1 measure. However, the significance of the approach is limited by the scale of the datasets considered in the paper, and the authors could evaluate against larger datasets such as the LSHTC datasets to demonstrate the impact of the approach. Additionally, the experimental evaluation seems less convincing, and the results for HRSVM for RCV1 dataset are quite different in this paper compared to the original HRSVM paper.
+
+Turn 4:
+
+Meta-Reviewer: I understand. Can you tell me more about the references related to taxonomy adaptation and label embedding methods that are missing from the paper?
+
+Dialogue Agent: The paper is missing references related to taxonomy adaptation, such as [3] and reference therein, which are based on modifying the given taxonomy for better classification. Additionally, the paper does not compare with label embedding methods such as [1,2], which can exploit label correlations and may do even better for the scale of datasets discussed.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the information provided, I would rate the paper as "4: Ok but not good enough - rejection" with a confidence level of "4: The reviewer is confident but not absolutely certain that the evaluation is correct". The paper has some novel contributions, but the scale and impact of the approach are limited, and the experimental evaluation is less convincing.
+
+Dialogue Agent: Thank you for the feedback. I will pass on the information to the authors.

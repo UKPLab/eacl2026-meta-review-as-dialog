@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read the reviews for the paper "Beyond Pixel Norm-Balls: Parametric Adversaries using an Analytically Differentiable Renderer" and would like to ask some questions to help me decide whether to accept or reject it. First of all, could you remind me of the type of paper? 
+
+Dialogue Agent: Certainly, the type of the paper is long.
+
+Meta-reviewer: Thank you. Now, Review 1 recommends acceptance, but mentions that the experimental section needs to be extended and that the results are limited to simulations on CIFAR-100 and evaluation on lab experimental data. Can you provide any additional information on these points?
+
+Dialogue Agent: I can confirm that the experimental section focuses solely on simulations on CIFAR-100 and evaluations on lab experimental data. However, as this is a long paper, it is possible that the authors may choose to extend the experimental section with additional experiments to address the concerns raised in Review 1.
+
+Meta-reviewer: Understood. Review 2 also recommends acceptance, but asks for clarifications on the novelty of the paper compared to similar approaches by Athalye and Sutskever (2017) and Zeng et al. (2017). Can you provide any clarification on this?
+
+Dialogue Agent: As a dialogue agent, I must refrain from providing opinions or recommendations. However, I can confirm that the authors have addressed this concern in their rebuttal and provided additional comparisons and discussions with the most relevant methods.
+
+Meta-reviewer: Thank you for letting me know. Lastly, Review 3 is marginally in favor of acceptance, but notes that the method can only compute synthetic adversary examples, unlike state-of-the-art methods. Can you elaborate on this?
+
+Dialogue Agent: The authors indeed point out that their method can only compute synthetic adversary examples, as opposed to some of the state-of-the-art methods that modify the image directly in the pixel space. However, the authors argue that their method generates more realistic attacks that simulate real-life scenarios.
+
+Meta-reviewer: Thank you for the information. One final question: how confident are the reviewers in their evaluations?
+
+Dialogue Agent: Reviewer 1 and Reviewer 2 express confidence levels of 4 out of 5. Reviewer 3 expresses a confidence level of 3 out of 5.
+
+Meta-reviewer: Thank you for your help. Based on the reviews, it seems that the paper has some strengths and interesting contributions, but also some limitations and areas for improvement. I will take these into account when making my decision.

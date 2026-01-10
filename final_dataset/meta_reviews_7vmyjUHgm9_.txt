@@ -1,0 +1,19 @@
+ Sure, I'd be happy to help you with that! Here's a simulation of a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Dialogue Agent: Hello! I'm here to help you with your review of the paper "Less-forgetting Multi-lingual Fine-tuning". What would you like to know?
+
+Meta-Reviewer: Well, I'm having a hard time understanding the main contribution of the paper. Can you summarize it for me?
+
+Dialogue Agent: Sure! The paper proposes a method for maintaining multilinguality under fine-tuning when a set of languages is used for fine-tuning. The core idea is to maintain crosslingual generalization by finding updates that are deviating not too much from the original pretrained model and its loss, and those that many languages benefit from.
+
+Meta-Reviewer: That sounds interesting, but I'm not sure if it's significantly better than existing methods. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: Certainly! The paper has several strengths, including a novel approach to maintaining multilinguality under fine-tuning, and the use of a theoretically motivated loss function. The authors also provide thorough experimental results on several downstream tasks. However, the paper also has some weaknesses, such as a lack of clarity in the introduction and a limited evaluation.
+
+Meta-Reviewer: Hmm, I see. Can you tell me more about the limitations of the paper?
+
+Dialogue Agent: Sure! The paper does not discuss the size of labelled data for each of the multilingual cases, and it does not provide a detailed comparison to all-language fine-tuning. Additionally, the authors do not address the significance tests and limitations of the proposed method.
+
+Meta-Reviewer: Thank you for the information. Based on what you've told me, I think I'll need to carefully review the paper and consider the limitations before making a final decision.
+
+Dialogue Agent: Of course! I'm here to help if you have any further questions or need any additional information. Good luck with your review!

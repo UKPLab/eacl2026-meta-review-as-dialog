@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with $1/n$ Parameters":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Beyond Fully-Connected Layers with Quaternions: Parameterization of Hypercomplex Multiplications with $1/n$ Parameters". Can you tell me a bit about the paper and its contributions?
+
+Dialogue Agent: Sure! The paper proposes a new approach to deep learning model architecture that incorporates hypercomplex multiplications. The authors claim that this approach can reduce the number of parameters while maintaining performance. The paper also provides empirical validation of the proposed approach on several NLP tasks.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the hypercomplex multiplications and how they are parameterized?
+
+Dialogue Agent: Certainly! The authors propose a novel way of parametrizing hypercomplex multiplications, which enables the model to discover new operations rather than relying on predefined multiplication operations. The proposed method uses a sum of Kronecker products to parameterize the hypercomplex multiplication operations.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the practical benefits of this parametrization, particularly in comparison to other ways of reducing parameters, such as matrix factorization?
+
+Dialogue Agent: The authors claim that the proposed method can substantially reduce the number of parameters without reducing performance, and in some cases, even improve performance. Additionally, the proposed method can also improve inference speed. However, the specific contribution of this paper is the parameterization of the multiplication operation, and the evidence presented does not make a strong case for the necessity of this parameterization.
+
+Turn 4:
+
+Meta-reviewer: I understand. Can you tell me more about the empirical validation of the proposed approach?
+
+Dialogue Agent: The authors provide empirical validation of the proposed approach on several NLP tasks, including NLI, MT, text style transfer, etc. They show that the PHM-variants of LSTM and Transformer match or outperform their vanilla counterparts while reducing the total number of model parameters. However, the evidence presented does not make a strong case for the necessity of this parameterization.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper has some interesting contributions, but the evidence presented does not make a strong case for the necessity of this parameterization. I'm rating this paper as a 7, because I find it to be a solid paper but worry that its contribution on top of the existing work that has studied hypercomplex operations may be too small.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

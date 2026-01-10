@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "EXPLORATION OF EFFICIENT ON-DEVICE ACOUSTIC MODELING WITH NEURAL NETWORKS":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "EXPLORATION OF EFFICIENT ON-DEVICE ACOUSTIC MODELING WITH NEURAL NETWORKS". Can you tell me a little bit about the paper?
+
+Dialogue Agent: Sure! The paper discusses applications of variants of RNNs and Gated CNN to acoustic modeling in embedded speech recognition systems, and the main focus is on computational (memory) efficiency when deploying the system.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main findings of the paper?
+
+Dialogue Agent: The paper presents four approaches for efficient acoustic modeling using neural networks, and evaluates them on WSJ and TIMIT corpora. The results show that the inference speed is improved with comparable or better performance than the standard LSTM model.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper provides a comprehensive exploration of efficient acoustic modeling techniques, and the results are well-presented. However, the novelty of the approaches may be limited, and the reported WERs on WSJ and phoneme classification accuracy are quite off.
+
+Turn 4:
+
+Meta-reviewer: I see. What do you think about the relevance of the paper to the current state of the art in speech recognition?
+
+Dialogue Agent: The paper's focus on computational efficiency and on-device acoustic modeling is relevant to current trends in speech recognition, but the novelty of the approaches may be limited.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your input. Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews, I would recommend rejecting the paper due to the limited novelty and the reported WERs being quite off.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your input. I will consider your assessment and make a final decision.
+
+The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points. The meta-reviewer may ask follow-up questions based on the dialogue agent's responses.

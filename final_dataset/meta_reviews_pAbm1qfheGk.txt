@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning Neural Generative Dynamics for Molecular Conformation Generation":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Learning Neural Generative Dynamics for Molecular Conformation Generation". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a generative dynamics system for modelling and generating 3D conformations of molecules. The system consists of three components: conditional graph continuous flow, a closed-form distribution, and an energy-based tilting model.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the evaluation of the paper?
+
+Dialogue Agent: Sure! The authors compare their method with two deep learning methods for conformation generation, CVGAE and GraphDG, as well as the computational chemistry tool RDKit on three datasets: GEOM-QM9, GEOM-Drugs, and ISO17. The results show that the proposed method outperforms baselines in terms of COV and MAT scores.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the major novelty and strengths of the paper?
+
+Dialogue Agent: The major novelty of the paper is the use of continuous flow to model the conditional distribution of distances and an energy-based model to correct the conditional distribution of positions. The strengths of the paper include the well-motivated and creative modeling, the use of recent advancements in EBMs, and the strong baselines.
+
+Turn 4:
+
+Meta-Reviewer: Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: The weaknesses of the paper include the fact that it does not yet approach RDKit in terms of performance, and the limited number of tasks and datasets investigated. Additionally, the paper attributes the advantage in RDKit to its inclusion of a force field, but the experiment in the paper does not result in a significant change in their model's performance.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper is marginally above the acceptance threshold. What is your assessment?
+
+Dialogue Agent: Based on the reviews, I agree with the assessment. The paper presents a creative and well-motivated approach to generating molecular conformations, but the evaluation feels preliminary compared to earlier works.
+
+Meta-Reviewer: Thank you for your help! I will consider your assessment in my decision.

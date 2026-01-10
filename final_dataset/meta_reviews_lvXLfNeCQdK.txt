@@ -1,0 +1,23 @@
+Meta-Reviewer: Thank you for your reviews. Based on your evaluations, it seems that Review 1 is in favor of accepting the paper, while Review 2 suggests rejection. Review 3 has some concerns but seems open to reconsidering. 
+
+Dialogue Agent: Thank you for summarizing the reviews. I understand that Review 1 has a question regarding Figure 1, specifically the mathematical definition of "variation" and the relationship between unstable ReLUs and curvature. They also suggest including training time in the comparison of methods. 
+
+Regarding Review 2, they raise several concerns regarding the central claim, experimental results, and comparison to the state of the art. They also suggest that the theoretical justification and experimental results are not significant enough to recommend acceptance.
+
+Finally, Review 3 appreciates the paper's contribution to the problem and the proposed optimization of the lower bound in CROWN relaxation for unstable ReLU neurons. However, they also have some concerns about the justification of the proposed method, comparison with related work, and improvement compared to the state of the art.
+
+Meta-Reviewer: That's a good summary. Given the mixed feedback, I have some questions for the Dialogue Agent. Can you explain the central claim of the paper and the evidence for it? 
+
+Dialogue Agent: Certainly. The central claim is that the smoothness of loss landscape is a driving force behind performance in certifiable training methods. The authors propose a new training method that optimizes the lower bound in CROWN relaxation for unstable ReLU neurons to achieve a smoother loss landscape. The evidence for the claim comes from Theorem 1, which shows that IBP loss is smoother than other methods under certain assumptions, and numerical studies that demonstrate improved performance and loss smoothness with the proposed method compared to other methods.
+
+Meta-Reviewer: I see. Review 2 suggests that the experimental results do not meaningfully outperform prior work, and the connection between the motivation and the proposed method is not well justified. Could you address these concerns? 
+
+Dialogue Agent: While it is true that the proposed method does not significantly outperform the state of the art, the numerical studies do demonstrate improved performance and loss smoothness. In terms of connection between motivation and the proposed method, paragraph "Favorable Landscape" explains the relationship between optimizing the lower bound in relaxation and improving loss landscape. The benefit comes from preferring dead ReLU neurons to unstable ones, which leads to a smoother loss landscape. We did not compare with Xiao et al., 2018, as suggested by Review 3, but we will consider adding a discussion or comparison with them in the revised version.
+
+Meta-Reviewer: That's helpful. Review 1 and Review 3 have some concerns about the comparison with other methods and related work. Could you address these concerns as well? 
+
+Dialogue Agent: Regarding Review 1's concern about including training time in the comparison of methods, we will consider adding this comparison in the revised version. As for related work, we will include a discussion or comparison with Xiao et al., 2018, as suggested by Review 3. 
+
+Regarding Review 2, we acknowledge that the paper could have discussed more related work, including the work by Fastened CROWN. However, we believe that the proposed method is still novel in optimizing the lower bound in CROWN relaxation for unstable ReLU neurons, and our analysis is unique in comparing the loss landscape smoothness of different methods. We will make sure to discuss the comparison with Fastened CROWN in the revised version.
+
+Meta-Reviewer: Thank you for addressing these concerns. Based on your responses and the reviews, I suggest a minor revision to add comparisons with other methods and related work, as well as the inclusion of training time in the comparison of methods. Overall, I think the paper has potential and can be accepted with revisions.

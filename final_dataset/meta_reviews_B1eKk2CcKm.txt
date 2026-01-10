@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, can you give me an overview of the paper and its main contributions?
+
+Dialogue agent: The paper proposes an unsupervised method for learning vector representation for short genomic sequences called kmers. The method learns a representation that predicts kmer counts from the kmer sequence itself. The main contribution is novel application of word2vec-inspired embedding approach to genomics.
+
+Meta-Reviewer: There are two reviews with considerably different ratings. What is your take on the reviews and their confidence levels?
+
+Dialogue agent: Review 1 rated the paper as "Ok but not good enough - rejection" with a confidence level of 4, while Review 2 gave a rating of "Strong rejection" with a confidence level of 5. Review 3 provided a rating of "Marginally below acceptance threshold" with a confidence level of 4. 
+
+Meta-Reviewer: Can you elaborate on the specific concerns mentioned in each review?
+
+Dialogue agent: Review 1 appreciated the paper's goal to dig deeper into raw RNA-seq data, but found the developed algorithm limited in novelty and scalability for genome-wide analysis. Moreover, the experimental settings used in the paper did not support the claims made.
+
+Review 2 criticized the paper's narrow and incomplete view of commonly used modern RNA-seq tools/pipelines and their application/use in biomedical research, the computationally intractable method that is unlikely to scale to the genome-wide context, and the experiments that lacked context to the existing literature and were not annotation-free. 
+
+Review 3 pointed out several issues with the proposed method's design, such as the weakness of finding an embedding that identifies count given a kmer, the lack of representation learning for each individual, and no quality measures for the embedding. There were also some minor typos and issues in the presentation of the paper.
+
+Meta-Reviewer: How do the reviews weigh on the overall decision to accept or reject the paper?
+
+Dialogue agent: Review 2 rated the paper as a strong rejection, which strongly suggests that the paper should not be accepted. However, Review 1 and Review 3 provided less robust evaluation ratings, indicating a possibility that the paper could be improved with revisions. The meta-reviewer will need to decide whether to accept or reject the paper based on all the reviews and their confidence levels.

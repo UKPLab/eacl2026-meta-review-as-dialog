@@ -1,0 +1,27 @@
+Meta-Reviewer: Hello, I have reviewed the three reviews for the paper entitled "Towards GPU-driven Code Execution for Distributed Deep Learning". Based on the reviews, it seems that the paper has some strengths and weaknesses. I want to discuss with you about the paper and decide whether it's acceptable or not.
+
+Dialogue Agent: Hello, I'm here to assist you. What would you like to know?
+
+Meta-Reviewer: Could you briefly explain the paper's main contribution?
+
+Dialogue Agent: Sure. The paper proposes a GPU-driven DMA method to communicate data between GPUs in distributed deep learning to save latency and increase throughput. The authors show two types of techniques, G-Drv-S, and G-Drv-H, and evaluate their effectiveness through an end-to-end training of BERT.
+
+Meta-Reviewer: What are the strengths of the paper?
+
+Dialogue Agent: Review 1 and Review 2 both mention that the paper is well-written, clear, and convincing. They appreciate the authors presenting different techniques, and the real-system evaluation results. Particularly, Review 2 mentions that the paper provides valuable information for both software and hardware optimization.
+
+Meta-Reviewer: What are the weaknesses of the paper?
+
+Dialogue Agent: Review 1 raises some concerns about the evaluation of DNN models, which the authors demonstrate only one model. And, there's inconsistency in the text and evaluation regarding evaluating expert-parallelism DNN models. Review 1 also mentions that the novelty part needs to be stated more clearly, and there are too many acronyms in the paper. Review 3 indicates that the proposed DMA engine design requires better clarification, more thorough evaluation, and clarification regarding the experimental setup.
+
+Meta-Reviewer: Thank you for the summary. Based on these reviews, do you think the paper is acceptable?
+
+Dialogue Agent: Review 1 recommends acceptance of the paper, but with a confidence level of 2, indicating the possibility that the reviewer did not understand central parts of the paper. Review 2 also recommends acceptance, with a confidence level of 3. Review 3 suggests that the manuscript requires significant improvement, providing feedback on design, evaluation, and comparison with prior work, and gives a rating of 5, marginally below the acceptance threshold. 
+
+Meta-Reviewer: I see. In making my final decision, I need to weigh the opinions of the reviewers and their confidence. Based on these reviews, I have some doubts about the paper's evaluation and clarity of the proposed DMA engine design. However, the paper's contribution is important, and the reviews don't suggest any severe issues that can't be addressed through a revision. Therefore, I think it is acceptable to give the authors a chance to fix the issues pointed out by the reviewers and resubmit their manuscript.
+
+Dialogue Agent: I understand. I hope my responses were helpful. Do you have any other questions?
+
+Meta-Reviewer: No, that's all. Thank you for your assistance.
+
+Dialogue Agent: You're welcome. Good luck with your decision.

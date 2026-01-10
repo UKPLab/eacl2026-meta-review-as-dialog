@@ -1,0 +1,29 @@
+Meta-reviewer: Thank you for joining me today. I would like to start by discussing the reviews for the paper titled GALOIS: Boosting Deep Reinforcement Learning via Generalizable Logic Synthesis. The paper is a long type and the reviewers have provided some insightful feedback. Based on the reviews, what is your assessment of the paper?
+
+Dialogue agent: Thank you for having me. Based on the reviews, the paper seems to be technically solid and of moderate-to-high impact with no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. All three reviewers have rated the paper as a Weak Accept with a rating of 6.
+
+Meta-reviewer: That sounds promising. Can you provide me with a summary of the contributions of the paper?
+
+Dialogue agent: The paper introduces GALOIS, a domain-specific language (DSL) synthesis framework for reinforcement learning that combines both imperative and declarative programs. It takes in a sketch of proof, in the form of an inter-procedural control flow graph, then fills in the "holes" in the graph via synthesizing declarative programs. The contributions include a new DSL for synthesizing a hierarchical program, a synthesize algorithm using this DSL, and evaluations comparing GALOIS and various baselines, showing GALOIS has better performance.
+
+Meta-reviewer: Reviewer 1 discusses the novelty of the approach and raises some concerns regarding the limitations of the evaluations. Could you shed some light on that?
+
+Dialogue agent: Reviewer 1 rates the originality and significance of the paper as 3/5. They appreciate the paper's focus on causal-effect by combining the imperative program and declarative program, which has not been studied before. However, they express concerns regarding the evaluation of the paper. While the paper shows a variety of baseline comparisons on the box task, the environment only evaluates the "box-world" environment and not another one. Reviewer 1 asks what the user input and difficulties would be to adapt this approach to another setup. They also request more clarity in the formalization and suggest providing a running example.
+
+Meta-reviewer: Reviewer 2 shows appreciation for the proposed approach but raises some concerns. Could you elaborate on that?
+
+Dialogue agent: Reviewer 2 rates the paper as a weak accept with a rating of 6. They appreciate the overall approach and find it impressive that it enables us to synthesize a logical program directly instead of distilling it from a trained RL agent. However, they raise several concerns regarding certain parts of the paper and some details that are not clear. They suggest providing some initial assumptions, such as the DSL used and how the baselines are trained, which are needed to understand the impact of GALOIS over DNN counterparts. Additionally, they suggest investigating how to learn program-based policies informed by a causality notion. Lastly, they suggest that some initial assumptions are required to define a good set of atoms.
+
+Meta-reviewer: Reviewer 3 seems to be appreciative of the contribution but has some questions. Could you provide me with more information on that?
+
+Dialogue agent: Reviewer 3 rates the paper as a weak accept with a rating of 6. They appreciate the overall contribution of the paper and how it represents the policy as a hierarchical logic program, which has a lot of benefits. However, they question how large the program search space is for each task and suggest that the paper's comparison to MPPS is a bit unfair since MPPS does not leverage a program sketch that already contains conditionals and loops. Reviewer 3 also raises questions regarding how the sub-goals are predicted in the first code block and how GALOIS would work on other benchmarks.
+
+Meta-reviewer: Thank you for the detailed summaries of the reviews. Based on the reviews, what is your recommendation for this paper?
+
+Dialogue agent: Based on the reviews, I would recommend accepting the paper as it seems to be technically solid with moderate-to-high impact and no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. All three reviewers have rated the paper as a Weak Accept with a rating of 6.
+
+Meta-reviewer: Thank you for your input. To make the final decision, I need to consider the confidence levels of the reviewers. Could you provide me with that?
+
+Dialogue agent: Reviewer 1 has a confidence level of 3, indicating they are fairly confident in their assessment. Reviewer 2 has a confidence level of 2, indicating they are willing to defend their assessment, but it is quite likely that they did not understand the central parts of the submission or unfamiliar with some pieces of related work. Reviewer 3 has a confidence level of 5, indicating they are absolutely certain about their assessment and are very familiar with the related work and checked the math/other details carefully.
+
+Meta-reviewer: Thank you, based on the reviews and the confidence levels, I have decided to accept the paper.

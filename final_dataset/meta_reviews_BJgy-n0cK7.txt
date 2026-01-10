@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Inter-BMV: Interpolation with Block Motion Vectors for Fast Semantic Segmentation on Video". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The authors propose a novel feature interpolation method using block motion vectors (BMV) for fast semantic segmentation on video. The method combines the block motion vectors for feature warping, bi-directional propagation, and feature fusion, which leads to improved performance and reduced computational cost.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. However, I have some concerns about the paper. The first concern is that the block motion vectors may be rough estimates, which could damage the performance of the task. What do you think about this?
+
+Dialogue Agent: The authors address this concern by discussing the limitations of the block motion vectors and their impact on the performance. They also provide a detailed analysis of the block motion vectors and their relationship with the semantic segmentation task.
+
+Turn 3:
+
+Meta-Reviewer: Okay, that's good to know. My second concern is that the authors don't provide sufficient technical details about the method. For example, they mention that the task network is built by concatenating three components, but they don't clarify what these components are. Can you help me understand this?
+
+Dialogue Agent: Yes, the authors do not provide detailed technical descriptions of the method in the paper. However, they do provide a detailed algorithm and experimental results to support their claims. The task network is built by concatenating three components: the feature propagation network, the feature fusion network, and the prediction network.
+
+Turn 4:
+
+Meta-Reviewer: I see. My final concern is that the paper does not provide a comprehensive comparison with other baselines. The authors only compare their method with one recent, closely related work. Can you help me understand why this is the case?
+
+Dialogue Agent: The authors mention that they only compare their method with one recent, closely related work because they focus on the novelty and effectiveness of their proposed method. They also mention that their method is based on a different approach than the other baselines, which makes it difficult to compare directly. However, they do provide a detailed analysis of the experimental results and show that their method outperforms the state-of-the-art method in terms of computational cost and performance.
+
+Output:
+
+Based on the dialogue, the meta-reviewer is marginally below acceptance threshold and confident about the evaluation. The dialogue agent presents summarized answers based on the reviews, refraining from opinions or recommendations. The meta-reviewer may ask follow-up questions and weigh the importance of reviewer confidence in making a final decision.

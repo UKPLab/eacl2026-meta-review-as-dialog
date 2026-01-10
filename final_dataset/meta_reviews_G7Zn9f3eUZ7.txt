@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you provide me with a summary of the paper's reviews?
+
+Dialogue agent: Certainly. Review 1 praises the paper's well-written approach to addressing mistake severity in neural networks with semantic knowledge. However, the reviewer expresses concern about using semantic similarity to measure mistake severity. Review 2 finds the methodology too generic and lacking in empirical evidence. The reviewer suggests that the paper weakens its claim and includes more related research. Review 3 commends the interesting use of targeted adversarial training in increasing semantic similarity but raises concerns about the paper's experiment setup.
+
+Meta-reviewer: Thank you for the summary. Based on these reviews, it seems like there are mixed opinions on the paper's quality. Which review do you think carries the most weight?
+
+Dialogue agent: I cannot provide an opinion or recommendation. However, review ratings and confidences can give you an idea of the reviewers' evaluation and confidence in their assessment. Review 1 has a rating of 6 and a confidence level of 3, as does Review 3, indicating that both reviews are marginally above the acceptance threshold. Review 2, on the other hand, has a rating of 4 and a confidence level of 3, suggesting that the review deems the paper not good enough for acceptance.
+
+Meta-reviewer: Hmm, that is helpful information. In this case, I think I will pay more attention to the reviewers that rated the paper marginally above the acceptance threshold. However, I also noticed that Review 1 expressed a major concern about the paper's methodology. Can you elaborate more on that concern?
+
+Dialogue agent: Review 1 notes that mistake severity should depend on downstream tasks and not just semantic similarity. Using semantic similarity alone can lead to biased results and inadequate assessment of mistake severity. The reviewer suggests that including discussion related to training complexity and time could be beneficial.
+
+Meta-reviewer: I see. That is a significant concern. On the other hand, Review 3 finds the proposed methodology interesting. Could you provide me with more information about the experiment setup mentioned in that review?
+
+Dialogue agent: Review 3 asks for more details on the experiment setup, including the training details and evaluation metrics. The reviewer also suggests including more examples in Figure 1.
+
+Meta-reviewer: Alright. Given these reviews, I think I need more information to make a final decision. However, these reviews are helpful and raise some significant concerns that the paper needs to address. Thank you for your help in providing the summary and additional information.
+
+Dialogue agent: You're welcome. I am always happy to help.

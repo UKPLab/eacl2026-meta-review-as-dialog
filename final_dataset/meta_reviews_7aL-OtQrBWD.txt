@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, dialogue agent. I'm reviewing the paper "A Learning Theoretic Perspective on Local Explainability" and I have some questions regarding the reviews.
+
+Dialogue Agent: Hello, Meta-Reviewer. How can I assist you?
+
+Meta-Reviewer: I noticed that Reviewer 1 gave a rating of 5, which is marginally below the acceptance threshold. Can you provide more details on why the rating is low?
+
+Dialogue Agent: Reviewer 1 finds the idea of the paper interesting, but there is no solid or convincing proof and empirical experiments for supporting the claims made in the paper, except for a toy example in the appendix. Also, the experimental section doesn't show how the proposed MNF-based method can gain an advantage over existing NF-based local interpretation models like LIME and MAPLE in terms of better explanation. Reviewer 1 also suggests that the authors can improve readability.
+
+Meta-Reviewer: I see. And what about Reviewer 2? They gave a rating of 7. What are their comments?
+
+Dialogue Agent: Reviewer 2 thinks that the main contributions of the paper are useful and provide new insights in learning theory. However, they suggest that the authors explain more clearly why the MNF notion is required and that they provide more details on the significance of the Rademacher complexity. Reviewer 2 also points out that the paper could be more applicable to explainability-focused readers.
+
+Meta-Reviewer: I see. And finally, what are Reviewer 3's comments?
+
+Dialogue Agent: Reviewer 3 thinks that the paper is well-written and outlines several useful properties of local explanations. However, the results might not be immediately applicable to some users of local explanations who use the NF notion of fidelity instead of MNF. Reviewer 3 also suggests that the authors reconsider their assertion that investigating notions of local explanations that can repeatedly sample nearby points is not useful.
+
+Meta-Reviewer: Thank you for the summary, dialogue agent. Given these reviews, I think we can accept the paper, but the authors should address the reviewers' concerns and suggestions to improve the quality of the paper.

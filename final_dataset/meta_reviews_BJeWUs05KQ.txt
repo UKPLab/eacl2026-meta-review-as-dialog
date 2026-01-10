@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for being here today. I am looking to make a decision on whether to accept or reject a paper titled "Directed-Info GAIL: Learning Hierarchical Policies from Unsegmented Demonstrations using Directed Information". Can you tell me a bit about the reviews?
+
+Dialogue Agent: Of course. There were three reviews for this long paper. Review 1 had several questions, including the effect of models of the underlying distribution of latent codes and whether the VAE should have a recurrent generator. Review 2 asked for more details about the hyperparameters and if the authors had tried pre-training the model as a Variational RNN. They also commented on the weak experiments and suggested investigating more complex environments. Review 3 praised the paper's approach and experimental results but raised questions about the dimensionality of the context variable and the meaningfulness of sub-task segmentation.
+
+Meta-reviewer: Thank you for that summary. Given these reviews, what would you say is the overall rating and confidence level for acceptance of the paper?
+
+Dialogue Agent: The overall rating ranges between 6 and 8, indicating that the paper is marginally above the acceptance threshold or in the top 50% of accepted papers. However, the confidence levels range from 4, indicating that the reviewers are confident but not absolutely certain that their evaluations are correct.
+
+Meta-reviewer: I see. Based on these reviews, it seems like there are some concerns about the experiments and the model architecture. Could you provide more insight into the concerns raised by Review 1?
+
+Dialogue Agent: Review 1 had several questions about the effect of models of the underlying distribution of latent codes, missing previous works, and the use of VAE. Specifically, they questioned why the current results only provide a single dimensional categorical distribution as latent codes and suggested that the authors should clarify the mathematical intuition of the VAE. Additionally, they raised the issue of missing important earlier works that seemed to solve a similar problem and suggested a comparison would be useful.
+
+Meta-reviewer: Thank you for that clarification. How about the experiments? Can you elaborate on the concerns raised by Review 2?
+
+Dialogue Agent: Review 2 commented on the weak experiments, as the experiments were conducted on simplistic and toyish tasks. The review suggested investigating more complex environments such as dm_control or manipulation suite, particularly for tasks where there is a clear hierarchy to investigate. Additionally, Review 2 had several questions about the hyperparameters and whether the authors had tried pre-training the model as a Variational RNN.
+
+Meta-reviewer: And lastly, can you tell me more about Review 3's comments on the meaningfulness of sub-task segmentation?
+
+Dialogue Agent: Reviewer 3 noted that the learned contexts do not necessarily correspond to meaningful sub-tasks, as shown by the example of circle-world. They suggested the paper needs to provide evidence that the approach is relatively independent on the dimensionality of the context variable and how to ensure a meaningful sub-task segmentation.
+
+Meta-reviewer: Thank you very much for your responses. Based on these reviews and their concerns, I will need to weigh the importance of reviewer confidence and the quality of the paper before making my final decision.

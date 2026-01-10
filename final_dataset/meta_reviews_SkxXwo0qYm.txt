@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, I have reviewed the three reviews of the paper "An Automatic Operation Batching Strategy for the Backward Propagation of Neural Networks Having Dynamic Computation Graphs" and I'd like to discuss their findings with you.
+
+Dialogue agent: Of course, how can I assist you?
+
+Meta-reviewer: Firstly, Review 1 mentions that the feed forward and backward computation can be viewed as a single computation graph. Is there any clarification or discussion in the paper that addresses this point?
+
+Dialogue agent: The paper does not explicitly address this point but it is implied that the authors are aware of the possibility. They argue that a separate batching strategy should be applied to the back propagation computation to further improve efficiency. 
+
+Meta-reviewer: Secondly, Review 2 mentions that the proposed method is not effective in all cases, and suggests a need for further discussions about when to use the proposed method. Is there any explanation or analysis on this in the paper?
+
+Dialogue agent: The paper does mention that the proposed method is effective under certain conditions, but does not go into detail about when exactly to use it. Our job as a dialogue agent is to provide information based on the reviews and content of the paper rather than opinions or recommendations.
+
+Meta-reviewer: Alright. Review 3 brings up a few concerns with the paper, such as the potential increase in memory consumption and the lack of clarity in the writing. Have these issues been addressed in the paper?
+
+Dialogue agent: These issues have not been explicitly addressed in the paper, but the authors do mention the trade-off between delaying computations and increasing peak memory usage. As for the writing, it is true that the paper could benefit from improved clarity.
+
+Meta-reviewer: Lastly, I'd like to consider the ratings and confidence levels of the reviewers. Review 2 has the highest rating, but the lowest confidence level. How important is the level of confidence when making a decision on whether to accept or reject a paper?
+
+Dialogue agent: It ultimately depends on the importance and impact of the paper. In this case, given that the paper is of the "long" type and the reviews are not overwhelmingly positive, a higher confidence level would certainly be ideal in making a decision.
+
+Meta-reviewer: Thank you for your input. Based on these reviews and our discussion, I think it would be best to reject the paper. The issues raised by the reviewers, particularly in terms of clarity and applicability, make it difficult to justify acceptance. 
+
+Dialogue agent: Understood. Thank you for considering the reviews and making an informed decision.

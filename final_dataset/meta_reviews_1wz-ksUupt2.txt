@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the paper "Optimal Query Complexities for Dynamic Trace Estimation." Can you provide me with a brief summary of the paper's contributions?
+
+Dialogue Agent: Certainly, the paper studies the problem of trace estimation for matrices in a dynamic setting, where the matrices are given in an online manner, with consecutive differences bounded by alpha in Schatten norms. The paper provides upper and lower bounds for trace estimation under Schatten p-norm with p in the range [1,2]. Specifically, the paper improves the parameter dependences for Schatten 1-norm compared to the prior best-known result in NeurIPS 2021, achieves the same bounds as the previous result in the Schatten 2-norm case, and proves matching lower bounds for static and dynamic trace estimation via reductions to communication complexity and information-theoretic analyses of Gaussian matrices. Additionally, the paper provides detailed numerical experiments on synthetic and real data to validate the algorithms' performance.
+
+Meta-reviewer: Thank you for the summary. Can you tell me what the strengths of the paper are?
+
+Dialogue Agent: The paper is technically sound and provides notable technical contributions, including tight bounds for the dynamic version of the trace estimation problem, matching lower bounds, and new techniques for proving these bounds. The paper's results have implications for numerical linear algebra and machine learning, making the paper highly significant and original in its contributions. The paper is also clearly written and provides detailed numerical experiments, making it easy to understand and evaluate.
+
+Meta-reviewer: That sounds impressive. Can you tell me about any weaknesses or areas for improvement?
+
+Dialogue Agent: One weakness is a lack of clear motivation for studying the Schatten p-norm in the range (1,2) and the real-world scenarios where slow-changing matrices need to be estimated. The paper could benefit from further articulation on these points. The paper could also improve its discussion of related work by providing a detailed comparison to the paper by Sun et al. in ICALP 2019 and the paper by Braverman et al. in COLT 2020. Finally, the paper contains some minor typos, and the authors could consider discussing potential negative societal impacts briefly, even if none are explicitly applicable.
+
+Meta-reviewer: These are valid points. Overall, what is your rating for this paper, and what is your confidence level in your assessment?
+
+Dialogue Agent: Based on the paper's technical contributions and clarity of exposition, I would rate this paper a 7 out of 10, indicating it is a good paper and should be accepted. My confidence in this assessment is at level 3, indicating that I am fairly confident but that some areas may require further clarification.

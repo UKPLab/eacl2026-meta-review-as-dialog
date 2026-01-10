@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "What You See is What You Classify: Black Box Attributions":
+
+Turn 1:
+Meta-reviewer: Hi there! I'm reviewing a paper titled "What You See is What You Classify: Black Box Attributions". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: Sure! The authors propose a method to provide attributions for black-box classifiers, which are classifiers that do not provide any information about their internal workings. The proposed method uses a second deep network called the "Explainer" to generate masks that highlight the regions of the input image that contribute to the classification result.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the evaluation of this method?
+
+Dialogue Agent: The authors evaluate the proposed method on several datasets, including PASCAL VOC and MS-COCO. They show that their method achieves competitive results with other state-of-the-art attribution methods. Additionally, they provide a thorough analysis of the proposed method's strengths and weaknesses.
+
+Turn 3:
+Meta-reviewer: I see. What about the novelty of this paper? Does it offer anything new compared to previous work in this area?
+
+Dialogue Agent: The authors propose a novel approach to attributions for black-box classifiers, which is to use a second deep network to generate masks that highlight the regions of the input image that contribute to the classification result. This approach is different from previous work that has focused on using a single deep network to learn the attributions.
+
+Turn 4:
+Meta-reviewer: I'm still not convinced. Can you tell me more about the limitations of this paper?
+
+Dialogue Agent: The authors acknowledge that their method has some limitations. For example, they note that their method may not perform as well on images with occlusions or tiny objects. Additionally, they mention that their method is not applicable to all types of black-box classifiers.
+
+Turn 5:
+Meta-reviewer: Thank you for the information. Based on the reviews, I think I have a good understanding of the strengths and weaknesses of this paper. Can you provide me with a summary of the reviews?
+
+Dialogue Agent: Sure! Based on the reviews, the authors have proposed a novel approach to attributions for black-box classifiers that uses a second deep network to generate masks that highlight the regions of the input image that contribute to the classification result. The proposed method has been evaluated on several datasets and has achieved competitive results. However, the method has some limitations, such as not performing well on images with occlusions or tiny objects, and not being applicable to all types of black-box classifiers.

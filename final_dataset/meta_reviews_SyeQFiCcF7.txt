@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you both for your reviews. Reviewer 1, I appreciate your detailed analysis of the paper, especially the strengths and weaknesses of the proposed model. Reviewer 2, your suggestions for improvement are valuable for the authors to consider. Overall, I'm still unsure whether to accept or reject the paper. 
+
+Dialogue Agent: Thank you for your feedback. I can provide any additional information or clarification you need to make your decision.
+
+Meta-reviewer: Reviewer 1 mentioned that the architecture description for the last layer is vague. Could you explain the role of 20 and whether Table 1 shows the final contrastive loss achievable for each model?
+
+Dialogue Agent: The last layer has 128 dimensions, and the role of 20 is the number of capsules in the last layer. Table 1 shows the final contrastive loss for each model, which is the measure used to compare the performance of the models.
+
+Meta-reviewer: Reviewer 2 pointed out that the paper lacks clarity and is hard to read. Can you explain the exact definition of SCN and which components of previous Capsule Networks were actually used in the experiments?
+
+Dialogue Agent: Siamese Capsule Networks (SCN) is an extension of Capsule Networks that is designed for face verification. The authors used the idea of capsules to represent objects and their parts in a hierarchical structure, and they used a Siamese architecture to train the network on pairwise learning tasks. The authors used many of the same components of previous Capsule Networks, such as the capsule structure and the iterative routing mechanism. However, they also introduced new components, such as the contrastive loss and the dropout based on Capsule activation.
+
+Meta-reviewer: Thank you for the explanation. Reviewer 3 mentioned that the novelty of extending Capsule Networks to a Siamese architecture is incremental and that the results are underwhelming. Can you comment on this?
+
+Dialogue Agent: The authors focused on extending Capsule Networks to face verification, which is a challenging problem. While the novelty of the approach may be incremental, the authors still achieved significant improvement over baseline methods on the small AT&T dataset. However, the results on the LFW dataset were not as impressive, and the use of contrastive loss as the measure of performance may not be the best choice. The authors did not provide a full ROC curve or accuracy results, which would have provided a more complete picture of the performance of the model.
+
+Meta-reviewer: Thank you for your response. Given the strengths and weaknesses highlighted by the reviewers, I am still unsure whether to accept or reject the paper. Can you provide any additional information to help me make a decision?
+
+Dialogue Agent: Based on the reviews, it seems that the paper is marginally below the acceptance threshold. Reviewer 1 raised concerns about the contribution not meeting ICLR standard for conference papers, while Reviewer 2 suggested improvements that could help address some of the paper's weaknesses. Reviewer 3 recommended rejecting the paper due to its lack of clarity, underwhelming results, and incremental novelty. Ultimately, it is up to you to weigh the importance of each review and make a decision.

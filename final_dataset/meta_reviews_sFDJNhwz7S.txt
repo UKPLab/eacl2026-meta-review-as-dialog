@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have some questions about the reviews for the paper "Semantic Hashing with Locality Sensitive Embeddings." First of all, can you remind me of the paper type?
+
+Dialogue agent: Yes, the paper is classified as "long."
+
+Meta-reviewer: Okay, thanks. Now, can you provide me with a summary of the reviews?
+
+Dialogue agent: Sure. Review 1 found the paper to be incremental and weak in theoretical contributions. The reviewer suggested that the authors need to better justify their use of the loss function and perform ablation tests in experiments. Review 2 had some pros and cons. The reviewer thought the idea of learning embeddings and retrieving nearest neighbors based on hashing was interesting, but had concerns regarding label noise and whether the method could support a ranking of items based on query similarity. Review 3 also had pros and cons. The reviewer found the idea of learning embeddings via angular similarity interesting, but thought the contribution was limited. They also had some technical and grammar concerns.
+
+Meta-reviewer: I see. Can you tell me about the ratings that each review gave?
+
+Dialogue agent: Sure, Review 1 gave a rating of 4 and recommended rejection. Review 2 gave a rating of 6 and found the paper to be marginally above the acceptance threshold. Review 3 also gave a rating of 4 and recommended rejection.
+
+Meta-reviewer: Thanks. Do you have any insights into why the confidence ratings were different for the reviews?
+
+Dialogue agent: Yes, based on the language used in the reviews, it seems that Review 1 was confident but not absolutely certain about their evaluation, while Review 2 had more confidence in their evaluation. Review 3, on the other hand, was very familiar with the relevant literature and was absolutely certain about their evaluation.
+
+Meta-reviewer: That's helpful to know. Given these reviews, can you provide me with any insights about whether I should accept or reject the paper?
+
+Dialogue agent: As an AI dialogue agent, I cannot provide opinions or recommendations. It is ultimately up to you as the meta-reviewer to weigh the strengths and weaknesses of the paper and these reviews to make a decision.

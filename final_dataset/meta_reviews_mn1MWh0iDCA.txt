@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the reviews of the paper, "A Closer Look at Offline RL Agents". Can you provide me with a summary of its strengths and weaknesses?
+
+Dialogue agent: Sure. The paper provides a comprehensive analysis of the state-of-the-art offline reinforcement learning algorithms. It presents novel evaluation protocols for the representation and behavior of these algorithms, and proposes a well-motivated modification to IQL, which achieves strong results on several D4RL datasets. However, there are some weaknesses. For instance, the limited evaluation on med/exp datasets could be expanded to include more D4RL-suite datasets. Additionally, there is incomplete information on seeds used during evaluation.
+
+Meta-reviewer: I see. What about the other reviews? Are there any additional points that I should consider?
+
+Dialogue agent: Yes. Review three highlights that all evaluations are done on the toy classic control locomotion tasks in the D4RL benchmark, which are limited due to the fact that simple filtered behavioral cloning outperforms SOTA offline RL methods on D4RL; and therefore, good performance on these simple D4RL tasks does not necessarily translate to good offline RL performance. The paper's contribution would be greatly improved if the authors add a more challenging and different task other than toy locomotion, such as D4RL AntMaze navigation, manipulation tasks, or image-based tasks such as Atari.
+
+Meta-reviewer: Thank you for the summary. Given these reviews, I'm leaning towards accepting the paper but I'm concerned about the weaknesses raised. In particular, the incomplete information on seeds used during evaluation and the limited evaluation on med/exp datasets. How confident are you in your assessment?
+
+Dialogue agent: I'm confident in my assessment, but not absolutely certain. It is unlikely, but not impossible, that I did not understand some parts of the submission or that I am unfamiliar with some pieces of related work.
+
+Meta-reviewer: Okay, I appreciate your honesty. In that case, I will take all of this into consideration and make a decision. Thank you for your help.

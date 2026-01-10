@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have received the reviews for the paper titled "DeepInteraction: 3D Object Detection via Modality Interaction". Can you please tell me about the paper and its type?
+
+Dialogue agent: Yes, certainly. The paper proposes a new approach to fuse RGB and depth input equally in a transformer-based framework for 3D object detection. It is a long paper.
+
+Meta-reviewer: Thank you. Based on the reviews, it seems that the paper has some strengths and weaknesses. Can you please elaborate on them?
+
+Dialogue agent: Sure. According to Review 1, the paper achieves state-of-the-art performance on the nuScenes benchmark, which is a strength. However, Review 1 also points out a weakness of whether the approach can work on other autonomous driving datasets. Review 2 raises concerns about missing related work on transformer-based 3D object detection, evaluation on only one dataset, and insufficient discussion of potential negative societal impact. Review 3 praises the paper's well-written structure and sufficient experiments, but wishes for a comparison of speed and memory with previous methods and some visualizations.
+
+Meta-reviewer: Thank you for summarizing the reviews. They are quite helpful. Based on their opinions, I believe I should consider accepting the paper. However, I am concerned about the confidence ratings of the reviewers. Can you please tell me their confidence levels?
+
+Dialogue agent: Yes, Review 1 had a confidence level of 3, while Reviews 2 and 3 had ratings of 4. All of them were confident in their assessments but not absolutely certain. 
+
+Meta-reviewer: Hmm, interesting. Can you please tell me about the reviewer ratings for this paper?
+
+Dialogue agent: Sure. Review 1 gave a rating of 6, indicating a weak accept but with moderate-to-high impact and no major concerns. Review 2 gave a rating of 1, indicating a very strong reject due to missing related work, unaddressed ethical considerations, and limitations. Review 3 gave a rating of 7, indicating an accept with high impact, good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Meta-reviewer: Okay, thank you for the information. Based on the reviewers' feedback, I think the strengths of the paper outweigh its weaknesses, and it has high impact on the sub-area of 3D object detection. I also note that two out of three reviewers have expressed confidence in their assessment of the paper, and one of them has given a high rating. Therefore, I have decided to accept the paper for publication. Thank you for your help. 
+
+Dialogue agent: You're welcome. I am glad I could assist you in making a decision.

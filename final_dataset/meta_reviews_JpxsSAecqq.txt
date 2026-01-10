@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the paper titled "OrdinalCLIP: Learning Rank Prompts for Language-Guided Ordinal Regression" and have a few questions for you. Can you provide me with more information on the proposed method?
+
+Dialogue agent: Yes, the paper proposes a language-powered model for ordinal regression based on CLIP. The language prototypes are constructed from sentences with rank categories via the CLIP paper encoder, and then optimizing the CLIP model by language prototype and image feature matching. To further boost the ordinality, this paper introduces the learnable rank prompts by interpolation from the base rank embeddings.
+
+Meta-reviewer: I see. Can you tell me about the strengths of the proposed method?
+
+Dialogue agent: The proposed method uses context from natural language for ordinal regression tasks, which is interesting and worth exploring. The proposed interpolation method to allow regressing in between ordinal ranks is also clever. Additionally, the experimental results show good performance than other baseline models.
+
+Meta-reviewer: What about its weaknesses?
+
+Dialogue agent: One of the main weaknesses is the absence of an obvious baseline from the engineering perspective. The paper uses a VGG-16 network pretrained on ImageNet as a trainable vision encoder for several datasets, and the VGG-16 network has 138M parameters, which is similar to the ViT in the official CLIP release. Another weakness is that about 35% of the rank prototypes violate the ordinal property, which is a substantial portion and suggests the proposed method cannot grasp anything on the long tail of the distribution. The authors should also include statistical tests to confirm that the proposed method is indeed superior to CoOp. Finally, the writing of this paper should be improved, including motivation, related work, and task description.
+
+Meta-reviewer: I understand. Can you recommend whether to accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations or opinions. However, based on the reviews, the paper seems technically solid with moderate-to-high impact and no major concerns with respect to evaluation, resources, reproducibility, and ethical considerations.

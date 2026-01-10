@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you tell me a bit about the paper "Bayesian Prediction of Future Street Scenes using Synthetic Likelihoods" and what the reviewers had to say?
+
+Dialogue Agent: Certainly. The paper proposes a Bayesian neural network model that is a hybrid between autoencoders and GANs. Specifically, it modifies a Bayesian Neural Network model in two ways: 1) by defining one Bernoulli variational distribution per weight kernel instead of per patch, which reduces the number of possible models and 2) by introducing synthetic likelihoods to make the model more diverse. 
+
+Meta-reviewer: I see. And what were the reviewers' opinions on the paper?
+
+Dialogue Agent: The first reviewer rated the paper slightly above the acceptance threshold, highlighting interesting ideas but also several issues with experimental validation and clarifications needed in the writing. The second reviewer rated the paper as a clear accept, describing the contributions as significant and well explained, while also providing some minor notes. The third reviewer rated the paper also slightly above the acceptance threshold, stating that it is a nice applied piece but was unsure of some details.
+
+Meta-reviewer: It seems like there were mixed opinions. Can you tell me more about the issues raised by the first reviewer regarding experimental validation and writing clarifications?
+
+Dialogue Agent: Sure. The first reviewer found some unclarities in the presentation of the first modification. They also raised issues with the experimental validation, specifically questioning the fairness of reporting results from only the best sampled model in the MNIST experiment and the lack of comparison between different future time steps in Table 2. Additionally, the first reviewer had some concerns with the writing clarity, specifically pointing out some undefined variables and confusing language in Section 3.4.
+
+Meta-reviewer: Interesting. And what about the contributions? Did the reviewers agree on the significance of the proposed method?
+
+Dialogue Agent: The second reviewer believed that the proposed method is a significant contribution and provides a principled treatment of uncertainty for future prediction. The third reviewer also found the paper to be a nice applied piece, although they were unsure of some details.
+
+Meta-reviewer: I see. Based on these reviews, it seems like there are some issues that need to be addressed before deciding to accept or reject the paper. Ultimately, how confident are the reviewers in their evaluations?
+
+Dialogue Agent: The first and second reviewers were both confident in their evaluations but not absolutely certain, while the third reviewer was willing to defend their evaluation but also stated that they may have not understood central parts of the paper.

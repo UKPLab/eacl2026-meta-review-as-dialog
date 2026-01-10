@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about learning to encode spatial relations from natural language. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper presents two new datasets and integrates previous modeling tools to encode semantic spatial relations from textual descriptions. The main evaluation method is direct human evaluation of the resulting renderings, and the authors demonstrate an implementation that given textual descriptions can render images from novel viewpoints.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the datasets?
+
+Dialogue Agent: Sure! The authors provide two new datasets: a large synthetic dataset of 10 million examples and a small dataset of 6,000 human textual descriptions corresponding to synthetic images. The human evaluation shows that the model performs well on the synthetic dataset but struggles with natural sentences.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you tell me more about the model and its limitations?
+
+Dialogue Agent: The model uses the Generative Query Network to generate scenes conditioned on multiple text descriptions as input, along with associated camera angles. The authors note that the model performs well with synthetic data but poorly with natural sentences, and suggest that this may be due to scaling issues and OOVs. The results show that the model has a gap in the upper bound from 0.66 to 0.91, and the authors suggest that new models need to be able to handle OOVs and new syntactic constructions to close this gap.
+
+Turn 4:
+
+Meta-reviewer: That's helpful. Can you tell me more about the related work in the field?
+
+Dialogue Agent: Sure! The paper mentions related work in grounding graphs, but omits fully neural end-to-end models in grounding. The authors also note that the primary contributions of the paper are a language dataset and a language encoder for the existing model of Eslami 2018, and suggest that these contributions should be discussed and ablated in the paper rather than relegated to the appendix.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper has some strengths but also some limitations. Can you give me a summary of the reviews and your assessment of the paper?
+
+Dialogue Agent: Sure! The reviews highlight the paper's main contributions, including the new datasets and the overall integration of previous modeling tools. However, the reviews also note that the model struggles with natural sentences and that the paper could benefit from more discussion on the distinction between synthetic and natural data. Additionally, the reviews suggest that the paper could benefit from including ablations and discussing the limitations of the model. Overall, I would rate the paper as marginally below acceptance threshold.

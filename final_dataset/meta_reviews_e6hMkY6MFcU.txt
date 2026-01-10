@@ -1,0 +1,23 @@
+ Sure, here is a simulation of a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection, based on the given reviews:
+
+Meta-Reviewer: Hello, I am evaluating a paper for acceptance or rejection. The title of the paper is "WordsWorth Scores for Attacking CNNs and LSTMs for Text Classification". Can you help me assess the paper?
+
+Dialogue Agent: Of course! I have access to the reviews of the paper. Based on the reviews, what specific aspects of the paper would you like to know more about?
+
+Meta-Reviewer: Well, I am concerned about the paper's contribution, the experimental results, and the implementation details. Can you provide me with some information about these aspects?
+
+Dialogue Agent: Sure. The paper proposes a new way to determine word importance for black box adversarial attacks on text classification models. The proposed method uses a trained model to calculate the word scores, which are then used for the greedy attack. The experimental results show that the WordsWorth scores are effective in improving the performance of the greedy attack. However, the paper does not compare the proposed method with other score-based approaches, and the implementation details are not fully described.
+
+Meta-Reviewer: That's helpful. Based on the reviews, what is the overall confidence of the reviewers in the paper's evaluation?
+
+Dialogue Agent: Based on the reviews, the overall confidence of the reviewers is moderate, with a rating of 3 out of 5. One reviewer has a high confidence in the evaluation, while the other two reviewers have a lower confidence.
+
+Meta-Reviewer: I see. What are the specific concerns of the reviewers?
+
+Dialogue Agent: The reviewers have several concerns, including the paper's limited contribution, lack of rigorous experimentation, and unclear implementation details. One reviewer also notes that the paper is unpolished and hard to follow in some places.
+
+Meta-Reviewer: I understand. Based on the reviews and your summary, I think I have a good understanding of the paper's strengths and weaknesses. Thank you for your help!
+
+Dialogue Agent: You're welcome! Is there anything else I can assist you with?
+
+Meta-Reviewer: No, that's all for now. Thank you again!

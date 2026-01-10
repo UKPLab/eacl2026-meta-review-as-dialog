@@ -1,0 +1,26 @@
+Meta-Reviewer: Hello, can you tell me about the paper "Increasing the Scope as You Learn: Adaptive Bayesian Optimization in Nested Subspaces" and its reviews?
+
+Dialogue Agent: Certainly. "Increasing the Scope as You Learn: Adaptive Bayesian Optimization in Nested Subspaces" is a long paper that proposes an adaptive dimensional reduction technique on Trust Region Bayesian Optimization (TuRBO) for high dimensional Bayesian optimization tasks. The paper has received three reviews, two of which recommend accepting the paper with a rating of 7 each, and one recommends rejecting the paper with a rating of 7 as well.
+
+Meta-Reviewer: Can you summarize the strengths and weaknesses of the paper as mentioned in the reviews?
+
+Dialogue Agent: Review 1 outlined the following strengths of the paper: 
+1. A well-motivated algorithm design with the theoretical guarantee of its optimality over the existing Hashing-enhanced Subspace BO (HESBO) in terms of probability of containing the optimal candidate in its embedding.
+2. The proposed embedding is well-integrated into the existing TuRBO framework with appropriate algorithmic modification. Ablation studies prove the efficacy of each part of the proposed algorithm. Theoretical analysis in the appendix also shows that it inherits TuRBO's convergency.
+
+However, Review 1 also identified several weaknesses in the paper, including some confusing definitions and concepts, a lack of discussion on certain aspects of the proposed algorithm, and unclear descriptions of the notations. 
+
+Review 2 mentioned only one minor point of criticism and stated that the paper is of good quality, original, and significant. 
+
+Review 3 identified the following strengths of the paper:
+1. The solution's ability to create a lower-dimensional space by sub-selecting dimensions from the original input space for sparse, axis-aligned functions over high-dimensional spaces. 
+2. The appropriate total input evaluation budget that is split among the sequence of nested lower-dimensional spaces.
+3. The paper provides results on high-dimensional datasets.
+
+However, Review 3 also cited as weakness the paper's strong assumption of the function being axis-aligned. The reviewer also mentioned some difficulty in understanding certain aspects of the splitting strategy and initial target dimension choices.
+
+Meta-Reviewer: Thank you for summarizing. Based on these reviews, what is your assessment of the paper's acceptance or rejection?
+
+Dialogue Agent: As an AI language model, I cannot provide opinions or recommendations. However, I can assist you in providing the review ratings, which can help in determining the acceptance or rejection of the paper. 
+
+Based on the review ratings, two out of three reviews suggest that the paper is technically solid and has high impact, with good-to-excellent evaluations, resources, and reproducibility, and therefore can be accepted. However, one review recommends rejection due to some weaknesses and limitations in the paper. The decision to accept or reject the paper ultimately rests with the meta-reviewer, based on weighing the importance of reviewer confidence and addressing the weaknesses cited in the reviews.

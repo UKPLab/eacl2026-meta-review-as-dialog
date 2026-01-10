@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you for submitting your paper on Classifier-agnostic saliency map extraction. I have reviewed the three reviews we received and would like to ask you a few questions before making a decision. Can you explain to me briefly what your paper aims to achieve?
+
+Dialogue Agent: Of course. Our paper proposes a classifier-agnostic method for saliency map extraction, which addresses the dependence of saliency map extraction on a particular classifier. Instead of depending on a specific model, our method considers all possible classifiers, and the goal is to find the relevant features in the data that are compatible with all classifiers.
+
+Meta-Reviewer: Reviewer 1 had some concerns about the adversarial learning framework proposed in your paper. Can you explain why you chose this approach, and why f is optimized to minimize the masked-out classification error?
+
+Dialogue Agent: In the adversarial learning framework, the mask m is optimized to maximize the masked-out classification error, while the function f is optimized to minimize it. The motivation behind this is that f has an opposite goal with m, so as to force m to capture as many relevant features as possible. The optimization of f is designed to ensure that it can handle the information included in the mask, even if it is incomplete.
+
+Meta-Reviewer: Reviewer 2 also had concerns about the novelty of your paper and the clarity of the experiments. Can you address these concerns?
+
+Dialogue Agent: We agree with Reviewer 2 that the novelty of our method is a concern given the previous work of Fan et al. (2017). However, we believe that our proposed changes are effective and lead to improved performance, as demonstrated in the experiments. Regarding the clarity of the experiments, we acknowledge that we can do better, and we will revise the manuscript to address the issues raised.
+
+Meta-Reviewer: Reviewer 3 seemed to be generally positive about your paper, but also had some concerns about the methodology used in the experiments. Can you respond to these concerns?
+
+Dialogue Agent: We appreciate Reviewer 3's positive comments. Regarding their concerns, we will report the statistical details of our experiments and fill in the empty entries in Table 2. We will also explain how we selected the classes for the unseen class experiment, and address the issue of the fixed lambda value in comparison to Fan et al. (2017).
+
+Meta-Reviewer: Based on your responses, it seems like you are taking the reviewers' concerns seriously and are willing to address them. Taking this into consideration along with the reviewers' ratings and confidence levels, I am leaning towards accepting your paper. However, I am still unsure about Reviewer 1's rating and confidence level. Can you provide any additional information to help me make a decision?
+
+Dialogue Agent: Unfortunately, we do not have any additional information about Reviewer 1's concerns. However, we believe that our method is effective, and we will consider their comments when revising the manuscript. 
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your answers, I have decided to accept your paper with revisions. Please address the reviewers' concerns in your revision, and make sure the manuscript is clear and informative.

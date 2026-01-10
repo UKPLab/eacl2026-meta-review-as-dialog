@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read through the reviews for the paper "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents." Overall, the paper seems to have a solid technical foundation and addresses an important research topic. However, there are some concerns raised about the realism of the instructions provided and the overall performance of the model compared to humans. Can you provide some insights into these issues?
+
+Dialogue Agent: Certainly, Meta-reviewer. The authors have proposed a new benchmark called WebShop, where the agent navigates an e-commerce webpage to buy a targeted item grounded with natural language formed instructions. They have also collected a number of real-world products, crowd-sourced text instructions, and human trajectories to train the model. The authors acknowledge that there are some assumptions made in the construction of the instructions, such as all attributes being known to the user before searching and fixed preferences, but these are necessary simplifications to allow for evaluation and comparison between models. It is noted that an ablation study on the effect of using image features would be needed.
+
+Meta-reviewer: I see. And what about the concerns regarding the performance of the model compared to humans?
+
+Dialogue Agent: The authors have conducted experiments using both imitation learning and reinforcement learning methods to train the agent. The experiments show that the trained agent performs better than a simple rule-based baseline but underperforms humans by quite a large margin. The authors also analyze where the gaps between human and model performance lie and suggest various modeling improvements.
+
+Meta-reviewer: I see. Thank you for the explanation. Based on these reviews, it seems that the paper has a technical foundation with some concerns regarding the realism of instructions and the performance of the model compared to humans. However, the proposed benchmark fills an important research gap. In your opinion, do you believe this paper should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, I do not provide recommendations or opinions on accept or reject decisions. I can only provide insights into the reviews and the paper content.
+
+Meta-reviewer: Understood. Thank you for your assistance. I will take these reviews into account and make a decision based on the information provided.

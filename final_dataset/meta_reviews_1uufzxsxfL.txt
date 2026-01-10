@@ -1,0 +1,23 @@
+Meta-reviewer: Hello there! I've read the reviews for the paper "Revisiting Evaluation of Knowledge Base Completion Models" and have a few questions and concerns before making a decision. Dialogue agent, could you please provide more information?
+
+Dialogue agent: Of course! I'm happy to answer any questions you may have.
+
+Meta-reviewer: Review 1 mentions that triple classification may not be the only metric for KBC and that ranking metrics do have use cases in some practical applications. Can you provide more information on this?
+
+Dialogue agent: Certainly. While triple classification may be a better metric in some scenarios, ranking metrics can still be useful in certain applications where specific hypotheses need to be validated. For example, in exploratory applications, such as discovering new chemical compounds for a specific purpose, a ranked list of hypotheses may be preferred. However, negative sampling remains a problem due to the incompleteness of KBs.
+
+Meta-reviewer: Review 2 suggests that the reason for issues in existing datasets and evaluation metrics is often that the use case was not carefully defined, leading to biases and skewed distributions. What are your thoughts on this?
+
+Dialogue agent: I agree with Review 2 that the use case is critical in defining evaluation metrics and datasets. The proposed YAGO3-TC dataset is a step in the right direction, as it avoids the implicit and incorrect "close-world" assumption and ensures label correctness. However, the distribution of the triples may not be optimal since it was selected by existing methods, not human users with a specific scenario in mind.
+
+Meta-reviewer: Review 3 has several specific questions about the paper, such as the reason behind the problem of semi-inverse relations and the meaning of the axes labels in Figure 1. Can you provide answers to these questions?
+
+Dialogue agent: Sure! Semi-inverse relations are only a problem for symmetric relations, such as verb_group and also_see. Without these triples, it's challenging for any model to learn that a given relation is symmetric. The "Ratio of positives" and "Mean score" axes labels in Figure 1 refer to the ratio of positive labels and the mean score of negative samples, respectively. As for the other questions about negative sampling, model performance, and training on validation data, I suggest referring to the paper's methods and results sections for more detailed information.
+
+Meta-reviewer: Thank you for the explanation. Review 1 has a high confidence rating but raises concerns about the quality control of crowdsourcing and the size of the validation set. What are your thoughts on this?
+
+Dialogue agent: While crowdsourcing may introduce errors due to worker annotation differences, the authors conducted a check of 100 triples from the study and found that 96% were considered positive, indicating high label quality. As for the validation set size, while it may be small, it was used for evaluating different models and negative sampling techniques in the proposed dataset, and the results show promise for future work.
+
+Meta-reviewer: Understood. Overall, I'm inclined to accept this paper based on the strengths mentioned by Review 1. However, I'm still cautious about the concerns raised by Reviews 2 and 3. What do you think?
+
+Dialogue agent: I believe that the concerns raised by Reviews 2 and 3 are valid and should be addressed in future work. However, the strengths mentioned in Review 1 make a significant contribution to the field, and the paper is well-written and easy to follow. Thus, I agree that accepting the paper is reasonable with some reservations.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Modeling Uncertainty with Hedged Instance Embeddings". Can you provide me more information about the paper and its reviews?
+
+Dialogue agent: Of course, the paper proposes an alternative to current point embeddings through smear of points, and includes a technique based on variational inference to train networks to produce such embeddings. The paper also introduces a new dataset made out of MNIST to test their concept. 
+
+Regarding the reviews, Review 1 is positive and suggests only minor concerns about the paper's comparison with other uncertainty methods. Review 2 is also positive with a few criticisms regarding the quantitative evaluations and Fig 5, and mentions some grammatical errors. Finally, Review 3 is largely positive, but mentions several concerns about the proposed method's computation and the experiments' lacking details.
+
+Meta-reviewer: Thank you for the summary. From the reviews, it seems that the paper has several positives and a few areas of concern. However, I am unsure how much weight to give each review. Can you tell me about the confidence levels of each reviewer?
+
+Dialogue agent: Certainly. Reviewer 1's confidence level is at 3, indicating that they are fairly confident that their evaluation is correct, while Reviewer 2's confidence level is also at 3, suggesting that they have a similar level of confidence in their evaluation. Finally, Reviewer 3's confidence level is at 5, indicating that they are absolutely certain that their evaluation is correct.
+
+Meta-reviewer: Okay, I see. Given that two reviews are positive and the third review has relatively minor concerns, I am leaning towards accepting the paper. However, I am still concerned about the issues brought up by Reviewer 3. Can you confirm that the proposed method and its comparisons with existing methods are sound?
+
+Dialogue agent: As a dialogue agent, I am not authorized to provide opinions or recommendations. However, I can tell you that the proposed method and its experimental comparisons are described in detail in the paper, and the authors have responded to Reviewer 3's concerns in their rebuttal. It may be worth reading their response to determine if their answers address the concerns raised.
+
+Meta-reviewer: That is a good point. Thank you for your assistance. I will read the authors' rebuttal and make a decision based on all the information available.

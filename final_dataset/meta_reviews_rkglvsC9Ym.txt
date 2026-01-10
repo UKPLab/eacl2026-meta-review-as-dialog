@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello dialogue agent, thank you for joining me today. I have reviewed the reviews for the paper "Log Hyperbolic Cosine Loss Improves Variational Auto-Encoder" and would like to discuss them with you.
+
+Dialogue Agent: Thank you for having me. I am aware of the paper and the reviews, and I am ready to answer any questions you might have.
+
+Meta-Reviewer: Great. Let's start with Review 1. The reviewer seems to have some concerns about the proposed loss function. Can you provide more information about why the authors chose the hyperbolic cosh function and why they did not compare it to other robust loss functions like the Huber loss?
+
+Dialogue Agent: The paper proposes the hyperbolic cosh function as a replacement for the squared L2 loss traditionally used in VAEs. The authors argue that the hyperbolic cosh function is more robust to outliers and can improve the quality of generated samples. As for why the authors did not compare it to the Huber loss, that is a question for the authors themselves and I cannot provide an answer.
+
+Meta-Reviewer: I see. Review 2 mentions a lack of comparison to other loss functions. Can you tell me if the authors compared their proposed loss function to any other simple loss functions?
+
+Dialogue Agent: According to my knowledge, the authors only compared their proposed loss function to the traditional squared L2 loss in their experiments. They did not compare it to other simple loss functions like L1 or SSIM.
+
+Meta-Reviewer: Hmm, that seems like a concern. Finally, Review 3 seems to be relatively positive about the paper but has a few points of critique. Can you tell me more about the issues raised by the reviewer?
+
+Dialogue Agent: The reviewer raises several concerns, including the fact that the authors did not use the objective functions reported in appendix A.1, which are for a regularized autoencoder but not for a WAE as claimed in the paper. Additionally, the reviewer questions the FID scores reported for Celeba dataset, which seem very low compared to the previous state-of-the-art. The reviewer also points out that it is unclear what type of conditional distribution the proposed log-cosh loss corresponds to. Finally, the reviewer questions why the authors did not highlight bad samples in the second row of Figure 2 and suggests the Huber loss as a potential alternative to compare against the proposed loss function.
+
+Meta-Reviewer: Thank you for summarizing the points raised by the reviewer. Based on the reviews, I have to make a decision about whether to accept or reject the paper. Given the concern about the lack of comparison to other loss functions and the issues raised by Review 3, I am hesitant to accept the paper. However, Review 3 also notes that the experiments presented in the paper demonstrate an improvement in both FID scores and visual quality of reconstructions. What would you say is the confidence level of the reviewers?
+
+Dialogue Agent: Review 1 and Review 2 both rate the paper as "Ok but not good enough - rejection" with a confidence level of 4 out of 5. Review 3 rates the paper as "Marginally below acceptance threshold" with a confidence level of 4 out of 5.
+
+Meta-Reviewer: Thank you for the information. I will consider the reviewers' confidence levels in making my decision. Ultimately, I think I will reject the paper due to the concerns raised by Review 2 and the issues raised by Review 3. Thank you for your help in this decision-making process.

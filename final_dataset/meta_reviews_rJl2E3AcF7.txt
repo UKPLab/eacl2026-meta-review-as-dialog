@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for providing me with the reviews for the paper titled "Doubly Sparse: Sparse Mixture of Sparse Experts for Efficient Softmax Inference". Can you provide me with an overview of the proposed method and its contributions?
+
+Dialogue Agent: Sure. The paper proposes a fast approximation to the softmax computation when the number of classes is very large. It achieves this by using a sparse two-layer mixture of experts, which learns a two-level class hierarchy. The first level of sparsity comes from the first expert, while the second level of sparsity comes from every expert only outputting a limited set of output categories. The proposed technique reduces computational cost compared to full softmax.
+
+Meta-reviewer: Okay, that sounds interesting. However, Review 1 mentions that the paper lacks rigor and the writing is of low quality. Can you provide some clarification on this feedback?
+
+Dialogue Agent: Review 1 indeed mentions that the paper lacks rigor and the writing is of low quality. For instance, there are some typos present in the manuscript, as pointed out in the review. In equation 4, the same variable name is used to describe the weights before and after pruning, which may be confusing to readers.
+
+Meta-reviewer: And how about the evaluation of the proposed method? What do the reviews say about it?
+
+Dialogue Agent: Review 1 mentions that the proposed method provides a significant speedup with respect to a method proposed by Shim et al., but it lacks comparison with other methods in the literature. On the other hand, Review 2 notes that an ablation study is done for group lasso, expert lasso, and load balancing, which helps understand the effect of different components of the proposed. However, the reviewer also points out that it is not clear how the proposed two-hierarchy method is superior to Sparsely-Gated MoE. Review 3 regards the paper as easy to understand, but mentions several sections could use an English language review.
+
+Meta-reviewer: I see. And what are the ratings and confidence levels assigned by the reviewers?
+
+Dialogue Agent: Review 1 rates the paper marginally above acceptance threshold (6/10) and has a confidence level of 3. Review 2 rates the paper ok but not good enough - rejection (4/10) with the same confidence level of 3. Review 3 gives the paper a rating of Good paper, accept (7/10) with a confidence level of 3.
+
+Meta-reviewer: Thanks for the information. Based on these reviews, it seems that the proposed method has some potential, but there are some concerns raised regarding the rigor and quality of the writing, as well as the need for more comparison with other methods. I am inclined to accept the paper, but I am also considering the reviewers' confidence levels. Can you provide me with your own confidence level on the evaluations?
+
+Dialogue Agent: As an AI-based dialogue agent, I am not allowed to provide my personal opinions or recommendations. My role is to provide information based on the reviews given to me.

@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the reviews for the paper "Using GANs for Generation of Realistic City-Scale Ride Sharing/Hailing Data Sets." Can you provide me with some background information on the paper?
+
+Dialogue Agent: Sure, the paper is a long format paper that proposes the use of conditional GANs to generate synthetic ride-sharing data sets in order to supplement the currently available real data sets. They divide the space and time into small spatial and temporal cells and train the GAN to output these cell values given the input label. Finally, they validate their results using graph and fractals theory metrics. 
+
+Meta-Reviewer: Thank you. Reviewer 1 raised some concerns regarding the execution of the paper. Can you please explain to me how the data is represented and what is the exact meaning of a pixel in the context of this paper?
+
+Dialogue Agent: The authors have not provided enough information regarding the representation of data in their paper. Reviewer 1 is right to point out that there is a lack of clarity in this aspect, and it needs to be clarified. The authors mention the pixel represents the number of ride requests in one paragraph and presence/absence of ride requests in another paragraph, which causes confusion. 
+
+Meta-Reviewer: Reviewer 1 also mentioned that the metrics need to be better explained and that the edges are not well defined. Can you provide me with some details on this?
+
+Dialogue Agent: The authors have not given a clear definition of how the edges are defined in their paper. Metrics such as D2 and "side e" have not been defined, causing confusion among reviewers as to how those metrics are computed. The authors need to provide a better explanation of their metrics, and the definitions of terms like "side e" and D2 should be included.
+
+Meta-Reviewer: Reviewer 1 also raised concerns regarding the lack of a baseline. Can you provide me with some details on this?
+
+Dialogue Agent: Yes, Reviewer 1 is right in pointing out that the paper lacks a baseline. Without a baseline, it is challenging to evaluate the performance of the proposed method. The authors should include a baseline in their paper.
+
+Meta-Reviewer: Moving on to Reviewer 2, the reviewer is almost sure, but not completely certain, that the paper is marginally below the acceptance threshold. Can you please provide me with some feedback on this?
+
+Dialogue Agent: Reviewer 2 believes that the idea of generating synthetic ride-sharing data sets is interesting, but there are some shortcomings in the current solution. The paper only considers the time slot for generating new data and needs to be improved to be more practical. Reviewer 2 also suggests that the authors should survey smart transportation or ride-sharing research areas. 
+
+Meta-Reviewer: Finally, Reviewer 3 pointed out several issues with the paper, including the use of a GAN approach to generate data when enough real data is available, the lack of clear definition of how the heat-maps could be used in the future, and the unclear evidence presented for some of the claims in the paper. Can you please provide me with some feedback on this?
+
+Dialogue Agent: Reviewer 3 raises several valid points about the paper. The authors did not make a convincing case for the use of GAN to generate data when real data is available. Additionally, the authors have not explained how the heat-maps could be used in the future and the evidence provided for some of their claims is lacking.

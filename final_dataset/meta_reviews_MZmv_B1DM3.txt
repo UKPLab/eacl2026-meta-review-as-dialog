@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me to discuss the reviews of the paper "Optimal Scaling for Locally Balanced Proposals in Discrete Spaces". Can you give me a brief summary of the paper and its contributions?
+
+Dialogue agent: Sure. The paper provides an optimal scaling analysis of Locally Balanced Proposals (LBP), a class of informed MCMC algorithms for discrete spaces. The authors derive optimal scaling results for LBP and show that it has an asymptotic acceptance rate that is independent of the target distribution and is greater than that of random-walk Metropolis (RWM). They also implement adaptive MCMC versions of multi-step LBP, exploiting the theoretical results, and test them on a variety of sampling tasks in high-dimensional discrete spaces, including energy-based models (EBM) training, obtaining a 2- to 5-fold speedup compared to non-tuned single-step LBP.
+
+Meta-reviewer: Thank you for the summary. Review 1 mentions that the paper provides a meaningful analysis and is a significant step in advancing practical and theoretical understanding of informed MCMC in high-dimensional discrete spaces. Review 2, however, raises some concerns about the gap between theory and claim, specifically regarding the efficiency metric presented in the paper. What are your thoughts on this?
+
+Dialogue agent: While the efficiency presented in the paper only makes sense if the limit is a class of diffusion processes, the authors do acknowledge the possible limitation of this in their response to Review 2 and consider the possibility of expanding the analysis to non-diffusion processes.
+
+Meta-reviewer: I see. Review 2 also mentions some potential mathematical typos in the paper. Can you comment on this?
+
+Dialogue agent: Yes, the authors have acknowledged these typos in their response and have addressed them in the revised version of the paper.
+
+Meta-reviewer: In Review 3, the reviewer suggests that the authors should expand more on the effect of the assumption made on the target distribution in the analysis, and how the choice of epsilon affects the rate of convergence. What are your thoughts on this?
+
+Dialogue agent: The impact of the assumption made on the target distribution is an important consideration, and the authors do provide some insights on this in their response. They also acknowledge that the choice of epsilon can affect the rate of convergence and provide additional experiments in the revised version of the paper to address this.
+
+Meta-reviewer: Thank you for the insights. Given these reviews, what is your opinion on whether the paper should be accepted or rejected?
+
+Dialogue agent: The reviews suggest that the paper is technically solid and provides a significant contribution towards efficient Metropolis-Hastings algorithms on discrete spaces. While there are some concerns raised regarding the gap between theory and claim and the effect of the assumption on the target distribution, the authors have addressed these in the revised version of the paper. Therefore, I believe that the paper should be accepted.

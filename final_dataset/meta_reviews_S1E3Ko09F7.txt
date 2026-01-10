@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "L-Shapley and C-Shapley: Efficient Model Interpretation for Structured Data". Based on the reviews, how confident can you convey that this paper can be accepted?
+
+Dialogue agent: Hello, Meta-reviewer. Based on the reviews, the confidence level of Reviewer 1 is 3 (fairly confident that the evaluation is correct), Reviewer 2 is 2 (willing to defend the evaluation but not fully certain about central parts of the paper), and Reviewer 3 is 4 (confident but not absolutely certain that the evaluation is correct). The average confidence level is 3. Therefore, I can convey that the paper is likely to be accepted, but there is still some uncertainty regarding the evaluation.
+
+Meta-reviewer: What are the strengths of this paper according to the reviewers?
+
+Dialogue agent: Reviewer 1 notes that the paper proposes two efficient methods of computing approximate Shapely values, and the results are quite good. Reviewer 2 believes that the paper provides new methods that could be very useful for model explainability purposes. Reviewer 3 thinks that the problem is important and the paper is well-written.
+
+Meta-reviewer: What are the weaknesses or possible improvements suggested by the reviewers?
+
+Dialogue agent: Reviewer 1 wonders if there is some way to distinguish the high-ranking features based on their (exact) Shapely value from those selected as an artifact of the estimator, while Reviewer 2 suggests a more thorough quantitative evaluation and clarity on whether the L-Shapley and C-Shapley methods have been complemented with other methods. Reviewer 3 suggests explaining the coefficients better, exploring other graph structures, and strengthening the experimental evaluation by quantifying some assumptions and runtime.
+
+Meta-reviewer: Based on these strengths and weaknesses, what do you think is the best decision for this paper?
+
+Dialogue agent: Since the paper has significant contributions and potential, and the strengths outweigh the weaknesses, I suggest accepting the paper. However, addressing some of the concerns or possible improvements suggested by the reviewers could further strengthen the paper.

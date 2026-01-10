@@ -1,0 +1,23 @@
+Meta-Reviewer: Hi, Dialogue Agent. Thank you for joining me today. I have received three reviews for the paper "Quantifying Uncertainty in Deep Spatiotemporal Forecasting," and I would like to discuss them with you. 
+
+Dialogue Agent: Hello, Meta-Reviewer. I am here to answer your questions to the best of my ability.
+
+Meta-Reviewer: Great. Let's start with Review 1. There are some concerns raised about the clarity of the proposed frequentist UQ method and the use of residual values in the COVID forecasting experiments. Can you clarify these points, without providing your own opinion?
+
+Dialogue Agent: Sure. Regarding the proposed frequentist UQ method, the authors could have provided more clarity on Sec. 3.3 by including the equations and details for readers to understand their proposed approach better. Concerning the COVID forecasting experiments, the authors used the residual values to assess DeepGLEAM's improvement over GLEAM's predictions. However, this approach seems problematic as it does not directly predict the death incident numbers. Still, the authors could have moved this result from the appendix to the main text to help readers evaluate DeepGLEAM's improvement.
+
+Meta-Reviewer: Good. Now let's move on to Review 2. The reviewer finds the paper clear and interesting, but there are some small concerns about the experiments and the grid-based problems for spatio-temporal forecasting. Can you explain these points without providing your opinion?
+
+Dialogue Agent: Yes, of course. The reviewer pointed out some concerns about the use of flight mobility as graph edges and the COVID forecasting experiments. The reviewer also suggested investigating grid-based problems in spatio-temporal forecasting, which is a valid point. Additionally, the reviewer asked why the DCRNN did not work and used an encoder-decoder sequence in the COVID forecasting experiments.
+
+Meta-Reviewer: Thank you. Finally, let's discuss Review 3. The reviewer did not find the objectives well-stated and found a clear lack of rigor in the terminology used. What can you say about this feedback?
+
+Dialogue Agent: The reviewer pointed out some valid concerns regarding the definition of uncertainty quantification, which has different meanings. The reviewer also mentioned a lack of rigor in the terminology used and some misleading claims, such as the unification of frequentist and Bayesian perspectives. However, the reviewer does acknowledge that the paper is easy to read, and the comparison of uncertainty quantification methods is valuable.
+
+Meta-Reviewer: Thank you for your responses. Based on these reviews, do you have any recommendation to accept or reject the paper?
+
+Dialogue Agent: It seems there are some valid concerns regarding the clarity and rigor of the paper, despite the valuable comparison of uncertainty quantification methods. Therefore, I think the decision will depend on your evaluation of the reviewer confidence. Review 2 rated the paper as marginally below acceptance threshold with a confidence score of 4, while Reviews 1 and 3 rated the paper as okay, but not good enough-rejection with confidence scores of 5. 
+
+Meta-Reviewer: Thank you. Your input is valuable. Based on my evaluation of the reviews, I think the issues raised are significant enough to justify rejection. I appreciate your help in making the decision. 
+
+Dialogue Agent: Thank you, Meta-Reviewer. It was my pleasure to assist you today.

@@ -1,0 +1,11 @@
+Meta-Reviewer: Can you summarize the main contributions of this paper? 
+
+Dialogue Agent: The paper proposes a new compression method called Parameter Shared Setup (PSS) and its training method to compress the large-scale recommendation embedding table. The proposed compression can achieve higher compression rate on larger dataset with almost no decrease in quality and training speed. It can achieve even 10000 × compression on criteo-tb DLRM model, which is much better than previous methods. The paper also provides a theoretical analysis of the memory requirements and approximation error of compressing embedding tables under the defined parameter sharing setup. 
+
+Meta-Reviewer: Are there any limitations to this work that were not discussed?
+
+Dialogue Agent: Reviewer 2 mentioned that the paper is limited to binary prediction losses in some variants of the same dataset and did not discuss limitations beyond the presented variants of a single dataset. They suggest that random projection may not generally work well in retrieval-type of problems, such as search and masked language modeling. Reviewer 3 also mentioned that the contribution of this paper is not quite substantial and should be better summarized, and it is not clear whether parameter-sharing methods have become state-of-the-art methods of embedding compression.
+
+Meta-Reviewer: How confident are the reviewers in their assessments?
+
+Dialogue Agent: Reviewer 1 gave a rating of 6 and a confidence level of 3, which means they are fairly confident in their assessment. Reviewer 2 gave a rating of 5 and a confidence level of 3, which also means they are fairly confident in their assessment. Reviewer 3 gave a rating of 6 and a confidence level of 3, which indicates a fairly confident assessment as well.

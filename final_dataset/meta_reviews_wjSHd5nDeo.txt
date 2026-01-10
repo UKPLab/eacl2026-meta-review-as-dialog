@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Multi-Sample Training for Neural Image Compression":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Multi-Sample Training for Neural Image Compression". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Certainly! The paper proposes a new training approach for Neural Image Compression (NIC) that utilizes multi-sample objectives. The authors claim that this approach can lead to tighter bounds than the standard ELBO objective, potentially resulting in better compression performance. Additionally, the paper explores different formulations of the multi-sample method and provides empirical results to support their claims.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the weaknesses of the paper, in your opinion?
+
+Dialogue Agent: One potential weakness is that the experimental results are not very informative/satisfying. The authors note that increasing the number of IWAE samples has a limited impact on performance, and it would be helpful to provide some insight into why this is the case. Additionally, the paper does not provide actual code or more guidance on how to implement the proposed MS-NIC-DMS method, which could be a limitation for some readers.
+
+Turn 3:
+Meta-Reviewer: I see. What about the relationship between the multi-sample objective and the standard NIC objective? How do they compare?
+
+Dialogue Agent: The authors note that the multi-sample objective is training-only, while the standard NIC objective is both training and inference-based. This raises the question of whether the "tighter ELBO" obtained from the multi-sample objective actually improves the inference objective. The paper does not provide a direct answer to this question, but the authors do note that the proposed objective improves the compression performance of two well-known approaches (Balle et al., 2018 and Cheng et al., 2020).
+
+Turn 4:
+Meta-Reviewer: That's a good point. What about the potential negative societal impacts of this work?
+
+Dialogue Agent: The authors address this question in the "Checklist" section of the paper. They note that the proposed approach does not have any obvious negative societal impacts, as it only affects the training process and does not modify the inference process. However, the authors do acknowledge that the proposed approach may lead to more complex and computationally expensive training procedures, which could potentially have negative impacts on resource usage and environmental sustainability.
+
+Turn 5:
+Meta-Reviewer: Thank you for your help. Based on our conversation, I would rate this paper as a weak accept, with a confidence level of 4. The paper has some potential weaknesses, but the proposed approach is technically solid and has moderate-to-high impact.
+
+Dialogue Agent: You're welcome! Based on our conversation, I would rate this paper as a weak accept, with a confidence level of 4. The paper has some potential weaknesses, but the proposed approach is technically solid and has moderate-to-high impact.

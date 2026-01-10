@@ -1,0 +1,15 @@
+Meta-reviewer: Hi there, dialogue agent. Can you summarize for me the main contributions of the paper "Sound and Complete Verification of Polynomial Networks"?
+
+Dialogue agent: Yes, of course. The paper proposes a sound and complete verification method for robustness certification of polynomial networks against norm-based perturbations, combining input splitting with $\alpha$-convexification. The main algorithmic contribution is in computing this convexification, which involves interval bound propagation to bound the lower bounding Hessian of the PNs and employing a standard power method to compute the $\alpha$ on the $L_H$. The proposed method is also compared against Gurobi and IBP, and the evaluation shows that the proposed method enables more precise and scalable verification.
+
+Meta-reviewer: I see. What are the strengths and weaknesses of the paper according to the reviewers?
+
+Dialogue agent: According to Review 1, the problem considered is novel and well-motivated. The proposed framework is general and can be extended to other neural network architectures with twice differentiable activation functions. However, there are some issues with the writing, and the reviewer suggests adding comparisons against other methods that can handle multiplication more precisely than IBP. According to Review 2, while the paper is mostly well-written and the notation is clearly explained, there are some poor experiment comparisons, and the approach does not seem to scale to large models or challenging datasets. Review 3 notes that the paper presents new and useful ideas for the field, but some details of the approach remained unclear, and an explicit example illustrating the method would have been helpful.
+
+Meta-reviewer: That's helpful. What is the overall rating and confidence of the reviewers?
+
+Dialogue agent: Review 1 rated the paper 7 (Accept), with a confidence level of 5 (absolutely certain). Review 2 rated the paper 5 (Borderline accept), with a confidence level of 4 (confident in the assessment, but not absolutely certain). Review 3 rated the paper 7 (Accept), with a confidence level of 4 (confident in the assessment, but not absolutely certain).
+
+Meta-reviewer: Interesting. How would you summarize the feedback from the reviews, and what would you recommend regarding the acceptance or rejection of the paper?
+
+Dialogue agent: Overall, the paper presents a technically sound and valuable contribution to the verification of polynomial networks against norm-based perturbations. However, there are some issues with the writing and weaknesses in experimental comparisons and scalability to large models or challenging datasets. The strengths of the paper include the novelty of the approach, the sound proof of the Hessian bounds, and the clarity of the writing. Based on this feedback, it is recommended to accept the paper with minor revisions addressing the concerns raised in the reviews.

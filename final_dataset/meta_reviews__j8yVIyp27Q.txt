@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the paper, "Bidirectional Learning for Offline Infinite-width Model-based Optimization," and I have a few questions before I make my final decision.
+
+Dialogue Agent: Hi, meta-reviewer. I am here to answer your questions based on the reviews and the paper's type, which is long.
+
+Meta-Reviewer: Great. Let's start with the proposed method in the paper, Bidirectional Learning for Offline Infinite-width Model-based Optimization (BDI). Can you explain its novelty and originality?
+
+Dialogue Agent: Sure. BDI proposes a gradient-based method for optimizing designs in Offline Model-Based Optimization (MBO) problems using infinite-width DNN models. BDI incorporates a bidirectional objective that jointly optimizes the forward mapping of designs that maximize the objective function and backward mapping of scores that distill informative characteristics about the true objective function. The backward mapping is based on neural tangent kernels and can distill more information into high-scoring designs. This is a novel and original idea that improves the performance of model-based optimization.
+
+Meta-Reviewer: That sounds interesting. How does the backward mapping help to distill information and improve the performance?
+
+Dialogue Agent: The authors claim that the backward mapping can distill more information into the high-scoring designs. The backward mapping is trained to map high-score designs to low-score designs in contrast to the forward mapping trained to map designs to high scores. The authors provide ablation studies to show that the backward mapping does work, but more analyses and visualizations can be helpful.
+
+Meta-Reviewer: Okay, I see. What about the paper's quality and the experimental setup?
+
+Dialogue Agent: The authors follow a standard evaluation protocol and compare their results to multiple baselines from the literature adapted to Offline MBO. The comparisons are thorough, and results show that BDI outperforms most baselines in most tasks, and all components in BDI are useful. The use of neural tangent kernels in BDI is based on solid theoretical motivation. Some relevant ablations are missing, but the authors have addressed some questions from the reviewers.
+
+Meta-Reviewer: I noticed that Reviewer 3 had some questions regarding the clarity of the paper, specifically concerning the backward mapping. Can you clarify these issues?
+
+Dialogue Agent: Yes, I understand that Reviewer 3 had some confusion regarding the backward mapping and its motivation. The authors may want to provide more intuitive explanations of the backward mapping and how it helps to distill information into high-scoring designs. The authors could also explain the purpose of training f_theta^h, a neural network model learned through the backward mapping, with a virtual score y_h.
+
+Meta-Reviewer: Understood. Finally, based on the reviews, do you think we should accept or reject this paper?
+
+Dialogue Agent: Based on the reviews, Reviewer 1 rated this paper as borderline accept, Reviewer 2 rated this paper as accept, and Reviewer 3 rated this paper as weak accept. There are minor limitations and questions, but the paper is technically solid and has high impact in the sub-area of Offline MBO. From my perspective, I would say that we should accept this paper.
+
+Meta-Reviewer: Thank you, dialogue agent. I appreciate your input and recommendations. Based on all the reviews and your responses, I have decided to accept this paper.

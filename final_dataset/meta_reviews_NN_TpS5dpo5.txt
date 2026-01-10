@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Physically-Based Face Rendering for NIR-VIS Face Recognition." It seems to be a technically solid paper and has achieved state-of-the-art performance on four NIR-VIS benchmarks. However, there are some concerns raised by the reviewers. Can you provide some more information on them?
+
+Dialogue Agent: Sure. What are your specific concerns about the paper?
+
+Meta-reviewer: Well, Review 1 mentions that the synthesized images, particularly the VIS ones, look pretty unrealistic. Also, there are some denotations that need to be explained earlier in the paper. Could you tell me more about this?
+
+Dialogue Agent: Yes, Review 1 is correct. While the proposed method allows generating infinite pairs of VIS-NIR facial images, some components are missing, including hair, facial accessories, and background. Moreover, the denotations mentioned in the paper such as \mathcal{R}^{NIR} should be explained earlier in the text or captions to make it easier for the readers to understand.
+
+Meta-reviewer: That makes sense. Now, Review 2 mentions that the proposed ID-MMD loss is not novel, and some related works are missing. Can you elaborate more about this?
+
+Dialogue Agent: Yes, Review 2 is correct in saying that the proposed ID-MMD loss is not a new method. However, it has been shown to be effective in reducing the modality discrepancy and facilitating the identity feature learning in the proposed dataset. As for the missing related works, we apologize for any inadvertent omissions and will take this into account in future revisions.
+
+Meta-reviewer: Okay. Lastly, Review 3 suggests that the motivation for using a 3d-rendering based generating dataset is not clearly illustrated, and there are not enough comparison results. Could you provide more details about this?
+
+Dialogue Agent: Yes, the 3d-rendering based generating dataset is used to solve the problem of lacking paired NIR-VIS data and achieve better performance in NIR-VIS face recognition. However, we acknowledge that the motivation behind this may not have been explicitly stated in the paper. As for the comparison results, we will take the reviewer's feedback into consideration and include additional generated data of varying percentages to further illustrate the effectiveness of the proposed synthesis method.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews, I'm inclined to accept this paper. However, Review 2 has rated it as borderline accept due to limited evaluation. Could you explain the evaluation process used in the paper?
+
+Dialogue Agent: Certainly. For evaluation, we used four NIR-VIS face recognition benchmarks, and our proposed method achieved state-of-the-art performance on all of them. Furthermore, we conducted extensive ablation studies and fine-tuning experiments to demonstrate the effectiveness of the proposed method. 
+
+Meta-reviewer: Thank you for explaining. Based on the reviews and your responses, I have decided to accept this paper with a rating of 7. However, I do have some concerns about the confidence level of Review 1 and Review 3. Could you tell me more about that?
+
+Dialogue Agent: Review 1 expressed medium confidence in their assessment of the paper, while Review 3 expressed a slightly lower confidence level. However, their reviews were still generally positive, and their suggestions were constructive. We will take their feedback into account and address any concerns in future revisions.

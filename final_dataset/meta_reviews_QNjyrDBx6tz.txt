@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "Practical Adversarial Multivalid Conformal Prediction" and I have some questions for you. Can you please give me some information about the paper's contributions and its advantages over existing methods?
+
+Dialogue agent: Certainly, the paper proposes an online conformal prediction algorithm that provides a threshold-calibrated multivalid coverage guarantee, which is more robust to distribution shift and does not require the exchangeability assumption. The proposed algorithm also achieves improved statistical rates compared to prior work. The paper's contributions also include a theoretically interesting surrogate loss and techniques for proving the proposed coverage guarantee. The advantages of the proposed method are discussed in the introductory section and are supported by experiments on synthetic data, time-series data, and image data.
+
+Meta-reviewer: Thank you for the summary. I noticed that Review 1 mentions a weakness regarding the use of technical notations in Sections 2 and 3. Can you provide some more details on why the notation is difficult to follow?
+
+Dialogue agent: The paper includes a lot of technical notation to communicate the proposed guarantee and the proof sketch. While the authors provide an introduction to the notation in Section 2, they do not repeat it inline at appropriate places, making it difficult for readers to follow the notation. Additionally, some definitions, such as the definition of G_T(i) in Definition 2.1, are not explained very clearly. Review 1 also provides some specific examples of unclear notation and definitions.
+
+Meta-reviewer: I see. Can you tell me more about the paper's weaknesses?
+
+Dialogue agent: Review 1 identifies some weaknesses in the paper, including the overloaded technical notations, the lack of a clear threat model in the adversarial setting, and an unclear choice of the parameter alpha in Definition 2.1. Review 2 also mentions that it is not clear how to check if Definition 3.1 holds for a given triplet, and Review 3 points out that the paper could benefit from explaining some of its concepts in more intuitive terms for readers who may not be experts in conformal prediction. Additionally, Review 3 suggests the paper should include comparisons with the adaptive conformal prediction for time series.
+
+Meta-reviewer: Thank you for the details. Based on the reviews, it seems that the paper is technically solid and proposes a novel framework with several advantages over existing methods. However, the use of technical notations may make it difficult for readers to follow, and some aspects can benefit from further clarification. Given these findings, I am fairly confident in my assessment that the paper should be accepted. Do you have any other information that could help me make the final decision?
+
+Dialogue agent: No, that's all the information I have based on the reviews.

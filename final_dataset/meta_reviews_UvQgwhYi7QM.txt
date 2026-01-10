@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, can you tell me a bit about the paper "Beyond L1: Faster and Better Sparse Models with skglm"? 
+
+Dialogue agent: Sure, the paper proposes a new generic algorithm for solving sparse optimization problems with very large numbers of variables, with convex or non-convex penalties. The proposed algorithm, called skglm, uses a working-set strategy on the outer loop and coordinate descent with Anderson acceleration in the inner loop. skglm is implemented in a new flexible sklearn compatible package and is designed to be scalable to millions of variables.
+
+Meta-reviewer: I see. What are the strengths and weaknesses of this paper? 
+
+Dialogue agent: Reviewer 1 found the proposed algorithm to have a broad area of application and showed promising experimental results. The code is also available and should be easy to use. However, the paper was considered overly technical and hard to read, with small plots that were hard to understand. Reviewer 1 recommended making the paper more readable and self-contained to increase its impact. Reviewer 2 found the paper to be technically solid with good-to-excellent evaluation and resources. However, there were a few areas where the authors could improve, such as clarifying the contributions of working set and Anderson acceleration and explaining the details of Anderson acceleration. Reviewer 3 pointed out that some of the contributions of the paper were not clearly articulated, such as how novel the proposed score function is. The paper also did not introduce the details about Anderson acceleration, not even including a brief summary. Additionally, the size of the working set was not well explained.
+
+Meta-reviewer: Based on the reviews, do you think I should accept or reject the paper? 
+
+Dialogue agent: I cannot provide an opinion or a recommendation. However, based on the reviews, the paper appears to be technically solid with good-to-excellent evaluation and resources. While there are a few areas where improvements could be made, the overall strengths outweigh the weaknesses. Ultimately, it is up to your discretion to decide whether to accept or reject the paper.

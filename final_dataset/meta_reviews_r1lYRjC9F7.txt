@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, thank you for joining me. I have read the reviews for this paper, "Enabling Factorized Piano Music Modeling and Generation with the MAESTRO Dataset", and I have a few questions for you.
+
+Dialogue Agent: Of course, I'm happy to help. What do you need to know?
+
+Meta-reviewer: First, could you tell me a little bit more about the paper's contributions? Review 1 seemed to suggest that while the modeling advances were small, the paper represented a solid case study in collecting valuable supervised data to push the set of tasks forward.
+
+Dialogue Agent: Yes, that is correct. The paper introduces a shared piano-roll representation and a new dataset of 172 hours of aligned MIDI and audio from real performances recorded on Yamaha Disklavier pianos, which allows for the expansion of coherently modeling music from a few seconds to a minute. It also combines state-of-the-art models for piano transcription, symbolic music synthesis, and waveform generation, all using the shared representation. The paper makes significant progress towards solving the long-standing problem of piano music modeling.
+
+Meta-reviewer: That's impressive. Review 2 mentioned that the available techniques today for audio or music generation are not able to sufficiently handle the many levels at which music needs to be modeled. How does this paper propose to address this issue?
+
+Dialogue Agent: The paper proposes to impose a MIDI representation (piano roll) in the neural modeling of music audio that serves as an intermediate and interpretable representation between the analysis (music audio -> MIDI) and synthesis (MIDI -> music audio) in the pipeline of piano music generation. By doing so, the paper is able to coherently model entire musical pieces.
+
+Meta-reviewer: I see. Review 3 highlighted a few minor issues with the paper, such as confusions in the equations and table names. Are there any responses from the authors regarding these issues?
+
+Dialogue Agent: I do not have access to the author's responses, as they have not been provided to me. However, I can clarify that Equation 1 represents the joint distribution between audio and notes, not the marginal of audio. Table 4 measures precision, recall, and f1 score for notes with velocity, and the system needs to be close to the velocity to get it right. Table 6's NLL stands for Negative Log Likelihood and the error bars in Figure 2 represent the standard deviation of the mean.
+
+Meta-reviewer: Thank you for clarifying that. Finally, I'm curious about the reviewer confidence levels. Review 1 seems very familiar with the relevant literature and absolutely certain that the evaluation is correct, while Review 2 seems willing to defend the evaluation but was not entirely clear on some parts of the paper. How should I interpret these confidence levels when making a final decision?
+
+Dialogue Agent: Reviewer confidence levels can be useful in evaluating the reviews, but they should not be the sole determining factor in making a final decision. Ultimately, it is important to carefully consider each review's strengths and weaknesses, as well as the paper's contributions and potential impact. It may be helpful to also consider potential revisions that could address any minor issues raised in the reviews.

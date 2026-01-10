@@ -1,0 +1,26 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Can you summarize the paper's main contribution and findings?
+
+Dialogue Agent: The paper proposes a method for improving the quality of text generation by optimizing for coherence and cohesion. The authors develop two discriminators to capture these properties and use them to train a text generation model. The improvements over a generically-trained generation model are small, and the paper acknowledges the limitations of the approach.
+
+Turn 2:
+Meta-Reviewer: Can you elaborate on the discriminators and how they are trained?
+
+Dialogue Agent: The discriminators are trained to rank true text over randomly drawn negative samples. The scores are based on cosine similarity between the encodings of the first and second half of the document or between the word embeddings of two consecutive sentences. The discriminators use CNNs to encode the inputs.
+
+Turn 3:
+Meta-Reviewer: How do the authors evaluate the performance of the text generation model?
+
+Dialogue Agent: The authors use various automatic metrics, including NLL, PPL, BLEU, and number of unique ngrams in the outputs. However, the improvements over a generically-trained generation model are very small.
+
+Turn 4:
+Meta-Reviewer: What are the reviewer's concerns about the paper's approach and evaluation?
+
+Dialogue Agent: The reviewer has several concerns, including the lack of human evaluation, the use of automated metrics that may not be sensitive to coherence and cohesion, and the lack of motivation for the discriminators. The reviewer also notes that the improvements are minuscule and that the paper ignores decades of NLG literature on this topic before the "neural revolution" in NLP.
+
+Turn 5:
+Meta-Reviewer: Can you summarize the reviewer's rating and confidence in the paper's evaluation?
+
+Dialogue Agent: The reviewer gives a rating of 2 (Strong rejection) and a confidence of 4 (The reviewer is confident but not absolutely certain that the evaluation is correct). The reviewer is concerned that the paper's approach may not capture the nuances of coherence and cohesion and that the evaluation is not sufficient to support the claims made in the paper.

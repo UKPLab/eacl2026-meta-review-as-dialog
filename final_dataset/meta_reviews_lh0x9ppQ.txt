@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning Numerical Attributes in Knowledge Bases":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Learning Numerical Attributes in Knowledge Bases". Can you tell me a bit about the paper?
+
+Dialogue Agent: Certainly! The paper presents a method for predicting the values of numerical attributes in knowledge bases (KBs) that are missing in the KB. The approach uses regression and learned embeddings to predict the values of these attributes. The paper includes a comprehensive experimental evaluation of a variety of methods.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are some of the strengths of the paper?
+
+Dialogue Agent: The paper presents innovative work towards learning numerical attributes in a KB, which the authors claim to be the first of its kind. The approach leverages KB embeddings to learn feature representations for predicting missing numerical attribute values. The evaluation is on a set of highest ranked 10 numerical attributes in a QA setting with questions that require a numerical answer. The paper is well written and the approach is explained in full detail.
+
+Turn 3:
+
+Meta-reviewer: That's great. What about the weaknesses of the paper?
+
+Dialogue Agent: Some reviewers have noted that the paper does not adequately address the problem of predicting the values of entities' numerical attributes in KBs. Additionally, some reviewers have expressed concern that the proposed methods may not be practically viable due to the large prediction errors.
+
+Turn 4:
+
+Meta-reviewer: I see. Can you summarize the reviewer comments for me?
+
+Dialogue Agent: Sure! Reviewers have noted that the paper presents innovative work towards learning numerical attributes in a KB, but some have expressed concerns about the practical viability of the proposed methods due to large prediction errors. Additionally, some reviewers have suggested that the paper could benefit from a more comprehensive discussion of the assumptions made by the models and the structure of the knowledge graph.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, I'm leaning towards rejecting the paper. Can you tell me more about the confidence of the reviewers?
+
+Dialogue Agent: Sure! Based on the reviews, the confidence of the reviewers is mixed. Some reviewers have expressed high confidence in the evaluation, while others have expressed more reservations. The final decision will involve weighing the importance of reviewer confidence and the potential impact of the paper.

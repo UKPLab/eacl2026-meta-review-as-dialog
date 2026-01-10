@@ -1,0 +1,11 @@
+Meta-Reviewer: Can you give me a summary of the reviews for the paper "Visual Imitation Learning with Recurrent Siamese Networks"?
+
+Dialogue Agent: Review 1 acknowledges that the individual components of the work have been studied previously, but the combination is well-chosen. However, author's evaluation to baselines is not adequate, and the method doesn't work well qualitatively, which makes it hardly applicable to real-world videos. Review 2 points out the lack of a baseline example to evaluate performance, which makes it difficult to compare the proposed technique to other algorithms. The paper also needs significant work for clarity and completeness. Review 3 agrees that the idea is interesting, but the writing needs more clarity, and there needs to be many more baseline comparisons.
+
+Meta-Reviewer: What is the confidence level of each reviewer in their evaluation of the paper?
+
+Dialogue Agent: Review 1 and Review 2 are both confident that the paper is not good enough for acceptance, with a rating of 4. Review 3 thinks it is marginally below acceptance threshold, with a rating of 5. Review 1 is also confident with a rating of 4, while Review 2 is fairly confident with a rating of 3. 
+
+Meta-Reviewer: Okay. Can you provide me with more details on the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper proposes an interesting idea of learning distances for rewards via a recurrent siamese network, but the evaluations to baselines are not adequate, and the method does not work well qualitatively. In addition, there are many areas where the paper lacks clarity and completeness, such as the procedure and structure of the training data, and the rationale behind the objective of the loss function. The lack of a baseline example for evaluation makes it difficult to determine the performance of the technique, and the paper requires many more baseline comparisons to be convincing.

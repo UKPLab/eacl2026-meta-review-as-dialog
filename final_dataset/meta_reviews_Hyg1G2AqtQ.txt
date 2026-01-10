@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, can you please summarize the main contributions of your paper and address the reviewers' comments?
+
+Dialogue Agent: Certainly. Our paper proposes a method for variance reduction in reinforcement learning in input-driven environments. We introduce the concept of input-dependent baselines for policy gradient methods, which helps to reduce variance without inducing bias. We also propose two methods for training the input-dependent baseline function, a multi-value network based approach and a meta-learning approach. Our experimental results show that the input-dependent baseline outperforms the state-dependent baseline in simulated robotic locomotion tasks and load balancing and video bitrate adaptation tasks.
+
+Regarding the reviewers' comments, Reviewer 1 highlighted the lack of clarity on the observability of z and the need for more comparisons with prior methods. We agree with this feedback and will improve clarity in our explanation of z's observability in the revised version. We will also include a comparison with Clavera et al. and other prior work. Reviewer 1 also requested more analysis of the meta-learning component, and we will add this to the revised version.
+
+Reviewer 2 expressed concerns about the low originality and significance of our work but acknowledged its well-written style and strong experimental results. We appreciate the feedback and believe that our contributions are significant enough to warrant acceptance after addressing the concerns raised.
+
+Finally, Reviewer 3 raised concerns about the choice of input-dependent baseline function and its comparison with prior methods and the standard PG update. We will address these concerns in the revised version by providing more details on the choice of our baseline function and by comparing it with the standard PG update and UVFAs. We will also clarify the motivations behind our choice of the input-dependent baseline function.
+
+Meta-Reviewer: Thank you for addressing the reviewers' comments. Based on your responses, I'm confident in recommending your paper for acceptance.

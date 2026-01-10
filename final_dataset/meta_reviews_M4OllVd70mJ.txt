@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning to Branch with Tree MDPs":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I am reviewing a paper titled "Learning to Branch with Tree MDPs" and I would like your assistance in evaluating the paper. Please provide a summary of the reviews and the paper's type.
+
+Dialogue Agent: Sure! The paper titled "Learning to Branch with Tree MDPs" is a long paper that proposes a new Tree MDP theory and formalizes the branching problem as a Tree MDP problem. The reviews are [Review 1, Review 2, and Review 3]. The paper's type is long.
+
+Turn 2:
+
+Meta-Reviewer: Can you summarize the main contributions and weaknesses of the paper?
+
+Dialogue Agent: The main contributions of the paper are the proposal of a new Tree MDP formulation for learning to branch in MILP, and the development of a policy gradient algorithm for solving MILP tree MDPs. The paper also compares the tree MDP formulation with the vanilla RL formulation and a strong baseline (default SCIP) on 5 benchmark problem sets. The weaknesses of the paper include the empirical results not showing improved performance over the baseline in 4 out of 5 cases, and the limited insight into the empirical characteristics of tMDP compared to SCIP.
+
+Turn 3:
+
+Meta-Reviewer: How do the reviewers evaluate the paper's technical solidity and impact?
+
+Dialogue Agent: Based on the reviews, Reviewer 1 believes that the paper is technically solid, but has some basic theoretical flaws and concerns about the generalization of the method to the test environment. Reviewer 2 finds the paper to be technically solid, but has some concerns about the computational performance and the limited scope of the algorithms. Reviewer 3 believes that the paper is technically strong, with novel ideas and excellent impact on at least one area, but has some minor issues with the presentation and the description of the baseline.
+
+Turn 4:
+
+Meta-Reviewer: What are the reviewers' confidence levels in their assessments?
+
+Dialogue Agent: Based on the reviews, Reviewer 1 has a confidence level of 3, Reviewer 2 has a confidence level of 4, and Reviewer 3 has a confidence level of 4.
+
+Turn 5:
+
+Meta-Reviewer: Based on the summarized information, how do you assess the paper's acceptance or rejection?
+
+Dialogue Agent: Based on the reviews and the summarized information, I would assess the paper as a Weak Accept, as the paper has several novel algorithmic contributions, and the proposed approach seems well-motivated and interesting. However, the empirical results do not show improved performance over the baseline in 4 out of 5 cases, and the limited insight into the empirical characteristics of tMDP compared to SCIP are some concerns.

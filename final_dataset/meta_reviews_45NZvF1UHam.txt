@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Identifying Physical Law of Hamiltonian Systems via Meta-Learning" and I have some questions for you.
+
+Dialogue agent: Sure, I'll do my best to answer them.
+
+Meta-reviewer: The first review mentions some strengths and weaknesses of the paper. Can you provide more information about the weakness that the meta-learner, in particular HANIL, is only adjusting the read-out layer?
+
+Dialogue agent: I can confirm that the meta-learner HANIL only adjusts the read-out layer of the Hamiltonian Neural Network. This is a design choice made by the authors, as adjusting the physical parameters directly is not feasible due to the limited number of samples. However, the authors demonstrated that the approach still achieves good performance on the few-shot learning task for new systems.
+
+Meta-reviewer: The same review also suggests using a VAE instead of the meta-learning framework. Can you comment on that?
+
+Dialogue agent: While a VAE is a viable alternative for learning a lower-dimensional embedding of the task distribution, it may not be as effective as the proposed meta-learning framework for learning the Hamiltonian structure and parameters. The authors have made a clear argument for their choice of approach and demonstrated its effectiveness.
+
+Meta-reviewer: The second review raises concerns about the experimental setup and the choice of benchmarks. Can you provide more details on the meta-training and meta-testing process?
+
+Dialogue agent: The authors sampled 10,000 tasks for each of the three dynamic systems, leading to a total of 30,000 tasks for meta-training. The meta-learning was performed per system, as suggested by Fig. 1 in the paper. The choice of 10,000 tasks was motivated by previous work in meta-learning and was found to be sufficient for achieving good performance in the few-shot learning task. The authors have not conducted an ablation study on the size of the meta-sets, but they did experiment with different gradient steps during evaluation.
+
+Meta-reviewer: The same review also mentions several recent methods for modeling Hamiltonian systems that are not discussed in the paper. Can you explain why the authors did not consider these methods?
+
+Dialogue agent: The authors have briefly mentioned these methods in the paper, but they did not perform a thorough comparison due to the focus on the proposed meta-learning framework. However, they did compare their approach with several baseline methods, including vanilla HNN and HNN with MAML. They have provided evidence that their approach achieves better performance than these baselines and have discussed the limitations and potential extensions of their work.
+
+Meta-reviewer: The third review suggests that the paper does not have novel technical content and does not give a hint of real-world problem settings that could benefit from this specific combination. Can you comment on that?
+
+Dialogue agent: While the proposed method is a combination of existing techniques, the authors have made a clear argument for the novelty of their approach in the context of Hamiltonian system identification. They have demonstrated the effectiveness of their approach on several benchmark problems and have discussed the potential applications of their work, such as in robotics and control systems.
+
+Meta-reviewer: Can you give me your overall assessment of the paper based on the reviews and your understanding of it?
+
+Dialogue agent: Based on the reviews and my understanding of the paper, I would recommend accepting the paper with a moderate confidence level. The paper presents a novel approach for identifying the physical law of Hamiltonian systems via meta-learning and achieves good performance on several benchmark problems. While there are some concerns and suggestions for improvement raised by the reviewers, the authors have addressed them in the rebuttal and some of them have been incorporated into the revised version of the paper.

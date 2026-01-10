@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Graph2Seq: Scalable Learning Dynamics for Graphs":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Graph2Seq: Scalable Learning Dynamics for Graphs". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new method for learning vector representations of graphs, called Graph2Seq. The method is based on a scalable learning dynamics that can handle large graphs.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the proposed method?
+
+Dialogue Agent: Sure! Graph2Seq is based on the idea of intermediate vector representation of vertices in the final representation. The authors show that an infinite sequence of such intermediate representations is much more powerful than existing models, which do not maintain intermediate representations.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: Sure! The paper has several strengths. First, the theory is very interesting and provides a strong basis for Graph2Seq. The experiments are also well-presented and the performance of Graph2Seq is remarkable, especially in terms of generalization to larger graphs. Additionally, the writing is very well-done and complex ideas are neatly articulated.
+
+Turn 4:
+
+Meta-Reviewer: That's great to hear. Are there any concerns or limitations of the paper?
+
+Dialogue Agent: Yes, there are some concerns and limitations. One concern is the complexity of the method, which is O((E+V)*T_max*V), where E and V are the number of edges and vertices in the graph, and T_max is the maximum number of iterations. Additionally, the authors assume that computations are performed for a single iteration, which may not be the case in practice.
+
+Turn 5:
+
+Meta-Reviewer: I see. Can you tell me more about the comparison to existing methods in the paper?
+
+Dialogue Agent: Sure! The authors compare their method to existing methods such as Graph Convolutional Networks (GCNNs) and Local-Gather models. However, the authors do not apply Algorithm 2 to that method, which may not provide a fair comparison. Additionally, the experiments are insufficient and do not compare to existing deterministic solvers.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper is marginally above acceptance threshold. However, I have some concerns about the complexity and the comparison to existing methods. What is your confidence level for the evaluation?
+
+Dialogue Agent: Based on the reviews, I would say that the paper is marginally above acceptance threshold, but with some concerns about the complexity and the comparison to existing methods. My confidence level for the evaluation is 4 out of 5.

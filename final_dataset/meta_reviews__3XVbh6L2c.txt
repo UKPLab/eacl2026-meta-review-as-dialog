@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have read the three reviews for the paper titled "Reinforcement Learning with Automated Auxiliary Loss Search". Based on these reviews, I would like to engage in a discussion with you to see whether this paper should be accepted or rejected.
+
+Dialogue agent: Hello, meta-reviewer. I am here to provide you with the information you need to make an informed decision about the paper. Please ask me any questions you may have.
+
+Meta-reviewer: Firstly, could you provide me with the paper's type and title, as well as a brief summary of its contents?
+
+Dialogue agent: Certainly, the paper's title is "Reinforcement Learning with Automated Auxiliary Loss Search". It is a long paper that proposes an evolutionary strategy-based auxiliary loss search for training neural networks for RL. The main motivation for this is that while it is known that auxiliary losses can improve training by aiding useful representation learning, it is not clear which formulation of the auxiliary loss is most beneficial since the number of potential possibilities is very large. Therefore, it can be valuable to automate the search through this space in order to identify the most useful loss functions.
+
+Meta-reviewer: Thank you for that summary. Reviewer 1 raised some concerns about the paper's acceptance. Can you give me some insights into these concerns?
+
+Dialogue agent: Certainly. Reviewer 1's biggest concern is that it appears that the identified A2-winner loss is obtained with just 5 generations of the proposed ES. This makes the reviewer wonder if the ES is actually necessary, and whether a random sampling of 4 or 5 times the population size would already produce equally good results, while being more parallelizable. Furthermore, in Table 2, many results for A2-winner at 500K steps are in bold, but their difference from CURL does not appear to be statistically significant. Additionally, the paper omits any discussion of how the target encoder parameters are obtained. This is left completely to the supplementary material, and that confused the reviewer for the first couple of readings. Finally, the paper is missing references from the ES literature, focusing only on references to some recent papers that apply ES to RL.
+
+Meta-reviewer: I see. And what about Reviewer 2?
+
+Dialogue agent: Reviewer 2 has a positive evaluation of the paper, stating that the main technical contribution is the design of a search space that covers a set of common auxiliary losses such as the forward dynamics, inverse dynamics and reward prediction. Empirical experiments show that a loss searched on 3 image-based DM Control tasks also brings better sample efficiency on other DM Control tasks and Atari games, providing insights into what are important auxiliary tasks, among others. The reviewer agrees that the method is expensive and requires tens of thousands of GPU hours, and there is room for improvements in efficiency, but that doesn't represent a weakness with respect to the work's significance. The reviewer insists that some more information about the inner loop and its comparison with the baselines (hyper-parameters, choosing criteria) be added to address questions such as: Do these findings apply to value-based, as well as policy-based methods?
+
+Meta-reviewer: And finally, can you speak to any concerns from Reviewer 3?
+
+Dialogue agent: Reviewer 3 likes the overall direction of the paper, as well as its experiments. The reviewer agrees that it provides insights into what are important auxiliary tasks, among others. The main concern is that a critical question that is not fully addressed in the paper is, to what degree is the searched auxiliary loss universal? When does the auxiliary loss transfer and when does it not? Reviewer 3 suggests some experiments that could be done to address this issue. Additionally, missing references in the paper and discussing certain aspects of related work could be beneficial.
+
+Meta-reviewer: Thank you for providing me with these insights.  I think we need additional information before we can move ahead with the decision. Can you tell me if the paper has any major ethical or other considerations that we need to account for?
+
+Dialogue agent: None of the reviews or the paper itself raise any major ethical or other considerations that need to be accounted for.
+
+Meta-reviewer: Alright, thank you for letting me know. Based on the reviews and the information you've provided, I think we need more information before we make a decision. I will take into account the reviewers' feedback and follow up with the authors to request further information and revisions, if necessary. Thank you for your assistance.
+
+Dialogue agent: You're welcome, meta-reviewer. Let me know if you need any additional information or support in making your decision.

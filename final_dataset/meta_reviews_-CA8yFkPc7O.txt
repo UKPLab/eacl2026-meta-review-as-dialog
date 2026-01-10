@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, Dialogue Agent, I have reviewed the reviews for the paper "Robust Option Learning for Adversarial Generalization" and I have a few questions. Can you tell me more about the the type of paper and its strengths and weaknesses based on the reviews?
+
+Dialogue Agent: Yes, certainly. The paper is a long, technically solid paper with moderate-to-high impact, according to Review 1. As for strengths, Review 1 praises the paper's well-written and structured presentation, clear and convincing theoretical explanations, and solid empirical results. However, there are also some weaknesses, such as missing definitions in section 3 and the need for more detailed analysis of experiment results in section 5.
+
+Meta-Reviewer: Thank you for that summary. Can you tell me more about the originality of the paper?
+
+Dialogue Agent: Review 2 states that while the paper presents an interesting framework for training robust options, it appears related to previous work where an adversary designs environments which challenge the current agent. Review 2 also notes that there is a plethora of work on learning robust or safe policies using a worst-case minimax objective, and that the paper should discuss these areas of research more thoroughly.
+
+Meta-Reviewer: Okay. And what about the quality of the algorithms and experimental evaluations?
+
+Dialogue Agent: Review 2 praises the algorithms for being well-motivated and the authors for providing rigorous convergence guarantees. However, Review 2 expresses concern that the learning curves are only reported over a small number of frames and that more analysis is needed of the experiment results. Review 2 also suggests the need for a baseline that simply performs flat RL, preferably SAC, on the full task.
+
+Review 3, on the other hand, finds the practical algorithms to be backed by theoretical guarantees and that the algorithms vastly outperform the given baselines in practice. However, Review 3 also expresses concerns that the contribution is fairly incremental, that much of the option discovery challenge is simply waved away by pre-specifying the subtasks, and that it is unclear how the work fits in with other option-discovery approaches.
+
+Meta-Reviewer: Thank you for that detailed response. Based on the reviews, what is your level of confidence in accepting or rejecting this paper?
+
+Dialogue Agent: Review 1 has rated the paper a Weak Accept with high confidence, while Review 2 has rated the paper a Reject with medium confidence. Review 3 also does not give a clear recommendation, but does express some concerns while also praising certain aspects of the paper. Therefore, my level of confidence in making a decision is limited and I would suggest further discussion and evaluation of the paper.

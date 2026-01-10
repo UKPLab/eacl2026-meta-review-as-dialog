@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you provide me an overview of the paper "Large-Scale Differentiable Causal Discovery of Factor Graphs"?
+
+Dialogue agent: The paper proposes a differentiable algorithm for causal discovery in high dimensional settings with interventional data. The authors use a low-rank assumption on a factor graph to incorporate the model into the algorithm. The empirical results show strong performance with respect to prior work.
+
+Meta-reviewer: How does the paper differ from previous work in the same field?
+
+Dialogue agent: The paper introduces factor directed acyclic graphs (f-DAGs) to reduce the search space in the large-scale causal discovery problem. Based on this, the authors propose the Differentiable Causal Discovery of Factor Graphs (DCD-FG) algorithm to realize scalable causal discovery. The main contribution of this paper is the introduction of the f-DAGs.
+
+Meta-reviewer: What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue agent: Review 1 finds that the main result is trivial and only provides a sufficient condition for DAG. Review 2 appreciates the introduction of the low-rank assumption and the Gumbel-softmax prior but suggests adding more experimental evidence to show robustness. Review 3 agrees that the f-DAGs are a strength but points out that the theoretic property of this work is not well presented. 
+
+Meta-reviewer: What is your own assessment of the paper?
+
+Dialogue agent: I cannot provide an opinion or recommendation. However, I can tell you that review 1 gave a borderline accept rating, review 2 gave an accept rating, and review 3 gave a weak accept rating. The confidence levels of the reviews are also different. Review 1 is very certain, review 2 is fairly confident, and review 3 is not absolute.

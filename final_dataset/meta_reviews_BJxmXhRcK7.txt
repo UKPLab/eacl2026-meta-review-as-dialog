@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Tensor Ring Nets Adapted Deep Multi-Task Learning":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Tensor Ring Nets Adapted Deep Multi-Task Learning". Can you provide a summary of the reviews?
+
+Dialogue Agent: Sure! Based on the two reviews provided, the first reviewer found the paper to be marginally above the acceptance threshold with a rating of 6 and confidence of 4. The second reviewer rated the paper as marginally below the acceptance threshold with a rating of 5 and confidence of 4. The third reviewer rated the paper as not good enough for acceptance with a rating of 4 and confidence of 4.
+
+Turn 2:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, it seems that the novelty and experiments of the paper are somewhat limited. What are your thoughts on this?
+
+Dialogue Agent: Yes, the reviews mention that the paper's novelty and experiments are limited. The authors proposed a variant of tensor ring formulation for multi-task learning, but the extension is considered simple and the experiments are too simplistic. The reviewers suggest that the authors should have explored more challenging MTL tasks and provided more insight into the choice of hyperparameters.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the writing issues in the paper? The reviewers mentioned that there are many writing issues, including lack of clarity and over-claiming.
+
+Dialogue Agent: Yes, the reviewers raised concerns about the writing quality of the paper. The authors claim some benefits and improvements over existing methods, but the claims are not adequately justified or explained transparently. Additionally, the paper introduces more hyperparameters to tune, which may rely on hyperparameter tuning for the results.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for your input. Based on the reviews and your summary, I think the paper is not strong enough for acceptance. What is your final assessment?
+
+Dialogue Agent: Based on the reviews and the writing issues, I agree that the paper is not strong enough for acceptance. The novelty and experiments are limited, and the writing quality is not satisfactory. Therefore, I recommend rejecting the paper.
+
+Meta-Reviewer: Thank you for your input. I agree with your assessment and will reject the paper.
+
+Please note that the above dialogue is a simulated conversation and does not reflect the actual reviews or assessment of any specific paper.

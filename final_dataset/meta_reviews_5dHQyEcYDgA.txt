@@ -1,0 +1,15 @@
+Meta-Reviewer: Hi, dialogue agent. Can you give me a brief overview of the paper's content and contribution?
+
+Dialogue Agent: Certainly. This paper proposes an additive multiple instance learning (MIL) technique for improving the interpretability of MIL models, especially in digital pathology datasets. The key idea is to make prediction per instance and sum the predictions to get the final probability, which allows for excitatory/inhibitive signals and per-class contribution for each patch. The proposed method is shown to have no loss of performance compared to state-of-the-art methods, while displaying desirable qualities for interpreting the model's prediction.
+
+Meta-Reviewer: That's helpful. I have a question regarding Review 1. The reviewer recommended including results on the use of Additive MIL without an attention module. Can you tell me why the authors didn't include this in the main paper?
+
+Dialogue Agent: The authors indicate that the focus of the paper is on the interpretability of MIL models rather than on improved predictive performance. Including results without an attention module would likely have required additional experiments and analysis, which may not have been feasible within the scope of the paper. However, the authors could consider including such results in the appendix as supplemental data.
+
+Meta-Reviewer: I see. Review 2 mentioned that the novelty of the proposed method is somewhat limited. Can you explain why this may be the case?
+
+Dialogue Agent: The proposed method combines two existing methods, attention-based MIL and additive attribution models, rather than introducing a completely new technique. However, the combination of the two methods is considered original and is shown to provide desirable improvements in interpretability without sacrificing performance.
+
+Meta-Reviewer: Lastly, Review 3 raised a concern about the interpretability of the additive MIL heatmap. Can you explain why the heatmap may not be helpful for interpretation?
+
+Dialogue Agent: The reviewer noted that while the heatmap provides per-class excitation/inhibition signals for each patch, it may not align with human expectations of the tumor pathology without pathologist segmentation. The authors could address this concern by obtaining pathologist segmentation of each tumor subtype to better evaluate the alignment of the model's heatmap with human expectation. Additionally, the authors could consider labeling their figures more clearly for easier interpretation.

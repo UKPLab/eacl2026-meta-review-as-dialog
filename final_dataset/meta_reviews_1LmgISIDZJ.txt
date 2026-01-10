@@ -1,0 +1,41 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning to Sample and Aggregate: Few-shot Reasoning over Temporal Knowledge Graphs":
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper titled "Learning to Sample and Aggregate: Few-shot Reasoning over Temporal Knowledge Graphs". Can you tell me a little bit about the paper?
+
+Dialogue Agent: Sure! The paper addresses the problem of few-shot reasoning over temporal knowledge graphs, which is an underexplored problem in real-world settings where new entities may emerge over time. The authors propose a meta-learning framework called MetaTKGR, which can dynamically learn the strategies for sampling and aggregating neighbors in temporal knowledge graphs.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The paper presents a formal formulation for few-shot temporal graph reasoning, and proposes a meta-learning framework for solving this problem. The authors conducted experiments on three public datasets to verify the significance of their approach.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the experimental results?
+
+Dialogue Agent: Sure! The authors conducted experiments on three public datasets and demonstrated the significance of their approach. The results showed that MetaTKGR outperformed baseline models in few-shot reasoning tasks, and provided better explainability.
+
+Turn 4:
+
+Meta-reviewer: How does the paper address the challenges of few-shot and time-shift perspectives?
+
+Dialogue Agent: The authors addressed the challenges of few-shot and time-shift perspectives by proposing a meta-learning framework that can adapt to new entities for future prediction. The framework uses a sampling strategy to select neighbors from recent facts, and an aggregation strategy to combine the information from the neighbors.
+
+Turn 5:
+
+Meta-reviewer: That's great. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper has several strengths, including its technical solidity, high impact on the field, and thorough experimental results. However, the paper has one weakness, which is that the proposed method is a bit hard to follow, consisting of five steps indicated in Figure 2. It would be helpful to associate the figure with different subsections to help readers follow the logic more closely.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your input. Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on my assessment, I would recommend accepting the paper with a rating of 7: Accept. The paper presents a technically solid, high-impact paper with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the paper has one weakness, which is that the proposed method is a bit hard to follow.
+
+Turn 7:
+
+Meta-reviewer: Thank you for your input. I will consider your assessment when making my final decision.

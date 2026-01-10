@@ -1,0 +1,17 @@
+ Sure, I can simulate a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection. The meta-reviewer is aware only of the paper's title, "Uncertainty in Multitask Transfer Learning."
+
+Meta-Reviewer: Hello, I'm the meta-reviewer for this paper, "Uncertainty in Multitask Transfer Learning." Can you tell me about the paper's main contributions and key ideas?
+
+Dialogue Agent: Certainly! The paper proposes a new approach to multitask transfer learning that addresses the problem of uncertainty in the weights of a neural network. The authors introduce a latent variable "z" per task to capture the commonality in the task instances and use a variational distribution over "z" to model the uncertainty.
+
+Meta-Reviewer: That sounds interesting. What are the main weaknesses of the paper, in your opinion?
+
+Dialogue Agent: Well, the paper's main weaknesses are the lack of a clear and concise presentation of the key ideas and the misleading technical section. The authors claim to have learned an 'expressive transferable prior over the weights of a network' for multi-task settings, but the paper does not provide a clear and convincing argument for this claim. Additionally, the paper does not provide a thorough comparison of the proposed method with existing baselines, which would have been helpful in evaluating the paper's contributions.
+
+Meta-Reviewer: I see. Can you tell me more about the misleading technical section?
+
+Dialogue Agent: Yes, the paper's technical section is misleading in several ways. Firstly, the authors claim to have learned an 'expressive transferable prior over the weights of a network' for multi-task settings, but the proposed method is not a true Bayesian model. Instead, it is a practical variational algorithm that is not well motivated by the original graphical model. Additionally, the authors' interpretation of the model as a Hierarchical Bayesian method is unnecessary and makes the paper significantly harder to read and follow than it needs to be.
+
+Meta-Reviewer: I understand. What are your recommendations for the paper's improvement?
+
+Dialogue Agent: Based on the paper's weaknesses, I would recommend that the authors significantly change the writing and the attribution of ideas in the paper. They should provide a clear and concise presentation of the key ideas and avoid misleading technical sections. Additionally, the authors should provide a thorough comparison of the proposed method with existing baselines to evaluate the paper's contributions. Finally, the authors should reconsider their interpretation of the model as a Hierarchical Bayesian method and focus on presenting the practical variational algorithm that is more appropriate for the proposed method.

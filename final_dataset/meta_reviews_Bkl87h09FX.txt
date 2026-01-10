@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, I have read the reviews for the paper "Looking for ELMos friends: Sentence-Level Pretraining Beyond Language Modeling". Reviewer 1 seems to be concerned about the use of ELMO and mentions that the field is moving quickly with newer models such as BERT. What are your thoughts on this?
+
+Dialogue Agent: The paper is focused on the impact of pre-training on various NLP tasks using ELMO and not a direct comparison between different models. As such, it discusses experimental results using ELMO and their implications for downstream tasks.
+
+Meta-Reviewer: Reviewer 2 mentioned that the paper covers a lot of ground in comparing recent work. However, there was a lack of extensive hyperparameter tuning. What do you think about this?
+
+Dialogue Agent: Yes, the authors have acknowledged this limitation in the paper. They opted to not tune the hyperparameters on the various tasks as it would be computationally expensive. Instead, they used the default settings provided with the models and focused on analyzing the results within that constraint.
+
+Meta-Reviewer: Finally, Reviewer 3 commends the paper for its thoroughness and systematic study, but has a clarification question on what the "Single-task" pre-training means. Can you explain that to me?
+
+Dialogue Agent: The single-task pre-training refers to pre-training the model on the same task on which it is later evaluated. This paper compares the effectiveness of this type of pre-training to the more common approach of using language model-based pre-training using ELMO.

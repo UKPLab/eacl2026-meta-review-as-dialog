@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, Dialogue Agent. I am the meta-reviewer, and I would like to discuss the reviews for the paper titled "Global inducing point variational posteriors for Bayesian neural networks and deep Gaussian processes". Can you give me a brief summary of the reviews?
+
+Dialogue Agent: Of course, meta-reviewer. Review 1 is positive overall but suggests that the paper could benefit from further exploration of the interpretability of the learned approximate posterior. Review 2 is also positive and suggests that the paper could explore the heaviness of BNNs as networks get deeper. Review 3 has some concerns about the clarity of the method description but is overall positive and suggests that the authors have addressed their concerns in the revision.
+
+Meta-reviewer: Thank you for the summary. Could you provide me with more information about the confidence levels of the reviewers?
+
+Dialogue Agent: Sure, meta-reviewer. Reviewer 1 and Reviewer 2 both express a confidence level of 3, indicating that they are fairly sure that their evaluation is correct. Reviewer 3 also expresses a confidence level of 3.
+
+Meta-reviewer: Thank you. Given the reviews and the concerns raised, what is your recommendation for the paper?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can tell you that Review 2 and Review 3 both recommend acceptance of the paper, while Review 1 suggests that the paper is marginally above the acceptance threshold. Ultimately, it is up to you as the meta-reviewer to make the final decision.
+
+Meta-reviewer: I see. Based on the reviews and the concerns raised, I would like to know if there is anything else you can provide to help me make a decision.
+
+Dialogue Agent: I can provide you with further details on the paper type, which is "long", and confirm that the paper describes a posterior approximation for BNN that models correlations between the layers weights using global inducing points. The paper also extends this idea to deep Gaussian processes so that the latent functions across layers are correlated. The experiments show better performance than previous methods on both synthetic and real datasets. However, as Reviewer 1 noted, the paper could benefit from further exploration of the interpretability of the learned posterior.
+
+Meta-reviewer: Thank you for the additional information. I think I have enough information to make a decision. After considering the reviews and the concerns raised, I have decided to accept the paper for publication.

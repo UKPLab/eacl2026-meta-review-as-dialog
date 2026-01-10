@@ -1,0 +1,21 @@
+ Sure, here is a simulated dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Dialogue Agent: Hello, I'm here to assist you in evaluating the paper "TVLT: Textless Vision-Language Transformer" for acceptance or rejection. Please provide me with your questions and I will respond with summarized answers based on the reviews.
+
+Meta-Reviewer: Great, let's get started. First, can you tell me about the novelty of the proposed method?
+
+Dialogue Agent: Based on Review 1, the proposed method is similar to the masked auto-encoder, which was recently proposed for image, where the authors additionally include another audio encoder getting the audio spectrogram "image" as another input. The review suggests that the novelty is limited.
+
+Meta-Reviewer: Okay, that's helpful to know. What about the impact of the paper?
+
+Dialogue Agent: Based on Review 2, the paper is technically solid and has high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. The proposed architecture is simple, yet performs well, and the ablation study and comparison of various input modalities are convincing.
+
+Meta-Reviewer: That sounds positive. What about the limitations and suggestions for future work?
+
+Dialogue Agent: Based on Review 3, the paper presents an audio-visual multi-modal representation learning model called TVLT, and it shows the effectiveness of the learned representations on the downstream tasks that require the understanding of visual and linguistic information. The review suggests that the paper is well-written and the flow of the writing is natural and neat, and the proposed method is original and presents an interesting research direction for future works. The reviewer also suggests that the minimalist design of TVLT allows to scale up the model so it is expected to give another possibility of large-scale multi-modal model as GPT-3 did in NLP. However, the reviewer also suggests that there are several suggestions of the experiments that can be conducted in the future work, such as a comparison to the SOTA textless models and an ablation study on masking strategy and various model architectures.
+
+Meta-Reviewer: Great, that helps me understand the strengths and limitations of the paper. Based on these summaries, I would say that the paper is technically solid, has high impact, and is well-written. However, I would like to see more discussions on the limitations and suggestions for future work.
+
+Dialogue Agent: Thank you for your feedback. Based on your input, I would recommend a rating of 7: Accept, with a confidence level of 4: You are confident in your assessment, but not absolutely certain. It is unlikely, but not impossible, that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.
+
+Meta-Reviewer: That sounds reasonable. Thank you for your assistance, I will now make my final decision based on the reviews and your summaries.

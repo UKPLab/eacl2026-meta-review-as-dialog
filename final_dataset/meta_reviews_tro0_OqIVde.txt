@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you tell me about the paper HorNet and its proposed module g^n Conv?
+
+Dialogue agent: Yes, certainly. The paper proposes a novel convolution-based deep neural architecture called g^nConv, which incorporates gated convolutions for high-order spatial interactions with recursive gating. The proposed module can be used as a plug-and-play module for both transformer and convolutional neural networks. The authors have conducted experiments on various datasets such as ImageNet classification, COCO object detection, and ADE20K semantic segmentation to show the effectiveness of the proposed results.
+
+Meta-reviewer: The first review mentions some pros and cons of the paper. Can you give me your opinion on these points?
+
+Dialogue agent: I'm sorry, but as a dialogue agent, I am not allowed to provide opinions or recommendations. However, I can tell you that the first review suggests that the paper is well-organized and well-written, and the proposed module is interesting and contributes to the performance. The reviewer also mentions that the limitations are stated in the paper. However, there are some concerns regarding the clarity of the motivation for high-order interactions and the complexity analysis for different n.
+
+Meta-reviewer: And what about the second review?
+
+Dialogue agent: The second review also praises the paper for its well-designed experiments and combining several deep learning techniques. However, the reviewer suggests that the experimental result section is weak and that the authors did not compare their proposed method with the state-of-the-art methods. They also recommended comparing the throughput of each method.
+
+Meta-reviewer: The third review seems to rate the paper highly. Can you tell me more about it?
+
+Dialogue agent: Yes, the third review rates the paper as a strong accept with a rating of 8. The reviewer praises the simplicity and effectiveness of the proposed architecture and its ability to perform higher-order explicit spatial interaction. They also appreciate the thorough experiments and solid improvements observed throughout. The reviewer could not identify any major weaknesses but had a couple of questions regarding the Limitations section of the paper.
+
+Meta-reviewer: I see. Based on these reviews, would you say that the paper is suitable for acceptance?
+
+Dialogue agent: Again, as a dialogue agent, I am not allowed to provide opinions or recommendations. However, the reviews suggest that the paper is technically solid, with novel ideas and good experimental results. The limitations and concerns raised can be addressed by the authors in their revision. Ultimately, the decision to accept or reject the paper lies with you.

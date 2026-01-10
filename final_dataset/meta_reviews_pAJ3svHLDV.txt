@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I am tasked with making a decision on whether to accept or reject the paper titled "R-MONet: Region-Based Unsupervised Scene Decomposition and Representation via Consistency of Object Representations", which is a long paper. Can you provide me with a summary of the reviews?
+
+Dialogue agent: Yes, certainly. The paper proposes a method to decompose scenes into their constituent objects using a generative framework that generates both bounding boxes and segmentation masks for each object. Review 1 points out that while the paper outperforms baselines, it can be hard to read and the contributions seem minor. Furthermore, the experiments are limited to two toy datasets. Review 2 praises the clear presentation of the paper but feels that the proposed method is only a slight variation of an existing model and lacks in-depth analysis of the results. However, after rebuttal comments, the reviewer has raised their rating. Review 3 also agrees that the proposed approach is reasonable but feels that the novelty is not significant and raises concerns about the self-supervision method and the limited experimentation on toy images only.
+
+Meta-reviewer: Based on the reviews, it seems that the paper has some limitations and concerns but also some strengths. Can you tell me more about the proposed method and its contributions?
+
+Dialogue agent: The proposed method extends the previous MONet model by introducing a region-based self-supervised training method in which a Faster-RCNN-based framework generates bounding boxes for various objects in the scene. There is an additional loss introduced during training to make the segmentations produced by the MONet segmenter consistent with the proposed bounding boxes. The main contribution is enforcing this consistency between the bounding boxes and segmentation masks.
+
+Meta-reviewer: That sounds interesting. Is the proposed approach significantly different from existing methods?
+
+Dialogue agent: Review 1 finds the contributions to be minor while review 2 feels that the proposed method is only a slight variation of an existing model. Review 3 also points out that the novelty does not seem significant. However, it is up to your judgment to weigh the strengths and weaknesses of the paper.
+
+Meta-reviewer: I see. What are the limitations of the paper according to the reviews?
+
+Dialogue agent: Review 1 mentions that the paper can be hard to read and its contributions seem minor. Review 2 suggests that the paper lacks in-depth analysis of the results and experimentation on more challenging data. Review 3 also raises concerns about the self-supervision method and the limited experimentation on toy images only.
+
+Meta-reviewer: Thank you for the summary. Can you tell me about the confidence levels of the reviewers?
+
+Dialogue agent: Reviewer 1 and 3 have a confidence level of 3, which means they are fairly confident in their evaluations. Reviewer 2 also has a confidence level of 3 after the rebuttal comments.
+
+Meta-reviewer: Thank you for the information. Based on the reviews, it seems that the paper has some concerns and limitations. However, the proposed approach is interesting and has some strengths. Considering the confidence levels of the reviewers and the paper type, I believe we should lean towards rejecting the paper. Thank you for your help, dialogue agent.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Template based Graph Neural Network with Optimal Transport Distances":
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper titled "Template based Graph Neural Network with Optimal Transport Distances". Can you tell me a bit about the paper and its key contributions?
+
+Dialogue Agent: Sure! The paper introduces a new graph neural network (GNN) construction called Template-based FGW (TFGW), which uses Fused Gromov-Wasserstein (FGW) distances to learn template-based embeddings for graph classification. The TFGW layer is shown to exhibit strong discriminative power on a wide set of graph classification datasets.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main strengths of the paper, in your opinion?
+
+Dialogue Agent: The paper presents several novel contributions, including the introduction of a new GNN layer, the TFGW layer, which is shown to be effective in graph classification tasks. Additionally, the authors provide a thorough evaluation of the proposed method, including an ablation study, and demonstrate its superior performance compared to other state-of-the-art methods.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the limitations of the paper? Are there any concerns or areas for improvement that the authors should address?
+
+Dialogue Agent: The reviewers raise some concerns about the expressiveness of the TFGW layer and the lack of a WL-test to show the expressiveness of the novel GNN structure. Additionally, one reviewer notes that the authors do not provide a comparison of the computation time for the proposed method and other baselines.
+
+Turn 4:
+
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, how would you rate the paper?
+
+Dialogue Agent: Based on the reviews, the paper receives an overall rating of 7: Accept, with a confidence level of 3: Fairly confident. The reviewers acknowledge the paper's novel contributions and strong performance, but raise some concerns about the expressiveness of the TFGW layer and the lack of a WL-test.
+
+Turn 5:
+
+Meta-reviewer: That helps me a lot in making my decision. Thank you for your assistance!
+
+Dialogue Agent: You're welcome! If you have any further questions or need additional information, please don't hesitate to ask.

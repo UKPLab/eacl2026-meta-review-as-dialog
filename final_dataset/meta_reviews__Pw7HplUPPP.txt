@@ -1,0 +1,29 @@
+ Sure, I can help you with that! Here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper for acceptance, and I was wondering if you could help me assess its quality. The paper is titled "Collaborative-AI Knowledge Graph Generation: Taxonomization of IATE, the EU Terminology". Can you tell me a bit about it?
+
+Dialogue Agent: Sure! The paper presents an approach to generate taxonomies semi-automatically from flat lists of concepts. The proposed approach is evaluated with COVID concepts extracted from IATE and compared with full-manual process in terms of time spent in curation, number of relations changed, and new concepts created. The paper is well-written and easy to read, with a clear flow of ideas. However, I missed some sections or paragraphs showing related work, and the space limitations make it difficult to provide a more detailed explanation of the experiment/evaluation setup.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting! What do you think of the paper's contribution to the field?
+
+Dialogue Agent: The paper provides a practical solution to an existing problem and is well-structured and easy to follow. The presented approach involves users, which fits the workshop's special focus. However, the results are not too surprising compared to a manual curation. It would have been more interesting to see a comparison to other (semi) automatic generation solutions or at least some argumentation why existing approaches are not feasible in the presented use case.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the novelty of the approach? Does it offer any advantages over existing methods?
+
+Dialogue Agent: The paper provides a custom method for taxonomization, but the design choices are not justified, given that there is already related work. The presented approach is semi-automatic, but it would be interesting to see how it compares to other approaches, such as EuroVoc or Wikidata, which could facilitate existing resources. Future work in this direction would clearly fit this or similar venues.
+
+Turn 4:
+
+Meta-reviewer: Thank you for your input! Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the paper's content and the reviewer's comments, I would recommend accepting the paper with minor revisions. The practicality was demonstrated, the methodology seems sound, and future directions were presented. However, the paper could benefit from more comparisons to existing approaches and a more detailed explanation of the experiment/evaluation setup.
+
+Output:
+
+Based on the dialogue, the meta-reviewer should weigh the importance of reviewer confidence in making a final decision about the paper's acceptance. The dialogue agent provides a summary of the paper's content and the reviewer's comments, and recommends accepting the paper with minor revisions. The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.

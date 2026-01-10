@@ -1,0 +1,21 @@
+ Sure, here's an example of a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the meta-reviewer being aware only of the paper's title:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Variational Dynamic Mixtures" for acceptance or rejection. Can you help me understand the main contributions and findings of the paper?
+
+Dialogue Agent: Certainly! The paper "Variational Dynamic Mixtures" introduces a new variational family, called Variational Dynamic Mixtures (VDM), which models the approximate posterior in sequential latent variable models. The authors demonstrate that using VDM can better capture multi-modality in data, and they validate the approach on both synthetic and real multimodal datasets.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the inference model used in the paper?
+
+Dialogue Agent: Sure! The inference model in VDM includes a distribution over recurrent states, which allows for sampling-based marginalization of the distribution. This allows the model to capture multi-modality in the data. The authors also propose a new evaluation metric, called the Empirical Wasserstein Distance, which is used to compare the performance of different models.
+
+Meta-reviewer: I see. What are some of the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: Well, the paper addresses an important and well-motivated problem, which is capturing multi-modality in data. The authors also provide a well-written and easy-to-follow explanation of their design decisions, and they provide ablation studies to support their claims. However, I think that the paper could benefit from additional experiments on more diverse datasets, and I have some concerns about the clarity of some of the notations and variables used in the paper.
+
+Meta-reviewer: Thank you for your input. Based on your summary, I think that the paper is interesting and well-motivated, but I have some concerns about its clarity and the need for additional experiments. I'm leaning towards rejecting the paper for now, but I'm willing to revisit my decision if the authors address my concerns in their revisions.
+
+Dialogue Agent: I understand. Is there anything else I can help with?
+
+Meta-reviewer: No, that's all for now. Thank you for your help!
+
+Note that the dialogue agent's responses are based on the reviews and paper type information, and the meta-reviewer's questions are designed to assess the paper's contributions, strengths and weaknesses, and overall quality. The dialogue should have a minimum of 4 turns.

@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks":
+
+Meta-Reviewer: Hi there, I'm reviewing a paper titled "EvenNet: Ignoring Odd-Hop Neighbors Improves Robustness of Graph Neural Networks". Can you tell me about the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a simple and robust GNN model called EvenNet, which ignores odd-hop neighbors to improve the robustness of spectral graph neural networks. The authors analyze the influence of odd and even-hop neighbors to the graph filters and prove that using only even-hop neighbors can improve the robustness of spectral graph neural networks.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. First, it proposes a novel and simple approach to improving the robustness of GNNs. Second, it provides a thorough theoretical analysis of the proposed method. Finally, the paper exhibits generalization ability across homophily and robustness to many attacks in experiments.
+
+Meta-Reviewer: Okay, what about the weaknesses?
+
+Dialogue Agent: The paper has some weaknesses. First, the theoretical analysis is largely based on heuristics. Second, the analysis in the spatial domain is doubtful, and the analysis in the spectral domain is based on too many unnatural assumptions. Finally, the paper does not provide a comprehensive evaluation of the proposed method.
+
+Meta-Reviewer: I see. What about the reviews? Do they have any comments or concerns about the paper?
+
+Dialogue Agent: Yes, the reviews do. Review 1 asks for more clarity on the motivation of the paper and the significance of the proposed method. Review 2 suggests that the paper's theoretical analysis is weak and that the empirical analysis may not be sufficient to support the authors' claims. Review 3 expresses concerns about the paper's originality and significance, and suggests that the paper's contributions may not be as significant as the authors claim.
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the information you've provided, what is your recommendation for the paper?
+
+Dialogue Agent: Based on the information provided, I would recommend a weak acceptance of the paper. The paper has several strengths, including its novel and simple approach, thorough theoretical analysis, and generalization ability across homophily and robustness to many attacks in experiments. However, the paper also has some weaknesses, including its doubtful spatial domain analysis, unnatural assumptions in the spectral domain analysis, and lack of comprehensive evaluation. Overall, the paper is technically solid and has moderate-to-high impact, but it may not be as significant as the authors claim.

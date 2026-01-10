@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you tell me more about the paper's proposed method, ESPER, and how it compares to existing methods?
+
+Dialogue agent: Certainly, the paper proposes ESPER, which is a method for learning environment-stochasticity-independent representations of trajectories by clustering offline experiences adversarially. This allows for disentangling actions from environment stochasticity and leads to improved performance compared to return conditioning on several stochastic environment benchmarks.
+
+Meta-reviewer: I see. Reviewer 1 mentioned a concern about the evaluation of ESPER, particularly around the lack of code for all three benchmark environments. Can you comment on this?
+
+Dialogue agent: Yes, the authors have addressed this limitation and acknowledged the need for open sourcing all environments to improve the significance of their contribution. However, the empirical evaluation of ESPER still shows significant improvements compared to two recent related baselines.
+
+Meta-reviewer: That's good to know. Reviewer 2 raised concerns about the potential limitations of ESPER, particularly around clustering by policy. Can you speak to this?
+
+Dialogue agent: Yes, the authors have discussed potential limitations of clustering by policy, such as the need to scale the number of clusters with many behavioral modes and the potential difficulty in interpolating desired outcomes. However, they also acknowledge the need for further research in this area and provide a clear motivation for their proposed method.
+
+Meta-reviewer: And finally, Reviewer 3 pointed out that the paper's title may be misleading, as no Decision Transformers were actually trained or evaluated in the work. Can you comment on this?
+
+Dialogue agent: Yes, the authors do focus on MLP-based behavioral cloning agents conditioned on returns and their failure in toy stochastic environments. While it is true that the title may be misleading in this regard, the authors still provide valuable insights into the limitations of offline RL methods in stochastic environments.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Aspect-based Sentiment Classification via Reinforcement Learning":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm evaluating a paper titled "Aspect-based Sentiment Classification via Reinforcement Learning". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes an approach to aspect-based sentiment classification using reinforcement learning. The approach involves training an agent to walk through the most effective path from the aspect target to determine the final sentiment towards this target.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the dependency structure used in the paper?
+
+Dialogue Agent: The paper uses dependency parses of the input sentences to learn the state representation of the agent. The agent learns a policy network to select the most effective walk along edges in the dependency graphs, starting from the target aspect in the input sentences.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you tell me about the evaluation of the paper?
+
+Dialogue Agent: The paper evaluates the performance on 5 data sets and compares against baselines such as MemNet, TNet-Lf, and ASGCN. The approach is found to perform well with a small number of training examples.
+
+Turn 4:
+
+Meta-reviewer: That's good to know. However, I noticed that the paper failed to compare against a number of publications that also use dependency parses as input to improve aspect-based sentiment analysis. Can you comment on this?
+
+Dialogue Agent: Yes, the paper could have included more comparisons with related work to further support its claims. Additionally, the ablation that tries to show the effectiveness of the dependency paths is limited to a few examples in the paper.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your input. Based on our conversation, I'm leaning towards rejecting the paper due to its limited comparison with related work and lack of thorough ablation studies. However, I would like to hear your final thoughts before making a final decision.
+
+Dialogue Agent: Based on the paper's proposed approach and performance, I would rate it as marginally below the acceptance threshold. While the intuition behind finding dependency paths is appealing, the paper could have included more comparisons with related work and thorough ablation studies to support its claims.

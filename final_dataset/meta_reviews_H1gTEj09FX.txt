@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you please introduce yourself?
+
+Dialogue agent: Sure, I am a dialogue agent designed to answer questions and provide information about the paper titled "RotDCF: Decomposition of Convolutional Filters for Rotation-Equivariant Deep Networks". I am aware of the paper type, which is long, and I have read the reviews provided.
+
+Meta-reviewer: Great, thank you. To begin, can you tell me about the main contributions of the paper?
+
+Dialogue agent: The paper proposes a novel approach to achieving rotation-equivariance in convolutional neural networks (CNNs) by combining the use of joint steerable filters with filter decomposition. Specifically, the authors use Fourier-Bessel bases to decompose the filters and achieve computational efficiency. They also provide theoretical guarantees on the rotation equivariance and representation stability of their model. Empirically, the paper shows that their approach outperforms both regular CNNs and non-rotation-equivariant deep networks in terms of accuracy, while using fewer parameters and performing similarly to a rotation-equivariant model with much bigger capacity.
+
+Meta-reviewer: That sounds interesting. Reviewer 1 mentioned that while the paper has good empirical results and elegant approach, they believed that the related work section could use improvement. Can you tell me more about that?
+
+Dialogue agent: Reviewer 1 suggested that the paper could provide a clearer exposition of the connection between their work and the cited ones, and emphasize the advantages and limitations of RotDCF compared to other methods. They also suggested improvements such as discussing how to determine the truncation value in practice and its impact on the performance, and a more specific reference for the supplementary material.
+
+Meta-reviewer: I see. What about the other reviewers? Did they mention any concerns or issues with the paper?
+
+Dialogue agent: Reviewer 2 was generally positive about the paper, but suggested that the authors should compare the accuracy of their method with the latest state-of-the-art group-equivariant deep networks instead of just regular CNNs. However, they still rated the paper as 7 and recommended acceptance. Reviewer 3 also had some criticisms of the paper, such as the lack of context with regards to other existing works and evaluation against other algorithms. However, they ultimately recommended acceptance as well.
+
+Meta-reviewer: Okay, thank you. Based on the reviews, it seems like there are some areas that the paper could improve on, but overall it has potential and promising results. One thing that concerns me, though, is the confidence level of the reviewers. Reviewer 1 and Reviewer 3 have given lower confidence ratings, indicating that they may have had difficulty understanding or verifying the paper's claims. How much weight should I give to their ratings?
+
+Dialogue agent: It's important to consider the confidence level of the reviewers, as it reflects their level of certainty in their evaluation. However, it's also important to examine their specific comments and critiques to determine the validity and potential impact of their concerns. Ultimately, you should weigh the pros and cons of the paper and make a decision based on the overall quality and contributions of the work, as well as the confidence and expertise of the reviewers.

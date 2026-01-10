@@ -1,0 +1,19 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "House of Cans: Covert Transmission of Internal Datasets via Capacity-Aware Neuron Steganography":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "House of Cans: Covert Transmission of Internal Datasets via Capacity-Aware Neuron Steganography". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Certainly! The authors propose a new steganography method called "Cans" that can covertly transmit over 10,000 real-world data samples within a carrier model, which has 100 times less parameters than the total size of the stolen data. The method is based on the idea of hiding the secret dataset in a shared model parameters, which is very interesting and combines cryptographic applications and deep neural network modeling.
+
+Meta-Reviewer: That sounds impressive! What are the strengths of this paper?
+
+Dialogue Agent: The authors have nicely combined cryptographic applications and deep neural network modeling, and the idea of hiding the secret dataset in a shared model parameters is very interesting. The authors have also provided a thorough evaluation of the proposed method and included a detailed description of the experimental work.
+
+Meta-Reviewer: What about the weaknesses?
+
+Dialogue Agent: The paper is missing an integration of the main algorithmic steps with the overarching flow diagram in Fig 1, which creates a gap in the presentation. Additionally, the abstract and main text make inconsistent claims about the transmission capacity, and the definitions of metrics and illustrations of qualitative results are insufficiently described and included.
+
+Meta-Reviewer: I see. Based on these strengths and weaknesses, what is your recommendation for this paper?
+
+Dialogue Agent: Based on the technical solidity of the paper, I would recommend a rating of 8: Strong Accept. The paper has novel ideas, excellent impact on at least one area, and excellent evaluation, resources, and reproducibility. However, there are some minor issues with the presentation and some unaddressed ethical considerations.
+
+Meta-Reviewer: Thank you for your help! I will take your recommendation into consideration when making my final decision.

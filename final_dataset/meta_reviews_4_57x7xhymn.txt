@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Action Concept Grounding Network for Semantically-Consistent Video Generation":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Action Concept Grounding Network for Semantically-Consistent Video Generation". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new task of semantic action-conditioned video prediction, which emphasizes the use of semantic actions instead of low-level actions in previous video prediction work. The proposed model is based on capsule networks and learns to discern each concept without any need for labels such as bounding boxes.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are some of the challenges the authors address in the paper?
+
+Dialogue Agent: The authors address the issue of ambiguous action labels, as shown in the case of "put pot on oven" with multiple plausible moving trajectories over several timestamps. The model is also required to generate diverse future frames, which can be challenging given the uncertainty of the action labels.
+
+Turn 3:
+Meta-Reviewer: I see. How does the model perform under more action labels and object labels?
+
+Dialogue Agent: The authors only used six categories of objects and six categories of actions on the kitchen data set. The model may not be as challenging in this regard. However, the authors do mention that the model can be generalized to action descriptions with more than two objects.
+
+Turn 4:
+Meta-Reviewer: That's good to know. What about the generalization ability of the model? Can it be generalized to action descriptions with more than two objects?
+
+Dialogue Agent: The authors do not provide explicit discussion on the generalization ability of the model. However, they do mention that the model can be generalized to action descriptions with more than two objects.
+
+Turn 5:
+Meta-Reviewer: I have some concerns related to the stochastic trajectories mentioned by R2. The fact that the authors confirmed that all semantic actions have the same number of steps makes me question potential overfitting. Can you address these concerns?
+
+Dialogue Agent: The authors do address the issue of potential overfitting by mentioning that the proposed method learns to discern each concept without any need for labels such as bounding boxes. However, the authors do not provide explicit discussion on the stochastic trajectories mentioned by R2.
+
+Turn 6:
+Meta-Reviewer: Based on the reviews and my own assessment, I have decided to lower my score. The paper presents an interesting task, but the setup seems not appropriate to claim a general concept from the current method.
+
+Dialogue Agent: Thank you for your feedback. The paper does present an interesting task and the proposed model demonstrates good performance. However, as you mentioned, the setup may not be appropriate to claim a general concept from the current method.
+
+The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points. The meta-reviewer may ask follow-up questions, and their final decision involves weighing the importance of reviewer confidence.

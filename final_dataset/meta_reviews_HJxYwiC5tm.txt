@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "Why do deep convolutional networks generalize so poorly to small image transformations?" and I need some more information before making a decision. Dialogue agent, can you summarize the paper type and the reviews?
+
+Dialogue agent: Sure, the paper is a long empirical study on the lack of shift invariance in state-of-the-art neural networks. Review 1 gave the paper a rating of 7 and had some concerns about the experiments and the lack of quantitative results. Review 2 also gave the paper a rating of 7 and praised its empirical observations but had some concerns about the reliance on inpainting and the legibility of some figures. Review 3 gave the paper a rating of 5 and had major concerns about the theoretical arguments and the empirical evidence provided in the paper.
+
+Meta-reviewer: Thank you. It seems like there are some concerns regarding the experiments and the arguments made in the paper. Can you tell me more about the concerns raised by review 1?
+
+Dialogue agent: Review 1 had several concerns regarding the lack of quantitative results on the sensitivity to 1-pixel shift, the unclear results in one of the figures, and the limited results on the ImageNet bias. Review 1 also suggested that adding networks with better sampling and larger pooling regions could strengthen the results. Overall, Review 1 thought the paper was interesting but could have provided better evidence to support its arguments.
+
+Meta-reviewer: I see. And what were the concerns raised by Review 2?
+
+Dialogue agent: Review 2 praised the paper's empirical observations and analytical tools. However, Review 2 had some concerns about the reliance on inpainting in almost all experiments and the legibility of some figures. Review 2 suggested that a more thorough control study was needed to verify that inpainting was a reasonable simulation.
+
+Meta-reviewer: Interesting. And what about Review 3?
+
+Dialogue agent: Review 3 had major concerns about the theoretical arguments and empirical evidence in the paper. Review 3 suggested that the paper needed more in-depth explanations for the theoretical arguments and additional empirical evidence to support its claims. Review 3 also had concerns about the photographer's bias argument and suggested that evidence for datasets without photographer's bias being less susceptible to natural attacks would make the argument stronger.
+
+Meta-reviewer: I see. Thank you for the summary. Based on these reviews, I am concerned about the experiments and the evidence provided in the paper. However, Review 1 and Review 2 still thought the paper was interesting and valuable. In light of this, I think I will accept the paper with a rating of 6. What is your confidence level in the decision, Dialogue agent?
+
+Dialogue agent: My confidence level in the decision is 4, as there were some concerns raised by the reviewers and more evidence could have been provided in the paper.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read the reviews for the paper "Controllable Text Generation with Neurally-Decomposed Oracle". Can you provide me with more information about the paper and its contributions?
+
+Dialogue Agent: The paper proposes a framework for controlling auto-regressive generation models with NeurAlly-Decomposed Oracle (NADO). The authors decompose the oracle function into token-level guidance to steer the base model in text generation. They also present a closed-form optimal solution to incorporate the token-level guidance into the base model for controllable generation. The paper also includes a theoretical analysis of how the approximation quality of NADO affects the controllable generation results. 
+
+Meta-reviewer: What are the main results presented in the paper?
+
+Dialogue Agent: The authors conducted experiments on two applications: text generation with lexical constraints and machine translation with formality control. The results demonstrate that the proposed framework efficiently guides the base model towards the given oracle while maintaining high generation quality.
+
+Meta-reviewer: I see that one of the reviewers had concerns about the missing details in the paper. Can you elaborate on that?
+
+Dialogue Agent: Yes, Reviewer 2 had some concerns about missing details in the paper, such as the number of samples needed for the approximation and how good and diverse the base model should be. They also had some concerns about the lack of human evaluation and grounded linguistic explanations in the experiments. However, they still rated the paper as technically solid with good-to-excellent evaluation, resources, and reproducibility, and no unaddressed ethical considerations.
+
+Meta-reviewer: Based on the reviews, it seems that the paper has some technical contributions but also some missing details and concerns. What is your overall recommendation for this paper?
+
+Dialogue Agent: Reviewers 1 and 3 both rated the paper as technically solid with good-to-excellent evaluation, resources, and reproducibility, and no unaddressed ethical considerations. Reviewer 2 had some concerns that could be addressed with more analysis and data. Based on the reviews and paper type (long), I suggest that the paper be accepted with the condition that the authors address the concerns raised by Reviewer 2 and provide more analysis and details if possible.

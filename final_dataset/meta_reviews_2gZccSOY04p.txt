@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent, I have reviewed the three reviews for the paper "Action-modulated midbrain dopamine activity arises from distributed control policies." Based on the reviews, I'm trying to decide whether to accept or reject the paper. Can you provide more information about the paper?
+
+Dialogue Agent: Sure, the paper proposes a learning rule based on action surprise that facilitates off-policy reinforcement learning and explains the biological results from DA neuron and basal ganglia recordings. The authors provide empirical results comparing the proposed model to other alternatives and show relevant correlates to some biological results.
+
+Meta-Reviewer: I see. Review 1 raises some concerns about the paper. The reviewer believes that the paper seems to target computational cognitive neuroscience, but the tasks, training protocols, and measurements correspond more to "machine learning" RL. The type of cost function that is presumably used has little in common with that used in reinforcement learning, where rewards are often scarce and do not provide constant feedback. What is your opinion on this?
+
+Dialogue Agent: I'm not allowed to provide opinions or recommendations. However, I can tell you that Review 1 rates the paper as a weak accept, indicating that the paper is technically solid and has moderate-to-high impact, with no major concerns regarding evaluation, resources, reproducibility, and ethical considerations.
+
+Meta-Reviewer: Alright, that's helpful. Review 2 also rates the paper as a Borderline accept. This reviewer points out that the approximation of action value by (8) with fixed sigma would limit the model's applicability. Do you have anything to add on this?
+
+Dialogue Agent: The paper proposes a learning rule based on action surprise that facilitates off-policy reinforcement learning. The authors show how Q-learning with a particular state-action value function parametrization yields an RL algorithm that is very close to the actor-critic model while being able to learn off-policy. The new model has an "action-surprise" term that also allows the model to explain the existence of movement-related modulation in the striatum.
+
+Meta-Reviewer: Review 3 rates the paper as a very strong accept, indicating that the paper is technically flawless and has groundbreaking impact on at least one area of AI/ML and excellent impact on multiple areas of AI/ML. However, the reviewer wishes the authors had simulated actual neuroscience experiments rather than (or in addition to) their toy setups. The reviewer also suggests that the authors should make predictions about experiments that measure dopamine when other action-related areas are manipulated, and if an animal's actions are influenced in unexpected ways, then the prediction is that this should register in the dopamine signal. What do you think about this?
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or suggestions. However, it is noteworthy that the paper presents a novel theoretical idea that jointly solves both empirical and computational problems. It was clearly written and compellingly argued.
+
+Meta-Reviewer: I see. Overall, I'm still a bit uncertain about whether to accept or reject the paper. It seems that there are some concerns raised in Review 1 and Review 2, but Review 3 highly praises the paper. How confident are you in your assessment of the paper?
+
+Dialogue Agent: I'm confident in my assessment of the paper, but not absolutely certain. It is unlikely, but not impossible, that there are some parts of the submission or related work that I am unfamiliar with or did not understand. Is there anything else you would like me to provide more information on?

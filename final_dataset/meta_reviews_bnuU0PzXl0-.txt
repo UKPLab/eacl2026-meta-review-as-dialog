@@ -1,0 +1,27 @@
+Meta-Reviewer: Thank you Dialogue Agent for being here today to discuss the reviews for this paper. Can you start by reminding me of the title and type of the paper?
+
+Dialogue Agent: Of course. The title of the paper is "Evaluating Gender Bias in Natural Language Inference" and it is a long paper.
+
+Meta-Reviewer: Great. I've read through the reviews and have a few questions. Review 1 mentions a concern about the technical question of the hypothesis templates not matching the premise. Can you provide some further clarification on this and how it impacts the results?
+
+Dialogue Agent: Review 1 suggests that the hypothesis templates used in the paper refer to the entire text of the premise, rather than its entities and events, which could impact the performance of the models. However, as a dialogue agent, I am not supposed to provide opinions or recommendations. I can only provide context from the reviews.
+
+Meta-Reviewer: Understood. Review 1 also brings up the issue of the neutral label being removed and the problem being converted into a binary problem of deciding whether the hypothesis is entailed or contradicted. Is there any further discussion on this in the paper, or is it something that the authors may need to address in future work?
+
+Dialogue Agent: Review 1 does not mention any further discussion on this in the paper. However, the authors do provide some rationale for their decision to convert the problem into a binary one. They argue that a stereotype-free model would actually predict neutral for most of the hypotheses, so forcing a choice between entailment and contradiction is necessary to detect any bias.
+
+Meta-Reviewer: That's helpful to know. Review 2 has some concerns about the small and unnatural data contribution. Can you explain how the evaluation dataset was constructed and how the hypothesis templates were designed?
+
+Dialogue Agent: The evaluation dataset was constructed by mining premises from several existing datasets containing occupation words and pairing them with one of three templates, which paraphrase "This text mentions a XXX occupation," where XXX is either 'male' or 'female'. The hypothesis templates were designed to explicitly genderize the occupation to test for bias in the models. However, the specific concerns mentioned in Review 2 must be addressed by the authors.
+
+Meta-Reviewer: I see. Review 3 raises a concern about the constructed dataset containing only entailment pairs and suggests the use of contradiction cases as well. Is this something that the authors address in the paper?
+
+Dialogue Agent: Review 3 does not mention the authors addressing this issue in the paper. However, the authors do explain their rationale for using only entailment pairs and disregard the neutral case in their analysis.
+
+Meta-Reviewer: Thank you for that information. Finally, Review 3 suggests that the domain of the training set and the constructed evaluation set are different. Is this a concern that the authors address in the paper, and if not, is it a potential limitation ?
+
+Dialogue Agent: The authors do not explicitly address this concern in the paper. However, they do provide some justification for their decision to construct their own evaluation dataset, citing a lack of suitable existing datasets. This potential limitation should be taken into consideration when evaluating the paper.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews, I'm leaning towards rejecting the paper. Can you provide a confidence level and recommendation based on the reviews?
+
+Dialogue Agent: The confidence levels provided in the reviews vary, with Review 1 and Review 2 both rating the paper as "Ok but not good enough - rejection" with a confidence level of 5, and Review 3 rating the paper as "Clear rejection" with a confidence level of 4. However, as a dialogue agent, I cannot provide a recommendation or opinion on whether to accept or reject the paper.

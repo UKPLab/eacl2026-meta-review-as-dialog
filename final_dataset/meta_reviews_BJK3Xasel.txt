@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. I'm reviewing the paper "Nonparametric Neural Networks" and I have a few questions regarding the reviews. Can you provide some clarifications?
+
+Dialogue Agent: Of course, happy to help. What do you need clarification on?
+
+Meta-Reviewer: First, could you provide more insight into why the non-parametric version of learning is sometimes better than the parametric one, when the final net is known in advance? Reviewer 1 mentioned that they would like more intuition on this.
+
+Dialogue Agent: As a dialogue agent, I'm not allowed to provide opinions or offer recommendations. However, I can tell you that the authors provide some experiments in Figure 2 that show mixed results, where the non-parametric networks sometimes outperform their parametric counterparts and other times do not. The authors suggest that this could be due to the non-parametric approach helping to discover the structure of the data. As for why the non-parametric version sometimes does better than the final net which could be trained from scratch, that is a question that the authors may need to address.
+
+Meta-Reviewer: Okay, that's fair. Reviewer 1 also mentioned that they would have liked more discussion on the meaning and implications of Theorem 1. Can you provide more insight into this?
+
+Dialogue Agent: Theorem 1 is the main theoretical contribution of the paper. It shows that under fan-out or fan-in regularization, the optimum of the error function is achieved for a finite number of parameters, so the network does not grow indefinitely and over-fit the data. The authors also suggest that this theorem could be used to predict the regularizer parameter lambda, which could be key for determining the final net structure. As for powerful insights beyond the proofs, the authors do not provide further discussion on this.
+
+Meta-Reviewer: I see. Reviewer 2 mentioned that this approach doesn't really solve the problem of tuning hyperparameters. Can you provide some insight into whether these hyperparameters will be easier or harder to tune than the ones in standard approaches?
+
+Dialogue Agent: The authors do not claim that this approach eases the burden of tuning hyperparameters. They do propose a hyperparameter for controlling how often new units are added and how rapidly weights may decay to zero, but it is not clear whether these hyperparameters will be easier or harder to tune than the ones in standard approaches. As for the cost of grid search for parametric approaches, the authors note that this approach may be slower in practice, but they do not discuss how this issue will scale as networks become larger.
+
+Meta-Reviewer: Very helpful. Finally, Reviewer 3 asked about the additional computation complexity of the algorithm. Can you provide more information on this?
+
+Dialogue Agent: The authors do not provide a detailed analysis of the additional computation complexity of the algorithm, but they do mention that the decomposition of each fan-in weight into a parallel component and an orthogonal component and the transformation into radial-angular coordinates may require more computation time. They also do not provide any running time experiments, but this may be an area for future research.
+
+Meta-Reviewer: Thank you for your help. Based on these reviews, do you have any recommendation on whether to accept or reject the paper?
+
+Dialogue Agent: As a dialogue agent, I'm not allowed to provide recommendations. It is up to you to weigh the importance of reviewer confidence and the overall quality of the paper in making your decision.

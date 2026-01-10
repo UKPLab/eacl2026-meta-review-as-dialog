@@ -1,0 +1,41 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Dynamic Graph Representation Learning via Self-Attention Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Dynamic Graph Representation Learning via Self-Attention Networks". Can you tell me about the paper's main contributions?
+
+Dialogue Agent: Sure! The paper proposes a model called Dynamic Self-Attention Network (DySAT) for learning node embedding vectors of dynamic graphs, which can handle changes in the graph structure over time. The model uses attention mechanisms to represent the interaction of spatial and temporal neighboring nodes.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the attention mechanisms used in the model?
+
+Dialogue Agent: Sure! The model uses structural attention to represent the interaction of spatial neighboring nodes, which is closely related to the Graph Attention Network. For the temporal dependency between successive graphs, DySAT also uses attention structures inspired by previous work in machine translation.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me about the performance of the proposed algorithm?
+
+Dialogue Agent: The experiments on 4 datasets show that DySAT can improve the AUC of link prediction by significant margins, compared to static graph methods and other dynamic graph methods. However, the reviewer raises some questions about the model's performance in certain situations, such as when a never-seen node appears at t+1.
+
+Turn 4:
+
+Meta-Reviewer: That's a good point. What if a never-seen node appears at t+1? How does the model handle that?
+
+Dialogue Agent: The model design is compatible with this case, and the structural attention will still work. However, the temporal attention degenerates to a "static" result - all the attention focuses on the representation at t+1. The reviewer is curious about the model's performance in this situation, since nodes may arise and vanish in real applications.
+
+Turn 5:
+
+Meta-Reviewer: That's a good point. What about the performance of the proposed algorithm for multi-step forecasting? In the experiments, graph at t+1 is evaluated using the model trained up to graph_t. But in real applications, we may not have enough time to retrain the model at every time step. If we use the model trained up to graph_t to compute node embedding for the graph_{t+n}, what is the advantage of DySAT over static methods?
+
+Dialogue Agent: The advantage of DySAT over static methods is that it can handle changes in the graph structure over time, and it has been shown to improve the AUC of link prediction by significant margins. However, the reviewer raises a valid point about the need for further evaluation of the model's performance for multi-step forecasting.
+
+Turn 6:
+
+Meta-Reviewer: Okay, I think that's all the questions I have for now. Can you tell me about the running time for a single training process?
+
+Dialogue Agent: The running time for a single training process is not specified in the paper, but the authors mention that the model is computationally efficient and can be trained incrementally using only the last snapshot.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I would rate the paper as marginally below the acceptance threshold. The reviewer raises some valid points about the model's performance in certain situations, and further evaluation is needed to fully assess the model's effectiveness.
+
+Dialogue Agent: Thank you for the feedback. I will pass on the information to the authors.

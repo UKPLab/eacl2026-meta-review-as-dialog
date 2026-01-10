@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read through the reviews for "Pushing the bounds of dropout," and I have a few questions for you.
+
+Dialogue Agent: Of course, happy to help. What can I assist you with?
+
+Meta-reviewer: Reviewer 1 has some concerns about the paper's proposed method, specifically that it is not convincing. Can you provide me with more information on why this reviewer thinks that? And also, how important is reviewer confidence in determining the acceptance/rejection of the paper?
+
+Dialogue Agent: Reviewer 1 was not completely convinced by the paper's proposed method, but did not provide explicit reasons beyond the method being hard to follow and concerns over a lower bound being derived using the Jensen inequality. As for the importance of reviewer confidence, while it is important to consider their evaluation, the final decision should not be solely based on their rating and confidence. The paper's content and potential contribution should also be evaluated.
+
+Meta-reviewer: I see. Reviewer 2 asks if there are any experimental results for the proposed evaluation methods beyond language modeling, and if the term "deterministic dropout" in the paper refers to the same thing throughout. Can you clarify these points for me?
+
+Dialogue Agent: Reviewer 2's question about the evaluation methods is not addressed in the reviews, so I do not have an answer to that. However, "deterministic dropout" refers to the idea of training a neural network without dropout and then using dropout at test time, which is mentioned in the first paragraph of the paper on page 1 and in Sec 3 (the first bullet) as well.
+
+Meta-reviewer: Thank you for the clarification. Lastly, Reviewer 3 has several concerns with the paper, particularly with the convoluted arguments surrounding the geometric and average models. Do you have any further information on these concerns?
+
+Dialogue Agent: Reviewer 3 has mainly expressed concerns over the introduction of the geometric and average models and the arguments surrounding their use, as well as some difficulty understanding certain sections of the paper. However, it seems that they do not find the authors' answers to the raised questions about using dropout when making predictions to be quite convincing. 
+
+Meta-reviewer: Okay, thank you for the information. Based on the reviews and what you've told me, I have decided to reject the paper at this time, as there seem to be several areas where the paper could be improved. Thank you for your assistance.
+
+Dialogue Agent: You're welcome, and I understand your decision. Let me know if you have any further questions or if I can be of any more assistance in the future.

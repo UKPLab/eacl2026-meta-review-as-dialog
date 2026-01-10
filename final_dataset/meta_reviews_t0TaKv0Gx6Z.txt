@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Sliced Kernelized Stein Discrepancy":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Sliced Kernelized Stein Discrepancy". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a new discrepancy between probability distributions called the sliced Kernelized Stein Discrepancy (SKSD). They also introduce a new variant of the Stein Discrepancy (SD) called the maxSKSD, which is more robust to the curse of dimensionality.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the sliced version of the SKSD?
+
+Dialogue Agent: Sure. The sliced SKSD is based on the idea of computing the standard KSD on random 1-dimensional projections and then averaging those. This approach is meant to overcome the curse of dimensionality that standard KSD suffers from.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the maxSKSD? How does it compare to the sliced SKSD?
+
+Dialogue Agent: The maxSKSD is a new variant of the SD that is more robust to the curse of dimensionality. It is based on the idea of maximizing the SD over a set of random projections. The authors show that the maxSKSD has better theoretical properties than the standard SD and is more robust to the curse of dimensionality.
+
+Turn 4:
+
+Meta-reviewer: That's great. Can you tell me more about the experiments in the paper?
+
+Dialogue Agent: Sure. The authors conduct experiments on both goodness-of-fit testing and model learning tasks. They compare the performance of the sliced SKSD and the maxSKSD to the standard SD and other state-of-the-art methods. The results show that the proposed methods have better performance than the standard methods in terms of accuracy and computational efficiency.
+
+Turn 5:
+
+Meta-reviewer: That's convincing. Do you have any minor remarks or questions about the paper?
+
+Dialogue Agent: Yes, I do. The paper is a bit dense with many references to the appendix. Additionally, I would have liked to see a more detailed discussion of the limitations of existing methods, such as KSD and SVGD, in the paper. Finally, I noticed that the notation $f$ is used for denoting both $R^D\to R^D$ and $R^D \to R$ mapping, which is misleading.
+
+Meta-reviewer: Thank you for your input. Based on your summary, I think the paper is well-motivated and the proposed methods have promising results. However, I would like to see more discussion of the limitations of existing methods and a clearer explanation of the notation used in the paper.
+
+Dialogue Agent: Understood. Thank you for your feedback. I will pass it on to the authors.

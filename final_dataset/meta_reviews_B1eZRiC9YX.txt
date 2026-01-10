@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, Dialogue Agent. I am the meta-reviewer for the paper "Sufficient Conditions for Robustness to Adversarial Examples: a Theoretical and Empirical Study with Bayesian Neural Networks". Could you please summarize the main contributions of the paper?
+
+Dialogue Agent: Certainly, Meta-Reviewer. The paper proposes two sufficient conditions for Bayesian Neural Networks (BNNs) to be robust to adversarial attacks. The first condition states that an "idealized BNN", which is a continuous model with high confidence on the training set, has to be invariant to all transformations that the data distribution is invariant under. The second condition is that the idealized BNN should have high uncertainty for inputs that are not near the training examples. The paper also introduces the concept of epistemic uncertainty, which is a measure of uncertainty due to missing regions of the input space, and uses it to detect faraway data points. The paper supports its arguments with simulation studies.
+
+Meta-Reviewer: Thank you for the summary. Reviewer 1 criticized the paper for lacking both conceptual and technical contributions. Can you provide some insight into the technical depth and value of the paper's arguments?
+
+Dialogue Agent: I'm afraid I cannot provide an opinion or recommendation. However, I can say that the paper uses rigorous mathematical concepts, such as mutual information and Bayesian optimization, to support its arguments. The paper also provides experimental results that show the effectiveness of its proposed conditions on synthetic MNIST examples. 
+
+Meta-Reviewer: Reviewer 2 seems to be more positive about the paper, but is not convinced of the usefulness of the theoretical findings. Can you comment on the practical implications of the paper's results?
+
+Dialogue Agent: As with any theoretical work, the practical implications are not immediately clear. However, the paper's results are a step forward in understanding the conditions that are necessary for BNNs to be robust to adversarial attacks. The paper's proposed conditions can be used as a guideline when designing and training BNNs. 
+
+Meta-Reviewer: Reviewer 3 has concerns about the significance of the paper and its investigation being shallow and vague. Can you address these concerns?
+
+Dialogue Agent: Again, I cannot provide an opinion or recommendation. However, I can say that the paper introduces a novel concept of using epistemic uncertainty to detect faraway data points, which is a contribution to the field of adversarial defense. The paper also provides thorough mathematical proofs and simulation studies to support its arguments. The concerns raised by Reviewer 3 can be addressed by future work building on the paper's proposed conditions and investigating their practical implications.

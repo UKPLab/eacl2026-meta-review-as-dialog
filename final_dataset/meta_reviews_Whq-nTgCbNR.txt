@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you both for your reviews of this paper on anomaly detection in dynamical systems from measured time series using polynomial neural architectures. Based on your evaluations, I have some questions and concerns before I make a decision on acceptance or rejection.
+
+Dialogue Agent: I'm happy to answer your questions and address your concerns as best I can based on the reviews and the paper.
+
+Meta-reviewer: Review 1 highlighted the need for a comprehensive review of existing anomaly detection methods and more real-world datasets for evaluation. Could you provide any additional information on this?
+
+Dialogue Agent: As a dialogue agent, I'm not able to provide opinions or recommendations. However, I can tell you that the paper does mention and compare some related works and uses one practical dataset for evaluation. The authors can perhaps provide more details on why they chose those particular methods and datasets in response to Review 1's comments.
+
+Meta-reviewer: Review 2 mentioned some areas where the paper needs clarification, including the rationale behind training a separate PNN for each trajectory and the definition of the anomaly score. Can you address these concerns?
+
+Dialogue Agent: Again, as a dialogue agent, I can't provide opinions or recommendations. However, I can tell you that the paper does discuss the use of separate PNNs for each trajectory and how the fitted weights are used as features for anomaly scoring. The authors can clarify the details further if needed. As for the anomaly score, the paper states that a lower score indicates a higher likelihood of abnormality, contrary to what Review 2 had thought. The authors can perhaps make this clearer in the paper.
+
+Meta-reviewer: Review 3 had several concerns regarding clarity, such as the lack of information on the dynamical system generating the data in Figure 1 and the need for more details on the data used in the experiments. How would you respond to these concerns?
+
+Dialogue Agent: The paper does mention that the data in Figure 1 is generated from a dynamical system, but the specific system is not identified. The authors can perhaps provide more details on this if relevant. As for the data used in the experiments, the paper does give some details in the last paragraph of Section 3 but could provide more if needed. Additionally, the authors can address Review 3's other concerns, such as the reasons for using isolation forest and the differences between PNNs and Neural ODEs.
+
+Meta-reviewer: Thank you for your responses. Based on these reviews and your answers, I have decided to reject the paper. While the proposed technique using PNNs for anomaly detection in dynamical systems is interesting, there are several concerns about the clarity, comprehensiveness, and generalizability of the paper that need to be addressed before it can be considered for acceptance.

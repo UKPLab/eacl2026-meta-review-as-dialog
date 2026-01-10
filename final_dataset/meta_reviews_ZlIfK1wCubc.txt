@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "Contrasting distinct structured views to learn sentence embeddings" and I need some clarification before making a decision on whether to accept or reject the paper. Can you tell me more about the proposed approach and the weaknesses pointed out in Review 1?
+
+Dialogue Agent: Thank you for your question, Meta-reviewer. The paper proposes a self-supervised method for constructing sentence embeddings by using different types of sentence encoders, including tree encoders based on constituency and dependency trees. The proposed approach is an extension of the work of Logeswaran & Lee (2018) and was tested on the SentEval benchmark. However, Review 1 pointed out several weaknesses, such as the lack of convincing results and the use of additional resources, which raised concerns about the practical usefulness of the proposed sentence embeddings.
+
+Meta-reviewer: What about Review 2's concerns about the paper's novelty and the practical benefits of incorporating explicit syntax into neural networks?
+
+Dialogue Agent: Review 2 expressed doubts about the paper's novelty and concerns about the practical benefits of incorporating explicit syntax into neural networks. Review 2 argued that the paper did not show a clear advantage in using explicit syntax, and that the parser errors could lead to more systematic failures in downstream tasks. Review 2 also pointed out that the comparison shown in Table 1 may not be fair enough because the models were trained on different corpora.
+
+Meta-reviewer: I see. And what are the main arguments in Review 3?
+
+Dialogue Agent: Review 3 acknowledged the paper's contribution of introducing tree encoders to sentence embedding construction from the perspective of multi-view learning. However, Review 3 raised concerns about the paper's weak novelty and doubts about the practical usefulness of the proposed sentence embeddings. Review 3 also suggested that the comparison shown in Table 1 may not be fair enough, and recommended expanding the dimensionality of BERT embeddings to make it comparable to other models.
+
+Meta-reviewer: Thank you for summarizing the reviews, Dialogue Agent. Based on these reviews, I am somewhat concerned about the practical benefits and novelty of the proposed approach. However, I am also aware of the reviewer confidence levels. Review 1 rated the paper "Ok but not good enough - rejection", while Review 2 rated it "Clear rejection". Review 3 rated it "Marginally below acceptance threshold". Can you tell me more about the confidence levels of the reviewers?
+
+Dialogue Agent: Yes, Meta-reviewer. Review 1 expressed confidence level 4, meaning that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 expressed the same confidence level. Review 3 also expressed confidence level 4.
+
+Meta-reviewer: Thank you, Dialogue Agent. Based on these reviews and the concerns raised, I have decided to reject the paper. However, I will include the reviewer comments in my feedback to the authors, so they can address these concerns in future work. Thank you for your assistance.
+
+Dialogue Agent: You're welcome, Meta-reviewer. I will inform the authors of your decision.

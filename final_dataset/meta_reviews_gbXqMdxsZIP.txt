@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "OTKGE: Multi-modal Knowledge Graph Embeddings via Optimal Transport":
+
+Meta-reviewer: Hello, I am reviewing a paper titled "OTKGE: Multi-modal Knowledge Graph Embeddings via Optimal Transport". Can you provide me with a summary of the paper and the reviews it has received?
+
+Dialogue Agent: Certainly! The paper "OTKGE: Multi-modal Knowledge Graph Embeddings via Optimal Transport" proposes a method for multi-modal knowledge graph embedding, which leverages optimal transport to transport different embedding distributions into a unified embedding space. The authors provide theoretical analysis to support their claims. The reviews for the paper are as follows:
+
+Review 1: This paper proposes optimal transport (OT) for the multi-modal fusion procedure of multi-modal KGE. It further provides theoretical analysis on target errors in OT fusion and generalization bounds for multi-modal KGE. Strengths include the novel use of OT for multi-modal fusion and the theoretical analysis provided. Weaknesses include the need for further explanation of Equation 4.
+
+Review 2: The paper studies the multi-modal knowledge graph embedding, which leverages textual, visual, and structure knowledge for learning more accurate representations of entities. The authors propose to utilize the optimal transport to transport different embedding distributions into a unified embedding space, then design a fusion strategy to obtain the final entity embeddings. The authors also provide theoretical analysis to support their claims. Strengths include the work's motivation and the novel use of optimal transport. Weaknesses include the need for more detailed explanation of the experimental results.
+
+Review 3: This paper focuses on the multi-modal fusion problem. The authors propose a method to align the different modalities by reducing the Wasserstein distance between different modal distributions. Experimental results show that the proposed method achieves state-of-the-art performance. Strengths include the paper's clarity and the effectiveness of the proposed method. Weaknesses include the lack of novelty in the idea of aligning the different modalities.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, what are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The strengths of the paper include its novel use of optimal transport for multi-modal fusion, the theoretical analysis provided, and the effectiveness of the proposed method as demonstrated by the experimental results. The weaknesses include the need for further explanation of Equation 4 and the lack of novelty in the idea of aligning the different modalities.
+
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, I am leaning towards accepting the paper. However, I have some follow-up questions to ensure that I fully understand the paper's contributions and limitations.
+
+Dialogue Agent: Certainly! I'll be happy to help answer any questions you may have.
+
+Meta-reviewer: Great, let's start with the theoretical analysis provided in the paper. Can you summarize the main results and how they support the authors' claims?
+
+Dialogue Agent: Sure! The authors provide theoretical analysis on target errors in OT fusion and generalization bounds for multi-modal KGE. The results of the analysis show that the proposed method can achieve better performance than previous methods in terms of target error and generalization bound. The authors also prove that the proposed method can capture a wider range of inference patterns than previous works.
+
+Meta-reviewer: That's helpful. What about the experimental results? Can you summarize the results and explain why the authors chose to present the results in the way they did?
+
+Dialogue Agent: Sure! The authors present comprehensive experimental results to demonstrate the effectiveness of the proposed method. They use several benchmark datasets and provide an ablation study to compare the proposed method with previous methods. The authors choose to present the results in this way to demonstrate the versatility and effectiveness of the proposed method.
+
+Meta-reviewer: I see. Finally, what is your confidence level in the paper's acceptance based on the reviews and your summary?
+
+Dialogue Agent: Based on the reviews and my summary, I would say that the paper has a high likelihood of acceptance. The reviews highlight the paper's strengths and provide only minor weaknesses, and the authors provide thorough analysis and experimental results to support their claims. My confidence level is 4 out of 5.

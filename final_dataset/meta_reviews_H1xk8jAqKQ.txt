@@ -1,0 +1,23 @@
+Meta-Reviewer: Thank you for submitting your paper "Backplay: Man muss immer umkehren" to ICLR. Based on the reviews received, I would like to discuss the merits and shortcomings of your work before deciding whether to accept or reject it. Can you please summarize the main contributions of your paper?
+
+Dialogue Agent: Our paper proposes a method called Backplay, which aims to improve the efficiency of sparse reward reinforcement learning (RL) by learning a backward curriculum on expert demonstrations. We demonstrate the effectiveness of our method on two tasks, a maze navigation task and a difficult game called Pommerman. We also provide an analysis of the sample complexity of our method on a simple Markov Decision Process (MDP).
+
+Meta-Reviewer: Thank you for the summary. Reviewers 1 and 3 have raised concerns regarding the novelty of your proposed method, noting that similar strategies for using demonstrations in RL have been previously presented. Reviewer 1 also suggests that a more thorough evaluation with previous methods, such as those for automatic curriculum generation, is needed. How do you respond to these concerns?
+
+Dialogue Agent: We acknowledge that the use of demonstrations to initialize RL agents is not a new idea. However, our contribution lies in the use of a backward curriculum on expert demonstrations, which gradually shifts the agent's initial state distribution from easy to difficult until the agent can solve the task from the original initial state. This curriculum is manually designed based on the demonstrations and does not require additional training or human intervention. We agree that further evaluation with other methods is needed and plan to address this in future work.
+
+Meta-Reviewer: Reviewer 3 raises concerns about the choice of parameters in your experiments, such as the window size for sampling the start point, the schedule for shifting the start point, batch size, and termination of training. How did you choose these parameters? 
+
+Dialogue Agent: We based the choice of parameters on our intuition and prior experience with similar tasks. We also conducted some initial exploratory experiments to choose reasonable values. However, we agree that a more systematic approach to parameter selection is needed and will address this in future work.
+
+Meta-Reviewer: Reviewer 1 notes that the experiments were conducted only on discrete grid world tasks and additional experiments in continuous domains could be valuable. How do you plan to address this limitation in future work?
+
+Dialogue Agent: We plan to extend our method to continuous domains and evaluate its effectiveness on tasks such as robotic manipulation and locomotion. We believe that our backward curriculum approach will be particularly useful in such domains where exploration can be challenging.
+
+Meta-Reviewer: Reviewer 2 acknowledges the strength of your paper in presenting an elegant strategy for solving sparse reward tasks with RL but raises concerns regarding the lack of motivation for the simplified assumption of function approximation. How do you respond to this concern?
+
+Dialogue Agent: We agree that the choice of function approximation can greatly affect the performance of RL agents. However, our paper focuses on the use of a backward curriculum on expert demonstrations and assumes access to a resettable simulator. We leave the choice of function approximation as future work and plan to investigate the use of different function approximators such as neural networks.
+
+Meta-Reviewer: Based on the reviews and your responses, I am inclined to recommend that your paper be rejected in its current form. While your proposed method is interesting, the limitations and concerns raised by the reviewers need to be addressed in a substantial revision. Do you have any final comments or questions?
+
+Dialogue Agent: We appreciate the feedback and will address the limitations and concerns raised by the reviewers in a revision. Thank you for considering our work for review.

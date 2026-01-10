@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Spherical CNNs on Unstructured Grids":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Spherical CNNs on Unstructured Grids" and I have some questions. Can you help me?
+
+Dialogue Agent: Of course! I'd be happy to help. What questions do you have?
+
+Meta-Reviewer: Well, I'm having trouble understanding the notation used in the paper. Can you explain what x and y represent in Equation 1?
+
+Turn 2:
+
+Dialogue Agent: Sure! In Equation 1, x and y represent the spherical coordinates of a point on the mesh. The mesh is represented as a set of vertices, and each vertex has a set of neighbors that it is connected to. The notation is used to describe the linear combination of differential operators that are applied to the mesh.
+
+Meta-Reviewer: Ah, I see. And what about the MeshConvolution layer? How is it implemented?
+
+Turn 3:
+
+Dialogue Agent: The MeshConvolution layer is implemented using a linear combination of differential operators, as described in the paper. The differential operators are computed using Finite Element basis or Discrete Exterior Calculus, and they are applied to the mesh in a way that is efficient and scalable.
+
+Meta-Reviewer: I see. But how do the authors ensure that the method is rotation invariant?
+
+Turn 4:
+
+Dialogue Agent: The authors use a combination of techniques to ensure rotation invariance, including the use of spherical coordinates and the application of differential operators. Additionally, the method is tested on a variety of datasets and the authors provide a detailed analysis of the results.
+
+Meta-Reviewer: I see. And what about the computation cost of the method? Is it computationally efficient?
+
+Turn 5:
+
+Dialogue Agent: Yes, the method is computationally efficient. The authors provide a detailed analysis of the computation cost and show that the method is competitive with other state-of-the-art methods. Additionally, the authors provide a comparison of the method to other approaches and show that it has several advantages.
+
+Meta-Reviewer: I see. Well, I think that the paper has some solid contributions and I'm confident in my evaluation. Thank you for your help!
+
+Dialogue Agent: You're welcome! It was my pleasure to assist you. If you have any other questions, feel free to ask.

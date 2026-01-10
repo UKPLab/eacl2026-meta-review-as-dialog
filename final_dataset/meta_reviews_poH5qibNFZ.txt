@@ -1,0 +1,31 @@
+ Sure, here's the dialogue between the meta-reviewer and the dialogue agent for the paper "Neighbourhood Distillation: On the benefits of non end-to-end distillation":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper on knowledge distillation. Can you help me understand the key contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new training pipeline for knowledge distillation called Neighbourhood Distillation, which splits the student network into smaller neighbourhoods and trains them independently. This approach can speed up convergence and enable parallelism, making it more efficient than traditional end-to-end distillation methods.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the thresholding effect and how it relates to the proposed method?
+
+Dialogue Agent: Certainly! The authors observe a thresholding effect in the proposed method, where the student neighbourhoods can achieve similar performance as the teacher network when the student is trained on a small number of iterations. This observation is novel and motivates the use of Neighbourhood Distillation.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the speedup claims in the paper? How does the proposed method compare to conventional knowledge distillation methods in terms of efficiency?
+
+Dialogue Agent: The authors claim that Neighbourhood Distillation can achieve 3-4 times speedup compared to conventional knowledge distillation methods, while obtaining similar performance. However, the reviewer notes that the cost of current KD experiments in the paper is already affordable, and the speedup is not very impressive.
+
+Turn 4:
+
+Meta-Reviewer: That's a good point. Are there any limitations or assumptions made in the paper that could impact the results or interpretations?
+
+Dialogue Agent: The authors assume the teacher network is pre-trained and available, and the student network is trained on a small number of iterations. The paper also does not consider the limitations of training very deep networks, and the experiments are only conducted on ResNet series.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviewer comments, I would like to see the authors address the limitations and assumptions made in the paper, as well as provide more detailed discussions on the recent related work and the GPU time measurement.
+
+Dialogue Agent: Understood. The authors should consider addressing these points in their revision.

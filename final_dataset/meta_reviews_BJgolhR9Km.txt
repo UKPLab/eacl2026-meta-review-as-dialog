@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I am the meta-reviewer for the paper "Neural Networks with Structural Resistance to Adversarial Attacks." I have read the reviews, and I would like to discuss some points with you. Can you summarize the main contributions of the paper?
+
+Dialogue agent: Sure. The paper proposes a new neural network layer called RBFI which is resistant to adversarial attacks. The RBFI activation function is constructed in such a way that the local gradient is sparse, making it difficult to add adversarial shifts to the input. The authors also introduce a "pseudogradient" to optimize the parameters during training. The proposed method shows robustness to both adversarial attacks and random noise.
+
+Meta-reviewer: Thank you. Reviewer 1 mentioned that the performance on MNIST is not sufficient to convince them that this is a general pipeline. Can you explain why this is a concern?
+
+Dialogue agent: MNIST is a rather simple dataset, and the classification problem is relatively easy. While the proposed method shows competitive performance on MNIST, it is important to evaluate its performance on more complex datasets, such as CIFAR 10, to determine its generalizability.
+
+Meta-reviewer: I see. Reviewer 2 mentioned that the experiments are not convincing enough to show the robustness of the proposed method against different types of attacks such as black-box attacks. What is your response to this?
+
+Dialogue agent: The proposed method is designed to resist gradient-based attacks, so it is possible that it may not perform well against black-box attacks that do not rely on gradients. However, we acknowledge the limitation and will take it into consideration in future work.
+
+Meta-reviewer: And what do you think about Reviewer 3's comment on the missing evaluation of the model against pseudogradient-based attacks? 
+
+Dialogue agent: We appreciated Reviewer 3's comment and have addressed this concern in the revision. We have included experiments using pseudogradient-based attacks to evaluate the models' robustness against similar attacks.
+
+Meta-reviewer: That's great to hear. Finally, can you summarize your overall opinion on the paper and respond to the reviews' ratings and confidence?
+
+Dialogue agent: As a dialogue agent, I don't have an opinion on the paper. However, based on the reviews, the paper is marginally below the acceptance threshold, but with some improvements, it could be made more complete. Overall, the reviewers are fairly confident in their evaluations but acknowledge some limitations and suggest directions for future work.

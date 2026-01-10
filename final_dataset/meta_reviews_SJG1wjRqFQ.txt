@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Discrete Structural Planning for Generating Diverse Translations":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Discrete Structural Planning for Generating Diverse Translations". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for generating diverse translations by conditioning the generation on both the source sentence and a latent encoding of the overall structure. Specifically, the authors use a conditional autoencoder to learn a latent code optimized towards reconstructing the tag sequence.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the main issues with the paper?
+
+Dialogue Agent: One issue is that the authors do not provide a clear comparison to prior work in the field. Additionally, the use of a fixed number of codes regardless of sentence length is a major shortcoming.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the lack of comparison to prior work?
+
+Dialogue Agent: Sure. The authors do not provide an empirical comparison with the most closely related prior work, in particular Li et al. (2016) and Xu et al. (2018). As it stands, it is not possible to tell which of these approaches is most useful in practice.
+
+Turn 4:
+
+Meta-Reviewer: That's a significant issue. What about the use of a fixed number of codes?
+
+Dialogue Agent: Yes, the use of a fixed number of codes regardless of sentence length is a major shortcoming. The authors do not consider a variable coding length scheme, such as generating codes autoregressively instead of with a fixed number of softmaxes.
+
+Turn 5:
+
+Meta-Reviewer: I see. Can you summarize the main points of the review for me?
+
+Dialogue Agent: Sure. The review states that the paper proposes a method for generating diverse translations by conditioning the generation on both the source sentence and a latent encoding of the overall structure. However, the authors do not provide a clear comparison to prior work and the use of a fixed number of codes is a major shortcoming. Additionally, the review notes that the authors do not provide enough details on the tagset used and what system is used to predict it.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the summary. Based on the review, do you think the paper is acceptable or should it be rejected?
+
+Dialogue Agent: Based on the review, the paper is marginally below the acceptance threshold. The reviewer is fairly confident that the evaluation is correct.

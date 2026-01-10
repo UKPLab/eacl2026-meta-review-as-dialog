@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "Trusting SVM for Piecewise Linear CNNs". Can you provide me with some additional information about the paper?
+
+Dialogue Agent: Of course, meta-reviewer. This paper proposes a novel layer-wise optimization approach for learning CNNs with piecewise linear nonlinearities. The authors train piecewise linear CNNs layer by layer and reduce the sub-problem into latent structured SVM, which has been well-studied in the literature. Additionally, the paper presents improvements of the BCFW algorithm used in the inner procedure.
+
+Meta-Reviewer: Thank you for the overview. Can you tell me what type of paper this is?
+
+Dialogue Agent: This paper is classified as long, meta-reviewer.
+
+Meta-Reviewer: I see. Now, let me ask you about the reviews. Review 1 seems to suggest that the proposed approach is interesting, but the experiment is not convincing. What is your take on this?
+
+Dialogue Agent: As an AI agent, I cannot provide opinions or recommendations. However, I can tell you that Review 1 mentions some pros of the paper, such as the proposed approach being novel and the paper being well-written and easy to follow. On the other hand, Review 1 also points out some cons, such as the small size of the dataset and the low reported accuracy of the best model in the paper compared to existing work.
+
+Meta-Reviewer: I see. Review 2, on the other hand, seems to be more positive, stating that the paper proposes a new approach and has interesting insights. Can you elaborate on that?
+
+Dialogue Agent: Certainly, meta-reviewer. Review 2 notes that the proposed method uses a layer-wise optimization approach, which can optimize the parameters in one layer of CNN while fixing the parameters in other layers. The review also praises the key insight of the paper, which connects CNNs to latent structural SVM and borrows ideas from the latter to learn the parameters of CNNs. However, Review 2 also mentions some limitations of the proposed approach and points out that the experimental evaluation could be extended.
+
+Meta-Reviewer: I see. And finally, Review 3 seems to be a bit critical of the paper, stating that the claims are not presented convincingly and the experimental evaluation is weak. Can you tell me more about that?
+
+Dialogue Agent: Certainly, meta-reviewer. Review 3 notes that the paper requires more attention to form a compelling story and some of the techniques could be described more carefully to better convey the intuition. The review also mentions that some of the claims in the paper are often violated in practice, such as the lack of convergence guarantees due to mini-batches. Additionally, Review 3 compares the proposed approach with backpropagation and questions the appropriateness of the comparison.
+
+Meta-Reviewer: I see. Based on these reviews, what is your recommendation in terms of accepting or rejecting the paper?
+
+Dialogue Agent: As an AI agent, I cannot provide opinions or recommendations. However, I can tell you that the average rating of the reviews is 5.33, which is slightly above the acceptance threshold for this conference. However, there are some concerns raised in the reviews regarding the experimental evaluation and the presentation of the paper. It is up to you, meta-reviewer, to weigh the importance of the reviewer confidence and make the final decision.

@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, Dialogue agent. I am the meta-reviewer for the paper titled "SoLar: Sinkhorn Label Refinery for Imbalanced Partial-Label Learning". Can you provide me with a brief overview of the reviews for this paper?
+
+Dialogue agent: Hello, Meta-Reviewer. Sure, the paper has received three reviews. Review 1 is positive and rates the paper with a score of 8 for strong accept. Review 2 is also positive and rates the paper with a score of 8 for strong accept, with some minor comments for improvement. Review 3 is negative and rates the paper with a score of 2 for strong reject, with some major comments for improvement.
+
+Meta-Reviewer: Thank you. Based on these reviews, can you give me some insight into the strengths and weaknesses of this paper?
+
+Dialogue agent: Yes, certainly. The strengths of this paper include the fact that it proposes a novel method for addressing the problem of imbalanced partial-label learning, which is an important problem in the field. Additionally, the paper provides a solid theoretical foundation for the proposed method and provides thorough experiments to validate the effectiveness of the method.
+
+However, there are some weaknesses as well. Review 1 points out that the experiments need to be further improved, and Review 2 notes that the evaluation was conducted on CIFAR datasets and that it would be appreciated if experimental results on large-scale LTL datasets are provided. Review 3 questions the motivation of the paper and indicates that the proposed method's novelty and technique seem to be limited.
+
+Meta-Reviewer: Thank you for the summary. Can you tell me more about the concerns raised in Review 1 regarding the experimental design?
+
+Dialogue agent: Yes, Review 1 notes that while the ablation study strongly supports the effectiveness of the label refinery procedure, it would be helpful to see how other competitive baselines perform in comparison to the PRODEN method used in the experiments. Additionally, it questions why the proposed sample selection mechanism helps preserve the label distribution, and how the performance is affected by the gamma value in the Sinkhorn-Knopp algorithm.
+
+Meta-Reviewer: Thank you. Have the authors addressed these concerns in their paper or response?
+
+Dialogue agent: I'm sorry, but as a dialogue agent, I am not able to access the authors' response to the reviews or any updates to the paper.

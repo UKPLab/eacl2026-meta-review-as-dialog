@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper on unsupervised one-to-many image translation. Can you help me understand the novelty of this paper?
+
+Dialogue Agent: Sure! The paper proposes a neural mutual information estimator (MINE) to deal with I2I translation between two domains where there is a large gap. However, the novelty of this paper is limited as it is a simple extension of InfoGAN applied to image-to-image translation and replacing the mutual information part with MINE.
+
+Turn 2:
+
+Meta-reviewer: I see. Can you tell me more about the experiments in the paper?
+
+Dialogue Agent: The experiments only include edge to shoes and MNIST to SVHN, and they are not comprehensive and convincing. The paper lacks discussion of several quite important related references for one-to-many image translation.
+
+Turn 3:
+
+Meta-reviewer: I noticed that the paper has some typos and inconsistent usage of terms. Can you tell me more about that?
+
+Dialogue Agent: Yes, there are some typos in the paper, such as "cycle_times" symbol looking like the product between distribution. Additionally, there are inconsistencies in the usage of terms, such as in Figure 3 and 4 (c)s.
+
+Turn 4:
+
+Meta-reviewer: I see. Can you tell me more about the comparison of this paper to other works in the field?
+
+Dialogue Agent: The paper compares its results to CycleGAN only, but there are several other state-of-the-art models such as UNIT, MUNIT, DRIP, and AugCycleGAN that are not mentioned. Additionally, the paper does not discuss the main difference of TI-GAN from comparing models.
+
+Turn 5:
+
+Meta-reviewer: I understand. Can you tell me more about the mutual information loss function used in this paper?
+
+Dialogue Agent: The paper uses a mutual information loss function, which is not explicitly defined in the paper. The authors only mention that it is based on the work of Belghazi et al. (2018).
+
+Turn 6:
+
+Meta-reviewer: I see. Based on our conversation, what is your recommendation for this paper?
+
+Dialogue Agent: Based on the reviews, the novelty of this paper is limited, and the experiments are not comprehensive and convincing. Additionally, the paper lacks discussion of several quite important related references for one-to-many image translation. My recommendation would be to reject the paper.
+
+Turn 7:
+
+Meta-reviewer: Thank you for your help. I will consider your recommendations when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

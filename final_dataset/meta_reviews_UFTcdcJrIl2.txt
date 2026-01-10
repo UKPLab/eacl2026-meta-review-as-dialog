@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, I have read all three reviews for the paper "Task-Free Continual Learning via Online Discrepancy Distance Learning". From my understanding, the paper proposes a new theoretical framework for task-free continual learning and an algorithm based on this framework. The reviews seem to agree that the paper is technically sound and well-written. However, there are some minor issues such as abbreviation overload, and some inconsistency in the notations.
+
+Dialogue Agent: Yes, that's correct. The paper extends the domain adaptation theory to allow for multiple time steps and introduces a time-dependent generalization bound based on discrepancy distance. It also proposes an algorithm called ODDL that uses the discrepancy distance to design a dynamic expansion mechanism and a sample selection procedure for the memory. The algorithm is tested on various benchmarks, and the experiments show significant improvement over prior task-free continual learning approaches.
+
+Meta-Reviewer: Reviewer 1 gave a rating of 7, indicating that the paper is technically solid with a high impact on at least one sub-area. Reviewer 2 gave the same rating with similar comments. Reviewer 3 gave a rating of 6 and suggested some improvements such as comparing the presented bounds with existing ones and describing the complexity of the method. 
+
+Dialogue Agent: Yes, that's correct. The reviewers suggested some minor improvements, but overall, they agreed that the paper is technically sound and has high impact potential. In terms of complexity, the paper does not explicitly discuss it, but I could provide more information if needed.
+
+Meta-Reviewer: I am especially concerned about the confidence levels. Reviewers 1 and 2 seemed fairly confident in their assessment, while Reviewer 3 seemed less confident. Can you elaborate on that?
+
+Dialogue Agent: Indeed. Reviewers 1 and 2 seemed fairly confident in their assessment and had few concerns about the paper. Reviewer 3 gave a lower rating and suggested some improvements, indicating less confidence. However, they still found the paper technically sound and well-written.
+
+Meta-Reviewer: Given all this information, I am leaning towards accepting the paper as it seems technically solid with potential high impact. However, I am still uncertain about the potential negative societal impact, which the authors only briefly discussed in the appendix. 
+
+Dialogue Agent: Yes, the authors discussed the limitations and potential negative societal impact in section G of the appendix. However, they did not go into much detail. If it would help, I could look into this further and provide more information.
+
+Meta-Reviewer: That would be helpful. Please do so before I make a final decision. Thank you.
+
+Dialogue Agent: You're welcome. I will look further into the potential negative societal impact and get back to you as soon as possible.

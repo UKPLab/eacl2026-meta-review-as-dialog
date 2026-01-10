@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Prob2Vec: Mathematical Semantic Embedding for Problem Retrieval in Adaptive Tutoring":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Prob2Vec: Mathematical Semantic Embedding for Problem Retrieval in Adaptive Tutoring". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes a method for mathematical problem embedding, which first decomposes problems into concepts by an abstraction step and then trains a skip-gram model to learn concept embedding. Additionally, the paper introduces negative pre-training to handle imbalanced datasets.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the methodology used in the paper?
+
+Dialogue Agent: The proposed method first uses a rule-based method to extract concepts for problems and then learns concept embeddings using a skip-gram model. The method also uses negative pre-training to deal with imbalanced datasets.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the strengths and limitations of the proposed method?
+
+Dialogue Agent: The proposed method has several strengths, including its ability to handle imbalanced datasets and its performance on similar problem detection tasks. However, the method has limitations in terms of its simplicity and the small size of the experimental dataset.
+
+Turn 4:
+
+Meta-Reviewer: Can you tell me more about the reviewers' comments on the paper?
+
+Dialogue Agent: Sure! One reviewer felt that the paper lacked technical novelty and that the method was not scalable. Another reviewer noted that the experimental dataset was too small and that there were no comparisons to previous related works.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your summaries, I'm leaning towards rejecting the paper. Can you tell me more about the confidence of the reviewers?
+
+Dialogue Agent: Sure! One reviewer rated the paper as "Marginally below acceptance threshold" with a confidence of 3, while the other reviewer rated the paper as "Ok but not good enough - rejection" with a confidence of 4.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the confidence of the reviewers, I will reject the paper. Thank you for your help in understanding the paper!
+
+Dialogue Agent: You're welcome! Is there anything else I can help with?

@@ -1,0 +1,29 @@
+Meta-reviewer: Hello, I am the meta-reviewer for the paper titled "End-to-end Symbolic Regression with Transformers". I have read your reviews on this paper. Can you tell me about your overall impression of this paper?
+
+Dialogue agent: Of course. Review 1 states that the paper proposes a symbolic regression model using Transformers, which performs parameter refinement with BFGS to enhance performance. Compared to state-of-the-art approaches, this approach achieved competitive performance and showed significantly smaller inference time. However, the reviewer had some trouble understanding the paper in detail and had some questions regarding the pre-training and parameter refinement process. Review 2 acknowledges that the proposed approach is technically sound and addresses symbolic regression in an end-to-end manner. However, the reviewer is not sure if inference time is the key factor in symbolic regression and suggests more comparison with other end-to-end approaches. Review 3 mentions that the proposed approach is a novel solution to symbolic regression, which is more efficient than search-based methods and scales better than previous sequence-based methods. The reviewer also questions the scalability of the approach for larger dimensions and the evaluation of pre-training data generation.
+
+Meta-reviewer: Thank you for the summary. Based on these reviews, what is your recommendation regarding acceptance or rejection of this paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide a recommendation. However, I can provide the ratings given by the reviewers. Review 1 recommends a weak acceptance with a rating of 6, while Review 2 suggests a borderline acceptance with a rating of 5. Review 3 recommends acceptance with a higher rating of 7. 
+
+Meta-reviewer: I see. Can you tell me about the type of this paper?
+
+Dialogue agent: Yes, the type of this paper is long.
+
+Meta-reviewer: Okay. One of the concerns mentioned by Review 1 is the lack of clarity in certain parts of the paper. Specifically, the reviewer had questions about the pre-training process and parameter refinement. Can you provide some further details about these processes?
+
+Dialogue agent: As a dialogue agent, I cannot provide an opinion or recommendation on the paper. However, I can tell you that the paper describes the pre-training process in Section 2.1 and the parameter refinement process in Section 3.2. The computational time mentioned in line 166 is for the experiments conducted in the paper. 
+
+Meta-reviewer: Thank you for the information. Review 2 also mentions the need for more comparison with other end-to-end approaches. Can you tell me if the paper provides such comparisons?
+
+Dialogue agent: Yes, the paper provides comparisons with several other approaches, including genetic programming-based approaches and other end-to-end approaches. These comparisons are presented in Section 4.3. 
+
+Meta-reviewer: I see. Review 3 mentions the need for more evaluation of the pre-training data generation process. Can you tell me if the paper provides such evaluations?
+
+Dialogue agent: Yes, the paper provides additional experiments on the pre-training data generation process in the supplementary material. These experiments evaluate whether the proposed approach is memorizing the data, and if the approach can generalize to out-of-distribution problems. 
+
+Meta-reviewer: Thank you for the information. Finally, can you tell me about the confidence ratings provided by the reviewers?
+
+Dialogue agent: Yes, Review 1 provided a confidence rating of 1, indicating that the assessment is an educated guess, and the submission is not in the reviewer's area, or the reviewer had difficulty understanding some parts of it. Review 2 provided a confidence rating of 3, indicating that the reviewer is fairly confident in their assessment, but may not fully understand some parts of the submission or related work. Review 3 provided a high confidence rating of 5, indicating that the reviewer is absolutely certain about their assessment, and is very familiar with the related work, and checked the math/other details carefully. 
+
+Meta-reviewer: Thank you for the information. Based on the reviews and the information you provided, I will make my recommendation on whether to accept or reject this paper.

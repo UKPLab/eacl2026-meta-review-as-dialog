@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, I have received three reviews for the paper "Fully Convolutional One-Stage 3D Object Detection on LiDAR Range Images." Reviewers have pointed out some strengths and weaknesses in the paper. Could you provide some additional insights as a dialogue agent?
+
+Dialogue Agent: Of course, I would be happy to help. What specific questions do you have in mind, meta-reviewer?
+
+Meta-reviewer: First of all, could you tell me more about the paper's type and its relevance to the field?
+
+Dialogue Agent: Certainly. The paper is categorized as "long". As for its relevance, the proposed method aims to achieve efficient 3D detection from range-based inputs, which is a current bottleneck in autonomous driving. The paper contributes to the field by proposing a novel range-view-based approach to object detection.
+
+Meta-reviewer: Thank you for the clarification. I would like to know more about the proposed approach and its advantages compared to other methods in terms of performance.
+
+Dialogue Agent: The proposed approach is based on two main components: a multi-round range view projection module and a modality-wise convolution network. The multi-round range view projection module enables the network to process more points within a single range view image, while the modality-wise convolution network uses a unique encoding of different types of data to reduce the overall model size. In terms of performance, the proposed method achieves comparable results with BEV methods such as CenterPoint with a faster speed, as mentioned in Review 1.
+
+Meta-reviewer: That's good to know. However, I also noticed some concerns from Review 2 regarding the evaluation methodology. Could you comment on that?
+
+Dialogue Agent: Review 2 recommended adding the performances of the models reported on the nuScene benchmark to have updated criteria. While it is true that the paper could benefit from more extensive evaluation, it is worth noting that the proposed method is a simple baseline approach for range-view detectors. As such, it is not necessarily compared with all the models in the field. Additionally, the paper presents an ablation study comparing different modality groups, as mentioned in Review 2.
+
+Meta-reviewer: I see your point. Finally, I noticed that Review 3 has rated the paper as "Accept" with a high rating, but there are still some concerns regarding the clarity of the paper's methodology and explanations. Could you elaborate on that?
+
+Dialogue Agent: Review 3 points out that additional explanations are needed regarding the target assignment process in generating range-view images. This is a valid concern, and it would be helpful for the authors to provide more clarity on their methodology. With that said, the paper's proposed approach is still solid and has potential implications for future research in the field.
+
+Meta-reviewer: Thank you for the detailed responses. Based on all three reviews, I think the paper has some strengths and weaknesses. However, with a solid methodology and potential implications in the field, I am inclined to lean towards an "Accept" decision. Would you agree with that as a dialogue agent?
+
+Dialogue Agent: As a dialogue agent, I cannot provide any opinions or recommendations regarding the paper's status. However, I can provide additional insights and clarifications as needed. Ultimately, the decision is up to you as the meta-reviewer.
+
+Meta-reviewer: Understood. Thank you for your help. I am confident in my assessment based on the reviews.

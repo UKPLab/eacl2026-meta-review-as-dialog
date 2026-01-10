@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, Dialogue Agent. I have reviewed the paper on Efficient Augmentation via Data Subsampling and have a few questions.
+
+Dialogue Agent: Hello, Meta-reviewer. I'll do my best to answer your questions.
+
+Meta-reviewer: The first reviewer suggests that the experiment section is missing a table on the statistics of the datasets used, and that it would be important to understand the class distribution in the datasets used. Can you elaborate on that?
+
+Dialogue Agent: Yes, the reviewer is correct. It would be useful to include a table on the class distribution of the datasets used in the experiments. While the datasets used were mostly balanced, it would be important to understand how the proposed strategies perform on unbalanced datasets as well.
+
+Meta-reviewer: The same reviewer also mentions that the proposed methods could be compared to others based on Determinantal point processes (DPP) or that are based on submodular notions of diversity. Can you explain why the proposed methods were not compared to these alternatives?
+
+Dialogue Agent: While it is possible to compare the proposed methods to those based on DPP or other diverse sampling strategies, the focus of the paper was primarily on identifying subsampling strategies based on model influence and loss. In addition, the paper compares the proposed methods to several reasonable baselines, including random subsampling and full data augmentation.
+
+Meta-reviewer: The third reviewer suggests that the paper does not address the important question of whether assigning importance scores to each observation can improve training time/efficiency. Can you comment on that?
+
+Dialogue Agent: While the paper primarily focuses on the accuracy and invariance benefits of the proposed methods, it is true that the computational cost of assigning importance scores to each observation was not thoroughly investigated. However, the paper does mention that the proposed methods can significantly reduce the number of data points needed for data augmentation, which could potentially improve training time/efficiency.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews, do you have a recommendation on whether to accept or reject the paper?
+
+Dialogue Agent: Based on the reviews, it seems that the paper is marginally above the acceptance threshold. The reviewers find the proposed methods promising and useful, but note some limitations and areas for improvement. The second reviewer is very positive and recommends accepting the paper, while the other two have some criticisms but still lean towards acceptance. Ultimately, it will be up to your judgment as the meta-reviewer.

@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for your reviews of the paper "I Know the Feeling: Learning to Converse with Empathy." Based on the reviews, I have a few questions for the dialogue agent before making a decision on whether to accept or reject the paper. 
+
+Dialogue Agent: Of course, I'll do my best to answer your questions without providing any opinions or recommendations.
+
+Meta-Reviewer: Review 1 raises some concerns about the dataset used in the paper. Can you provide some more information on how the dataset was created and its limitations?
+
+Dialogue Agent: Certainly. The dataset, called EmpatheticDialogue, consists of 25,000 short conversations where workers were given an emotion label (e.g., afraid) and asked to define a situation in which that emotion might occur and have a conversation on that situation. The authors then annotated the conversations with fine-grained emotion labels. Review 1 points out that prompting workers for specific emotions may produce exchanges that are rather cliché and overdone. However, the authors justify the use of this dataset by pointing out that existing real-world datasets underrepresent rare emotions. While the dataset has its limitations, the paper shows quantitative gains using this dataset, suggesting that it is suitable for the purposes of the paper.
+
+Meta-Reviewer: Review 2 has several questions about the data collection process, such as the number of speakers and listeners, and how the prompts were generated. Can you provide more information on these aspects?
+
+Dialogue Agent: Sure. The data collection process involved 810 participants who were asked to write a prompt describing a situation in which a particular emotion might occur. Each participant selected one emotion word from a list of three generated randomly or iteratively from the full emotion space. This means that each participant contributed either 32 or 64 conversations, depending on whether each emotion was assigned to one or two prompts. The worker pairs then had two conversations, one where the first worker was the speaker and another where the second worker was the speaker. As for enrollment, participants were recruited through Amazon Mechanical Turk (AMT). The paper does not provide information on the criteria for workers or whether independent third-party annotators reviewed the dialogs for label correctness. 
+
+Meta-Reviewer: Review 3 raises concerns about the paper's organization and the use of BLEU score to measure relevance. Can you provide more information on the rationale for using BLEU scores and how it measures relevance?
+
+Dialogue Agent: BLEU, or Bilingual Evaluation Understudy, is a metric commonly used in machine translation to measure the similarity between a machine-generated translation and one or more reference translations. In the context of this paper, BLEU is used to measure the similarity between the chatbot response and the human response. While not a perfect measure of relevance, BLEU has been used in previous work as a proxy for relevance. 
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your answers, I am inclined to accept the paper. However, I would like to know your confidence level in the evaluations provided by the reviewers.
+
+Dialogue Agent: Review 1 expresses moderate confidence in their evaluation, rating the paper as "Ok but not good enough - rejection." Review 2 expresses moderate confidence, rating the paper as "Good paper, accept." Review 3 expresses low confidence, rating the paper as "Marginally below acceptance threshold." Overall, the evaluations appear to be mixed, with Review 2 more positive and Reviews 1 and 3 more critical.

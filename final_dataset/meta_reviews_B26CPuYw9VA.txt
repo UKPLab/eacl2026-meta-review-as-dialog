@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, thank you for joining me today. I have reviewed the reviews for the paper "Debiased Causal Tree: Heterogeneous Treatment Effects Estimation with Unmeasured Confounding" and am seeking further clarification before making a decision on acceptance or rejection.
+
+Dialogue Agent: Hello, happy to help. What questions do you have?
+
+Meta-reviewer: Can you explain the main contributions of the paper and what the proposed method does?
+
+Dialogue Agent: Sure. The paper proposes a new method, the "Debiased Causal Tree", for estimating treatment effects in the presence of unmeasured confounding. The method uses a new measure called "confounding entropy" to split the data into subgroups in order to estimate the conditional average treatment effect on the treated group. The authors also propose a boosting procedure to support this process.
+
+Meta-reviewer: Thank you for that overview. Can you provide more information on the limitations of the method?
+
+Dialogue Agent: The paper assumes time-invariant covariates and the presence of unmeasured confounders, which may not always hold true in practical applications. Additionally, there are concerns with the proposed regularizer and the accuracy of the symmetric cross-entropy estimate used. The authors could elaborate on potential extensions or relaxations of assumptions in their discussion.
+
+Meta-reviewer: Thank you for that information. Reviewer 1 noted concerns with the authors not providing enough detail on data generation mechanisms and estimators, which could impact the reproducibility of the method. Can you comment on this?
+
+Dialogue Agent: While the paper does not go into great detail on these aspects, the proposed method is supported by simulations and a real-world case study with credit card balance data. The authors provide their code and documentation, which others could use to reproduce their results.
+
+Meta-reviewer: And, finally, can you elaborate on Reviewer 2's concern with the model's assumptions?
+
+Dialogue Agent: Reviewer 2 pointed out limitations the transition from Equation 8 to Equation 9 and the assumption that the $y_{t,j}$ outcomes are normally distributed with a fixed, known variance. They also found the motivation for regularizing based on historical cross-entropy loss to be lacking. The authors could address these concerns in their discussion.
+
+Meta-reviewer: Thank you for addressing my concerns. Given the strengths and weaknesses of the paper, I am leaning towards a borderline accept. What is your opinion?
+
+Dialogue Agent: Based on the reviews, a borderline accept seems reasonable. The method proposed in the paper is technically solid and the paper makes original contributions towards solving the issue of unmeasured confounding in estimating treatment effects. However, the limitations and concerns raised by the reviewers should be carefully considered.

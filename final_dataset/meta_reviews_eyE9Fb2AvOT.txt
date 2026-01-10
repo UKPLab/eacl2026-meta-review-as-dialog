@@ -1,0 +1,27 @@
+Meta-Reviewer: Hello, I have read the reviews for the paper "The Gyro-Structure of Some Matrix Manifolds". Based on these reviews, I would like to ask some questions to help me decide whether to accept or reject the paper.
+
+Dialogue Agent: Hello, I am here to answer your questions. Please go ahead.
+
+Meta-Reviewer: Can you tell me more about the main contributions of the paper?
+
+Dialogue Agent: The paper studies the gyro-structure of several matrix manifolds, including SPD manifolds and Grassmann manifolds. It shows that affine-invariant (AI) and log-Euclidean (LE) geometries of SPD manifolds are closely related to hyperbolic geometries, and Grassmann manifolds share similar properties with gyrovector spaces. The paper also presents interesting applications based on these geometries, such as SPD networks for action recognition and Grassmann manifolds for word embeddings.
+
+Meta-Reviewer: What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to Review 1, the paper is well-structured and written in a highly readable and professional style. It builds on several recent works on the topic effectively. The applications and associated experimental results are interesting and appear convincing. However, the reviewer suggests that the applications need to be discussed clearly in the main paper and not just as supplementary material.
+
+According to Review 2, the paper contains new geometric tools for deep learning, but the writing lacks motivation and clarity. The reviewer suggests that some implementation details are missing in section 4. The paper is mostly theoretical, and the authors' experiments do not advance the state-of-the-art performance scores from the application perspective. However, the negative societal impact is limited by these existing techniques.
+
+According to Review 3, the paper contains some original ideas, and the theoretical analyses seem to be well supported by the empirical results provided. However, the paper is difficult to read due to the prerequisite concepts and the authors' writing style. The reviewer suggests that the authors can help the reader by making sure that new concepts are properly defined and motivated.
+
+Meta-Reviewer: Based on these strengths and weaknesses, what is your recommendation for accepting or rejecting the paper?
+
+Dialogue Agent: As a dialogue agent, I cannot provide recommendations for accepting or rejecting the paper. However, I can provide the ratings and confidence levels from each review.
+
+Review 1 rated the paper a 7, which means it is a technically solid paper with high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. The reviewer's confidence level is 3, which means they are fairly confident in their assessment.
+
+Review 2 rated the paper a 6, which means it is a technically solid, moderate-to-high impact paper, with no major concerns with respect to evaluation, resources, reproducibility, ethical considerations. The reviewer's confidence level is also 3, which means they are fairly confident in their assessment.
+
+Review 3 rated the paper a 7, which means it is a technically solid paper, with high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. The reviewer's confidence level is 2, which means they are willing to defend their assessment, but it is quite likely that they did not understand the central parts of the submission or that they are unfamiliar with some pieces of related work.
+
+Meta-Reviewer: Thank you for your answers. Based on the ratings and confidence levels from the reviews, I can see that there is a consensus that the paper is technically solid and has high impact. However, there are concerns about the writing style and presentation of the material. I will take these into consideration when making my final decision.

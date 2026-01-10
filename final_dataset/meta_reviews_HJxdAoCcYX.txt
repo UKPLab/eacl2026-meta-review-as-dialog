@@ -1,0 +1,31 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Characterizing Malicious Edges targeting on Graph Neural Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Characterizing Malicious Edges targeting on Graph Neural Networks". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: The paper proposes four methods for detecting outlier edges and nodes in graphs to prevent adversarial attacks on graph convolutional networks. The proposed methods are based on anomaly detection techniques and have been evaluated on several benchmark datasets.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the reviewers' opinions on the paper?
+
+Dialogue Agent: Review 1 suggests that the paper's significance can be improved and recommends running experiments on various random graph models to evaluate the detection performance. Review 2 notes that the proposed methods are not very clear and raises questions about the robustness of the protection. Review 3 praises the paper's focus on prevention but also raises questions about the generality of the work.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Can you provide more information on the proposed methods and their evaluation?
+
+Dialogue Agent: The proposed methods include detecting malicious edges using graph neural networks and clustering algorithms, and evaluating the performance of the methods on several benchmark datasets. The evaluation shows that the proposed methods are accurate in detecting edges added by previous adversarial detection methods.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper's strengths include its focus on prevention and the proposed methods' accuracy in detecting malicious edges. However, the paper's weaknesses include the lack of thorough theoretical understanding of the robustness of the protection and the limited evaluation on specific graph models.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. Based on the reviews and your summary, I will consider the paper's acceptance.
+
+Dialogue Agent: You're welcome. Please let me know if you need any further information or assistance.

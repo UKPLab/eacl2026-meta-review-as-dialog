@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper titled "Revisiting Injective Attacks on Recommender Systems." The paper proposes two new targeting objectives to mitigate the difficulty-agnostic and diversity-deficit issues with existing injection attacks on recommender systems. The reviewers have raised some concerns and criticisms that I would like to discuss with you before making a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Hello, meta-reviewer. I am familiar with the paper and the reviews. I will do my best to address your concerns and questions.
+
+Meta-reviewer: One of the reviewers mentioned that the diversity-aware objective proposed in the paper needs more justification. Can you provide more information on how this objective increases diversity?
+
+Dialogue Agent: As per the paper, the diversity-aware objective is introduced to steer the attacker's optimization towards users where it can cause the largest increase in recommendation score. This objective is designed to address the diversity-deficit issue where existing attack schemes predominantly target the chosen item to users belonging to a specific cluster of the population. By considering the diversity-aware objective, the DADA attacker is forced to attack easy users distributed in various communities, thereby increasing diversity. The paper shows empirically that the DADA attacker outperforms prior approaches in terms of top-k recommendation score and diversity.
+
+Meta-reviewer: Thank you for the explanation. Another reviewer mentioned that the results in Tables 2 and 3 imply that stronger models are more robust to attacks. Can you comment on this observation?
+
+Dialogue Agent: Yes, the paper shows that stronger models are more robust to attacks. This is consistent with prior work that has shown that stronger models have better generalization ability and are less affected by adversarial examples. However, the proposed DADA attacker still outperforms all the baselines on all datasets and models, indicating that it is still an effective attack method.
+
+Meta-reviewer: The same reviewer also mentioned that the proposed attack method may not be scalable since a full re-run is required for any change in the training dataset or for generating more or less fake users. Can you provide more information on this?
+
+Dialogue Agent: Yes, the proposed attack method may not be scalable since it requires a full re-run for any change in the training dataset or for generating more or less fake users. However, since this is an attack and not a production system, it does not need to scale to large datasets. The paper provides a greedy algorithm that optimizes the joint objective efficiently, and warm-starting using a previously computed solution is also possible. The scalability issue is not a major concern for the proposed method.
+
+Meta-reviewer: That makes sense. One more question - a reviewer mentioned that the paper lacks explanations for some phenomena in the experiments, for example, the results in Tables 1 and 2. Can you provide more information on this?
+
+Dialogue Agent: The results in Tables 1 and 2 show the performance of the proposed DADA attacker and the baselines on the ML-100K and ML-1M datasets, respectively. The paper provides statistical significance tests for these results, showing that the proposed DADA attacker significantly outperforms all the baselines. The paper describes the experimental setup and evaluation metric in detail, and provides many visualizations to help readers understand the results. However, the paper could benefit from more detailed discussions on the defense of the proposed attack, as mentioned by one of the reviewers.
+
+Meta-reviewer: Thank you for your responses, dialogue agent. Based on these discussions and my own assessment of the paper and reviews, I have decided to accept the paper with a rating of 7. The paper is technically solid, with high impact on at least one sub-area, and good-to-excellent evaluation, resources, and reproducibility. There are some weaknesses and criticisms, but they do not outweigh the strengths of the paper. Thank you for your assistance.

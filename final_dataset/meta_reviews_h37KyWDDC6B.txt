@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for your reviews. It seems that there are no major weaknesses identified in the paper, and the authors have made a novel contribution to the field. However, there are some minor weaknesses highlighted, such as the need for more motivation for numerical feedback and better formatting of some theorems. 
+
+Dialogue agent: Yes, that is correct. The paper proposes algorithms based on successive elimination for finding the best arm in combinatorial bandit problems with semi-bandit feedback and finite budget. The authors also provide lower bounds on the budget needed and evaluate the algorithms through numerical experiments. 
+
+Meta-reviewer: Can you tell me more about the assumptions made by the authors?
+
+Dialogue agent: The authors make two assumptions: (A1) some test function (statistic) of the sequence of observations from an arm converges to a well-defined asymptotic limit, and (A2) there exists a generalized Condorcet Winner (GCW), which is the arm dominating all other arms in each possible query set containing it. 
+
+Meta-reviewer: I see. And what are the major strengths identified in the paper?
+
+Dialogue agent: One major strength is that the paper addresses a novel setting of non-stochastic BAI with combinatorial actions under a fixed budget and includes both preference and numerical (reward) vector feedback. Additionally, lower bounds on the budget are provided and upper bounds analyzed for various algorithms. The paper is also well-written, and the supplementary material covers additional helpful points. 
+
+Meta-reviewer: It seems that the paper has a moderate-to-high impact on the field. What is your recommendation for acceptance?
+
+Dialogue agent: Based on the reviews and your assessment, the paper can be accepted with a rating of 7 and a confidence level of 3. However, it is important to note the minor weaknesses highlighted, such as the need for more motivation for numerical feedback and better formatting of some theorems.

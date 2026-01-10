@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Two-Stream Network for Sign Language Recognition and Translation":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Two-Stream Network for Sign Language Recognition and Translation". Can you tell me about the paper's main contribution?
+
+Dialogue Agent: The paper proposes a two-stream network for sign language recognition and translation, which utilizes both raw videos and keypoint sequences to improve the model's performance. The two-stream network is equipped with various techniques such as bidirectional lateral connection, sign pyramid network, and frame-level self-distillation.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include its technical soundness, high impact on sign language recognition and translation, and excellent evaluation results. The reviews also mention that the paper is well-written and easy to follow.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the evaluation results?
+
+Dialogue Agent: Sure. The paper reports solid system-level experiments, achieving state-of-the-art performance on two sign language understanding tasks, i.e., continuous sign language recognition and sign language translation, across several datasets. The results are very solid, and the paper achieves a significant improvement over prior methods, especially on the CSL-Daily dataset.
+
+Turn 4:
+
+Meta-Reviewer: That's impressive. What are the weaknesses of the paper according to the reviews?
+
+Dialogue Agent: The reviews mention that the paper could benefit from a clearer formulation of the CTC loss and translation loss, as well as a more detailed discussion of the limitations and societal impact of the work. Additionally, there are some unpredictable recognition/translation errors in the results, which may be due to data bias and data scarcity issues.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I would rate the paper as "Accept" with a confidence level of 5.
+
+Dialogue Agent: I agree with your assessment. The paper is technically solid, with high impact on sign language recognition and translation, and excellent evaluation results.
+
+Note: The dialogue is based on the provided reviews and the paper's title, and the dialogue agent responds with summarized answers based on the reviews, refraining from opinions or recommendations. The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.

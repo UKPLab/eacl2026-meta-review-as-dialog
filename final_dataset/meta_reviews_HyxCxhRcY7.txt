@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, can you tell me a bit about the paper "Deep Anomaly Detection with Outlier Exposure"?
+
+Dialogue agent: Sure. This paper proposes a new fine-tuning method for improving the performance of existing anomaly detectors. The main idea is to additionally optimize the “Outlier Exposure (OE)” loss on outlier datasets. The proposed method improves the detection performance of baseline methods on various vision and NLP datasets.
+
+Meta-reviewer: I see. Can you give me some more information on the reviews this paper received?
+
+Dialogue agent: Certainly. Review 1 suggests rejecting the paper due to concerns about novelty and the experimental results. The reviewer suggests more comparison with baselines. Review 2 questions the assumption that we have access to out-of-distribution data, but ultimately ends up recommending acceptance after an update on their review. Review 3 gives a clear accept recommendation, but suggests some changes to the paper's organization and references.
+
+Meta-reviewer: Thanks for the summary. Can you provide more information on the type of the paper and the titles of the reviews?
+
+Dialogue agent: The paper type is long, and the first review is titled "Marginally above acceptance threshold" and gives a rating of 6. The second review is titled "Not an Anomaly Detection Paper" and also gives a rating of 6. The third review is titled "Clear accept" and gives a rating of 8.
+
+Meta-reviewer: Okay. I am concerned about the issues raised in Review 1 regarding novelty and experimental results. What do you think?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can provide more information or clarification as needed.
+
+Meta-reviewer: Can you tell me more about the novelty of the proposed method and how it compares with existing work?
+
+Dialogue agent: The novelty of the proposed method lies in the novel fine-tuning method using OE loss on outlier datasets. This is different from previous methods that use dataset-specific fine-tuning. However, Review 1 raises a valid concern about the similarity of the OE loss for classification to a confidence loss proposed in a previous paper. The authors could clarify the difference and compare the performance with the confidence loss. 
+
+Meta-reviewer: I see. What about the experimental results? Do they support the claims made in the paper?
+
+Dialogue agent: The experimental results provided in the paper show that the proposed method improves the detection performance of baseline methods on various vision and NLP datasets. However, Review 1 suggests more comparison with baselines, and Review 2 questions the assumptions underlying the method. 
+
+Meta-reviewer: Thanks for the information. Given the concerns raised in Review 1, I am not sure if I should accept or reject the paper. Can you provide any additional insights?
+
+Dialogue agent: Unfortunately, as a dialogue agent, I cannot provide any additional insights or recommendations beyond what has been presented in the reviews and the paper itself. Ultimately, the decision to accept or reject the paper lies with you as the meta-reviewer.

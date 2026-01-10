@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Maximum Common Subgraph Guided Graph Retrieval: Late and Early Interaction Networks":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Maximum Common Subgraph Guided Graph Retrieval: Late and Early Interaction Networks". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose new neural network architectures for the task of graph retrieval, specifically focusing on the Maximum Common Subgraph (MCS) metrics. They introduce both early and late interaction models for determining the MCS and demonstrate the efficacy of their approach via exhaustive empirical study using seven diverse datasets.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main weaknesses of the paper?
+
+Dialogue Agent: Based on the reviews, the novelty factor of the proposed approaches is somewhat limited, and the authors should have included more results, including those related to the training/inference times for the different baseline models. Additionally, the authors share multiple limitations of their work.
+
+Turn 3:
+
+Meta-reviewer: I see. How do the reviewers rate this paper?
+
+Dialogue Agent: Based on the ratings, Review 1 gives a rating of 6: Weak Accept, Review 2 gives a rating of 6: Weak Accept, and Review 3 gives a rating of 7: Accept.
+
+Turn 4:
+
+Meta-reviewer: That's helpful. What are the strengths of the paper according to the reviewers?
+
+Dialogue Agent: The reviewers mention that the authors focus on graph similarity measurement, which is an important problem in the graph ML community, and that the proposed method is relatively novel, albeit heavily relying on the Gumbel-Sinkhorn (GS) network. Additionally, the authors propose both early and late interaction models, and the paper is well-written with enough details and code provided for reproducing the experimental results.
+
+Turn 5:
+
+Meta-reviewer: Okay, I think I have a good understanding of the paper now. Can you summarize the reviewers' ratings and confidence levels?
+
+Dialogue Agent: Sure! Based on the ratings, Review 1 gives a rating of 6: Weak Accept, Review 2 gives a rating of 6: Weak Accept, and Review 3 gives a rating of 7: Accept. The reviewers' confidence levels are 5, 4, and 3, respectively.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your help! I think I have a good understanding of the paper now.
+
+Dialogue Agent: You're welcome! If you have any more questions or need further clarification, feel free to ask.

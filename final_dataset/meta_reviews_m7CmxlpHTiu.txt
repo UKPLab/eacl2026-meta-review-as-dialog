@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Self-Supervised Aggregation of Diverse Experts for Test-Agnostic Long-Tailed Recognition". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a novel approach called Self-Supervised Aggregation of Diverse Experts (SADE) for test-agnostic long-tailed recognition. The approach aims to solve the problem of handling unknown class distributions at test time.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. Firstly, it addresses a challenging problem in long-tailed recognition, which is the test-agnostic setting. Secondly, the proposed method is technically solid and has been evaluated on multiple benchmarks. Finally, the paper has a clear and easy-to-follow writing style.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the proposed method?
+
+Dialogue Agent: Sure! The proposed method consists of two modules: (1) diverse experts with different class expertise and (2) a self-supervised test-time weighting strategy that adaptively aggregates the experts to tackle unknown testing distribution. The method is based on the idea of skill-diverse expert learning and test-time self-supervised aggregation.
+
+Turn 4:
+
+Meta-Reviewer: I see. What are the weaknesses of the paper?
+
+Dialogue Agent: The paper has a few weaknesses. Firstly, the technical significance of the proposed method is not enough, as the idea of using multiple experts has been explored in previous works. Secondly, the paper only considers the transductive setting where the entire test data are accessible at once, which may not be practical in many applications. Finally, the paper incurs more computational cost than previous methods due to the self-supervised test-time weighting strategy.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the strengths and weaknesses you've provided, what is your assessment of the paper?
+
+Dialogue Agent: Based on the reviews provided, I would assess the paper as borderline accept, with a confidence level of 5. The paper has several strengths, including addressing a challenging problem in long-tailed recognition and having a clear and easy-to-follow writing style. However, the paper also has some weaknesses, such as limited evaluation and a lack of practicality in some aspects. Please use sparingly.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your assessment. I will consider your feedback in my final decision.
+
+Dialogue Agent: You're welcome! Please feel free to ask any further questions or request additional information.

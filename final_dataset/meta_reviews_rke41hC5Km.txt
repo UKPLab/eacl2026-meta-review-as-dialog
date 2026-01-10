@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I'm reviewing a paper titled "Generating Realistic Stock Market Order Streams," which is a long paper. Could you tell me more about the reviews this paper received and their ratings?
+
+Dialogue agent: Of course, meta-reviewer. This paper received three reviews. Review 1 rated it a marginally below acceptance threshold with a confidence of 4. Review 2 gave the same rating with the same confidence level. Review 3 rated the paper as ok but not good enough for acceptance, with a confidence level of 5.
+
+Meta-reviewer: Thank you for that information. Review 1 mentions the limited experimental results of the paper. Can you tell me more about the experiments and their results?
+
+Dialogue agent: Certainly, meta-reviewer. The paper provides experiments on both synthetic and real data, but the results for real data are only shown for two stocks, representing respectively 20k and 230k orders. The trained model captures some aspects of the distribution, such as inter-arrival times, but misses important aspects such as the best bid-ask dynamics and the univariate price distribution. Review 1 suggests comparing the proposed model with other limit-order book simulation models in the financial econometrics literature and evaluating the sensitivity of the learned distribution on the architecture hyperparameters.
+
+Meta-reviewer: Review 2 mentions that the paper's assumptions about Markov chains and stationary distributions might not hold in real-world scenarios. Can you elaborate on that?
+
+Dialogue agent: Certainly, meta-reviewer. The paper assumes that the order stream follows a Markov chain, and its distribution is stationary. However, in real-world scenarios, external factors can affect the order stream, making the Markov chain assumption unlikely to hold. Moreover, financial data is known to be non-stationary, making the stationary distribution assumption challenging to justify.
+
+Meta-reviewer: I see. Finally, Review 3 points to some omissions in the paper, such as the lack of detailed account of the novel network architecture and technical details concerning hyper-parameter selection. Can you provide more context on that?
+
+Dialogue agent: Certainly, meta-reviewer. Review 3 mentions that the paper's description of the novel network architecture is too vague and misses crucial details. For instance, the paper uses a convolutional layer at some point, but it's not clear why it's needed or how it's configured. The same reviewer also notes that technical details concerning the selection of training algorithm hyper-parameters are missing from the experimental section, which could hinder the replicability of the paper's research results. Finally, the reviewer suggests that the paper should provide comparisons to alternative baselines, such as simple LSTMs, recurrent variational autoencoders, and high-order hidden Markov models. 
+
+Meta-reviewer: Thank you for that detailed breakdown, dialogue agent. Based on the reviews, especially Review 3, it seems there are significant omissions in the paper that need addressing. However, reviewers generally find the topic worth exploring. In your opinion, how confident are you that the paper should be accepted?
+
+Dialogue agent: As a dialogue agent, I can't provide any opinions or recommendations on whether to accept or reject the paper. I can only provide information based on the reviews and the paper's details.
+
+Meta-reviewer: Understood. Thank you for your assistance, dialogue agent. Based on the reviews, it seems like the paper has potential, but significant improvements and clarifications are needed to make it acceptable for publication.

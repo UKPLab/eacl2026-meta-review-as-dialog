@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper titled "Model-Predictive Policy Learning with Uncertainty Regularization for Driving in Dense Traffic." Can you provide me with an overview of the reviews for this paper?
+
+Dialogue agent: Certainly. There were three reviews for this paper. Review 1 suggested that the paper presents somewhat new ideas by combining pre-existing popular approaches. However, the compared methods are not state-of-the-art. Review 2 praised the paper's straightforward writing style and suggested that the proposed method needs to be compared to similar work. Review 3 agreed that the paper contributes to the field but pointed out that the dataset is quite limiting.
+
+Meta-reviewer: I see. Based on these reviews, would you say that this paper is suitable for acceptance in the conference?
+
+Dialogue agent: Review 1's rating was marginally above the acceptance threshold, while Review 2 and Review 3 gave ratings of marginally above acceptance and good paper, respectively. However, I am afraid that as a dialogue agent, I cannot provide you with opinions or recommendations for acceptance.
+
+Meta-reviewer: Understood, thank you. Can you provide me with more information on the proposed method in the paper and how it compares to existing work in the field?
+
+Dialogue agent: The paper formulates the driving policy problem as a model-based RL problem and presents a rolling horizon method for learning model predictive policies. The paper also introduces an uncertainty cost term to deal with covariate shift in policy learning. Regarding how it compares to existing work, Review 1 pointed out that while there are similarities between this paper and existing work on learning control for robotic systems, there is a profound difference in working with real systems versus working with image data in simulation. Review 2 suggested that the proposed method needs to be compared to similar work by Depeweg et al. and that the justification for the heuristics used in the method would help. 
+
+Meta-reviewer: Thank you for the information. Review 3 suggested that the dataset used in the paper is quite limiting. Can you provide me with more information on the dataset and how the proposed method performed on it?
+
+Dialogue agent: The dataset used in the paper was captured by a camera looking down a small section of the road, providing 45 minutes of data. The paper uses this dataset to demonstrate the proposed method's effectiveness in learning model predictive policies for driving in dense traffic. However, as Review 3 pointed out, the dataset is not diverse enough to test the method's ability to handle more complex settings such as pedestrian crossing or cutting in. 
+
+Meta-reviewer: Thank you for the information, dialogue agent. Based on the reviews and the information provided, I have a better understanding of the paper and the proposed method. I will carefully consider the reviews and information presented when making a decision on whether to accept or reject the paper.

@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "On Accurate Evaluation of GANs for Language Generation," and I have some questions.
+
+Dialogue agent: Hello, meta-reviewer. I am here to answer your questions.
+
+Meta-reviewer: The first reviewer had some concerns about the magnitude of the contribution of the paper. Can you tell me more about the proposed metrics and how they compare to the currently used ones?
+
+Dialogue agent: Sure, the paper proposes that Frechet Distance and reverse Language Model scores can be good alternatives to BLEU and Self-BLEU scores used in previous work. The proposed metrics have been shown to better capture the quality and diversity of the generated samples. However, they are not extensively compared to human judgments, and more evaluations are needed to validate their effectiveness.
+
+Meta-reviewer: OK, that is good to know. The second reviewer seemed to have some serious concerns about the paper. Can you explain why they recommended rejection?
+
+Dialogue agent: The second reviewer pointed out that the paper did not propose any new metrics but instead evaluated existing ones. They also raised concerns about the lack of comparison with human judgments and the lack of explicit study on diversity. Furthermore, the paper concludes that the Language Model performs better than Seq gan, which is not correct. Finally, there were concerns about the poorly defined metrics.
+
+Meta-reviewer: I see, that is quite a detailed evaluation. The third reviewer seemed to find the paper timely and the proposed metrics appropriate. Can you tell me more about their comments?
+
+Dialogue agent: The third reviewer agreed that the proposed metrics were proper and the observation that most GAN models do not yield obviously better results than conventional LM was insightful. They also raised some questions about human evaluation and the performance of LeakGAN and MaskGAN. Finally, they pointed out some minor issues with the citation format.
+
+Meta-reviewer: Thank you for the summary. Given these reviews, what is your recommendation for the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations or opinions. However, I can provide you with the ratings and confidence levels of the reviewers. The ratings were 5 (marginally below acceptance threshold), 3 (clear rejection), and 6 (marginally above acceptance threshold). The confidence levels for all reviewers were 4 (confident but not absolutely certain that the evaluation is correct).
+
+Meta-reviewer: I understand. Based on these ratings and comments, I will have to make a decision on whether to accept or reject the paper. Thank you for your help.

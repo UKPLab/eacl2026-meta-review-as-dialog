@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have reviewed the three reviews for "The Natural Language Decathlon: Multitask Learning as Question Answering" and I am hesitant to make a final decision. Could you provide me with more information about the paper and the reviews?
+
+Dialogue Agent: Of course. The paper presents a deep learning architecture that formulates different NLP problems as question answering problems and trains them together as a multi-task learning approach. The proposed framework, decaNLP, is demonstrated on 10 common NLP tasks. Review 1 rates the paper as marginally below acceptance threshold, citing concerns regarding the usefulness of the proposed method for optimizing a single task and the sacrifice of important prior knowledge of individual tasks in the general model. Review 2 also rates the paper as marginally below acceptance threshold but is more positive, appreciating the new framework for multitask learning and the potential of the decaNLP framework as a benchmark for other researchers. However, this reviewer also raises concerns about the multi-task setup underperforming compared to single-task setup and the lack of fine-grained analysis. Review 3 rates the paper as a clear rejection, citing concerns about the framing of decaNLP as a misguided view of question answering, lack of originality and inadequate space dedicated to the three main ideas - decaNLP, MQAN and transfer results. 
+
+Meta-Reviewer: Thank you for that summary. Do you have any recommendations on which reviews to give more weight to when making the final decision?
+
+Dialogue Agent: As a dialogue agent, I cannot provide any opinions or recommendations; however, I can remind you that review 1 and review 2 rate the paper as marginally below acceptance threshold, while review 3 is a clear rejection. Ultimately, the decision is yours to make and should take into account the confidence levels of all the reviews.
+
+Meta-Reviewer: That's true. Review 1 and review 2 have some concerns but are not entirely negative. However, review 3 is quite harsh and has strong criticisms about the paper. I think I will give more weight to review 3, as the reviewer seems to have a solid grasp of the topic and presents several compelling arguments for rejection.
+
+Dialogue Agent: Understood, Meta-Reviewer. It is important to consider all perspectives and criticisms when making a final decision. I hope I was able to assist you in your decision-making process. Do you have any other questions or concerns?
+
+Meta-Reviewer: No, that will be all for now. Thank you for your help, Dialogue Agent.
+
+Dialogue Agent: My pleasure, Meta-Reviewer. Have a good day.

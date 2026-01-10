@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper titled "Explainable Spatio-Temporal Forecasting with Shape Functions." Can you provide me with some additional information about the paper?
+
+Dialogue Agent: Of course, meta-reviewer. What information would you like me to provide?
+
+Meta-reviewer: Can you remind me of the type of the paper?
+
+Dialogue Agent: Yes, the paper is classified as long.
+
+Meta-reviewer: Great. Can you summarize the strengths and weaknesses mentioned in the reviews?
+
+Dialogue Agent: Sure, according to review 1, the paper makes a good contribution to spatio-temporal forecasting by proposing a interpretable spatio-temporal forecasting method. The proposed method is motivated by the challenge in spatio-temporal forecasting and uses shape functions to constrain the statistical relations between different locations. The method enjoys good forecasting accuracy as deep learning methods while maintaining the interpretability of traditional methods. As for the weaknesses, the main assumption of the paper is the correlation between two locations decreasing with distance, and it would be better to give some discussions or case studies of this assumption. Also, the design of the model in Eq (2) suffers from the small sample problem, causing fluctuations in the estimations across time. Finally, while the authors give examples of monotonically increasing/decreasing functions in section 3.4, only monotonically decreasing functions are investigated in experiments.
+
+In review 2, the proposed method is novel and interesting as it models the spatial weight matrix with learnable shape functions to capture the spatial variability and distance-based effects over distance. The experimental results on synthetic and real datasets show the effectiveness of the proposed method and even perform better or comparable with respect to some deep learning-based methods under some scenarios. The weaknesses mentioned are that the method is only evaluated on a single real-world dataset, making it hard to figure out if the method can consistently work well under real setups. Also, the authors did not discuss the advantage or disadvantages of each specification of the relations between the distance and the weights, and there is no discussion about some more complex functions and their influence on performance. 
+
+Review 3 also acknowledges the importance of the proposed solution to the problem of learning spatio-temporal dependency structure. However, the proposed method is not well-justified since the similar philosophy has already been explored in spatial statistics, such as the Gaussian process. Additionally, the proposed model seems limited in model representation with a linear function, and it is not yet convincing that such models can achieve better performance than recent deep learning models.
+
+Meta-reviewer: Thank you for summarizing the reviews. What is the rating and confidence level of each review?
+
+Dialogue Agent: Review 1 rated the paper as Weak Accept with a confidence level of 4. Review 2 rated the paper as Accept with a higher rating of 7 but with a slightly lower confidence level of 3. Review 3 rated the paper as Borderline Reject with a confidence level of 4.
+
+Meta-reviewer: What is your recommendation based on these reviews?
+
+Dialogue Agent: As a dialogue agent, I am not programmed to provide recommendations or opinions, meta-reviewer. I can only provide information based on the reviews. It is up to you to weigh the importance of reviewer confidence and ratings and make a final decision on the paper.

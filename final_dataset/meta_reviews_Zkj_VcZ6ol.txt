@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide a brief summary of the paper's contributions and main findings?
+
+Dialogue agent: Certainly, the paper focuses on using the full ImageNet dataset with over 14 million images and 21,000 classes to train better backbones as part of the pre-training steps for supervised tasks. The authors clean up the dataset, provide official test/train/val splits, introduce efficient training techniques, and provide results on downstream tasks to show the effectiveness of the newly trained backbone. The paper also proposes a new semantic softmax scheme to utilize the hierarchical labels and avoid the cons of multi-label training. Overall, the paper presents a thorough set of ablations that show the significance of the data, losses used, model, and downstream tasks.
+
+Meta-reviewer: Interesting. So, based on the reviews, it seems there are still some concerns. Can you comment on the reviewers' feedback and the confidence levels they have in their evaluations?
+
+Dialogue agent: Certainly. One reviewer expressed that the contributions are incremental and may only be useful for a specific group of developers and researchers. They were not entirely convinced that the dataset's size and pre-training benefits outweigh the required resources for processing and pre-training backbones, which might be a bottleneck for some researchers. This reviewer rated the paper as "Ok but not good enough - rejection" with a confidence level of 3.
+
+Another reviewer acknowledged the paper's practical merits, extensive experiments, and showed impressive results for some tasks. They also highlighted that the semantic/hierarchical softmax loss used is custom for this dataset, and its generalization to anything outside the dataset is unclear. This reviewer rated the paper "good paper, accept" with a confidence level of 4.
+
+The final reviewer appreciated the work's contribution in reforming and cleaning the ImageNet-21K dataset, utilizing hierarchical labels, and presenting interesting results on pre-training and transfer learning experiments. However, they also identified some missing details that could make the experiments and proposed scheme more solid. This reviewer rated the paper "marginally above acceptance threshold" with a confidence level of 4.
+
+Meta-reviewer: Thank you for summarizing the reviews. Given the concerns raised, I am leaning towards rejecting the paper. However, I am curious about the confidence levels of the reviewers. What are their confidence levels, and how should I weigh them in my decision-making process?
+
+Dialogue agent: The first reviewer is fairly confident about their evaluation, rating it a confidence level of 3. The second and third reviewers are confident but not absolutely certain, both rating a confidence level of 4.
+
+Meta-reviewer: I see. Based on the input from all three reviewers, I appreciate the thoroughness of the authors' experiments and the value of the proposed dataset but believe that the concerns raised are significant enough to warrant rejection. I will reject the paper. Thank you for your help and information, Dialogue agent. 
+
+Dialogue agent: You're welcome, Meta-reviewer. Thank you for the opportunity to assist you.

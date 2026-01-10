@@ -1,0 +1,36 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Opportunistic Learning: Budgeted Cost-Sensitive Learning from Data Streams". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Certainly! The paper presents a novel method for budgeted cost-sensitive learning from data streams. The approach is based on a sequential feature acquisition framework, where each feature is acquired based on its expected utility and the available budget. The authors use a reward function based on the certainty of the model's predictions, which helps to improve the accuracy-cost trade-off.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. Can you tell me more about the reward function and how it's used in the paper?
+
+Dialogue Agent: Sure! The reward function is based on the certainty of the model's predictions, which is estimated using MC Dropout. The authors use the reward function to learn a policy for sequentially acquiring features, which helps to improve the accuracy-cost trade-off. The reward function is used in place of the softmax output layer, which is a common approach in reinforcement learning.
+
+Turn 3:
+Meta-Reviewer: I see. Can you tell me more about the base features that are revealed "for free" for all samples? How are these chosen, and how does the number of these impact the results?
+
+Dialogue Agent: The base features are chosen based on their relevance to the task at hand. In the paper, the authors use a combination of feature importance and relevance to select the base features. The number of base features can impact the results, as a larger number of base features can lead to overfitting. However, the authors show that using a small number of base features can also lead to poor performance, so there is a trade-off to be made.
+
+Turn 4:
+Meta-Reviewer: That makes sense. Can you tell me more about the real-world validity of the paper? The paper assumes a uniform cost structure for feature acquisition, which may not be realistic in practice. How does the paper address this limitation?
+
+Dialogue Agent: The paper acknowledges the limitation of the uniform cost structure assumption and discusses the need for more realistic cost structures in practice. The authors also show that their approach can be applied to a variety of cost structures, including non-uniform costs. However, the paper does not provide a comprehensive analysis of the impact of cost structures on the performance of the approach.
+
+Turn 5:
+Meta-Reviewer: I see. Can you tell me more about the computational cost of the approach, and how it compares to other methods in the literature?
+
+Dialogue Agent: The computational cost of the approach is based on the number of features acquired and the complexity of the model. The authors show that their approach has a lower computational cost than other methods in the literature, such as RADIN. However, the paper does not provide a comprehensive comparison of the computational cost of different methods.
+
+Turn 6:
+Meta-Reviewer: That's helpful. Can you tell me more about the dataset used in the paper, and how the costs were estimated?
+
+Dialogue Agent: The paper uses a proprietary diabetes dataset, which includes real-world cost information. The costs were estimated by a single person familiar with medical billing, and the dataset includes a variety of costs, such as feature acquisition costs and computational costs. The authors show that their approach can significantly reduce the costs of feature acquisition while maintaining good performance.
+
+Turn 7:
+Meta-Reviewer: That's interesting. Can you tell me more about the certainty estimation used in the paper, and how it's related to the reward function?
+
+Dialogue Agent: The certainty estimation is based on MC Dropout, which is a technique for estimating the uncertainty of a neural network's predictions. The authors use the certainty estimation to learn a policy for sequentially acquiring features, which helps to improve the accuracy-cost trade-off. The certainty estimation is closely related to the reward function, as the reward function is based on the certainty of the model's predictions.

@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "SketchBoost: Fast Gradient Boosted Decision Tree for Multioutput Problems":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "SketchBoost: Fast Gradient Boosted Decision Tree for Multioutput Problems". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper presents three methods to speed up the training process of Gradient Boosted Decision Trees (GBDT) for multi-output problems. The methods are based on compressing the gradient matrix before splits are found, using random projections and Gaussian random projections. The paper shows that these methods can significantly reduce the training time while maintaining similar predictive performance.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and tackles a relevant problem. The solutions are built to be used on top of existing SOTA algorithms and are compared to them in the paper. The paper also presents extensive experiments to validate the solution, showing promising results.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the three methods proposed in the paper?
+
+Dialogue Agent: Sure! The three methods are: Top-Outputs, Random Sampling, and Random Projections. These methods aim to reduce the computational complexity of the split scoring function. Top-Outputs selects the top outputs that contribute the most to the loss function, Random Sampling selects a random subset of the training data to speed up the search process, and Random Projections projects the data onto a lower-dimensional space using Gaussian random projections.
+
+Turn 4:
+
+Meta-reviewer: How do the methods compare to existing SOTA algorithms?
+
+Dialogue Agent: The paper compares the proposed methods to existing SOTA algorithms such as XGBoost, CatBoost, and GBDT-MO. The results show that the proposed methods are order of magnitude faster than these algorithms while maintaining similar predictive performance.
+
+Turn 5:
+
+Meta-reviewer: What are the limitations of the paper?
+
+Dialogue Agent: The paper does not provide a comprehensive comparison of the proposed methods with deep learning-based solutions, and there is no discussion of the related work in the field. Additionally, the paper does not provide a detailed analysis of the computational complexity of the proposed methods.
+
+Turn 6:
+
+Meta-reviewer: Based on your summary, I think the paper is well-written and the proposed methods are promising. However, I have some concerns about the limitations of the paper. What is your rating and confidence level for this paper?
+
+Dialogue Agent: Based on the strengths and limitations of the paper, I would rate it as a 7: Accept, with a confidence level of 3. The paper is technically solid, has high impact, and presents promising results, but there are some limitations that could be addressed in future work.

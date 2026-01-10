@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I've read the reviews for the paper titled "Symmetry-Aware Actor-Critic for 3D Molecular Design" and I have a few questions before making my decision. Can you describe the main contribution of the paper?
+
+Dialogue agent: Certainly. The paper proposes an actor-critic neural network architecture for autoregressive generation of 3D molecular structures with reinforcement learning. The main contribution is the introduction of a covariant state-action representation extracted with Cormorant and a covariant, spherical distribution for the orientation of newly placed atoms, which allows for highly symmetric structures and improves the generalization as well as the quality of generated molecules in several tasks from the RL environment MolGym.
+
+Meta-reviewer: I see. So, what are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue agent: Reviewers pointed out that the paper has a clear structure, is well-written, and includes several experiments to verify the main claims. The proposed architecture is the first model for the generation of 3D molecules that uses covariant features to leverage the rotational symmetries of molecules. Moreover, the paper shows extended experiments that demonstrate generalization performance. On the other hand, the evaluation protocol was criticized. In table 1, only the validity and diversity of generated compounds are reported, without taking the 3D stability of compounds into account. Additionally, the method's scalability to large molecules and the runtime of the model compared to Simm et al. were not discussed.
+
+Meta-reviewer: I see that one of the reviewers raised their score after the authors addressed some concerns. What changes did the authors make in response to the reviews?
+
+Dialogue agent: The authors added RMSD experiments to evaluate the stability of compounds and demonstrated that their results were better than Simm et al. Furthermore, the reviewer stated that the validity calculation was different from standard graph generation methods, and the validity results now look reasonable. However, some reviewers still requested additional experiments on highly symmetric cases to show the methodology's true potential.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews and your responses, I am inclined to accept the paper. However, I am concerned about the reviewer confidence scores. Can you tell me more about that?
+
+Dialogue agent: Sure. Reviewer 1 gave a rating of 8, indicating that the paper is in the top 50% of accepted papers and should be accepted. Reviewer 2 and 3 gave a rating of 6, a marginally above acceptance threshold rating. They were confident but not absolutely certain that their evaluations were correct.
+
+Meta-reviewer: I see. Given these ratings, I think I will accept the paper, but I will ask the authors to include the additional experiments suggested by the reviewers to better demonstrate their methodology. Thank you for your help, dialogue agent.

@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "An Adversarial Attack via Feature Contributive Regions":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "An Adversarial Attack via Feature Contributive Regions". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The authors propose a new adversarial attack method based on feature contributive regions (FCRs). They first extract FCRs of the image using an off-the-shelf method and then utilize the FCRs as constraints for the perturbation.
+
+Turn 2:
+
+Meta-Reviewer: Hmm, I see. But I'm not sure if the presentation of the paper is clear enough. The equations and mathematical presentations look unprofessional. What do you think?
+
+Dialogue Agent: I understand your concern. However, the authors have provided a detailed explanation of their method and the equations are correct. The presentation could be improved, but the content is solid.
+
+Turn 3:
+
+Meta-Reviewer: Okay, I see. But I'm not familiar with the adversarial attack literature, and I think the method proposed in this paper is quite straightforward. Is there any novelty in this paper?
+
+Dialogue Agent: The authors have proposed a new approach to adversarial attacks based on feature contributive regions, which has not been explored before. While the idea is not entirely new, the authors have presented a unique and effective method.
+
+Turn 4:
+
+Meta-Reviewer: I see. But I have some concerns about the effectiveness of the method. The authors have only shown the attack success rate, but what about the robustness of the method? And what about the FCR threshold?
+
+Dialogue Agent: The authors have not discussed the robustness of the method in detail, but they have provided some preliminary results. As for the FCR threshold, the authors have not explored it in this paper, but it could be an interesting direction for future work.
+
+Turn 5:
+
+Meta-Reviewer: Hmm, I see. Based on the reviews, I'm leaning towards rejecting the paper. But I'm not absolutely certain. Can you summarize the reviews for me?
+
+Dialogue Agent: Sure! Review 1 suggests that the presentation of the paper needs improvement, and the method is not significant enough for ICLR. Review 2 states that the idea is not entirely new, and the method is somewhat crude. Review 3 suggests that the paper is well-written, but the idea is incremental, and the authors should perform a more detailed literature survey.
+
+Meta-Reviewer: Thank you! Based on these reviews and your summaries, I think I'll reject the paper. But I'll keep an eye on future work from these authors.
+
+Dialogue Agent: Understood. Thank you for your time!

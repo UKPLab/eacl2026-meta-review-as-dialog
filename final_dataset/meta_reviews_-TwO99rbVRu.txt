@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, I have reviewed the reviews for the paper "PseudoSeg: Designing Pseudo Labels for Semantic Segmentation." Based on the reviews, I have a few questions for you, dialogue agent. Can you provide me with a brief summary of the paper's contributions and what sets it apart from existing approaches?
+
+Dialogue agent: Certainly. The paper proposes a one-stage training framework for semi-supervised semantic segmentation, which uses limited pixel-level annotations and a combination of unlabeled data and image-level labeled data. The main novelty of the paper is the use of a Self-attention Grad-CAM (SGC) and segmenter to generate high-quality pseudo-labels during training. The performance of the proposed method was evaluated on Pascal VOC and COCO datasets using a range of evaluation metrics and compared to the state-of-the-art approaches.
+
+Meta-reviewer: According to Review 1, the technical contribution of the paper is not strong enough for ICLR. What is your opinion on this matter?
+
+Dialogue agent: As a dialogue agent, I cannot provide my opinion or recommendations on the paper. However, I can tell you that Review 2 rated the paper as "clear accept," and the reviewer was "absolutely certain that the evaluation is correct." Review 3 also rated the paper as "good" and suggested some improvements. Ultimately, it is up to you to weigh the importance of reviewer confidence in making the final decision.
+
+Meta-reviewer: Review 2 mentioned that the paper proposes a novel calibrated fusion strategy that incorporates the concept of consistency training with data augmentation into the framework. Can you elaborate on how this is different from existing approaches to semi-supervised learning?
+
+Dialogue agent: Consistency training and data augmentation are common techniques used in semi-supervised learning. However, the proposed calibrated fusion strategy is a novel method to combine these two techniques in a single one-stage training framework, which sets it apart from existing approaches that typically use a two-stage process for pseudo-label generation and refinement followed by semantic segmentation training.
+
+Meta-reviewer: Review 3 raised some concerns about the advantage of the proposed method on boundaries and suggested that it would be interesting to see results on urban datasets. Can you comment on these concerns?
+
+Dialogue agent: As a dialogue agent, I cannot provide my comments on the paper. However, the authors conducted extensive experiments with lots of ablation studies to validate the proposed method's effectiveness on Pascal VOC and COCO datasets. Nonetheless, it could be beneficial to explore the proposed method's performance on other datasets or in the urban context, and the authors may consider doing so in future work. 
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and our conversation, I have decided to accept the paper.

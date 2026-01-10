@@ -1,0 +1,21 @@
+Meta-reviewer: Thank you for your reviews on the paper "Question Decomposition with Dependency Graphs". From your reviews, it seems that all of you agree that the paper presents reasonable ideas that are empirically well-tested and thoroughly described. Review 1 has provided some questions that the authors should address in their paper. Review 2 acknowledges the novelty of the representation and the positive aspects of the two models that the authors proposed, but points out some limitations. Review 3 describes the paper as solid work that covers quite a bit of ground. 
+
+As the meta-reviewer, I would like to ask a few questions to the dialogue agent. Can you provide more details about the type of the paper? Also, can you explain the two models proposed in the paper and their respective strengths and limitations? 
+
+Dialogue agent: Certainly. The paper is of type long, meaning it presents a novel approach, backed up by experiments, and discusses the limitations and future directions of the work. The paper investigates the utility of dependency graph (DG) representation in converting questions to Question Decomposition Meaning Representation (QDMR) annotations. As an intermediate step, the paper proposes to convert QDMR annotations to logical form (LF) representation. The paper presents two ways to utilize DGs. The first way is a graph-based parser that predicts all the DG edges simultaneously. The second way is to use the DG as side-information in a seq2seq transformer model by using RAT transformer layers to explicitly model relations between tokens. 
+
+The graph-based parser is not the most accurate but extremely fast. The Latent-RAT model, on the other hand, shows a significant improvement in generalization performance on unseen domains. However, neither of the models provides a significant improvement on in-domain QDMR parsing when the full dataset is used. The paper shows that the Latent-RAT model performs better on longer LFs, whereas the graph-based parser learns better in low-data scenarios. 
+
+Meta-reviewer: Thank you for the explanation. Can you also explain the concerns of Review 2 about the LF-EM evaluation compared to the prior NormEM? 
+
+Dialogue agent: Review 2 points out that the paper is lacking analysis of the LF-EM evaluation compared to the prior NormEM. Specifically, the reviewer thinks it would be helpful to see some examples and explanation of the cases that LF-EM covers that are not covered by NormEM. 
+
+Meta-reviewer: Thank you. Can you also provide an answer to Review 1's question about the authors' thoughts on using a Shift-Reduce parser to predict the DGs, and the expected performance? 
+
+Dialogue agent: Review 1 asked if the authors thought about using a Shift-Reduce parser to predict the DGs and if there was any intuition on the expected performance. The authors do not discuss the use of a Shift-Reduce parser in their paper. Therefore, I cannot provide an answer to the expected performance. 
+
+Meta-reviewer: Understood. Lastly, do any of the reviews suggest a rejection of the paper? 
+
+Dialogue agent: None of the reviews suggest a rejection of the paper. Review 1 rates the paper as "Good paper, accept," and Review 2 rates the paper as "Good paper, accept." Review 3 rates the paper as "Top 50% of accepted papers, clear accept." 
+
+Meta-reviewer: Thank you for your responses. Based on the reviews, I am confident that the paper should be accepted.

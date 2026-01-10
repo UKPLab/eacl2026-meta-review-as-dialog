@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "CANVASEMB: Learning Layout Representation with Large-scale Pre-training for Graphic Design." Based on the reviews, I am deciding whether to accept or reject the paper. Can you give me more information about the paper's contributions and methodology?
+
+Dialogue agent: Yes, certainly. The paper proposes a transformer-based framework called CANVASEMB to learn graphical layout representation. It also contributes a large-scale dataset of parsed slide layouts. The methodology involves unsupervised pre-training of the network on the large-scale dataset and then evaluating it on several subtasks, including element role labeling, image captioning, auto-completion, and layout retrieval.
+
+Meta-reviewer: That sounds interesting. How confident are the reviewers in their evaluations, and are there any major issues with the paper?
+
+Dialogue agent: Reviewer 1 gave a rating of 5, which is marginally below the acceptance threshold, and expressed confidence in their evaluation. Reviewer 2 gave a similar rating and expressed confidence as well, but pointed out issues with the evaluation, missing references, and weak comparison with prior work. Reviewer 3 gave a rating of 4 and suggested that the evaluation could be improved significantly by considering harder tasks, stronger baselines, and existing work. 
+
+Meta-reviewer: I see. Can you provide more information on the issues raised by reviewers 2 and 3? 
+
+Dialogue agent: Certainly. Reviewer 2 pointed out missing references, weak evaluation, and inadequate comparison with prior work, such as Cao et al., SIGGRAPH 2019, Li et al 2020b, and READ (CVPRW 2020). Reviewer 3 suggested that the evaluation should be improved by considering harder tasks and stronger baselines, and should be evaluated against existing work to better understand the contribution of the proposed approach.
+
+Meta-reviewer: Thank you for the information. Based on the reviews, how confident are the reviewers in their evaluations?
+
+Dialogue agent: Reviewer 1 and 2 are fairly confident in their evaluations, with a confidence rating of 4 and 3 respectively. However, reviewer 3's confidence rating is also 3, indicating a slightly lower level of confidence.
+
+Meta-reviewer: I see. Based on the reviews and the issues raised, I am inclined to reject the paper. Do you have any other comments or suggestions?
+
+Dialogue agent: I would recommend that the authors address the issues raised by the reviewers and consider stronger evaluations with harder tasks and stronger baselines, as well as comparisons with existing work. It may also be helpful for the authors to provide more details on their methodology and dataset, including release of the dataset, to aid in reproducibility.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Syntactic Question Abstraction and Retrieval for Data-Scarce Semantic Parsing":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Syntactic Question Abstraction and Retrieval for Data-Scarce Semantic Parsing". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a retrieval-based model for semantic parsing that leverages query-to-query similarity to improve performance in data-scarce regimes.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The authors demonstrate improved performance over a SQLova baseline in the small data regime and comparable performance when more data is available. They also perform thoughtful "generalization tests" to investigate potential weaknesses or behaviors of their model.
+
+Turn 3:
+Meta-Reviewer: Can you tell me more about the model's limitations?
+
+Dialogue Agent: The parsing method is not compositional, which may limit its generalizability. Additionally, the model can only generalize to patterns seen in its database of patterns, and may not be able to handle unseen patterns.
+
+Turn 4:
+Meta-Reviewer: How does the paper address these limitations?
+
+Dialogue Agent: The authors demonstrate that the model can generalize to patterns not seen at training time by adding extra data to the model's database at test time. However, this approach may not be as effective as simply training the model again with the extra data.
+
+Turn 5:
+Meta-Reviewer: Based on the reviews, I'm considering the paper for acceptance. Can you summarize the key points for me?
+
+Dialogue Agent: The paper proposes a retrieval-based model for semantic parsing that leverages query-to-query similarity to improve performance in data-scarce regimes. The authors demonstrate improved performance and thoughtful generalization tests, but the model has limitations related to compositional generalizability and the need for extra data to generalize to unseen patterns.
+
+Turn 6:
+Meta-Reviewer: Thank you for your help. Based on the reviews and your summary, I will consider the paper for acceptance.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

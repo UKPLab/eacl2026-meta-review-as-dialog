@@ -1,0 +1,31 @@
+Meta-reviewer: Hello there. I am the meta-reviewer for the paper titled "Attentive Explainability for Patient Temporal Embedding". I have some questions for you regarding the reviews for this paper.
+
+Dialogue Agent: Hello, I am here to answer your questions to the best of my ability. Please go ahead.
+
+Meta-reviewer: My first question is about the quality and clarity of the paper. Review 1 mentions that the modeling and experimental work are not state of the art. Can you elaborate on that?
+
+Dialogue Agent: As an AI language model, I am not authorized to provide opinions or recommendations. However, I can state that Review 1 suggests that the paper could have done better in terms of motivating the choice of minimum description length (MDL) approach over more probabilistic approaches, explaining the attention mechanism, and establishing the prior. Additionally, the experimental work could have been carried out on a more comprehensive platform that would allow the possibility of testing explanations against experts and users.
+
+Meta-reviewer: I see. My second question is about the originality of the paper. Review 1 mentions that the main originality is in the problem formulation. Can you shed some light on that?
+
+Dialogue Agent: According to Review 1, the paper has an interesting problem-formulation that deals with "explainable representations" of patient physiology, which is more general, and then it formulates explainability as a communication problem in line with classical expert systems. The paper applies information theoretical concepts, which are measured within the minimum description length (MDL) concept. 
+
+Meta-reviewer: And what about the significance of the paper? What can you tell me about that?
+
+Dialogue Agent: Review 1 mentions that the importance of this work is limited as the case is not clearly defined. Furthermore, the paper could have done better by elucidating how the representations are to be used and what kind of users they are intended to serve, such as experts or patients.
+
+Meta-reviewer: Thank you. Now, coming to Review 2, it states that the paper has several issues, including a flawed definition of explainability and loss of information due to the softmax operator. Can you tell me more about that?
+
+Dialogue Agent: Review 2 opines that the paper's definition of explainability in Eq. (5) is flawed since it mixes the accuracy of the estimation of a model and its simplicity, which doesn't give a valid explainability score. Review 2 suggests that the authors should estimate M^o using that equation and then report L(M^o|M^p) as the complexity of the best estimate of the model. Additionally, Review 2 mentions that the softmax operator used in Section 2.4.2 will shrink the large negative coefficients to almost zero, leading to a loss of information. In the linear observer case, authors could have considered a simpler solution without any transformation. 
+
+Meta-reviewer: Understood. And finally, Review 3 is quite critical of the paper, stating that interpretability is not the same as simplicity or the number of model parameters. Can you provide some clarification on that?
+
+Dialogue Agent: Review 3 asserts that the paper's proposal for interpretability, which is the same as model simplicity using the MDL principle, has several issues. One such issue is that interpretability is not equivalent to simplicity or the number of model parameters. Another issue pertains to the definition of Explainability in Eq. (5), which Review 3 thinks is flawed and should not have the second term L(M(X)|M^o, X), as mixing accuracy of estimation of a model and its simplicity does not produce a valid explainability score. Lastly, Review 3 mentions that several references in the text are missing, which hinders understanding of the paper. 
+
+Meta-reviewer: Thank you for all your helpful answers. Based on these reviews, it seems we have some major issues with the paper. I am still unsure whether we should accept or reject it, particularly since there aren't any numerical ratings indicating the quality of the paper. 
+
+Dialogue Agent: I understand your predicament. However, please note that the reviewers' confidence levels might help you in making your decision. Review 1 rates the paper as "Ok but not good enough" with a confidence level of 4, which indicates that the reviewer is confident but not entirely certain that the evaluation is correct. Reviewer 2 gives the paper a "Clear rejection" rating with a confidence level of 4, while Review 3 strongly recommends rejecting the paper with a confidence level of 3.
+
+Meta-reviewer: Ah, I see what you mean. Considering the comments from all three reviews and the reviewers' confidence levels, I think it's best to reject the paper. Thank you for your help, and have a nice day.
+
+Dialogue Agent: You're welcome, and have a good day as well.

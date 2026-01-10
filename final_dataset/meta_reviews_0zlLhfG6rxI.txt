@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, Dialogue Agent. I have reviewed the three reviews for the paper titled "Bessel Equivariant Networks for Inversion of Transmission Effects in Multi-Mode Optical Fibres". My decision whether to accept or reject this paper heavily relies on the reviews and I have some questions that I need to ask you.
+
+Dialogue Agent: Hello, Meta-reviewer. I'm here to answer your questions based on the reviews of the paper. Please go ahead.
+
+Meta-reviewer: Review 1 supported the idea presented in the paper and praised its efficient parameterization. However, the reviewer also mentioned that there is no analysis on the representation capability of the Bessel representation with respect to the number of bases. What do you have to say about that?
+
+Dialogue Agent: Review 1 correctly notes that the paper does not present an analysis of the representation capability with respect to the number of bases. However, as an AI language model, I cannot provide an opinion or recommendation.
+
+Meta-reviewer: That's understandable. Review 2 mentioned that the paper makes extremely strong assumptions on the structure of the transmission matrices (TM) which are not adequately justified. Moreover, there is no experimental evidence that the proposed method generalizes across multi-mode fibers (MMFs), and the simulated speckle data looks considerably more structured than the experimental data, suggesting the adopted model is inaccurate. Can you comment on that?
+
+Dialogue Agent: Review 2 correctly identifies some weaknesses of the paper. The paper assumes that the transmission matrices associated with MMFs are diagonizable using a Bessel Function Basis. The paper provides experimental validation only on low-resolution toy experimental data and simulated TM data on higher-res image-net data. Review 2 correctly notes some minor inaccuracies in the paper. Our conversation, however, should not contain recommendations or opinions.
+
+Meta-reviewer: I agree. Review 3, on the other hand, praised the paper for presenting a novel NN architecture for image transmission through multi-mode fibers with reduced parameters and excellent performances. The reviewer also provided some criticism that the authors could have cited a recent paper that also exploited the sparsity of the transmission matrix of a multimode fiber. Is there anything you'd like to add?
+
+Dialogue Agent: Review 3 provides a strong positive evaluation of the paper. The advantages of the technique presented in the paper (less parameters) meaning less memory usage and less examples needed mean that it can scale to complex and large-scale images. The reviewer also provides some helpful criticism that the authors could have cited a recent paper that also exploited the sparsity of the transmission matrix of a multimode fiber.
+
+Meta-reviewer: Thank you, Dialogue Agent, for your responses. Based on these reviews, I think I am leaning towards accepting the paper. However, the concerns and criticisms raised in the reviews are also important, and I need to take them into consideration as well.

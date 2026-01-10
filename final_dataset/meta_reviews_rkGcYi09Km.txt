@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper called "NUTS: Network for Unsupervised Telegraphic Summarization". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The authors propose a new unsupervised deep learning model for extractive telegraphic summarization, which extracts text fragments (e.g., fragments of a sentence) as summaries.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I'm not sure if the problem is well-motivated. Can you tell me more about the motivation behind this paper?
+
+Dialogue Agent: Sure! The authors introduce the problem of telegraphic summarization, given a sentence, they want to reduce its size while retaining its meaning, with no penalty for grammatical mistakes. The main application presented is summarizing fictional stories and plays.
+
+Turn 3:
+
+Meta-Reviewer: I see. But I have some concerns about the paper. The proposed complex architecture seems not to justify the goal, especially considering that simply dropping stop words works already quite well. Can you tell me more about the choice of the specific sparsity constraint and of \Chi_i?
+
+Dialogue Agent: Sure! The authors choose the specific sparsity constraint and \Chi_i based on their experimentation and validation on a small human-annotated test set. However, the choice of hyperparameters could be better motivated.
+
+Turn 4:
+
+Meta-Reviewer: I also have some concerns about the lack of discussion about related work by Malireddy et al, which is extremely similar to this paper. Can you tell me more about the related work?
+
+Dialogue Agent: Sure! The authors mention related work by Malireddy et al, but they do not provide a comprehensive discussion about the related work. The authors also fail to appropriately justify the choice of their hyper-parameters.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper has some interesting ideas but the content is not quite sufficient for publication. I'm rating it 4: Ok but not good enough - rejection.
+
+Dialogue Agent: Thank you for the feedback. I will pass on the information to the authors.

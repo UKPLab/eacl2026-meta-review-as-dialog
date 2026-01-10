@@ -1,0 +1,17 @@
+Meta-reviewer: Hi there, I have read the reviews of the paper "The Laplacian in RL: Learning Representations with Efficient Approximations" and I have some questions for you before making a final decision.
+
+Dialogue agent: Sure, I'm happy to answer any questions you have.
+
+Meta-reviewer: Can you summarize the main contribution of the paper?
+
+Dialogue agent: The paper proposes a scalable method for approximating the eigenvectors of the Laplacian in RL by optimizing the graph drawing objective on limited sampled states and pairs of states. The authors show the benefits of their method in two different types of goal achieving task, and evaluate it in terms of how well it solves reward shaping in RL. The paper also makes some interesting contributions in terms of defining the reward function and connecting it to eq (1) and introducing the orthonormality constraint through eq (6).
+
+Meta-reviewer: Can you tell me about the strengths and weaknesses of the paper?
+
+Dialogue agent: Reviewers have generally praised the paper for being well written, well structured, easy to follow, with a comprehensive related work section that supports the motivations for the presented work, and for having clear and rigorous derivations. The paper has also been commended for its empirical evaluation and comparisons with baseline models. However, some reviewers expressed concerns about the choice of learning such a representation using a random policy and its feasibility for larger domains. They also raised concerns about the sample efficiency and comparing experiments of reward-shaping, and wondered if the orthonormality constraint would be satisfied and if optimization on Grassmann and Stiefel manifolds would be better. 
+
+Meta-reviewer: I see. Can you tell me the confidence levels of the reviews?
+
+Dialogue agent: Review 1 rated the paper as good and expressed moderate confidence, Review 2 and Review 3 both rated the paper as good, but expressed varying levels of confidence - Review 2 is fairly confident, while Review 3 is confident, but not absolutely certain.
+
+Meta-reviewer: Thank you for your responses. I think I am ready to make my final decision based on the reviews and your helpful summaries.

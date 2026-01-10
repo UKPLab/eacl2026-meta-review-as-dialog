@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper about learning to make decisions via submodular regularization. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new regularization term based on submodular functions to encourage diminishing returns in combinatorial sequential decision making tasks. It also introduces a new 'submodular-norm' for learning the scoring function, which can be integrated with other imitation learning pipelines.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the weak and strong points of the paper?
+
+Dialogue Agent: The proposed algorithm has strong performance guarantees, but the paper's experimental results are limited and many details are omitted. Additionally, the proposed method seems to be less efficient compared to other baseline methods.
+
+Turn 3:
+
+Meta-reviewer: Can you clarify the meaning of "diminishing returns" in the context of the paper?
+
+Dialogue Agent: Sure! In the paper, the authors use the term "diminishing returns" to describe the property of the learned scoring function, which encourages the agent to explore more diverse actions as the episode progresses. This is achieved by adding a regularization term based on submodular functions to the learning objective.
+
+Turn 4:
+
+Meta-reviewer: I see. How does the proposed method compare to other imitation learning methods in terms of efficiency and effectiveness?
+
+Dialogue Agent: The paper does not provide a comprehensive comparison with other imitation learning methods, but the proposed method is shown to be effective in the examples of set cover and learning active learning policy. However, the baseline methods are not well-established, and the experimental results are limited.
+
+Turn 5:
+
+Meta-reviewer: That's helpful. What are some potential follow-up questions that I could ask to better understand the paper's contributions and limitations?
+
+Dialogue Agent: Some potential follow-up questions could include: Can the authors provide more details on the experimental results and the performance of the proposed method compared to other baseline methods? How does the proposed method scale to larger problems and datasets? Are there any limitations or assumptions in the proposed method that could be improved or relaxed in future work?

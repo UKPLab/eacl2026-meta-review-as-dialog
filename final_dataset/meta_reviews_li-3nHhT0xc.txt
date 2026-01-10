@@ -1,0 +1,36 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Open Temporal Relation Extraction for Question Answering":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Open Temporal Relation Extraction for Question Answering". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors propose a novel approach to temporal relation extraction for question answering, which they call "Open Temporal Relation Extraction" (OTRE). This approach allows for the extraction of temporal relations without relying on a predefined set of relations.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. Can you tell me more about the architecture of the model?
+
+Dialogue Agent: Certainly! The authors use a simple architecture that consists of multiple hyperplanes, which are trained using an answer event prediction loss. The model is also assisted by two auxiliary losses: an event detection loss and a contrastive loss.
+
+Turn 3:
+Meta-Reviewer: I see. Can you tell me more about the contrastive loss? I'm not familiar with that term.
+
+Dialogue Agent: Sure! The contrastive loss is a loss function that encourages the model to learn a representation of the relations that is independent of the predefined set of relations. This allows the model to learn open temporal relations that can be used to answer questions.
+
+Turn 4:
+Meta-Reviewer: I see. Can you tell me more about the ablation study in Table 3? What does it show?
+
+Dialogue Agent: Yes, the ablation study in Table 3 shows the contribution of the different components of the model. The authors find that the event detection loss and the contrastive loss are both important for the performance of the model. The authors also show that their model is more data-efficient than previous works on TORQUE.
+
+Turn 5:
+Meta-Reviewer: That's interesting. Can you tell me more about the results of the paper? What are the main findings?
+
+Dialogue Agent: Sure! The authors report that their model achieves a +1.1% F1 score, +3% C score, and -0.2% EM score compared to the RoBERTa-large baseline. They also show that their model is more data-efficient than previous works on TORQUE. The authors also provide an ablation study to show the importance of the different components of the model.
+
+Turn 6:
+Meta-Reviewer: That sounds like a well-designed paper. Can you tell me more about the limitations of the paper? Are there any weaknesses that the authors mention?
+
+Dialogue Agent: Yes, the authors mention a few limitations of the paper. They note that the performance of the RoBERTa-large baseline in the TORQUE leaderboard is (F1=0.7562, EM=0.5076, C=0.3691), which largely closes the gap with OTR-QA, especially in C score. The authors also mention that their main result (Table 3) might have omitted comparison with previous works on TORQUE (e.g., DEER: A Data Efficient Language Model for Event Temporal Reasoning. Han et al., 2020) but only includes the baselines provided by Ning et al., 2020.
+
+Turn 7:
+Meta-Reviewer: Thank you for the information. Based on the information you've provided, I think the paper is well-designed and the results are interesting. However, I have some concerns about the limitations of the paper. Can you tell me more about the authors' response to these limitations?
+
+Dialogue Agent: Yes, the authors address these limitations in their discussion section. They note that the performance of the RoBERTa-large baseline in the TORQUE leaderboard is (F1=0.7562, EM=0.5076, C=0.3691), which largely closes the gap with OTR-QA, especially in C score. The authors also mention that their main result (Table 3) might have omitted comparison with previous works on TORQUE (e.g., DEER: A Data Efficient Language Model for Event Temporal Reasoning. Han et al., 2020) but only includes the baselines provided by Ning et al., 2020. The authors also provide a justification for why they did not include these comparisons in their main result.

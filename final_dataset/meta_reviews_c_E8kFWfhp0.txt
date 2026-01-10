@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, Dialogue Agent. Can you give me an overview of the paper reviews for gradSim: Differentiable simulation for system identification and visuomotor control?
+
+Dialogue Agent: Yes, Meta-Reviewer. The paper presents a framework that combines differentiable physics simulations and differentiable rendering to perform system identification tasks and visuomotor control directly from video frames. Review 1 is positive about the unification of different techniques, the ability to perform tasks directly from images, and the efficient simulator supporting various domains. However, Review 1 also notes limitations such as difficulty in handling contact-rich motion and no joint handling, and that the tasks are simple. Reviewer recommends accepting with a score a little above the acceptance threshold. Review 2 also recommends acceptance, noting that the work is well-motivated, with solid technical contributions, and adding suggestions for improvements and extensions. Review 3 is positive about the clever approach that requires no 3D supervisions and is interpretable, but adds suggestions for improvement in the paper's visualizations and detailed explanations for differentiation through the physical simulator.
+
+Meta-Reviewer: Thank you for that summary. Can you tell me what type of paper it is, and does it affect any of the reviewers' recommendations?
+
+Dialogue Agent: Yes, Meta-Reviewer. The paper type is long, and it does not appear to affect any of the reviewers' recommendations.
+
+Meta-Reviewer: Regarding Review 1, can you provide more information on the limitations mentioned? Do the limitations affect the paper's claims and contributions?
+
+Dialogue Agent: I cannot provide opinions or recommendations, Meta-Reviewer. Review 1 mentions that the limitations may affect the paper's applicability to real-world scenarios, particularly in robotics, and may have implications regarding model mismatch in the experimental evaluation. However, Review 1 also recommends accepting the paper, suggesting that the contribution of unifying different techniques to perform tasks directly from images outweighs the limitations mentioned.
+
+Meta-Reviewer: Understood. Can you provide more information on the experimental evaluation in the paper? 
+
+Dialogue Agent: The paper presents two main synthetic applications: parameter identification and visuomotor control. The proposed approach is validated through these applications, which use input video to estimate object properties or find control policies to move those objects. The experiments are relatively simple, with scenarios using usually only one object and few contact points, as noted in Review 1. Review 3 also notes the need for 3D ground truth information to yield reliable estimates. Review 2 suggests that it would be useful to see if video, even simplistic, from a different simulator or simplified from a real-world video could be applied to increase confidence in this approach.
+
+Meta-Reviewer: That's helpful. Regarding Review 3, what are the suggestions for improving the paper's visualizations and detailed explanations needed? 
+
+Dialogue Agent: Review 3 suggests improving the quality of the visualizations and plots in the paper, particularly Figure 6. Additionally, Review 3 suggests including a more detailed explanation of how to differentiate through the physical simulator in the manuscript's main text, possibly for one of the physical problems studied in the paper, to make the paper more readable.
+
+Meta-Reviewer: Thank you, Dialogue Agent. I am confident that the reviewers found the paper to have solid technical contributions, but with some limitations and suggestions for improvement. Based on these reviews, I think it would be appropriate to accept this paper.

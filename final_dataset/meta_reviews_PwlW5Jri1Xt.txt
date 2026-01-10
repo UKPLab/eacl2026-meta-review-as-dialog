@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, dialogue agent. Can you summarize the main contributions of the paper "Meta-Auto-Decoder for Solving Parametric Partial Differential Equations"? 
+
+Dialogue agent: Certainly, the paper proposes a mesh-free and unsupervised deep learning method called Meta-Auto-Decoder (MAD) that uses pretraining by encoding PDE parameters to latent vectors. The proposed method has a manifold learning interpretation and is faster than other deep learning-based methods. 
+
+Meta-reviewer: That sounds interesting. I see that the paper received three reviews, with no major concerns for evaluation, resources, reproducibility, or ethical considerations. Can you tell me more about the strengths and weaknesses of each review? 
+
+Dialogue agent: Sure. Review 1 praises the method for adapting methods from the shape representation literature to the problem of parametric PDEs and showing consistent performance improvements. However, the reviewer suggests demonstrating a case study where the meta-learning setup gives large performance gains and comparing the proposed method with more standard numerical methods. Review 2 acknowledges the paper for proposing a simple but effective idea to extend learning PDE solutions to parameterized PDE settings, but suggests providing more in-depth analysis on the experimental results and general guidelines for making choices on certain matters. Review 3 considers the paper well-motivated and clearly presented, but raises concerns about the unclear pretraining part and the lack of empirical comparison with a similar concept in Meta-Mgnet. 
+
+Meta-reviewer: Thank you for the detailed summary. How confident should I be in accepting this paper? 
+
+Dialogue agent: All three reviews recommend a weak accept with a rating of 6, and the level of confidence ranges from 3 to 4. Based on the reviews, there are no major concerns with the paper, but there are suggestions for further improvements and comparisons with related work. Ultimately, the decision to accept or reject the paper would depend on your own judgement and priorities.

@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello Dialogue Agent, can you tell me about the reviewers' opinions and critiques on the paper titled "Knowledge-Aware Bayesian Deep Topic Model"?
+
+Dialogue Agent: Certainly, Meta-Reviewer. Reviewer 1 commended the proposed approach for incorporating topic hierarchy from an external knowledge source and for extensive evaluation with five baselines and four datasets. However, they also pointed out weaknesses such as the lack of presentation and justification in some parts of the paper and insufficient related work description. Reviewer 2 praised the authors for developing a Bayesian deep topic model that models topic hierarchies using side information and demonstrates improvements upon existing methods. However, concerns were raised about the reliance on a specific knowledge base and the lack of clarity on how this work is a step-change in topic modelling literature. Finally, Reviewer 3 commented that the proposed approach for guiding a topic model with a knowledge graph seems more natural than previous work and achieves better evaluation results. But, they also indicated that the use of WordNet as the knowledge graph is too general, and more ablation is required on how graph neural networks contribute to the overall model.
+
+Meta-Reviewer: I see. And what is the paper type?
+
+Dialogue Agent: The paper type is long.
+
+Meta-Reviewer: Thank you. Based on the reviewers' comments and weaknesses, what is your opinion on the paper, Dialogue Agent?
+
+Dialogue Agent: I cannot provide an opinion or recommendation, Meta-Reviewer. However, I can inform you that Reviewer 1 rated the paper as a borderline reject with a confidence of 4. Reviewer 2 rated the paper as a borderline accept with a confidence of 2. And, Reviewer 3 rated the paper as an accept with a confidence of 3.
+
+Meta-Reviewer: I understand that you cannot provide any opinions. But, based on the reviewers' comments and weaknesses, I am inclined to consider the confidence levels when making the final decision. Would you be able to remind me of the confidence levels of the reviewers?
+
+Dialogue Agent: Certainly, Meta-Reviewer. Reviewer 1 was confident in their assessment but not absolutely certain with a confidence of 4. Reviewer 2 was willing to defend their assessment, but it is quite likely that they did not understand the central parts of the submission or that they are unfamiliar with some pieces of related work with a confidence of 2. And, Reviewer 3 was fairly confident in their assessment but possible that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work with a confidence of 3.
+
+Meta-Reviewer: Thank you for the reminder, Dialogue Agent. Based on the reviewers' comments and their confidence levels, I have decided to accept the paper with some minor revisions. Thank you for your assistance.
+
+Dialogue Agent: You're welcome, Meta-Reviewer. I'm glad I could be of assistance.

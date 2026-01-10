@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, dialogue agent. I have been assigned to evaluate the paper titled SInGE: Sparsity via Integrated Gradients Estimation of Neuron Relevance. I have gone through the reviews, and I have a few questions.
+
+Dialogue Agent: Hello, meta-reviewer. I am here to answer your questions to the best of my ability. Please feel free to ask.
+
+Meta-Reviewer: Thank you, dialogue agent. The first question is regarding the strength highlighted in Review 1. Can you give me more information about the motivation mentioned in the review?
+
+Dialogue Agent: Sure, meta-reviewer. The motivation behind SInGE is to capture a more global view of neuron importance in pruning. The authors proposed a new importance metric using an integral of the product between the norm of the parameter weight and its attribution along a path between this weight value and a baseline (zero) value. This metric captures more global view than previous magnitude-based and gradient-based pruning methods.
+
+Meta-Reviewer: I understand. Reviewer 2 mentioned that the paper's notation and description of the approaches could be further improved. Can you explain the issue with the notation in the paper, especially in Figure 1?
+
+Dialogue Agent: Yes, meta-reviewer. The notation in Figure 1 is not clear enough, especially regarding the $\mu$ term, which is not introduced before appearing in the figure. In general, Reviewer 2 felt that the notation and description of the approaches presume that readers know the notations of structured pruning techniques and integrated gradients. This may affect understanding and reduce the paper's readability.
+
+Meta-Reviewer: Okay, that makes sense. Reviewer 3 raised concerns about the calculation of FLOPS and parameters of the pruned network, which is not explained in the paper. Can you give me more information about this issue?
+
+Dialogue Agent: Yes, meta-reviewer. This is a significant issue that affects the paper's direct comparison with other state-of-the-art methods, as it does not directly compare to these methods but quotes the numbers. Since the calculation of the FLOPS and parameters of a pruned network is non-trivial, this can have a huge impact on the performance and could reduce the performance significantly.
+
+Meta-Reviewer: Thank you, dialogue agent. Lastly, Reviewer 3 suggested that the work compares an iterative fine-tuning scheme to single-shot pruning methods, making it hard to disentangle the performance gains from the fine-tuning pipeline and the criterion. Can you provide more information about this?
+
+Dialogue Agent: Yes, meta-reviewer. Reviewer 3 noted that the paper applies an iterative fine-tuning scheme but compares it to single-shot pruning methods such as HAP, SOSP, OTO, and SRR-GR. Since the paper shows in Table 2 that an iterative pruning scheme appears to improve the overall performance significantly, this would give SInGE an advantage and makes a direct comparison of the pruning criterions harder. Reviewer 3 suggested that a direct comparison to at least one competing method within the same pruning pipeline would provide the possibility to better disentangle the performance gains from the fine-tuning pipeline and criterion.
+
+Meta-Reviewer: Thank you for your responses, dialogue agent. Based on the reviews and your explanations, I have to decide whether to accept or reject the paper. I think the paper has clear motivation and empirical studies that demonstrate its effectiveness. However, I am concerned about the issues raised by Reviewers 2 and 3. I am particularly worried about the paper's direct comparison with other state-of-the-art methods, given the incomplete explanation of the calculation of FLOPS and parameters of a pruned network. Nevertheless, I am willing to defend my assessment, and I am quite confident in my decision to weakly accept the paper, with a rating of 6 and a confidence of 3.

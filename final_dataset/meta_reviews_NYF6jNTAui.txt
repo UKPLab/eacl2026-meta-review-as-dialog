@@ -1,0 +1,21 @@
+ Sure, I can simulate a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection. Here is an example of a multi-turn dialogue:
+
+Meta-Reviewer: Hello, I am reviewing a paper titled "Locally Hierarchical Auto-Regressive Modeling for Image Generation". Can you provide a summary of the paper?
+
+Dialogue Agent: Certainly! The paper proposes a locally hierarchical auto-regressive modeling approach for image generation, which combines the strengths of hierarchical VQ-VAE and residual vector quantization (RQ-Transformer). The approach uses a hierarchical two-stage discrete latent space to learn a generative prior over the latent space. The paper also introduces a parallel local decoding scheme to improve sampling speed.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. First, it proposes a simple and straightforward extension of RQ-Transformer and VQVAE-2 to learn a hierarchical two-stage discrete generative model of images. Second, the parallel local decoding scheme is an interesting and promising approach for further upscaling the model. Finally, the study on avg.-pooling vs channel-resampling is a nice addition.
+
+Meta-Reviewer: What are the weaknesses of the paper?
+
+Dialogue Agent: The main drawback of the paper is its somewhat incremental nature over RQ-Transformer and VQVAE-2. The increase in sample quality is limited and still contains lots of perceptual artifacts. Additionally, the paper does not provide a thorough comparison to a VQVAE-2 style hierarchical code or the strictly hierarchical autoregressive bottom -> top sampling scheme proposed there.
+
+Meta-Reviewer: I see. What are your recommendations for the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would recommend revising the paper to include a more thorough comparison to related work, such as VQVAE-2, and to provide more detailed evaluations of the proposed approach. Additionally, the paper could benefit from more extensive experiments to demonstrate the effectiveness of the parallel local decoding scheme and to explore the limitations of the proposed approach.
+
+Meta-Reviewer: Thank you for your summary and recommendations. I will take them into consideration when making my decision.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there is anything else I can help with.

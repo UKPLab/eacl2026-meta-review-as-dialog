@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Cost-Sensitive Robustness against Adversarial Examples":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Cost-Sensitive Robustness against Adversarial Examples". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new approach to cost-sensitive adversarial deep learning, which aims to improve the robustness of deep neural networks against adversarial attacks. The authors define a new notion of cost-sensitive robustness and propose a cost-sensitive robust optimization formulation for deep adversarial learning.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the novelty of the approach?
+
+Dialogue Agent: The paper introduces a new concept of certified cost-sensitive robustness against adversarial attacks, which extends the prior work of Wong and Kolter (2018). The proposed method is clearly presented and the results are easy to access, but the novelty of the approach is mostly incremental given the prior work.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the choice of cost matrices? Do the authors provide a justification for their choice?
+
+Dialogue Agent: The authors choose cost matrices based on the results found in Figure 1.b, but the choice feels a bit arbitrary and somewhat cyclical. The real-valued cost matrices are better justified in that respect.
+
+Turn 4:
+
+Meta-Reviewer: I see. What about the epsilon parameter for CIFAR-10? Does the paper provide sufficient justification for the choice of epsilon?
+
+Dialogue Agent: The authors are able to improve the epsilon parameter from epsilon=0.1 to epsilon=0.2 for MNIST, but the epsilon parameter for CIFAR-10 is identical to Wong et al. This may indicate that the results presented in the paper do not scale beyond simple datasets like MNIST.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, I think the paper has some novelty and the results are easy to access, but the choice of cost matrices and the epsilon parameter may need further justification. What is your assessment of the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as marginally below the acceptance threshold (8/10) and my confidence in the evaluation is fairly confident (3/5). The paper introduces a new concept of certified cost-sensitive robustness and proposes a cost-sensitive robust optimization formulation for deep adversarial learning, but the novelty of the approach is mostly incremental given the prior work. The choice of cost matrices and the epsilon parameter may need further justification.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your assessment. Based on the reviews and your summary, I think the paper has some novelty and the results are easy to access, but the choice of cost matrices and the epsilon parameter may need further justification. I will consider the paper for acceptance.
+
+Dialogue Agent: Thank you for your time. I'm here to assist you with any further questions or concerns.

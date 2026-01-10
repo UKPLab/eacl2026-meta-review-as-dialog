@@ -1,0 +1,12 @@
+Meta-reviewer: Thank you for submitting the reviews for the paper "Knowledge Graph Simple Question Answering for Unseen Domains". Can you please provide me with a summary of the main contributions and weaknesses of the paper based on the reviews?
+
+Dialogue agent: Sure. The paper proposes a method for answering "first-order" questions in a knowledge graph for unseen domains, where synthetic questions are generated for relations in the unseen domain for data augmentation. The proposed method achieves reasonable performance on six selected test domains of large to moderate scale, and the question generation strategy is better than several baselines. The weaknesses mentioned in the reviews include:
+
+- The technical contribution appears to be marginal and largely a recombination of known techniques for a simpler version of a widely-studied problem - cross-domain semantic parsing.
+- The setting of this paper is sufficiently different from most of the existing studies because it only focuses on questions that correspond to a single fact, but it would benefit the readers to better position this work in the broader literature.
+- The novelty of the paper is fairly limited. Synthetic question generation has been well studied in other areas of QA, including training models from synthetic data only.
+- The empirical gains are small; most of the benefit seems to be coming from the improved relation prediction network, which uses standard components.
+
+Meta-reviewer: Based on the reviews, what is your overall recommendation for the paper?
+
+Dialogue agent: Reviewer 1 marginally recommends rejecting the paper, while reviewers 2 and 3 marginally recommend accepting it. Reviewer 1 has some concerns regarding the technical contribution and related work, while the other two reviewers appreciate the simplicity of the approach and the empirical results. Therefore, it ultimately depends on your evaluation of the importance of addressing the problem of answering "first-order" questions in a knowledge graph for unseen domains and the confidence you have in the empirical results.

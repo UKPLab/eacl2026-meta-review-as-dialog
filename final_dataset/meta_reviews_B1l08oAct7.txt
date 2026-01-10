@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for the reviews. Overall, the reviewers seem to think that the paper is interesting and well written. However, there are some concerns and suggestions for improvement that have been brought up. Dialogue agent, can you provide more information on the experiments and address the concerns raised by the reviewers?
+
+Dialogue agent: Certainly. The paper proposes a new approach, Deterministic Variational Inference (DVI), for robust Bayesian neural networks using layer-wise moment approximation and Gaussian approximation. Empirical Bayes is also applied to learn length scales of the Gaussian prior. The method is evaluated using small datasets and for single hidden layer NNs. The experiments show that the DVI method compares favorably against existing Monte Carlo variational inference (MCVI) methods in terms of accuracy and variance reduction.
+
+Meta-reviewer: Thanks for the summary. Reviewer 1 raised concerns about the cumulative error due to the Gaussian approximation, which could be significant for deep neural networks. Could you provide experimental results on a deep thin BNN with 5 hidden layers, for example, where the latent dimension at each layer is less than 32?
+
+Dialogue agent: We understand that deep neural networks are of great interest. Currently, our experiments focus on single hidden layer NNs. However, we can consider such experiments in future work.
+
+Meta-reviewer: Reviewer 2 also raised concerns about the scalability of the proposed method for deeper networks and larger datasets. Can you address these concerns?
+
+Dialogue agent: We acknowledge that the proposed method is currently evaluated only on small datasets and single hidden layer NNs. A comparison with MCVI on a more complex example and a deeper BNN can be done in future work, which would help assess the scalability of the proposed method. We can also investigate whether the Gaussian and moment propagation approximations cause difficulty when applied repeatedly in deeper networks.
+
+Meta-reviewer: Reviewer 3 suggests that the experiments can be improved. Specifically, the paper should state what q(w) is, the family of approximating distributions used, and evaluate dDVI with diagonal q(w) on larger models and datasets to show the speed and robustness of learning. Additionally, the author should mention reasons beyond test log likelihood scores to increase the significance of the paper. Can you address these concerns?
+
+Dialogue agent: Sure. The family of approximating distributions used is fully factorized Gaussian for dDVI. We can state this clearly in the paper. We acknowledge that the evaluation on small datasets and single hidden layer NNs does not fully demonstrate the performance of the proposed method. A comparison with MCVI that uses re-parameterization can also be done. Regarding the significance of the paper, we can discuss the possibility of simplifying the optimization and automatic tuning of the model, and the potential applications of using the posterior distribution for better decision-making.
+
+Meta-reviewer: Thank you for addressing my concerns and those of the reviewers. Based on the reviews and our discussion, I think the paper has potential and it is worth further exploration. I am willing to accept it after the author makes the necessary modifications suggested by the reviewers.

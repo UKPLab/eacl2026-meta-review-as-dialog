@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for your reviews. Based on what you've said, I have a few questions for the dialogue agent. 
+
+Dialogue Agent: Of course, I'm happy to answer any questions you have.
+
+Meta-reviewer: Did you run experiments with randomly initialized embeddings and if so, how do they compare to high-quality word embeddings? 
+
+Dialogue Agent: While the paper does explore the use of randomly initialized embeddings in some of the models, it doesn't directly compare them to high-quality word embeddings. The focus is more on exploring the effectiveness of untrained sentence representation models in general.
+
+Meta-reviewer: What is your sense of why random non-linear features are able to perform well on certain tasks? 
+
+Dialogue Agent: The paper doesn't offer a definitive answer to this question, but one plausible explanation is that random encoders are able to capture some of the basic syntactic and semantic relationships in sentences through the pretrained word embeddings. It's also possible that certain tasks simply require less complex sentence representations than others.
+
+Meta-reviewer: Can you expand on the limitations of the paper, specifically the fact that certain major models are not compared against the randomly encoded ones?
+
+Dialogue Agent: Yes, you're right that the paper only compares certain randomly encoded models against SkipThought and InferSent. These comparisons were chosen based on previous research and availability of code, and the paper acknowledges the limitations of this approach. However, the focus of the paper is on exploring the effectiveness of untrained sentence representation models, rather than providing a comprehensive comparison of all possible models.
+
+Meta-reviewer: Lastly, what are your thoughts on including confidence intervals for the reported results to indicate statistical significance?
+
+Dialogue Agent: That's a good suggestion and definitely something that could be considered for future work or revisions of the paper. However, it's important to note that the paper already uses repeated random subsampling and statistical tests to ensure the reliability of the reported results.

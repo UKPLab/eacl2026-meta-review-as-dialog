@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Discrete Compositional Representations as an Abstraction for Goal Conditioned Reinforcement Learning" and I would like to clarify a few things before making a decision on whether to accept or reject the paper. Please note that the paper type is long.
+
+Dialogue agent: Hello, meta-reviewer. I am aware of the reviews and I'm happy to answer any questions you may have.
+
+Meta-reviewer: First of all, can you tell me what the paper proposes and how it was evaluated?
+
+Dialogue agent: Certainly. The paper proposes a framework called Discrete Goal-Conditioned Reinforcement Learning (DGRL), which uses discretized self-supervised representations for goal encoding in goal-conditioned RL. The proposed framework has three stages: (1) learn representations of the visual input using self-supervised learning, using either an autoencoder or an InfoMax objective, (2) process the continuous latent representations via a discrete codebook to obtain a discretized code, and (3) use the pre-trained model on RL tasks by giving discrete goals and maximizing an intrinsic reward which is a function of the similarity between the given goal and the discretized embedding of the current observation or in a HRL setting. The paper evaluated the proposed method on a variety of environments for goal-conditioned and hierarchical RL and demonstrated improved learning efficiency consistently and improved generalization in several cases.
+
+Meta-reviewer: I see. Can you provide some strengths and weaknesses of the paper and briefly summarize each review?
+
+Dialogue agent: Sure. Review 1 states that the paper proposes a learning framework for compositional representations of goals for goal-conditioned RL and shows favorable performance over several baselines on multiple environments. However, the reviewer has some concerns about why two different autoencoder architectures were used for environments with different difficulty, the assumption that observations and goals come from the same space, and the lack of evidence for the learnt goal representations being semantically interpretable. The reviewer also notes that the limitations and societal impact are not discussed, and that while a discretized goal representation enables composition, the composition is not necessarily interpretable, which is claimed in the introduction. 
+
+Review 2 recognizes the importance of the challenge of representing goals for RL and the paper's good job of motivating the problem and proposed solution. The paper's solution seems generally strong; however, the reviewer is concerned that the proposed method does not always scale well to high-dimensional, complex spaces and emphasizes the need for higher-dimensional goal spaces for evaluation. The reviewer also has some concerns around the ambiguity of the discretization process and how it may affect the distribution of goals the agent is trained on, suggesting that more ablations could be useful. Additional minor concerns include insufficient details on codebook size L, unclear reproduction of prior work, and confusion around the term "compositionality."
+
+Finally, Review 3 is generally positive, recognizing the paper's comprehensive empirical study in many different domains and tasks, use of established approaches, and overall clarity of communication. The reviewer notes that the results are comparable for the majority of tasks and that the method does not provide a significant improvement in most environments, except in some cases of gridworld or ant maze navigation and Sawyer arm tasks, where DGRL seems to help with sample efficiency. The reviewer suggests publishing genuine empirical results showing the realistic improvements that can be expected by a simple addition to the method.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on these reviews, I'm inclined to accept the paper. However, I'm concerned about the limitations of the method, as one reviewer mentioned. Can you provide some insights into this?
+
+Dialogue agent: Certainly. One reviewer asked about the number of different goals that can be expressed in this method and how easily it can scale. Additionally, they were interested in how different the resulting discrete codes are between them. These are valid concerns, and the paper may benefit from acknowledging and discussing its limitations. However, without further information, it's difficult to say how significant these limitations are.
+
+Meta-reviewer: I see. Lastly, I noticed that Review 1 provided a "Weak Accept" rating with a confidence level of 4, while Reviews 2 and 3 provided a "Weak Accept" rating with a confidence level of 3. Can you explain the difference in confidence levels?
+
+Dialogue agent: The confidence levels indicate how certain the reviewers are about their ratings. A confidence level of 4 means that the reviewer is confident in their assessment, but not absolutely certain, whereas, a confidence level of 3 means that the reviewer is fairly confident in their assessment, but may not have fully understood certain parts of the submission or some pieces of related work.
+
+Meta-reviewer: Thank you for clarifying. I think I have enough information to make a decision. I have decided to accept the paper, given the strengths of the proposed method and its positive evaluations from the reviewers.
+
+Dialogue agent: Understood, thank you for your decision.

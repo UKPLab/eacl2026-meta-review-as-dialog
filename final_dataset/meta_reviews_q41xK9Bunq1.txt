@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper titled "Neural Attentive Circuits". Can you tell me more about the reviews for this paper?
+
+Dialogue agent: Of course. The paper received three reviews, and I can provide a summary of each one for you.
+
+Meta-reviewer: Please do.
+
+Dialogue agent: Review 1 praises the paper for proposing a novel architecture that learns the sparse connectivity between modules and the model parameters jointly. The reviewer also highlights the paper's ablation experiments, which demonstrate the improvements achieved with learned non-sample conditioned sparse connectivity on tiny-imagenet. However, they criticize the paper for not demonstrating the architecture's general-purpose use and not comparing it to other sparsification methods or neural architecture search methods. The reviewer rates the paper a 6 (weak accept) with a confidence level of 4.
+
+Meta-reviewer: That's informative. What can you tell me about Review 2?
+
+Dialogue agent: Review 2 considers the paper a novel method for modularizing neural networks, with a relatively efficient and flexible architecture design. The reviewer highlights the importance of design choices such as conditioned computations, modularity, and sparsity priors and notes that even with a significant number of pruned models, the model's computational cost isn't weakened significantly. However, the reviewer criticizes the paper for not having a robust performance on large-scale datasets compared to Perceiver and PerceiverIO. They also state the unclear channeling process made the model difficult to understand fully. The reviewer rates the paper a 7 (accept), with a confidence level of 4.
+
+Meta-reviewer: Okay, thank you. And what about Review 3?
+
+Dialogue agent: Review 3 recognizes the paper's novel architectural features, such as ModFC and sparse graph priors, compared to PerceiverIO, and performance improvements compared to Neural Interpreters. However, they emphasize that the empirical validation presented in the paper was insufficient, making it difficult to claim that NAC is a more powerful general-purpose architecture. The reviewer rates the paper a 6 (weak accept), with a confidence level of 3.
+
+Meta-reviewer: I see. So, what's your recommendation? Should we accept or reject the paper, and why?
+
+Dialogue agent: As a dialogue agent, I am not allowed to provide specific opinions or recommendations, but I can tell you that the paper appears to have a technically solid and novel architecture design with potential impacts in various sub-areas of machine learning. However, the paper needs to address the criticisms raised by reviewers adequately. Additionally, a more robust empirical validation is necessary for further claims of comparing NAC to other dominant methods as the architecture's general-purpose use is still not clear.

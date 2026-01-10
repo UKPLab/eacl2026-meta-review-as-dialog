@@ -1,0 +1,21 @@
+Meta-reviewer: Thank you for submitting your paper titled "Three continual learning scenarios and a case for generative replay". After going through the reviews, I want to discuss some points with you to decide whether to accept or reject the paper. 
+
+Dialogue agent: Thank you for considering our paper. I am aware of the reviews, and I will try my best to address your concerns.
+
+Meta-reviewer: Reviewer 1 commented that the proposed RTF model seems to be similar to the existing method DGR+distill. Can you provide any evidence that shows that the proposed model is novel?
+
+Dialogue agent: The main contribution of our paper is not on novel methodology but on the efficiency boost achieved by the integrated model strategy. The RTF model replaces a separate generative model with a symmetric VAE, resulting in approximately two times faster performance than DGR+distill. We agree that RTF is still a replay-based method, but our empirical evaluation justifies the efficacy of the proposed method and its significance in reducing computational cost.
+
+Meta-reviewer: Reviewer 2 felt that the separation of contributions 2 and 3, namely the simulated experiments on MNIST data and the proposed method's integration of the generative model and classifier, is not very clear. What can you say about that?
+
+Dialogue agent: We take this feedback seriously, and we will revise the paper to make the separation of contributions clearer. However, we want to assert that the third contribution of the paper, the integration of the generative model into the learning of the classifier, is motivated explicitly by the problem of reducing catastrophic forgetting during lifelong learning, which is an important issue in current continual learning literature.
+
+Meta-reviewer: Reviewer 3 appreciated the importance of the problem you try to solve and the value of performing experiments on existing methods to use them as baselines for future works in the field. Nevertheless, the reviewer also had some concerns about the details of the evaluation. Can you provide more information on how you evaluated the different methods?
+
+Dialogue agent: We appreciate this feedback and will provide more details on the evaluation of different methods in the revised version of the paper. As for the concern about the unreliable terms such as feedback connection, we will be more careful in using the appropriate terms that precisely convey the model's structure. Finally, while subjectively perceived contribution is not a metric, we want to emphasize the significance of the saved computation achieved by the proposed method compared to DGR.
+
+Meta-reviewer: Thank you very much for your responses. Considering the reviewers' feedback, I am still a bit hesitant to accept the paper. Given the reviews' confidence ratings, how confident are you in the quality of the paper's evaluations, including the empirical results?
+
+Dialogue agent: I understand your concern, and I want to stress that we have conducted extensive empirical evaluation and employed widely accepted evaluation metrics. We are confident in the quality of our evaluations and the validity of our empirical results.
+
+Meta-reviewer: Thank you for your answer. After weighing all the feedback, I have decided to accept the paper with minor revisions. I look forward to seeing the revised version. Congratulations!

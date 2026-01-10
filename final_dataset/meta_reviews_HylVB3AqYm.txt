@@ -1,0 +1,29 @@
+Meta-reviewer: Hi, I have read the reviews for the paper "ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware". Based on the reviews, I have some questions for you as a dialogue agent who understands the paper and the reviews.
+
+Dialogue agent: Hi, please go ahead. I'm here to answer your questions.
+
+Meta-reviewer: Review 1 mentioned that the paper is generally well-written and provides a clear description of the methods. Can you confirm that the paper is well-written and informative?
+
+Dialogue agent: Yes, I can confirm that the paper is well-written and provides a clear description of the methods used. The paper also presents some interesting findings such as the need for specialized blocks rather than repeating blocks and a comparison of architectures for CPUs vs. GPUs. 
+
+Meta-reviewer: Review 1 mentioned that the method in the paper is a combination of existing methods. Can you explain which parts of the method are novel and highlight them in the paper?
+
+Dialogue agent: The paper proposes a novel approach to factorizing the choice out of N candidates by making it a binary selection. This allows the authors to optimize non-differentiable objectives such as latency. The use of path binarization to address memory requirements is also a novel contribution. The paper clearly highlights these novel aspects of the proposed method.
+
+Meta-reviewer: Review 1 also mentioned that it's not clear if the REINFORCE aspect is adding much to the proposed method. Can you explain the role of REINFORCE in the method and its importance?
+
+Dialogue agent: The REINFORCE aspect in the proposed method helps in optimizing a non-differentiable architecture. This is important when optimizing for non-differentiable objectives such as latency. The authors compared their approach against Proxyless-G and achieved higher parameters. The comparison could have been better if the authors had also included results for latency on Proxyless-G. 
+
+Meta-reviewer: Review 2 mentioned that the results presented in the paper are surprisingly good. Can you comment on the results and their implications?
+
+Dialogue agent: The results presented in the paper are indeed impressive, achieving state of the art performance with fewer parameters and less GPU memory and computation. The authors achieved an error rate of 2.08% on CIFAR-10 and 74.5% top-1 accuracy on ImageNet with fewer parameters than prior arts. These results have implications for improving resource efficiency and performance in neural architecture search.
+
+Meta-reviewer: Review 2 also mentioned some concerns about the paper being difficult to reproduce. Does the paper provide enough details for reproduction, and can you comment on the need for code release?
+
+Dialogue agent: While the paper provides a good exposition of the proposed method, there is a need for code release to facilitate reproducibility. The authors should release their code and detail their pipelines to ensure that other researchers can reproduce their results. This is especially important for neural architecture search papers like this one.
+
+Meta-reviewer: Review 3 mentioned that the paper's algorithm is part of the one-shot family of architecture search algorithms and that the interpretation of weights in the proposed method is stochastic. Can you elaborate on this and explain its significance?
+
+Dialogue agent: Yes, the proposed method is part of the one-shot family of architecture search algorithms, wherein an over-parameterized architecture is trained and pruned into the desired sub-graph. The interpretation of weights in the proposed method is stochastic, with the weight indicating the probability of the component being active. The use of REINFORCE and BinaryConnect to train these weights provides a trade-off between efficiency, accuracy, and latency. This makes the proposed method an interesting and elegant solution to the problem of neural architecture search.
+
+Meta-reviewer: Thank you for answering my questions. Based on your responses and the reviews, I think I can confidently accept this paper for publication.

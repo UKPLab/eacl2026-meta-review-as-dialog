@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I am the meta-reviewer assigned to review the paper titled "Hallucinations in Neural Machine Translation". Can you provide me with some general information about the paper type and the reviews?
+
+Dialogue agent: Hello, the paper type is long. It has received three reviews. Review 1 rates the paper a 6, which is marginally above acceptance threshold, and the reviewer is very familiar with the relevant literature and is absolutely certain that the evaluation is correct. Review 2 rates the paper a 4, which means it's Ok but not good enough for acceptance, and the reviewer is confident but not absolutely certain about the evaluation. Finally, Review 3 rates the paper a 7, which means it's good and can be accepted, and the reviewer is confident but not absolutely certain about the evaluation. 
+
+Meta-reviewer: Thank you. Review 1 mentions the chosen noisy words. Can you tell me how the authors have decided on which words to choose, and what the difference would be if different choices were made? Also, does the paper mention how unseen noisy words would be treated during the training process?
+
+Dialogue agent: The paper does not provide information on how the authors have decided on the chosen noisy words. Additionally, the paper does not mention what the difference would be if different choices were made. As for the treatment of unseen noisy words during the training process, the paper does not discuss this either.
+
+Meta-reviewer: Review 1 also mentions a figure, specifically what has changed in the upper right side of figure 4. Does the paper provide any gloss or any additional information that can help me understand this figure better?
+
+Dialogue agent: The paper does not provide any gloss or additional information to help better understand figure 4. 
+
+Meta-reviewer: Review 2 raises concerns about the studied model, could you summarize these for me?
+
+Dialogue agent: Review 2 thinks that the studied model is weak. They have checked the WMT official website, and based on that, they found that the studied models are much less efficient than the WMT results reported two years ago. Review 2 suggests that the authors should conduct the study based on the latest NMT architecture, and check their algorithms on production systems like Google translator. Furthermore, Review 2 suggests that the authors investigate whether the model trained by "Modeling Coverage for Neural Machine Translation" still suffers from hallucinations.
+
+Meta-reviewer: Finally, Review 3 suggests that the authors compare perturbed sources to adversarial examples. Does the paper provide any such comparison?
+
+Dialogue agent: The paper discusses that hallucination problems in NMT resemble adversarial examples discussed in "Explaining and Harnessing Adversarial Examples". However, the paper does not compare perturbed sources to adversarial examples. Additionally, the paper discusses different hallucination patterns, but it does not provide an analysis for each pattern.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and their confidence levels, I believe that the paper can be accepted.

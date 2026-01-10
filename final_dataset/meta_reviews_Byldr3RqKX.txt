@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, can you tell me about the overall theme and contributions of the paper "Tinkering with black boxes: counterfactuals uncover modularity in generative models"?
+
+Dialogue Agent: The paper aims to investigate the modular structure of deep generative models by using counterfactual reasoning. It proposes a proxy for intervention which takes samples and creates "hybrid" samples by replacing the activation output of one sample with the others. The authors also provide evidence for the effectiveness of their method.
+
+Meta-Reviewer: Thank you. Reviewer 1 mentioned concerns regarding the consistency of the concept of counterfactual with that in the causality context. Can you clarify this and provide some details on the causal model of the deep learning?
+
+Dialogue Agent: As a dialogue agent, I am not able to provide opinions or recommendations, but I can tell you that the authors use the concept of counterfactual reasoning to measure the causal effect of perturbations on the network. As for the causal model of deep learning, the authors provided a detailed explanation in the paper and I suggest reviewing sections 3.1 and 3.2 for more information.
+
+Meta-Reviewer: Thank you for your impartial response. Reviewer 2 expressed some concerns regarding the selection of hyperparameters and the lack of additional evaluation. Can you tell me more about this?
+
+Dialogue Agent: The authors proposed a heuristic for selecting the nodes to perturb and used 3 clusters as hyperparameters. However, the reviewer suggested that sensitivity analysis to other choices or a selection criterion would be beneficial. Additionally, the reviewer mentioned that the evidence provided largely leaves the reader to interpret results subjectively, rather than providing clear evidence, and therefore would like to see more evaluation.
+
+Meta-Reviewer: Understood. Lastly, Reviewer 3 suggested that the paper is not yet ready for publication due to issues regarding paper structure, quality of exposition, and experimental analysis. Can you provide more details on these concerns?
+
+Dialogue Agent: Reviewer 3 mentioned that the method tackling the problem of interpretability is not very clear and needs better justification and exposition. Moreover, the results do not support the claimed effectiveness of the method, and the paper needs more solid experimental analysis. The reviewer also provided some specific suggestions for improvement, such as rephrasing some confusing statements in the introduction and section 3.1.
+
+Meta-Reviewer: Thank you for summarizing the reviewers' opinions. Based on these reviews, what is your recommendation for acceptance or rejection of the paper?
+
+Dialogue Agent: As a dialogue agent, I am unable to provide an opinion or recommendation. However, I can tell you that Reviewer 1 gave a marginally above acceptance threshold rating, while Reviewers 2 and 3 gave an Ok but not good enough for publication rating. The confidence levels of Reviewers 1 and 2 were fairly confident while Reviewer 3 was absolutely certain. It is up to your discretion as the meta-reviewer to weigh the importance of the reviewers' opinions and decide whether to accept or reject the paper.

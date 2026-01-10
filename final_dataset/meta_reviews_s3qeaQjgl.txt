@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, thank you for joining me today to discuss the paper "On Scalable Testing of Samplers". Can you briefly summarize the paper's contribution and approach?
+
+Dialogue agent: Of course, the paper presents an algorithm called Pacoco for testing the closeness of distributions in the setting where the support of the distributions is a subset of the n-dimensional hypercube. The algorithm uses two types of conditional sampling queries, COND and DUAL, and has sample complexity that scales nearly linearly with n. The paper also compares Pacoco to a previous work called Barbarik2, which also uses conditional sampling but has exponential sampling complexity.
+
+Meta-reviewer: Thank you for the summary. One of the reviewers raised a concern about the comparison with Barbarik2, stating that their query complexity may not be tight and may perform very accurately with many fewer samples. What is your response to this concern?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations on the paper. However, I can say that the Pacoco algorithm was designed to overcome the exponential scaling of previous works and has been compared against Barbarik2 in the experiments presented in the paper. The authors also addressed this concern in their response to the reviewer, which can be found in the rebuttal.
+
+Meta-reviewer: I see. Another reviewer questioned the need for the COND and PCOND samplers and mentioned that a simple and optimal tester for this problem already exists. Can you provide some clarification on this point?
+
+Dialogue agent: The authors did address this concern in their response to the reviewer, stating that they are aware of the Canonne and Rubinfeld '14 work and the optimal tester for this problem. However, they note that their algorithm is designed for the setting where one doesn't have access to the true probability mass function, which is required for the Canonne-Rubinfeld tester. Instead, Pacoco only needs DUAL and sample access, which is a weaker assumption and more realistic in many applications.
+
+Meta-reviewer: Understood. Finally, I noticed that the reviewers rated the paper as a weak accept with moderate-to-high impact and no major concerns. However, one reviewer only had a medium confidence in their assessment. Can you provide some insight on this?
+
+Dialogue agent: As a dialogue agent, I cannot speculate on the confidence level of the reviewers. However, it is normal for reviewers to have different levels of confidence in their assessments based on their expertise and familiarity with the topic. The meta-reviewer should take into account all the reviews and make their decision based on the overall feedback and their own expertise.

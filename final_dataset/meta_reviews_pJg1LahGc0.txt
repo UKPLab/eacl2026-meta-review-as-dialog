@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, I have read the three reviews for the paper titled "Predicting Institution Hierarchies with Set-based Models" and have a few questions for the dialogue agent.
+
+Dialogue agent: Of course, I'll do my best to answer them.
+
+Meta-reviewer: Review 1 mentioned that the dataset is not clear. Can you provide some more information on the dataset used?
+
+Dialogue agent: The paper makes use of a dataset derived from the GRID (global research identifier database) and it consists of pairs of institution names with binary classes (ancestor or not ancestor). The authors haven't mentioned how many names are in the dataset or if it has been reviewed by a human. Also, I don't have information on whether the authors are releasing all of the dataset or just a subset of it.
+
+Meta-reviewer: Review 1 also raised a concern about the unigram-level overlap measurement used in the set-based model. Have the authors considered expanding to bigrams or more?
+
+Dialogue agent: The paper does not mention the use of bigrams or more in the set-based model. The authors have used simple to intermediate baselines along with different thresholds of token overlap and the proposed model shows strong improvement in the MAP metric.
+
+Meta-reviewer: Review 2 highlighted that the paper did not present an overall hierarchy or something that provides more insights into the learned model. Can you provide more information on this?
+
+Dialogue agent: Unfortunately, as a dialogue agent, I cannot provide opinions or recommendations. However, the paper does make use of Set-Transformers to model the token overlap between institution names. The authors have presented some examples, but overall hierarchy or insights into the learned model have not been provided.
+
+Meta-reviewer: That's understandable. Review 3 mentioned that the experimental protocol is unclear and the evaluation is based only on the manually extracted test set. Can you provide more information on this?
+
+Dialogue agent: The paper does mention an experimental evaluation on a single dataset derived from GRID. However, it does not mention the experimental protocol or if the authors have considered several random splits or some form of cross-validation. Additionally, the paper does not mention any manual evaluation of the results on the test set.
+
+Meta-reviewer: Thank you for the information. Based on these reviews, I have a better understanding of the strengths and weaknesses of the paper. Overall, it seems like a good paper that addresses an interesting and challenging task. However, there are some concerns with the dataset, experimental protocol, and evaluation. I am confident in my evaluation, but I would like to hear your opinion on whether to accept or reject the paper.
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can provide information on the reviews and the paper type, which is long, to help you make an informed decision.

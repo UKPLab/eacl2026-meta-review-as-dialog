@@ -1,0 +1,21 @@
+Meta-reviewer: Thank you for submitting your paper, "TransINT: Embedding Implication Rules in Knowledge Graphs with Isomorphic Intersections of Linear Subspaces". I have reviewed the feedback from the three reviewers and have a few questions for you to help me decide if I should accept or reject the paper.
+
+Dialogue Agent: Thank you for considering our paper. I am here to help answer any questions you may have.
+
+Meta-reviewer: Reviewer 1 had several questions about the related work section of the paper. Can you provide a brief summary of how your method compares to prior work in KG representation learning?
+
+Dialogue Agent: As explained in the paper, our method is unique in that it uses the implication ordering of relations to map them into linear subspaces. We compare our method to several trans-based rule integration methods because they are the most closely related to our approach. However, we acknowledge that there may be other methods worth comparing to and plan to do so in future work.
+
+Meta-reviewer: Reviewer 1 also questioned why only the small FB122 dataset was used for evaluation. Can you explain why larger datasets were not considered?
+
+Dialogue Agent: Our method is computationally intensive and requires significant time and resources to optimize. Therefore, we chose to focus on a single dataset to ensure thorough experimentation and reliable results. However, we plan to evaluate our method on larger datasets in future work.
+
+Meta-reviewer: Reviewer 2 raised several concerns about the readability of the paper, specifically regarding the formatting and clarity of certain sections. How do you plan to address these concerns?
+
+Dialogue Agent: We apologize for any confusion caused by the formatting and will revise the paper to improve readability. We will rephrase certain sentences and rearrange figures to make it easier for readers to follow. We will also correct any typos and close unclosed parenthesis.
+
+Meta-reviewer: Finally, Reviewer 3 suggested that more details on the implementation and evaluation of the method would be helpful. Can you provide some additional information about the optimization process and hyper-parameter tuning?
+
+Dialogue Agent: During training, we apply the implication constraints through a soft thresholding function. We create 100 mini-batches of the training set because it was the optimal number for efficient learning. We used TensorFlow for implementation and performed a grid search of hyper-parameters to find the optimal configuration. We will provide more details in the revised paper.
+
+Meta-reviewer: Thank you for your responses. Given the feedback from the reviewers and your answers to my questions, I have decided to accept the paper with minor revisions to improve the readability and provide additional details on the implementation process.

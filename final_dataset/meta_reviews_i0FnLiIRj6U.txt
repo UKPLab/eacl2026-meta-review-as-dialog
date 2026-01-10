@@ -1,0 +1,29 @@
+Meta-Reviewer: Hello, dialogue agent. Can you provide me with a brief summary of the paper "Iterative Scene Graph Generation"?
+
+Dialogue Agent: Certainly, the paper proposes an end-to-end scene graph generation framework that uses iterative refinement to gradually optimize predictions. It also introduces a reweighting loss to tackle the long-tail problem in this task. The authors tested their method on two popular datasets and achieved superior performance.
+
+Meta-Reviewer: Thank you for the summary. Now, can you tell me what type of paper it is and provide me with the reviews that were submitted for it?
+
+Dialogue Agent: The paper is classified as a long paper. There were three reviews submitted. I will provide you with a summary for each review. 
+
+Review 1: The reviewer rejected the paper with a rating of 3, citing technical flaws, weak evaluation, inadequate reproducibility, and incompletely addressed ethical considerations. They are very confident with their assessment.
+
+Review 2: The reviewer weakly accepted the paper with a rating of 6 and raised concerns about evidence supporting the central claim of the paper. However, after receiving clarifications from the authors, they gained more confidence and raised their rating from 4 to 6. 
+
+Review 3: The reviewer suggested that the paper lacked a strong motivation and had concerns about the complexity of the decoder. They rated the paper as a borderline reject with a rating of 4.
+
+Meta-Reviewer: Based on these reviews, I have concerns about the paper. Can you provide me with more information about the proposed method? 
+
+Dialogue Agent: Certainly. The paper proposes an end-to-end paradigm to predict scene graphs from image inputs. The authors observed that assuming a fixed factorization of subject-object-predicate of predicting relationships can be detrimental, as errors can accumulate in this on-direction flow of this information. To alleviate this problem, the authors propose an iterative refinement process, where, although the factorization is still the same within a refinement step, information from previous steps can be utilized by later steps, thus allows information to flow in all directions. This results in joint reasoning in a single-stage architecture. A joint matching loss is proposed, using the same matching across all steps, to stabilize this refinement procedure. The authors tested their method on two popular datasets and achieved superior performance.
+
+Meta-Reviewer: I see. While the proposed method sounds interesting, I am concerned with the lack of evidence supporting the central claim of the paper, as mentioned in Review 2. Can you clarify this for me?
+
+Dialogue Agent: Review 2 raised concerns about the lack of evidence supporting the central claim of the paper, that the iterative refinement process is important and avoids the problem with a fixed factorization. The reviewer called for more qualitative and quantitative analysis over the output of each refinement step to show how the refinement process is actually improving the results. The reviewer suggested that more fine-grained analysis would help to show what specific refinement process improves the most. The reviewer also suggested that the proposed method can be used to improve other methods, but the claim is not well-supported.
+
+Meta-Reviewer: Thank you for clarifying. I also have concerns about the limitations in the proposed method, as mentioned in Review 3. 
+
+Dialogue Agent: Review 3 mentioned that the paper lacked a strong motivation and had concerns about the complexity of the decoder. The reviewer suggested that the paper should acknowledge other single-stage papers and earlier transformer-based papers. The reviewer also called for a more straightforward writing style to make the technical novelty of the paper easier to understand.
+
+Meta-Reviewer: Thank you for the detailed response. Based on the reviews and the information you provided, I am hesitant to accept the paper without significant revisions. 
+
+Dialogue Agent: Understood. I will convey your concerns to the authors.

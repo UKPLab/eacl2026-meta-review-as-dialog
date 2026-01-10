@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, based on the given reviews:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper called "The People's Speech: A Large-Scale Diverse English Speech Recognition Dataset for Commercial Usage". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors present a new dataset of 31,400 hours of conversational English speech recordings, with a thorough ethical discussion and proper licensing for academic and commercial usage under CC-BY-SA. The dataset is collected via web search for appropriately licensed audio data with existing transcripts, and the authors provide a dataset characterization and a model evaluation.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of this paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the strengths of the paper include the large and diverse dataset, the thorough ethical discussion, and the proper licensing. However, the reviews also mention that the quality of the collected dataset is questionable, and the authors do not demonstrate the impact of this dataset in any way.
+
+Turn 3:
+Meta-reviewer: Can you tell me more about the quality of the collected dataset?
+
+Dialogue Agent: Yes, the reviews mention that the quality of the collected dataset is questionable due to high label noise. The authors acknowledge this issue and argue that the dataset contains a meaningful signal. However, the reviews suggest that the massive gap between the current version and the state of the art on Librispeech raises concerns about the usability of the dataset.
+
+Turn 4:
+Meta-reviewer: How does the authors' approach compare to previous works in this area?
+
+Dialogue Agent: The authors compare their approach to previous datasets such as Librispeech and CommonVoice. They argue that their dataset is larger and more diverse than these previous datasets, and that it is freely available for academic and commercial purposes. However, the reviews suggest that the authors do not provide direct comparisons with previous works or demonstrate the impact of their dataset in any way.
+
+Turn 5:
+Meta-reviewer: Can you tell me more about the authors' approach to data collection and evaluation?
+
+Dialogue Agent: Yes, the authors collect the data by web search for appropriately licensed audio data with existing transcripts. They use a zero-shot technique to classify the content of the transcripts into several categories, which can be used for other downstream tasks. They also estimate different types of noises present in the dataset using a pre-trained YAMNet model. The reviews suggest that the authors do not benchmark their dataset on multiple SOTA ASR systems or use the full dataset to train their network, which may limit the evaluation of the dataset's usability.
+
+Turn 6:
+Meta-reviewer: Based on the reviews, how would you rate this paper, and what are the main factors that influence your rating?
+
+Dialogue Agent: Based on the reviews, I would rate this paper as "marginally below acceptance threshold" (rating 5). The main factors that influence my rating are the high label noise in the collected dataset, the lack of direct comparisons with previous works, and the limited evaluation of the dataset's usability. However, the paper's contributions to the field of speech recognition and the potential for commercial usage are also considered in my rating.

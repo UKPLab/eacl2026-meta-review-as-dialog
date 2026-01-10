@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Controllable and Lossless Non-Autoregressive End-to-End Text-to-Speech":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Controllable and Lossless Non-Autoregressive End-to-End Text-to-Speech". Can you provide a summary of the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper introduces a novel approach for prosody control in text-to-speech models, which learns general and implicit prosody information. The proposed method combines a sequence of prosody representations as latent variables in variational training, and it improves the naturalness of the synthesized speech. The authors also provide numerical results compared with recent works, showing a significant improvement.
+
+Meta-Reviewer: Thank you for the summary. I have some questions about the paper's weaknesses. Review 1 mentions that the authors claim that the proposed method generates lossless speech, but there is a quality loss compared to human recordings. Can you address this concern?
+
+Dialogue Agent: Yes, the authors acknowledge the quality loss in the paper. They mention that the proposed method is not intended to generate high-quality speech, but rather to provide a controllable and lossless method for non-autoregressive end-to-end text-to-speech synthesis. The trade-off between quality and controllability is a common challenge in text-to-speech synthesis, and the authors' approach provides a novel solution to this problem.
+
+Meta-Reviewer: I see. Review 2 also mentions that the authors claim that the proposed method achieves high controllability, but it is not clear which intermediate features in single-stage models are claimed. Can you clarify this?
+
+Dialogue Agent: The authors claim that the proposed method allows for controlling the generation of high-frequency bands in the synthesized speech. However, the authors do not provide a clear definition of which intermediate features in single-stage models are controlled by the proposed method. Review 2 suggests that the authors should provide a more detailed analysis of the problem of intermediate features pointed out by the authors.
+
+Meta-Reviewer: Thank you for the clarification. Review 3 mentions that the authors did not specify how the comparative models were trained, and some models appear to be compared without convergence. Can you address this concern?
+
+Dialogue Agent: Yes, the authors acknowledge the issue in the paper. They suggest that the comparative models were trained using different hyperparameters and datasets, which may affect their performance. The authors also mention that they did not provide a detailed analysis of the training settings of the comparison models, which is a limitation of the paper.
+
+Meta-Reviewer: I see. Based on the reviews and the paper's contributions, what is your recommendation for acceptance or rejection?
+
+Dialogue Agent: Based on the reviews and the paper's contributions, I would recommend accepting the paper with minor revisions. The paper introduces a novel approach for prosody control in text-to-speech models, and it provides a thorough evaluation of the proposed method. However, the authors should address the concerns raised in Review 1 and 2, and provide a more detailed analysis of the training settings of the comparison models in Review 3.

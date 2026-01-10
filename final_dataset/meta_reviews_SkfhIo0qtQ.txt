@@ -1,0 +1,31 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Volumetric Convolution: Automatic Representation Learning in Unit Ball":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Volumetric Convolution: Automatic Representation Learning in Unit Ball". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for learning on unit balls using volumetric convolutions based on the Zernike polynomial trick. It also introduces a new framework for modeling volumetric convolutions over functions defined on unit-balls.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the use of Zernike polynomials in the paper?
+
+Dialogue Agent: Yes, the Zernike polynomials are used to represent the rotation group SO(3) equivariance of the volumetric convolutions. This allows for a more compact derivation of the method compared to previous works.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you explain to me why the authors choose to restrict themselves to only two angles in their filters, instead of using all three angles as in previous works?
+
+Dialogue Agent: The authors choose to restrict themselves to only two angles in their filters because they want to focus on the rotational symmetry of the unit ball, rather than the full SO(3) equivariance. By only considering two angles, they can achieve a more compact representation of the rotation group.
+
+Turn 4:
+
+Meta-reviewer: I see. Can you tell me more about the mathematical shortcomings of the paper, as mentioned in one of the reviews?
+
+Dialogue Agent: Yes, the paper has some mathematical shortcomings, such as the lack of orthonormality of the Zernike polynomials and the use of a special iterative method to invert the volumetric convolutions. These shortcomings could be compensated by amazingly good experimental results, but the actual results are not the best-in-class.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. Based on the reviews and your summary, I think I have a good understanding of the paper's contributions and shortcomings. What is your final recommendation for the paper?
+
+Dialogue Agent: Based on the reviews and the discussion, I would recommend a marginally below acceptance threshold for the paper, with a confidence level of 3. The paper makes significant contributions to the field of volumetric convolutions, but the mathematical shortcomings and the lack of best-in-class experimental results are a concern.

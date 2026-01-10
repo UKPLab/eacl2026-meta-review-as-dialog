@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, can you provide me with an overview of the paper and its contributions?
+
+Dialogue agent: Certainly, the paper proposes a method for converting non-differentiable machine learning pipelines, such as the Faster R-CNN detector, into stochastic, differentiable pipelines. The authors achieve this by recasting the pipeline as a stochastic computation graph and using REINFORCE-style policy gradients to perform parameter learning on the stochastic version. The main contribution of the paper is the method for smoothing non-differentiable pipelines so that gradient-based methods can be applied to jointly train all the parameters of the pipeline.
+
+Meta-reviewer: That sounds interesting. What do the reviews say about the paper's strengths and weaknesses?
+
+Dialogue agent: Review 1 praises the authors for casting a non-differentiable pipeline into a stochastic one, which is showcased for a hard task. However, the results are rather underwhelming, and the added complexity of the training procedure is not mentioned. Review 2 points out that the paper lacks clarity and originality and suggests that simpler methods might also perform just as well. Also, no baselines for global parameter optimization were tried. Finally, Review 3 addresses the lack of clarity in describing the contribution, the use of unnecessarily bloated and overly formal notation, and the dubious claims about sufficient conditions for optimality.
+
+Meta-reviewer: Thank you for that summary. What is the type of the paper and what is the reviewers' recommendation for acceptance or rejection?
+
+Dialogue agent: The type of the paper is long, and the reviewers recommend rejection with ratings of 4 (Ok but not good enough) and 5 (Marginally below acceptance threshold), and one clear rejection with a rating of 3. Reviewer 1 is confident that the evaluation is correct and is very familiar with the relevant literature, whereas Review 2 thinks that the method lacks originality and clarity. Review 3 is confident but not absolutely certain that the evaluation is correct.

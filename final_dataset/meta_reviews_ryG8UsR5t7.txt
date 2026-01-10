@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. Can you please provide an overview of the reviews for the paper "MERCI: A NEW METRIC TO EVALUATE THE CORRELATION BETWEEN PREDICTIVE UNCERTAINTY AND TRUE ERROR"?
+
+Dialogue Agent: Of course. Review 1 is quite critical of the paper and suggests that the authors revise and submit to a different venue. Review 2 is more positive overall but raises some concerns about the experimental part of the paper. Finally, review 3 is very critical of the paper and suggests that it cannot be published in a top-tier conference.
+
+Meta-Reviewer: Thank you. I see that there are some concerns raised about the experiments conducted in the paper. Can you clarify what experiments were conducted and what the results were?
+
+Dialogue Agent: The paper evaluated the proposed MERCI metric on a toy dataset as well as on a monocular depth estimation task. For the toy dataset, the authors compared MERCI to existing metrics and found that it performed well. For the depth estimation task, the authors compared MERCI to other uncertainty estimation methods and found mixed results. While MERCI performed better in some cases, it also performed worse in others.
+
+Meta-Reviewer: I see. There are also some concerns raised about the novelty and contribution of the proposed metric. What can you tell me about that?
+
+Dialogue Agent: The proposed MERCI metric is meant to measure the correlation between predictive uncertainty and true error in regression problems. While this is not a completely novel idea, the authors argue that MERCI is more suitable for deep learning applications. However, review 3 raises some concerns that the novelty of MERCI is limited and that the paper does not do a good job of justifying its use.
+
+Meta-Reviewer: Based on these reviews, it seems that there are some issues with the paper. Can you provide your own evaluation of the paper, taking into account the concerns raised by the reviewers?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation regarding the acceptance or rejection of the paper. However, I can say that the paper has received mixed reviews, with some reviewers expressing confidence in their evaluation while others have noted concerns with the novelty and experimental results of the paper. The meta-reviewer must weigh these factors and make a decision based on their judgement.

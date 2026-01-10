@@ -1,0 +1,30 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm evaluating a paper about geometry-aware convolutional filters for omnidirectional images. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for treating omnidirectional images using geometry-aware convolutional filters. The filters are based on constructed graphs and are designed to respect the underlying geometry of the images.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the main limitations of the current method?
+
+Dialogue Agent: The paper notes that the method is limited by the choice of the neighborhood and the weight function used in the filters. The authors also mention that the method is not equivariant to rotations and does not provide a thorough experimental study of the merits of the method and architectural choices.
+
+Turn 3:
+Meta-reviewer: I see. Can you tell me more about the experiments presented in the paper?
+
+Dialogue Agent: The paper presents experiments on a spherical MNIST dataset and a small real-world dataset. The results show a marginal improvement over SphericalCNNs, but the method is not convincing and does not have nice theoretical properties.
+
+Turn 4:
+Meta-reviewer: I'm concerned about the lack of thorough experimental study and the limitations of the current method. What are the authors' main justifications for their approach?
+
+Dialogue Agent: The authors propose a new way of defining CNNs for omnidirectional images and introduce several directed graphs that have orientation built into the graph structure. However, the method seems ad-hoc and somewhat difficult to implement, and the results are underwhelming.
+
+Turn 5:
+Meta-reviewer: Thank you for your help. Based on the reviews, I think the paper is not ready for publication in its current form. The method seems interesting, but the limitations and lack of thorough experimental study are major concerns.
+
+Dialogue Agent: I agree. The paper could benefit from a more thorough experimental study and a better justification of the authors' approach. Additionally, the method is not equivariant to rotations, which is a major limitation.
+
+Output:
+
+Based on the reviews, the paper is not ready for publication in its current form. The method seems interesting, but the limitations and lack of thorough experimental study are major concerns. The authors should address these issues and provide a more thorough justification of their approach before the paper can be considered for publication.

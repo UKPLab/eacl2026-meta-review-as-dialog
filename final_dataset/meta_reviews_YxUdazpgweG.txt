@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "MultiScan: Scalable RGBD scanning for 3D environments with articulated objects":
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper titled "MultiScan: Scalable RGBD scanning for 3D environments with articulated objects". Can you help me understand the paper's main contributions?
+
+Dialogue Agent: Sure! The paper presents a new RGBD dataset called MultiScan, which focuses on articulated objects. The dataset includes part-level semantic segmentations and mobility parameters. The authors propose an annotation pipeline that allows scans to be labeled and collected at scale.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The dataset is the largest dynamic scans dataset to date, and the authors provide a detailed explanation of the data acquisition and annotation process. The code and data will be publicly available under permissive MIT and CC-BY-NC licenses, which is a strength for the community.
+
+Turn 3:
+Meta-reviewer: What are the weaknesses of the paper?
+
+Dialogue Agent: The depth map resolution is lower compared to other RGBD datasets, and the authors did not compare the depth map quality between different scanning devices. Additionally, the paper does not provide an example of the scan and annotations, and some details in the acquisition and processing stages are not thoroughly explained.
+
+Turn 4:
+Meta-reviewer: Thank you for the summary. Based on the reviews, I think the paper has some limitations, but it also has some valuable contributions. What is your assessment?
+
+Dialogue Agent: Based on the reviews, I would say that the paper is technically solid but has some limitations. The paper does not provide a complete evaluation of the dataset, and some details are not thoroughly explained. However, the paper's contributions to the field of RGBD scanning for 3D environments with articulated objects are valuable.
+
+Turn 5:
+Meta-reviewer: Thank you for your input. Based on the reviews and your assessment, I think the paper is borderline accept. However, I would like to hear more from the authors about the limitations and how they plan to address them.
+
+Dialogue Agent: That's understandable. Based on the reviews, the authors should address the limitations in the depth map resolution, the lack of comparison with other scanning devices, and the incomplete explanation of some details. Additionally, the authors could provide more examples of the scan and annotations to help the community understand the dataset's potential.

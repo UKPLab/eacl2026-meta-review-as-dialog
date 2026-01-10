@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me about the strengths and weaknesses of this paper based on the reviews?
+
+Dialogue agent: Certainly. Review 1 notes that the paper suggests a novel approach and theory to an important problem, but its major weaknesses are in clarity and the experimental part. Review 2 praises the paper for presenting interesting ideas and theoretic results, but criticizes its poor presentation and the limited experiments. Review 3 thinks that the paper proposes a significant contribution in proposing the CSG framework, but also criticizes the lack of extensive experiments to verify the practical benefits of the proposed framework.
+
+Meta-reviewer: What is the type and title of the paper?
+
+Dialogue agent: The paper is a long paper titled "Learning Causal Semantic Representation for Out-of-Distribution Prediction".
+
+Meta-reviewer: Do any of the reviews recommend accepting or rejecting the paper?
+
+Dialogue agent: Review 2 recommends accepting the paper, while Reviews 1 and 3 recommend rejecting it.
+
+Meta-reviewer: Can you provide more details about the experimental part, as criticized in Review 1 and 3?
+
+Dialogue agent: Review 1 proposes several questions for clarification and improvement, such as missing details about evaluation split for Shifted-MNIST, the lack of an ablation study, and the need for an experiment on an additional dataset. Review 3 thinks that the experiment settings are rather limited in the current version and suggest including more experiments to verify the practical benefits of the proposed CSG framework.

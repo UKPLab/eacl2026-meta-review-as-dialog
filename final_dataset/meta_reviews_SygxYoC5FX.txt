@@ -1,0 +1,55 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "BIGSAGE: Unsupervised Inductive Representation Learning of Graph via Bi-Attended Sampling and Global-Biased Aggregating":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "BIGSAGE" and I'd like to ask some questions about it. Can you help me?
+
+Dialogue Agent: Of course! I have access to the paper and the reviews. What would you like to know?
+
+Turn 2:
+
+Meta-Reviewer: Great! First, can you tell me what the paper is about?
+
+Dialogue Agent: Sure! The paper is about unsupervised inductive node embedding, specifically using bi-attended sampling and global-biased aggregating.
+
+Turn 3:
+
+Meta-Reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The authors propose a new method for unsupervised inductive node embedding, which modifies the GraphSAGE method by using bi-attention architecture to sample interesting nodes and use a global embedding bias matrix in the local aggregating functions. The method showed improvements over GraphSAGE and other baselines on unsupervised graph embeddings.
+
+Turn 4:
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include the novelty of the proposed method and the improvements over GraphSAGE and other baselines. However, the weaknesses include the lack of theoretical analysis and the limited scope of the proposed method. Additionally, the reviews mention that the presentation is not clear and the symbols are not mathematically defined.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, how would you rate the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as "Ok but not good enough - rejection" with a confidence level of 4. The reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Turn 6:
+
+Meta-Reviewer: That's helpful. Can you tell me more about the reviews? What are the major comments and suggestions made by the reviewers?
+
+Dialogue Agent: Sure! The reviewers have made several comments and suggestions. One major comment is that the proposed method is useful in very restricted settings and it is not clear how to generalize to other applications. Additionally, the reviewers suggest that the paper lacks theoretical analysis and the presentation is not clear. They also mention that the symbols are not mathematically defined and the method is not appropriate for publication.
+
+Turn 7:
+
+Meta-Reviewer: I see. Can you tell me more about the technical representation of the paper?
+
+Dialogue Agent: The reviewers mention that the technical representation of the paper is very poor, unorganized and not self-contained. They suggest that the paper should be rewritten to improve the clarity and organization of the technical representation.
+
+Turn 8:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the technical representation of the paper, what is your final recommendation?
+
+Dialogue Agent: Based on the reviews and the technical representation of the paper, I recommend rejecting the paper. The novelty of the proposed method is not high, and the lack of theoretical analysis and clear presentation make it not appropriate for publication.
+
+Turn 9:
+
+Meta-Reviewer: Thank you for your help. I will take your recommendations into consideration when making my final decision.
+
+Dialogue Agent: You're welcome! I hope my responses were helpful. If you have any more questions or need further assistance, please don't hesitate to ask.

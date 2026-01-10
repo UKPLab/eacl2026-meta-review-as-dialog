@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about candidate generation for medical concept linking. The title is "Discriminative Candidate Generation for Medical Concept Linking". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a weighted combination of different candidate generating features, such as exact string match, BM25, character 4-grams, or abbreviation matches, to improve the accuracy of candidate generation for medical concept linking.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But I'm not sure if the paper adequately addresses the issue of computational efficiency. Can you tell me more about that?
+
+Dialogue Agent: Yes, the paper does discuss the computational efficiency of the proposed method. The authors note that the proposed method is computationally efficient and can be used in real-world applications. However, the paper does not provide a detailed comparison of the computational efficiency of the proposed method with other existing methods.
+
+Turn 3:
+
+Meta-reviewer: That's a good point. I also have some concerns about the evaluation methodology used in the paper. Can you tell me more about that?
+
+Dialogue Agent: Sure. The paper evaluates the proposed method using the Share/CLEF eHealth task. The authors provide an exhaustive evaluation of different properties of the candidate set, such as MRR and coverage. However, the authors do not provide a detailed analysis of the effects of the candidate set on the final result when combined with a candidate-based entity linker.
+
+Turn 4:
+
+Meta-reviewer: I see. Based on my knowledge of the relevant literature, I think the paper could benefit from a more detailed comparison of the proposed method with other existing methods. Can you tell me more about the related work in the field?
+
+Dialogue Agent: Certainly! The paper mentions related work in the field of entity linking, including the use of pairwise comparison models and the importance of candidate generation. However, the paper does not provide a detailed analysis of the related work or compare the proposed method with other existing methods.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. Based on my evaluation, I would rate the paper as marginally below the acceptance threshold. The authors make a valid point about the importance of candidate generation, but the paper could benefit from a more detailed comparison of the proposed method with other existing methods and a more exhaustive evaluation of the effects of the candidate set on the final result.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors. Is there anything else you would like to know or discuss?

@@ -1,0 +1,47 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I am reviewing a paper titled "Universal Discriminative Quantum Neural Networks" and I have some questions about the reviews.
+
+Dialogue Agent: Hello! I'd be happy to help. Please go ahead and ask your questions.
+
+Turn 2:
+
+Meta-reviewer: Okay, the first review states that the paper is "marginally below acceptance threshold" and the reviewer is "fairly confident that the evaluation is correct". Can you summarize the strengths and weaknesses of the paper according to this review?
+
+Dialogue Agent: Sure. According to the first review, the paper has the following strengths:
+
+* The authors give a method to perform a full quantum problem of classifying unknown mixed quantum states.
+* The theory is sound and the math is good.
+
+However, the review also mentions the following weaknesses:
+
+* The paper is a bit lacking in terms of test cases.
+* There are several typos and formatting problems in the paper.
+
+Turn 3:
+
+Meta-reviewer: Thank you for that summary. What about the second review?
+
+Dialogue Agent: The second review states that the paper is "marginally below acceptance threshold" and the reviewer is "willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper". Can I summarize the strengths and weaknesses of the paper according to this review?
+
+Meta-reviewer: Yes, please do.
+
+Dialogue Agent: According to the second review, the paper has the following strengths:
+
+* The authors partially integrate a neural network into classical approaches to classify the state of a quantum circuit.
+* The model is not actually clear in what it is doing, but there are some trained weights somewhere.
+
+However, the review also mentions the following weaknesses:
+
+* The neural network architecture is entirely standard with nothing new.
+* The paper is poorly written and very hard to follow.
+* The focus is almost exclusively on the application, and yet the application is not explained effectively.
+* The implication of the results and usefulness is not elaborated.
+
+Turn 4:
+
+Meta-reviewer: Thank you for that summary. Based on these reviews, how would you rate the paper and what are the main concerns of the reviewers?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as "marginally below acceptance threshold" according to the first review, and "strong rejection" according to the second review. The main concerns of the reviewers are the paper's poor writing, lack of clarity in the model, and the need for more test cases and elaboration on the results and usefulness. Additionally, the second reviewer mentions that the authors' emails are listed on the first page and the acknowledgments are revealing, which may be a concern for some reviewers.

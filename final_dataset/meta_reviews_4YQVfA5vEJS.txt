@@ -1,0 +1,13 @@
+Meta-reviewer: Thank you for the reviews of the paper on "Regex Queries over Incomplete Knowledge Bases". Review 1 raises some concerns, warning that several strong baselines are missing and questioning whether the proposed model truly performs much better than RotatE baseline. Review 2, on the other hand, lists many strengths of the paper, including the introduction of a new task and the new model outperforming its base models.
+
+Dialogue agent: I can understand the concerns raised in Review 1. We omitted some strong baselines, such as Beta Embeddings, due to space limitations. However, we did perform extensive ablation studies, comparing RotatE-Box to the two base models and different variations of RotatE-Box, and found that it consistently performs better than the base models.
+
+Meta-reviewer: That's good to hear. What about Review 2's comment on the new task and datasets introduced in the paper?
+
+Dialogue agent: The new task of solving queries with disjunction and Kleene plus operators is novel and relevant, as it extends the applicability of KB completion methods to more complex queries. We constructed two new datasets, Wiki100-regex and FB15K-regex, containing regular-expression queries, which we believe will spur further research. We constructed them based on real-world queries and up-sampled the ones more often used. We encourage others to use them to compare their methods to ours and the baseline models. We have publicly released the code and data for this purpose.
+
+Meta-reviewer: Thank you for addressing those points. What about the weaknesses or questions raised in the reviews?
+
+Dialogue agent: Review 1 questions the real usage of regex queries and why the model performs much better on the new task. Our response, which was not mentioned in the original review, is that regex queries are useful because they allow for multiple relational paths to be represented in a single expression, which is not possible with simple paths. We believe that the superiority of our model can be attributed to its ability to model hierarchical relations in the rotated complex space. We did not compare it with ComplEx and DistMult on the set of query types they can answer and we acknowledge this as a limitation of the work.
+
+As for Review 3, we are pleased that it lists no major weaknesses. We view it as a strong endorsement of the paper. The reviewer appreciates the novelty of the new task and the datasets and the generalization of past embedding-based approaches, which we hope will lead to future research.

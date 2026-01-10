@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Generative Models from the perspective of Continual Learning":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Generative Models from the perspective of Continual Learning". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper evaluates various continual learning methods, including rehearsal, EWC, and generative replay, on different generative models such as GANs, CGANs, WGANs, and VAEs. The authors also provide an empirical analysis of the experimental results to contribute to the understanding of the relationship between model, CL method, and task.
+
+Turn 2:
+Meta-Reviewer: Great! What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper lacks novelty in general, and all the CL methods evaluated come from other papers that are already using these methods for generative models. The authors also fail to provide any valuable insight with these experimental results, such as analyzing why generative replay fails to improve VAEs. Additionally, the paper is not mature enough for acceptance this time.
+
+Turn 3:
+Meta-Reviewer: I see. What are the reviewer's concerns regarding the evaluation metrics used in the paper?
+
+Dialogue Agent: The reviewers are concerned that the evaluation metrics used in the paper, such as Frchet Inception Distance (FID) and fitting capacity (FC), may not accurately reflect the quality of the generated images. Specifically, the reviewers point out that GANs outperform VAEs using these metrics, but this does not necessarily mean that they are better at the continual learning task. The reviewers suggest that using marginal log-likelihoods via annealed importance sampling would be a more convincing evidence for empirical comparison of models.
+
+Turn 4:
+Meta-Reviewer: That makes sense. What are some additional minor comments from the reviewers?
+
+Dialogue Agent: The reviewers suggest that the paper could use some further polishing in both writing and presentation. Additionally, they note that the poor performance of EWC across the board is concerning, and that the CIFAR-10 results require more work to understand why the existing approaches could not be made to work. The reviewers also suggest releasing the code sooner than the acceptance deadline to facilitate further analysis.
+
+Turn 5:
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper is not mature enough for acceptance this time.
+
+Dialogue Agent: I agree. The reviewers have identified several areas for improvement, such as providing more insight into the experimental results, addressing the concerns regarding evaluation metrics, and further polishing the writing and presentation. The authors should consider addressing these concerns before resubmitting the paper.

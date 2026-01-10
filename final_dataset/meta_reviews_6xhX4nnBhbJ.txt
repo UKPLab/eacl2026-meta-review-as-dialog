@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "SHINRA2020-ML: Categorizing 30-language Wikipedia into fine-grained NE based on "Resource by Collaborative Contribution" scheme":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "SHINRA2020-ML: Categorizing 30-language Wikipedia into fine-grained NE based on "Resource by Collaborative Contribution" scheme". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper presents a shared task of categorizing Wikipedia pages in 30 languages into a fine-grained named entity (NE) hierarchy based on the "Resource by Collaborative Contribution" scheme. The task attracted 10 participant teams, and the authors provide an extensive explanation of the existing literature and the proposed scheme. The output predictions will be shared with the community as a knowledge resource.
+
+Turn 2:
+
+Meta-Reviewer: Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths, including the creation of a publicly available knowledge base that can be beneficial for multi-lingual NLP tasks, and the empirical results showing the effectiveness of the proposed scheme in KB construction. Additionally, the paper provides a well-defined contribution to the field of NLP, and the authors provide an extensive explanation of the existing literature and the proposed scheme.
+
+Turn 3:
+
+Meta-Reviewer: What about the weaknesses of the paper?
+
+Dialogue Agent: The paper has several weaknesses, including the lack of a clear definition of the Extended Named Entity hierarchy, which is the base knowledge used to categorize pages. Additionally, the details about the shared task, such as the participants' methods and error analysis, are missing. Furthermore, the paper does not provide a thorough evaluation of the proposed scheme, and the authors do not discuss the choice of the aggregation function used to combine the predictions of the participant teams.
+
+Turn 4:
+
+Meta-Reviewer: Based on the reviews, how would you rate the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as marginally above acceptance threshold. The reviewers have provided both positive and negative feedback, and the paper has several strengths and weaknesses. However, the reviewers are generally confident in the evaluation, and the paper provides a valuable contribution to the field of NLP.
+
+Turn 5:
+
+Meta-Reviewer: What are your thoughts on the choice of the aggregation function used in the paper?
+
+Dialogue Agent: The choice of the aggregation function is an important aspect of the paper, and the reviewers have provided mixed feedback on this topic. Some reviewers have suggested that the authors should have used a weighting strategy to combine the predictions of the participant teams, while others have argued that a majority vote aggregation function is appropriate. However, the authors do not provide a thorough evaluation of the aggregation function used in the paper.
+
+Turn 6:
+
+Meta-Reviewer: Can you provide more information about the ground truth data used in the paper?
+
+Dialogue Agent: The ground truth data used in the paper is the categorization of the Japanese Wikipedia pages, which were labeled using a high-quality classifier for Japanese. The authors do not provide a detailed explanation of the ground truth data, and the reviewers have raised questions about the lack of information regarding the ground truth data. Additionally, the authors do not discuss the choice of the ground truth data, and the reviewers have suggested that the authors should have provided more information about the ground truth data used in the paper.

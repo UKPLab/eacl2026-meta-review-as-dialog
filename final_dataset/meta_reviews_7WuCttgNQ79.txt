@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Scaling Multimodal Pre-training via Cross-Modality Gradient Harmonization":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Scaling Multimodal Pre-training via Cross-Modality Gradient Harmonization". Can you provide a summary of the paper's main contributions and findings?
+
+Dialogue Agent: Sure! The paper proposes two regularization strategies to harmonize multimodal pre-training, addressing the problem of cross-modality alignment. The strategies are based on the idea of cosine similarity between video-audio and video-text gradients as a surrogate indicator of misalignment. The paper evaluates the effectiveness of the proposed regularizations on various downstream tasks.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the motivation behind the paper?
+
+Dialogue Agent: The paper identifies the misalignment phenomenon existing among temporally-associated video clips, subtitles, and audio tracks, which can lead to falsely considered positive training pairs. The proposed method aims to alleviate the gradient conflicting issue by realigning the gradients updates from different losses to have non-negative cosine similarity.
+
+Turn 3:
+
+Meta-Reviewer: I see. How does the paper address the issue of limited evaluation?
+
+Dialogue Agent: The paper provides comprehensive evaluation on various downstream tasks, including video action classification, and shows the effectiveness of the proposed regularizations. However, the paper also acknowledges the limitation of the evaluation and suggests future work to further investigate the performance of the method.
+
+Turn 4:
+
+Meta-Reviewer: That's good to know. Can you tell me more about the proposed method and how it addresses the misalignment issue?
+
+Dialogue Agent: The proposed method introduces cross-modality gradient realignment to re-project the gradient direction if they have negative cosine similarity. The method also uses cosine similarity to prioritize training with well-aligned samples. The effectiveness of the proposed regularizations are evaluated on various downstream tasks.
+
+Turn 5:
+
+Meta-Reviewer: I see. How does the paper compare to other works in the field?
+
+Dialogue Agent: The paper challenges the cross-modality alignment (CMA) assumption in multi-modal pre-training and proposes two techniques to address the misalignment issue. The proposed method has moderate technical novelty since it adapts several known wisdoms from multi-task learning. However, the paper in general lacks an ablation study and does not compare the proposed methods' ad-hoc hyperparameters.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the information. Based on the information you provided, I think the paper is technically solid and has high impact on at least one sub-area. However, I would like to see more discussion on the limitations of the proposed method and future work to further investigate its performance.
+
+Dialogue Agent: Thank you for your feedback. The paper acknowledges the limitations of the proposed method and suggests future work to further investigate its performance. The authors also provide comprehensive evaluation on various downstream tasks to demonstrate the effectiveness of the proposed regularizations.

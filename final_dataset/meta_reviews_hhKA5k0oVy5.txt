@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Variance-Aware Machine Translation Test Sets":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Variance-Aware Machine Translation Test Sets". Can you provide me with a summary of the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper proposes a method to select reference samples from a machine translation dataset that are useful to discriminate among the output of machine translation systems. The authors show that their variance-aware subsets obtain higher correlations with respect to human judgments than the original datasets. Additionally, the paper presents a technique to filter machine translation test sets to keep instances with high variance in performance, leading to a better evaluation of systems.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper has several strengths, including its novel approach to selecting reference samples and its contribution to the field of machine translation evaluation. The authors also provide a detailed analysis of discriminative and indiscriminative test instances. However, one potential weakness is that the paper does not present a new machine translation dataset, but rather a method for filtering existing datasets.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the motivation behind variance-awareness in machine translation evaluation?
+
+Dialogue Agent: Sure! The authors argue that current evaluation methods are limited by their reliance on easily-translatable test instances, which can lead to biased evaluations. By focusing on instances with high variance in performance, the authors' method can provide a more comprehensive evaluation of machine translation systems.
+
+Turn 4:
+
+Meta-Reviewer: How does the paper address the issue of high computational costs in machine translation evaluation?
+
+Dialogue Agent: The authors reduce the size of the test set for both reference-based metrics and system ranking, which can help reduce computational costs. However, the authors note that the bottleneck of computational costs is typically on the training set, rather than the test set.
+
+Turn 5:
+
+Meta-Reviewer: What is your overall rating of the paper, and how confident are you in your evaluation?
+
+Dialogue Agent: Based on the reviews and the paper's contributions, I would rate the paper as "good" (7 on a scale of 1-9) and have a confidence level of 2, indicating that I am willing to defend the evaluation but may have not fully understood central parts of the paper.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your summary and evaluation. Based on your assessment, I will consider the paper for acceptance.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there's anything else I can help with.

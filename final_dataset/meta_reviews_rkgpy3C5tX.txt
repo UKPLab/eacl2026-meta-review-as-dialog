@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, can you tell me a bit about the paper "Amortized Bayesian Meta-Learning"?
+
+Dialogue Agent: Certainly. The paper proposes a meta-learning approach that learns a prior over neural network weights by employing amortized variational inference. The idea is to learn a good set of hyperparameters per task in a few gradient steps, with the help of a good initialisation of variational parameters learned across tasks. The authors evaluated the proposed approach on a toy and several benchmarks and compared it to MAML.
+
+Meta-Reviewer: I see. What are the main strengths of the paper?
+
+Dialogue Agent: According to the reviews, the paper is relatively well-written and the contributions are clearly stated and motivated. The proposed approach is a timely one, and it is one of the first methods to do Bayesian meta-learning. The derivation of the method is rigorous and well-justified. The authors conducted a good set of experiments.
+
+Meta-Reviewer: And what about the weaknesses?
+
+Dialogue Agent: One reviewer noted that the contribution is modest, essentially applying the same idea as in MAML to a variational objective. However, they also acknowledged that it is well executed. Another reviewer mentioned that the paper lacks proper acknowledgement of existing work in the field of probabilistic meta-learning that employ similar ideas. Further, the experimental section of the paper does not evaluate or compare the proposed method to many existing works.
+
+Meta-Reviewer: What are the review ratings and confidence levels?
+
+Dialogue Agent: Reviewer 1 gave a rating of 6, which is marginally above the acceptance threshold, and has a confidence level of 4. Reviewer 2 gave a rating of 5, which is marginally below the acceptance threshold, and has a confidence level of 3. Reviewer 3 also gave a rating of 6, which is marginally above the acceptance threshold, and has a confidence level of 3. 
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I'm still not entirely sure whether to accept or reject the paper. Can you provide more details about the experiments conducted by the authors?
+
+Dialogue Agent: Sure. The authors conducted experiments on a contextual bandit setting and on miniImagenet. In the contextual bandit experiment, they compared their method to the MAML approach and reported improvements in terms of uncertainty estimation. However, the comparison to other methods that take into account uncertainty in the local latent variables was not made. In the few-shot learning experiments conducted on miniImagenet, they found it necessary to downweight the inner KL term for better performance in their model. However, they only compared their method to MAML and did not report results for many of the existing related methods. They also noted that better variance reduction methods for stochastic gradients could be used. 
+
+Meta-Reviewer: Thank you for the details. Based on the reviews and the information you've provided, I'm still not entirely convinced that the paper should be accepted. I think I need to take some time to carefully consider the reviews and the manuscript before making a final decision. Thank you for your assistance. 
+
+Dialogue Agent: You're welcome. Please let me know if there is anything else I can help with.

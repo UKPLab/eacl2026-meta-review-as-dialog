@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper called "Language Model Pre-training for Hierarchical Document Representations". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a method for pre-training contextualized word and sentence representations for use in other tasks, such as document segmentation and answer passage retrieval. The authors explore two main methods: a straightforward extension of the ElMO model for hierarchical uni-directional language models, and a de-noising auto-encoder type method.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you summarize the reviews for me?
+
+Dialogue Agent: Sure. The first review says that the paper is reasonable but lacks novelty. The second review says that the paper proposes meaningful improvements in various tasks requiring document level understanding, but the novelty is mainly incremental. The third review says that the authors explore different ways to pre-train contextualized word and sentence representations, but the exposition misses several important details.
+
+Turn 3:
+
+Meta-Reviewer: Okay, I see. What do you think of the reviews?
+
+Dialogue Agent: Based on the reviews, the paper seems to have some strengths, such as the proposal of a new method for pre-training contextualized word and sentence representations, and the demonstration of meaningful improvements in various tasks. However, the novelty of the paper is mainly incremental, and some important details are missing from the exposition.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. How do you think the paper compares to other papers in the field?
+
+Dialogue Agent: The paper compares favorably to other papers in the field, such as ElMO and SkipThought, in terms of its proposal of a new method for pre-training contextualized word and sentence representations. However, the paper could be strengthened by providing a more detailed comparison to non-contextualized sentence representations, and by addressing the missing details in the exposition.
+
+Turn 5:
+
+Meta-Reviewer: Okay, I think I have a good sense of the paper now. What is your final recommendation?
+
+Dialogue Agent: Based on the reviews and the strengths and weaknesses of the paper, I would recommend accepting the paper with minor revisions. The paper proposes a new method for pre-training contextualized word and sentence representations, and demonstrates meaningful improvements in various tasks. However, the novelty of the paper is mainly incremental, and some important details are missing from the exposition. With minor revisions to address these issues, the paper could be a valuable contribution to the field.

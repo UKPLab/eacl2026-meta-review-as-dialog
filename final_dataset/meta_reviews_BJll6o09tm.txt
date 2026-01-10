@@ -1,0 +1,31 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Padam: Closing the Generalization Gap of Adaptive Gradient Methods in Training Deep Neural Networks". Based on these reviews, I need to decide whether to accept or reject the paper. Can you tell me more about the paper and its reviews?
+
+Dialogue Agent: Sure, meta-reviewer. The paper proposes a modification to current adaptive gradient methods by introducing a partial adaptive parameter, and shows improved generalization performance in several image classification benchmarks. It is a long paper and has received three reviews with different ratings and confidence levels.
+
+Meta-Reviewer: Thank you for the summary. Can you elaborate on the strengths and weaknesses highlighted by each review?
+
+Dialogue Agent: Review 1 considers the idea simple and promising but criticizes the experimental evaluation. The reviewer raises concern about the extra hyperparameter needed to tune the performance, making the paper's significance and novelty very limited. Review 2 praises the simplicity of the proposed modification and the generalization performance shown in several datasets. However, it criticizes the Adam optimizer's experimental evaluation and its comparison with SGD. Review 3 considers the proposed algorithm potentially significant and a contribution to becoming the next state-of-the-art optimization method for deep learning. It also praises the paper's clarity, well-written and well-explained experiments.
+
+Meta-Reviewer: That's helpful. How confident are these reviewers about their evaluations, and what are their ratings?
+
+Dialogue Agent: Review 1 rates the paper marginally above the acceptance threshold with a rating of 6 and has confidence level 4, indicating some level of uncertainty. Review 2's rating and confidence are the same as Review 1. Review 3 rates the paper in the top 15% of accepted papers, with a rating of 9 and has confidence level 3, indicating higher confidence.
+
+Meta-Reviewer: Thank you for the information. Based on these reviews, I am hesitant to make a decision. Although Reviews 1 and 2 have raised some significant concerns, Review 3 is highly positive about the paper. I am wondering if the novelty of the proposed modification, as highlighted by Review 1, is significant enough to warrant further exploration?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or a recommendation on the paper. I can, however, provide additional information or respond to any specific concerns you might have.
+
+Meta-Reviewer: Thank you for the reminder. Based on the reviews, I am concerned about the experimental evaluation and the extra hyperparameter necessary to tune the performance, as raised by Review 1. Could you tell me more about these issues?
+
+Dialogue Agent: Review 1 expressed concern about the experimental evaluation not being convincing enough to lead to significant improvements in optimizing modern models, despite using ImageNet and CIFAR datasets and reasonable CNN models such as ResNet and VGG. The review also points out that the paper's novelty is limited since the paper only shows that a value of p other than 0 or 1/2 can be best, without providing guidance on how to find p practically. Concerning the extra hyperparameter, Review 1 argues that it's not surprising that there will be a setting for p that outperforms 0 or 1/2 given that PADAM has one extra parameter than the competitor optimizers (ADAM, AMSgrad, momentum).
+
+Meta-Reviewer: Okay, I see. What about Review 2's concerns about the experimental evaluation?
+
+Dialogue Agent: Review 2 raised concerns about the lack of AdamW baseline, which could show that Adam could generalize as well as SGD. Review 2 also doubts that Adam was not tuned well, given that Adam performs much worse than SGD in terms of training loss in all plots, contrary to expectations. Finally, Review 2 criticizes the comparison of the optimization performance between Padam and Adam or Amsgrad, arguing that the convergence analysis doesn't say anything meaningful.
+
+Meta-Reviewer: I understand. What about Review 3's positive evaluation and suggestion for improving the paper?
+
+Dialogue Agent: Review 3 praises the paper's contribution to potentially becoming the next state-of-the-art optimization method for deep learning by showing improved generalization performance. The clarity and well-written experiments are also praised. Review 3 suggests adding a few sentences to explain the non-convergence issue of Adam towards the end of section 2, moving the details of the grid search for p to the main text, and adding comments about adapting the value of p.
+
+Meta-Reviewer: Thank you for the detailed responses. Based on these reviews, I am not convinced that the paper contributes enough novelty or addresses the concerns raised by the reviewers. Therefore, I have decided to reject the paper.
+
+Dialogue Agent: Thank you for your decision.

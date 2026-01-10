@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello Dialogue Agent, I have read the reviews for the paper titled "Data-Driven Conditional Robust Optimization". Based on the reviews, I have a few questions. Could you please provide more details about the experimental setting? In particular, I am concerned about the lack of benchmark from recent and relevant literature.
+
+Dialogue Agent: Thank you for your question. As a dialogue agent, I am not allowed to provide opinions or recommendations. However, I can clarify that the paper conducted experiments on a portfolio optimization problem using real-world data from the US market. The results show that the integrated data-driven approach provides the best risk reduction for high-risk aversion and when data can be clustered in two clusters that are relatively balanced.
+
+Meta-Reviewer: I see. Could you also tell me more about the approach used in the paper?
+
+Dialogue Agent: The authors propose an integrated framework for performing deep clustering and deep uncertainty set design jointly to ensure the total variation in the covariate space can provide a similar guarantee for the one in the perturbation parameters. Moreover, they rigorously prove the connections between conditional robust optimization and the CVO problem. The approach leverages results from diverse fields such as clustering, outlier detection, robust optimization, and mixed-integer linear optimization.
+
+Meta-Reviewer: That sounds interesting. One of my concerns is regarding the problem where the cost function is not linear in the uncertainty. Was this addressed in the paper?
+
+Dialogue Agent: The authors did not discuss how to extend the approach to problems where the cost function is not linear in the uncertainty. 
+
+Meta-Reviewer: Thank you for your answers. How confident are you in the ratings given by the reviewers?
+
+Dialogue Agent: According to Review 1, the paper received a rating of 8: Strong Accept, with a confidence level of 4. Review 2 gave a rating of 7: Accept, with a confidence level of 2. Lastly, Review 3 also provided a rating of 7: Accept, with a confidence level of 5. I cannot provide my personal opinion on the ratings, but I hope this information can help you make a decision.

@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for joining me today. I have read the reviews for the paper titled "Improving Relation Extraction by Pre-trained Language Representations" and have a few questions for you regarding the feedback. Can you start by telling me your overall impression of the paper?
+
+Dialogue agent: The paper presents a transformer-based architecture for relation extraction, which leverages pre-training on unlabeled text with a language modeling objective. It evaluates the proposed approach on two datasets - TACRED and a commonly used Semeval dataset. Review 1 found the paper's choices to be reasonable, while noting that it doesn't make many methodological innovations. Review 2 finds the paper to be a solid contribution, with thorough experiments and analysis, although it should be reframed as a direct adaptation of OpenAI GPT. Review 3 highlights the heavily supervised nature of the method, while questioning its added value compared to minimally-supervised methods.
+
+Meta-reviewer: Thank you for summarizing the reviews. Can you tell me more about the proposed method's performance compared to the state-of-the-art models? 
+
+Dialogue agent: Review 1 noted that the paper needs to add numbers from the Position-Aware Attention model of Zhang et. al. to make it clear where it stands with respect to the state-of-the-art. However, the reviewer thinks that it is probably fine if the proposed model has comparable performance as relation extraction is a new-ish approach. Review 2 suggests that the proposed approach should be easy to adapt to BERT and potentially raise the state of the art even further.
+
+Meta-reviewer: Thank you for the information. Can you tell me about the confidence levels of the reviews?
+
+Dialogue agent: Review 1 expresses confidence at level 4 (out of 5), indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 expresses a lower confidence level of 3, indicating that the reviewer is fairly confident but not 100% certain of their evaluation. Review 3 expresses confidence at level 4, similar to Review 1.
+
+Meta-reviewer: Thank you for providing that information. Now, given the feedback, what is your recommendation on whether we should accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, it's not my place to provide opinions or recommendations. I can only convey the reviews and their corresponding ratings and confidence levels for your consideration as the meta-reviewer. Ultimately, it's up to you to weigh the feedback and make the final decision.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, Dialogue Agent. Can you tell me about the paper's main contributions as well as its strengths and weaknesses?
+
+Dialogue Agent: Certainly! The paper proposes a neural method for learning submodular functions from (set, value) observations and (perimeter-set, high-value subset) observations. The proposed neural network models outperform existing baselines in both supervision settings. The paper's main strengths lie in its practical method for learning submodular and approximately submodular functions, the use of a neural network model for concave activation function that can be learned from data, and its well-written presentation of results. However, the proposed models are only shown to be good estimators of monotone submodular function of the form of concave composed modular function, which may be too limited. 
+
+Meta-reviewer: Thank you for the brief. I noticed that one of the reviewers expressed concerns about the empirical comparison with the deep submodular function (DSF) baseline. What can you say about this?
+
+Dialogue Agent: The empirical comparison with the DSF baseline is somewhat limited, as the proposed method has only been compared to the DSF on a single experiment. However, the proposed method also outperforms other existing baselines on different tasks, showing its robustness and effectiveness in learning submodular functions.
+
+Meta-reviewer: The same reviewer mentioned missing related work. Can you provide me with more context on that?
+
+Dialogue Agent: Of course. The reviewer suggested that the authors missed discussing prior work on submodular functions, such as Balcan and Harvey's "Submodular functions: Learnability, structure, and optimization," Vitaly and Vondrak's "Optimal bounds on approximation of submodular and xos functions by juntas," and Sipos, Shivaswamy, and Joachim's "Large-margin learning of submodular summarization models." The authors did discuss the limitations of their work in Appendix A but did not specifically address potential negative societal impacts.
+
+Meta-reviewer: Lastly, can you tell me about the confidence levels of the reviewers?
+
+Dialogue Agent: Certainly. Reviewer 1 is highly confident in their assessment of the paper, with a confidence level of 5. Reviewer 2 is also confident, with a confidence level of 4.

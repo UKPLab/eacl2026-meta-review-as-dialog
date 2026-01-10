@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Big-Little Net: An Efficient Multi-Scale Feature Representation for Visual and Speech Recognition":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Big-Little Net: An Efficient Multi-Scale Feature Representation for Visual and Speech Recognition". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes a novel multi-scale architecture that achieves a better trade-off between speed and accuracy compared to previous models. The main idea is to decompose a convolution block into multiple resolutions and trade computation for resolution, i.e., low computation for high resolution representations and higher computation for low resolution representations.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the pros and cons of the proposed approach, according to the reviews?
+
+Dialogue Agent: Based on the reviews, the pros of the proposed approach include the idea making sense and being GPU-friendly, with results showing better accuracy and lower computational cost. However, the improvement in performance and speed is not exceptional, and alpha and beta seem to be two hyperparameters that need to be tuned for each layer.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the results presented in the paper?
+
+Dialogue Agent: Sure! The authors present results for image classification on ImageNet with different network architectures and for speech recognition on Switchboard. The results show the accuracy and speed of the proposed model, and the authors also provide many interesting additional experiments in the appendix.
+
+Turn 4:
+
+Meta-Reviewer: What are the reviewer's overall evaluation and confidence in the evaluation?
+
+Dialogue Agent: Based on the reviews, the globally the paper seems well presented, with an interesting idea and many thorough experiments that show the validity of the approach. The reviewers are confident but not absolutely certain that the evaluation is correct.
+
+Turn 5:
+
+Meta-Reviewer: Can you tell me more about the limitations of the proposed approach?
+
+Dialogue Agent: Based on the reviews, the limitations of the proposed approach include the lack of transfer to other visual tasks beyond ImageNet, and the need for tuning alpha and beta for each layer.
+
+Turn 6:
+
+Meta-Reviewer: How does the proposed approach compare to other recent works in the field?
+
+Dialogue Agent: Based on the reviews, the proposed approach performs a little worse than NASNet in terms of FLOP efficiency and top1-error, but it is simpler and easier to train. The authors also show compelling results on IN and a reduction of compute complexity. However, the authors do not discuss memory requirements for training and testing the network, and the paper does not show transfer to other visual tasks.
+
+Turn 7:
+
+Meta-Reviewer: What additional experiments or ablation studies could the authors perform to strengthen the paper?
+
+Dialogue Agent: Based on the reviews, the authors could perform ablation studies to show the results for more choices of alpha and beta, and to compare the proposed approach to other recent works in the field. Additionally, the authors could discuss memory requirements for training and testing the network.

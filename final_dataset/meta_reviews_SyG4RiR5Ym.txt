@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Neural Distribution Learning for generalized time-to-event prediction":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Neural Distribution Learning for generalized time-to-event prediction". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors propose a neural network framework called HazardNet for time-to-event prediction with right-censored data. The framework allows different popular architectures to learn the representation of the past events with different explicit features.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I have some concerns about the evaluation. Can you tell me more about the reviews?
+
+Dialogue Agent: Sure! The reviews are mixed. One reviewer thinks the paper is well-written and easy to follow, but has some weaknesses that should be addressed. Another reviewer thinks the methodology is quite limited and the evaluation is non-standard.
+
+Turn 3:
+
+Meta-Reviewer: Can you summarize the weaknesses mentioned by the reviewers?
+
+Dialogue Agent: Sure! The reviewers mention that the paper could benefit from a more detailed explanation of the proposed method, especially in the beginning of the paper. Additionally, the reviewers suggest that the authors should compare their method to more existing deep hazard models and provide more results for non-mixture versions.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, I think the paper has some potential but needs further improvements. Can you provide more information about the evaluation?
+
+Dialogue Agent: Sure! The authors evaluate their method using a comprehensive comparison with different binary classifiers trained separately at each target time duration. However, one reviewer mentions that the evaluation is not convincing without referring to other survival analysis work.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the information you provided, I think the paper has some potential but needs further improvements. I will consider the paper's contributions, limitations, and potential for future work when making my final decision.
+
+Dialogue Agent: You're welcome! I hope this information helps you make an informed decision about the paper. If you have any more questions or need further clarification, please feel free to ask.

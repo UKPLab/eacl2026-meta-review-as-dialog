@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, dialogue agent. I see that you have provided me with three reviews of the paper "Active Learning of Classifiers with Label and Seed Queries". Can you tell me the paper's type?
+
+Dialogue Agent: Yes, the paper is of type long.
+
+Meta-Reviewer: Good. I notice that the reviews praise the paper for its technical soundness. Can you summarize the main contributions of the paper?
+
+Dialogue Agent: The paper proposes an algorithm that learns k-class classifiers using label and seed queries in polynomial time. The algorithm combines both types of queries, allowing for a low query complexity compared to approaches that use only one type of query. The paper also establishes a lower bound on the necessary queries, which shows the tightness of the analysis.
+
+Meta-Reviewer: I see. And what are the strengths and weaknesses identified in the reviews?
+
+Dialogue Agent: One of the strengths identified is that the paper is a strong theory paper with a lower bound. Another strength is that the problem is well introduced, and the main results are clearly presented. However, one weakness identified is that no experiments were done. Additionally, it would be nice to see some mentions of future work and remaining open problems.
+
+Meta-Reviewer: Hmm, I see. Can you tell me what the reviewers rated the paper?
+
+Dialogue Agent: Two of the reviewers rated the paper a 7, indicating that it is a technically solid paper with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, and reproducibility, and no unaddressed ethical considerations. The third reviewer rated the paper a 5, which indicates that it is a borderline accept paper where reasons to accept outweigh reasons to reject, e.g., limited evaluation.
+
+Meta-Reviewer: Thank you, that is helpful. Can you tell me the confidence levels of the reviewers?
+
+Dialogue Agent: The first two reviewers had a confidence level of 3, meaning that they were fairly confident in their assessment but it is possible that they did not understand some parts of the submission or that they were unfamiliar with some pieces of related work. The third reviewer had a confidence level of 1, indicating that their assessment was an educated guess and that the submission was not in their area or was difficult to understand.
+
+Meta-Reviewer: Thank you, dialogue agent. It seems that the paper has strong theoretical contributions, but it lacks empirical support. Also, the confidence levels of the reviewers are mixed. I will need to carefully consider the importance of reviewer confidence in my decision.

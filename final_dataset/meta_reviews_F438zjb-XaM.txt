@@ -1,0 +1,31 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper called "Crowd-sourced Phrase-Based Tokenization for Low-Resourced Neural Machine Translation: The case of Fon Language". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: The paper proposes a new tokenization method for low-resource African languages, specifically Fon, to improve the performance of neural machine translation. The proposed method uses crowd-sourced phrase-based tokenization and shows improved results compared to standard IBM-1 phrase-based machine translation.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. However, I have some concerns about the review process. Can you tell me more about the reviews received for this paper?
+
+Dialogue Agent: Sure! The paper received three reviews. Review 1 expressed some doubts about the improvement of the proposed method over standard machine translation, citing that the examples shown in the paper are too simple and the improvements may be trivial. Review 2 praised the novelty of the work and the importance of the contribution for low-resource languages, but suggested that the paper may not be a good fit for a machine learning conference due to the limited scope of the work. Review 3 gave a high score to the paper, emphasizing the novelty and importance of the work, but also pointed out some minor issues with the presentation and suggested some additional linguistic details to strengthen the motivation.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on your summary, I have some questions about the paper's content. Can you help me understand the proposed tokenization method and how it differs from standard machine translation?
+
+Dialogue Agent: Sure! The proposed tokenization method uses crowd-sourced phrase-based tokenization, which involves creating a set of phrases for each sentence and using them to train a neural machine translation system. This method differs from standard machine translation, which typically uses subword or statistical phrase identification methods. The proposed method is designed to handle the unique linguistic and typological features of Fon, such as diacritics and tones, which are not well-handled by standard machine translation techniques.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. I have one more question about the paper's presentation. Can you tell me more about the dataset used in the paper and how it was created?
+
+Dialogue Agent: The paper uses a dataset created by bilingual speakers, consisting of roughly 25k examples for Fon-French translation. The dataset was cleaned and filtered to ensure high quality and relevance. The authors propose a new algorithm for creating the aligned corpus, which involves identifying and correcting errors in the dataset. The proposed algorithm is based on human annotation and is designed to improve the accuracy and efficiency of the translation process.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help. Based on our conversation, I have decided to accept the paper with minor revisions. The paper's novelty, importance, and contribution to low-resource languages are well-justified, and the proposed tokenization method shows promising results. However, I suggest that the authors provide more linguistic details and examples to strengthen the motivation and clarify the presentation.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your suggestions to the authors. Is there anything else I can help with?

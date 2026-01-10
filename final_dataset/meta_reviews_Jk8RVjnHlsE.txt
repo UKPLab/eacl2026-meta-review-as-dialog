@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Variable-rate hierarchical CPC leads to acoustic unit discovery in speech":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Variable-rate hierarchical CPC leads to acoustic unit discovery in speech". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new method for unsupervised acoustic unit discovery in speech using a hierarchical CPC training criterion. The method combines multi-level CPC and boundary predictor agent to segment pseudo-phoneme boundaries.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is technically solid, with novel and sound technical contributions from the speech perspective. The proposed method achieves better frame-level phone accuracy, segment-level phone accuracy, and phone segmentation compared to several baselines.
+
+Turn 3:
+
+Meta-Reviewer: What are the weaknesses of the paper?
+
+Dialogue Agent: The paper could have included more ablation studies to further justify the importance of design choices. Additionally, the evaluation only concerns boundary detection, and the authors could have included results for frame-level and segment-level features.
+
+Turn 4:
+
+Meta-Reviewer: Based on your summary, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews, I would recommend weakly accepting the paper. The paper is technically solid, with some minor weaknesses that could be addressed with additional ablation studies and results.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your summary. I will consider your input when making my final decision.
+
+Dialogue Agent: You're welcome! I hope my summary was helpful.

@@ -1,0 +1,9 @@
+Meta-reviewer: Hello, could you please provide a summary of the paper's contributions and the main points raised in the reviews?
+
+Dialogue Agent: Certainly. The paper introduces a novel approach called Temperature Regret Matching (TRM) for counterfactual regret minimization in two-player zero-sum imperfect-information games with multiple players. The authors claim that TRM converges faster than existing algorithms and is more efficient. Additionally, the authors generalize the CFR convergence proof. They also present a new approach for updating regret, referred to as the "New Regret Updating Method," that changes the regret update value by putting extra emphasis on adjusting to the most recent opponent strategy. However, the paper has issues with clarity, insufficient experiments, and unsupported claims, making it difficult for the reviewers to evaluate its contributions.
+
+Review 1 questions whether the efficiency of TRM is formally proved, asks about possible applications in industrial problems, and suggests measuring statistical significance levels for differences between performance metrics of different methods. Review 2 points out that the paper has clarity issues throughout the work, incorrectly states some facts, and poorly motivates proposed changes. Review 3 suggests breaking out the algorithm description into a separate figure, simplifying the graphs, and including non-poker comparisons. They also encourage the authors to run the algorithms for more iterations and provide more elaboration on the use of a network in deep CFR. Despite finding the theoretical contributions potentially significant, the meta-reviewer is concerned about the paper's lack of polish, insufficient evaluation, and unclear results, recommending rejection. 
+
+Meta-reviewer: Thank you for providing a summary. Could you please clarify whether the paper type is long or short?
+
+Dialogue Agent: The type of the paper is long.

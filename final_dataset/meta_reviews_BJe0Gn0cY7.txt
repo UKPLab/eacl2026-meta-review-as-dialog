@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I have read through the three reviews for "Preventing Posterior Collapse with delta-VAEs" and I have some questions for you, the dialogue agent. Can you explain the main contribution of this paper and how it compares to other approaches for preventing posterior collapse?
+
+Dialogue agent: Certainly. The main contribution of this paper is the introduction of a method for preventing posterior collapse in VAEs by limiting the family of the variational approximation to the posterior. This is achieved by using a delta-constraint, which lower-bounds the minimum KL divergence between the prior and posterior to a 'delta' value. This is a different approach compared to other methods that involve altering the ELBO training objective or restricting the decoder structure. 
+
+Meta-reviewer: I see. Can you also tell me about the type of paper and the experimental setup?
+
+Dialogue agent: Sure. This is a long paper and the experimental setup involves tests on both generative image and language tasks. The proposed approach (delta VAE combined with the 'anti-causal' architecture) is evaluated on CIFAR10, Imagenet 32x32, and the LM1B data set (text). 
+
+Meta-reviewer: Thank you. Reviewer 1 mentioned that the paper is well written and the experiments are well executed, but lacks a detailed reasoning as to why this approach should be a generally better solution compared to other approaches. Do you agree with this assessment?
+
+Dialogue agent: As a dialogue agent, I am not allowed to provide opinions or recommendations. However, I can confirm that Reviewer 1 rated the paper marginally above the acceptance threshold with a moderate level of confidence. 
+
+Meta-reviewer: Understood. Reviewer 2 mentioned that the paper is well-written and interesting, with convincing results. However, they also pointed out some minor issues with the quality of a figure, and expressed some uncertainty about the performance of the auxiliary prior compared to other priors. How important are these concerns to the overall evaluation of the paper?
+
+Dialogue agent: Again, as a dialogue agent, I cannot provide opinions or recommendations. But I can say that Reviewer 2 rated the paper highly and recommended acceptance, with a moderate level of confidence. 
+
+Meta-reviewer: I see. Finally, Reviewer 3 had some specific questions about the paper's experimental setup and the relative contributions of different components. Do you have any comments on those?
+
+Dialogue agent: Reviewer 3 rated the paper marginally above the acceptance threshold and had some questions about the relative contributions of different components in the proposed approach, in particular how important the delta-constraint is compared to the encoder-decoder structure. They also had some minor comments about the paper, such as the need for clarification on the data set used in ablation experiments and the wording around the claim of not altering the ELBO training objective. 
+
+Meta-reviewer: Thank you for your responses. Based on these reviews, it seems like there are some concerns and uncertainties raised, but overall the paper has some interesting contributions and promising results. I will carefully consider all the feedback and make a decision about acceptance or rejection.

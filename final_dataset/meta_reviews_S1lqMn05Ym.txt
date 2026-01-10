@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for this paper. I have read the reviews, and I have a few questions for you. Can you explain to me the main contribution of this paper and how it compares with existing works?
+
+Dialogue agent: The main contribution of this paper is to use KL-regularization with information asymmetry to speed up and improve reinforcement learning (RL) by learning a default policy from data. The proposed algorithm differs from existing works in that it simultaneously learns the policy and the default policy. It also limits the amount of information that the default policy receives, which is novel. The proposed algorithm can be combined with many policy learning algorithms, but the authors choose to combine it with an actor-critic approach. 
+
+Meta-reviewer: That sounds interesting. Can you explain to me why the default policy is important and how it is used to perform transfer learning?
+
+Dialogue agent: The default policy is chosen to be goal-agnostic, which means it is not specifically designed for any particular task. Therefore, it can conduct transfer learning, which is a way to transfer knowledge learned from previous tasks to new, similar tasks. The default policy is used to regularize the agent policy to follow a certain policy on average, and the agent gets penalized for changing its default behavior. The idea is to minimize this cost on average across states.
+
+Meta-reviewer: I see. Review 1 mentioned that the proposed method does not offer significant speed-up in dense-reward settings. Can you explain why this is the case?
+
+Dialogue agent: The proposed method is designed to work in sparse-reward settings where existing methods can be slow to converge. In dense-reward settings, existing methods tend to work well, and the proposed method does not offer significant speed-up over them. However, the proposed method can still perform well in dense-reward settings, depending on the environment. The authors did not provide experiments to show this, but they noted that it would have been nice to have them.
+
+Meta-reviewer: Review 2 mentioned that most of the experiments in this paper use a large amount of compute, making it impractical for academics to reproduce. Did the authors address this concern?
+
+Dialogue agent: The authors did not address this concern directly, but Review 2 suggested that the authors could construct a toy problem with similar characteristics to show similar results using fewer steps. The authors did not provide such experiments, but they noted that it would have improved the paper. 
+
+Meta-reviewer: Thank you for your answers. Based on the reviews, I see that one reviewer is confident that the paper should be accepted, and the other two have concerns but still think it is a good paper. I am particularly interested in the novelty and potential impact of the proposed method. Considering the confidence levels of the reviews, I think I will accept the paper. Thank you for your help. 
+
+Dialogue agent: You're welcome. Thank you for considering this paper.

@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for being here. I'm reviewing the paper Learning Actionable Representations with Goal Conditioned Policies. Could you tell me what the paper is about?
+
+Dialogue agent: Yes, the paper proposes a method for generating representations that are linked to goals in reinforcement learning. The idea is to learn a representation so that two states are similar if the policies leading to them are similar. The paper uses a Kullback-Leibler-based distance between policies that are conditioned by two states as a loss that the representation learning algorithm should minimize.
+
+Meta-reviewer: Interesting. I see that the paper has three reviews. Could you summarize them for me?
+
+Dialogue agent: Yes, Review 1 points out that the paper leaves many details unclear and suggests alternative evaluation methods that would make the evaluation fair. Review 2 finds the idea interesting and the experiments promising, but notes that the paper lacks important experimental comparisons and has missing details. Review 3 considers the idea interesting but thinks the paper has too many weaknesses to be ready for publication.
+
+Meta-reviewer: I see. Review 1 seems concerned about the evaluation. Can you tell me more about the evaluation methodology?
+
+Dialogue agent: The paper evaluates the method on 6 simulated environments and compares it to a variety of representation learning alternatives. However, Review 1 suggests alternative evaluation methods that would make the evaluation fair. The review argues that the evaluation methodology may be biased and suggests pre-training with the same data or online training as possible alternatives.
+
+Meta-reviewer: Got it. What about the missing details that Reviews 2 and 3 mentioned?
+
+Dialogue agent: Review 2 finds that the paper lacks important experimental comparisons and has missing details, especially in how the policy reaching goal is trained. The review suggests that the paper should compare its method to model-based RL algorithms and provide more details about how the goal-reaching policy is trained. Review 3 thinks the paper suffers from many weaknesses, such as assuming that a learned goal-conditioned policy is already available and not simultaneously learning a goal-conditioned policy and the representation that it is based on.
+
+Meta-reviewer: I see. Sounds like there are several concerns. What are the ratings and confidence levels of the reviews?
+
+Dialogue agent: Review 1 gave a rating of 5, which is marginally below the acceptance threshold, with a confidence level of 4. Review 2 gave a rating of 6, which is marginally above the acceptance threshold, with a confidence level of 4. Review 3 gave a rating of 6, which is also marginally above the acceptance threshold, with a confidence level of 4.
+
+Meta-reviewer: Thank you for the summary. It seems like there are some concerns about the paper, especially about the evaluation and missing details. I will carefully consider all the reviews and make a decision.

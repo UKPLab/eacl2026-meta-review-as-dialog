@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read the reviews for the paper "Empirical Phase Diagram for Three-layer Neural Networks with Infinite Width" and I am trying to make a decision on whether to accept or reject the paper. Can you provide me with some clarification on certain aspects of the paper?
+
+Dialogue Agent: Of course. I will do my best to provide you with the necessary information.
+
+Meta-reviewer: Reviewer 1 raises concerns about the lack of discussion on potential implications in the paper. Can you provide me with more details on this issue?
+
+Dialogue Agent: The paper characterizes the phase diagram based on the different dynamical regimes and presents experiments that illustrate the nature of the learned function and dynamics in these regimes. While the authors have done a thorough job in characterizing the phase diagram and presenting the experiments, they could have explored the advantages and disadvantages of being in these different regimes on generalization/optimization. Additionally, there are missed opportunities to compare what happens in the condensed regime for both hidden layers and to discuss how the condensed regime in a deeper layer while being linear in the lower layer compares to the converse scenario.
+
+Meta-reviewer: I see. Reviewer 2 describes the paper as technically solid with good evaluation, resources, reproducibility, and no major ethical considerations. Is there anything you can add to this?
+
+Dialogue Agent: Reviewer 2 praises the paper for giving new insight into training dynamics of MLPs with more than one hidden layer and values the elegance and insights that the submission presents. The numerical nature of the study is well complemented by the analysis of the bifurcation parameters, allowing for an elegant and insightful analysis of what is considered a difficult problem. The minor comments provided include proofreading, reporting of a measure of spread for experimentally collected quantities, and labeling the axis for figures.
+
+Meta-reviewer: Finally, Reviewer 3 raises concerns about the derivation of parameters gamma2 and gamma3 and the absence of important works on phase diagrams in related works. Can you provide me with some insight on this?
+
+Dialogue Agent: Reviewer 3 acknowledges the empirical investigation in the paper as thorough and neat, with a valuable contribution given by the phase diagram. However, the derivation of the parameters gamma2 and gamma3 was rushed and difficult to understand. The authors should clarify their choice as it appears to be a bit like "dark magic." Additionally, some important works on phase diagrams are missing in related works, such as the work on disentangling feature and lazy regime by Mario Geiger and colleagues and the series of papers on tensor programs and muparametrization by Greg Yang and colleagues.
+
+Meta-reviewer: Thank you for the clarifications. Based on the reviews, do you believe that the paper should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, I must remain neutral and provide information without opinions or recommendations. However, I can summarize the reviews for you. Reviewer 1 doubts that the paper is fleshed out and lacks in contribution. Reviewer 2 values the paper for its insight into training dynamics of MLPs with more than one hidden layer and its elegant analysis of a difficult problem, with minor comments that can be fixed. Reviewer 3 commends the thorough and neat empirical investigation and the valuable contribution of the phase diagram, with comments on the derivation of parameters gamma2 and gamma3 and the absence of important works on phase diagrams in related works. Based on these reviews, it is up to you as the meta-reviewer to weigh the importance of the reviewer comments and decide whether to accept or reject the paper.

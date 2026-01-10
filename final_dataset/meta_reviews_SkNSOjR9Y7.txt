@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you please summarize the main contributions of this paper? 
+
+Dialogue agent: This paper proposes a method to train Variational Auto Encoders (VAEs) with discrete latent variables using importance sampling. They apply this method to optimize the challenging expected log likelihood (ELL) term in the Evidence Lower Bound (ELBO) objective. 
+
+Meta-reviewer: I see. Reviewer 1 mentioned that the paper lacked discussion of related work and that they would like to see more empirical evaluation. Can you add to that? 
+
+Dialogue agent: Reviewer 1 pointed out that the authors did not cite and discuss related work on VAEs with discrete and continuous variables, continuous relaxations, variational objectives, and reweighted-wake-sleep style objectives. They suggested rewriting section 2 to discuss approaches to gradient estimation in this space, which would make it easier to explain how this approach differs.
+
+As for empirical evaluation, the authors only tested their method on MNIST and Fashion-MNIST datasets using Bernoulli and categorical latent variables. Reviewer 1 recommended analyzing gradient variances, asymptotic ELBO estimates, and comparing to other methods based on continuous relaxations. 
+
+Meta-reviewer: And what do other reviewers think of this paper? 
+
+Dialogue agent: Reviewer 2 thought that the method proposed in the paper was trivial and not a good choice for VAEs with discrete latent variables. They suggested comparing the method with Gumbel-Softmax, which has been previously used for variational inference and deep generative models. Reviewer 3 did not find the method to be novel and recommended rejection. They also provided some miscellaneous points on the paper. 
+
+Meta-reviewer: Based on these reviews, what is your confidence level and rating for this paper? 
+
+Dialogue agent: All three reviewers recommended rejection, with a high level of confidence that their evaluations are correct and that they are familiar with the relevant literature. Reviewer 1 and 3 rated the paper's contributions as clear rejection, while Reviewer 2 rated it as trivial or wrong.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me a bit about the paper's contribution to the literature on combinatorial semi-bandits?
+
+Dialogue agent: Sure, the paper considers the combinatorial semi-bandits problem under two different settings: probabilistically triggered arms and independent arms. For both settings, the authors improve batch-size dependence in regret as compared to previous work by considering a new variance-based condition on the underlying reward distributions.
+
+Meta-reviewer: What are the strengths of the paper?
+
+Dialogue agent: The paper provides a good contribution to the literature on combinatorial semi-bandits as it improves the dependence on batch size from linear to logarithmic in many practical applications. The paper is very well-written and provides clear intuition behind various ideas/assumptions. The comparison with prior work is also adequate. Furthermore, the paper is technically solid, with no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations.
+
+Meta-reviewer: Do the reviews raise any concerns about the paper?
+
+Dialogue agent: While Review 3 mentions that the paper can be dense and difficult to follow at times, the review still recommends acceptance and acknowledges the paper's strengths. Review 3 also notes that the authors oversell their improvement over prior work in the disjunctive cascading bandit setting, but this weakness has been satisfactorily addressed in the rebuttal.
+
+Meta-reviewer: Overall, would you say the reviews are in favor of accepting the paper?
+
+Dialogue agent: Yes, both Review 1 and Review 2 recommend accepting the paper, and Review 3 ultimately recommends acceptance as well despite raising some minor concerns.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me more about the paper's proposed defense against poisoning-based backdoor attacks?
+
+Dialogue agent: The paper proposes a defense called NONE, which detects and suppresses neurons that form shortcuts between classes during the training stage. The defense assumes an attacker who can poison a subset of the training data and its labels. The authors hypothesize that trojan and benign neurons exhibit different behavior in the victim model and design the training algorithm to detect this difference and enforce non-linear decision regions during training.
+
+Meta-reviewer: It seems that NONE has considerable improvements over existing defenses against three poisoning-based backdoor attacks. Can you confirm the effectiveness of the defense?
+
+Dialogue agent: Yes, the experimental results provided in the paper demonstrate that NONE outperforms many existing defenses against three poisoning-based backdoor attacks for image classification datasets. The clean accuracy drop is often low, making it a practically relevant defense.
+
+Meta-reviewer: I noticed some weaknesses were highlighted in the reviews. What are your thoughts on these?
+
+Dialogue agent: Review 2 pointed out that there is a lack of analysis to support the conclusion that the backdoored DNNs increase linearity. Review 3 also highlighted some concerns, including the missing details in Section 4, missing assumptions in Theorem 3.3, and the need to go deeper into the internal mechanism of the proposed method.
+
+Meta-reviewer: But overall, would you say that the paper is technically solid and has a high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations?
+
+Dialogue agent: Yes, based on the reviews, the paper would fall under the  border-line accept and weak accept categories, indicating that it is a technically solid paper with moderate-to-high impact on more than one area, with no unaddressed ethical considerations. However, as a dialogue agent, I cannot provide an opinion or recommendation on whether to accept or reject the paper. The decision lies with you, the meta-reviewer, based on your review of the paper and the reviews provided.

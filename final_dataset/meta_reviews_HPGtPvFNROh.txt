@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, I've reviewed the reviews for the paper "DROPS: Deep Retrieval of Physiological Signals via Attribute-specific Clinical Prototypes". I have a few questions for you, the dialogue agent, regarding the reviews.
+
+Dialogue Agent: Of course, I'm happy to answer any questions you have.
+
+Meta-Reviewer: Review 1 pointed out several issues with the writing, and expressed uncertainty about what needs to be learned and what the evaluation metric for the retrieval task is. Can you elaborate on these points?
+
+Dialogue Agent: Sure. In response to Review 1, it's true that the writing could be improved, and we will address the specific concerns raised. As for what needs to be learned, we aim to learn both the attribute-specific clinical prototypes and the feature representations of the physiological signals (the embeddings p). The evaluation metric for the retrieval task is retrieval at K, where K is the number of nearest neighbors to retrieve for each query prototype.
+
+Meta-Reviewer: Review 2 had similar concerns about the evaluation method, and also criticized the lack of appropriate baselines. How would you respond to these criticisms?
+
+Dialogue Agent: We appreciate Review 2's feedback. We will take their suggestions into consideration and improve the experimental design in future work. We also agree that additional baselines could be included; however, as noted in the paper, some existing methods are unsupervised and cannot be compared directly to our supervised method. Regarding the evaluation method, we will clarify some of the points raised by Review 2 and ensure that the results are presented in a clearer and more compelling way.
+
+Meta-Reviewer: Finally, Review 3 had concerns about the literature review and experimental design. Can you respond to these criticisms?
+
+Dialogue Agent: We thank Review 3 for their suggestions. We will carefully consider these points and improve the literature review and experimental design in future work. We will also ensure that statistical significance tests, confidence intervals, effect sizes, or similar are presented to support our claims of performance gains. We apologize for any inconsistencies in tense, and will make sure to correct these issues in future work. In addition, we will include a clear conclusion statement and add more evidence to further support our findings.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have read all three reviews for the paper "Semi-Supervised Video Salient Object Detection Based on Uncertainty-Guided Pseudo Labels." I am trying to make a decision whether to accept or reject the paper. Can you tell me a little bit about the proposed approach and its strengths?
+
+Dialogue agent: Certainly. The proposed approach focuses on semi-supervised video salient object detection using pseudo-label generation and adversarial noise reduction training. The authors use uncertainty-guided approach for pseudo-label generation and a GAN-based structure to reduce noise in the overall pseudo label generation. They also propose a multi-stage training structure to achieve this. Reviewers have noted the strengths of using temporal information for generating semantically matching pseudo-labels and the use of uncertainty in the dual decoder module to generate positive bias and learn better. The authors have also shown competitive results on multiple datasets and compared it with prior approaches.
+
+Meta-reviewer: Thank you. Can you also tell me about the weaknesses of the proposed approach?
+
+Dialogue agent: Reviewers have pointed out that while the individual components of the proposed approach have positive effects on the task, they are mostly existing validated approaches with low technical novelty. They have suggested that the authors provide more detailed analysis on the uncertainty-based dual decoder module. One reviewer has also mentioned that there is insufficient literature review, and the novelty of the paper is somewhat limited. The formulas and figures in the paper could also be expressed more clearly. Additionally, the training process is a little bit complicated, and the runtime performance and computational complexity are not reported.
+
+Meta-reviewer: Thank you for the summary. Can you tell me about the ratings and confidence levels of the reviews?
+
+Dialogue agent: Review 1 has given a rating of 5, which indicates a borderline acceptance, and a confidence level of 4. Review 2 has given a rating of 6, which indicates a weak acceptance, and a confidence level of 4. Finally, Review 3 has given a rating of 5, borderline acceptance, and a confidence level of 2.
+
+Meta-reviewer: I see. It seems like the reviewers are leaning more towards accepting the paper, but there are some concerns about its technical novelty and clarity. Based on these reviews, I think I will accept the paper, but I would like to see more clarity and details in the proposed approach. Thank you for your help, dialogue agent.
+
+Dialogue agent: You're welcome. I'm glad that I was able to assist you.

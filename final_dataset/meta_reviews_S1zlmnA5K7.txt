@@ -1,0 +1,15 @@
+Meta-Reviewer: Can you give me a brief summary of the paper and its contributions?
+
+Dialogue Agent: The paper proposes a new approach, called batch-constrained reinforcement learning (BCRL), to address the problem of extrapolation error in off-policy batch reinforcement learning. The authors show that popular RL methods underperform significantly in this setting because they fail to account for the inevitable sparse sampling of the possible action-state space. BCRL attempts to avoid backing up values from states that are not present in the training data, on the assumption that the current estimates of these values are likely to be inaccurate. In the continuous state-action case, this is accomplished by training a generative model to propose, given a state `s`, an action `a` such that a transition similar to `(s, a)` is in the training data. A secondary policy is then trained to perturb the proposed action within a constrained region to maximize value.
+
+Meta-Reviewer: What are the main strengths and weaknesses of the paper according to the reviewers?
+
+Dialogue Agent: Reviewer 1 notes that the overall approach is sound, although they would have preferred the paper to compare BCRL to more-sophisticated imitation learning approaches instead of off-policy RL methods. Reviewer 2 finds the problem studied in the paper important, but believes that the paper should be improved before publication in terms of clarity. Reviewer 3 thinks that technical contributions in the present paper are rather limited and that the paper would be much stronger if it studied the challenge of "not in the batch" more in depth.
+
+Meta-Reviewer: How confident are the reviewers in their evaluations?
+
+Dialogue Agent: Reviewer 1 is confident but not absolutely certain that the evaluation is correct with a confidence score of 4 out of 5. Reviewer 2 is also confident but not absolutely certain that their evaluation is correct with the same confidence score. Reviewer 3 is fairly confident that the evaluation is correct with a confidence score of 3 out of 5.
+
+Meta-Reviewer: Can you provide more information about the authors' experiments and results?
+
+Dialogue Agent: The authors provide experimental results that suggest that BCRL outperforms DDPG and DQN when learning from fixed data, but BCRL is slightly worse than behavior cloning at learning to reproduce an expert policy that does not take exploration actions. However, Reviewer 3 questions why the proposed approach performs well, especially in cases where no state-action pairs are found in the neighbor. They suggest that the paper would be much stronger if it studied the challenge of "not in the batch" more in depth.

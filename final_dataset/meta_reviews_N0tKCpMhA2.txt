@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Can you tell me your overall impression of this paper, "Coresets for Vertical Federated Learning: Regularized Linear Regression and $K$-Means Clustering"?
+
+Dialogue agent: Of course. This paper proposes a unified coreset construction algorithm for subsampling datasets under the vertical federated learning (VFL) setting. The authors then show how to estimate the importance values for regularized linear regression and $K$-means clustering, respectively. The experimental results indicate that these algorithms can reduce the communication complexity without significantly harming the model's performance.
+
+Meta-reviewer: Thank you. Can you summarize the strengths and weaknesses of the paper?
+
+Dialogue agent: The strengths of the paper include its solid techniques and the ease with which it can be followed. The theoretical analysis provided by the authors also helps to address any ideal assumptions made in the algorithms. Moreover, the experimental results show that the proposed algorithms work well when using less than 4% of the training data. Furthermore, the paper's contributions are novel and significant.
+
+As for weaknesses, the authors did not analyze the privacy of the proposed algorithms, which is an important issue in VFL. Also, the experimental results could have been explained more in-depth. Finally, the definition of "robust coreset" was not provided in the main paper, which could have made it less readable.
+
+Meta-reviewer: Interesting. I have a question about the reviews. Reviewer 1 rated the paper 7 and accepted it, while Reviewer 2 rated it 6 and accepted it conditionally. Reviewer 3 rated it 7 and accepted it but had some minor issues with the authors' methodology. How should I weigh the rating and review comments?
+
+Dialogue agent: The ratings and review comments should be taken into consideration when making the final decision. However, since the reviewers have varying opinions, it is up to the meta-reviewer to weigh the importance of each issue raised in the reviews and make their own assessment.
+
+Meta-reviewer: That makes sense. I'm also concerned about the confidence levels of the reviewers. How confident are they in their ratings and review comments?
+
+Dialogue agent: Reviewer 1 was fairly confident in their assessment, with a confidence level of 3 out of 5. Reviewer 2 was also confident in their assessment, with a confidence level of 4 out of 5. Reviewer 3 was likewise confident, with a confidence level of 4 out of 5.
+
+Meta-reviewer: Thank you for the information. After considering the reviews and their respective strengths and weaknesses, I accept this paper with a rating of 7.

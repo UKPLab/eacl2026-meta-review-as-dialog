@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "DEEP GEOMETRICAL GRAPH CLASSIFICATION":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "DEEP GEOMETRICAL GRAPH CLASSIFICATION" and I'm looking for your input on the reviews. Can you please provide a summary of the reviews?
+
+Dialogue Agent: Sure! The reviews for the paper "DEEP GEOMETRICAL GRAPH CLASSIFICATION" are mixed. Review 1 states that the paper proposes a deep GNN network for graph classification problems using their adaptive graph pooling layer, but the paper is poorly written and hard to follow. Review 2 states that the authors propose a method for learning representations for graphs, but the approach is not novel and the experiments are not ground-breaking. Review 3 states that the authors argue that graph neural networks based on the message passing frameworks are not able to infer the topological structure of graphs, and therefore propose to use the node embedding features from DeepWalk as additional input for the graph convolution.
+
+Turn 2:
+
+Meta-Reviewer: Thanks for the summary. Based on the reviews, I'm having trouble understanding the main contributions of the paper and how it differs from existing methods. Can you help me with that?
+
+Dialogue Agent: Sure! The main contribution of the paper is the proposed graph pooling operator, which clusters node pairs in a greedy fashion based on the l2-distances between feature vectors. This approach is intended to improve the expressive power of graph convolutional networks by incorporating more topological information. In comparison to existing methods, the proposed approach uses a different type of pooling operator that is based on the node embedding features from DeepWalk.
+
+Turn 3:
+
+Meta-Reviewer: I see. But the reviews seem to suggest that the paper is not well-written and the experiments are not convincing. Can you help me understand why the authors choose to use DeepWalk features and how they address the limitations of their approach?
+
+Dialogue Agent: The authors choose to use DeepWalk features because they argue that graph neural networks based on the message passing frameworks are not able to infer the topological structure of graphs. By using the node embedding features from DeepWalk as additional input for the graph convolution, they aim to capture more topological information. However, the reviews suggest that the paper does not provide a clear justification or convincing intuition for the proposed approach, and that the experiments are not enough to make the paper more than a mere combination of existing methods.
+
+Turn 4:
+
+Meta-Reviewer: Thanks for the information. Based on the reviews and our discussion, I think the paper has some interesting ideas but is not well-executed. I'm leaning towards rejecting the paper. What do you think?
+
+Dialogue Agent: Based on the reviews and your feedback, I agree that the paper has some limitations. However, I think it is worth considering the potential of the proposed approach and the authors' attempt to address the limitations of existing methods. I would recommend a revision of the paper to address the reviewers' concerns and provide a clearer justification and explanation of the proposed approach.
+
+Turn 5:
+
+Meta-Reviewer: Thanks for your input. I think I'll reject the paper for now, but I appreciate your perspective. Can you provide me with some references to relevant literature on graph neural networks and graph classification?
+
+Dialogue Agent: Sure! Some relevant literature on graph neural networks and graph classification includes "Graph Neural Networks" by Scarselli et al. (2009), "A Survey on Graph Neural Networks" by Wang et al. (2019), and "Graph Classification" by Xu et al. (2019). These papers provide a good overview of the state-of-the-art in graph neural networks and graph classification, and can help you better understand the proposed approach in the paper you are reviewing.

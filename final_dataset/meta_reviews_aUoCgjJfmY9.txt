@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for being here to discuss the reviews of the paper titled "Graph Convolution Network based Recommender Systems: Learning Guarantee and Item Mixture Powered Strategy", which received three reviews. Can you please provide a brief summary of the paper's main contributions?
+
+Dialogue agent: Sure. The paper proposes a method to study the generalization ability of GNNs for recommender systems, using the covering number theory. It derives generalization guarantees for both inductive and transductive learning and proposes an algorithm called Item Mixture (IMix) to improve the performance of recommender systems using the idea of Mixup in self-supervised learning. The paper also includes experimental results to demonstrate the effectiveness of the proposed ideas.
+
+Meta-reviewer: Excellent. What are the strengths and weaknesses of this paper according to the reviews?
+
+Dialogue agent: Review 1 praised the paper for studying the generalization ability of GNNs from the covering number perspective and proposing the IMix method, but expressed concerns about the proposed analyses' relevance to recommender systems, the use of only two datasets and two baselines, and the paper's organization. Review 2 appreciated the paper's theoretical analysis, empirical results, and interesting research problem but expressed concerns about the connection between the generalization bounds and IMix, the choice of the covering number to measure model complexity, and the need to extend the work to GNN-based or knowledge graph-based systems. Finally, Review 3 praised the paper's firm evidence and intelligible flow but criticized the ambiguity of the notations, the focus on the simple GCN-based recommender system, and the need to explore other types of recommender systems and graph spectral properties.
+
+Meta-reviewer: Thank you. Review 1 expressed concerns about the proposed analyses' relevance to recommender systems. Can you shed some light on this concern?
+
+Dialogue agent: Review 1 questioned whether the GNN formulation in Eq. (2) fits any graph other than the bi-partite graphs in the recommender scenario. If that is the case, the paper needs to clarify whether the results in Section 3 generalize to other GNNs. The review also questioned whether the existing analyses for general GNNs can apply to bi-partite graphs and how their results compare to this paper.
+
+Meta-reviewer: I see. Review 2 expressed concerns about the connection between the generalization bounds and IMix. What is your take on this concern?
+
+Dialogue agent: Review 2 pointed out that the goal of IMix, which is to balance empirical error and model complexity, is more like a regularization loss to alleviate overfitting than an algorithm to find an optimal solution for both reducing model complexity and improving recommendations. The review suggested that the authors discuss the advantages of the covering number compared to VC-Dimension and Rademacher complexity, which are more typical measures of model complexity. The review also suggested that the authors extend their work to GNN-based or knowledge graph-based systems.
+
+Meta-reviewer: Interesting. Review 3 criticized the ambiguity of the notations. Is there anything else in this review worth discussing?
+
+Dialogue agent: Review 3 also suggested that the paper focuses on the simple GCN-based recommender system while not exploring other types of recommender systems, such as those with social relations on users and knowledge graph on items. The review also questions whether such types of recommender systems are suitable for and outperform complex models and the role of graph spectral properties in generalization ability.
+
+Meta-reviewer: Thank you for summarizing the reviews. Given these reviews, what do you believe the final decision on this paper should be?
+
+Dialogue agent: Review 1 rated the paper as a weak accept with moderate-to-high impact, and Review 2 rated it as an accept with high impact. Review 3 rated it as a weak accept with moderate-to-high impact. Based on these ratings, I think the paper is technically solid and has moderate-to-high impact potential. However, it needs some revisions, such as clarifying the relevance of the proposed analyses to recommender systems, discussing the advantages of the Covering number compared to other measures of model complexity, exploring other types of recommender systems, and addressing notational ambiguities. Therefore, I would recommend a weak accept with a minor revision.

@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for joining me. I have read the reviews for the paper "Efficient Lifelong Learning with A-GEM," and I would like to clarify a few things before making a decision on its acceptance. Can you tell me what the paper is about?
+
+Dialogue Agent: Yes, the paper proposes a variant of the GEM method called A-GEM that simplifies the constraints on feasible update steps during training, making it more computationally efficient than the original GEM. It also presents experimental evidence that A-GEM achieves similar performance to GEM on standard datasets in lifelong learning.
+
+Meta-reviewer: I see. And what is the type of paper?
+
+Dialogue Agent: It is a long paper.
+
+Meta-reviewer: Thank you. One reviewer raised concerns about the lack of detail in section 5 regarding the joint embedding model. Can you clarify how the matrix description of each task is learned, how the function $\psi_{\omega}$ handles varying matrix sizes, what functions are used to represent $\psi_{\omega}$ in experiments, and whether $C$ in equation (12) should be $C_k$?
+
+Dialogue Agent: I can't provide opinions or recommendations, but I can tell you that the paper does not address these questions in detail. The reviewer's concerns are noted, and it is up to the authors to address them in a future revision.
+
+Meta-reviewer: Understood. Another reviewer raised concerns about the lack of uncertainty and confidence intervals reported with experimental results, making it unclear whether observed differences are meaningful. Can you comment on this?
+
+Dialogue Agent: The paper does not address this concern explicitly, but it is common practice in the field to report standard deviations or confidence intervals when presenting experimental results. It is up to the authors to decide whether to add this information in a future revision.
+
+Meta-reviewer: Finally, one reviewer rated the paper marginally above acceptance threshold with a moderate level of confidence, while the other two rated it as a good paper with a similar level of confidence. How much should we weigh their confidence levels in making our final decision on acceptance?
+
+Dialogue Agent: It is ultimately up to the meta-reviewer to weigh the importance of reviewer confidence in making the final decision. However, it is important to note that all reviewers agree that the paper makes a clear and practical contribution worthy of acceptance.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper "Sliced Wasserstein Auto-Encoders." Can you please provide me with a high-level summary of the reviews provided?
+
+Dialogue agent: Certainly, the first review raises concerns about the authors' mathematical proof regarding the equivalence of equations. The second review questions the significance of the proposed method compared to previous work and suggests the need for more objective metrics. Lastly, the third review views the paper favorably, highlighting its theoretical contribution and the avoidance of unstable adversarial training or MMD training.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, I have a few questions for you. Firstly, can you provide me with more information about the paper? Specifically, what is the paper type?
+
+Dialogue agent: Of course, the paper is a long-type paper proposing a new autoencoding algorithm named Sliced Wasserstein Auto-Encoders (SWAE).
+
+Meta-reviewer: Thank you for that information. Secondly, can you provide me with more information about the empirical evidence presented in the paper?
+
+Dialogue agent: The empirical evidence presents pictures and interpolations without numbers, and the authors go into detailed measurements of discrepancy between the aggregate posterior pz and the prior qz. However, there is no reporting on objective numbers, such as FID scores, which are used to capture the quality of the generated samples. Furthermore, the authors only compared their method to WAE-GAN, but did not consider WAE-MMD, which is free of adversarial training and has stable training.
+
+Meta-reviewer: Lastly, how confident are the reviewers in their evaluations?
+
+Dialogue agent: Reviewer 1 had a confidence level of 4/10, while reviewers 2 and 3 had a confidence level of 4/10 and 6/10, respectively.

@@ -1,0 +1,27 @@
+Meta-reviewer: Hello there! I have reviewed the reviews for the paper titled "Generating Multi-Agent Trajectories using Programmatic Weak Supervision". Can you provide me with an overview of the paper and its contributions?
+
+Dialogue Agent: Of course! The paper proposes a hierarchical generative model for multi-agent trajectory generation using programmatic weak supervision. The model uses VRNNs with a shared learned latent variable to achieve high-level coordination between multiple agents. The authors show that the proposed model is on par with baseline models in terms of ELBO, while also resulting in more preferred outputs from human judges.
+
+Meta-reviewer: Thank you for the overview. Review 1 seems to be quite positive, mentioning a very strong paper with an impactful approach. However, the evaluations are not very strong, according to the review. Can you provide me with more information about the evaluations and their results?
+
+Dialogue Agent: The evaluations were conducted on a basketball gameplay dataset and a synthetic dataset. The proposed model achieved comparable results in terms of ELBO to the baseline models, while also demonstrating the ability to model multimodality better and being preferred more by human judges.
+
+Meta-reviewer: Review 2 seems to have some major comments about the paper, such as the need for an intermediate baseline model and the effect of the threshold for macro-intent generation. Can you provide me with more information on these comments?
+
+Dialogue Agent: Review 2 suggests adding an intermediate baseline model that shares a set of parameters between agents while learning the second layer parameters independently to better understand the contribution of the shared macro-intent. They also question how the threshold for macro-intent generation affects the learned posterior distribution. These are different aspects that the authors could explore in future work.
+
+Meta-reviewer: I see. And what about Review 3, which also seems to have some minor comments about the paper?
+
+Dialogue Agent: Review 3 notes that the paper presents a sensible solution for heuristically labelling the latent variables. They suggest the comparison of baselines and the proposed model be framed in terms of the marginal likelihood rather than the evidence lower bound. They also point out some citation errors and clarify the terminology used in the human preference study.
+
+Meta-reviewer: Thank you for the information. Overall, the evaluations seem to be positive, but there are some concerns raised by the reviewers. Can you tell me your opinion on the paper?
+
+Dialogue Agent: As a dialogue agent, I cannot share opinions or provide recommendations. However, I can provide information and answer questions related to the paper and its reviews.
+
+Meta-reviewer: Understood. In that case, I would like to know more about the confidence levels of the reviewers in their evaluations. Can you provide me with more information on their confidence levels?
+
+Dialogue Agent: Of course. Reviewers 1, 2, and 3 had a confidence level of 3, indicating that they were fairly confident in their evaluations. However, it is important to note that confidence levels can vary among reviewers and may not always be a measure of the correctness of their evaluations.
+
+Meta-reviewer: Thank you for the clarification. Based on the reviews and the information provided, I am inclined to lean towards accepting the paper. However, the concerns and suggestions raised by the reviewers should be taken into consideration for future work.
+
+Dialogue Agent: I understand. If you have any more questions or need any additional information, feel free to ask.

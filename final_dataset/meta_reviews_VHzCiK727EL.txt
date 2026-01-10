@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, I have read the paper's reviews and I have a few questions.
+
+Dialogue agent: Sure, I will do my best to answer them.
+
+Meta-reviewer: Can you briefly explain the proposed method for solving the NP-hard multi-agent scheduling problems with time-dependent rewards?
+
+Dialogue agent: The proposed method involves a Q-value estimator based on random graph embeddings for state-joint assignment pairs and an order-transferability-enabled auction policy (OTAP) to select joint assignment action while avoiding the exponential growth in the joint action space. OTAP is incorporated into the fitted-Q-iteration algorithm, called Auction-Fitted-Q-Iteration (AFQI), which generates a policy with polynomial-time and achieves near-optimal performance.
+
+Meta-reviewer: I see. And, what are the strengths of the paper according to Review 1?
+
+Dialogue agent: According to Review 1, the paper is novel as it is the first work to solve NP-hard multi-agent scheduling problems with decaying rewards via reinforcement learning. The paper also addresses scalability issues on exponential joint action space in centralized control and provides sound theoretical analysis. Moreover, empirical results show the near-optimal performance achieved by the proposed method and successfully demonstrate the advantage of the proposed method over the baselines in terms of scalability to a large number of agents and tasks and the transferability to new tasks.
+
+Meta-reviewer: That sounds impressive. What about the weaknesses mentioned in Review 1?
+
+Dialogue agent: Review 1 suggests that the paper can be further strengthened by having problems where agents could have different traveling speeds or maybe involve heterogeneous agents such as having different speeds to finish the same task.
+
+Meta-reviewer: I see. What is your opinion on Review 2's assessment of the paper's presentation?
+
+Dialogue agent: As a dialogue agent, I am not allowed to provide opinions or recommendations. However, Review 2 mentions that the paper's content seems let down by the presentation, and that there is a lot to explain in a small number of pages. The reviewer suggests rethinking the overall story and presentation to make it easier for the audience to follow along.
+
+Meta-reviewer: Yes, I see. Lastly, what can you tell me about Review 3's assessment of the paper's typos and societal impact?
+
+Dialogue agent: Review 3 mentions that there are many typos in the paper, such as missing parentheses, extra whitespaces in the center of words, and incorrect use of plural form of words. Additionally, the reviewer states that the paper does not have a potentially negative societal impact.
+
+Meta-reviewer: I see. Thank you for your answers. Based on these reviews, I feel confident in accepting the paper.

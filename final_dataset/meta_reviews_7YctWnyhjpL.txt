@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Multi-Task Learning by a Top-Down Control Network":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Multi-Task Learning by a Top-Down Control Network". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper introduces a novel top-down control network for multi-task learning, which modulates the activations of the main recognition network based on different tasks.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I have some questions about the experimental results. Can you tell me more about the datasets used in the experiments?
+
+Dialogue Agent: Sure! The authors used four datasets/tasks: multi-MNIST, CLEVR, CELEB-A, and CUB-200. They demonstrated good performance compared to baselines.
+
+Turn 3:
+
+Meta-Reviewer: Okay, that's good to know. But I'm a bit concerned about the complexity of the model. Does the proposed architecture require a lot of parameters?
+
+Dialogue Agent: The proposed architecture does require the equivalent of three forward/backward passes: BU1, TD, and BU2. However, the authors did not provide the FLOPs metric in their paper.
+
+Turn 4:
+
+Meta-Reviewer: I see. And how does the model fare in a more challenging setting involving heterogeneous tasks?
+
+Dialogue Agent: The authors did not explore this in their paper. However, they did mention that their proposed architecture is novel and could be applied to a more challenging setting.
+
+Turn 5:
+
+Meta-Reviewer: Alright, I think I have a good understanding of the paper now. But I have one more question. Can you tell me more about the auxiliary loss used in some of the experiments?
+
+Dialogue Agent: Sure! The authors added an auxiliary loss at the end of the TD stream in some of the experiments of CLEVR and CUB-200 datasets. The target in this case is a 224x224 mask, where a single pixel, blurred by a Gaussian kernel (s.d. 3 pixels) was labeled as the target location.
+
+Turn 6:
+
+Meta-Reviewer: That's helpful to know. But why was this loss only used in CLEVR and CUB-200?
+
+Dialogue Agent: The authors did not provide a clear explanation for this. However, they did mention that the proposed architecture is novel and could be applied to a more challenging setting.
+
+Turn 7:
+
+Meta-Reviewer: Alright, I think I have a good understanding of the paper now. Can you summarize the main points for me?
+
+Dialogue Agent: Sure! The paper introduces a novel top-down control network for multi-task learning, which modulates the activations of the main recognition network based on different tasks. The authors demonstrated good performance compared to baselines on four datasets/tasks. However, the model requires the equivalent of three forward/backward passes and the authors did not explore the model's performance in a more challenging setting involving heterogeneous tasks. Additionally, the authors did not provide a clear explanation for the use of the auxiliary loss in some of the experiments.

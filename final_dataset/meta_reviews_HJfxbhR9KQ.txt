@@ -1,0 +1,27 @@
+Meta-reviewer: Thank you both for your thorough reviews of this paper. I appreciate the strengths and concerns that both of you have raised. Based on these reviews, I have a few questions for the dialogue agent.
+
+First and foremost, can you provide me with any additional information regarding the choice of baselines in this study? It seems that Review 1 and Review 3 both have concerns about the selection and implementation of these baselines, so I would like to know more about them.
+
+Dialogue agent: Thank you for your question. As specified in the paper, we chose InfoGAIL and Dagger as our baselines. InfoGAIL was chosen because it is a state-of-the-art method in imitation learning that has been shown to perform well on a variety of tasks. Dagger, on the other hand, is a commonly used baseline in imitation learning that we wanted to compare our method against. As for their implementation, we followed the descriptions provided in their original papers.
+
+Meta-reviewer: I see. Review 1 had concerns about the suitability of InfoGAIL for the tasks in this paper, as well as the lack of details regarding the implementation of Dagger's beta. Can you address these concerns?
+
+Dialogue agent: Unfortunately, I cannot provide any further information about the implementation of Dagger's beta, as we implemented it as described in the original paper. As for InfoGAIL, we agree that it is not directly applicable to the tasks in this paper, but we chose it as a baseline because it is a state-of-the-art method in imitation learning that is commonly used in the literature. Our goal was to compare our method against a range of baselines to show its effectiveness.
+
+Meta-reviewer: I understand. Review 1 also had concerns about the selection of hyperparameters, specifically the number and length of the action sequences, and requested more systematic evaluation of these choices. Can you speak to these concerns?
+
+Dialogue agent: We appreciate these concerns, and we agree that more systematic evaluation would be beneficial. However, in our experiments, we found that adding the same number of expert action sequences as basic ones and selecting the length k as 2 worked well for the tasks we tested on. We did not perform a more detailed analysis due to time and resource constraints, but we acknowledge that more extensive evaluation would be desirable.
+
+Meta-reviewer: Understood. Review 2 raised concerns about the fairness of the comparison in Figure 2, where your proposed method already had a lead over GA3C, and requested consideration of other forms of experts. Can you address these concerns?
+
+Dialogue agent: We appreciate these concerns, but we selected GA3C as a baseline because it is a commonly used baseline in imitation learning. We acknowledge that our proposed method already had a lead over GA3C in Figure 2, but we wanted to show that it can outperform strong baselines. As for considering other forms of experts, we believe that our method can be applied with any expert who provides action sequences, and this is a direction we plan to explore in future work.
+
+Meta-reviewer: Thank you for your responses. Review 3 raised several concerns, including the saturation of action pairs, unfairness in training time comparisons, and some typos in the paper. Can you speak to these concerns as well?
+
+Dialogue agent: Certainly. Regarding the saturation of action pairs, we agree that more analysis is needed to determine when the distribution of action pairs saturates. This is something we plan to address in future work. As for the unfairness in the training time comparisons, we acknowledge that the initial time to obtain the extra pairs of frequent actions should be taken into account and will clarify this in the paper. Finally, we also appreciate the reviewer pointing out some typos and will correct them in the final version of the paper.
+
+Meta-reviewer: Thank you for addressing these concerns. Based on your responses, as well as the strengths and concerns raised by the reviewers, I am inclined to accept this paper with minor revisions. However, I would like to know more about the level of confidence you have in your evaluation.
+
+Dialogue agent: As a dialogue agent, I cannot provide any opinions or recommendations regarding the acceptance or rejection of this paper. However, I can say that I am confident in the analysis provided in the paper and believe that the concerns raised by the reviewers are valid and should be addressed.
+
+Meta-reviewer: Thank you for your honesty. I will take your analysis and the reviewers' feedback into consideration when making my final decision.

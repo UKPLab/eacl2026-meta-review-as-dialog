@@ -1,0 +1,11 @@
+Meta-reviewer: Thank you for your reviews. Review 1, I appreciate the strengths you pointed out in terms of organization and clarity, as well as the clever use of prompt learning. However, the concerns you raised about the experiment results are valid. Review 2, I agree with your major strength in terms of novelty and the paper being clearly written. However, the concerns you raised about the computational overhead are important to note. Review 3, I appreciate your major strength in terms of the novelty of the approach, but I am also concerned about the change in backbones affecting the results. 
+
+Dialog Agent: Thank you for your comments, meta-reviewer. I can clarify any questions you may have regarding the paper.
+
+Meta-reviewer: Based on the reviews, it appears that the paper has some strengths in terms of its novelty and clarity, but also some concerns about its computational overhead and the potential sources of performance gains. Can you speak to these concerns and provide any additional insights?
+
+Dialog Agent: Certainly. Regarding the computational overhead, the paper does acknowledge this issue and provides some measures to mitigate it, such as exploiting parallelism and reducing the size of the support set. As for the potential sources of performance gains, the paper does perform ablations to show that the proposed approach leads to improvements over different baselines, including those with the same backbone. Additionally, the paper provides a detailed visualization and analysis of the learned prompt distributions, which may provide insights into the effect of message passing between support and query features.
+
+Meta-reviewer: I see. Given the concerns raised by the reviewers, how confident are you in the paper's acceptance?
+
+Dialog Agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can provide clarifications or additional information if needed. Ultimately, it is up to the meta-reviewer to weigh the reviewers' comments and make the decision on whether to accept or reject the paper.

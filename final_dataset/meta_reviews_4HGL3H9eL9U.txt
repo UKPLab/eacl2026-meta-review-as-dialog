@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "AT-GAN: An Adversarial Generative Model for Non-constrained Adversarial Examples":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "AT-GAN: An Adversarial Generative Model for Non-constrained Adversarial Examples". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method called AT-GAN, which is an adversarial generative model that can directly produce adversarial examples. The main contribution is the idea of transferring a pre-trained GAN to an attacking GAN to generate non-constrained adversarial examples.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But I have some concerns. Firstly, I would like to see more comparisons with existing related works. Secondly, I am not sure if the proposed method can generate diverse and realistic adversarial examples. Can you address these concerns?
+
+Dialogue Agent: Certainly! The paper does provide some comparisons with existing related works, such as AC-GAN and WGAN-GP. As for the diversity and realism of the generated adversarial examples, the authors provide some experimental illustrations and show that the proposed method can generate diverse and realistic adversarial examples.
+
+Turn 3:
+
+Meta-reviewer: I see. But I still have some doubts. For example, why choose to transfer the original GAN to the attacking GAN, rather than using other transfer learning techniques? And how does the proposed method address the issue of generating adversarial examples that are not semantically meaningful?
+
+Dialogue Agent: The choice of transfer learning technique is based on the authors' observation that the original GAN has learned a good distribution of real data, and transferring this distribution to the attacking GAN can help generate better adversarial examples. As for the issue of semantic meaningfulness, the authors provide some experimental results that show the proposed method can generate diverse and realistic adversarial examples.
+
+Turn 4:
+
+Meta-reviewer: I see. Well, I think I have a better understanding of the paper now. But I still have some concerns about the novelty and the effectiveness of the proposed method. Can you address these concerns?
+
+Dialogue Agent: Sure! The paper does provide some novelty and effectiveness of the proposed method. The authors argue that the proposed method is more effective than existing related works, such as AdvGAN and Song's method, and provide some experimental results to support this claim. Additionally, the authors provide some theoretical analysis to demonstrate the effectiveness of the proposed method.
+
+Turn 5:
+
+Meta-reviewer: Okay, I think I have a good understanding of the paper now. Based on my understanding, I would rate the paper as marginally below the acceptance threshold.
+
+Dialogue Agent: Thank you for your feedback! Based on your rating, I will provide some additional information to the authors to address your concerns and improve the paper.

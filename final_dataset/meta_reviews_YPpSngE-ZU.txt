@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the reviews for the paper titled "MACE: Higher Order Equivariant Message Passing Neural Networks for Fast and Accurate Force Fields". Can you begin by telling me your understanding of the paper's contributions and its weaknesses?
+
+Dialogue agent: Sure. The paper proposes a new machine learning (ML) force field based on Graph Neural Networks (GNNs), which uses higher-order equivariant messages. Unlike previous methods, the paper uses a tensor product formulation to make the framework more efficient, and shows that only two message passing layers are needed to achieve good performance. The paper also achieves SO3 equivariance using spherical harmonics representations. Review 1 notes the strengths of the paper, such as presenting a new MPNN using higher order messages, and the model's efficiency for ML force fields. 
+
+However, Review 1 also points out that the paper does not provide a reference or proof for claiming that higher order features can be interpreted as a complete basis. On the other hand, Review 2 suggests that the paper does not make clear the connection between tensor product and the standard many-body expansion. Review 2 also notes that the technical contribution of the paper may not be well justified, and some descriptions of evaluation benchmarks are unclear. Meanwhile, Review 3 highlights the strengths of the paper's writing and literature review, while suggesting more discussion about how the proposed method handles higher-order interactions.
+
+Meta-reviewer: Thank you, that was a helpful summary. Can you explain how these reviews affect your overall assessment of the paper?
+
+Dialogue agent: Based on the reviews, there are some weaknesses that need to be addressed, such as providing more detailed information about tensor product and standard many-body expansion, and further discussing how the method handles higher-order interactions. However, the paper's strengths, such as its new MPNN using higher order messages and its efficiency for ML force fields, make it a technologically sound paper. The ratings of Review 1 and Review 3 suggest accepting the paper, while Review 2 suggests weak acceptance. Overall, the scores indicate that the paper has high-to-excellent impact and no unaddressed ethical considerations, and only requires some minor revisions.
+
+Meta-reviewer: I appreciate your objective analysis, but may I know your confidence in your assessment?
+
+Dialogue agent: My confidence in the assessment is moderate-to-high. It is possible that I missed some details or misunderstandings on some parts of the submission or related work, but I made my evaluation based solely on the reviews and the information provided to me.

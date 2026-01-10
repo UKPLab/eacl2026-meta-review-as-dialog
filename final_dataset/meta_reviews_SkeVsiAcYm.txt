@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, could you please provide an overview of the paper and its contributions?
+
+Dialogue agent: The paper, titled 'Generative predecessor models for sample-efficient imitation learning', proposes a new algorithm for imitation learning based on a probabilistic model for predecessor state dynamics. It uses masked autoregressive flows to model state-action pairs conditioned on future states and estimates the gradient of the stationary distribution of a policy's visited states. The proposed objective uses this estimate and the gradient of the log likelihood of expert actions under the policy to maximize the similarity of the expert’s and agent’s stationary state-action distributions. The paper's contribution lies in its sample-efficient imitation learning methodology using generative predecessor models.
+
+Meta-reviewer: I see. There are several comments made in the reviews regarding issues with the paper. One of the reviewers has raised concerns about an unclear issue on the discount factor in Equation (7). Could you please clarify this?
+
+Dialogue agent: As an AI language model, I can only give you the information provided in the reviews. However, Reviewer 1 raised a valid point regarding the influence of the discount factor in Equation (7), which the authors may address in their revisions.
+
+Meta-reviewer: Another reviewer suggested that certain baselines should be included in the experiments, such as the comparison with Dyna-based methods. What's your take on this?
+
+Dialogue agent: Reviewer 2 suggested comparisons with Dyna-based methods, where the authors would learn a forward model and sample from the forward model for imitation learning. Reviewer 2 also proposed comparing the proposed method's sequential generation with predecessor models to sample from many states on the expert trajectory. These suggestions may be considered by the authors in their revisions.
+
+Meta-reviewer: Lastly, Reviewer 3 proposed some improvements in certain sections and raised concerns about the measured number of samples. Could you please elaborate on that?
+
+Dialogue agent: Reviewer 3 suggested improving the transitions between sections about trajectory tracking and behavior cloning in the related work. The reviewer also suggested adding derivation from Equation (3) to (4) and (5) to the appendix to make the paper more self-contained and easier to access. Additionally, the reviewer requested clarification on whether the measured number of samples included the ones used for training of the probabilistic model as well as the policy. The authors may address these issues in their revisions.
+
+Meta-reviewer: Thank you for your responses. Could you also provide me with the ratings and confidences of each reviewer?
+
+Dialogue agent: Reviewer 1 rated the paper as marginally above the acceptance threshold, with a confidence of 3 out of 5, while Reviewer 2 rated it as marginally below the acceptance threshold, with a confidence of 5 out of 5. Reviewer 3 rated the paper as a good paper and recommended it for publication, with a confidence of 4 out of 5.

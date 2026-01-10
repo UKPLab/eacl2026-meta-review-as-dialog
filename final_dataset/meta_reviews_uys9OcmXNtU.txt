@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I'm reviewing a long paper titled "MQTransformer: Multi-Horizon Forecasts with Context Dependent and Feedback-Aware Attention." I've read through the reviews and have a few questions before I make my decision. Can you tell me what the paper proposes?
+
+Dialogue Agent: Certainly, the paper proposes a model called MQTransformer that is designed to improve multi-horizon forecast prediction. The model leverages the Transformer architecture and includes learnable positionable embedding from event indicators, attention head for each of the horizons that need to be predicted, and decoder self-attention for using one horizon prediction to improve a later one.
+
+Meta-reviewer: Reviewer 1 seemed to think that the technical contributions in the paper were not particularly novel or profound. What are your thoughts on that?
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or recommendations. However, reviewer 1 did mention that the practical impact on real-world forecasting tasks would be high since the model showed non-trivial improvements on real-world datasets. 
+
+Meta-reviewer: That's fair. Reviewer 2 had some specific questions about the paper. Can you provide any additional information that might help answer those questions?
+
+Dialogue Agent: Reviewer 2 wondered why the proposed model was compared to MQCNN instead of MQRNN, which should have been the baseline. The authors didn't provide a reason for this choice. Reviewer 2 also questioned the contribution of the positional encoding method and the horizon-specific encoding, which they felt was not as useful as DeepAR's parametric method. Additionally, they noted that the paper lacked clarity in some areas, including experiment setup and model specification.
+
+Meta-reviewer: I see. And what did Reviewer 3 think of the paper?
+
+Dialogue Agent: Reviewer 3 suggested rejecting the paper since they felt that it did not exhibit significant quantitative improvement, improved simplicity over alternative methods, or speed up, and that the contribution was undermined by several weak points. They also had some additional questions and feedback about the paper that they provided.
+
+Meta-reviewer: Okay, thank you for summarizing the reviews for me. Can you give me your assessment of the paper's reviews and your level of confidence in the evaluations?
+
+Dialogue Agent: Reviewer 1 rated the paper a 6, which is marginally above the acceptance threshold, and expressed confidence in their evaluation. Reviewer 2 also rated the paper a 6, but had some reservations and was only fairly confident in their evaluation. Reviewer 3 rated the paper a 5, which is marginally below the acceptance threshold, and was also fairly confident in their evaluation. 
+
+Meta-reviewer: Thank you. Based on the reviews and your summary, it seems like the paper has some weaknesses but some potential as well. I'll take all of this into consideration when making my decision.

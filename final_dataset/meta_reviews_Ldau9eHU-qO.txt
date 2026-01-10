@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews on the paper titled "Learning from Demonstration with Weakly Supervised Disentanglement". Can you provide some background information about the paper and its proposed method?
+
+Dialogue agent: Certainly. The paper proposes a technique that uses latent variables to learn from demonstrations with weak or no labels. It models the uncertainty over a group of class labels that could describe the task and disentangles the human provided labels from the observations. By doing so, it can handle weak labels or multiple non-conflicting labels. The method was applied to a task where a human would teleoperate a robot arm. The results show that the models using weak labeling out-performed models with no labeling.
+
+Meta-reviewer: That sounds interesting. What can you tell me about the experimental evaluation?
+
+Dialogue agent: The paper compares the methodology with three different off-the-shelf models for implementing the inference networks and compares each with and without weak labels (baseline). The authors demonstrate that the conditional latent variable models can learn disentangled low dimensional representations using weak supervision. However, Review 2 suggests that the paper could improve the evaluation by probing the styles, strengths, quality, and modality of the supervision used. Review 3 suggests that the paper needs to present real robot results and cover related work in more detail.
+
+Meta-reviewer: So, Review 2 and 3 have some reservations. How did they rate the paper?
+
+Dialogue agent: Review 2 and 3 both rated the paper a 7, which indicates that the paper is good enough to be accepted, but with some reservations.
+
+Meta-reviewer: I see. Can you tell me more about the confidence level of Review 1?
+
+Dialogue agent: Review 1 rated the paper a 7 and is fairly confident in their evaluation, with a confidence level of 3 out of 5.
+
+Meta-reviewer: Thank you for the information. Based on these reviews, I am still unsure whether to accept or reject the paper. Can you provide any additional insights that might help me make a decision?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can tell you that the paper presents a novel solution to the problem of user-provided labels and does a good job of comparing the methodology with several off-the-shelf models. Additionally, the paper demonstrates that weak labels can out-perform models with no labeling in certain circumstances. On the other hand, the paper could benefit from improving the experimental evaluation by considering the styles, strengths, quality, and modality of supervision used and presenting real robot results.

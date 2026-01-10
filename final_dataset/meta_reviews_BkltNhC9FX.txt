@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Posterior Attention Models for Sequence to Sequence Learning":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Posterior Attention Models for Sequence to Sequence Learning". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a new sequence-to-sequence model that incorporates posterior attention, which allows the model to capture the dependencies between different attention steps and output variables. This leads to improved performance compared to existing soft attention models.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. Can you tell me more about the prior and posterior attention distributions?
+
+Dialogue Agent: Certainly! The authors define prior attention as the distribution over the attention variables at the previous time step, and posterior attention as the distribution over the attention variables at the current time step. They use these attention distributions to compute the prior and posterior probabilities of each attention step.
+
+Turn 3:
+Meta-Reviewer: I see. And how do the authors compute the prior and posterior attention distributions?
+
+Dialogue Agent: The authors use a dynamic program to compute the prior and posterior attention distributions. They first define a set of tractable terms at each timestamp, and then use these terms to compute the attention distributions.
+
+Turn 4:
+Meta-Reviewer: I see. Can you tell me more about the experimental results of the paper?
+
+Dialogue Agent: Sure! The authors conduct extensive experiments on five machine translation tasks and one morphological inflection task. They show that their proposed model outperforms existing soft attention models and provides more accurate predictions. They also conduct further experiments to analyze the effectiveness of the proposed model.
+
+Turn 5:
+Meta-Reviewer: That's great. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: Sure! The authors highlight the strengths of their proposed model, including its ability to capture the dependencies between different attention steps and output variables. However, they also note that the paper has some limitations, such as the lack of clear connections to related models and the need for further ablation experiments to fully evaluate the effectiveness of the proposed model.
+
+Turn 6:
+Meta-Reviewer: Thank you for your help! Based on our conversation, I think I have a good understanding of the paper and its contributions.
+
+Dialogue Agent: You're welcome! I'm glad I could help. If you have any more questions or need further clarification, please don't hesitate to ask.

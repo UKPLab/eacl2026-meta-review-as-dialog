@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, I'm the meta-reviewer assigned to review your paper on "Unsupervised Document Representation using Partition Word-Vectors Averaging". Can you give me a brief overview of the paper and its contributions?
+
+Dialogue Agent: Sure. Our paper proposes a method to estimate document embeddings that makes use of the topic of each word. We demonstrate the effectiveness of our method across a range of tasks and show that it outperforms several strong baselines.
+
+Meta-Reviewer: Thank you. I have read the reviews provided by the reviewers, and I have some questions that I would like to ask you. Reviewer 1 mentioned that the authors didn't compare the proposed method against topic models in the related work. Can you provide some information about this?
+
+Dialogue Agent: We are aware of the comparison with topic models, but we chose not to include it in this paper due to space constraints. However, we plan to explore this comparison in future work.
+
+Meta-Reviewer: I see. Reviewer 2 mentioned that a similar method has already been proposed by Mekala et al. and that the novelty of the paper is not enough to justify its acceptance at the conference. Can you respond to this?
+
+Dialogue Agent: While the method proposed by Mekala et al. and our method share some similarities, there are several key differences. For example, we use sparsity method K-SVD to define the topics while Mekala et al. use GMM. We believe our approach has some conceptual and methodological advantages over Mekala et al. and we demonstrate this through our experiments.
+
+Meta-Reviewer: I understand. Reviewer 3 asked two questions, one about the sensitivity of the method to a change in the number of topics and another about providing the standard deviation in addition to the average performance. Can you respond to these questions?
+
+Dialogue Agent: Regarding the sensitivity of the method to a change in the number of topics, we plan to explore this in future work. We also appreciate the suggestion to provide the standard deviation in addition to the average performance and will update our results accordingly.
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your responses, I would like to ask about your confidence level in the evaluations provided by the reviewers.
+
+Dialogue Agent: We believe that the evaluations provided by the reviewers are generally accurate, but we also see some areas where there might be room for interpretation. The confidence levels of the reviewers are generally consistent with the quality of their evaluations.
+
+Meta-Reviewer: Thank you for your honesty. Based on your responses and the reviews, I have decided to accept your paper for the conference. However, I suggest that you address the quibbles and major concerns mentioned by the reviewers to improve the paper's quality. Congratulations on your acceptance!

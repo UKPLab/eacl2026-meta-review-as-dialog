@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hi there! I'm reviewing a paper about a hybrid model-free and model-based RL agent for navigation. The title is "Learning and Planning with a Semantic Model". Can you tell me about the main contributions of this paper?
+
+Dialogue Agent: Sure! The main contributions of this paper are the proposal of a hybrid model-free and model-based RL agent for the task of navigation, and the integration of semantic knowledge into the agent's decision-making process. The proposed method has been tested in the House3D environment for the task of RoomNav, where the goal is to navigate towards a certain room.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. I see that the reviews are mixed, with one reviewer giving a rating of 4: Ok but not good enough - rejection, and another reviewer giving a rating of 7: Good paper, accept. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: Sure! The strengths of the paper include the integration of semantic knowledge into the agent's decision-making process, which allows for more effective navigation in unseen environments. Additionally, the proposed method has been tested in a challenging environment, the House3D environment, and has achieved good results. However, one weakness of the paper is that the experiment results are based on groundtruth room information, which may not be generalizable to other environments. Additionally, the paper does not include a termination action, which may limit the effectiveness of the proposed method.
+
+Turn 3:
+Meta-reviewer: I see. Can you tell me more about the experimental results? I'm particularly interested in the success rate and episode length of the proposed method.
+
+Dialogue Agent: Sure! The success rate of the proposed method is 66.4%, while the episode length is 5.84. However, it's worth noting that the experiment results are based on groundtruth room information, which may not be generalizable to other environments. Additionally, the paper does not include a termination action, which may limit the effectiveness of the proposed method.
+
+Turn 4:
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, I'm considering a rating of 5: Marginally below acceptance threshold. Can you tell me more about the fairness of the review, success rate is not sufficient to evaluate navigation agents. A random agent can achieve 100% success if it is given enough time. So it is totally fair to ask for a metric (such as SPL) that is a function of both success rate and episode length.
+
+Dialogue Agent: Yes, that's a good point. The success rate is not a sufficient metric to evaluate navigation agents, as a random agent can achieve 100% success if it is given enough time. Additionally, the proposed method has a low SPL number, which may indicate that the agent has not learned much. However, it's worth noting that the gap between success rate and SPL numbers is large, which may indicate that the agent has learned something, but not enough to be considered effective.

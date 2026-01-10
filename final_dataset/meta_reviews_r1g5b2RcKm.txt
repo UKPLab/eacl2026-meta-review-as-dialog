@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am in charge of making the final decision on the paper titled "MLPrune: Multi-Layer Pruning for Automated Neural Network Compression." I have received three reviews and I want to discuss them to decide whether to accept or reject the paper. Can you provide me with some information based on the reviews?
+
+Dialogue agent: Sure, meta-reviewer. I can provide you with information based on the reviews, but I cannot provide you with my opinion or recommendation.
+
+Meta-reviewer: I understand. Let's start with review 1. The main concerns raised in this review include the fact that the paper's experiments are conducted on small datasets and non-current networks, compute time is not provided, and the paper's claims about being able to address multiple layers at the same time are not compared to first-order methods. Can you tell me more about that?
+
+Dialogue agent: According to review 1, the authors have not compared their approach to first-order methods which can also address multiple layers at the same time. In addition, the reviewer thinks that the experiments conducted on small datasets and non-current networks are not reflective of the current state-of-the-art. The reviewer is also interested in the computation time and suggests comparing the approach to the newer methods that can perform pruning during training. 
+
+Meta-reviewer: I see. Moving on to review 2. According to this review, the MLPrune method firstly pre-trains a network and then uses K-FAC to approximate the Fisher matrix, which approximates the exact Hessian matrix of training loss w.r.t model weights. The connections from all layers with the smallest loss increments are pruned, and the network is retrained to the final model. The strengths of the paper include the well-written and clear paper and the method's theoretical soundness, while concerns are around method efficiency and complexity. Can you tell me more about that?
+
+Dialogue agent: According to review 2, while the proposed method has shown good results, its efficiency and complexity have not been established. Furthermore, the reviewer is skeptical about the practical benefits of the method's approach to compression rates.
+
+Meta-reviewer: I see. Finally, review 3 mentions that the novelty of the approach is limited, and the reviewer is not convinced about the actual benefits of the approach in practice. Can you tell me more about that?
+
+Dialogue agent: According to review 3, while the proposed method does not require hyperparameters and yields higher compression rates than other pruning strategies that act on individual parameters, there are concerns about the novelty of the paper's approach and the actual practical benefits of the method.
+
+Meta-reviewer: Thank you for the information. Based on these reviews, what is your recommendation?
+
+Dialogue agent: I cannot recommend acceptance or rejection of the paper, as per my programming. However, I would suggest you take into consideration the concerns raised about the paper's novel contribution, the small datasets and non-current networks used in the experiment, the lack of computation time information, and the issues raised around the approach's practical benefits.

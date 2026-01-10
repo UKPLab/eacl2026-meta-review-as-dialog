@@ -1,0 +1,25 @@
+Meta-reviewer: Thank you for providing your reviews. Based on these reviews, I am now considering whether to accept or reject the paper titled "BiToD: A Bilingual Multi-Domain Dataset For Task-Oriented Dialogue Modeling." To start off, I have a question for the dialogue agent. What can you tell me about the paper's type?
+
+Dialogue Agent: The paper is classified as "long" according to the information provided to me.
+
+Meta-reviewer: Thank you. Reviewer 1 provided a positive evaluation, highlighting the importance of the dataset and the authors' implementation of several classes of baselines. However, they also expressed concerns about the need for comparison with other multilingual dialog datasets and models beyond English and Chinese, and the need for more discussion regarding the annotation process. Reviewer 1 rated the paper below the acceptance threshold, with a moderate level of confidence in their evaluation. Do you have any additional information that might address their concerns?
+
+Dialogue Agent: I do not have any additional information that directly addresses the concerns raised by Reviewer 1, but I can provide more details about the dataset and the authors' experiments if that would be helpful.
+
+Meta-reviewer: Yes, that would be great. Can you also tell me about Reviewer 2's evaluation and the questions they raised?
+
+Dialogue Agent: Reviewer 2 gave the paper a positive evaluation, rating it as "good" and recommending acceptance. However, they raised several questions about the dataset, such as the possibility of obtaining a baseline performance based on machine translation and visualizations of model predictions. They also asked about the upper bound of model and human performance, as well as cross-domain transferability. Finally, they asked about the point at which a model trained using cross-lingual transfer would achieve comparable performance to a model trained using full English data under monolingual setting.
+
+Meta-reviewer: Thank you for summarizing Reviewer 2's evaluation and questions. Finally, can you tell me about Reviewer 3's evaluation?
+
+Dialogue Agent: Reviewer 3 also gave a positive evaluation, rating the paper as "good" and recommending acceptance. They acknowledged the paper's contributions, such as the creation of a bilingual multi-domain dataset and the provision of useful baselines. However, they raised concerns about the limited variability compared to natural language dialogue patterns and the absence of previous theoretical work on dialogue in theoretical and computational linguistics. They suggested that the authors provide clearer definitions of dialogue and multi-domain, as well as discuss the issue of dialogue patterns found in the dataset and why common features found in spontaneous dialogue are not present.
+
+Meta-reviewer: Thank you for providing a summary of Reviewer 3's evaluation. Based on all three reviews, it seems that the paper presents an important contribution to the community, especially with regards to the dataset and baselines. However, there are also concerns raised about the limitations of the dataset and the need for more information regarding the annotation process. Given that the paper is classified as "long," I would like to know how much space the authors devoted to addressing these concerns.
+
+Dialogue Agent: According to my records, the authors did address some of these concerns, such as the issue of code-switching and the sound collection procedure, but there may be room for more discussion. I can provide the exact word count if that would be helpful.
+
+Meta-reviewer: Yes, please provide that information. Based on all of this, I am still uncertain about whether to accept or reject the paper. Can you provide any additional information that might help me decide?
+
+Dialogue Agent: I do not have any additional information at this time, but perhaps it would be helpful to consider the level of confidence exhibited by each of the reviewers in their evaluations. Reviewer 1 expressed moderate confidence, while Reviewers 2 and 3 expressed higher levels of confidence in their evaluations.
+
+Meta-reviewer: That is a good point. Thank you for bringing it up. Based on all of the information provided, I have decided to accept the paper. However, I strongly recommend that the authors address the concerns raised by the reviewers and provide more information about the annotation process and comparison with other multilingual dialog datasets and models.

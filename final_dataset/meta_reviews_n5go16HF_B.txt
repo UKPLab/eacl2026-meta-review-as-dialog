@@ -1,0 +1,23 @@
+Meta-reviewer: Thank you for your reviews. Based on your comments, I have some questions for the dialogue agent. 
+
+Dialogue Agent: Sure, I am here to help and answer your questions to the best of my ability.
+
+Meta-reviewer: Review 1 points out that the authors should provide justification for choosing to use AAE in their work. Can you confirm if the authors explain the choice in their paper?
+
+Dialogue Agent: Yes, the authors do mention why they chose AAE and how it is suitable for MTPP. Specifically, they mention that AAE has shown good performance in handling data that is high dimensional and incomplete. They also highlight how AAE can provide more robustness compared to other generative models when applied to limited amounts of data.
+
+Meta-reviewer: Thank you. Review 2 questions the use of “incomplete model” in the paper's context. Can you provide an explanation for this?
+
+Dialogue Agent: The paper does not claim to be about an "incomplete model." The phrase "incomplete and sparse dataset," on the other hand, describes the nature of the dataset used for training the proposed model. The authors apply their proposed method to tackle the challenge of generating data for multi-category marked temporal point processes with missing values in the dataset.
+
+Meta-reviewer: Excellent. Review 3 is concerned about the contribution of the work. Can you explain the unique aspects of this paper that distinguish it from previous studies?
+
+Dialogue Agent: The authors propose a novel method of generating data for multi-category marked temporal point processes that addresses the challenges of sparse, incomplete, and small training datasets. They combine the use of adversarial autoencoder (AAE) and feature mapping techniques to achieve this. While the AAE part is not new, the feature mapping part is novel and adapted to the context of MTPP generation. The authors show that their proposed method outperforms a Markov chain approach when evaluated on three datasets.
+
+Meta-reviewer: Thank you for the clarification. Review 1 also suggests that the authors could provide more details on incomplete and small datasets and compare their method when training with full data. Do the authors discuss this in the paper?
+
+Dialogue Agent: The authors do not explicitly provide a comparison between their proposed method when trained on a complete dataset versus an incomplete one. However, they address the issue of incomplete data explicitly by showcasing their proposed method's effectiveness in generating data for MTPP when there are missing values.
+
+Meta-reviewer: Great. Review 3 raises concerns about some of the notations used in the paper. Are the notations used in the paper clear and consistent?
+
+Dialogue Agent: The notations used in the paper could have been clearer, as Review 3 points out. However, the authors do define their notations and provide explanations for them. In general, they are consistent in their use of notation throughout the paper.

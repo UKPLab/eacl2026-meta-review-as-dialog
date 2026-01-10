@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Preservation of the Global Knowledge by Not-True Distillation in Federated Learning":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Preservation of the Global Knowledge by Not-True Distillation in Federated Learning". Can you tell me a little bit about the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper addresses the problem of knowledge forgetting in federated learning, where the global model forgets the knowledge from previous rounds when aggregating clients' locally trained models. The authors propose a novel and simple algorithm called Not-True Distillation to mitigate the forgetting of knowledge. The algorithm adds a term to the training loss that penalizes the discrepancy of the predicted class distribution between the local model and the global model, considering all but the ground-truth class.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the novelty of the paper and its strengths?
+
+Dialogue Agent: The paper makes a lot of analysis on forgetting in federated learning, and the main strength of the algorithm is that there is no need to use additional auxiliary data during distillation. The paper is well written and easy to read, and the authors study the problem of forgetting in a thorough and well-motivated manner.
+
+Turn 3:
+
+Meta-Reviewer: What about the weaknesses of the paper and the limitations of the proposed method?
+
+Dialogue Agent: The novelty of the paper is limited, and distillation on the client side may limit the model's learning from local data on the clients. The authors only use the Not-True classes for distillation, and it is unclear whether the proposed method can be applied to other types of federated learning.
+
+Turn 4:
+
+Meta-Reviewer: How does the paper compare to other papers in the field, and what is the final decision on accepting or rejecting the paper?
+
+Dialogue Agent: The paper is technically solid and has a high impact on at least one sub-area of federated learning, but the novelty is limited. The authors are aware of the limitations of the proposed method and provide a thorough analysis of the problem. Based on the reviews, the final decision is to accept the paper with minor revisions.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. I will consider the reviews and the final decision when making my own decision on the paper.
+
+Dialogue Agent: You're welcome! If you have any further questions or need additional information, please don't hesitate to ask.

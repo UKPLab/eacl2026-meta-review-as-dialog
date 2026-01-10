@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi there, I'm reviewing a paper about exploiting cross-lingual subword similarities in low-resource document classification. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for transferring document classifiers between related languages by exploiting cross-lingual subword representations in a cross-lingual embedder. The approach is evaluated using several combinations of source and target languages.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I'm concerned about the lack of exploration of the dimension of (dis)similarity in the paper. How does the model perform when similarity decreases across language pairs in the transfer?
+
+Dialogue Agent: The paper currently offers a rather biased view of the performance of the model, as it only provides results for closely related language pairs. However, the authors do note that the approach breaks down when the similarity between the source and target languages decreases (as shown in Table 5 in the appendix).
+
+Turn 3:
+
+Meta-Reviewer: I see. I also have some concerns about the experimental setup of the paper. The authors only use a single source language and target language for their experiments, and I would have liked to see more comprehensive testing with multiple language pairs.
+
+Dialogue Agent: I understand your concerns. The authors do perform a large number of empirical experiments to analyze different aspects and the benefits of different target-language resources for multi-task learning. However, it is possible that the application of the model to document classification is not novel, as the model itself and the components are well-established.
+
+Turn 4:
+
+Meta-Reviewer: That's a good point. I think the paper could benefit from more experiments to address the novelty concern. Additionally, I would like to see more insights and explanations for the results, such as why the gains are better for some language pairs and why there is asymmetry in the results regarding direction of transfer.
+
+Dialogue Agent: I agree that the paper could benefit from more experiments and explanations. The authors do provide a clear and precise description of the model in Section 2, and the proposed approach is simple yet shows good performance compared to models trained on corpora and dictionaries in the target language. However, the application of the model to document classification seems to be new, and the model itself and the components are well-established, which raises a concern about novelty.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I am leaning towards rejecting the paper. However, I would like to hear your final assessment before making a decision.
+
+Dialogue Agent: Based on the reviews, the paper has some strengths, such as a well-written paper with a clear and precise description of the model, and good performance compared to models trained on corpora and dictionaries in the target language. However, the paper also has some weaknesses, such as a lack of exploration of the dimension of (dis)similarity and a limited experimental setup. Overall, I would rate the paper as marginally above the acceptance threshold, with a confidence level of 3.

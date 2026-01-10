@@ -1,0 +1,15 @@
+Meta-reviewer: Hello dialogue agent, I am reviewing the paper titled "Adversarially Robust Training through Structured Gradient Regularization". Can you tell me, based on the reviews, what are the main concerns and criticisms about the paper's approach?
+
+Dialogue agent: Sure. Based on the reviews, some of the main concerns include the lack of clear advantages of the proposed method over standard methods, the insufficient evaluation of whitebox robustness, and the need for reporting individual accuracies and commonly used epsilons in the experiments. There are also questions about the motivation and Bayes optimal assumption, the use of centered or uncentered adversarial examples in the experiments, and the idea of LRC attack.
+
+Meta-reviewer: I see. Can you tell me more about the concerns regarding whitebox robustness and the need for reporting individual accuracies and commonly used epsilons in the experiments?
+
+Dialogue agent: Review 1 notes that the authors do not clearly illustrate what the advantage of their method over standard methods is and that it is not clear that this paper met the objectives laid out in the introduction. Review 2 also points out that the reported accuracies are averaged over different epsilons which makes it hard to compare with previous papers and suggests the need for reporting commonly used epsilons in the literature. Additionally, Review 2 questions the whitebox robustness evaluation and recommends using PGD with 100 iterations and 50 random starts for discovering true robustness.
+
+Meta-reviewer: Thank you for explaining that. Is there any comment on the idea of LRC attack or the motivation and Bayes optimal assumption?
+
+Dialogue agent: Yes, Review 1 finds the observation on transfer attacks interesting and asks if the authors have any insight as to why PGD attacks from SGR/GN models are better than PGD models. Review 3 questions the idea of LRC attack and asks for more explanation of the periodic patterns in the covariance matrices. Review 3 also points out that the Bayes optimal assumption seems to be arbitrary and asks if the authors can explain why we should worry about adversarial examples if \phi is nearly Bayes-optimal.
+
+Meta-reviewer: I see. Based on these concerns, do you think the paper should be accepted or rejected?
+
+Dialogue agent: Based on the reviews, it seems that the paper has several major flaws in different aspects including the motivation, method, evaluation, and analysis. Review 1 and 2 rate the paper as "Ok but not good enough - rejection" and Review 3 rates it as "Clear rejection". Therefore, it is up to your decision whether to accept or reject the paper, but I suggest considering the reviewers' concerns and limitations in the paper before making a decision.

@@ -1,0 +1,19 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Real-Valued Backpropagation is Unsuitable for Complex-Valued Neural Networks":
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Real-Valued Backpropagation is Unsuitable for Complex-Valued Neural Networks". Can you help me understand the main findings of the paper?
+
+Dialogue Agent: Certainly! The paper shows that real-valued backpropagation is not suitable for complex-valued neural networks, and that the neural tangent kernel (NTK) of complex-valued networks trained via real-valued backpropagation reduces to a real NTK under certain conditions on the activation function.
+
+Meta-Reviewer: That's interesting. Can you tell me more about the theoretical findings in the paper?
+
+Dialogue Agent: Sure! The paper derives the equation for the NTK of complex-valued neural networks trained via real-valued backpropagation, and shows that the NTK in the infinite-width limit is the same as that of a real-valued neural network. The results are based on a series of papers that build the foundations for understanding wide neural networks.
+
+Meta-Reviewer: I see. What are the limitations of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the major limitation of the paper is that the theoretical findings may have limited practical value due to the fact that neural networks are often trained with a relatively large learning rate for a sufficiently large number of iterations, which means that the working regime of neural networks is actually not NTK. Additionally, the paper does not provide empirical studies to corroborate the theoretical findings.
+
+Meta-Reviewer: I understand. What is the rating and confidence level of the reviewers?
+
+Dialogue Agent: According to the reviews, the rating of the paper is 5: Borderline accept, and the confidence level is 3: You are fairly confident in your assessment. It is possible that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.
+
+Meta-Reviewer: Thank you for the information. Based on the dialogue, I will consider the paper's technical strength, impact, and practical value when making my decision.

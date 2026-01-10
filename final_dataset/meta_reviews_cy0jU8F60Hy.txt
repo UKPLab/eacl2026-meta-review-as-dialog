@@ -1,0 +1,37 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper called "ACT: Asymptotic Conditional Transport" and I'd like your help in evaluating it. Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new divergence measure for generative models called Asymptotic Conditional Transport (ACT). It's based on the idea of learning a conditional transport plan to transform one distribution into another.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the main advantages of this new divergence compared to existing ones like Kullback-Leibler (KL) and Wasserstein?
+
+Dialogue Agent: The ACT divergence is more suitable for learning deep generative models because it does not require the learned function to be 1-Lipschitz, unlike Wasserstein. Additionally, the ACT divergence provides unbiased gradients that do not require the critic to reach optimality.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you explain the distinction between $d(x,y)$ and $c(x,y)$ in the paper?
+
+Dialogue Agent: Sure! $d(x,y)$ is part of the "navigator" $\pi(x | y)$ - an energy-based conditional probability, while $c(x,y)$ is the point-to-point transport cost. The CT is low when $c(x,y)$ and $d(x,y)$ are positively correlated.
+
+Turn 4:
+
+Meta-Reviewer: I'm still not fully clear on how $d$ and $c$ fit into the generator-critic GAN scheme. Can you explain?
+
+Dialogue Agent: Sure! The forward and backward navigators are part of the critic in the GAN scheme. The forward navigator models the conditional transport plan to transform the generator distribution into the target distribution, while the backward navigator models the inverse transport plan to transform the target distribution into the generator distribution. The CT is used as the objective function for the generator and the critic.
+
+Turn 5:
+
+Meta-Reviewer: I see, thank you for clarifying. Can you address some of the open questions I have about the paper?
+
+Dialogue Agent: Sure! The authors have answered most of your questions in the paper. However, to address the open questions, the authors could provide more figures showing the trained elements in ACT compared to the trained elements in WGAN, and clarify the distinction between the forward and backward navigators. Additionally, the authors could discuss the difference in principle between the proposed ACT and OT-GAN and MMD-GAN.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your help! Based on our conversation, I would rate this paper as marginally above acceptance threshold with a confidence level of 3.
+
+Dialogue Agent: You're welcome! Based on our conversation, I would rate this paper as marginally above acceptance threshold with a confidence level of 4.

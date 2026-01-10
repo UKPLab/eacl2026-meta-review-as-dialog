@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, can you tell me about the paper's main contribution and how it differs from previous work?
+
+Dialogue Agent: The paper introduces a method called Anderson Mixing for accelerating value iteration in Markov Decision Processes. The method replaces the policy evaluation step with a smaller linear equation that finds a linear combination of a few historical values to represent the value of the current policy. The paper also extends the method to DQN and shows acceleration. As for differentiation from previous work, the authors claim that this is the first attempt at using Anderson Mixing in the MDP framework.
+
+Meta-Reviewer: How convincing are the experiments presented in the paper?
+
+Dialogue Agent: Review 1 describes the experiments as convincing and interesting. However, Review 3 finds the numerical examples weak, with only 3 games tested, and the results not that strong. Also, in Figure 3, it's not clear what the 'Time' axis represents.
+
+Meta-Reviewer: What are the concerns raised in the reviews?
+
+Dialogue Agent: Review 1 raises two concerns. Firstly, in section 4, the convergence proof only shows contraction is gamma, the same as the original VI. Secondly, the dependence on k has not been studied, and k actually critically affects the time complexity. Review 2's main concern is that extending this technique to the deep setting may involve serious interference with other mechanisms already at play. Review 3 is not sure if the paper is ready for publication, with the main contribution appearing to be the DA2Q algorithm, and the numerical examples weak.
+
+Meta-Reviewer: How confident are the reviewers in their evaluations?
+
+Dialogue Agent: Review 1 is confident but not absolutely certain, and Review 2 is fairly confident in their evaluation. Review 3, on the other hand, is not as confident about the paper's readiness for publication.
+
+Meta-Reviewer: Given the reviews, what is your recommendation regarding accepting or rejecting the paper?
+
+Dialogue Agent: Review 1 recommends accepting the paper with a rating of 7. Review 2 recommends rejecting the paper, and Review 3 also recommends rejection. Both give a rating of 4. However, it's up to you as the meta-reviewer to weigh the importance of reviewer confidence in making the final decision.

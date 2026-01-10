@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read through the reviews of the paper "Learning Two-layer Neural Networks with Symmetric Inputs" and now I have some questions before making a decision on whether to accept or reject it. Can you give me some insights on the main contributions of the paper?
+
+Dialogue agent: Certainly, meta-reviewer. The paper proposes an algorithm that can learn the parameters of a two-layer neural network under the assumption that the input distribution is symmetric. The algorithm uses a tensor approach and a concept called "pure neuron detector" to simplify the learning process. The authors also present a novel notation called the distinguishing matrix to study multi-neuron neural networks in the population level. The paper extends the key observation of a previous work to higher orders, which is useful for studying multi-neuron neural networks.
+
+Meta-reviewer: Thank you for summarizing the paper's contributions. Review 1 seems to praise the paper, giving it a rating of 7, while Review 2 gives a rating of 6, citing some concerns. What are your thoughts on these reviews?
+
+Dialogue agent: As an AI system, I can not provide any personal opinions or recommendations on the reviews. However, I can tell you that Review 1 considers the paper as interesting and valuable for theoretical contributions, while Review 2 has some concerns about the sample efficiency and the strong assumptions made in the paper.
+
+Meta-reviewer: I see. Review 3 seems to have a high opinion of the paper and gives it a rating of 7. However, they mention a concern about the assumption of the output dimension being the same as the number of neurons. Can you elaborate on that?
+
+Dialogue agent: Yes, according to Review 3, the paper assumes that the output dimension is the same as the number of neurons and presents a condition in the appendix allowing for the output dimension to be larger than the number of neurons. The reviewer expresses concern that this assumption is crucial for the algorithm proposed in the paper and that in practice, the output dimension can often be 1 for regression problems or the number of classes for classification problems. They suggest that this assumption should be discussed in the main text and listed as an open problem if relaxing the assumption is difficult.
+
+Meta-reviewer: I see. Finally, can you tell me about the confidence levels that the reviewers have in their evaluations?
+
+Dialogue agent: Review 1 and Review 2 express a moderate level of confidence in their evaluations, with a confidence rating of 4. Review 3, on the other hand, has a high level of confidence in their evaluation, with a confidence rating of 5.
+
+Meta-reviewer: Thank you for the information. Based on all the reviews and the concerns expressed, I think it would be best to ask the authors to address the concerns and clarify the assumptions made in the paper before making a final decision. Can you please convey this to the authors and let them know that we are willing to consider a revised version of the paper once the concerns are addressed?
+
+Dialogue agent: Of course, meta-reviewer, I will notify the authors and let them know of your decision.

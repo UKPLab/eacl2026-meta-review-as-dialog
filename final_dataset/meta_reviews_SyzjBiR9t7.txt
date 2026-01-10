@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "MANIFOLDNET: A DEEP NEURAL NETWORK FOR MANIFOLD-VALUED DATA":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "MANIFOLDNET: A DEEP NEURAL NETWORK FOR MANIFOLD-VALUED DATA". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: Sure! The main contribution of this paper is the proposal of a deep neural network called ManifoldNet, which generalizes convolutional neural networks (CNNs) to data residing on Riemannian manifolds.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about how the authors propose to use weighted Frechet means (wFM) instead of convolutional layers?
+
+Dialogue Agent: Yes, the authors propose to use wFM as a generalization of convolutional layers for manifold-valued data. wFM is a computation of the weighted average of a set of points on a manifold, which is shown to be equivariant to isometric group actions.
+
+Meta-Reviewer: I see. But how does this improve the performance of the network?
+
+Dialogue Agent: The authors propose that the use of wFM allows for a more flexible and efficient way of processing data on manifolds, as it can capture more complex relationships between data points. Additionally, the use of wFM can help to reduce the computational cost of processing data on manifolds, as it avoids the need for explicit convolutional layers.
+
+Meta-Reviewer: I see. But what about the reviewers' comments? Some of them mention that the paper is not well written and that the contribution is not clear.
+
+Dialogue Agent: Yes, some reviewers have mentioned that the paper is not well written and that the contribution is not clear. However, the authors have provided a clear and concise summary of their main contribution and the advantages of their proposed method. Additionally, the authors have provided a detailed description of their method and its applications, which can help to address some of the reviewers' concerns.
+
+Meta-Reviewer: Okay, I think I understand the main contribution of the paper and the reviewers' comments. Can you help me understand the final decision on the paper?
+
+Dialogue Agent: Sure! Based on the reviewers' comments and the authors' response, the final decision on the paper is [insert decision here, e.g. "rejected" or "accepted with minor revisions"]. The decision is based on a weighing of the importance of the reviewer confidence in the paper's contribution and the authors' ability to address the reviewers' concerns.

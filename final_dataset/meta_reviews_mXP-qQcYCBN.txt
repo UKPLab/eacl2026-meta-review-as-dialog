@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper titled "AutoLink: Self-supervised Learning of Human Skeletons and Object Outlines by Linking Keypoints." Based on these reviews, can you provide me with more information about the paper?
+
+Dialogue Agent: Certainly, meta-reviewer. What would you like to know?
+
+Meta-reviewer: The first review mentions the paper's strengths and weaknesses. Can you summarize them for me?
+
+Dialogue Agent: Of course. According to Review 1, the strengths of the paper include its well-written presentation, the novelty and interest of its ideas, the effectiveness of its self-supervised learning framework, the use of differentiable edge weights, and its impressive experimental results on human skeletons and other object outline datasets. However, Review 1 also noted that the training process should be described in more detail and suggested improving the quality of some of the figures. 
+
+Meta-reviewer: That sounds promising. What does Review 2 say about the paper?
+
+Dialogue Agent: Review 2 also mentions the strengths of the paper, including the simplicity and effectiveness of the self-supervised technique for landmark discovery, the use of a simple masking strategy instead of a separate appearance encoder, the representation of structure with differentiable edge estimation and the state-of-the-art results on face and human datasets. However, Review 2 also remarks that much of the results are shown on 2D-like object images with relatively constrained viewpoint variations and there are no quantitative results on more 3D like object datasets. Review 2 also suggests discussing the limitations of the method and how much camera viewpoint variations the proposed approach can handle across the image collection.
+
+Meta-reviewer: Thank you for summarizing those reviews. What does Review 3 say about the paper?
+
+Dialogue Agent: Review 3 also finds the proposed method new for learning keypoints in a self-supervised way with learned edge weights across keypoints. Review 3 also found the evaluations on a range of datasets and the extensive ablation studies of the method with a range of hyperparameters convincing. However, Review 3 did raise questions about the requirement of objects in the same class for training, how similar the objects need to be, and the usefulness of the extracted keypoints. Review 3 also suggested updating Table 2 with a self-supervised method that achieves comparable results on Human3.6M.
+
+Meta-reviewer: Thank you for summarizing that review. Based on these reviews, what is your opinion on the paper and its rating?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or a recommendation. However, the ratings for the paper are as follows: Review 1 rates the paper as "Strong Accept," with a confidence level of 4. Review 2 rates the paper as "Weak Accept," with a confidence level of 4. Finally, Review 3 also rates the paper as "Weak Accept," with a confidence level of 3.

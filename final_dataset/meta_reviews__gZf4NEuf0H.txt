@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have gone through the reviews for the paper "Towards Understanding the Condensation of Neural Networks at Initial Training," and I have a few questions for you.
+
+Dialogue Agent: Hello, Meta-Reviewer. I'm here to help you with your queries. Please go ahead.
+
+Meta-Reviewer: Review 1 points out that the studied regime might not be interesting. Can you tell me more about that?
+
+Dialogue Agent: Review 1 questions the relevance of the condensed regime studied in the paper to practical settings. The review suggests that while the authors demonstrate that the number of condensed directions is related to the neuronal nonlinearity, it is not clear how this phenomenon is related to generalization and other phenomena of interest later on in training. Furthermore, the suggestion of the paper that condensation reduces overfitting by reducing the number of parameters is not well-supported.
+
+Meta-Reviewer: That's helpful. Review 2 mentions some limitations in the paper. Can you elaborate?
+
+Dialogue Agent: Review 2 raises concerns regarding the motivation and significance of the findings. Although the paper provides some theoretical analysis and experimental support for the phenomenon of condensation during initial training, it doesn't explore the practical implications of this work. The paper also doesn't address why the phenomenon is relevant given that vanishing initialization is not commonly used in practice.
+
+Meta-Reviewer: I see. Review 3 mentions some issues with the writing in the paper. Can you explain that in more detail?
+
+Dialogue Agent: Review 3 notes that while the writing is generally clear, some individual sentences have slight English issues. The review also points out that although the paper provides useful and informative calculations, they should not be referred to as "theorems" as they are not rigorous.
+
+Meta-Reviewer: Thank you for your detailed responses. Based on your understanding of the reviews and the paper type, can you provide any recommendations on whether to accept or reject this paper?
+
+Dialogue Agent: As a dialogue agent, it's not my place to provide opinions or recommendations. However, I can inform you that Review 1 and Review 2 both suggest borderline acceptance for the paper. Review 3 recommends a weak acceptance. In any case, it's important to note that the quality of this paper is technically solid, with no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations.

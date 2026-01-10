@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews of your paper "Understanding the effects of data parallelism and sparsity on neural network training". I have a few questions before making my decision. Can you please tell me more about the missing sparsity level-results, which are mentioned in Review 1?
+
+Dialogue agent: Thank you for your question. Certain sparsity levels are missing from CIFAR-10 and Fashion-MNIST experiments. The authors have acknowledged this and agreed to include the missing results in the revised version of the paper. They have also commented that the missing results are in line with the observed trends in other experiments.
+
+Meta-reviewer: I see. Review 1 also mentioned that the paper makes certain leaps in logic and claims regarding sparsity based on limited evidence. Can you explain a bit more about that?
+
+Dialogue agent: Of course. The paper considers sparsity levels only for 0% and 90% and makes claims about the behavior of sparsity based on experiments considering only these two levels. Review 1 raised valid concerns about not having enough evidence to make generalized statements about the behavior of hyperparameters as a function of sparsity when only considering these two extremes.
+
+Meta-reviewer: That's a valid concern. Review 1 also pointed out that important experimental details and definitions were omitted from the paper. Can you please provide some clarification regarding those?
+
+Dialogue agent: Yes, Review 1 raised several valid points regarding experimental details and definitions. The authors did not provide information about the budget used for the experiments in Figure 3, which is actually a hyperparameter of this experiment. It would be important to see how the trend between complete and incomplete boundary varies when the budget is increased or decreased. Furthermore, the exact definition of "infeasible" in Figure 3 is unclear. Additionally, there seem to be implicit assumptions in Section 4.1 that need to be clear and precise for the theoretical results to hold.
+
+Meta-reviewer: I understand. Review 2 mentioned issues with the x-axis scaling in Figure 1. Can you clarify that?
+
+Dialogue agent: Yes, the x-axis scaling in Figure 1 is different in different diagrams, which makes comparison harder. The authors could consider using a consistent scale for the x-axis in future versions of the paper.
+
+Meta-reviewer: Thank you for your responses. Overall, what is your recommendation based on the reviews?
+
+Dialogue agent: Both Reviewer 1 and Reviewer 3 have given positive evaluations of the paper, and they recommend acceptance. Reviewer 1 has given a rating of 7 out of 10, while Reviewer 3 has given a rating of 7 out of 10 as well. However, Reviewer 2 has given a marginally below acceptance threshold rating of 5 out of 10. So, the decision ultimately rests on your judgment of the importance of the issues raised in the reviews.

@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, I have reviewed the reviews of the paper titled "General Invertible Transformations for Flow-based Generative Modeling". Can the dialogue agent please provide me with some additional information about the paper?
+
+Dialogue agent: Of course, what would you like to know?
+
+Meta-reviewer: Could you tell me what type of paper it is? 
+
+Dialogue agent: Yes, it is a long paper.
+
+Meta-reviewer: Thank you. One of the reviewers has some concerns about the empirical results, citing the small dataset and lack of comparison to well-tuned baselines. Can you provide me with more information on the experiments in the paper?
+
+Dialogue agent: I can provide you with the information presented in the paper. The authors experiment on a dataset of 1797 8x8 images and compare their method against their own implementation of some baselines. However, as the reviewer noted, the authors do not compare their method against well-tuned baselines, and it is difficult to assess how well these have been implemented. 
+
+Meta-reviewer: That's helpful, thank you. Additionally, the second reviewer raises concerns about Proposition 1, which they feel is incomplete. Can you provide me with more context on that?
+
+Dialogue agent: The reviewer believes that it is unclear under which conditions of binary operators and given elements we can design invertible functions, and that completing Proposition 1 by clarifying these conditions would be a valuable contribution. The reviewer also suggests that further research into reversible logic gates could be beneficial, as the paper introduces some new cases but does not specify why they are special cases.
+
+Meta-reviewer: I see. Finally, the third reviewer has some minor comments and questions about the experiments. Can you provide me with some elaboration on those?
+
+Dialogue agent: The reviewer has questions about the limitations of the proposed flows, as they seem to require a minimum input dimensionality of 4 and 8 respectively. The reviewer also suggests using Binarized-MNIST instead of a downsampled version and encourages the authors to use the IWAE bound. Additionally, the reviewer suggests comparing the proposed flows to Autoregressive flow or Neural Autoregressive flow and notes some minor issues with notation and citations.
+
+Meta-reviewer: Thank you for the information, it has been very helpful. Based on these reviews, I'm inclined to reject the paper. However, I am concerned about the relatively low confidence ratings of the reviewers. How much should reviewer confidence factor into the final decision?
+
+Dialogue agent: Reviewer confidence is certainly an important factor to take into account, as it can indicate how certain the reviewers are in their evaluations. However, it should also be balanced against the content of the reviews themselves. In this case, the reviewers have raised some valid concerns about the paper that should be addressed.
+
+Meta-reviewer: Understood. Thank you for your assistance. Based on the reviews and your input, I will reject the paper.

@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. I'm reviewing the paper titled "Learning Multi-resolution Functional Maps with Spectral Attention for Robust Shape Matching". Can you tell me more about the reviews?
+
+Dialogue Agent: Sure. There are three reviews for this paper. Review 1 commends the addition of multi-resolution aspects to functional maps and the use of an attention mechanism to select the resolutions. However, it also points out the lack of locality and suggests a different use-case for the supervised setting. Review 2 praises the proposed neural network architecture and its ability to predict a pointwise correspondence between two shapes. However, it also highlights the absence of an analysis of the obtained attention scores in different scenarios and the lack of certain implementation details. Review 3 appreciates the extensive experiments and state-of-the-art performance but raises concerns about the limited novelty of the idea and the little deep dive into the results.
+
+Meta-Reviewer: Thank you for summarizing. Based on these reviews, what is your recommendation for the paper?
+
+Dialogue Agent: Review 1 gave a rating of 7 and accepted the paper while raising some concerns, while Review 2 gave a rating of 7 and accepted the paper while highlighting some issues. Review 3 gave a rating of 6 and suggested a weak accept. Taking into account the concerns raised by all three reviews, it would be reasonable to give a weak accept rating considering the technical solidity of the paper and its moderate-to-high impact with no major ethical concerns. However, the decision is yours.
+
+Meta-Reviewer: I appreciate your objective response. Can you tell me more about the confidence levels of the reviewers?
+
+Dialogue Agent: Review 1 was confident with a rating of 4, while Review 2 was absolutely certain with a rating of 5. Review 3 was confident with a rating of 4. 
+
+Meta-Reviewer: Thank you for the information. I think I should consider Review 2's high confidence in my decision. I'll accept the paper with minor revisions and ask the authors to address the concerns raised by the reviewers. Thanks for your help, dialogue agent.
+
+Dialogue Agent: You're welcome, meta-reviewer. I'm glad I could assist you.

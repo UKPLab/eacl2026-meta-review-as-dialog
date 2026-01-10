@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "FEVEROUS: Fact Extraction and VERification Over Unstructured and Structured information". Can you provide a summary of the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper introduces a new dataset and benchmark called FEVEROUS, which consists of more than 87k claims. The authors propose a new fact verification task that combines both structured and unstructured data from Wikipedia, and provide a professional data collection pipeline. The paper also develops different bias mitigation strategies and baselines using text-only and table-only algorithms. The experimental results show that the combined model performs better than the individual models on the proposed dataset.
+
+Turn 2:
+
+Meta-Reviewer: Great, that sounds like a valuable contribution to the field. Can you tell me more about the dataset and how it was collected?
+
+Dialogue Agent: Certainly! The dataset is collected by taking into account both the crawled text and table from Wikipedia with their self-built WikiMedia interface. The authors use highlighting to help the annotators annotate diverse and grounded claims. They also develop different bias mitigation strategy to alleviate potential bias introduced in the annotation procedure.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are some of the challenges and limitations of the dataset and the proposed task?
+
+Dialogue Agent: One minor concern is that the paper missed many citations of text+table QA. The authors note that the existing models are still obtaining very low performance due to the challenging nature of reasoning over two forms of data. The model cannot deal with numerical reasoning, does not have a great representation of the table structure, etc. These weaknesses can serve as future research directions for researchers working on this dataset.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I'm considering the paper for acceptance. Can you provide any final thoughts or insights that might influence my decision?
+
+Dialogue Agent: The paper provides a valuable contribution to the field by introducing a new fact verification task that combines both structured and unstructured data from Wikipedia. The proposed dataset is well-documented and provides a professional data collection pipeline. The authors also develop different bias mitigation strategies and baselines using text-only and table-only algorithms. However, the existing models are still obtaining very low performance due to the challenging nature of reasoning over two forms of data.
+
+Output:
+
+Based on the reviews and the dialogue, the meta-reviewer may consider the paper for acceptance, taking into account the paper's contributions, the quality of the dataset, and the challenges and limitations of the proposed task. The final decision may involve weighing the importance of reviewer confidence and the potential impact of the paper on the field.

@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper titled "Generalisation Guarantees For Continual Learning With Orthogonal Gradient Descent." I am going to ask you some questions based on the reviews of the paper.
+
+Dialogue agent: Hello, meta-reviewer. Okay, I will try my best to answer your questions.
+
+Meta-reviewer: Review 1 mentions that the paper's contribution is limited only to the OGD based scheme, which is not strong in practice. Can you please provide some clarification on the practicality and significance of the paper's contribution?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations, but I can explain what the paper provides. The paper presents a theoretical analysis of Continual Learning using Orthogonal Gradient Descent. The paper shows that OGD has better generalization bounds compared to SGD in regression. Additionally, the paper suggests OGD+, which stores some data points from past tasks, and presents experimental results on small benchmark datasets that show OGD+ outperforms SGD and OGD. However, the paper does not compare OGD+ with other Continual Learning algorithms, which Review 2 also mentions as a drawback.
+
+Meta-reviewer: That is helpful. Review 2 mentions that the authors do not compare the OGD+ algorithm with other Continual Learning algorithms. Can you please discuss the authors' justification for not including such a comparison?
+
+Dialogue agent: Again, I cannot provide opinions or recommendations, only what is mentioned in the paper. However, Review 2 does note that the authors do not provide a justification for not including a comparison with other Continual Learning algorithms. Instead, the paper focuses on the theoretical analysis of OGD+ and its generalization bounds using Neural Tangent Kernel.
+
+Meta-reviewer: Understood. Review 3 notes that the paper is difficult to follow and lacks clarity. Can you provide any further elaboration on the clarity of the paper?
+
+Dialogue agent: The paper's lack of clarity is mentioned as a drawback in Review 3. The reviewer notes that NTK and f_t are referred to without proper explanation, and there are many typos and capital letters used inappropriately. Additionally, the reviewer suggests that the paper could have included more evaluation metrics and other methods and datasets to provide a more comprehensive analysis.
+
+Meta-reviewer: Thank you for explaining the reviews. Based on these reviews, I have some concerns about the paper's contribution and clarity. However, I note that Review 2 considers the paper to be above the acceptance threshold. Can you please provide more information on Review 2's evaluation of the paper?
+
+Dialogue agent: Review 2 notes that the paper provides a theoretical analysis of Continual Learning using Orthogonal Gradient Descent and a modification called OGD+. The paper shows that OGD+ performs better than SGD and OGD on small benchmark datasets but does not include comparisons with other Continual Learning algorithms. The generalization bounds presented in the paper are a notable advance, as the Continual Learning problem does not have an extensive theoretical foundation. However, the reviewer notes that the paper's primary drawback is the lack of comparison with other algorithms. The reviewer suggests that it is important to know how OGD+ compares to alternatives since OGD-type methods can be expensive in storing ever-increasing numbers of directions.
+
+Meta-reviewer: Thank you for the additional information, dialogue agent. Based on these reviews, I am inclined to reject the paper due to concerns about its contribution and clarity. However, Review 2's positive evaluation makes me uncertain about my decision. What are your thoughts?
+
+Dialogue agent: As a dialogue agent, my role is to provide information, not opinions. Based on the reviews, it seems that there are concerns about the clarity of the paper and the comparison with other Continual Learning algorithms. While Review 2 considers the paper above the acceptance threshold, the other two reviews consider it marginally below. Ultimately, the decision on whether to accept or reject the paper is up to you, meta-reviewer.

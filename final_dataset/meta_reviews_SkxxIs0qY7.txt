@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read through the reviews for the paper titled "CoT: Cooperative Training for Generative Modeling of Discrete Data." Based on the reviews, it seems that the paper presents an interesting idea for modeling distribution of sequence data, with promising experiments. However, there are some minor typos and grammatical errors. Can you confirm whether the paper is worth accepting?
+
+Dialogue Agent: Yes, based on the reviews, it seems that the paper presents an interesting approach for modeling sequence data. The proposed method replaces the discriminator with a "mediator" that estimates a mixture between the training and target distribution. This mediator is designed to optimize against the Jensen-Shannon divergence. The paper has promising experiments and theoretically guarantees the training effectiveness.
+
+Meta-reviewer: That sounds good. Review 1 mentions the issue of reproducibility. Can you provide any information on how reproducibility is ensured?
+
+Dialogue Agent: I cannot provide an opinion or recommendation, but I can tell you that the paper does not explicitly mention how reproducibility is ensured. However, it is a commonly expected practice in the research community to provide code and datasets to ensure reproducibility.
+
+Meta-reviewer: Review 2 asks a few questions regarding some of the equations and figures. Can you clarify the issues raised?
+
+Dialogue Agent: Certainly. Review 2 asks about equation 14, which refers to finding the "maximum entropy solution" for a given optimization problem. The meaning of this term is not clear and it would be up to the authors to clarify it. Regarding Figure 2, subplots (b) and (c) are related to each other, illustrating the relationship between two different types of data. Review 2 also comments on some typos in the equations and figures that could be corrected by the authors.
+
+Meta-reviewer: Review 3 mentions a few issues for the experiments, such as some missing details and unstable computation of certain metrics. Can you confirm whether these are major issues?
+
+Dialogue Agent: While it is difficult to determine the severity of these issues, they do not seem to point to any fundamental flaws in the proposed method. Review 3 reports that some details are missing from the experiments, and that there are some discrepancies between the results reported in the paper and those reported in a related work. Additionally, the method used to compute the Word Mover Distance metric could be unstable. However, these issues could be rectified by the authors in their final submission.
+
+Meta-reviewer: Based on the reviews, it seems that the paper is worth accepting. However, Review 1 and 2 seem to have different levels of confidence in their evaluations. Can you tell me more about how to weigh reviewer confidence in making the final decision?
+
+Dialogue Agent: It is up to the meta-reviewer to weigh the importance of reviewer confidence in making the final decision. Review 1 expressed a higher level of confidence, while Review 2 expressed less confidence. However, both reviewers rated the paper above the acceptance threshold, with Review 3 offering a marginal rating. It is ultimately up to the meta-reviewer to decide whether the paper's strengths outweigh its weaknesses and to consider the feedback provided by the reviewers in making the final decision.

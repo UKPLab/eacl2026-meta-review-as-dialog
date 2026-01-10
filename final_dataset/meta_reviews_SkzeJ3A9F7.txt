@@ -1,0 +1,15 @@
+Meta-reviewer: Hello there. Can you give me a brief summary of the paper and its proposed contribution?
+
+Dialogue agent: Certainly. The paper proposes a novel differentiable approximation to the curiosity reward by Pathak et al. that allows a learning agent to optimize a policy for greedy exploration directly by supervised learning, rather than RL. The authors motivate this work with arguments about the sample-efficiency required by real robot learning and demonstrate basic results using a real robot.
+
+Meta-reviewer: Thank you. What are the major strengths and weaknesses of the paper according to the reviews?
+
+Dialogue agent: Review 1 praises the paper's attempt to tackle the problem of efficient exploration in "real-world" practical algorithms for reinforcement learning, but also points out several shortcomings such as the lack of discussion on efficient exploration and the imprecise writing. On the other hand, Review 2 raises concerns about several style and tone issues, experimental details, and factual errors. However, the reviewer does acknowledge that the proposed objective is interesting and worth exploring more thoroughly. Finally, Review 3 describes the paper as presenting an interesting way to reformulate intrinsic curiosity as a differentiable function, but also mentions several concerns regarding comparisons/claims, insufficient detail throughout, and minor grammatical issues.
+
+Meta-reviewer: I see. Can you tell me more about the strengths and weaknesses of the proposed approach?
+
+Dialogue agent: The proposed approach is a novel differentiable approximation to the curiosity reward by Pathak et al. that allows a learning agent to optimize a policy for greedy exploration directly by supervised learning, rather than RL. While Review 1 praised the paper's use of real-world robots and the experimental results, they also pointed out shortcomings such as the lack of discussion on efficient exploration and imprecise writing. Review 2 raised concerns regarding errors made in the paper, while Review 3 mentions some concerns about insufficient detail throughout, comparisons/claims, and minor grammatical issues. However, this reviewer also acknowledges that the proposed objective is interesting and worth exploring more thoroughly.
+
+Meta-reviewer: Given these reviews, can you tell me which recommendation you would make to the editors?
+
+Dialogue agent: Based on the reviews, Review 1 gives a clear rejection with high confidence, while Review 2 gives a clear rejection but with somewhat lower confidence. Review 3 suggests that the paper is marginally below acceptance threshold but with low confidence. Given these varying recommendations, the decision will ultimately depend on the meta-reviewer's assessment of the paper's strengths and weaknesses.

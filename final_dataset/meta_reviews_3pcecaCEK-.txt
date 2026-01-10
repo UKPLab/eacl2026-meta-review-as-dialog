@@ -1,0 +1,38 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper about evaluating knowledge base completion models. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors propose a new evaluation approach based on classification, which they claim is more appropriate for measuring knowledge base completion quality than traditional ranking-based evaluation methods. They also create a new dataset and propose a new variant of the TransE model with thresholding.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. Can you tell me more about the new evaluation approach?
+
+Dialogue Agent: Sure! The authors propose a new metric called "F-Score" which is based on classification, rather than ranking. They also create a new dataset called FB13kQAQ, which contains false as well as true facts.
+
+Turn 3:
+Meta-Reviewer: I see. What about the new variant of the TransE model? Can you tell me more about that?
+
+Dialogue Agent: Sure! The authors propose a new variant of the TransE model with thresholding, which they claim improves performance on the new evaluation metric.
+
+Turn 4:
+Meta-Reviewer: Okay, I think I understand the main contributions of the paper. Can you tell me more about the dataset creation process?
+
+Dialogue Agent: Sure! The authors construct the new dataset by adding negative examples created by a combination of filtering out entities from true facts and creating type-inconsistent entity-relation pairs.
+
+Turn 5:
+Meta-Reviewer: That sounds like a lot of work. Do the authors provide enough details about the dataset creation process?
+
+Dialogue Agent: The authors provide a detailed description of the dataset creation process, but some reviewers have noted that it could be improved.
+
+Turn 6:
+Meta-Reviewer: I see. What about the performance of the proposed model? How does it compare to existing models?
+
+Dialogue Agent: The authors compare the proposed model to existing models on the new dataset and show that it outperforms them. However, some reviewers have noted that the comparison is not fair because the proposed model has more parameters than the existing models.
+
+Turn 7:
+Meta-Reviewer: Okay, I think I have a good understanding of the paper now. Can you summarize the main points for me?
+
+Dialogue Agent: Sure! The authors propose a new evaluation approach based on classification, a new dataset, and a new variant of the TransE model with thresholding. The proposed model outperforms existing models on the new dataset, but some reviewers have noted that the comparison is not fair due to differences in parameters.
+
+Meta-Reviewer: Thank you for your help! I think I have a good understanding of the paper now. Based on the reviews, I would say that the paper is marginally above the acceptance threshold. The proposed evaluation approach and dataset creation process are novel and useful, but the comparison to existing models is not fair due to differences in parameters. Overall, I would recommend accepting the paper with minor revisions.

@@ -1,0 +1,17 @@
+Meta-Reviewer: Hi there, can you tell me a bit more about the paper's proposed method, Prompt Injection, and how it addresses the problem of computational overhead in prompt learning?
+
+Dialogue Agent: Certainly. Prompt Injection is a method that injects the prompt into the parameters of a pre-trained language model, rather than concatenating it to the input text. This approach reduces computational and memory overhead when generating conditional text, particularly when the prompt is long. The method has shown to be 280 times more efficient compared to previous approaches.
+
+Meta-Reviewer: That sounds interesting. Reviewer 1 praised the paper's experiments and found them to be solid. Can you tell me more about the experiments and their results?
+
+Dialogue Agent: The paper conducted experiments on persona dialogue generation, Text-2-SQL, and zero-shot task generalization. The results showed that Prompt Injection improves the lower bound of the models and can speed up inference time. However, Reviewer 2 suggested that the experiments could have been improved by focusing on settings where fast inference is crucial, like summarization or long dialogues.
+
+Meta-Reviewer: I see. Reviewer 2 also mentioned that the idea of prompt-injection is not novel, and cited previous works that explored similar ideas. How does this paper differ from those works?
+
+Dialogue Agent: While it is true that previous works have explored prompt injection, this paper focuses on the framing of the concept. The paper studies the existing algorithm of Prompt Injection and examines its basic properties. The paper also proposes a reasonable evaluation framework that could be used to test future methods.
+
+Meta-Reviewer: Alright, thank you for the clarification. One more thing, what is the confidence level of the reviewers in their recommendations?
+
+Dialogue Agent: Reviewer 1 recommended acceptance with a rating of 7 and a confidence level of 3. Reviewer 2's initial rating was a borderline accept with a rating of 5 and a confidence level of 3, but they increased their score to 6 after the response. Reviewer 3 recommended acceptance with a rating of 7 and a confidence level of 4.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your responses, I am inclined to accept the paper. The reviewers praised the paper's experiments and its novelty in examining the basic properties of Prompt Injection. Additionally, there are no unaddressed ethical considerations in the paper. However, Reviewer 2 suggested that the experiments could have been improved, so I would like to see an expansion of the evaluation in the final submission.

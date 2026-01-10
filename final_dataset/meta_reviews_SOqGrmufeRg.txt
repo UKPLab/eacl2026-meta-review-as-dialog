@@ -1,0 +1,39 @@
+ Sure, I'll simulate a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection. The meta-reviewer is aware only of the paper's title, "A High Performance and Low Latency Deep Spiking Neural Networks Conversion Framework." The dialogue agent, equipped with reviews and paper type information, will respond to the meta-reviewer's questions with summarized answers based on the reviews.
+
+Meta-reviewer: Hello, I am the meta-reviewer for this paper. I have read the title and I would like to ask some questions about the paper.
+
+Dialogue Agent: Hello! I'm here to help. Please go ahead and ask your questions.
+
+Meta-reviewer: Okay, let's start. Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper is titled "A High Performance and Low Latency Deep Spiking Neural Networks Conversion Framework." It presents a new method for converting deep artificial neural networks (ANNs) to spiking neural networks (SNNs) that can run on neuromorphic hardware.
+
+Meta-reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The paper proposes a new approach to ANN-to-SNN conversion that combines several techniques, including QReLU activation, buffered non-leaky-integrate-and-fire neurons, and multiple bits spike trains. The proposed method improves the performance and efficiency of SNNs. The main contributions of the paper are:
+
+1. A new conversion method that combines several techniques to improve the performance and efficiency of SNNs.
+2. A detailed analysis of the conversion error and the benefits of the proposed method.
+3. Experimental results on both classification and detection tasks that demonstrate the effectiveness of the proposed method.
+
+Meta-reviewer: I see. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The strengths of the paper include:
+
+1. The paper presents a well-designed ANN-to-SNN conversion method that combines several techniques to improve the performance and efficiency of SNNs.
+2. The proposed method is evaluated on both classification and detection tasks, and the results show strong performance.
+3. The paper provides a detailed analysis of the conversion error and the benefits of the proposed method.
+
+The weaknesses of the paper include:
+
+1. The novelty of the paper is limited, as the conversion error has already been theoretically analyzed in the literature.
+2. The compatibility of the proposed buffered neuron model and multiple bits spike train with neuromorphic hardware is unclear.
+3. The paper does not use common neuron models and tries to enforce the inference of SNNs to be the same as quantized ANNs, which may limit the advantages compared with directly applying well-established quantized ANNs that can also have hardware-efficient implementation.
+
+Meta-reviewer: Thank you for the summary. Based on your assessment, what is your recommendation for the paper?
+
+Dialogue Agent: Based on the reviews and the paper's content, I would recommend a borderline reject for the paper. The paper has some technical flaws, weak evaluation, and inadequate reproducibility. However, the paper has some strengths, such as a well-designed ANN-to-SNN conversion method, strong performance, and a detailed analysis of the conversion error.
+
+Meta-reviewer: Thank you for your assessment. I will consider your input when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or concerns.

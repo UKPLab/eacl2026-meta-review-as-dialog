@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for your reviews of the paper titled "AntMan: Sparse Low-Rank Compression To Accelerate RNN Inference". I have a few questions for the dialogue agent. 
+
+Dialogue agent: I'm here to answer any questions you have.
+
+Meta-reviewer: Review 1 mentions that the paper would be much stronger if it compared against quantization and latest pruning techniques. Can you confirm whether the paper compares against these techniques?
+
+Dialogue agent: As per the paper type, the paper only focuses on AntMan, which is a method based on structured sparsity and low-rank compression for RNNs. The paper does not compare against quantization or latest pruning techniques.
+
+Meta-reviewer: Review 2 mentions that the training of AntMan models may be done on CPU as it can be challenging to efficiently implement the model on GPU. Can you provide any clarity on this point?
+
+Dialogue agent: The paper does not explicitly mention the hardware used for training the AntMan models. It only discusses the computational complexity of AntMan and compares it to other methods.
+
+Meta-reviewer: Review 3 mentions that it is unclear how the block diagonal structure was used for the input-to-hidden weight matrix only or all weights. Can you confirm what the paper says about this?
+
+Dialogue Agent: As per the paper, the block-diagonal structure is used for the input-to-hidden weight matrix only. This is because the input-to-hidden weight matrix constitutes the largest portion of the weight matrix in RNNs and is the most computationally expensive to process.
+
+Meta-reviewer: Thank you for your responses. As a meta-reviewer, I need to weigh the importance of reviewer confidence in making the final decision. Considering the reviews, I am not completely certain about the paper's evaluation. However, the reviewers have pointed out some strong points of the paper, such as the combination of SVD and LGP in reducing computation. I have decided to accept the paper with a rating of 6 and a confidence level of 3.

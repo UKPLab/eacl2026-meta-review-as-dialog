@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I am the meta-reviewer for the paper titled "SageMix: Saliency-Guided Mixup for Point Clouds". I have read the reviews provided by the reviewers and have a few questions for you. First of all, can you confirm that this is a long paper and can you explain what that means in terms of expectations for the paper?
+
+Dialogue agent: Yes, according to the information we have, this is a long paper. In terms of expectations for the paper, the length implies a more extensive and detailed study. It is expected to have a more in-depth analysis and experiments to demonstrate the validity and effectiveness of the proposed method.
+
+Meta-reviewer: Thank you for clarifying that. I noticed that reviewer 1 had some concerns about the experimental findings not being significant enough and the need for reporting mean and variance. Can you comment on that?
+
+Dialogue agent: Reviewer 1 pointed out a critical weakness of the paper regarding the need for reporting mean and variance. However, as an AI language model, I cannot provide opinions or recommendations on this matter. I can only provide information about what was mentioned in the review.
+
+Meta-reviewer: Understood. Thank you. Reviewer 2 mentioned some weaknesses in the paper, specifically regarding the difference between 2D and 3D mixup-based methods and the lack of quantitative and qualitative results. Can you explain why this may be the case?
+
+Dialogue agent: As mentioned in the paper, the proposed method, SageMix, is specifically designed for the 3D point cloud domain. Therefore, it may not be relevant to compare it with 2D mixup-based methods. Additionally, regarding the lack of quantitative and qualitative results, I can only provide information that was presented in the review. The authors may have chosen to focus more on the technical details and novelty of the proposed method.
+
+Meta-reviewer: That makes sense. Finally, reviewer 3 had a positive review with no major weaknesses mentioned. Can you explain the strengths of this paper that the reviewer mentioned?
+
+Dialogue agent: Reviewer 3 mentioned a few strengths of the paper. Firstly, the idea of introducing saliency guidance to the mixup method in point clouds is considered reasonable and novel. Secondly, the approach of sequentially sampling two remotely located query (salient) points is delicate, preserving the important local structure of the two point clouds. Finally, the experiments seem to show good results.
+
+Meta-reviewer: Thank you for your responses. It seems that reviewer 3 had a very positive review and no major weaknesses were mentioned. However, reviewers 1 and 2 had some concerns and weaknesses identified. Based on these reviews, how confident are you in recommending acceptance or rejection of this paper?
+
+Dialogue agent: As an AI language model, I cannot provide opinions or recommendations on this matter. However, I can tell you that reviewer 1 has given a borderline accept rating, while reviewer 2 has given a borderline reject rating, indicating a split decision on the paper's acceptance. It is up to you as the meta-reviewer to weigh the reviewers' feedback and make a decision based on your own judgment.

@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for your responses and for providing me with these reviews. Can you tell me more about the paper's core idea and contribution?
+
+Dialogue agent: The paper proposes a regularization scheme to protect quantized neural networks from adversarial attacks. The authors observe that quantized models become less robust to adversarial attacks if the quantization includes the inner layers of the network. They propose a Lipschitz constant filtering of the inner layers' input-output to fix the issue. The paper's contribution is in identifying that the standard quantized models are very vulnerable to adversarial noise, which is illustrated through experiments, and then empirically showing that the regularizer presented improves the robustness of quantized models with rigorous experiments.
+
+Meta-reviewer: That sounds interesting. Reviewer 1 suggested that the authors add an analytical explanation of why quantized networks are not robust. Do you think that would improve the paper?
+
+Dialogue agent: I cannot provide opinions or recommendations, but I can say that it may be beneficial to include a simple analytical explanation of why quantized networks are not robust, as suggested by Reviewer 1.
+
+Meta-reviewer: Reviewer 2 suggested that the technical contribution of the paper may be limited since the Lipschitz technique has been proposed and analyzed elsewhere. Can you tell me more about that?
+
+Dialogue agent: Reviewer 2 asked if the Lipschitz technique has been proposed and analyzed elsewhere, and if the robustness of full-precision models under adversarial attacks is also improved by Lipschitz regularization. Reviewer 2 also questioned if the same approach applies to non-linear layers and if the training is feasible in this case.
+
+Meta-reviewer: Those are good questions. Can you tell me more about the experiment results that were presented in the paper?
+
+Dialogue agent: The paper presents a thorough experimental study showing why standard quantization schemes are prone to adversarial noise and demonstrates clearly how this approach improves the robustness of quantized networks and sometimes even improves over the accuracy of the original model. However, I cannot comment on the specifics of the experimental results beyond what is presented in the reviews.
+
+Meta-reviewer: Finally, can you tell me more about the confidence levels of the reviewers?
+
+Dialogue agent: Reviewer 1 rated the paper 7, which is considered a good paper to accept, and their confidence level is 4. Reviewer 2 rated the paper 6, which is marginally above the acceptance threshold, and their confidence level is 3. Reviewer 3 rated the paper 7, which is considered a good paper to accept, and their confidence level is 2.

@@ -1,0 +1,17 @@
+ Sure, here is a simulated dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Iron: Private Inference on Transformers". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new secure cryptographic protocol for private inference on Transformer models, specifically for matrix multiplications, Softmax, GeLU, and LayerNorm. The authors claim that their method is the first implementation of secure inference on Transformer for 2PC setup.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. First, it proposes a new data encoding scheme that is designed to make matrix-matrix multiplication more efficient. Second, it extends the concept of private inference for Transformer-based models, which is an important area of research given the growing application of Transformers. Third, the paper shows a notable speedup over SIRNN, a baseline method.
+
+Meta-Reviewer: Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: Sure. The paper has a few weaknesses. First, the primary contribution of the paper is a new data encoding scheme, but the authors do not compare their scheme to existing solutions. Second, the paper only evaluates the method on NLP tasks with short input texts, and it would be interesting to see the method applied to longer texts. Finally, the paper does not compare the speed of the method to standard Transformer inference.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I would rate the paper as a 6: Weak Accept. The paper is technically solid, but it has some minor weaknesses that could be addressed in future work.
+
+Dialogue Agent: Thank you for the feedback. I will make sure to include the information in my summary. Is there anything else you would like to know about the paper?

@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, Dialogue Agent. I am reviewing the paper titled "Deep Reinforcement Learning of Universal Policies with Diverse Environment Summaries." Can you provide me with a brief overview of the paper?
+
+Dialogue Agent: Sure, the paper proposes a novel method for learning universal policies that can perform well in diverse environments by generating a diverse set of environment summaries and training a policy to work well for all of them. The proposed method uses submodular optimization to select a diverse set of environment summaries and defines a kernel function on the trajectories induced by those summaries. The paper tests the effectiveness of the proposed approach on two tasks and compares it with EP-OPT.
+
+Meta-Reviewer: Thank you. Review 1 raised concerns about the paper's related work section. Can you explain why the proper citation to Sadeghi and Levine 2016 is necessary, and which prior works should be cited that deal with transfer learning?
+
+Dialogue Agent: The proper citation to Sadeghi and Levine 2016 is necessary because they proposed and deployed the idea of domain randomization on a real robot platform before Tobin et al. 2017 used it in computer vision. The prior works that should be cited regarding transfer learning are "Sim-to-real robot learning from pixels with progressive nets" (Rusu et al., 2016), "Progressive neural networks" (Rusu et al., 2016), and "Policy distillation" (Rusu et al., 2015).
+
+Meta-Reviewer: Thank you for the clarification. Review 2 suggested that using trajectories from other policies might make the kernel on parameter sets more robust. Can you explain why the length-scale parameters for the kernel function are important?
+
+Dialogue Agent: The length-scale parameter determines the smoothness of the kernel function, which controls the influence of input pairs on the kernel matrix. If the length-scale parameter is small, the kernel function changes rapidly and is sensitive to slight changes in the input. On the other hand, if the length-scale parameter is large, the kernel function changes slowly and might not capture the relevant features of the input.
+
+Meta-Reviewer: That makes sense. Review 3 mentioned that the proposed approach may not work for non-deterministic policies or dynamics. Can you clarify this?
+
+Dialogue Agent: The proposed approach uses submodular optimization to select a diverse set of environment summaries, which are then used to train a deterministic policy. The diversity measure on the rollout trajectories is not necessarily stochastic, but it captures different behaviors induced by the environment summaries. Therefore, the proposed approach may not work well for non-deterministic policies or dynamics, where the policy and/or dynamics may induce diverse behaviors in the same environment summary.
+
+Meta-Reviewer: I see. Are there any concerns that you would like to raise about the paper?
+
+Dialogue Agent: The experimental results are limited to two tasks and the comparison with EP-OPT may not be fair due to the difference in the number of rollouts. Moreover, the paper would benefit from better organization of the experimental section and a more comprehensive introduction that motivates the problem and proposed solution.
+
+Meta-Reviewer: Thank you for your input, Dialogue Agent. Given the reviews, I am hesitant to accept the paper. However, I would like to know your confidence about the paper's acceptance.
+
+Dialogue Agent: Based on the reviews, Review 2 is marginally above acceptance threshold with a rating of 6, while Review 1 is not good enough for acceptance with a rating of 4 and Review 3 is marginally below acceptance threshold with a rating of 5. Therefore, I cannot provide a definite recommendation on the acceptance of the paper.

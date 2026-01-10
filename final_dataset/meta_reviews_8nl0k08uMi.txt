@@ -1,0 +1,17 @@
+Meta-reviewer: Good day, dialogue agent. I have reviewed the reviews for the paper "Selectivity considered harmful: evaluating the causal impact of class selectivity in DNNs", and I'm hoping you can provide me some more information to help me come to a decision. Can you tell me what type of paper it is?
+
+Dialogue agent: Certainly, the type of the paper is long.
+
+Meta-reviewer: Thank you. My main concern is that there seems to be some disagreement among the reviewers regarding the importance and interpretation of the regularizer used in the experiments. Reviewer 2 suggests that the results should be taken with caution since the regularizer used would have additional effects beyond just increasing or decreasing selectivity. Can you clarify if the regularizer was discussed in more detail in the paper?
+
+Dialogue agent: The paper does describe the regularization term in the loss function and how it controls selectivity in units of the network. However, the paper may not fully address the possibility that locking the preferences of individual units early on might be sub-optimal. The authors have presented additional analyses to support their conclusions. Would you like me to provide more information on those?
+
+Meta-reviewer: Yes, please. Please provide me with more information on the additional analyses and what they aim to address.
+
+Dialogue agent: The authors provided additional analyses to investigate the effect of the regularization term. For instance, they showed that the regularizer does not mask the selectivity of the units but works by changing the degree of selectivity of each unit. The authors also provided an experiment in which they used a variant of the regularizer that encourages selectivity for samples of one class and discourages selectivity for samples of the other class simultaneously. The results showed that the model tends to favor one class over the other, indicating that the impact of the regularizer is not due simply to locking the preference of individual units early on. Does that help address your concerns?
+
+Meta-reviewer: Yes, thank you for providing that information. I'm curious, what do the confidence levels of the reviewers suggest?
+
+Dialogue agent: Reviewer 1 rated the paper a 7, which indicates a good paper and recommends acceptance. Reviewer 2 rated the paper a 6, marginally above the acceptance threshold, and suggests that some issues need to be addressed. Reviewer 3 initially rated the paper a 6 but updated their rating to favor acceptance after reading the author's reply and seeing additional experiments.  
+
+Meta-reviewer: Thank you for the clarification. Overall, based on the reviews and the information you have provided, it seems that the paper has some limitations and concerns, but also has compelling results and additional analyses that support the conclusions. Considering the reviewer confidence and the nature of the concerns, I'm inclined to accept the paper.

@@ -1,0 +1,23 @@
+ Sure! Here's the dialogue between the meta-reviewer and the dialogue agent for the paper "Play to Grade: Grading Interactive Coding Games as Classifying Markov Decision Process":
+
+Meta-reviewer: Hello, I'm reviewing the paper "Play to Grade: Grading Interactive Coding Games as Classifying Markov Decision Process". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new approach to grading interactive coding games, where the student's program is evaluated as a Markov decision process (MDP) and the grade is determined by the expected reward of the MDP. The approach is based on the idea that the student's program can be seen as a game that the teacher wants to play, and the grade is based on how well the program plays the game.
+
+Meta-reviewer: That sounds interesting. What are the main challenges addressed in the paper?
+
+Dialogue Agent: The paper addresses several challenges in grading interactive coding games. One challenge is that the student's program can have many different correct implementations, and it can be difficult to determine which one is the best. The paper proposes a solution to this challenge by using a classifier to evaluate the student's program and determine its expected reward. Another challenge is that the student's program may not be well-defined or may have ambiguities, and the paper proposes a solution to this challenge by using a set of heuristics to guide the evaluation.
+
+Meta-reviewer: Can you tell me more about the evaluation method proposed in the paper?
+
+Dialogue Agent: Sure! The paper proposes an evaluation method based on the expected reward of the MDP. The teacher's policy is represented by a neural network, and the student's program is evaluated by simulating its behavior in the environment and calculating the expected reward. The grade is based on the expected reward, and the paper proposes a set of heuristics to guide the evaluation.
+
+Meta-reviewer: That sounds like a complex approach. What are some of the limitations of the paper?
+
+Dialogue Agent: The paper has several limitations. One limitation is that the approach is based on a specific definition of the teacher's policy, which may not be applicable to all situations. Another limitation is that the approach relies on a set of heuristics to guide the evaluation, which may not be effective in all cases. Additionally, the paper does not provide a comprehensive comparison with other approaches to grading interactive coding games.
+
+Meta-reviewer: Thank you for the information. Based on the limitations you mentioned, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the limitations mentioned, I would recommend rejecting the paper. While the paper proposes an interesting approach to grading interactive coding games, it does not provide a comprehensive comparison with other approaches, and the approach is based on a specific definition of the teacher's policy that may not be applicable to all situations. Additionally, the paper relies on a set of heuristics to guide the evaluation, which may not be effective in all cases.
+
+Meta-reviewer: Thank you for your input. I will consider your recommendations in my final decision.

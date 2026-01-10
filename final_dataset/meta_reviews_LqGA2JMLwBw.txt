@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you please summarize the main contributions of this paper?
+
+Dialogue agent: The paper investigates the tradeoff between robustness and fairness in adversarial training and proposes a Fairly Adversarial Training (FAT) approach to mitigate this tradeoff. The authors find that with increasing perturbation radii, the average robust accuracy improves over classes, while the class-wise robust accuracy suffers from increased variability. They provide empirical and theoretical evidence of this tradeoff and present a method to improve robust fairness without affecting robust accuracy significantly.
+
+Meta-reviewer: I see. Could you provide more information about the experiments used to generate the results?
+
+Dialogue agent: The authors have conducted extensive experiments using Madry and TRADES with different neural network architectures and attack algorithms to prove the generality of the tradeoff phenomenon. The experimental results are consistent with their findings. However, Review 1 noted that more information on the data, application, models, and training/evaluation strategy is needed for the experiments to be fully convincing.
+
+Meta-reviewer: That's helpful. What is your overall assessment of the paper?
+
+Dialogue agent: Review 2 rated the paper as 7 out of 10, indicating that it is a technically solid paper with a high impact on at least one sub-area or moderate-to-high impact on more than one area. The paper has good-to-excellent evaluation, resources, and reproducibility, with no unaddressed ethical considerations. Review 3 rated the paper as 6 out of 10, indicating that it is technically solid, with moderate-to-high impact, and no major concerns with respect to evaluation, resources, reproducibility, and ethical considerations.
+
+Meta-reviewer: Thank you. How confident are you about your assessment?
+
+Dialogue agent: I am confident in my assessment, but not absolutely certain. It is unlikely, but not impossible, that I did not understand some parts of the submission or that I am unfamiliar with some pieces of related work.

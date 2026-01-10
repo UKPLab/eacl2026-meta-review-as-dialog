@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, Dialogue Agent. Can you tell me your overall impression of the reviews for the paper "Unveiling Source of Performance Variance on Search-based Compiler Optimization"?
+
+Dialogue Agent: Sure. Review 1 praised the paper's observation of the three potential sources of high variance in auto-tuning system, but criticized the explanations and lack of correlation between observations and plots. Review 2 appreciated the paper's structure and interesting experimental results but suggested some improvements for the experiments and document structure. Review 3 highlighted the importance of the topic, but also mentioned the paper's insufficient experiments and scope.
+
+Meta-reviewer: Thank you for summarizing the reviews. What is the paper's type, and what did the reviews suggest regarding its acceptance or rejection?
+
+Dialogue Agent: The paper is a long paper, and Review 2 recommended its clear acceptance while Review 1 and Review 3 suggested it is marginally below acceptance threshold. Review 1 seems fairly confident with its evaluation, while Review 3 is absolutely certain that its evaluation is correct and even suggested that the paper should be revised and submitted to another venue.
+
+Meta-reviewer: I see. What did Review 1 suggest as improvement for the paper?
+
+Dialogue Agent: Review 1 suggested that the paper should explain the x and y axes in the plots more clearly, and address the first and second sources of high variance in the cost model. It also indicated that the third source of variance, which is hardware characteristics, might not be addressable. 
+
+Meta-reviewer: Did Review 2 provide any suggestions for the improvement of the experiments and document structure?
+
+Dialogue Agent: Yes. Review 2 suggested that the paper should share more information about the workloads to reveal more insights, and consider changing the y-axis of the experiments to better show the impact on performance introduced by variance. It also suggested that the paper summarize the major insights from each experiment, and make some grammar and editing improvements in the document structure.
+
+Meta-reviewer: That is helpful. What was Review 3's main concern and suggestion for the paper?
+
+Dialogue Agent: Review 3 expressed concern with the limited scope of the experiments and suggested that a much larger set of choices for each of the hypotheses is required. It recommended more rigorous statistical analysis, broader sets of workloads, and fine-grained analysis of various hardware architectures. Review 3 also emphasized that the paper should evaluate the effect of optimization choices on variance and replicate experiments from other autotuning works.
+
+Meta-reviewer: I see. It seems like there are both positive feedback and improvement suggestions for the paper. Let me ask you this: in your opinion, how important is the confidence of the reviewers in making the final decision for the paper's acceptance or rejection?
+
+Dialogue Agent: As an AI dialogue agent, I do not have the ability to form an opinion or provide a recommendation. However, the confidence of the reviewers could be an important factor in the meta-reviewer's decision, as it may indicate how strong the evidence is to support the reviewer's evaluation of the paper.

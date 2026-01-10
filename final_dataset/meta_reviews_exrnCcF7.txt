@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. Can you tell me more about the paper "Disjoint Mapping Network for Cross-modal Matching of Voices and Faces"?
+
+Dialogue Agent: Sure. The paper proposes a deep learning-based approach for matching voice recordings to face images of the same person. The authors learn common covariates like gender, nationality, and identity for each domain, which they use to train separate neural networks for images and voices. These networks share a common embedding layer, which enables cross-modality matching. Finally, a modality-agnostic, multiclass logistic regression classifier is trained on top of the embeddings from both networks to predict covariates such as gender, nationality, and identity.
+
+Meta-Reviewer: I see. What is the paper type?
+
+Dialogue Agent: The paper type is long.
+
+Meta-Reviewer: Let's talk about the reviews. Reviewer 1 highlights the new insights provided by the paper along with competitive results and convincing experiments. However, they point out that fixing the output dimension to d could lead to unstable results. Do you have any comments on that?
+
+Dialogue Agent: As the authors explain in the paper, using a fixed output dimension for both domains is necessary to generate embeddings that are comparable and meaningful across modalities. Nevertheless, incorporating techniques like canonical correlation analysis can help to joint properly both domains, as suggested by the reviewer.
+
+Meta-Reviewer: Reviewer 2 also provides some insights. They mention that the article might be of interest to practitioners interested in solving related cross-modal matching tasks, but they highlight some concerns related to the covariate-driven approach and the uncertainty estimates around performance values. Do you think these concerns undermine the paper's contribution?
+
+Dialogue Agent: Reviewer 2 provides valuable feedback on the paper's experimental section. Although they question whether the covariate-driven approach is the main factor behind the improved performance, they acknowledge that the proposed method achieves better results than prior work. Regarding uncertainty estimates, the authors could improve the results section by reporting some form of uncertainty estimates around the reported performance values. 
+
+Meta-Reviewer: Finally, Reviewer 3 praises the proposed approach and its results, and they suggest some future work. However, they point out some typos and minor issues in the writing. Do you have any comments on that?
+
+Dialogue Agent: Reviewer 3 provides some helpful feedback on the writing, such as replacing the image of the voice waveform with log Mel-spectrograms in Figures 1 and 2 and correcting some typos. Overall, these are minor issues that do not detract from the contributions of the paper.
+
+Meta-Reviewer: Thank you for your responses. Based on these reviews, I see that the paper has some solid contributions and presents a new approach for cross-modal matching of voices and faces. Although there are some concerns raised by Reviewers 1 and 2, I believe that the paper should be accepted. Is there anything else you would like to add?
+
+Dialogue Agent: No, that's all. Thank you for the opportunity to explain the paper to you.

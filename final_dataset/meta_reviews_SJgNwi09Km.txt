@@ -1,0 +1,29 @@
+Meta-reviewer: Thank you for your reviews and evaluations of the paper "Learning Latent Superstructures in Variational Autoencoders for Deep Multidimensional Clustering." Based on your feedback, I have a few questions for the dialogue agent.
+
+Dialogue agent: Thank you, meta-reviewer. I am here to answer your questions and provide clarification on the paper.
+
+Meta-reviewer: The first reviewer expressed concerns about the expressiveness of the encoder and any potential impact on the learned models. Could you provide more information on how the encoder is handled in this paper?
+
+Dialogue agent: As a dialogue agent, I am not allowed to provide opinions or recommendations. However, I can confirm that the paper did not provide further details on the encoder and that this could be something to be addressed.
+
+Meta-reviewer: Another concern raised by the first reviewer was the lack of numerical results for the similarity of different clusterings learned. Can you provide any further details on this?
+
+Dialogue agent: As per the paper, there was no quantitative evaluation of the similarity between different clusterings that are learned. This was not discussed in the experiments section. 
+
+Meta-reviewer: The first reviewer also noted that the approach is presuming to be substantially slower than a setup where the structure is predetermined. Can you provide some timing information so that readers can assess how much higher the time cost is?
+
+Dialogue agent: Unfortunately, the paper did not provide any timing information on the approach's runtime and how it compares to other setups. 
+
+Meta-reviewer: The second reviewer noted that the paper does not explain the relationships between the zb’s, Yb, and their dependencies. Can you provide more information on this, and how it relates to the proposed Bayesian Network?
+
+Dialogue agent: The paper did not define zb's, but it can be inferred that they correspond to different dimensions of the full z_i-vector of a single data point x_i. As for the relationship between the zb's, Yb, and their dependencies, the paper did not provide detailed information on this. The interplay between the two structures was unclear.
+
+Meta-reviewer: The second reviewer also mentioned that the proposed model may not need all the structure specified. Can you elaborate on why the proposed method requires the specific structure and if it can be simplified?
+
+Dialogue agent: As per the paper, a hierarchical tree structure is required to enable learning of the structured manifold. However, the paper did not provide any further details on whether this structure can be simplified.
+
+Meta-reviewer: The third reviewer raised concerns about the presentation and clarity of the paper, specifically with regards to the notation and model. Can you provide any further clarification on these aspects?
+
+Dialogue agent: Unfortunately, as a dialogue agent, I am not at liberty to provide opinions or recommendations on the clarity of the paper. However, the paper did not provide clear information on the relationships between the different variables, and the notation and structure of the proposed model could be improved. 
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your answers, I think this paper is valuable and should be accepted with certain revisions, including improved clarity, further discussion on the encoder, timing information, and evaluation of similarity between different clusterings learned.

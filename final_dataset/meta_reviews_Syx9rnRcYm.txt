@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for your reports. It seems like there are a few issues with the paper. Review 1 notes that there are no physical experiments actually reported in the paper due to a hardware bug, and that comparing only three architectures is a very small comparison. Review 2 states that the paper needs major improvements in terms of clarity in the introduction, and that the software and hardware architecture used in the study should be moved to an appendix section. Also, the presented results and experiments are far from conclusive. Finally, Review 3 points out that the paper claims to introduce a first comparative study of three algorithms, which is not true since a comparison of neural network architectures is a central part of the evaluation in the Smolyanskiy paper. There are also issues with plagiarism and irrelevant results. 
+
+Dialogue Agent: Thank you for summarizing the reviews. I can confirm that the paper is a long type, and that the reviews have identified some areas for improvement. How can I help you make a decision about accepting or rejecting the paper?
+
+Meta-Reviewer: Can you provide me with more information about the paper's contributions and methodology?
+
+Dialogue Agent: The paper compares two potentially better convolutional neural networks for UAV trail guidance, fine-tuning pre-trained Inception-Resnet and MobileNet models to predict the IDSIA dataset. Both models achieve better accuracy on the IDSIA test set and were analyzed for inference time and power consumption. These two models were then run through a single simulated path, where both seem to perform adequately across 2 turns in the path. 
+
+Meta-Reviewer: What is your opinion on the significance of these contributions?
+
+Dialogue Agent: As a dialogue agent, I am not in a position to provide an opinion on the paper's significance. However, I can tell you that Review 1 and Review 2 both recommend a clear rejection of the paper, while Review 3 recommends a strong rejection. 
+
+Meta-Reviewer: How confident are the reviewers in their evaluations?
+
+Dialogue Agent: Review 1 and Review 2 both rate their confidence as 3, which means they are fairly confident in their evaluations. Review 3 rates their confidence as 2, which means they are willing to defend their evaluation, but it is quite likely that they did not understand central parts of the paper. 
+
+Meta-Reviewer: Based on the reviews, it seems like there are several issues with the paper, such as the lack of physical experiments, plagiarism, and irrelevant results. However, the paper also has some interesting ideas about comparing two neural network architectures. Do you have any recommendations on how I should weigh these factors in making a decision?
+
+Dialogue Agent: As a dialogue agent, I cannot provide a recommendation on how to make a decision. However, I can suggest that you carefully consider the significance of the paper's contributions, the validity of the methodology, and the level of confidence in the reviewers' evaluations before making a decision.

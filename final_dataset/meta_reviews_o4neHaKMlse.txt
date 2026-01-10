@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. I have been going through the reviews for the paper titled Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone. Can you tell me more about the paper's proposed model and its strengths?
+
+Dialogue Agent: Sure. The paper proposes a new vision-language model that leverages two kinds of data: coarse-grained image-text pairs and fine-grained image-text-box data. The proposed model uses Fiber, which inserts cross-attention to the model to learn multimodal fusion, and is pre-trained in a two-stage coarse-to-fine manner. The model has been evaluated on a wide range of vision-language tasks and has shown superior performance compared with previous state-of-the-art models. 
+
+Meta-Reviewer: That sounds interesting. Reviewer 1 points out that the proposed fusion in the backbone is a good architecture, and the model's performance is good as well. Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: Certainly. Reviewer 1 pointed out a recent paper called X-VLM and raised concerns about the motivation of leveraging coarse- and fine-grained features and the differences in model architecture and performance. Another weakness that Reviewer 2 highlighted is that the paper is missing some works that jointly support VQA, Retrieval, and captioning. Reviewer 2 also raised concerns about the need for indicating the type of vision/text backbone in the evaluation tables for a fair comparison under the same vision/text backbone.
+
+Meta-Reviewer: That's helpful. Can you also tell me about the strengths and weaknesses that Reviewer 3 has identified?
+
+Dialogue Agent: Certainly. Reviewer 3 considers the paper to be well-written and easy to follow. The paper's additional text-to-image cross-attention mechanism and an additional stage of fine-grained pre-training are listed as strengths. However, Reviewer 3 raises concerns about the insight from the paper and insufficient ablation experiments to analyze the effect of each technique and propose alternative design choices. Additionally, Reviewer 3 suggests that the paper needs to be more careful when claiming better performance over existing models.
+
+Meta-Reviewer: Thank you for the summary. Overall, considering the reviews, do you think the paper should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or bias towards the paper's acceptance or rejection. My role is to provide information based on reviews objectively. It is up to you as the meta-reviewer to weigh the importance of each reviewer's feedback and make the final decision.

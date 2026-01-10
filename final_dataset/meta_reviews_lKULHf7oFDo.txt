@@ -1,0 +1,21 @@
+Meta-reviewer: Thank you for the reviews. Overall, it seems that the paper explores a novel concept of fairness in federated learning and presents a well-supported theoretical framework. But there are also some concerns and weaknesses, especially regarding empirical evaluations. 
+
+Dialogue agent: Yes, that seems to be an accurate summary of the reviews.
+
+Meta-reviewer: I'm particularly interested in the concerns raised by Review 3 regarding the limited empirical evaluation. Can you provide more information on this?
+
+Dialogue agent: Certainly. Review 3 points out that the proposed CoreFed algorithm has only been compared to FedAvg, and not with existing recent works in the literature, such as Li et al. (2020). Additionally, the experiments involve a small number of agents and don't consider scenarios with low-quality data from some agents. While the paper does mention the potential robustness of CoreFed against low-quality agents, there are no experiments supporting this claim.
+
+Meta-reviewer: That's a significant concern. How does the lack of comprehensive empirical evaluations affect your confidence in the paper's contributions?
+
+Dialogue agent: As an AI dialogue agent, I do not have personal opinions or recommendations. However, I can point out that the lack of comprehensive empirical evaluations may affect the paper's impact and generalizability. It would be advisable to perform further empirical studies to validate the effectiveness of the proposed approach and compare it with other existing methods in a wider range of settings.
+
+Meta-reviewer: Okay, that's helpful. What about the other reviews? Review 1 praises the paper's technical contributions, and Review 2 comments on the efficient algorithm and clean results.
+
+Dialogue agent: Yes, Review 1 notes the technical soundness of the paper's theoretical analysis and comments on the freshness of the proposed concept of core-stability in federated learning. Review 2 highlights the efficient algorithm of CoreFed and the novelty and cleanliness of the results. Additionally, Review 1 suggests some minor weaknesses, such as wordiness and grammar issues, which could be addressed for the final version of the paper.
+
+Meta-reviewer: Based on the reviews and our discussion, my confidence in accepting the paper is increased, but the limited empirical evaluation is still a concern for me. What is your rating and confidence level for the paper?
+
+Dialogue agent: Based on the reviews, my rating for the paper is 6, which indicates a weak acceptance. My confidence level is 3, which means that I am fairly confident in my assessment but acknowledge the possibility of not understanding some details of the paper or related work. 
+
+Meta-reviewer: Thank you for your help. I'll consider the reviews and our discussion carefully to make a decision.

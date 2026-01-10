@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Supervised Community Detection with Line Graph Neural Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Supervised Community Detection with Line Graph Neural Networks". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors of this paper propose a novel graph neural network called LGNN, which extends the conventional GNN using the line graph of edge adjacencies and a non-backtracking operator. The LGNN formulation is clearly written and properly discussed with message passing algorithms and other GNNs.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But, I have some concerns about the experimental section. The authors only consider a few number of classes and do not show how the method scales with a large number of classes. Can you help me understand why the authors did not include more classes in their experiments?
+
+Dialogue Agent: The authors mention in Sec 6.3 that the experimental section does not have proper ablation studies, such as running GAT with the degree term, and using the same spatial batch norm in other baselines. The lack of ablation studies may limit the evaluation of the net contribution of the line-graph extension.
+
+Turn 3:
+
+Meta-Reviewer: I see. But, I'm not sure if the authors adequately address the limitations of their method. Can you help me understand how the authors address the computational threshold issue?
+
+Dialogue Agent: The authors claim that their method improves upon current computational thresholds in hard regimes, but this is misleading as the computational threshold applies to large graph sizes, and the observed improvements are for finite sizes. The authors could have provided more intuitive explanations of the simplifications and assumptions in their energy landscape analysis.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper has some interesting contributions, but the experimental section needs more attention. I'm leaning towards rejecting the paper, but I want to hear your final thoughts before making a decision.
+
+Dialogue Agent: Based on the reviews, the paper has some strengths, such as the novel formulation of LGNN and the theoretical analysis of the energy landscape. However, the experimental section has some limitations, such as the lack of ablation studies and the limited consideration of classes. Overall, the paper could benefit from more rigorous experimental evaluation and clearer explanations of the method and its limitations.

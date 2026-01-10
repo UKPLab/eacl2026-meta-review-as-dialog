@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "GRASP: Navigating Retrosynthetic Planning with Goal-driven Policy":
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "GRASP: Navigating Retrosynthetic Planning with Goal-driven Policy". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! GRASP is a reinforcement learning-based framework for retrosynthetic planning that formulates the problem as a Markov decision process (MDP). It uses a goal-driven actor-critic method to learn a policy network that takes continuous actions encoding the structure-level molecular information to allow navigation in the huge discrete action space of single-step reaction candidates.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the experimental results?
+
+Dialogue Agent: Sure! The authors evaluate the performance of GRASP on both an academic and an industrial benchmark dataset (Pistachio and WuxiTest), and show superior results over all baselines. They also perform ablation studies to investigate the effectiveness of different components. The experiments are conducted on multiple datasets, including the Pistachio reaction dataset and a real-world expert dataset WuxiTest.
+
+Meta-Reviewer: I see. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: Sure! The paper is well-written and well-organized, with easy-to-follow notations and figures. The idea is novel and works very well, and the practical results demonstrate the effectiveness of GRASP on both pathway datasets and expert datasets. However, the performance depends on an upstream single-step retrosynthesis predictor, and the expert datasets WuxiTest are not open-source resources. The broader impacts of this paper should be discussed.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper is technically solid and has high impact, but there are some concerns about the reliance on the upstream single-step retrosynthesis predictor and the lack of discussion on limitations and potential negative societal impact. What do you think?
+
+Dialogue Agent: I agree with your assessment. The paper is technically solid and has high impact, but there are some concerns about the reliance on the upstream single-step retrosynthesis predictor and the lack of discussion on limitations and potential negative societal impact.
+
+Meta-Reviewer: Thank you for your input. Based on the reviews and our conversation, I think the paper is a weak accept. The paper is technically solid, but there are some concerns about the reliance on the upstream single-step retrosynthesis predictor and the lack of discussion on limitations and potential negative societal impact.
+
+Dialogue Agent: I agree with your assessment. The paper is a weak accept, with high impact but some concerns about the reliance on the upstream single-step retrosynthesis predictor and the lack of discussion on limitations and potential negative societal impact.

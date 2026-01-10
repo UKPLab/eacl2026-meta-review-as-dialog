@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hi there! I'm reviewing a paper called "Abg-CoQA: Clarifying Ambiguity in Conversational Question Answering". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper presents a new dataset called Abg-CoQA, which is designed to address the problem of ambiguity in conversational question answering. The authors argue that existing datasets are limited in their ability to capture the complexities of real-world conversations, and they aim to provide a more comprehensive resource for researchers.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. But I'm concerned about the amount of data in the paper. The authors mention that they collected only 800 questions for training, and I feel that this might be too little for the task. What do you think?
+
+Dialogue Agent: I understand your concern. However, the authors do provide a detailed analysis of the dataset, including the distribution of ambiguity types and the challenges posed by different domains. Additionally, they use a customized qualification test to improve annotator quality, which could help mitigate the effects of a smaller dataset.
+
+Turn 3:
+Meta-Reviewer: Okay, that makes sense. But I'm still not sure about the dataset quality. The inter-annotator agreement for question ambiguity detection is only 0.26, which seems quite low. Do you have any insights into this?
+
+Dialogue Agent: Yes, the authors do discuss the dataset quality in their paper. They mention that the low inter-annotator agreement could be due to the subjective nature of the task, as well as the potential for annotator fatigue. However, they also provide a detailed analysis of the ambiguity types and challenges posed by different domains, which could help inform future research on this topic.
+
+Turn 4:
+Meta-Reviewer: That's helpful to know. But I'm still not convinced about the paper's contribution. The authors mention that their dataset is designed to address the problem of ambiguity in conversational question answering, but I'm not sure if this is enough to justify the paper's length and complexity. What do you think?
+
+Dialogue Agent: I understand your reservations. However, I believe that the paper's contribution lies in its focus on the challenges of dealing with ambiguity in conversational question answering, and the provision of a new dataset that can be used to address these challenges. The authors do provide a detailed analysis of the dataset and its applications, which could be valuable for researchers in this field.

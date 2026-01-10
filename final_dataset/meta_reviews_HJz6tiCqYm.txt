@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm evaluating a paper titled "Benchmarking Neural Network Robustness to Common Corruptions and Perturbations". Can you provide me with a summary of the paper and the reviews?
+
+Dialogue Agent: Certainly! The paper introduces two benchmarks for measuring the robustness of neural networks to common corruptions and perturbations. The first benchmark, "Imagenet-C", consists of 15 commonly occurring image corruptions, and the second benchmark, "Imagenet-P", measures the consistency of model predictions in a sequence of slightly perturbed image frames. The authors evaluate several state-of-the-art models on these benchmarks and find that more recent architectures are more robust on this benchmark. The reviews are positive, with one reviewer stating that the paper provides an important contribution to the field of image classification and robustness.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the reviews?
+
+Dialogue Agent: Sure! The reviews are generally positive, with one reviewer stating that the paper provides an important contribution to the field of image classification and robustness. The reviewer also mentions that the proposed benchmarks are a standardized and computationally tractable way of measuring the robustness of neural networks to image corruptions. Another reviewer notes that the paper highlights a significant weakness in many image-classification networks and provides a benchmark for improving robustness. However, one reviewer does mention that the authors do not recommend training on all of the Imagenet-C corruptions, which they find to be a limitation of the paper.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the rating and confidence of the reviews?
+
+Dialogue Agent: The reviews have a rating of 7 (Good paper, accept) and a confidence of 3 (The reviewer is fairly confident that the evaluation is correct). One reviewer gives a rating of 9 (Top 15% of accepted papers, strong accept) and a confidence of 5 (The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature).
+
+Turn 4:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper is of high quality and provides an important contribution to the field. However, I do have some questions about the limitations of the paper, such as the lack of training on all of the Imagenet-C corruptions. Can you address these concerns?
+
+Dialogue Agent: Certainly! The authors do not recommend training on all of the Imagenet-C corruptions because they find that training on a single corruption type does not generalize well to other corruption types. However, they do suggest that future work should consider training on a subset of the corruptions to improve robustness. Additionally, the authors mention that concurrent work has run experiments on a ResNet-50 for Imagenet and found that Gaussian data augmentation with a large enough sigma improves robustness to pepper noise and Gaussian blurring, which may be a useful baseline to compare with adversarial training or ALP.

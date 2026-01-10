@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer tasked with making a final decision on the paper "Neural Speed Reading with Structural-Jump-LSTM". Can you provide me with any further insights on the reviews?
+
+Dialogue agent: Of course. I can answer any specific questions you may have.
+
+Meta-reviewer: Reviewer 1 seems to be in favor of the paper, rating it as "good" and recommending acceptance. However, they also mention that the performance gain seems marginal and question whether the complicated modeling is necessary. What is your take on this?
+
+Dialogue agent: Reviewer 1 acknowledges that the proposed model is better than previous models in very long texts, but the performance gain is marginal over most datasets. The model's transitional parameters and additional agents address the problem of dealing with very long texts, allowing it to skim even more effectively than previous models. The choice of whether the model's complexity is necessary depends on the emphasis the authors place on producing the most effective model. 
+
+Meta-reviewer: I see. Reviewer 2 indicates some concerns with the paper. They mention that the use of "structural-jump" is misleading and that the computation-cost-reduction method needs further explanation. How does this impact the paper's acceptance?
+
+Dialogue agent: Reviewer 2 raises valid points, although they marginally rate the paper below the acceptance threshold. The focus of the paper is on achieving fast reading that is still accurate enough, and the "structural-jump" method allows the model to make more structural jumps, matching the punctuation in a sentence. Additionally, the authors could add an appendix that explains the computation-cost-reduction method if they feel that this is necessary. 
+
+Meta-reviewer: Lastly, Reviewer 3 gives the paper a "good" rating and recommends acceptance. However, they have some concerns regarding the definition of the two value estimates, which they believe should instead be a common value function for a shared state. How important is this, in your view?
+
+Dialogue agent: Reviewer 3 acknowledges that the paper presents a novel model for neural speed reading that combines existing techniques in a nice way. However, they question why there are two value estimates instead of a common value function for a shared state, as this may result in double counting rewards. I believe this is an important point, and ensuring that the reward system provides accurate estimates is crucial because it is central to the success of any reinforcement learning problem. 
+
+Meta-reviewer: Alright, thank you for your insights, dialogue agent. Based on the reviews and your comments, I can now make a more informed decision about the paper's acceptance.

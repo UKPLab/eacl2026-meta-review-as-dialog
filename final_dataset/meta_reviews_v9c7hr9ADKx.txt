@@ -1,0 +1,23 @@
+ Dialogue Agent: Hello! I see you have a paper to review. Can you please tell me the title of the paper and what type of paper it is?
+
+Meta-Reviewer: Sure! The title of the paper is "UPDeT: Universal Multi-agent RL via Policy Decoupling with Transformers." It's a long paper.
+
+Dialogue Agent: Great! I'll start by summarizing the reviews. Reviewer 1 states that the paper is well-written and presents a novel approach to multi-agent reinforcement learning. However, they suggest that the experiments should be more comprehensive and include more challenging scenarios. Reviewer 2 praises the paper's novelty and impact, but suggests that the architecture may not be as explainable as claimed. Reviewer 3 highlights the paper's strengths in presenting a new approach to MARL and demonstrating its effectiveness in a non-trivial environment. However, they also suggest that the presentation could be improved and that the use of transformers may only be valid for environments with structured observations.
+
+Meta-Reviewer: Yes, that's correct. I'd like to ask some questions to help me assess the paper's quality. Can you tell me more about the proposed UPDeT framework and how it differs from previous approaches?
+
+Dialogue Agent: Sure! The UPDeT framework is a transformer-based architecture that combines the benefits of RNNs and transformers. It uses a self-attention mechanism to handle multiple tasks and entities, and it decouples the policy and value functions to improve exploration and exploitation. The authors claim that UPDeT outperforms RNN-based frameworks on state-of-the-art centralized functions and has strong transfer capabilities.
+
+Meta-Reviewer: That sounds interesting. How do the authors support their claims, and what are the limitations of their approach?
+
+Dialogue Agent: The authors provide extensive experiments using the SMAC environment, which demonstrates the effectiveness of UPDeT in various scenarios. However, as Reviewer 2 points out, the architecture may not be as explainable as claimed, and the use of transformers may only be valid for environments with structured observations. Additionally, the authors do not provide a comprehensive comparison with previous work, such as the GRU baseline.
+
+Meta-Reviewer: I see. Based on these points, I would like to ask some follow-up questions. Firstly, how does the authors' approach address the limitations of previous RNN-based frameworks, such as the need for careful tuning and the inability to handle large-scale tasks? Secondly, how does the use of transformers improve the performance of the framework, and what are the computational complexity implications of using transformers in MARL? Finally, how does the authors' approach compare to other recent works in MARL, such as the AlphaStar paper you mentioned earlier?
+
+Dialogue Agent: Sure, I can answer those questions. The authors address the limitations of RNN-based frameworks by using a self-attention mechanism that allows for more flexible and efficient learning. The use of transformers improves the performance of the framework by allowing it to handle multiple tasks and entities more effectively. However, the computational complexity of using transformers in MARL may be a concern, and the authors do not provide a detailed analysis of this aspect. As for comparisons with other recent works in MARL, the authors do not provide a comprehensive comparison with previous work, such as the AlphaStar paper, which may be a limitation of the paper.
+
+Meta-Reviewer: Thank you for your answers. Based on the information you provided, I would rate this paper as marginally above acceptance threshold, with a confidence level of 4. The paper presents a novel approach to MARL that demonstrates promising results, but the presentation could be improved and the use of transformers may only be valid for environments with structured observations. Additionally, the authors do not provide a comprehensive comparison with previous work.
+
+Dialogue Agent: Thank you for your feedback. I will make sure to summarize the reviews and provide more detailed answers to your questions in the future. Is there anything else you would like to know or discuss?
+
+Meta-Reviewer: No, that's all for now. Thank you for your help!

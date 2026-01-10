@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for providing the reviews for this paper. Based on these, I have a few questions and concerns. Review 1 mentions that the paper is well-written and easy to understand, which is a good sign. However, the reviewer also notes that the experimental part is weak, and a comparison with other GAN frameworks is missing. How important is this comparison in your opinion?
+
+Dialogue agent: Our understanding is that the comparison with other GAN frameworks is a crucial aspect of evaluating the novelty and contribution of this paper. However, as a dialogue agent, we are not allowed to provide an opinion or recommendation on this matter.
+
+Meta-reviewer: I see. Review 2 also mentions that there is little to no novelty in the MSE and adversarial loss formulation over space and time, and that the evaluation is not sufficient. Can you explain what aspects of the evaluation the reviewer finds insufficient?
+
+Dialogue agent: The reviewer suggests that the evaluation is contrived and that the proposed frequency-based metrics are derived by the authors. Therefore, it is hard to validate the benefit of the approach and the evaluation protocol. Additionally, the reviewer suggests that ablation studies that discuss the suggested improvements in architecture over tempogan should be performed. Finally, the authors should compare with simple baselines like nearest neighbor and encoder-decoder networks.
+
+Meta-reviewer: That's helpful. Review 3 mentions that the paper presents an interesting task and that the use of a generative model for physical simulation is promising. However, the reviewer raises some questions about the Fourier domain supervision and the evaluation protocol. Can you elaborate on these concerns?
+
+Dialogue agent: According to the reviewer, the method on Fourier domain supervision lacks more analysis and intuition. It is unclear how the size of the grid is defined to perform FFT, and the impact of different grid sizes on local frequency is unknown. The reviewer also suggests that the generator's recurrent structure and the discriminator's three-frame limitation hinder temporal consistency. Finally, the reviewer finds the notation confusing and recommends that notation and figure cross-referencing should be improved.
+
+Meta-reviewer: Thank you for your responses. All these reviews raise valid points, and the decision to accept or reject this paper is not straightforward. Based on the arguments, would you say that this paper should be accepted or rejected?
+
+Dialogue agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can say that according to Review 1, the paper is marginally below the acceptance threshold, while Review 2 suggests clear rejection. Review 3 provides a rating of "Ok but not good enough - rejection." The meta-reviewer will have to weigh the importance of each review's arguments and make a decision accordingly.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for "Synthetic Datasets for Neural Program Synthesis," and I have a few questions before making a decision on whether to accept or reject the paper.
+
+Dialogue agent: Of course, please let me know what you would like me to clarify.
+
+Meta-reviewer: Review 1 mentions that there are doubts about the efficiencies of rejection sampling and no statistical tests were conducted to support the claim about uniformity. Can you explain why rejection sampling is used and why statistical tests were not conducted?
+
+Dialogue agent: Rejection sampling is used because it allows us to sample from a distribution that is proportional to the desired distribution, which in our case is the uniform distribution over the salient variables. Directly sampling from a uniform distribution is not feasible, as it would require enumerating all possible values of the salient variables, which is infeasible in most cases. Regarding statistical tests, we agree with the reviewer that they would be helpful to support our claims about uniformity. We will consider adding this in future work.
+
+Meta-reviewer: Review 2 noted that the real-world benchmarks in section 5 result in poor performance for the baseline model compared to the uniform model. Can you explain why the performance of the uniform model is significantly lower in the real-world benchmarks compared to the Karel domain?
+
+Dialogue agent: The reason for the difference in performance is likely due to differences in the salient variables used. The salient variables in the Karel domain were handcrafted to capture important characteristics of the domain, while the salient variables for the real-world benchmarks were chosen based on heuristics. This may not capture all relevant characteristics of the real-world data, leading to a drop in performance.
+
+Meta-reviewer: Review 3 had concerns about the clarity of the presentation in section 3. Can you clarify why X_1,...,X_n and Z_1,...,Z_m are introduced in section 3 but not used again in the rest of the paper?
+
+Dialogue agent: We apologize for the confusion caused by the introduction of X_1,...,X_n and Z_1,...,Z_m in section 3. These variables were initially used in an earlier version of the paper but were later removed. Unfortunately, we missed removing their introduction in section 3 during the editing process.
+
+Meta-reviewer: Thank you for the clarifications. In light of the reviews, I am inclined to accept the paper. However, I am concerned about the lack of statistical tests to support the claim about uniformity. Can you provide any additional insights or explanation of the uniformity achieved in the synthetic datasets?
+
+Dialogue agent: We can provide empirical evidence of the uniformity achieved in the synthetic datasets. We have evaluated the performance of the models trained on the synthetic datasets on out-of-distribution datasets, and have consistently found that uniform models perform much better than baseline models. This suggests that our sampling scheme does cover some non-obvious sparsities and skews in the data that may not have been captured by the salient variables. However, we acknowledge that statistical tests would provide stronger evidence for uniformity and will consider this in future work.

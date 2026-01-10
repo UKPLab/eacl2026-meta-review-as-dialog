@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "Activity Regularization for Continual Learning". Can you give me a brief summary of the paper's contribution and approach?
+
+Dialogue agent: Certainly. The paper proposes a new regularization method for continual learning that addresses the catastrophic forgetting problem by minimizing the KL-divergence between the prediction of previous models and current models on the stored samples of previous tasks. The approach involves keeping a memory of randomly sampled data from the previous task and distilling the knowledge from the optima of the previous tasks to the current one using a KL penalty. The paper is of the long type, with detailed experiments showing the effectiveness of the proposed method compared to state-of-the-art methods.
+
+Meta-reviewer: Thank you for summarizing. Review 1 seems concerned about the novelty of the paper and the need for more detailed experimentation. Can you tell me more about that?
+
+Dialogue agent: Review 1 comments that the paper seems to be an extension of Learning without Forgetting (LwF) with the difference that LwF only regularizes on the current task. The main suggestion made by Review 1 is to include experiments on hyper-parameters and sample selection. The reviewer suggests that the authors should report the results for all methods with the chosen hyper-parameters on the validation set and give more details on how they split the validation set. Also, the reviewer argues that random sampling may affect the quality of the results, and thus suggests showing the variance from different random sampling.
+
+Meta-reviewer: Review 2 seems to share some of the concerns of Review 1 regarding the novelty and originality of the paper. Can you give me more details on those concerns?
+
+Dialogue agent: Review 2 acknowledges the contribution of the paper, but raises concerns about its originality and significance. The reviewer feels that the paper is similar to Learning without Forgetting (LwF). Review 2 suggests that the authors should make the difference between LwF and the proposed method more explicit and run LwF as a baseline in their experiments. The reviewer also feels that the paper's motivation in Section 3.1 could be more convincing and argues that beyond permuted MNIST, only the final performance on split notMNIST / CIFAR-100 is reported.
+
+Meta-reviewer: Finally, Review 3 also raises concerns about the novelty and significance of the paper. Can you give me more details on those concerns?
+
+Dialogue agent: Review 3 agrees that the paper proposes a simple and intuitive approach, but shares concerns regarding its novelty and significance. The reviewer argues that the paper is very similar to Learning without forgetting (LwF), and also identifies some minor issues with the paper, such as some typos and insufficient experimental analysis. The reviewer suggests that the authors define the fine-tuning baseline more clearly, include plots over time in their analysis, and provide errors and error bars for all results.
+
+Meta-reviewer: Thank you for the additional details. How confident are the reviewers of their evaluations?
+
+Dialogue agent: Reviewer 1 and Reviewer 2 have rated the paper as "Ok but not good enough - rejection" with a confidence level of 5, indicating that they are absolutely certain that their evaluations are correct and very familiar with the relevant literature. Reviewer 3 also rates the paper as "Ok but not good enough - rejection", with a confidence level of 4, indicating that they are confident but not absolutely certain that their evaluation is correct.

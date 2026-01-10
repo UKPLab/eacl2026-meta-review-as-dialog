@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, I have read through all the reviews for the paper titled "Equivariant Graph Hierarchy-Based Neural Networks" and I would like to discuss some details before making a final decision. Could you please provide me with additional information about the paper type and the reviews?
+
+Dialogue agent: Of course, the paper is a long type paper and the reviews are from three experts in the field of equivariant graph neural networks. The first reviewer has rated the paper as Weak Accept with a confidence score of 4, the second reviewer as Accept with a rating of 7 and a confidence score of 3 and the third reviewer has given a score of 7 with a confidence score of 4.
+
+Meta-reviewer: Thank you for providing that information. Could you please summarize the strengths and weaknesses of the paper as highlighted by the reviewers?
+
+Dialogue agent: Certainly. Reviewer 1 appreciated the well-written description of the architecture and the empirical evaluation of its capability to model complex hierarchical systems. They also mentioned clustering of nodes might help interpret the results. The main weaknesses they noted were the unclear benefit of the new EMMP layer and the need for manual guidance in choosing parameters. Reviewer 2 acknowledged the significance of the proposed architecture, its performance, and the thorough evaluation but highlighted a major weakness in the unsatisfactory ablation study. They recommended comparing in detail the EGHN with Diffpool and suggested the authors perform an ablation study for all datasets to demonstrate the architecture's usefulness. Reviewer 3 found the proposed method to be a straightforward, sound, and organically evaluated enhancement of current work in the field. The only suggestions they made were for minor changes in the writing to explain better the experimental parameter "J" and to elaborate on the second loss term in (16).
+
+Meta-reviewer: Thank you for the detailed summaries of the reviews. Based on their feedback, can you provide more information on the strengths and contributions of the paper?
+
+Dialogue agent: Certainly. The paper proposes an architecture for equivariant graph neural networks that incorporates a matrix of vectors and attention for hierarchical message passing. It constitutes an improvement over previous works on motion capture prediction by achieving state-of-the-art performance benchmarks, particularly when compared to EGNN. The architecture's ability to model complex hierarchical systems is emphasized, making it relevant to learning tasks on proteins and points towards being widely applicable.
+
+Meta-reviewer: Thank you very much for the information. Based on the information you've provided, I have confidence in my assessment and will recommend that we Accept this paper.
+
+Dialogue agent: Thank you for your trust in my analysis and recommendation.

@@ -1,0 +1,29 @@
+ Sure, here is a simulation of a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Meta-reviewer: Hello, I am reviewing a paper titled "Learning Enhanced Representation for Tabular Data via Neighborhood Propagation". Can you provide me with a summary of the paper and your assessment?
+
+Dialogue Agent: Certainly! The paper proposes a novel architecture for learning representations over tabular data, called PET (Propagate and Enhance the Tabular data). The approach uses a combination of relevance-based retrieval, message passing, and label enhanced feature learning to capture high-level latent interactions among features for different prediction tasks. The authors evaluate the proposed method on five majorly used datasets and compare it to multiple baselines.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the relevance-based retrieval component of the approach?
+
+Dialogue Agent: Sure! The authors use the "relevance value" proposed by Qin et al. (2021) to retrieve the most similar instances to the target data instance. This helps to induce label information into the representations and allow for higher-order feature interactions.
+
+Meta-reviewer: I see. What about the message passing component? How does that work?
+
+Dialogue Agent: The message passing component is based on the star expansion of the generated hypergraph. The authors use multiple operations to perform message passing over the graph, including the edge and node representations. The aggregation of the messages for each node is done by an attention mechanism, which helps to capture the important features and avoid over-smoothing.
+
+Meta-reviewer: I see. What about the edge embedding update? How does that work?
+
+Dialogue Agent: The edge embedding update is similar to the node embedding update, but it also takes into account the edge information. The authors use a transformation over the concatenation of the previous layer representation with the aggregated messages to update the edge embeddings.
+
+Meta-reviewer: Okay, I think I have a good understanding of the paper now. Can you tell me more about the evaluation of the proposed method?
+
+Dialogue Agent: Sure! The authors evaluate the proposed method on five majorly used datasets and compare it to multiple baselines. The results show that the proposed approach can improve the performance on the specific metrics. The authors also provide some hyperparameter and sensitivity analyses for label usage, retrieval schemes, and $K$.
+
+Meta-reviewer: That sounds good. What about the limitations of the approach? Are there any potential issues that the authors did not address?
+
+Dialogue Agent: The authors do mention some potential limitations of the approach, such as the assumption that relevance-based retrieval can help realize homophily, which may not always hold. Additionally, the constructed graph can be dense when the number of fields is large, which can be computationally expensive. The authors also mention the problem of oversmoothing and oversquashing, which can occur in such cases.
+
+Meta-reviewer: I see. Based on your summary, I would rate this paper as a 7: Accept, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Dialogue Agent: Thank you for your assessment! Is there anything else you would like to know about the paper?

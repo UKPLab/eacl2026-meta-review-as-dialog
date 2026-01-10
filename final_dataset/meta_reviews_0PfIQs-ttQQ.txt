@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you provide an overview of the paper "Self-supervised surround-view depth estimation with volumetric feature fusion"? 
+
+Dialogue agent: Certainly. The paper proposes a self-supervised approach for surround-view depth estimation by un-projecting 2D image features on a shared 3D volume. The volumetric feature is then queried to decode depth maps at target views. It also estimates the pose changes of the canonical frame by decoding from the same volumetric feature. The model was evaluated on DDAD and nuScenes datasets, and the results were compared with FSM and others. 
+
+Meta-reviewer: Thank you. Can you tell me about the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue agent: According to Review 1, the strengths are the use of a volumetric feature representation which agglomerates features from different images in a shared space, and the unique capability of the model to predict depth maps for views not among the inputs. The weakness is that some relevant works are not included or discussed sufficiently, and the quality advantage over existing methods is not convincing. The reviewer also pointed out minor issues with the paper. According to Review 2, the problem setting is novel and the paper is easy to follow, but the depth map quality is similar to existing monocular methods, and depth fusion is not evaluated individually. Finally, according to Review 3, the idea of using a volumetric feature is interesting, and the proposed method achieves improved results, but some details on the construction of the unified volumetric feature are missing, and the effect of volume resolution on memory consumption and depth estimation needs to be discussed.
+
+Meta-reviewer: Okay, thank you for the summary. Based on these reviews, what is your recommendation for the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations. However, I can provide you with the ratings given by the reviewers. Review 1 rated the paper as "Weak Accept" with a confidence level of 3. Review 2 rated the paper as "Borderline Accept" with a confidence level of 4. Review 3 also rated the paper as "Borderline Accept" with a confidence level of 4. 
+
+Meta-reviewer: Thank you. Can you tell me more about the confidence levels provided by the reviewers?
+
+Dialogue agent: The confidence level provided by each reviewer indicates the degree of certainty they have in their assessment. A higher number indicates a higher level of certainty. For example, a confidence level of 4 means that the reviewer is confident in their assessment but not absolutely certain. It is unlikely, but not impossible, that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work. 
+
+Meta-reviewer: I see. Based on these ratings and confidence levels, can you advise me on how to make my decision on whether to accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, I cannot give advice on what decision to make. However, I can suggest that you consider the strengths and weaknesses outlined in the reviews, as well as the confidence levels of the reviewers, when making your decision.

@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the reviews for the paper "Reward Constrained Policy Optimization" and I have some questions before I decide whether to accept or reject it. Can you provide me with more details about the paper's proposed algorithm?
+
+Dialogue Agent: Of course. The paper introduces RCPO, a model-free deep RL algorithm for learning optimal policies that satisfy some per-state constraint on expectation. It is compared to a baseline optimizing the Lagrangian directly using Monte-Carlo sampling.
+
+Meta-Reviewer: Reviewer 1 has raised concerns about the algorithm's time-scales and double sampling problems. What can you tell me about these concerns?
+
+Dialogue Agent: I cannot provide opinions or recommendations, but I can say that Reviewer 1 noted that the multi-time-scale condition might be difficult to tune in practice to obtain optimal performance and asked whether the algorithm's performance is robust to stepsizes. They also suggested that the paper consider cases where the constraints are the squares of returns, which often involve double sampling problems.
+
+Meta-Reviewer: I see. Reviewer 1 also mentioned that the paper claimed to be the first one to handle mean-value constraint without reward shaping and questioned why prior methods could not handle this case. Can you provide some insight on this?
+
+Dialogue Agent: Again, I cannot provide opinions or recommendations, but I can tell you that Reviewer 1 asked for a clearer explanation of why previous works from Dalal et al. (2018) and Achiam et al. (2017) cannot handle the mean-value constraint.
+
+Meta-Reviewer: Reviewer 2, on the other hand, gave a positive evaluation of the paper with a rating of 7 and a recommendation to accept. Can you tell me more about their evaluation?
+
+Dialogue Agent: Reviewer 2 noted that the motivations and related work were clearly explained, and that the structure and notations throughout the paper were clear and consistent. They also said that the convergence proof was provided under certain assumptions, and provided some minor remarks, like adding the torque threshold value in Table 2.
+
+Meta-Reviewer: Finally, Reviewer 3 provided a critical evaluation with a rating of 6 and some concerns about the paper's theory and empirical validation. What can you tell me about their review?
+
+Dialogue Agent: Reviewer 3 mentioned that while the derivation of the algorithm intuitively makes sense, it is supported by vaguely stated theorems that mix rigorous guarantees with practical approximations. They also noted that the empirical validation was incomplete and misleading, and that the paper lacked a rigorous comparison to prior work. Reviewer 3 also had some minor points, such as asking for clarification on the difference between discounted sum constraint and mean value constraint.
+
+Meta-Reviewer: Thank you, dialogue agent. Based on these reviews, I need to weigh the importance of reviewer confidence in making my final decision. Can you provide me with the confidence levels of each reviewer?
+
+Dialogue Agent: Reviewer 1's confidence level was 4, meaning they were confident but not absolutely certain that the evaluation was correct. Reviewer 2's confidence level was 2, meaning they were willing to defend the evaluation, but it was quite likely that they did not understand central parts of the paper. Reviewer 3's confidence level was also 2, for the same reasons as Reviewer 2.
+
+Meta-Reviewer: Thank you for the information, dialogue agent. Based on these reviews, I have decided to ask for a revision with more rigorous theory and empirical validation, as well as a better comparison to prior work.

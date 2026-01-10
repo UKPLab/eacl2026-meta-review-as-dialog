@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you for providing your reviews of the paper. Based on these, I have some questions for the dialogue agent. 
+
+Dialogue agent: Of course, I will do my best to answer them.
+
+Meta-reviewer: Review 1 mentions a concern about the empirical evaluations and the lack of comparison with state-of-the-art methods. Can you provide any more information on this?
+
+Dialogue agent: The paper does not compare the proposed approach with recent continual learning methods such as IMM(Lee et al, 2017), DEN or RCL(Ju Xu et al, 2018) in terms of accuracy or network capacity. Instead, the authors focus on providing insights on the effects of different components of the proposed model. The author's argument is that the proposed approach is different from existing methods, and that comparing it against them would not be meaningful. However, I understand the reviewer's concern and this is something that the authors could address in future work.
+
+Meta-reviewer: Review 2 asks a few questions about the proposed model, such as the role of adaptation and the level of flexibility in structure learning. Can you provide more information on these?
+
+Dialogue agent: The paper proposes a novel approach to mitigate catastrophic forgetting in continual learning problems by learning the network structure. It introduces three candidate choices to decide the network architecture: reuse, adaptation, and new. The intuition of structure learning and the validation of that is straightforward and easy to follow. The main contribution of adaptation is to provide the possibility of further fine-tuning the shared network by introducing the "adapt" operator as an additive bias over the previous weights. However, the flexibility of structure learning is limited to specific layers, and at present, there are no experimental trials or plans for joint adoption of more flexible structure learning. 
+
+Meta-reviewer: Review 3 highlights that the paper does not consider recent work on continual learning, and suggests that it should compare its approach to stronger, external baselines. Can you provide more information on this?
+
+Dialogue agent: Review 3 is correct in stating that the paper does not consider recent works on continual learning. The proposed approach is based on dynamically adding parameters or modules, and Progressive Networks and Dynamically Expandable Networks (both cited) are especially relevant and should be compared. The paper only compares its performance to simple baselines such as adding an adapter or fine tuning, making it difficult to gauge the contribution. The authors could incorporate stronger, external baselines in future work. 
+
+Meta-reviewer: Thank you for your answers. Based on these reviews, do you have any recommendations for whether to accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, my role is to provide information and respond to questions, and I am not able to make recommendations or opinions. The decision to accept or reject the paper ultimately rests with the meta-reviewer.

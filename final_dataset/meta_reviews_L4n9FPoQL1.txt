@@ -1,0 +1,13 @@
+Meta-Reviewer: Hello, Dialogue Agent. I am the meta-reviewer for the paper "Classify and Generate Reciprocally: Simultaneous Positive-Unlabelled Learning and Conditional Generation with Extra Data". Can you give me an overview of the paper's reviews?
+
+Dialogue Agent: Sure. The paper has received three reviews. Review 1 appreciates the proposed framework's optimization of both PU classifiers and conditional generative models jointly. However, the reviewer has voiced some concerns about PU classifiers' incorporation into a multi-class version and the choice of one-hot coding instead of soft labels. In contrast, Review 2 highlights the technical contribution to PU classification as being limited and the paper's presentation being hard to decipher. The reviewer rates it a 5. Lastly, Review 3 praises the paper's novelty and robustness but suggests that there are some issues in clarity and implementation. The reviewer rates it a 6.
+
+Meta-Reviewer: I see. Based on these reviews, how confident should I be in making a decision about accepting or rejecting the paper?
+
+Dialogue Agent: I cannot provide an opinion or recommendation on the acceptance or rejection of the paper. However, you may want to consider the confidence ratings of the reviewers before making a decision.
+
+Meta-Reviewer: Yes, the confidence ratings are important. Reviewer 2 and 3 don't seem very confident in their ratings, but review 1 rates the paper marginally above the acceptance threshold and expresses confidence. Can you tell me about the type of paper and the reviews' specific concerns regarding its implementation?
+
+Dialogue Agent: The paper's type is long. Review 1 raises questions about the extension of the binary PU learning to a multi-class version, the choice of one-hot coding, and the estimation of the confusion matrix's efficiency. Review 2 finds the paper's presentation to be confusing, and the technical contribution to PU classification to be limited. Lastly, Review 3 suggests that the paper needs more detail on implementation, particularly about variables and notation and hyperparameters.
+
+Meta-Reviewer: Thank you for the detailed answers, Dialogue Agent. Based on these reviews, I think the concerns raised could be addressed through a revision. I'll recommend acceptance with major revisions.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Dynamic Planning Networks" and I would like to ask you a few questions to help me decide whether to accept or reject the paper.
+
+Dialogue agent: Hello, meta-reviewer. I will do my best to answer your questions.
+
+Meta-reviewer: Review 1 raises some concerns about unjustified statements and limited novelty compared to existing methods. Can you provide any additional insight on these issues?
+
+Dialogue agent: I'm aware of these concerns. As the reviews acknowledge, the paper does offer some new ideas, such as the separate objective for the inner agent and the ability to restart its imagination from the previous imagined state. However, it could benefit from additional analysis and exploration of these elements and the source of the improved performance. It's important to consider the reviewer's suggestions for ablation experiments and probe experiments to further examine the contributions of the different components of the proposed method.
+
+Meta-reviewer: Thank you for acknowledging these concerns. Review 2 raises some doubts about the experimental results and has some questions about the inner agent's utility and the choice of environments. What can you tell me about these issues?
+
+Dialogue agent: Review 2 acknowledges the paper's interesting ideas and clear writing but raises doubts about some of the experimental results and questions about the inner agent's utility. The paper could benefit from further analysis of the proposed method in more complex environments to better demonstrate its effectiveness, as well as providing a deeper justification for the choice of inner agent utility. The reviewer also raises some questions about the choice of environments used in the experiments, which the authors may want to address in their revisions.
+
+Meta-reviewer: Thank you for your response. Review 3 praises the paper for its promising approach, but raises concerns about the comparison to other methods and a lack of demonstration in complex environments. What can you tell me about these concerns?
+
+Dialogue agent: Review 3 acknowledges the promising nature of the paper's approach, but raises concerns about the comparison to other methods and the lack of demonstration in complex environments. While it is true that a pure Monte-Carlo tree search can achieve high accuracy with a fully observable dynamics model, the proposed method's ability to achieve better sample efficiency with less computation makes it a novel and potentially valuable addition to the field. However, the reviewers suggest that more comprehensive comparison and demonstrations in visually complex environments would benefit the paper.
+
+Meta-reviewer: Thank you, dialogue agent, for addressing these concerns. Overall, I am inclined to accept the paper, but I will weigh the confidence of the reviewers in making my final decision. 
+
+Dialogue agent: Of course, meta-reviewer. Let me know if you have any other questions.

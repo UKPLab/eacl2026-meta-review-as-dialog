@@ -1,0 +1,17 @@
+Meta-Reviewer: Thank you for your responses. Based on these reviews, I see that the paper has some interesting ideas and positive empirical results, but also some concerns and questions about the proposed solution. Can you tell me more about the significance of the representation degeneration problem in language generation performance? 
+
+Dialogue Agent: While the paper does not directly comment on the significance of the problem in language generation performance, it highlights that degenerated embeddings for infrequent words can lead to poor generalization, which can impact language generation tasks such as neural machine translation and language modeling.  
+
+Meta-Reviewer: That's an important point. Reviewer 1 suggested that it's not clear why uniformly distributed singular values are helpful in language generation tasks. Do you have any insights to share on this?
+
+Dialogue Agent: The paper suggests that uniformly distributed singular values can lead to a better conditioning of the matrix, resulting in better generalization. However, it does not explicitly explain why this is helpful in language generation. 
+
+Meta-Reviewer: Reviewer 2 pointed out that the analysis might not hold since rare words would not occur very frequently in translation tasks. Can you tell me more about this concern?
+
+Dialogue Agent: While this is a valid concern, the proposed regularization is not specific to translation tasks and can be applied to any language generation task. Additionally, the paper's empirical results show consistent gains in language modeling and translation tasks, which suggests that the proposed solution can be effective in raising generalization in various language generation tasks. 
+
+Meta-Reviewer: Reviewer 3 had concerns regarding the theory behind the proposed solution. What can you tell me about that?
+
+Dialogue Agent: The paper suggests that the degeneration problem originates from underfitting, but proposes a regularization solution. While this may seem contradictory at first, the regularization solution can help prevent the model from overfitting on the training data and improve generalization, even with limited data. The paper's empirical results also support the effectiveness of the solution in raising generalization on small datasets.
+
+Meta-Reviewer: Thank you for your responses. Overall, while there are some concerns and open questions, the reviews suggest that this is a good paper with interesting ideas and positive empirical results. Based on this feedback, I have decided to accept the paper.

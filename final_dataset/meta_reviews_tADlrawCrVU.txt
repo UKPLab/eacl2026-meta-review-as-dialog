@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "CoLES: Contrastive learning for event sequences with self-supervision":
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper titled "CoLES: Contrastive learning for event sequences with self-supervision". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a contrastive learning method for event sequences, called CoLES, which uses random slicing to generate sub-sequences for self-supervised learning. The authors evaluate the method on several publicly available datasets and show that it outperforms baselines.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper has strong technical novelty and the evaluation is thorough and extensive. However, the improvements over baselines seem limited (1-2%) and the method is based on past work, so there is limited novelty introduced. Additionally, the assumption of cyclostationarity in the data is not well supported.
+
+Turn 3:
+Meta-reviewer: I see. What about the random slicing approach used in the method? Does it have any interesting properties?
+
+Dialogue Agent: Yes, the authors provide theoretical analysis for the random slicing approach, which shows that the generated sub-sequences are representative samples of the original entity and follows its latent distribution.
+
+Turn 4:
+Meta-reviewer: That's good to know. What about the experimental setup and results?
+
+Dialogue Agent: The authors test the CoLES algorithm on several publicly available datasets and show that it outperforms baselines. They also provide supplementary results such as changing encoder types, contrastive learning losses, negative sampling strategies, and embedding sizes.
+
+Turn 5:
+Meta-reviewer: Okay, I think I have a good understanding of the paper now. What are your final recommendations for the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would recommend accepting the paper with minor revisions. The main reason for rejection would be not enough technical novelty and limited improvements.
+
+Turn 6:
+Meta-reviewer: Thank you for your help. I will consider your recommendations in my final decision.

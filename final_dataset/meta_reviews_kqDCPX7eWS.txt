@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper titled "Local SGD Meets Asynchrony." Can you provide me with some more information about the paper?
+
+Dialogue agent: Of course! This paper proposes a method for addressing the "local scalability" problem in decentralized SGD by building upon existing data parallel approaches and proposing two new methods - a synchronous and asynchronous non-blocking method. The authors aim to utilize compute resources effectively and avoid using large batch sizes.
+
+Meta-reviewer: Review 1 raises several concerns. Can you comment on them?
+
+Dialogue agent: Review 1 raises a few points, such as the absence of regularizer terms in the finite-sum minimization problem mentioned in the introduction and experiments on large datasets. They also ask about comparison with other methods that construct mini-batches or subsets of data more intelligently. The reviewer seems to be asking for additional experiments and comparing the proposed method with related work. 
+
+Meta-reviewer: That's correct. Review 1 also mentions that the proposed method does not intelligently sample data points, which seems to be a limitation. Do the authors respond to these concerns in their paper?
+
+Dialogue agent: The authors explain the motivation behind their work and why they chose to propose the methods they did. They also provide some experimental results on a few datasets and compare their methods with existing approaches on one of the datasets.
+
+Meta-reviewer: Review 2 raises some concerns about the paper's presentation and the proposed methods. Can you provide me with more information about these concerns?
+
+Dialogue agent: Review 2 finds the paper hard to read due to missing definitions and little explanation of the proposed methods. They also find the comparison in Table 1 problematic and question the motivation behind the proposed algorithm. Additionally, they ask for more information about the intuition behind local asynchrony and the process of alternating between full and partitioned lock-free asynchronous gradient updates.
+
+Meta-reviewer: I see. Review 3 seems to be generally positive about the paper, but they also raise some concerns. Can you explain these concerns?
+
+Dialogue agent: Review 3 is positive about the proposed methods and their theoretical guarantees but raises some concerns about the lack of an appendix and the large number of notations used in the paper. They suggest introducing these notations in a table for the readers.
+
+Meta-reviewer: Thank you for the summary. Given these reviews, what is your recommendation?
+
+Dialogue agent: Based on the reviews, Review 1 seems to be fairly negative about the paper and raises several concerns about the proposed methods and their comparison with related work. Review 2 also raises significant concerns about the presentation and the comparison in Table 1. Review 3 is generally positive about the methods but notes some concerns about the appendix and notations used in the paper. Overall, it seems like the paper has some limitations and could benefit from additional experiments and comparisons with related work. Based on the reviews, I would recommend rejecting the paper.

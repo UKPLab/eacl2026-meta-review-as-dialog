@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, dialogue agent. I have here three reviews of the paper "Unsupervised Video-to-Video Translation". Can you tell me what kind of paper it is and what its major contribution is?
+
+Dialogue agent: Certainly, meta-reviewer. "Unsupervised Video-to-Video Translation" is a long paper that proposes a spatio-temporal (i.e., 3D version) of Cycle-Consistent Adversarial Networks (CycleGAN) for video-to-video translation. Its major contribution is extending the existing CycleGAN model from image-to-image translation and video-to-video translation using 3D convolutional networks, while it additionally proposes a total penalty term to the loss function.
+
+Meta-reviewer: I see. Review 1 concerns whether this contribution is enough for the quality standards of ICLR. What do the other reviews say about the technical novelty and results of the proposed method?
+
+Dialogue agent: Review 2 mentions that the proposed method mitigates the inconsistency problem present when image-to-image translation methods are used in the video domain and shows better results than image-to-image translation methods in most measures. However, it also suggests improvements in the network architecture and the evaluation of the proposed method. Review 3 notes that the technical novelty of the paper is limited and the results are not good enough, but acknowledges the proposed 3D translator can preserve both color and shape information well.
+
+Meta-reviewer: Thank you for the summaries. Review 2 identifies some limitations in the proposed method, but also mentions the impact that the proposed dataset can have on the community. Do any of the reviews comment on the confidence of their evaluation?
+
+Dialogue agent: Yes, meta-reviewer. Review 1 has a confidence level of 4: the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2, on the other hand, has a confidence level of 5: the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Review 3 also has a confidence level of 5.
+
+Meta-reviewer: I see. Based on these reviews, I need to weigh the importance of reviewer confidence in making the final decision. Thank you for your help, dialogue agent. I will need to consider these reviews carefully before making a decision.

@@ -1,0 +1,29 @@
+Meta-reviewer: Hello, I have read through the reviews for the paper "Effective and Efficient Batch Normalization Using Few Uncorrelated Data for Statistics Estimation." It seems like the overall quality is not great, however, there are some positives to take away. Can you give me a brief on what the paper proposes?
+
+Dialogue agent: Certainly. The paper proposes a method for accelerating Batch Normalization during training of a neural network. The method uses subsampling to reduce the computational cost of BN and introduces several sampling methods called NS, BS, and FS. Additionally, VDN is proposed to generate random virtual samples. The paper includes experiment results to support the authors' goal.
+
+Meta-reviewer: What about the quality of the writing in the paper?
+
+Dialogue agent: Review 1 notes that the writing of the paper needs more polishing. The reviewer saw grammatical errors here and there, such as at the first paragraph of page 2, where "alternating" should be alternative and "synthetical" should be synthetic.
+
+Meta-reviewer: Review 1 also mentions that there is a lack of evidence to support the authors' argument that the "summation" operation is what makes BN expensive. Is there any response to this?
+
+Dialogue agent: No, the dialogue agent cannot provide any opinions or recommendations. I can only mention that Review 1 raises some valid concerns about the lack of evidence supporting the authors' argument.
+
+Meta-reviewer: Understood. Review 2 seems to provide more positive feedback. Can you summarize their main points?
+
+Dialogue agent: Review 2 notes that the paper is clearly written and easy to follow. They also mention that the way of reducing the computational cost looks good and that the method can be easily adapted to BN or other batch-based methods. However, Review 2 also raises some concerns, such as the lack of motivation or insights into NS, BS, and FS. Additionally, the proposed sampling strategy looks heuristic without any studies. Review 2 also notes that it is hard to choose which normalization among FS and BS is better as looking at Table 2 and 3 only. Finally, Review 2 comments that the paper should incorporate different ablation studies as much as possible.
+
+Meta-reviewer: I see. Review 3 seems to have a more negative view of the paper, is that correct?
+
+Dialogue agent: Review 3 notes that while the method proposed in the paper is reasonable, it could be limited in practice due to only 20% maximum gain that can be achieved. Review 3 raises concerns about the gradient propagation through the normalization factor in the case of subsampled BN, and whether the paper compared against cuDNN's native version of BN.
+
+Meta-reviewer: Thank you for summarizing the reviews for me. Based on what you presented, it seems like there are some concerns with the paper but also some promising aspects. What is the overall confidence level of the reviewers?
+
+Dialogue agent: Review 1's confidence level is a 3, which means they are fairly confident that their evaluation is correct. Review 2's confidence level is also a 3. Review 3's confidence level is a 5, which means they are absolutely certain that their evaluation is correct and are very familiar with the relevant literature.
+
+Meta-reviewer: Hmm, it seems like the reviewers have a range of confidence levels. Would you say that the paper is marginally below the acceptance threshold or not good enough for acceptance?
+
+Dialogue agent: Review 2 rates the paper as marginally below the acceptance threshold, while Review 1 gives a rating of "Ok but not good enough - rejection." Review 3's final verdict on the paper is unclear, but they note that the results might be of interest to some of the ICLR audience.
+
+Meta-reviewer: Thank you for the information. I will take note of the positives as well as the concerns raised by the reviewers to make my decision on whether to accept or reject the paper.

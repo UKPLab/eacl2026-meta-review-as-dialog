@@ -1,0 +1,23 @@
+ Meta-Reviewer: Hello, I'm reviewing your paper on Global-to-local Memory Pointer Networks for Task-Oriented Dialogue. I have some questions about the model and the evaluation.
+
+Dialogue Agent: Hello! I'd be happy to help answer your questions. Please go ahead and ask away!
+
+Meta-Reviewer: Great! Let's start with the auxiliary loss on the global pointer. You mention an ablation study that shows this improves performance, but I can't find it in the paper or appendix. Can you tell me more about this?
+
+Dialogue Agent: Sure! The auxiliary loss on the global pointer is a key component of our model. We found that adding this loss improves the model's ability to encode the global context, which is important for task-oriented dialogue. The ablation study is in Appendix Section A.3.
+
+Meta-Reviewer: That's helpful. What about the other components of the model? Why no similar auxiliary losses on the template generation, for example?
+
+Dialogue Agent: Good question! We did try auxiliary losses on the template generation, but found that they were not as effective as the global pointer loss. Our intuition is that the global pointer is a more important component of the model, as it allows the model to focus on the most relevant information in the global context.
+
+Meta-Reviewer: I see. Can you tell me more about the human evaluation? You mention that it's a "human eval," but I'd like to know more about the specific tasks and criteria used for evaluation.
+
+Dialogue Agent: Sure! We conducted a human evaluation using the Stanford Multi-domain Dialogue (SMD) dataset. We asked human evaluators to rate the appropriateness and human-likeness of our model's responses, as well as the correctness of the entity mentions. The results show that our model performs well on these criteria, with an average rating of 4.2 out of 5.
+
+Meta-Reviewer: That's impressive. I'm a bit surprised that you didn't include experiments on the DSTC2 and In-car Assistant datasets, which are similar to your task-oriented dialogue setting. Can you tell me why you didn't include those datasets?
+
+Dialogue Agent: We did consider including those datasets, but ultimately decided to focus on the SMD dataset due to its more diverse and challenging tasks. However, we do plan to explore the DSTC2 and In-car Assistant datasets in future work.
+
+Meta-Reviewer: I see. Well, I have a few more questions, but I think that's all for now. Thank you for your time and help!
+
+Dialogue Agent: You're welcome! I hope my answers have been helpful. Please let me know if you have any further questions.

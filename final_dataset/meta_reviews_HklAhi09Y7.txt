@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about question generation using a scratchpad encoder. Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: The paper introduces the scratchpad encoder, a novel addition to the sequence-to-sequence (seq2seq) framework that enables the decoder to modify all the encoder outputs at each time step. This allows the model to keep track of what has been generated so far and guide future generation.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the motivation behind this idea?
+
+Dialogue Agent: The paper is motivated by the problem of question generation from logical forms. The authors propose a new model that uses the scratchpad encoder to keep track of the generated information and guide future generation. The proposed model improves upon the baselines with copy and coverage mechanisms.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you explain the major differences between the proposed model and the coverage-enhanced models?
+
+Dialogue Agent: The proposed model uses the scratchpad encoder to keep track of the generated information, whereas the coverage-enhanced models use a general neural network output to encode attention history. The scratchpad encoder is a more targeted approach that directly updates the encoder hidden states with an update vector from the decoder.
+
+Turn 4:
+
+Meta-reviewer: I'm not sure if the paper adequately explains the intuition behind the "write" operation/scratchpad. Can you help me understand it better?
+
+Dialogue Agent: Sure! The "write" operation/scratchpad is a key aspect of the proposed model. It allows the decoder to modify all the encoder outputs at each time step, enabling the model to keep track of what has been generated so far and guide future generation. The intuition behind this is that the decoder can use the encoder outputs as a "scratchpad" to keep track of the generated information and guide future generation.
+
+Turn 5:
+
+Meta-reviewer: I see. Can you tell me more about the human evaluation results?
+
+Dialogue Agent: The paper presents human evaluation results on the WebQuestionsSP and WikiSQL datasets. The results show that the proposed model outperforms the baselines with copy and coverage mechanisms. However, the reviewer notes that the human evaluation results may be biased due to the way the gold standard references were introduced to the judges.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your help. Based on our conversation, I think the paper has some interesting ideas, but the presentation could be improved. I'm leaning towards rejecting the paper, but I want to hear your final thoughts before making my decision.
+
+Dialogue Agent: Based on our conversation, I agree that the paper has some interesting ideas, but the presentation could be improved. The reviewer's concerns about the human evaluation results and the lack of a clear comparison against previous work are valid. Overall, I think the paper is not quite ready for publication in its current form.

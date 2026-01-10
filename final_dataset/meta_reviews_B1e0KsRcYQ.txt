@@ -1,0 +1,33 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the meta-reviewer aware only of the paper's title:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Efficient Codebook and Factorization for Second Order Representation Learning". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new method for efficient representation of second-order information in images. The proposed method combines the advantages of factorized second-order representations with a codebook-style hard assignment.
+
+Meta-Reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The main contributions of the paper are:
+
+1. A new method for efficient representation of second-order information in images.
+2. A novel bilinear representation based on a codebook model.
+3. An extension of the Hadamard Product for efficient representation of a bilinear model.
+4. A multiple-rank representation of a bilinear model, which is a straightforward extension from the one-rank model.
+
+Meta-Reviewer: Can you tell me more about the experimental evaluation of the paper?
+
+Dialogue Agent: The experimental evaluation of the paper shows that the proposed method produces better classification accuracy with a limited amount of parameters. The method is also efficient in terms of training time and computational cost. However, the paper only considers the specific problem of transfer learning and evaluates the method using only one evaluation metric (recall@k).
+
+Meta-Reviewer: That's a good point. What are the limitations of the paper?
+
+Dialogue Agent: The limitations of the paper are:
+
+1. The experimental evaluation is weak.
+2. The paper only considers one evaluation metric.
+3. The method is only evaluated for a specific task and dataset.
+4. The paper does not compare the same task and datasets as previous works (e.g. [Kim et al., ICLR 2017]).
+
+Meta-Reviewer: Thank you for the summary. Based on the limitations, how would you rate this paper?
+
+Dialogue Agent: Based on the limitations, I would rate this paper as "Marginally below acceptance threshold" with a confidence level of "2: The reviewer is willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper".
+
+Meta-Reviewer: Thank you for your input. I will take this into consideration when making my final decision.

@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read the three reviews of the paper titled "Learning Corresponded Rationales for Text Matching." I am trying to decide whether to accept or reject the paper. Can you provide me with some information that might help me make this decision?
+
+Dialogue agent: Of course. What would you like to know?
+
+Meta-reviewer: Can you explain the paper's main contribution and the evaluation that was performed?
+
+Dialogue agent: The paper proposes a method for learning paired rationales that include the corresponding relevant spans of the (question, passage) or (premise, hypothesis). The approach uses a generation-encoding-generation schema to first generate the rationale from one side as a sequence tagging problem, re-encode the rationales and predict the rationale on the other side as a span prediction problem. The evaluation was performed on NLI and QA datasets, and the results showed that the generated rationales are sensible and come at a cost of accuracy. However, there are some questions regarding the usefulness of the generated rationales for interpretation.
+
+Meta-reviewer: Yes, I saw that the reviews had some concerns about the evaluation. Can you tell me more about that?
+
+Dialogue agent: Reviewer 1 suggested that it would be good to compare the proposed method against some prior work that does not include pairing. Additionally, the method was evaluated in an adversarial setting for NLI, but it might be interesting to perform experiments for adversarial SquAD examples. Reviewer 2 suggested that it is necessary to conduct some human evaluation for generating rationales and also to provide some simple baselines for comparison. Reviewer 3 argued that the evaluation is not evaluated using human input, and there is no direct comparison against related work on the same topic.
+
+Meta-reviewer: I see. Let me ask you this: How confident are you in the evaluation of the paper?
+
+Dialogue agent: Well, Reviewer 1 had some suggestions for improving the evaluation, but they still rated the paper marginally above the acceptance threshold. Reviewer 2 had significant concerns about the evaluation and recommended rejection, while Reviewer 3 was absolutely certain in their rejection. Therefore, I would say that the evaluation is not entirely convincing.
+
+Meta-reviewer: I appreciate your honesty. What do you think about the confidence level of Reviewer 1, who suggested accepting the paper despite some evaluation concerns?
+
+Dialogue agent: It seems that Reviewer 1 is relatively confident in their evaluation, but not absolutely certain. Their main concern was the clarity of the descriptions of the baselines. However, they still recommended some improvements and suggested comparing the proposed method against other prior work.
+
+Meta-reviewer: That is helpful. Finally, can you remind me of the paper's type and title?
+
+Dialogue agent: The paper is a long paper, and the title is "Learning Corresponded Rationales for Text Matching."

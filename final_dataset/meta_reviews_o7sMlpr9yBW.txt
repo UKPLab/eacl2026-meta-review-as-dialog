@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper about prompt tuning or fine-tuning for relational knowledge in pre-trained language models. Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper presents a simple but effective method for the task of "fact retrieval" from pre-trained language models. The method requires a training set of (s,r,o) triples, which must have human-readable labels, such as wikidata triples. The triples are treated as pseudo-natural language sentences, and the pre-trained language model is given additional MLM fine-tuning on these training data.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and easy to understand, and the empirical results on LAMA are strong and significantly outperform previous approaches. The paper also studies the transfer learning capabilities of the pre-trained language models for knowledge extraction and provides interesting insights. Additionally, the paper eliminates the need for manually-written prompts for relations, which is a great strength.
+
+Turn 3:
+Meta-Reviewer: Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: Sure. The main weakness of this paper is that the goal of this paper is unclear to me. The approach is only evaluated on the LAMA benchmark, but LAMA is originally to probe how much knowledge is stored in the pre-trained language models, where the parameters of the models are frozen. In this paper, the model parameters are updated. If the paper targets to better estimate how much knowledge the model has stored in parameters (because the parameters have been updated), it lacks discussion on whether the results can reflect how much knowledge the model has stored in parameters. Additionally, the paper only uses one base model (BERT) and only one dataset (LAMA, and its subset LAMA-UHN), so it would be interesting to see how effective the method was for other models and datasets.
+
+Turn 4:
+Meta-Reviewer: Thank you for the information. Based on the strengths and weaknesses you've mentioned, what is your recommendation for the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses, I would recommend accepting the paper with minor revisions. The paper presents a simple but effective method for the task of "fact retrieval" from pre-trained language models, and the empirical results on LAMA are strong and significantly outperform previous approaches. However, the paper could benefit from more discussion on the limitations of the approach and how it compares to other methods for knowledge extraction. Additionally, the paper only uses one base model and one dataset, so it would be interesting to see how effective the method was for other models and datasets.

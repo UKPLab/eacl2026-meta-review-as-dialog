@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper titled 'Learning deep representations by mutual information estimation and maximization'. I have read the reviews and have some questions before making a decision. Can you tell me about the paper's approach and its strengths?
+
+Dialogue agent: Sure. The paper proposes an approach called Deep InfoMax (DIM) for representation learning, which structures the network and objectives to maximize the mutual information between the input and a deep representation. DIM learns features that are useful for downstream tasks without relying on reconstruction or a generative model. The strengths of the paper are its interesting new objectives for representation learning, the good set of ablation experiments looking at local vs global approach, and the large set of experiments on image datasets with different evaluation metrics for comparing representations.
+
+Meta-reviewer: What are the weaknesses of the paper?
+
+Dialogue agent: The weaknesses of the paper include a lack of comparison to autoencoding approaches that explicitly maximize information in the latent variable, such as InfoVAE, beta-VAE with small beta, an autoencoder with no regularization, invertible models like real NVP that throws out no information. Additionally, the results on CIFAR-10 are worse than a carefully tuned single-layer feature extractor. The comparison with and discussion of Contrastive Predictive Coding (CPC) is lacking as CPC outperforms JSD in almost all settings. The clarity of the text could be improved, with more space in the main text devoted to analyzing the results. 
+
+Meta-reviewer: I see. In review 1, the reviewer mentioned that the paper could be accepted if the authors addressed their concerns. Did they address the concerns raised in the reviews?
+
+Dialogue agent: Yes, they did. The updated version includes more baselines, comparisons to CPC, discussion of NCE, and comparisons between Jensen-Shannon divergence (JSD) and mutual information (MI). The paper also addresses several technical inaccuracies and provides a more in-depth discussion of prior work.
+
+Meta-reviewer: That's good to hear. The confidence level of reviewers 1 and 2 is high, but the confidence level of reviewer 3 is low. Why is that?
+
+Dialogue agent: Reviewer 3 had some concerns about the paper's focus and the statements made about statistical constraints. They also noted that the real power of the paper seemed to be in the local information objective. However, they did find the paper to be important and thought the mutual information estimators were a strong contribution.
+
+Meta-reviewer: Thank you for your answers. Based on these reviews, what is your recommendation for acceptance or rejection of this paper?
+
+Dialogue agent: Based on the reviews, the paper has several strengths, including interesting new objectives and a comprehensive set of experiments. While there are some weaknesses, the authors have addressed many of the concerns raised by the reviewers. Reviewer 1 has increased their rating of the paper from 5 to 7 after the update, and Reviewer 2 recommends acceptance with a rating of 7. I recommend accepting this paper.

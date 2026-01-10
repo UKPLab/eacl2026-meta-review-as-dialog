@@ -1,0 +1,21 @@
+ Sure, here is a simulated dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning Physics Priors for Deep Reinforcement Learning":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Learning Physics Priors for Deep Reinforcement Learning". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for learning physics priors to improve the efficiency of deep reinforcement learning algorithms. The proposed method uses a Spatial-Net architecture to learn the physics priors and improve the sample efficiency of the agent.
+
+Meta-Reviewer: I see. Can you clarify how the Spatial-Net is trained along with the policy in the IPA architecture?
+
+Dialogue Agent: Sure! The Spatial-Net is trained simultaneously with the policy using Proximal Policy Optimization (PPO) as the model-free algorithm. The Spatial-Net is pre-trained with some data and then fine-tuned along with the environment rewards. The policy-net and the frame prediction net share some parameters.
+
+Meta-Reviewer: Thank you for clarifying that. I have a few more questions. How many frames does the IPA agent see? And how does the comparison in Table 2/Figure 5 fair in terms of number of frames seen by the agent?
+
+Dialogue Agent: The IPA agent sees 3 future frames predicted by the physics prior model. The comparison in Table 2/Figure 5 is fair in terms of number of frames seen by the agent. The authors provide a detailed analysis of the results and show that using Spatial-Net leads to better prediction of the future as compared to previous methods on simple simulated physics environment and can be incorporated to improve performance on ATARI games.
+
+Meta-Reviewer: I see. Can you address the concerns raised in the reviews regarding the novelty of the method and the lack of comparison with existing close methods?
+
+Dialogue Agent: Sure! The paper addresses an interesting problem of understanding dynamics for solving reinforcement learning, but the suggested method is not novel and comparison with existing close methods are not performed. The authors propose a new method to learn a dynamics model that is action-free, purely learning the extrinsic dynamics. This work is original as most of the model-based RL works are focusing on learning one environment instead of common rules of physics. The significance of this work is in proposing an interesting direction to pursue.
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your answers, I will give my final decision.
+
+Dialogue Agent: You're welcome! I hope my responses have been helpful in understanding the paper.

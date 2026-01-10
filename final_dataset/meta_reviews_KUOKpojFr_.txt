@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I am a meta-reviewer and I am reviewing the paper "ShapeCrafter: A Recursive Text-Conditioned 3D Shape Generation Model" with three reviews. Can you tell me a little about the paper and its type?
+
+Dialogue agent: Hello, meta-reviewer. The paper is a long technical paper that proposes a model for generating 3D shapes from text and refining it in multiple iterations using a new dataset. The paper introduces a novel task of recursive text-conditioned shape generation, where the model generates a 3D shape given the initial text and evolves it in multiple steps given more text descriptions. 
+
+Meta-reviewer: That sounds interesting. What are the strengths of this paper according to the reviewers?
+
+Dialogue agent: The proposed recursive generation task is both novel and useful, which can inspire future research. The curated dataset is a valuable and unique addition to the current text-to-shape datasets. The new model achieved better generation quality on the proposed dataset compared to previous work, justifying the need for a model tailored to the new task.
+
+Meta-reviewer: And what are the limitations or weaknesses of the paper?
+
+Dialogue agent: The proposed model is trained with strong supervision enabled by the new dataset, as the exact matching between arbitrary phrase sequences and shape sets is available. Building such a dataset is not always feasible for real-world applications with more complex shapes. One reviewer also points out some weaknesses in the evaluations and results, such as lacking metrics to evaluate sequential updates, inconsistency of sequential updates, and limitations to object categories.
+
+Meta-reviewer: How do the reviewers rate this paper?
+
+Dialogue agent: One reviewer rates the paper as a clear accept with a rating of 7, another rates it as a borderline accept with a rating of 5, and the third reviewer rates it as a borderline reject with a rating of 4.
+
+Meta-reviewer: It seems like there are mixed opinions about this paper. Can you provide any additional information about the confidence levels of the reviewers in their assessment?
+
+Dialogue agent: The first reviewer is confident in their assessment with a confidence level of 4, while the second and third reviewers are absolutely certain about their assessment with a confidence level of 5.
+
+Meta-reviewer: Thank you for the information, dialogue agent. Based on the reviews, I think the proposed model and dataset have potential, but the evaluations and results need to be further strengthened. I will consider all the viewpoints and make the final decision.

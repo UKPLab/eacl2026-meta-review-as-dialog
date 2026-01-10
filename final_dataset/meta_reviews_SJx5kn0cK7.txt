@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, thank you for meeting with me today. I have had the chance to review the reviews for the paper HAPPIER: Hierarchical Polyphonic Music Generative RNN and I'd like to hear more from you about your understanding of the paper.
+
+Dialogue Agent: Of course, I am happy to answer any questions you may have.
+
+Meta-reviewer: I see that there are some concerns from the reviews regarding the novelty of the paper. Can you explain the main contribution of this paper?
+
+Dialogue Agent: The main contribution of this paper is the use of a hierarchical RNN to generate polyphonic music that maintains long-term dependencies. The hierarchical approach is based on the use of measures and chords as a natural hierarchy for a multi-level RNN, and the addition of a cross-entropy loss for chord labels at the higher level. This approach allows for the generation of reasonably coherent chords and note samples, and improves the negative log likelihood (NLL) over a low-level model alone.
+
+Meta-reviewer: I see. Review 1 points out that hierarchical RNNs are known to improve performance, and this paper does not provide ample evidence of this improvement beyond small improvements in log-likelihood. Can you provide any further justification for the use of hierarchical RNNs in this paper?
+
+Dialogue Agent: While it is true that hierarchical RNNs have been shown to improve performance in other applications, the use of hierarchical RNNs in the specific application of music generation is still an open question. This paper provides evidence that the use of measures and chords as a natural hierarchy can improve the generation of polyphonic music with long-term dependencies.
+
+Meta-reviewer: Review 2 provides a strong critique of the paper's output, claiming that while the paper claims to generate polyphonic music with long-term dependencies, the generated music does not demonstrate this coherence. Can you respond to this concern?
+
+Dialogue Agent: The paper recognizes that polyphonic music generation with long-term dependencies is a challenging problem, and while the generated music may not fully demonstrate this coherence, the use of the hierarchical RNN approach does show improvements over a low-level model alone. Additionally, the paper provides evidence that the generated music is coherent through a listening test with human evaluation.
+
+Meta-reviewer: Review 3 highlights the lack of novelty and poor evaluation in the paper. Can you respond to these critiques?
+
+Dialogue Agent: While the use of a hierarchical RNN and the incorporation of measures and chords as a natural hierarchy may not be entirely novel, the specific implementation in the context of music generation is original. Additionally, the paper recognizes the limitations of the evaluation and suggests further improvements to the listening test for future work. The paper's contribution lies in its implementation of a hierarchical RNN for music generation with measures and chords as a natural hierarchy, and the paper's evaluation provides some evidence of the coherence of the generated music. 
+
+Meta-reviewer: Thank you for your responses. I am hesitant to accept a paper with such mixed reviews and concerns over its novelty and evaluation. Can you provide any further information or insights that might sway my decision?
+
+Dialogue Agent: While I understand your hesitation, I would like to remind you that the reviewer confidence of Review 1, which gave the strongest rejection rating, was only at a level of 4. They acknowledged that the evaluation raised significant concerns but were not entirely certain in their evaluation. Additionally, the paper does propose a novel implementation of a hierarchical RNN for music generation with measures and chords as a natural hierarchy, and while the generated music may not fully demonstrate coherence, the paper provides evidence of its coherence through a listening test with human evaluation. Ultimately, the decision is up to you, but I hope that I have provided some useful information to guide your decision.

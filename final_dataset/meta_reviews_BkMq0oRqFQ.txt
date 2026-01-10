@@ -1,0 +1,27 @@
+Meta-Reviewer: Hello dialogue agent, I have read the reviews for the paper "Normalization Gradients are Least-squares Residuals" and I'm trying to decide whether to accept or reject it. Can you tell me what the type of the paper is and summarize its main result?
+
+Dialogue Agent: The type of the paper is long. The main result of the paper is the proposal of a new interpretation of batch normalization in neural networks, where backpropagation of the gradient of some loss function through a batch normalization can be seen as a scaled residual of a least-square linear fit. This interpretation is extended to other normalization techniques in the literature and aims to provide a "unified" view of such methods.
+
+Meta-Reviewer: How well-written and easy to follow are the theoretical results and proofs in the paper?
+
+Dialogue Agent: Review 1 describes the theoretical results and proofs as well written and easy to follow. 
+
+Meta-Reviewer: How convincing are the arguments brought forward by the new vision of batch normalization in applications?
+
+Dialogue Agent: Review 1 suggests that the arguments brought forward by the new vision of batch normalization in applications look light, as more detailed interpretation of this new vision on a single application and its impact would have been preferred.
+
+Meta-Reviewer: What is the primary technical contribution of the paper, according to Review 2? 
+
+Dialogue Agent: According to Review 2, the primary technical contribution comes from Section 2, where it is demonstrated that the normalized back-propagated gradients obtained from a BN layer can be viewed as the residuals of the gradients obtained without BN regressed via a simple two-parameter model of the activations. 
+
+Meta-Reviewer: What issue does Review 2 identify regarding the paper's framing of batch normalization as an unsettled issue?
+
+Dialogue Agent: Review 2 identifies that the framing of batch normalization as an unsettled issue in motivating the proposed analysis is not fully addressed in the paper's presented interpretation of batch normalization. 
+
+Meta-Reviewer: How does Review 3 describe the novelty and relevance of the proposed interpretation of Batch Normalization?
+
+Dialogue Agent: Review 3 indicates that the proposed interpretation holds for any function and can be possibly seen as a gradient pre-conditioning. However, the authors do not "extend" it towards the gradients w.r.t. the network parameters and do not consider the specifics of the learning objectives. 
+
+Meta-Reviewer: Overall, based on the reviews, what is the recommendation for the paper's acceptance or rejection?
+
+Dialogue Agent: Based on the reviews, Reviews 1 and 2 rate the paper as "Ok but not good enough - rejection" with confidence ratings of 5 and 4, respectively. Review 3 rates the paper as a "Clear rejection" with a confidence rating of 4.

@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, Dialogue Agent. Thank you for joining me today. I am reviewing a paper titled "Decentralized Attribution of Generative Models," which has received mixed reviews. As a dialogue agent, you have access to the reviews and are aware of the paper type, which is long. Can you provide me with some insight into the paper and help me decide whether to accept or reject it?
+
+Dialogue Agent: Hello, Meta-Reviewer. I will be happy to answer any questions you may have and provide you with the information you need. What would you like to know?
+
+Meta-Reviewer: Could you summarize the paper and its strengths?
+
+Dialogue Agent: Certainly, the paper investigates techniques to identify models that generated fake content produced by generative models. The paper proposes a decentralized attribution technique based on the design of orthogonal keys that belong to a subspace determined by the data distribution. The paper also derives the sufficient conditions for decentralized attribution, and the results are validated on two datasets, MNIST and CelebA.
+
+The key theoretical result is the derivation of the sufficient conditions for decentralized attribution, and the idea of adding a uniform and bounded perturbation to the output of the root model, as well as providing theoretic insights into their proposed method. 
+
+Meta-Reviewer: I see. And what are the weaknesses of the paper that were noted by the reviewers?
+
+Dialogue Agent: Reviewers noted several weaknesses in the paper. One reviewer felt that the paper lacked a clear motivation for the decentralized attribution problem and questioned the use cases and limitations of the approach. Additionally, the paper did not clearly explain the attack model or the application settings.
+
+Another reviewer felt that the paper was not well-organized and some parts were misleading, while also noting that the method was only tested on simplistic and low-resolution datasets and there was a lack of experiments on more relevant and diverse datasets.
+
+Finally, a reviewer also questioned the scalability of the technique, and whether the keys would still be attributable while using higher-resolution datasets of greater variety. They proposed more experiments on more relevant datasets such as FFHQ and improvements to figures in the paper.
+
+Meta-Reviewer: I see some strengths and weaknesses in the paper. I'm curious about the confidence levels of the reviewers in their evaluations. What can you tell me about that?
+
+Dialogue Agent: Reviewer 1 expressed a moderate level of confidence and gave a rating of 6, which is marginally above the acceptance threshold. Reviewer 2 also expressed a moderate level of confidence and gave a rating of 5, which is marginally below the acceptance threshold. Finally, Reviewer 3 expressed a low level of confidence but has raised their rating to a 6 after the rebuttal.
+
+Meta-Reviewer: Thank you for that information. Given all of this, what is your recommendation regarding the acceptance or rejection of this paper?
+
+Dialogue Agent: As a dialogue agent, I am unable to make recommendations or provide opinions. However, I can provide you with the information you need to make a decision. Based on the reviews, it seems that the paper presents interesting results, but there are some weaknesses such as a lack of clear motivation and scalability, and a need for more experiments on relevant datasets. Ultimately, the decision is up to you as the meta-reviewer to weigh the strengths and weaknesses and decide whether to accept or reject the paper.

@@ -1,0 +1,31 @@
+ Sure! Here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Select Via Proxy: Efficient Data Selection For Training Deep Networks". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes an algorithm called Select Via Proxy (SVP), which can be used for data sampling in training deep neural networks. The idea is to use a proxy model to get the decision boundary and then train the large target model on the data points close to the decision boundary.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. Firstly, the proposed method is simple and straightforward, which makes it easy to implement and understand. Secondly, the authors provide empirical validation of the experiments, which shows that SVP can help reduce the training time with ResNet. Finally, the authors also discuss the influence of different quantifying uncertainty methods.
+
+Turn 3:
+
+Meta-reviewer: Okay, I see. What about the possible improvements mentioned in the paper?
+
+Dialogue Agent: The authors mention several possible improvements in the paper. Firstly, they suggest that the method can be combined with previous works, which would show the significance of the work. Secondly, they suggest that the method can be applied to larger datasets, such as ImageNet, to show its effectiveness on larger scales. Finally, they suggest that the method can be improved by ensuring that the proxy model is not too simple, so that it can catch the decision boundary accurately.
+
+Turn 4:
+
+Meta-reviewer: That's helpful. What's your rating and confidence for the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as 4: Ok but not good enough - rejection. My confidence is 4: The reviewer is confident but not absolutely certain that the evaluation is correct. The paper has some strengths, but there are also some concerns about the method's applicability to larger datasets and the need for more comparative experiments.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. I think I have a good understanding of the paper now.
+
+Dialogue Agent: You're welcome! If you have any more questions or need further clarification, feel free to ask.

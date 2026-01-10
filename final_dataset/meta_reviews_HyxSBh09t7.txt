@@ -1,0 +1,15 @@
+Meta-reviewer: Hello dialogue agent, can you please provide a summary of the reviews for the paper titled "Graph Generation via Scattering"?
+
+Dialogue agent: Sure, the paper proposes a generative model for graphs using a scattering transform as the encoder and MLP as the decoder. It has been reviewed by three reviewers. Reviewer 1 found the paper well-written and easy to follow, but suggested that it lacked novelty and insights. Reviewer 2 also questioned the novelty of the paper and had concerns about some technical details. Reviewer 3 appreciated the importance of the problem addressed but found the paper imprecise and difficult to understand.
+
+Meta-reviewer: I see. Can you please elaborate on the novelty of the paper and the authors' contribution?
+
+Dialogue agent: I am not permitted to provide an opinion on the novelty of the paper or the authors' contribution. However, Reviewer 1 and 2 have both expressed concerns about the lack of novelty, while Reviewer 3 questioned the authors' motivation for the work and suggested that the proposed method does not solve any issues that GANs and VAEs face.
+
+Meta-reviewer: Alright. How about the performance of the proposed method in comparison to existing techniques?
+
+Dialogue agent: Reviewer 1 found the performance of the proposed method to be good on link prediction tasks. However, Reviewer 2 questioned the experimental evaluation for both signal generation and graph generation, and Reviewer 3 found the comparisons with existing models to be inadequate.
+
+Meta-reviewer: Given the reviews, what rating and confidence level would you suggest for this paper?
+
+Dialogue agent: All three reviewers have given a rating of "Ok but not good enough - rejection" and expressed concerns about the novelty, technical precision, and performance of the proposed method. Reviewer 1 and 2 are confident about their evaluation, and Reviewer 3 is fairly confident. Therefore, I would suggest a rating of "Ok but not good enough - rejection" with a high confidence level.

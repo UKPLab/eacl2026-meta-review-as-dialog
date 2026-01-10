@@ -1,0 +1,29 @@
+Meta-reviewer: Hello dialogue agent, I am reviewing the paper titled "LGDN: Language-Guided Denoising Network for Video-Language Modeling". I have read the reviews provided and I would like to ask you some questions in order to make a decision on whether to accept or reject this paper. Is that alright with you?
+
+Dialogue Agent: Of course, I am here to assist you in any way I can. What would you like to know?
+
+Meta-reviewer: Let's start with the type of the paper. Can you confirm that this is a long paper?
+
+Dialogue Agent: Yes, that is correct. The paper is a long paper.
+
+Meta-reviewer: Thank you. One of the reviewers pointed out that the paper addressed an important limitation in previous works, and that the proposed salient frame proposal mechanism is effective. Can you provide more information on this mechanism and how it addresses the issue of noise in video-text retrieval?
+
+Dialogue Agent: Certainly. The LGDN proposed a salient frame proposal (SFP) mechanism, which is able to dynamically filter out irrelevant or redundant frames and sparsely sample salient frames to improve video-language modeling. This is done under the supervision of language, which helps to tackle the issue of noise in video frames. The SFP mechanism is achieved through exploring momentum video-level contrastive learning (MVCL) and momentum frame-level MSL-contrastive learning (MFCL), which helps to select only 2-4 salient frames per video for cross-modal token-level alignment. This helps to improve video-text retrieval accuracy.
+
+Meta-reviewer: That sounds interesting. Can you confirm that the evaluations conducted are comprehensive and support a fair comparison to previous models?
+
+Dialogue Agent: Yes, that is correct. The evaluations were conducted on four public text-video retrieval datasets and one VQA dataset. The evaluation settings support a fair comparison to previous models. Performance gains from LGDN over existing approaches, including the current SOTA, are quite strong.
+
+Meta-reviewer: Another reviewer has mentioned that the paper needs to provide more analysis and ablation studies to support its network architecture and proposals. Can you provide more information on how the paper addresses this issue?
+
+Dialogue Agent: Yes, certainly. The paper does perform some ablation studies to support its network architecture and proposals. For example, it conducts investigations of the four strategies for estimating relevance scores and provides in-depth comparisons between the salient frame proposal (SFP) mechanism and sparse sampling or other frame sampling techniques. Furthermore, the appendix provides more detailed experimental results on analyzing the effect of SFP, different relevance score estimations, and memory bank sizes, as well as additional visualization results.
+
+Meta-reviewer: Finally, can you confirm if there are any ethical considerations that the authors have not addressed in the paper?
+
+Dialogue Agent: Unfortunately, the paper missed an important section on limitations and potential negative societal impacts. It would be highly desirable for the authors to add discussions on these issues.
+
+Meta-reviewer: Thank you for answering my questions. Based on these reviews, I am inclined to accept this paper as it seems to be technically strong and has novel ideas. However, I am concerned about the potential negative societal impacts that have not been addressed. What is your recommendation?
+
+Dialogue Agent: As a dialogue agent, I cannot provide recommendations or opinions. However, I can provide information and assist you in making a decision based on the reviews and your own judgment.
+
+Meta-reviewer: Understood. In that case, I will consider the reviewers' comments carefully and weigh the importance of tackling noise in video-text retrieval against the importance of addressing potential negative societal impacts.

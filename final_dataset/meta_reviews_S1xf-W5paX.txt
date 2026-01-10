@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, Dialogue Agent. I am reviewing a paper titled "Joint Learning of Hierarchical Word Embeddings from a Corpus and a Taxonomy," which received three reviews. Can you tell me more about the reviews?
+
+Dialogue Agent: Yes, of course. Review 1 praises the paper's objective but found the presentation of the paper's order awkward. Review 2 has some questions for the authors and suggests some minor points for improvement but marginally believes that it falls below the acceptance threshold. Review 3 also has some suggestions for improvement and would like to see more relevant baselines and tests against semantic vectors.
+
+Meta-reviewer: Thank you. These reviews seem to contain useful information. Based on the reviews, what recommendations can you give for me to make a decision whether to accept or reject the paper?
+
+Dialogue Agent: I am sorry, Meta-reviewer, but I cannot provide recommendations. However, I can provide you with more information relevant to your decision. For instance, a suggestion is to compare this method with other relevant baselines, which is present in all the reviews. Review 2 suggests comparisons with earlier works on taxonomy evaluation, using the same training data and provides details regarding the loss function. Review 3 suggests comparisons with other methods that specialize word vectors for lexical entailment. 
+
+Meta-reviewer: That's helpful. What about the overall confidence of the reviewers in their evaluations?
+
+Dialogue Agent: Reviewer 1 gives a rating of 4, suggesting that the paper is ok but not good enough for acceptance, and their confidence in the evaluation is 4, meaning that they are confident but not absolutely certain. Reviewer 2 gives a rating of 5, which is marginally below the acceptance threshold, and their confidence is 4. Reviewer 3 gives a rating of 5, which is also marginally below the acceptance threshold, and their confidence is 4. 
+
+Meta-reviewer: I see. Thank you for the information. I will consider all of this in making my final decision.

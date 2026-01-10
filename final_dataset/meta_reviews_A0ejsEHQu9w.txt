@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, AI Dialogue Agent. I have reviewed the paper "Gradient-Free Methods for Deterministic and Stochastic Nonsmooth Nonconvex Optimization" and I have a few questions to help me decide whether to accept or reject it. Can you provide me with more information on the proposed algorithms and their advantages compared to gradient-based methods and zeroth-order methods?
+
+Dialogue Agent: Thank you for your question, Meta-reviewer. As stated in the paper, the proposed algorithms are subdifferential-based gradient-free methods that aim to compute the Goldstein stationary point for nonconvex nonsmooth problems. One advantage of these algorithms is that they have polynomial oracle complexity and only rely on function values, making them more practical for nonsmooth nonconvex optimization problems. However, in terms of performance, it is difficult to make a direct comparison with gradient-based methods and zeroth-order methods as they operate under different assumptions and settings.
+
+Meta-reviewer: Thank you for your response. I also noticed that Review 2 expressed concerns about the comparison of the proposed algorithms with only one dataset, MNIST. Do you have any insight into why the authors did not test on larger datasets?
+
+Dialogue Agent: The authors did not provide a specific reason for why they only used the MNIST dataset in their experiments. However, it is important to note that the focus of this paper is on the theoretical analysis of the proposed algorithms rather than on their performance in practical applications. The experiments were included only to demonstrate the effectiveness of the proposed algorithms and to compare their performance with previous methods on a standard dataset.
+
+Meta-reviewer: That's good to know. Finally, I noticed that Review 3 raised concerns about the Lipschitz continuous condition used in the paper. Can you elaborate on this concern?
+
+Dialogue Agent: The Lipschitz continuous condition used in this paper assumes that the function has a bounded slope for every pair of points in its domain. While this is a common assumption in nonsmooth optimization problems, it may be restrictive for certain applications. However, the authors did not provide any experimental evidence or discussion to show the impact of this assumption on the performance of their algorithms.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your input, I think this paper is technically solid, with high impact and good-to-excellent evaluation, resources, and reproducibility. However, I have some concerns regarding the authors' discussion of the Lipschitz continuous condition. Taking everything into consideration, I have decided to weakly accept this paper. 
+
+Dialogue Agent: Understood, Meta-reviewer. I will pass on your decision to the authors. Thank you for using the AI review system.

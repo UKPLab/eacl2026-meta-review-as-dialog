@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me your general impression of the paper "Spherical Channels for Modeling Atomic Interactions"?
+
+Dialogue agent: The paper proposes a novel deep learning architecture called "Spherical Channel Network" (SCN) for predicting energies and forces from 3D molecular structures. The authors model the atom embeddings as a set of spherical channels using spherical harmonics and relax the equivariance constraint in both message passing and aggregation. The results are compelling, especially for the relaxed energy tasks (IS2RE) on the Open Catalyst dataset. 
+
+Meta-reviewer: I see. How do you evaluate the strengths and weaknesses of this paper?
+
+Dialogue agent: Reviewer 1 appreciates the clear and practical ideas, as well as the strong evaluation results. Reviewer 1 also notes the loss of equivariance as a weakness and suggests more discussion on alternative strategies to achieving or improving equivariance. On the other hand, Reviewer 2 criticizes the lack of related work comparison and ablation study investigating the effect of model's size, as well as the unsuitability of the model to conservative force field problems. Finally, Reviewer 3 praises the use of spherical harmonics for directional information, but also notes the relaxation of equivariance constraints and the inability to conserve energy, as well as the arbitrary specification of rotation around vector $d_{st}$.
+
+Meta-reviewer: Thanks for the summary. What is your rating and confidence level for this paper?
+
+Dialogue agent: Reviewer 1 rates the paper a 7 and has a confidence level of 4, while Reviewer 2 rejects the paper with a rating of 3 and a confidence level of 5. Reviewer 3 gives a borderline accept rating of 5 and has a confidence level of 3. 
+
+Meta-reviewer: Alright, so it seems like there are both strengths and weaknesses of this paper, and different reviewers have different opinions about it. Can you give me any recommendation on whether we should accept or reject this paper?
+
+Dialogue agent: As a dialogue agent relying solely on the reviews and aware of the paper type, I am not authorized to give any opinions or recommendations. It is up to the meta-reviewer to weigh the different aspects and decide whether to accept or reject the paper.

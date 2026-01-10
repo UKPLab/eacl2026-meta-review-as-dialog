@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I'm tasked with making a decision on a paper titled "Zero-Resource Multilingual Model Transfer: Learning What to Share". It's a long paper, and I have three reviews to consider. Can you give me an overview of what the paper is about and what the reviewers think of it?
+
+Dialogue agent: Yes, certainly. The paper proposes a multilingual natural language processing model that performs well on a target language without relying on labeled data. Review 1 finds the proposed idea new and the results impressive, but points out that the authors did not provide evidence to support their claim that the model knows what to share. Review 2 sees the approach as a direct application of an existing network architecture and questions the novelty of the paper. However, the reviewer acknowledges the write-up, and the approach makes sense. Review 3 acknowledges the value of the proposed approach, but raises concerns about the originality of the proposed approach and the paper's claim about being the first to propose an unsupervised cross-lingual transfer learning framework. 
+
+Meta-reviewer: I see. I'm also aware that Review 1 slightly above the acceptance threshold, Review 2 is marginally below, and Review 3 is marginally above the threshold. How confident are the reviewers in their evaluations?
+
+Dialogue agent: Reviewer 1 has a confidence level of 4, which denotes that they are confident but not entirely certain. Reviewer 2 is absolutely certain in their evaluation, with a confidence level of 5. Reviewer 3 has a confidence level of 4.
+
+Meta-reviewer: Thank you for the summary. Could you tell me more about the originality of the paper?
+
+Dialogue agent: Review 2 brings up concerns regarding the originality of the proposed approach. While the proposed idea is reasonable, the reviewer notes that similar ideas have been proposed in many other works recently. As for the paper's claim of being the first to propose unsupervised cross-lingual transfer learning framework, Review 3 argues that it's not true and points to a previous paper that addresses the same problem in a similar setup.
+
+Meta-reviewer: Understood. Based on the reviews and your summary, I'm inclined to reject this paper. However, I'm aware that Review 1 finds the results impressive. How important is the confidence level of the reviewers in making the final decision?
+
+Dialogue agent: As a dialogue agent, I'm not authorized to provide recommendations or opinions. However, I can tell you that confidence levels can help you assess the reliability of the evaluations and the reviewers' familiarity with the relevant literature.
+
+Meta-reviewer: Thank you for the reminder. Based on my consideration of the reviews and other factors, I've decided to reject this paper.

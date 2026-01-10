@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I am reviewing a paper titled "Simplifying Models with Unlabeled Output Data" that has received three reviews. Can you provide me with more information about the approach presented in the paper?
+
+Dialogue agent: Certainly. The paper proposes a predict-and-denoise framework for structured prediction tasks, where the output must adhere to certain constraints. The framework leverages unlabelled output data to train a denoiser, which allows for a simpler predictor that can generalize well with fewer labelled examples.
+
+Meta-reviewer: That sounds interesting. Review 1 mentions an improvement of 3-5% on the pseudocode-to-code task. Can you confirm if this is a significant improvement and if it has been compared to other techniques such as back-translation?
+
+Dialogue agent: The improvement reported in the paper is statistically significant, and the authors do compare their approach to other techniques for leveraging unlabelled data such as back-translation and pre-training. However, Review 2 raises concerns about the experimental comparisons and suggests that more competitive tasks should be used to better gauge the effectiveness of the proposed approach.
+
+Meta-reviewer: That's a valid point. What about Review 3? Are there any other concerns or issues raised in that review?
+
+Dialogue agent: Review 3 also raises concerns about the experimental section, specifically regarding fair comparisons among different methods for leveraging unlabelled data. The reviewer suggests that there should be comparisons between the proposed predict-and-denoise approach and other approaches such as pre-training and back-translation.
+
+Meta-reviewer: I see. Taking into account all the reviews, what is your recommendation for this paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can provide you with the ratings and confidence levels of the reviewers. All three reviewers have given a rating of 6, which is marginally above the acceptance threshold. The confidence levels range from 3 to 4, which indicates that the reviewers are fairly confident about their evaluation. Ultimately, it is up to the meta-reviewer to make a decision based on the reviews and the paper's contributions.

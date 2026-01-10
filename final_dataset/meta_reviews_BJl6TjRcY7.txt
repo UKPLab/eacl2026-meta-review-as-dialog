@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, can you summarize the main contributions of the paper "Neural Probabilistic Motor Primitives for Humanoid Control?"
+
+Dialogue agent: The paper proposed two approaches to transfer motor skills from multiple experts into a student policy. The first approach is policy cloning, which learns to mimic the local linear feedback behavior of an expert, and the second approach is to compress the expert skills via a latent variable model. The paper also extended the proposed approach to the problem of high-level planning.
+
+Meta-reviewer: I see. One of the reviewers mentioned that the paper has some significant concerns. Can you elaborate on that?
+
+Dialogue agent: Yes. Reviewer 1 mentioned that the linear treatment in the paper oversimplifies the imitation learning problem and is not applicable in real robot applications. Reviewer 2 mentioned that the paper does not make a compelling argument for its contribution over previous similar approaches, and Reviewer 3 expressed concerns regarding the necessity of the two-step procedure for policy cloning and the lack of details on implementation.
+
+Meta-reviewer: I see. Which of the reviewers do you think provides a more trustworthy evaluation?
+
+Dialogue agent: Reviewer 2 has a higher confidence level than the other two reviewers, but their rating is only marginally above the acceptance threshold. Reviewer 1 provides a clear rejection, while Reviewer 3 is ok but not good enough for acceptance. The decision ultimately depends on your assessment of the value and novelty of the contributions and the weight you give to each reviewer's evaluation.
+
+Meta-reviewer: Thank you for your objective responses. After considering the reviews and the paper's contributions, I have decided to reject this paper.

@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, can you tell me about the paper "In Your Pace: Learning the Right Example at the Right Time"?
+
+Dialogue Agent: Yes, the paper explores the use of Curriculum Learning in training deep neural networks by decomposing it into two main parts: scoring function and pacing function. The authors propose several candidate functions for each component and experiment with them. 
+
+Meta-Reviewer: I see. Can you give me an overview of the reviews?
+
+Dialogue Agent: Certainly. Review 1 considers the paper to be of good quality with modest originality and significance. The reviewer found the experiments to be very thorough and insightful. However, the experiments were done on datasets that may not be the best choice for concluding anything strong and the proposed method adds complexity for only small gains. Review 2, on the other hand, has concerns about the paper's status. The reviewer feels that quite a few important related works are missing, and although they appreciated the comprehensive study towards different curriculum strategies, they found the results largely unconvincing. Finally, Review 3 is skeptical of the contribution of this paper, as they found it hard to understand what is new versus what is borrowed from previous work. The usefulness of using easy or hard experiments is also discussed but not explored adequately.
+
+Meta-Reviewer: I see that Review 1 has rated the paper marginally below acceptance threshold. Can you tell me a little more about the reviewers' confidence levels?
+
+Dialogue Agent: Review 1 has a confidence level of 4, which means that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 also has a confidence level of 4. On the other hand, Review 3 does not provide a numerical score for its confidence level.
+
+Meta-Reviewer: Thank you for that information. Given the reviews, do you think this paper should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, I am not authorized to provide opinions or recommendations. However, I can provide you with the overall ratings given by the reviewers. Reviews 1 and 2 both rated the paper as "Ok but not good enough - rejection" with modern confidence levels. However, Review 3 did not provide a rating or score for the paper. Ultimately, the decision lies with you, the meta-reviewer.

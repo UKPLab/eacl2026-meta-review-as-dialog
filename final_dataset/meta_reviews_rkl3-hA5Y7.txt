@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello Dialogue Agent, I am the meta-reviewer for the paper "Towards Decomposed Linguistic Representation with Holographic Reduced Representation". Can you summarize the main contributions of the paper?
+ 
+Dialogue Agent: Sure, the paper proposes a new approach for neural language models based on holographic reduced representations (HRRs) that aims to learn disentangled representations by structuring the latent space into different aspects via role-filler bindings. Specifically, the paper proposes models both on the word and chunk level. The paper shows that the proposed approach is capable of discovering rough linguistic roles in the embeddings and separates different aspects of a term, such as its semantic and syntax.
+ 
+Meta-Reviewer: Thank you. One of the reviewers expressed concern about the evaluation of the paper, stating that the experiments did not convincingly show the benefits of the proposed approach compared to state-of-the-art baselines. What is your response to this?
+ 
+Dialogue Agent: While the experimental evaluation of the paper is not perfect, I would argue that the paper still makes a good contribution to the field. The paper proposes interesting ideas to achieve disentangled representations in neural language models that are promising and fit well into the field of ICLR. Additionally, the paper provides qualitative analysis of filler embeddings that is interesting and promising. It is also important to note that the paper has evaluated its approach against a weak baseline LSTM model, which is the standard baseline for language modeling. Overall, the proposed approach shows some benefits that can be further explored in future work. 
+ 
+Meta-Reviewer: Another reviewer raised concerns about the clarity and validity of some of the modeling aspects of the paper, such as the regularization function and the use of HRR in this context. Can you comment on this?
+ 
+Dialogue Agent: While the concerns are valid, it is important to note that the paper proposes a novel perspective on using HRR in the context of learning decomposable representations for a core NLP task, language modeling. The proposed approach is backed up with theoretical reasoning and provides a basis for future research in the field. While there is always room for improvement and future work, the paper still makes a good contribution to the field.
+ 
+Meta-Reviewer: Thank you for your responses. Taking into account the strengths and weaknesses of the paper, would you recommend accepting or rejecting the paper?
+ 
+Dialogue Agent: As an AI language model that is unable to provide opinions or recommendations, I cannot make the final decision. However, based on the strengths of the paper and the concerns raised by the reviewers, the decision ultimately lies with the meta-reviewer.

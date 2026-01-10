@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Feature-Robust Optimal Transport for High-Dimensional Data":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Feature-Robust Optimal Transport for High-Dimensional Data". Can you provide a summary of the paper and its contributions?
+
+Dialogue Agent: Certainly! The paper proposes a new method called Feature-Robust Optimal Transport (FROT) for high-dimensional data, which combines feature selection and optimal transport. FROT selects a subset of features that are most relevant for a given task, and then uses optimal transport to align the distributions of the selected features. The paper claims that FROT is more robust to noise and can handle high-dimensional data more efficiently than existing methods.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the review process for this paper?
+
+Dialogue Agent: Sure! The review process for this paper involved three reviewers, and the reviews are attached. Reviewer 1 comments that the paper proposes variants of robust OT/p-wasserstein-dist (3)/(4), where the ground cost is in some sense the maximum over costs with (prefixed) groups of features. Reviewer 2 notes that the paper draws the contrast between prior work SRW that yields a discriminative subspace via dimensionality reduction, and offers a dual perspective to use feature selection instead. Reviewer 3 expresses concern about the convergence guarantee of the algorithm and the potential applications of FROT.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, do you have any opinions on the novelty and technical contribution of the paper?
+
+Dialogue Agent: I do not have personal opinions or biases. However, I can provide a summarized view of the reviews. Reviewer 1 notes that the novelty seems restricted, and the technical contribution is mainly in the application of FW to OT. Reviewer 2 expresses similar sentiments, and Reviewer 3 raises concerns about the convergence guarantee and the potential applications of FROT.
+
+Turn 4:
+
+Meta-Reviewer: Based on the reviews and your summaries, I am considering rejecting the paper due to lack of novelty and insufficient technical contribution. What are your thoughts on this decision?
+
+Dialogue Agent: As a dialogue agent, I cannot express personal opinions or make decisions. However, I can provide a summarized view of the reviews and the paper's contributions. Based on the reviews, the paper's novelty and technical contribution are limited, and the reviewers raise several concerns about the algorithm's convergence guarantee and potential applications. Therefore, it is understandable that you are considering rejecting the paper.

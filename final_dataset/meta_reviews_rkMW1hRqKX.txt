@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I'm considering whether to accept or reject the paper "Optimal Completion Distillation for Sequence Learning." Can you tell me more about how the proposed algorithm works?
+
+Dialogue Agent: Certainly. The algorithm proposed in the paper addresses exposure bias in sequence-to-sequence models trained using maximum likelihood estimation. The authors propose generating a label sequence based on the current conditional probabilistic model and then using edit distances to find the best possible completions for any prefix of that model-based label sequence. The training objective assigns the KL-divergence between a conditional distribution of the next element in the label sequence given a label prefix generated using the current model and the exponential family model based on the edit distances given by the prefixes and optimal completions after the position of interest in the label sequence.
+
+Meta-reviewer: Thanks for the explanation. Reviewer 1 mentioned that the idea could also apply to incremental rewards beyond edit-distance, such as BLEU scores in machine translation. Can you tell me whether the proposed algorithm has been tested with these kinds of rewards?
+
+Dialogue Agent: The paper only considers the use of edit distances as a reward signal, so we do not have any results on how the algorithm performs with other incremental rewards such as BLEU scores.
+
+Meta-reviewer: Reviewer 2 suggested that the time complexity of the proposed algorithm might be greater than that of MLE when dealing with very long sequences. Can you comment on that?
+
+Dialogue Agent: While technically true, as the authors note, if the vocabulary is bigger than the sequence lengths, the difference in (on policy) training time will be felt when dealing with very long sequences, or with cases where the number of labels per time-step is small, like in character-level generation or in seq2seq style sequence labeling. However, the algorithm proposed in the paper has been shown to attain state-of-the-art performance on end-to-end speech recognition without the need for MLE pre-training.
+
+Meta-reviewer: I see. Reviewer 3 mentioned that the presentation of the approach around Eq. (6) could be clearer. Can you give any further insight on how to reproduce the results?
+
+Dialogue Agent: The paper does provide some heuristics for choosing the initial solutions for the parameter vector, but as the objective is non-convex, reproducing the results exactly may require some additional experimentation. It is also worth noting that the paper provides a reference to the appendix for a more detailed explanation of the conditional probabilistic model used in the algorithm.
+
+Meta-reviewer: Thank you for the information. Overall, it sounds like a good paper, but I'm concerned about the lack of testing with other incremental rewards. Based on the reviews, I rate this paper as 7: Good paper, accept, with a confidence level of 3: The reviewer is fairly confident that the evaluation is correct.

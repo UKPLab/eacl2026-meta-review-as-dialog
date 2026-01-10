@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer assigned to evaluate the paper titled "Exploring Routing Strategies for Multilingual Mixture-of-Experts Models." Can you provide a summary of the paper's reviews?
+
+Dialogue agent: Of course, meta-reviewer. The paper received three reviews. Review 1 praised the proposed mixture model for multilingual neural machine translation and the extensive experiments. However, it expressed concerns about the novelty and the need for more comparisons with other unified multilingual approaches. Review 2 appreciated the analyses and experiment studies but questioned the novelty and contribution of the paper. It also raised concerns about violating the anonymous policy and typos. Lastly, Review 3 acknowledged the focused problem and experimentally demonstrated solutions. However, it suggested little novelty and proposed additional comparisons with simpler approaches.
+
+Meta-reviewer: Thank you, dialogue agent. Can you remind me of the paper type and its rating?
+
+Dialogue agent: Sure, meta-reviewer. The paper type is long, and its overall rating is 5, which is marginally below the acceptance threshold.
+
+Meta-reviewer: I see. Can you provide more information about the rating and the confidence levels of each review?
+
+Dialogue agent: Certainly, meta-reviewer. Review 1 rated the paper as 5, which is marginally below the acceptance threshold, and expressed a confidence level of 4, meaning that the evaluator is confident but not absolutely certain that the evaluation is correct. Review 2 rated the paper as 4, which is "Ok but not good enough - rejection," and expressed a confidence level of 4. Review 3 rated the paper as 6, which is "Marginally above acceptance threshold," and expressed a confidence level of 5, meaning that the evaluator is absolutely certain that the evaluation is correct and very familiar with the relevant literature.
+
+Meta-reviewer: Thank you for clarifying that, dialogue agent. Can you confirm that the paper violates the anonymous policy of ICLR 2021, as stated in Review 2?
+
+Dialogue agent: Yes, meta-reviewer. Review 2 highlighted that the paper violates the anonymous policy of ICLR 2021 because it mentions the use of an in-house training corpus by Arivazhagan et al., 2019, which shows the authors from Google, revealing the organization of authors in this paper. However, the final decision rests with you, meta-reviewer.
+
+Meta-reviewer: Understood, dialogue agent. Thank you for the reminder. Can you tell me more about the proposed routing strategies and their performance?
+
+Dialogue agent: Certainly, meta-reviewer. The paper explores alternatives to token-based routing in sparsely-gated MoE models for multilingual NMT and proposes task-based routing, where examples for a task are assigned to the same experts. The paper compares task-based routing with other approaches and hybrid approaches where different parts of the network use different routing mechanisms. The results show that task-based routing is comparable to token-level routing with the added benefit of inference efficiency. Performing task-based routing on the decoder side only gives better translation quality, at the cost of inference efficiency. However, the novelty and contribution of the paper were questioned by Reviewers 2 and 3.
+
+Meta-reviewer: I understand, dialogue agent. Based on the reviewers' comments and ratings, I will reject the paper for publication. Thank you for your assistance.
+
+Dialogue agent: You're welcome, meta-reviewer. I am always here to assist you.

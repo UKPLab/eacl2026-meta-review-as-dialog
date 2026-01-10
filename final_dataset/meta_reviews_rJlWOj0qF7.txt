@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am looking over the reviews for the paper "Imposing Category Trees Onto Word-Embeddings Using A Geometric Construction." Based on what I'm seeing, there are some major concerns regarding the paper's novelty and experimental evaluation. Can you tell me more about the paper's approach and why it's unique?
+
+Dialogue agent: Absolutely. The paper proposes a method for adjusting pretrained word embeddings to respect hierarchical relationships between words. The authors use N-ball encapsulation and apply three geometric transformations to enforce the encapsulation. This approach is unique in that it uses a geometric construction to impose category trees onto word embeddings.
+
+Meta-reviewer: That sounds interesting. However, there seems to be concern among the reviewers about the paper's originality. Can you speak to that?
+
+Dialogue agent: Yes, Review 2 points out that the approach of encoding hierarchies with high dimensional balls and encoding inclusion and exclusion as constraints on those balls is not a novel idea. However, the authors' approach is distinctive in its use of a geometric construction to enforce the hierarchical structure.
+
+Meta-reviewer: I see. The reviewers also seem to have concerns about the experimental evaluation. Can you discuss that?
+
+Dialogue agent: Review 1 states that the empirical results are mainly qualitative and subjective, and that the paper relies on Wordnet, which limits the coverage of the vocabulary. Review 2 similarly notes that the evaluation does not sufficiently evaluate the quality of the embeddings, though it does establish consistency with the given hierarchy. Review 3 points out that the paper lacks experimental comparisons with other studies, such as those using Poincare embedding or the Lorentz model.
+
+Meta-reviewer: Hmm, those are definitely some big concerns. Given all of this, can you provide a recommendation for if we should accept or reject this paper?
+
+Dialogue agent: As a dialogue agent, I am not able to provide a recommendation on whether to accept or reject the paper. However, I can provide information to help you make your decision.
+
+Meta-reviewer: Okay, fair enough. In that case, can you tell me about the confidence levels of the reviewers?
+
+Dialogue agent: Review 1 is confident to a degree, but not absolutely certain, in their evaluation of the paper, giving it a score of 4. Review 2, on the other hand, is absolutely certain in their evaluation and gives the paper a score of 4, indicating it is "Ok but not good enough for rejection." And Review 3 is confident that the paper should be rejected, with a score of 3.

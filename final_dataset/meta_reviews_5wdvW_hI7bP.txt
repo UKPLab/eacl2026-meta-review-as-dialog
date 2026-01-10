@@ -1,0 +1,39 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for being here with me today to discuss the paper "Explain My Surprise: Learning Efficient Long-Term Memory by Predicting Uncertain Outcomes." Before we begin, can you confirm the type of the paper?
+
+Dialogue agent: Sure, the paper is labeled as long.
+
+Meta-reviewer: Great. Let's start with the reviews. Review 1 seems to be positive about the work, but the reviewer suggests that the paper could explore the method further instead of focusing on the comparisons with other methods. Do you agree with this assessment?
+
+Dialogue agent: I am not authorized to provide opinions or recommendations. However, I can confirm that Review 1 did rate the paper as a borderline accept with a confidence level of 3.
+
+Meta-reviewer: That's fair. Review 2 seems to praise the work's motivation and solid experimental results. However, the reviewer mentions that the whole model is too complicated and identifies some typos. Can you confirm this review rating and confidence level?
+
+Dialogue agent: Yes, Review 2 rated the paper as a borderline accept with a confidence level of 3.
+
+Meta-reviewer: Thanks. Finally, Review 3 highlights the value of the proposed method for long-sequence modeling. However, it points out some drawbacks such as the lack of background work, insufficient empirical evidence, and choice of uncertainty detector. Do you confirm this review rating and confidence level?
+
+Dialogue agent: Yes, Review 3 also rated the paper as a borderline accept with a confidence level of 3.
+
+Meta-reviewer: Okay, it seems that all reviews lean towards acceptance with some minor criticisms. Can you tell me more about the paper's proposed method?
+
+Dialogue agent: The paper proposes MemUP, a method that enables recurrent models to learn long-term dependencies by keeping useful past states for future use. The memory module is trained to optimize mutual information between past states and current prediction targets, and only the steps with the highest "uncertainty" would be used for training to further save memory usage.
+
+Meta-reviewer: Interesting. Review 3 mentions that the paper lacks background work. Can you provide more information about related works that could be compared to this proposal?
+
+Dialogue agent: I am not authorized to provide opinions or recommendations. However, Review 3 suggests that memory networks, pointer networks, and memory modules for long-sequence processing in NLP could be discussed and compared in the paper.
+
+Meta-reviewer: Understood. Review 1 points out that the paper focuses on comparisons with other methods instead of exploring the proposed method further. Can you tell me more about the experimental results?
+
+Dialogue agent: The paper provides empirical experiments on both supervised learning tasks and reinforcement learning tasks, comparing the proposed MemUP method to LSTMs, SRNNs, and Transformers. The results show that MemUP significantly boosts the results over its baselines.
+
+Meta-reviewer: Review 3 mentions insufficient empirical evidence. Can you explain this criticism?
+
+Dialogue agent: Review 3 points out that the sequences used in the experiments are not long enough, with lengths of Copy, Scattered copy, and Add only up to 1000, which can be handled by some transformers. The truncation lengths are as small as 10 and up to 60 only, which can be much larger for real applications.
+
+Meta-reviewer: I see. Finally, all reviews seem to agree that the paper does not have any potential negative social impacts. Can you confirm this?
+
+Dialogue agent: Yes, all reviews mention that no negative social impacts are foreseen.
+
+Meta-reviewer: Thank you for all the information. Based on the reviews and the proposed method, I am leaning towards accepting the paper. However, I am concerned about the lack of exploration of the method and the insufficient empirical evidence mentioned in the reviews. Can you provide any insights on how important reviewer confidence should be in making the final decision for acceptance or rejection?
+
+Dialogue agent: I am not authorized to provide opinions or recommendations. However, I can confirm that reviewer confidence levels can be taken into consideration in the final decision-making process.

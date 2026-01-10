@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide me with a summary of the reviews for the paper "Function Space Particle Optimization for Bayesian Neural Networks"?
+
+Dialogue agent: Hello, meta-reviewer. The paper proposes a new POVI method for posterior inference in BNNs by updating particles directly on the space of regression functions, instead of the weight space. Reviewer 1 raised some concerns about the lack of details in the paper, such as the choice of mu, the distribution over mini-batches, and the theoretical justification for certain update rules. Reviewer 2 finds the paper well-motivated and original while suggesting an architecture search and parameter constraints in the empirical comparisons in the examples. The third reviewer is not sure about the core differences between the proposed method and SVGD and thinks that the theoretical justification needs more clarity.
+
+Meta-reviewer: Thank you, dialogue agent. Based on the reviews, what is the rating and confidence level?
+
+Dialogue agent: The rating is 7: Good paper, accept, and the confidence levels are 4, 3, and 3 for Reviewers 1, 2, and 3, respectively.
+
+Meta-reviewer: Reviewer 1 raised some major concerns about the lack of details, which led to their hesitation in accepting the paper. Can you elaborate on these concerns?
+
+Dialogue agent: Sure, meta-reviewer. Reviewer 1 raised concerns about the theoretical justification for certain update rules, the choice of mu distribution, and how the function-space kernel is defined. The reviewer also mentioned that the paper lacked details about the translation of the function-space update to the weight-space update and how to implement the proposed technique.
+
+Meta-reviewer: I see. Based on the reviewers' comments and concerns, how confident are you in the proposed method and its results?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations about the paper. However, based on the reviewers' comments, some concerns need to be addressed to increase the confidence in the proposed method and its results. Further theoretical justification and details regarding the implementation of the proposed method could help address these concerns.

@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for providing these reviews of the Capsule Graph Neural Network paper. It seems like there are some concerns about the paper's motivation and the balance between theory and experiments.
+
+Dialogue Agent: I understand your concerns. Is there anything specific you would like me to address?
+
+Meta-reviewer: I would like to know more about why the paper chose to use capsules in the Graph Neural Network domain. Review 2 mentioned that there was no clear motivation provided.
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or recommendations, but I can explain what was written in the paper. The paper states that capsule networks can capture pose covariances by applying a linear, trainable transformation to pose vectors. By computing the agreement of the resulting votes, capsule networks can encode discrete information like graph connectivity in a pose vector, enabling linear transformations to match different "connectivity poses."
+
+Meta-reviewer: Thank you for that explanation. It seems like there are also concerns about the balance between theory and experiments. Review 3 mentioned that the paper's experimental part was too short and that the theoretical and experimental parts were not well-balanced. Can you speak to that?
+
+Dialogue Agent: The paper is a long paper, and it does include a detailed section on theoretical background and related work. However, the experimental section may have been shorter than desired. The paper provides comprehensive experiments, including comparisons with related models and thorough analysis. However, it seems that Review 3 would like to see more clarity and detail in the experimental evaluation, such as presenting the training/inference times and number of parameters, providing baseline or referenced works for comparison, and more comprehensive t-SNE and attention visualizations.
+
+Meta-reviewer: I see. Review 1 also had some questions about the comparison between CapsGNN and GCAPS-CNN on biological datasets. Can you provide any additional information on that?
+
+Dialogue Agent: As stated in the review, the paper only used four out of the six biological datasets presented in Verma & Zhang, 2018. It would be nice to see a comparison on more datasets, and more analysis between CapsGNN and GCAPS-CNN. However, the paper does provide thorough and comprehensive comparisons and model analysis, which suggest that CapsGNN is effective in large graph data analysis, particularly on graphs with macroscopic properties. 
+
+Meta-reviewer: Thank you for the information. Based on these reviews, I am slightly concerned about the balance between theory and experiments and the lack of clear motivation for using capsules in the graph neural network domain. However, I am also impressed with the paper's thoroughness in comparisons and analysis. I will have to weigh these concerns against the positive aspects and determine whether to accept or reject the paper.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper called "CEIP: Combining Explicit and Implicit Priors for Reinforcement Learning with Demonstrations". Can you tell me a bit about the paper?
+
+Dialogue Agent: Sure! The paper presents a technique for combining "explicit" and "implicit" priors for reinforcement learning with demonstrations. Implicit priors refer to priors that store the knowledge from demonstration in a neural network of some kind (such as a flow-based generative model), while explicit priors store demonstrations as a database that can be queried when learning a new task. The overall method has several steps...
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper tackles an important problem: how to best make use of task-agnostic and task-specific demonstrations to speed up reinforcement learning of new tasks. The paper obtains some impressive results on an interesting suite of tasks, and compares against a number of baselines, competing methods, and ablations. Additionally, the authors obtain good performance on few-shot learning, which is a challenging problem in reinforcement learning.
+
+Turn 3:
+
+Meta-Reviewer: That sounds great! What about the weaknesses of the paper?
+
+Dialogue Agent: The overall method is somewhat complex, with a number of moving pieces, and some of the design choices (such as the retrieval system) seem a bit ad-hoc. Additionally, the experimental results are a bit puzzling, and the lack of discussion around limitations in the paper is a bit concerning.
+
+Turn 4:
+
+Meta-Reviewer: I see. Can you tell me more about the experimental results that are puzzling?
+
+Dialogue Agent: Yes, the results seem almost too good to be true, and the authors do not provide enough analysis or ablations to fully understand the reasons behind the good performance. Additionally, the authors do not provide a clear explanation of how the method relies on precise task-specific demonstrations being available, which is an important consideration for the practical applicability of the method.
+
+Turn 5:
+
+Meta-Reviewer: I understand. Based on your summarized responses, I am considering a rating of 5: Borderline accept. Can you provide any additional information or insights that might influence my decision?
+
+Dialogue Agent: The authors have addressed some of the concerns in their rebuttal, and have provided more details on the method and the experimental results. Additionally, the authors have released their code, which could help to increase the reproducibility of the results. Overall, the paper presents an interesting and technically solid approach to combining explicit and implicit priors for reinforcement learning with demonstrations, but the lack of discussion around limitations and the good performance on few-shot learning are concerning.

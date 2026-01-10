@@ -1,0 +1,31 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "GREED: A Neural Framework for Learning Graph Distance Functions":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "GREED: A Neural Framework for Learning Graph Distance Functions". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper "GREED: A Neural Framework for Learning Graph Distance Functions" proposes a neural framework for learning graph distance functions, specifically graph edit distance (GED) and subgraph edit distance (SED). The authors design a siamese graph neural network to learn GED and SED in a property-preserving manner.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of this paper?
+
+Dialogue Agent: The paper has several strengths. Firstly, the authors provide a clear motivation and organization of the paper, making it easy for readers to follow. Secondly, the proposed method can learn the theoretical properties-preserved graph embedding, which is essential for scalability. The authors also provide thorough experiments to validate the proposed method.
+
+Turn 3:
+
+Meta-reviewer: What are the weaknesses of this paper?
+
+Dialogue Agent: The main weaknesses of the paper are related to the novelty of the design of the neural network and the corresponding ablation study. The authors could have explored more recent related work and compared their approach with state-of-the-art recent approaches. Additionally, some aspects of the paper lack details/discussion, and the authors could have experimented with different settings before finalizing their approach.
+
+Turn 4:
+
+Meta-reviewer: How do you rate this paper?
+
+Dialogue Agent: Based on the reviews, I would rate this paper as a weak accept. The paper is technically solid, and the authors provide thorough experiments to validate their proposed method. However, the novelty of the design is limited, and the authors could have explored more recent related work and provided more details/discussion in certain aspects of the paper.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. I will consider your summary when making my final decision.
+
+Dialogue Agent: You're welcome! I'm here to assist you with any further questions you may have.

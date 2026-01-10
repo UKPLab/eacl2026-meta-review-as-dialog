@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "CrowdSpeech and Vox DIY: Benchmark Dataset for Crowdsourced Audio Transcription":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "CrowdSpeech and Vox DIY: Benchmark Dataset for Crowdsourced Audio Transcription". Can you tell me about the paper's main contributions?
+
+Dialogue Agent: Sure! The paper presents two new datasets for crowdsourced audio transcriptions, CrowdSpeech for English and VoxDIY for Russian. It also evaluates several baseline methods for aggregating crowdsourced transcriptions and provides an open-sourced pipeline for preparing such datasets.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the datasets?
+
+Dialogue Agent: Sure! The CrowdSpeech dataset contains over 20 hours of audiobooks transcribed by 7 workers, while the VoxDIY dataset is based on synthesized speech and contains Russian news texts transcribed by 7 workers as well. The paper also compares the new datasets to the existing CrowdCSA2019 dataset for Machine Translation.
+
+Turn 3:
+
+Meta-Reviewer: How do the new datasets compare to the existing ones?
+
+Dialogue Agent: The paper finds that the new datasets have higher quality and more diversity than the existing datasets, especially for the Russian dataset. The paper also notes that the new datasets are more representative of real-world scenarios, as they are based on crowdsourced transcriptions of audiobooks and news texts.
+
+Turn 4:
+
+Meta-Reviewer: That's good to know. What about the evaluation of the baseline methods for aggregating crowdsourced transcriptions?
+
+Dialogue Agent: The paper evaluates several baseline methods, including ROVER, RASA, HRRASA, and Oracle, and finds that the new datasets provide better quality for all metrics compared to the existing datasets. The paper also discusses the limitations of the current methods and provides insights for future research.
+
+Turn 5:
+
+Meta-Reviewer: I see. What about the open-sourced pipeline for preparing such datasets?
+
+Dialogue Agent: Yes, the paper provides an open-sourced pipeline for preparing crowdsourced audio transcription datasets, which includes steps for data collection, annotation, and evaluation. The paper also discusses the challenges of crowdsourced data collection and provides tips for overcoming these challenges.
+
+Turn 6:
+
+Meta-Reviewer: That's great. Based on the reviews, do you think the paper is acceptable?
+
+Dialogue Agent: Based on the reviews, the paper seems to be well-written and fills an important gap in the field of crowdsourced audio transcriptions. However, the paper has some limitations, such as the lack of realistic noise in the VoxDIY dataset, which may affect the accuracy of the transcriptions. Overall, the paper seems to be marginally above the acceptance threshold.
+
+Turn 7:
+
+Meta-Reviewer: Thank you for your summary. Based on the reviews and your summary, I agree that the paper is marginally above the acceptance threshold. I will accept the paper with minor revisions.
+
+Dialogue Agent: Thank you for your decision. I'm glad I could help with the reviews!

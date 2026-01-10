@@ -1,0 +1,26 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper titled "Unseen Action Recognition with Unpaired Adversarial Multimodal Learning". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: The paper proposes a novel approach to learn a common embedding space for video appearance and text caption features, enabling zero-shot activity classification, unsupervised activity discovery, and unseen video captioning. The method is based on two autoencoders with a common intermediate space, and the losses optimized encourage standard unimodal reconstructions, joint embedding distances, and cross-domain mapping.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the novelty of the approach?
+
+Dialogue Agent: The paper adds new losses, such as adversarial learning, to bring the video and text encoding distributions in the common space close, and the standard real and generated video/text distributions close. The approach is novel in incorporating unpaired/unsupervised data and using attention-based temporal pooling.
+
+Turn 3:
+Meta-reviewer: I see. What about the experimental results? Can you tell me more about the datasets used and the evaluation metrics?
+
+Dialogue Agent: The paper evaluates the approach on four datasets: ActivityNet, HMDB, UCF101, and MLB-YouTubePositives. The results show convincing empirical performance on diverse applications, highlighting the generality of the method. The paper also provides an ablation study and compares the proposed method with state-of-the-art results.
+
+Turn 4:
+Meta-reviewer: That's good to hear. However, I have some concerns about the limited novelty of the approach and the experimental settings. Can you address these concerns?
+
+Dialogue Agent: The paper acknowledges the limited novelty of the approach and the connections to previous works. The authors also discuss the experimental settings and the choice of datasets, and provide additional annotations to two activity recognition datasets, creating new benchmarks. The approach is sensitive and aligns with the current trend in multimodal learning.
+
+Turn 5:
+Meta-reviewer: Thank you for addressing my concerns. Based on our conversation, I would rate this paper as [insert rating here] and have [insert confidence level here] confidence in my decision.
+
+Dialogue Agent: Thank you for your feedback. I will note your ratings and confidence level in our records. Is there anything else I can assist you with?

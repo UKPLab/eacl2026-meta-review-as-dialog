@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. Thank you for being here today. I am reviewing a paper titled "Learning to Design RNA." Can you tell me what kind of paper this is and summarize the reviews that have been given?
+
+Dialogue Agent: Of course, the paper is a long paper, and it tackles the problem of RNA design using reinforcement learning. There have been three reviews so far. Review 1 gave a 6 rating and stated that the work is well done and likely to be of practical utility in the inverse design space. However, the reviewer doesn't think this is a substantial enough methodological contribution to be considered for acceptance. Review 2 also rated the paper a 6 and stated that they think it's a good paper with adequate references and new algorithm proposals. However, the reviewer is not an expert in the field and can't judge the novelty of the approach. Review 3 gave the paper an 8 rating and labeled it as a top 50% of accepted papers type of paper. However, they also have some major concerns regarding the methodology used and the evaluation.
+
+Meta-Reviewer: I see. Can you clarify what the methodology used in this paper is, and how this is different from other approaches?
+
+Dialogue Agent: The paper proposes a reinforcement learning approach combined with hyperparameter optimization for RNA design. It generates RNA sequences that fold into target secondary structures by finding the best sequence using the Zuker algorithm and designing a new primary sequence from scratch. The methodology is different from other approaches that have been previously reported for biological sequence generation, such as RNNs, autoregressive models, VAEs, or GANs.
+
+Meta-Reviewer: Reviewer 1 mentions concerns with clarity. Can you give any insight into these?
+
+Dialogue Agent: Reviewer 1 mentioned that they were a bit confused by Table 1 until they read the prose at the bottom of page 7. They were also unclear about the 'restart option' and were confused about the local improvement step. They wanted to know if all combos were tried across all mismatched positions, or if they tried each mismatched position independently while holding the others to their predicted values. Lastly, they wanted to know what value of zeta was used, as it seemed essential to getting good performance.
+
+Meta-Reviewer: What were Reviewer 2's main concerns?
+
+Dialogue Agent: Reviewer 2 stated that they struggled with the notation used in Section 2.1 and wanted the authors to explicitly introduce all the ingredients of the decision process $D_w$. They also wanted clarification on Equation (2) and how the time measurement in Figure 3 was taken. Reviewer 2 also wanted to know if all the methods were compared on the same hardware and if the model performance was dependent on context size k.
+
+Meta-Reviewer: Finally, what were Reviewer 3's main concerns?
+
+Dialogue Agent: Reviewer 3 stated that the authors' methodological contributions were limited and that they have concerns about the evaluation. They wanted the authors to compare reinforcement learning to other approaches for sequence generation, and to clarify the split of the 3 datasets into train, eval, and test sets. They also wanted more information on whether the most important hyperparameters of RL-LS and other methods were optimized, and more detail regarding the local optimization step. Reviewer 3 had some minor concerns as well, such as clarifying the embedding layer.
+
+Meta-Reviewer: Thank you for your responses. Based on these reviews, I am inclined to accept the paper, even though there are some concerns about methodology and clarity. However, the practical utility of the paper seems promising, and Reviewer 3 gave it a rating of 8, which is a clear accept. I am also impressed that the paper proposes a reinforcement learning approach combined with hyperparameter optimization, which could be a novel contribution for RNA design. Do you have any thoughts on this, dialogue agent?
+
+Dialogue Agent: As an AI, I cannot provide opinions or make recommendations. My role is to provide information and respond to questions. However, I can say that the paper seems to have some potential, even though there are concerns about methodology and clarity. It will be interesting to see how the authors address these concerns and how their proposed reinforcement learning approach will perform compared to other approaches for RNA design.

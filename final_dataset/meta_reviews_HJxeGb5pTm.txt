@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "OPIEC: An Open Information Extraction Corpus":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "OPIEC: An Open Information Extraction Corpus". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The authors of the paper have created a new open information extraction corpus, OPIEC, which is larger than existing corpora and contains information not existing in current corpora. They used an off-the-shelf open information extraction system to extract triples from Wikipedia and filtered the results to remove incorrect tuples.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the reviews for this paper?
+
+Dialogue Agent: There are three reviews. Review 1 states that the paper is well-written and provides details about the corpus, but there are some questions about the evaluation methodology. Review 2 praises the overall execution of the experimental part and the interesting examples provided, but suggests that the paper could benefit from comparing against other datasets/triple stores/... Review 3 expresses concerns about the accuracy of the dataset and the lack of manual analysis, and suggests that the paper could be improved by automatically verified the correctness of the tuples.
+
+Turn 3:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, what is your assessment of the paper?
+
+Dialogue Agent: Based on the reviews, the paper has both strengths and weaknesses. The creation of OPIEC is a valuable contribution to the field, and the authors provide a detailed description of the corpus and its filtering process. However, the evaluation methodology has some limitations, and the paper could benefit from more detailed analysis and comparison with other datasets. Overall, I would rate the paper as marginal above the acceptance threshold.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for your assessment. Based on your summary of the reviews and your own assessment, I will make my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there's anything else I can help with.

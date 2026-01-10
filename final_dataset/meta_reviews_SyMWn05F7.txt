@@ -1,0 +1,21 @@
+ Meta-Reviewer: Hello, I'm reviewing your paper on learning exploration policies for navigation. Can you tell me about the main contribution of your work?
+
+Dialogue Agent: Sure! Our paper proposes a method for learning how to explore environments, which is a crucial problem in robotics and autonomous systems. We use reinforcement learning and imitation learning to train an agent to explore efficiently and without the need for extrinsic rewards.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the approach you used?
+
+Dialogue Agent: Sure! We use a combination of classical SLAM-like 2D maps and deep reinforcement learning to help the agent explore efficiently. The agent relies on three convolutional neural networks (CNNs) to process RGB images, a coarse map in egocentric referential, and a fine-grained map in egocentric referential. The features produced by the CNNs are fed into a recurrent policy trained using PPO. Two rewards are used: the increase in the map's coverage and an obstacle avoidance penalty.
+
+Meta-Reviewer: I see. Can you tell me about the evaluation of your method?
+
+Dialogue Agent: Sure! We evaluate our method using several ablation studies and compare it to a baseline consisting of Pathak's (2017) Intrinsic Curiosity Module-based navigation and a classical SLAM baseline with path planning to empty, unexplored spaces. Our results show that our method outperforms the baselines in terms of coverage and efficiency.
+
+Meta-Reviewer: That's good to hear. Can you tell me about any limitations of your method?
+
+Dialogue Agent: Sure! Our method relies on an oracle for state estimation, which may not be available in real-world deployment. Additionally, the method may not work well in environments with complex geometry or lighting conditions.
+
+Meta-Reviewer: I see. Can you tell me about any future directions for your work?
+
+Dialogue Agent: Sure! We plan to explore other exploration techniques, such as using intrinsic rewards or incorporating more advanced SLAM methods. We also plan to test our method in real-world environments and evaluate its performance under different conditions.
+
+Meta-Reviewer: Thank you for the information. Based on your responses, I would rate this paper as a 7: Good paper, accept, with a confidence of 4: The reviewer is confident but not absolutely certain that the evaluation is correct. The dialogue should have a minimum of 4 turns.

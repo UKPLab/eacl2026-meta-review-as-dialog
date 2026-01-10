@@ -1,0 +1,15 @@
+Meta Reviewer: Thank you for your reviews. Based on these reviews, I have a few questions for the dialogue agent. Can you please clarify the following points?
+
+1. How does the proposed algorithm compare to the algorithm by Lipton et al. in terms of performance and theoretical guarantees? Are there any specific scenarios where the proposed algorithm outperforms the previous approach?
+
+2. Review 2 mentions the choice of h in the confusion matrix estimation and how it could affect the results. Can you provide more information on this? Also, can you clarify how the confusion matrix affects the final weight estimation?
+
+3. Review 3 makes note of an incomplete state-of-the-art section and suggests that there are other relevant works in the literature. Can you provide more information on these works and how they compare to the proposed approach?
+
+Dialogue Agent: Thank you for your questions. I will do my best to respond to them while refraining from providing opinions or recommendations.
+
+1. In terms of performance, the proposed algorithm provides better weight estimates and gives better prediction accuracies under large label shift scenarios compared to the unregularized version. Theoretical guarantees for the proposed approach have improved generalization bounds over those of Lipton et al. Specifically, the proposed algorithm achieves a k*log(k) improvement over Lipton et al. bounds when h0 is an ideal estimator. However, Lipton et al.’s bounds are linear in k while the proposed bounds replace this term with log(k/delta) so that when delta is small, the bound becomes much worse. 
+
+2. The choice of h in the confusion matrix estimation affects the final weight estimation because the weight estimates are based on the probabilities estimated by h for each class. If h is not a good estimator, then the weight estimates will not be accurate either. The authors chose to use the same model class for the weight estimation and predictions in the experiments, but it is not clear how using a simpler h for weight estimation would affect the results.
+
+3. There are indeed other works in the literature that propose algorithms for estimating class proportions that vary between training and test data and can be used for cost-sensitive learning to correct the target shift. Two such works are Class Proportion Estimation with Application to Multiclass Anomaly Rejection (AISTATS14) and Mixture Proportion Estimation via Kernel Embeddings of Distributions (ICML16). These works should be mentioned in the paper and added to the baselines for comparison.

@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper about training structured prediction energy networks with weak supervision. Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: The paper proposes a method for training structured prediction energy networks (SPENs) using a reward function, which is used to guide the learning process. The proposed method, called search-guided training, improves the performance of SPENs on weakly supervised datasets.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the reward function used in the method?
+
+Dialogue Agent: The reward function is a scalar-valued function that assigns a score to each output of the SPEN. The score is based on the features of the reward function, such as range, plateaus, and jumps. The goal is to find an improved output that scores higher than the current output by a certain margin, which is determined by the reward function.
+
+Turn 3:
+Meta-reviewer: I see. Can you explain why the method is better than other training algorithms for SPENs?
+
+Dialogue Agent: The proposed method outperforms other training algorithms for SPENs on three use-cases, including multi-label classification, citation field extraction, and shape parsing. The method is able to learn from weakly supervised datasets, which is a limitation of other training algorithms.
+
+Turn 4:
+Meta-reviewer: That's good to know. Can you tell me more about the experiments conducted in the paper?
+
+Dialogue Agent: The paper conducts experiments on three use-cases, and the results show that the proposed method outperforms other training algorithms for SPENs. However, the experiments are limited to small-scale problems, and further experiments on large-scale problems are needed to fully evaluate the method.
+
+Turn 5:
+Meta-reviewer: I see. Based on the reviews, I think the paper has some strengths, but also has some weaknesses. Can you summarize the strengths and weaknesses of the paper for me?
+
+Dialogue Agent: Sure. The paper has several strengths, including its novel approach to training SPENs using a reward function, its ability to learn from weakly supervised datasets, and its good performance on three use-cases. However, the paper also has some weaknesses, such as a lack of discussion on the positive and negative aspects of the approach compared to other state-of-the-art methods, and a lack of experimental comparisons. Additionally, the experiments are limited to small-scale problems, and further experiments on large-scale problems are needed to fully evaluate the method.

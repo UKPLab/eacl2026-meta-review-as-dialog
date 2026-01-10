@@ -1,0 +1,33 @@
+Meta-reviewer: Hello, I have read through the reviews for the paper titled SEDONA: Search for Decoupled Neural Networks toward Greedy Block-wise Learning, and I have some questions and concerns that I would like to discuss with you.
+
+Dialogue agent: Hello, I am here to answer any questions you have based on the reviews and the content of the paper.
+
+Meta-reviewer: First of all, I am interested in the proposed method's performance. Reviewer 1 has highlighted some strong and weak points, and based on their evaluation, they have marked the paper as marginally below the acceptance threshold. What is your opinion regarding this?
+
+Dialogue agent: As an AI language model, I am not programmed to provide my own opinions or recommendations. However, I can reiterate that Reviewer 1 has highlighted some concerns regarding the method's payoff, but also acknowledges the decent results achieved by the proposed approach. Reviewer 2 and 3, on the other hand, have rated the paper as good and suggested accepting it, although they have raised some questions and concerns that must be addressed.
+
+Meta-reviewer: Yes, that's true. Reviewer 2 has raised concerns about several points, including the effect of discretization, correlation between the update directions and the true gradients, and the reason behind SEDONA's better performance than backpropagation. Reviewer 3, on the other hand, has pointed out that a comparison with DARTs is needed to validate how much of the gain is from the proposed method rather than the fact of automating network design itself. They also raised concerns about the neural network scheme's gains in terms of Top-1 and the overall time cost.
+
+Dialogue agent: That's correct. The concerns raised by the reviewers must be addressed before making the final decision regarding the acceptance of the paper.
+
+Meta-reviewer: I agree. Could you provide me with some more information regarding the paper's type and the proposed approach's key contributions?
+
+Dialogue agent: Yes, of course. The paper is a long type, and the proposed approach in the paper aims to automate the design of auxiliary networks and their allocation under the decoupled neural network scheme to speed up network training and potentially boost model accuracy. The approach achieves better performance than using backprop on small datasets like CIFAR10 and TinyImageNet, and comparable or slightly improved performance on ImageNet with 2x claimed training speedup. The learned network architecture choices also transfer between datasets.
+
+Meta-reviewer: Thank you for the information. Reviewer 1 has raised some questions, like the definition of speedup, the computation of backprop gradients, and the clarity of key concepts. What is your take on that?
+
+Dialogue agent: Reviewer 1 has definitely raised some valid concerns regarding the lack of clarity of key concepts like the definition of speedup. The paper could benefit from improved clarity, specifically regarding the computation of backprop gradients, which might be a little complicated.
+
+Meta-reviewer: Alright. Reviewer 2 has raised some concerns regarding the correlation between the update directions and the true gradients' correlation. What can you say about this?
+
+Dialogue agent: Reviewer 2 has pointed out an important concern regarding the correlation between update directions and true gradients. The paper needs to make this clear, as it can play a critical role in credit assignment in a neural network.
+
+Meta-reviewer: Thank you for your response. Finally, Reviewer 3 has asked for a comparison of SEDONA's performance with DARTs. What is your view on this?
+
+Dialogue agent: Reviewer 3 has raised a valid concern about comparing SEDONA's performance with DARTs. The proposed method in the paper is similar to DARTs, and a comparison between these methods is crucial to understand how much of the gain is from the proposed method and how much is from the automation of network design itself.
+
+Meta-reviewer: Thank you for your answers. Based on your responses and the reviewers' concerns, I think we need the authors to clarify several aspects of the proposed approach and address the issues raised by the reviewers before making a final decision on the paper's acceptance.
+
+Dialogue agent: That is a reasonable request. The authors need to address the concerns raised by the reviewers before making a final decision about the paper's acceptance or rejection.
+
+Meta-reviewer: Thank you for your time and responses.

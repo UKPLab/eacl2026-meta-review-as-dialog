@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you give me a brief overview of the paper "Generating Training Data with Language Models: Towards Zero-Shot Language Understanding"?
+
+Dialogue agent: Yes, the paper proposes a method called SuperGen for automatic dataset generation for zero-shot learning of NLU tasks. The method relies on manually designed prompts to extract task-specific knowledge from a pre-trained PLM, thus constructing a synthetic dataset. The experiments show that the proposed method can even outperform few-shot learning methods on some NLU tasks.
+
+Meta-reviewer: I see. What are the strengths and weaknesses of this paper?
+
+Dialogue agent: Review 1 identifies the idea of modifying an auto-regressive PLM decision boundary to a discriminative one by generating synthetic data as an interesting idea. The empirical evaluation shows promising results of SuperGen beating the performance of PLMs used for the few-shot setting. However, the reviewer also has concerns regarding the evaluation process, particularly with regard to the impact brought by prompts, decoding strategies, etc. Furthermore, Review 1 suggests that it would have been interesting to see if the generated synthetic data in a zero-shot manner could add to the labeled supervised data for the tasks via data augmentation. Review 2 acknowledges the interesting contribution of the proposed approach to generating synthetic data using prompts. However, the reviewer criticizes the term "zero-shot" and suggests that the story could use some revision to clarify this. Additionally, Review 2 points out that the limitations section doesn't really discuss potential societal impact. Review 3 notes that the method uses a reasonable method for selecting quality training data and label smoothing to improve robustness to label noise and overfitting to the training set. However, the reviewer suggests that it would be nice to have prompt ablation studies for each task and that the generated texts are not judged by humans.
+
+Meta-reviewer: I see. Based on these reviews, do you think this paper should be accepted or rejected?
+
+Dialogue agent: Review 1 provides a borderline accept rating, while Review 2 and Review 3 provide a weak accept rating. All reviewers note that the paper is technically solid and has moderate-to-high impact. There are no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. However, there are some concerns regarding the evaluation process and the limitations of the method. 
+
+Meta-reviewer: Thank you for the information. Can you provide your confidence level in this assessment?
+
+Dialogue agent: My confidence level is 4. I am confident in my assessment, but not absolutely certain. It is unlikely, but not impossible, that I did not understand some parts of the submission or that I am unfamiliar with some pieces of related work.

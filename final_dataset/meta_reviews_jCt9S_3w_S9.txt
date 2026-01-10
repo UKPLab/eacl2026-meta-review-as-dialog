@@ -1,0 +1,23 @@
+Meta-reviewer: Thanks for your reviews. Based on your feedback, I have a few questions for the dialogue agent before I make my decision. 
+
+Dialogue agent: Sure, I'm here to answer any questions you have.
+
+Meta-reviewer: Review 1 mentioned that the description of AnyBURL in Section 2.2 of the paper is not self-contained and could have been described more clearly. Can you confirm if this is the case?
+
+Dialogue agent: Yes, that's correct. The reviewer has raised a valid point. However, as a dialogue agent, I cannot provide any opinion or recommendation on this matter.
+
+Meta-reviewer: Understood. Moving on to Review 2, they seem to be impressed with the paper and even suggest that it should be accepted. However, they have a few weaknesses and questions surrounding the paper. Can you provide any clarifications on the technical novelty of NRNO and the hyperparameters involved?
+
+Dialogue agent: While it is true that NRNO is a combination of the Maximum and Noisy-OR aggregation methods, its application to rule-based link prediction is novel. As for the hyperparameters, the threshold t_{hd} is a list of hyperparameters that determines the similarity threshold for grouping rules. The authors have provided guidance in the paper on how to select the values for these hyperparameters, but it may require some additional effort to decide the best values.
+
+Meta-reviewer: Alright, that sounds reasonable. And regarding their fourth question on the meaning of "VS" in Table 6, do you have any information on that?
+
+Dialogue agent: "VS" stands for "Versus". The numbers in the VS column represent the percentage improvement of SAFRAN over the corresponding method in the same row.
+
+Meta-reviewer: Thank you for explaining that. Finally, Review 3 points out that there are some limitations of the proposal and suggests that the paper can be strengthened by providing a comparison with other explainable KG embeddings and conducting experiments on inductive relation prediction. Can you comment on this?
+
+Dialogue agent: The reviewer has made a valid suggestion. However, as a dialogue agent, I cannot provide any opinion or recommendation on whether or not the paper should be accepted based on this feedback.
+
+Meta-reviewer: Understood. Thank you for your responses. Based on the reviews, I am inclined to accept the paper, but I would like to know about the reviewer confidence levels. Review 1 seems somewhat confident in their evaluation with a rating of 7 and a confidence level of 4. Review 2 has a slightly lower rating of 6, but a higher confidence level of 3. And Review 3 has a rating of 6 and a confidence level of 4. Can you comment on how the confidence levels affect the final decision?
+
+Dialogue agent: The confidence levels reflect the degree of certainty the reviewers have in their evaluation. Based on the reviews, it seems that the reviewers are reasonably confident in their evaluation, with a range of ratings from 6 to 7. The confidence levels are also fairly consistent across the reviews. Ultimately, the decision to accept or reject the paper is up to you, and should take into account all of the reviews and your own discretion as the meta-reviewer.

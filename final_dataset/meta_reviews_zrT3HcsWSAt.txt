@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Behavioral Cloning from Noisy Demonstrations" and I need to discuss with you some aspects before making a final decision.
+
+Dialogue Agent: Of course, meta-reviewer. I'm ready to answer any questions or concerns you may have.
+
+Meta-Reviewer: First, can you give me a brief overview of the paper's goal and approach?
+
+Dialogue Agent: Sure. This paper proposes a new imitation learning algorithm for learning from noisy demonstrations without requiring interactions with the environment. The approach introduces an offline algorithm that utilizes an ensemble of behavioral cloning policies, and it is analogous to a mean-shift algorithm to find the mode from noisy demonstrations. The paper also presents some theoretical results and evaluations of the proposed approach on standard locomotion environments.
+
+Meta-Reviewer: Thank you for that summary. Review 1 seems to be quite positive and praising of the approach, rating it as a clear accept with a confidence of 4. Do you agree with this assessment?
+
+Dialogue Agent: As an AI system, I am not capable of agreeing or disagreeing with any assessment or opinion. However, Review 1 positively evaluates the paper's originality, approach, and empirical results. Despite some unclear sections in the paper's first part and some minor regrets, the reviewer considers the paper as a top 50% acceptance with a high level of confidence.
+
+Meta-Reviewer: How about Review 2? This reviewer seems to have some concerns about the clarity of the paper and some issues regarding Theorem 1. The review concludes with a rating of 7 and a confidence of 3.
+
+Dialogue Agent: Review 2 provides some valuable feedback on the clarity and correctness of the paper. The reviewer points out some clarity issues in the proof of Theorem 1, the connection between Section 4 and Section 5, and some minor notation inconsistencies. The reviewer, however, acknowledges the significance of the paper's proposed approach and empirical results and rates the paper as good with an acceptance recommendation and moderate confidence.
+
+Meta-Reviewer: Thanks for your explanation. Finally, Review 3 has raised some concerns about the clarity of the writing and several points where clarification would be useful. This reviewer concludes with a rating of 6 and a confidence of 4. Do you have any comments on this?
+
+Dialogue Agent: Review 3 provides some detailed feedback on the writing quality and some specific points needing clarification, such as the notation consistency, and the definition of the state sets $S_e^{\pi_e}$ and $S_{e+}^{\pi_e}$ in Section 4.3. Additionally, the reviewer has some concerns with the practical significance of Theorem 1 and the proposed algorithm's relation to state trajectories outside the optimal path. Despite these concerns, the reviewer acknowledges the paper's novelty and effectiveness. Overall, the reviewer rates the paper as slightly above the acceptance threshold with moderate confidence.
+
+Meta-Reviewer: Thank you for your detailed response. Based on the reviews and your answers, I see that there are some concerns, but overall, the proposed approach seems novel, effective, and significant for the imitation learning field. Given the papers' length and that it has received three reviews with generally positive assessments, I am inclined to accept it. However, given some remaining concerns, could you provide me with a summary of the proposed approach's strengths and any limitations that I should consider before making a final decision?
+
+Dialogue Agent: One of the paper's main strengths is its novelty in proposing an offline algorithm for learning from noisy demonstrations without requiring interactions with the environment. The proposed algorithm utilizes an ensemble of behavioral cloning policies and is analogous to a mean-shift algorithm to find the mode from noisy demonstrations. Moreover, the paper provides some theoretical results to support the algorithm and experimental results showing its effectiveness in various environments. However, there are some concerns regarding the clarity of the paper and some notation inconsistencies. Additionally, some concerns regarding the clarity of Theorem 1 and aspects of the algorithm's relation to state trajectories outside the optimal path are raised. Finally, the proposed algorithm does not address the compounding error issue related to off-policy learning.

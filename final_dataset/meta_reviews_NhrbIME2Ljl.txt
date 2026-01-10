@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper called "Divert More Attention to Vision-Language Tracking". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for learning vision-language representation for object tracking using pure ConvNets. It introduces a modality mixer as the fusion module and uses NAS to search an asymmetrical siamese network to learn adaptive vision-language representations.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the modality mixer and how it improves the performance of the tracker?
+
+Dialogue Agent: The modality mixer is a novel practice for siamese trackers, it uses NAS to search different model structures for template and search region respectively. This allows the method to learn adaptive vision-language representations that improve the performance of the tracker.
+
+Turn 3:
+
+Meta-reviewer: I see. But I have some concerns about the limitations of the method. The proposed trackers and the baselines use different training data, which makes the comparisons in the paper unfair. Additionally, the modality mixer is too simple to be the main contribution, and the authors didn't provide enough ablation analysis to support their claims.
+
+Dialogue Agent: I understand your concerns. The paper does acknowledge that the proposed trackers and the baselines use different training data, and the authors provide some ablation studies to support their claims. However, I can provide more information on the method and its limitations if you'd like.
+
+Turn 4:
+
+Meta-reviewer: That would be great. Can you tell me more about the ablation studies and how they support the claims of the paper?
+
+Dialogue Agent: Sure. The authors provide several ablation studies to demonstrate the effectiveness of the proposed method. For example, they show that the modality mixer improves the performance of the tracker compared to using a single modality. They also provide results with and without the NAS search, which demonstrates the importance of the adaptive vision-language representations.
+
+Turn 5:
+
+Meta-reviewer: I see. Based on the information you've provided, I would rate this paper as a weak accept, with a confidence level of 5. The paper has some novel ideas and excellent impact on at least one area, but there are some minor concerns and limitations that should be addressed in the revision.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors. Is there anything else you would like to know or discuss?

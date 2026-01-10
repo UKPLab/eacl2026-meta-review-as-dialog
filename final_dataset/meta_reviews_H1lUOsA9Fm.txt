@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about a neural model for synthesizing instrument sounds. Can you tell me about the paper's title and type?
+
+Dialogue Agent: Sure! The paper is titled "Synthnet: Learning synthesizers end-to-end." It's a long paper.
+
+Turn 2:
+
+Meta-reviewer: Great. Can you summarize the reviews for me?
+
+Dialogue Agent: Sure! One review suggests that the model is too heavily restricted and the task is not challenging enough. Another review mentions that the model is trained entirely on a synthetic dataset and that the use of real instrument recordings would be more interesting. The reviewer also mentions that the model's architecture is based on WaveNet and DeepVoice models.
+
+Turn 3:
+
+Meta-reviewer: Thank you for summarizing the reviews. What are your thoughts on the paper's contributions and limitations?
+
+Dialogue Agent: Well, the paper proposes several architecture changes to a WaveNet-like dilated convolutional audio model to improve performance for MIDI-conditioned single-instrument polyphonic music generation. However, the model is trained entirely on a synthetic dataset, which limits the paper's contributions. Additionally, the reviewer suggests that the task is too heavily restricted and that the use of real instrument recordings would be more interesting.
+
+Turn 4:
+
+Meta-reviewer: That's helpful. Can you tell me more about the reviewer's suggestions for future work?
+
+Dialogue Agent: Sure! The reviewer suggests that training the model on real instrument recordings would be more interesting and that the use of dithering to reduce perceptual noise is also interesting. Additionally, the reviewer mentions that the paper slightly overstates its contributions in terms of providing insight into the representations that are learned in generative convolutional models.
+
+Meta-reviewer: Thank you for your summary and insights. Based on the reviews and your assessment, I think the paper has some limitations and could benefit from more realistic training data and a more challenging task. I will consider these factors when making my final decision.
+
+Dialogue Agent: Understood. Is there anything else I can help with?
+
+Meta-reviewer: No, that's all for now. Thank you for your help!

@@ -1,0 +1,25 @@
+Meta-Reviewer: Thank you for joining me today, Dialogue Agent. Let's start with the basics. Can you give me a brief summary of the paper?
+
+Dialogue Agent: Of course! The paper is titled "Learning to Schedule Communication in Multi-agent Reinforcement Learning" and it focuses on developing a communication scheduling model for multi-agent reinforcement learning tasks. The authors introduce a new weighted-scheduler and distributed actor, centralized critic based architecture, which is evaluated on two communication-driven multi-agent tasks.
+
+Meta-Reviewer: I see. What is the paper type?
+
+Dialogue Agent: The paper type is Long.
+
+Meta-Reviewer: Great. Now, let's move on to the reviews. Reviewer 1 raises a concern that the authors report that DIAL(1) performs worse than SchedNet-Top(1) without a statistical test. Can you please comment on that?
+
+Dialogue Agent: While it is true that the claim made by the authors is unsupported by statistical tests, it is worth noting that Figure 3a shows that Dial(1) is within the variance of Sched-Top(1). The review suggests that the authors should verify their claim with a statistical test.
+
+Meta-Reviewer: That's helpful. Reviewer 2 raises a few technical questions. Can you provide some answers?
+
+Dialogue Agent: Sure. Reviewer 2 asks how the authors tackle partial observability without the use of recurrent connections or time-steps. The paper does not explicitly mention the use of recurrent connections or time-steps, but it is likely that the authors used some form of memory to address partial observability. In response to the second question, it is not clear from the paper whether the agents know if they were chosen to be broadcasted at the previous timestep. Finally, regarding the third question, the paper does not address whether the agents share information about who sent the message.
+
+Meta-Reviewer: Thank you for clarifying that. Finally, Reviewer 3 comments on the paper's evaluation and suggests that it would have been more impactful to focus experiments on real-world scenarios where bandwidth is naturally contentious. Can you respond to that?
+
+Dialogue Agent: While it is true that the two evaluated tasks had their bandwidth artificially constrained, the authors' contributions are still significant in shedding light on scenarios where bandwidth is constrained, which is a common issue in multi-agent communication. Moreover, the authors compared their model to a round-robin-based scheduling scheme, which provides some insight into the model's effectiveness.
+
+Meta-Reviewer: Interesting. Can you tell me the ratings and confidence levels of the reviewers?
+
+Dialogue Agent: Reviewer 1 rated the paper 7 (Good paper, accept) and expressed a confidence level of 3 (fairly confident that the evaluation is correct). Reviewer 2 rated the paper 8 (Top 50% of accepted papers, clear accept) and expressed a confidence level of 5 (absolutely certain that the evaluation is correct and very familiar with the relevant literature). Reviewer 3 also rated the paper 7 (Good paper, accept) and expressed a confidence level of 2 (willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper).
+
+Meta-Reviewer: Thank you, Dialogue Agent. Based on the reviews and your responses, I am inclined to accept the paper. Reviewer 2's high confidence level and positive rating carry a lot of weight, and despite Reviewer 3's concerns, I think the authors have made significant contributions to the field. However, I would like the authors to address Reviewer 1's concern about the lack of statistical tests to support their claim regarding DIAL(1) and SchedNet-Top(1). Overall, I am confident that this paper has a good chance of contributing to the field and I am happy to accept it.

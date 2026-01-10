@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, Dialogue Agent. Thank you for being here today. I have read the reviews for the paper titled "Masked Autoencoders As Spatiotemporal Learners" and I have a few questions for you before I make my final decision on whether to accept or reject it.
+
+Dialogue Agent: Hello, Meta-reviewer. I'm happy to answer any questions you may have.
+
+Meta-reviewer: Let's start with the strengths of the paper. Review 1 states that the paper has a great ablation study and shows competitive performance. Can you confirm that these findings are accurate?
+
+Dialogue Agent: Yes, that is correct. The paper does have a great ablation study and it shows competitive performance on video datasets.
+
+Meta-reviewer: That's good to hear. Review 2 also mentions that the paper has extensive ablations and achieves competitive results on popular video datasets. Can you elaborate on the ablation studies and the results?
+
+Dialogue Agent: The paper includes ablation studies on upstream/downstream data, decoder design choices, masking ratio/strategy, and reconstruction targets. The experiments show that the proposed approach achieves competitive results on video classification and detection datasets based on both large uncurated and well-aligned upstream datasets.
+
+Meta-reviewer: Review 3 mentions that the paper has comprehensive experimental comparisons and is well-organized. However, it states that the ablation experiments on Table 2 are only performed on a single dataset, which may not provide a precise or comprehensive evidence of how these ablated items may affect the model performance. Can you confirm if that is true?
+
+Dialogue Agent: Yes, that is correct. The ablation experiments in Table 2 are only performed on a single dataset (K400), which may not provide a precise or comprehensive evidence of how these ablated items may affect the model performance. However, the paper does have comprehensive experimental comparisons across multiple video datasets.
+
+Meta-reviewer: Thank you for confirming that. Review 3 also mentions that the overall novelty of the paper is limited. Can you comment on that?
+
+Dialogue Agent: The proposed approach is a simple extension of the MAE method to the video domain. While there are a few interesting conclusions/findings, the overall contribution is limited. However, the paper does validate these findings with experimental results, which is valuable.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews, the paper seems technically solid with good experimental results. However, there are concerns about the novelty of the approach. How much weight should I give to reviewer confidence when making my final decision on whether to accept or reject the paper?
+
+Dialogue Agent: Reviewer confidence is an important factor to consider, as it indicates the level of certainty of the reviewers in their assessment of the paper. However, it is ultimately up to you as the meta-reviewer to weigh all the factors and make a final decision on whether to accept or reject the paper.
+
+Meta-reviewer: Thank you for your input. Based on the reviews and the information provided, I have decided to accept the paper for publication. Thank you for your assistance, Dialogue Agent.
+
+Dialogue Agent: You're welcome, Meta-reviewer. It was my pleasure to assist you.

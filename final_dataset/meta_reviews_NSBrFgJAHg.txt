@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Degree-Quant: Quantization-Aware Training for Graph Neural Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Degree-Quant: Quantization-Aware Training for Graph Neural Networks". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new technique for quantization-aware training of graph neural networks (GNNs), which is called "Degree-Quant". The authors identify the aggregation step as a key source of quantization error and propose two improvements to mitigate this error.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the improvements proposed in the paper?
+
+Dialogue Agent: Sure! The first improvement is to apply quantization only on the message aggregation outputs, and the second improvement is to use percentile-based statistics for determining the ranges of values considered during quantization. The authors show that these improvements lead to moderate gains over baseline quantization-aware training methods for GNNs on several datasets.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the relevance of this paper to the field of GNNs?
+
+Dialogue Agent: Yes, the paper is very relevant to the field of GNNs because it addresses a key challenge in deploying GNNs on resource-constrained devices, which is the numerical precision required for GNN inference. The authors show that their proposed technique achieves relatively small drops in accuracy for a large compression and speedup of GNN inference.
+
+Turn 4:
+
+Meta-Reviewer: That's great to hear. Can you tell me more about the experimental results presented in the paper?
+
+Dialogue Agent: Sure! The authors present experimental results on several GNN models, including GIN, GCN, and GAT, and show that their proposed technique achieves strong improvements over baseline quantization-aware training methods. The authors also provide a thorough analysis of the tradeoffs between different quantization strategies and show that their proposed technique achieves the best tradeoff between accuracy and speedup.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on your assessment, do you think this paper should be accepted or rejected?
+
+Dialogue Agent: Based on the reviews and the paper's content, I would recommend accepting the paper with minor revisions. The paper presents a novel and relevant technique for improving the efficiency of GNN inference, and the authors provide a thorough analysis of their proposed technique. However, there are some minor issues with the presentation and some references that could be improved.

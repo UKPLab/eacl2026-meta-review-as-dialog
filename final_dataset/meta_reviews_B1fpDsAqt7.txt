@@ -1,0 +1,21 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Visual Reasoning by Progressive Module Networks":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Visual Reasoning by Progressive Module Networks". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a multi-task learning approach for visual question answering (VQA) that incorporates hand-crafted modules and their hierarchy. Each module is individually trained with a dataset containing dedicated annotations for their high-level tasks. The proposed model shows comparable scores to existing models.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the modules and their hierarchy?
+
+Dialogue Agent: Certainly! The authors manually design the task hierarchy and propose a progressive module network to recursively call the lower modules and gather information through soft attention. The final prediction uses all the states and questions to infer the final answers.
+
+Meta-Reviewer: I see. What are some of the strengths and weaknesses of this paper, in your opinion?
+
+Dialogue Agent: Well, the proposed method is novel and explores the use of existing modules as a black box for visual question answering, which is different from most existing work. Additionally, the authors provide a detailed analysis of the approach and solid visualization. However, the authors manually design the task hierarchy and propose a progressive module network, which may not be scalable or extendable.
+
+Meta-Reviewer: Thank you for your input. Based on your summary, I would rate this paper as marginally above acceptance threshold. Can you tell me more about the residual model, which seems quite important for the pipeline but I cannot find details describing it?
+
+Dialogue Agent: The residual model is not explicitly discussed in the paper, but it can be inferred as the difference between the final output and the output of the individual modules. The authors use the residual model to ensure the final output is close to the ground truth. However, the authors do not provide detailed analysis on this component.
+
+Meta-Reviewer: I see. Based on your summary and additional information, I will rate this paper as marginally above acceptance threshold. Thank you for your help in understanding the paper!
+
+Dialogue Agent: You're welcome! I'm here to assist you with any questions or concerns you may have.

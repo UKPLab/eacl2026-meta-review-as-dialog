@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Exploring and Enhancing the Transferability of Adversarial Examples". Can you tell me a little bit about the paper's contributions and experiment results?
+
+Dialogue Agent: Certainly, meta-reviewer. The paper examines the transferability of adversarial examples between different neural network models, and investigates two factors that may influence this transferability: model-specific parameters and smoothness of loss surface for constructing adversarial examples. The authors propose a new attack strategy that aims at smoothing the loss surface, and evaluate its effectiveness against existing architectures. The experiments show improvements in transferability and robustness of adversarial examples.
+
+Meta-Reviewer: Interesting. Can you tell me more about the experimental studies?
+
+Dialogue Agent: The authors conducted two experimental studies for each of the influence factors, using existing architectures. They also proposed a new attack strategy called "smoothed gradient attack" to enhance the transferability of adversarial examples from any model. The experiments show that this attack strategy is effective and makes the examples more robust to other transformations such as JPEG compression.
+
+Meta-Reviewer: That's good to hear. What are the main pros and cons of the paper according to the reviewers?
+
+Dialogue Agent: Reviewer 1 stated that the proposed experimental studies can be interesting to the community, but finds them a bit limited and would expect larger studies. The conclusions of the study were suggested by previous papers or are rather expected. Reviewer 2 acknowledged that the insights are interesting and could lead to further developments, but criticized the paper for having a lot of grammatical errors and odd formulations. Reviewer 3 noted the well-designed experimental study and convincing results, but also pointed out that the idea of smoothing gradients is not new and the experimental results are somehow expected.
+
+Meta-Reviewer: Okay, thank you for the overview. Based on these reviews, it seems that the paper has some interesting contributions but may be limited in its present form. Can you tell me about the confidence levels of the reviews?
+
+Dialogue Agent: Reviewer 1 gave a confidence level of 2, indicating that they are willing to defend their evaluation but it is quite likely that they did not understand central parts of the paper. Reviewer 2 gave a confidence level of 3, indicating that they are fairly confident that the evaluation is correct. Reviewer 3 also gave a confidence level of 3, indicating that they are fairly confident that the evaluation is correct.
+
+Meta-Reviewer: Thank you. Based on the reviews and the confidence levels, I think I have enough information to make a decision. I will accept this paper with some minor revisions to address the grammatical errors and limitations in the experimental studies. Thank you for your assistance, dialogue agent. 
+
+Dialogue Agent: You're welcome, meta-reviewer. I'm glad I could help.

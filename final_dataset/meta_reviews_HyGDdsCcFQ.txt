@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Better Generalization with On-the-fly Dataset Denoising":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Better Generalization with On-the-fly Dataset Denoising". I'm concerned about the empirical nature of the results and the lack of theoretical guarantees. Can you help me understand the method and its limitations?
+
+Dialogue Agent: Sure! The paper proposes a simple empirical method for cleaning the dataset for training by using the implicit regularization property of SGD-based optimization method. The method sets a threshold for the training loss statistics such that the examples that show losses above the threshold are regarded as noisy examples and are discarded.
+
+Turn 2:
+
+Meta-Reviewer: I see. So, the method is based on the observation that when training with large learning rate, examples with correct labeling and incorrect labeling exhibits different loss distributions. The authors simulated the loss distribution of incorrectly labeled examples using eq.(1). Can you explain to me what eq.(1) assumes?
+
+Dialogue Agent: Sure! Eq.(1) assumes that the noise in the dataset is uniformly distributed among classes. However, the paper acknowledges that this assumption may not always hold in real-world scenarios.
+
+Turn 3:
+
+Meta-Reviewer: I see. So, how does the method choose the threshold for discarding noisy examples? And what are the limitations of the method?
+
+Dialogue Agent: The method chooses the threshold based on the empirical results on synthetic noisy training data. However, the paper acknowledges that the choice of threshold is problem-dependent and there is no general guideline for choosing the threshold. Additionally, the method is sensitive to the choice of hyperparameters, such as p, E, and h, and the authors only provide a limited ablation study on synthetic data.
+
+Turn 4:
+
+Meta-Reviewer: I understand. So, what are the strengths and weaknesses of the paper? And how does it compare to other methods in the literature?
+
+Dialogue Agent: The paper has several strengths, such as its simplicity and the empirical results on synthetic noisy training data. However, the paper has several limitations, such as the lack of theoretical guarantees and the empirical nature of the results. Additionally, the method is not compared to other state-of-the-art methods in the literature, such as label smoothing or adversarial training.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on the limitations of the paper, I would rate it as marginally below acceptance threshold. However, the paper does present an interesting and simple method for on-the-fly dataset denoising, and further research could potentially address the limitations.
+
+Dialogue Agent: Thank you for your feedback. I will summarize the review and provide it to the authors.

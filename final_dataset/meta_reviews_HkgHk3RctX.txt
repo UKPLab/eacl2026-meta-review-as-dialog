@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide me with a summary of the reviews for the paper "Seq2Slate: Re-ranking and Slate Optimization with RNNs"?
+
+Dialogue agent: Yes, certainly. The paper proposes a method for re-ranking candidate items in an information retrieval task using a Seq2Seq network that accounts for inter-item dependencies in a weakly supervised manner. The method is shown to be effective in synthetic experiments as well as in a real-world experiment on a live traffic recommender system. Reviewers had some concerns about the details of the proposed method and mentioned some areas for improvement, but overall, the paper was considered to be of good quality and significance.
+
+Meta-reviewer: Thank you for that summary. One of the concerns raised was about the role of the baseline function in Equation 7. Can you explain to me the reason behind its use? 
+
+Dialogue agent: Yes, in REINFORCE, the baseline function is typically action-independent and approximates the state value function induced by the current policy. In this paper, the authors introduce a baseline function in supervised learning for the Seq2Slate model. Reviewer one had some concerns about the correctness of the derivation for this equation and suggested that the authors provide more explanation. 
+
+Meta-reviewer: I see. Another reviewer mentioned the need for additional experiments around diverse-clicks settings. What can you say about that?
+
+Dialogue agent: Reviewer three suggested conducting additional experiments where Seq2Slate is trained to the relevance labels and compared to LambdaMART. This would allow for a comparison of the effectiveness of Seq2Slate in capturing listwise metrics compared to other methods, as well as provide insight into the scalability and computational performance of the proposed method. Additionally, reviewer three suggested that the results for the three choices of eta be added to the appendix.
+
+Meta-reviewer: Interesting. And how about the reviewers' opinions on the paper's significance and clarity?
+
+Dialogue agent: Reviewer three considered the paper to be significant and well-written, but felt that some of the notation choices could be clarified. Reviewer two felt that the paper was largely incremental but raised no concerns about the paper's clarity or significance.
+
+Meta-reviewer: Thank you for the detailed answers. In light of these reviews, what is your confidence level in recommending acceptance or rejection of the paper?
+
+Dialogue agent: Based on the reviews, I would recommend accepting the paper as all reviewers have given a rating above the acceptance threshold and are confident in their evaluation. However, there are areas for improvement that the authors may wish to address to strengthen the paper.

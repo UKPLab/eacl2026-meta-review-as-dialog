@@ -1,0 +1,21 @@
+ Sure! Here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Meta-Reviewer: Hi, I'm reviewing a paper called "PerfectDou: Dominating DouDizhu with Perfect Information Distillation". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes a new training paradigm called "Perfect Training Imperfect Execution" (PTIE) for the game of DouDizhu, which combines perfect information and imperfect information to train an AI agent. The PTIE framework consists of a global information distillation module and a local information execution module, which enables the AI agent to learn from both perfect and imperfect information. Additionally, the paper introduces a new representation for cards and actions, and a new node reward design to further improve the performance of the AI agent.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the PTIE framework and how it differs from other training paradigms?
+
+Dialogue Agent: Sure! The PTIE framework is based on the actor-critic framework, where the actor uses imperfect information to take actions, and the critic uses perfect information to evaluate the actions. The global information distillation module distills the perfect information into a set of features that can be used by the actor and critic. This allows the AI agent to learn from both perfect and imperfect information, which can lead to better performance in the game. In comparison to other training paradigms, the PTIE framework is more effective in utilizing perfect information, which can be a significant advantage in games like DouDizhu.
+
+Meta-Reviewer: I see. What about the new representation for cards and actions? Can you tell me more about that?
+
+Dialogue Agent: Sure! The paper introduces a new representation for cards and actions, which captures the essential features of the game. The representation is based on the idea of "card-action pairs", which are pairs of cards and actions that are frequently used together in the game. This representation can help the AI agent learn more effectively from the perfect information, and improve its performance in the game.
+
+Meta-Reviewer: That sounds useful. What about the node reward design? Can you tell me more about that?
+
+Dialogue Agent: Sure! The paper introduces a new node reward design, which is based on the idea of "node value". The node value is a measure of the importance of a node in the game, and it is used to guide the training of the AI agent. The node reward design can help the AI agent learn more effectively from the imperfect information, and improve its performance in the game.
+
+Meta-Reviewer: I see. Can you summarize the main contributions of the paper for me?
+
+Dialogue Agent: Sure! The paper proposes a new training paradigm called PTIE, which combines perfect and imperfect information to train an AI agent for the game of DouDizhu. The paper also introduces a new representation for cards and actions, and a new node reward design. These contributions can lead to better performance in the game, and demonstrate the potential of the PTIE framework for other imperfect-information games.

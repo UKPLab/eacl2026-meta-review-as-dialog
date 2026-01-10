@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you tell me a bit about the paper's contribution and methodology?
+
+Dialogue agent: The paper presents a new tool called QCue that assists with mind-mapping by suggesting context related to existing nodes and by asking questions that expand on less developed branches. The suggested context is powered by an online semantic network of concepts called ConceptNet. The paper also includes a detailed description of the algorithm design and two studies to evaluate its effectiveness. The first study explores how users respond to new node ideas suggested by the tool, while the second study expands on those findings to balance the depth and breadth of mind maps creation. Both studies compare the new mind mapping tool to digital options without computer assistance.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the studies and their findings?
+
+Dialogue agent: The studies are well-designed and described. The first study found that QCue produced more detailed maps and that some mind mapping tasks may be better suited to this type of computer intervention than others. The second study showed that the mind maps generated with QCue were better than those generated without this tool support. The paper also includes expert evaluations that support these findings.
+
+Meta-reviewer: And how confident are the reviewers in their evaluation of the paper?
+
+Dialogue agent: Reviewer 1 rated the paper a clear accept and is fairly confident in their evaluation, with a confidence level of 3. Reviewers 2 and 3 both rated the paper as a good paper to accept, with reviewer 2 having a confidence level of 4 and reviewer 3 having a confidence level of 3.
+
+Meta-reviewer: Thank you for the information. Can you tell me more about any criticisms that the reviewers had?
+
+Dialogue agent: Reviewer 1 had some small suggestions for clarification, but overall had no major criticisms. Reviewer 2 had some suggestions for more background on related work, improved reporting of questionnaire results, and other minor grammatical and wording issues. Reviewer 3 also had minor suggestions for clarification, such as expanding on the UI of the tool and clarifying the weighting of relation types in the algorithm. They also had some larger suggestions, such as addressing the shortcoming of the algorithm in accounting for nodes of different depths and providing a clearer picture of the UI in the manuscript.
+
+Meta-reviewer: Thank you for the thorough summary. Based on the reviewers' evaluations and criticisms, I think I am confident in accepting the paper.

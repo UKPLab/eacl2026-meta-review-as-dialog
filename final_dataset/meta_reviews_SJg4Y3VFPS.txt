@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Can you please summarize the reviews for the paper "Group-Connected Multilayer Perceptron Networks"?
+
+Dialogue agent: Sure. The paper proposes an MLP architecture called GMLP that groups input features and extracts high-level representations according to those groups. Review 1 raised concerns about the assumption that the "split-then-combine" prior is flexible enough for real-world cases and suggested comparing GMLP with non-neural baselines. Review 2 recommended investigating reparametrization tricks to solve similar problems and suggested conducting more experiments on simulated data. Review 3 praised the paper's idea to learn relations among feature dimensions, group them, and apply operations within groups to train an MLP but raised concerns about the choice of datasets for ablation studies and the incremental performance gain compared to vanilla MLP.
+
+Meta-reviewer: Thank you. Can you provide more details about the concerns raised by Review 1?
+
+Dialogue agent: Review 1 argued that the "split-then-combine" prior might be too limiting since each feature can only contribute to a single "high-level concept" in the network, and non-neural baselines such as random forests should be included in the comparison instead of just MLP. However, the authors addressed these concerns by allowing each feature to be selected for multiple groups and adding a random forest baseline to the experiments.
+
+Meta-reviewer: And what about the suggestions made by Review 2?
+
+Dialogue agent: Review 2 recommended investigating reparametrization tricks to solve similar problems and conducting experiments on simulated data with mismatched architectures to better understand the performance. The reviewer also suggested analyzing the chosen groups and selected features, providing a more detailed explanation of the dataset, and reporting the complexity of GMLP during training as well as inference.
+
+Meta-reviewer: I see. What are Review 3's thoughts on the paper?
+
+Dialogue agent: Review 3 praised the paper's idea to learn relations among feature dimensions, group them, and apply operations within groups to train an MLP. However, the reviewer had concerns about the ablation studies being conducted only on CIFAR-10 and the incremental performance gain compared to vanilla MLP. The reviewer also suggested comparing the optimal numbers of groups and group sizes between datasets with similar feature dimensions and investigating the group routing during training.
+
+Meta-reviewer: Based on these reviews, do you think the paper should be accepted or rejected?
+
+Dialogue agent: Review 1 and 3 both suggest that the paper is good, while Review 2 suggests marginal acceptance. However, as a dialogue agent, I cannot provide an opinion or recommendation. Ultimately, the decision relies on your interpretation of the reviews and the confidence in the reviewers' evaluations.

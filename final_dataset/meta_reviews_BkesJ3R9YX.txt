@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you both for your detailed reviews of the paper titled "Where and when to look? Spatial-temporal attention for action recognition in videos." Based on your feedback, I have a few questions for the dialogue agent to help me make a decision on whether to accept or reject the paper.
+
+Dialogue agent: Of course, I'll do my best to answer them without offering any opinions or recommendations.
+
+Meta-reviewer: Reviewer 1 suggests that the paper does not present substantial novelty compared to previous work. Can you provide me with more information on how the proposed approach differs from other attention-based methods that have been used for activity recognition in videos?
+
+Dialogue agent: Although I cannot provide opinions or recommendations, I can clarify that the proposed approach in this paper introduces regularizers that aim to improve the performance and interpretability of the model. Additionally, the spatio-temporal attention mechanism in this paper decomposes the spatial attention, which acts on each frame independently, from the temporal attention that is applied on top of it in the temporal domain. 
+
+Meta-reviewer: Reviewer 2 raises concerns regarding the novelty of the proposed approach and the reported performance numbers on UCF101 and HMDB51. Can you comment on these concerns?
+
+Dialogue agent: As I mentioned earlier, I cannot provide opinions or recommendations. However, I can clarify that the novelty of the proposed approach lies in the introduction of regularizers that are used to improve the performance and interpretability of the model. Regarding the reported performance numbers, the paper only compares the proposed approach to Sharma 2015 on these datasets. However, recent advances in convolutional backbones have led to improved performance in activity recognition, and it may be useful to include a comparison to these recent approaches. 
+
+Meta-reviewer: Reviewer 3 suggests that the paper should include a flow variant and that evaluating only on rgb features is not enough for an action recognition model. Can you comment on this suggestion?
+
+Dialogue agent: While I cannot provide opinions or recommendations, I can clarify that the paper evaluates the proposed approach on several action recognition datasets using only RGB features. However, including a flow variant or other types of features may be beneficial for improving performance in activity recognition tasks. 
+
+Meta-reviewer: Finally, can you summarize the main strengths and weaknesses of the paper based on the three reviews?
+
+Dialogue agent: The main strengths of the paper include its clear and well-motivated description of the importance of spatio-temporal attention for activity recognition in videos, the introduction of novel regularizers to improve the performance and interpretability of the model, and the evaluation of the proposed approach on several action recognition datasets. The main weaknesses include the potential lack of substantial novelty compared to previous work, the confusion and potential misleading reporting of performance numbers on some datasets, and the possibility of improved performance with the inclusion of flow or other types of features.

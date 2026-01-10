@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you tell me about the paper's reviews and their recommendations?
+
+Dialogue agent: Certainly. Review 1 rates the paper as marginally below the acceptance threshold, with a confidence level of 2. The reviewer appreciated the proposed method for learning an optimal pushforward from one distribution to another based on samples, but had concerns about the novelty of the approach, the consistency of the results, and the paper's writing. Review 2 rates the paper as clear accept, with a confidence level of 4. The reviewer found the proposed non-minimax formulation for neural generative modeling interesting and promising, but had some concerns about the paper's presentation and the algorithm's computational feasibility. Review 3 rates the paper as marginally below the acceptance threshold, with a confidence level of 4. The reviewer did not find the discussed theoretical and numerical results supportive enough to show that the proposed approach improves upon existing ones, and had concerns about the theoretical sections and the final algorithm's clarity. 
+
+Meta-reviewer: Thank you for the summary. Can you elaborate on the proposed method of the paper?
+
+Dialogue agent: Certainly. The paper proposes Wasserstein-2 Generative Networks, which is an optimal transport framework for learning generative models. Unlike minimax problems of Wasserstein GANs, the proposed approach reduces to a single-level optimization problem by minimizing the 2-Wasserstein distance. The authors also provide theoretical guarantees and promising numerical experiments for the proposed approach.
+
+Meta-reviewer: I see. Can you explain the concerns raised by the reviewers regarding the paper's novelty, consistency, presentation, and feasibility?
+
+Dialogue agent: Review 1 had concerns about the marginal novelty of the approach, as well as the consistency of the results and the paper's writing. Review 2 had concerns about the paper's presentation and the computational feasibility of the proposed approach. Review 3 did not find the theoretical and numerical results supportive enough to show that the proposed approach improves upon existing ones, and had concerns about the theoretical sections and the final algorithm's clarity. 
+
+Meta-reviewer: Thank you for the detailed explanation. Based on the reviews, I am still unsure about the paper's acceptance. Can you provide any additional information or clarification?
+
+Dialogue agent: As a dialogue agent, I am not permitted to provide opinions or recommendations. However, I can provide additional information or clarification about the paper and its reviews if you have any further questions. 
+
+Meta-reviewer: Thank you for your help. Based on the reviews and their concerns, I will carefully weigh the importance of reviewer confidence in making the final decision.

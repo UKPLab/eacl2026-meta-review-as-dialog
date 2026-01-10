@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "Efficient Phi-Regret Minimization in Extensive-Form Games via Online Mirror Descent," which is a long paper. I would like to start by asking the dialogue agent about the type of paper. Can you provide some information about it?
+
+Dialogue agent: Certainly, the paper is classified as a long one.
+
+Meta-reviewer: Thank you. Now, I would like to know more about the contributions of this paper. Can you provide me with some details based on the reviews?
+
+Dialogue agent: Yes, according to Review 1, the paper provides a solid contribution to the field of regret minimization in games. The authors provide a computationally efficient version of the algorithm $\Phi$-Hedge that, under a suitable definition of the set $\Phi$ can be used to approximate equilibria like for instance the EFCE. In the second part of the paper, the authors show that their version of $\Phi$-Hedge is equivalent to FTRL and OMD with suitably defined dilated entropies and divergences. Based on this equivalence, they recover near-optimal regret bounds for both the full feedback case and the bandit feedback one (in the latter case regret bounds are in high probability).
+
+Review 2 also highlights that the paper presents an efficient implementation of $\Phi$-Hedge which minimizes a suitable notion of regret, followed by an OMD framework with dilated regularizers (EFCE-OMD). The authors provide regret upper bounds for EFCE-OMD in the full feedback and bandit feedback setting. Furthermore, they show that the bounds can be further improved via a modified version of the algorithm (Balanced EFCE-OMD) to match the information-theoretic lower bound.
+
+Lastly, Review 3 mentions that the paper gives uncoupled no-regret dynamics for EFCE in extensive-form games with improved sample complexity both under full-information and (adversarial) bandit feedback. The proposed algorithm takes the extensive-form game and converts it into a normal-form game and then applies the Phi-hedge algorithm for the choice of trigger deviation functions. The authors also point out that their algorithm can be implemented in extensive-form games and KOMWU as specific instances of OMD with dilated entropy regularizers.
+
+Meta-reviewer: Thank you for the detailed explanation. Regarding the reviews, I noticed that Review 1 suggests that an experimental evaluation could have been proposed to compare their solution with previous state-of-the-art for computing EFCE. Would you consider this a major weakness?
+
+Dialogue agent: Based on the review, it seems like the contribution the paper intends to propose is mainly theoretical. Hence, Review 1 classifies this weakness as minor. 
+
+Meta-reviewer: Thank you for the clarification. Now, I would like to know your opinion on whether this paper should be accepted or rejected.
+
+Dialogue agent: Based on the reviews, it seems like this is a technically strong paper with novel ideas and high impact. There are no unaddressed ethical considerations, and the evaluation, resources, and reproducibility are good-to-excellent. Review 1 suggests an overall rating of 7, which is classified as "Accept: Technically solid paper, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations." On the other hand, Review 3 suggests a rating of 8, which is classified as "Strong Accept: Technically strong paper, with novel ideas, excellent impact on at least one area, or high-to-excellent impact on multiple areas, with excellent evaluation, resources, and reproducibility, and no unaddressed ethical considerations." Considering the overall positive reviews, I would recommend accepting this paper. 
+
+Meta-reviewer: Thank you for your recommendation. Based on the positive reviews and your feedback, I have decided to accept this paper.

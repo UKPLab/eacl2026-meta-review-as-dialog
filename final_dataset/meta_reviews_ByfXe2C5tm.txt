@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi there, I'm reviewing a paper called "NLProlog: Reasoning with Weak Unification for Natural Language Question Answering". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method called NLProlog, which combines logical rules with distributed representations for reasoning on natural language statements. The approach leverages a pre-trained sentence encoder to embed natural language statements and templated logical rules in a vector space, allowing for comparison and similarity-based reasoning.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the main concerns of the reviewers?
+
+Dialogue Agent: One reviewer appreciates the through error analysis the authors have done in the revision, which addressed their major previous concerns. However, another reviewer is concerned about the limited experimental validation and analysis, and the reliance on Open IE for knowledge extraction.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the size of the hand-coded predicates and rules? And what's the coverage of these rules on the datasets?
+
+Dialogue Agent: The hand-coded predicates and rules are relatively small, with a total of 29 rules for the entire dataset. However, the coverage of these rules on the datasets is limited, as the authors only evaluate the model on a subset of the Wikihop dataset and BABI-1k.
+
+Turn 4:
+
+Meta-Reviewer: I see. What about the ensemble results in Table 1? Do the authors provide any analysis on the data quality and the importance of reviewer confidence?
+
+Dialogue Agent: The authors do not provide such analysis in the paper. However, they do mention that the ensemble results in Table 1 show that NLProlog can complement neural models, and that the approach is novel and original.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your summarized answers, I'm considering the acceptance of the paper. However, I have some final questions before making my decision. Can you tell me more about the evolutionary strategy used in the training process, and how it affects the run-time and complexity of the exhaustive proof search during training?
+
+Dialogue Agent: Sure! The evolutionary strategy used in the training process is an evolutionary algorithm that enables the model to fine-tune its sentence encoders and learn domain-specific logic rules directly from text. The run-time and complexity of the exhaustive proof search during training are not discussed in the paper.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your help. Based on the reviews and the information provided, I have made my decision on the acceptance of the paper.
+
+Dialogue Agent: You're welcome! I'm glad I could assist you in making your decision. If you have any further questions or need any additional information, please don't hesitate to ask.

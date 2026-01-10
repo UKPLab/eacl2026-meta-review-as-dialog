@@ -1,0 +1,27 @@
+ Sure! Here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Meta-reviewer: Hello, I am reviewing a paper about learning protein sequence embeddings using information from structure. Can you help me assess the paper's quality and relevance?
+
+Dialogue Agent: Of course! I can summarize the reviews and provide information about the paper's type and title. What would you like to know?
+
+Meta-reviewer: Let's start with the title and type of the paper. What are they?
+
+Dialogue Agent: The title of the paper is "Learning Protein Sequence Embeddings using Information from Structure." It is a long paper.
+
+Meta-reviewer: Great, that helps me understand the scope of the paper. Now, can you summarize the reviews for me?
+
+Dialogue Agent: Sure! Review 1 states that the work learns embeddings for proteins using techniques from deep learning on natural language that are typically applied to sentences and words, and applies them correspondingly to proteins and amino acids. The authors then use a bi-directional LSTM for amino acid embeddings and train the embeddings using an mlp and CNN for contact prediction and structural class similarity model. Review 2 mentions that the introduction is not well written and lacks clarity on the problem being addressed. The reviewer also states that the work lacks a clear reasoning behind the choice of modeling components, and that the evaluation only considers pairs of sequences with 95% identity. Review 3 states that the authors describe two loss functions for learning embeddings of protein amino acids based on predicting global structural similarity of two proteins and predicting amino acid contacts within proteins. The reviewer mentions that the authors should describe how they optimized hyperparameters such as learning and lambda, and that the way the authors present results in tables is unclear.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on the reviews, I would like to ask the following questions:
+
+1. Can you explain why the authors choose to use a bi-directional LSTM for amino acid embeddings?
+2. How do the authors address the issue of variable-length protein sequences?
+3. Can you provide more information on the evaluation metrics used in the paper?
+
+Dialogue Agent: Sure, I can answer those questions! The authors choose to use a bi-directional LSTM for amino acid embeddings because it allows them to capture both the forward and backward dependencies in the protein sequence. To address the issue of variable-length protein sequences, the authors use a fixed-length representation of the sequences and embeddings. The evaluation metrics used in the paper include structural similarity, secondary structure prediction, and contact prediction.
+
+Meta-reviewer: Thank you for the information. Based on the reviews and the information you provided, I would rate the paper as good with a confidence level of 4. The authors provide a novel approach to learning protein sequence embeddings using information from structure, and the results show promising performance. However, the paper lacks clarity in some areas, and the evaluation only considers pairs of sequences with 95% identity. Additionally, the authors do not address the issue of variable-length protein sequences.
+
+Dialogue Agent: Thank you for your assessment. Is there anything else you would like to know about the paper or the reviews?
+
+Meta-reviewer: No, that's all for now. Thank you for your help!

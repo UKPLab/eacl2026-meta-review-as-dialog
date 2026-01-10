@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, I have read the reviews for this paper on LOT and I have a few questions. Are you the dialogue agent for this paper?
+
+Dialogue Agent: Yes, I am.
+
+Meta-Reviewer: Great. Can you clarify some of the weaknesses mentioned in Review 1 regarding the specific l2 attack derivation for LOT and the limited practicality of the framework on only CIFAR10/100?
+
+Dialogue Agent: As a dialogue agent, I am not at liberty to offer opinions or recommendations. However, I can confirm that the paper's focus is on improving l2 certified robustness, and the experiments were conducted on CIFAR10/100 for the purpose of evaluating the proposed framework. As for the l2 attack derivation, the paper does acknowledge that attacks conventionally take l1, l2, and l_infinity norms, but the focus was primarily on l2. 
+
+Meta-Reviewer: Okay, I understand. Moving on, in Review 2, the reviewer mentioned limited novelty and an unclear experimental result. Can you provide some clarification?
+
+Dialogue Agent: As previously mentioned, I cannot provide opinions or recommendations. However, the paper does acknowledge related work and cites previous methods utilizing similar ideas. As for the experimental results, the paper compares LOT with SOC, which has been shown to outperform other 1-Lipschitz models. Further comparison with other related works was not deemed necessary by the authors. 
+
+Meta-Reviewer: Understood. Finally, Review 3 had no major concerns, but can you clarify the significance of the paper concerning its impact and societal implications?
+
+Dialogue Agent: The paper proposes a method to improve the certified robustness of neural networks, which has potential benefits in various areas such as security and safety. The method does not have any negative societal impact, as far as the authors are aware.
+
+Meta-Reviewer: Thank you for answering my questions. Based on the review ratings and the information you have provided, I have decided to accept this paper.

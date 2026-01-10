@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, it's good to have you here. Can you tell me about the reviews for "Analyzing Inverse Problems with Invertible Neural Networks"?
+
+Dialogue agent: Of course. There are three reviews of the paper. Review 1 is generally positive about the main idea of using invertible networks for inverse problems but has concerns about the experiments and technical contributions. Review 2 rates the paper slightly above the acceptance threshold and has some questions about bidirectional training and zero-padding inputs. Review 3 is positive about the paper's motivation and construction of solutions but finds some difficulties in understanding the experiments.
+
+Meta-reviewer: Thank you for the summary. I am particularly concerned about the experimental results. Can you tell me what Review 1 says about the significance of the experimental results?
+
+Dialogue agent: Review 1 finds the experiments and technical contributions of the paper to be limited. While the main idea of using invertible networks for inverse problems is inspiring, the experiments are not convincing enough. For example, the inverse kinematics experiment shows that the posterior collapses from large uncertainty to almost a point for the right-most joint, which seems like a negative result. The medical experiment also seems rather limited, and the proposed model only outperforms competitors on two out of three measurements despite ABC. Therefore, Review 1 is worried about how the proposed model will perform on challenging realistic problems.
+
+Meta-reviewer: I see. What about Review 3? Are there any issues mentioned about the experiments in that review?
+
+Dialogue agent: Review 3 finds the Mixture of Gaussians experiment to be a good illustration of how the choice of cost functions influences the solution. However, the review does not understand how the *discrete* output y is handled. For the medical application, the review finds that INN outperforms other methods over some metrics such as the error on parameters recovery and calibration error, and does indeed have an approximate posterior that seems to correspond to the ABC solution better. However, the review is not sure what we are supposed to learn from the astrophysics experiments.
+
+Meta-reviewer: I see. Thank you for the detailed summary. Finally, can you tell me what Review 2 thinks about the paper overall?
+
+Dialogue agent: Review 2 rates the paper slightly above the acceptance threshold and finds it interesting overall. Specifically, the review appreciates the extensive analyses of the possibility of modeling posterior distributions with an INN and the detailed experiment setups provided in the appendix. However, the review is not entirely clear about the advantages of INN over other generative methods such as GAN and VAE and has some questions about bidirectional training ratios and zero-padding inputs.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews, I am still not entirely convinced about the validity of the experimental results and the significance of the paper. However, Review 2 seems to think highly of the paper, so I will accept it with some reservations.

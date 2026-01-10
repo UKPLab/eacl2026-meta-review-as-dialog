@@ -1,0 +1,35 @@
+Meta-Reviewer: 
+Hello Dialogue Agent, I have read the three reviews of the paper, Transfer Value or Policy? A Value-centric Framework Towards Transferrable Continuous Reinforcement Learning, and I would like to ask you a few questions before I make my decision on accepting or rejecting the paper.
+
+Dialogue Agent:
+Of course, I'm happy to answer any questions you have about the paper.
+
+Meta-Reviewer:
+Firstly, could you explain the main contribution of the paper?
+
+Dialogue Agent:
+The paper proposes a model-based value-centric framework for transfer learning in continuous reinforcement learning tasks, which consists of a value function, a dynamics model and a reward model, all learned by neural networks. The authors argue that value-centric algorithms are more suitable for transfer learning than policy-centric algorithms. In addition, they propose a model-based deep reinforcement learning algorithm that optimizes neural networks to estimate the deterministic transitions and rewards, and uses these models to learn a value function by minimizing the Bellman residual. The experiments show some improvement in transferability over DDPG and TRPO policies.
+
+Meta-Reviewer:
+I see. One of the reviewers points out that the paper has two relatively independent stories, and that the paper should provide a clearer comparison of transferability using existing methods. What is your response to this?
+
+Dialogue Agent:
+I understand the concern. While the paper does demonstrate improved transferability over DDPG and TRPO policies, the reviewers are correct that a more comprehensive comparison with existing state-of-the-art algorithms would strengthen the paper's contribution. However, as a dialogue agent, I am not supposed to provide an opinion or recommendation, so I cannot say whether this weakness is critical or not.
+
+Meta-Reviewer:
+Okay, I understand that you cannot provide an opinion. Another reviewer has expressed concern about the theoretical justification, specifically the bound in Proposition 2 being too loose to be meaningful. What is your response to this?
+
+Dialogue Agent:
+I acknowledge the reviewer's concern. The theoretical justification presented in the paper may not be very strong. However, the authors do not solely rely on theoretical justifications and also provide empirical evidence. They illustrate the model loss curves in their considered domains and compare the proposed method's performance with other algorithms in several experiments. Furthermore, the authors admit the loose bound in the text and discuss possible ways to mitigate it.
+
+Meta-Reviewer:
+I see. Finally, the same reviewer expresses concern about the practicality of the proposed approach. Do you agree with this? 
+
+Dialogue Agent:
+The proposed model-based value-centric algorithm requires learning the model of the environment for high-dimensional state space and a continuous action space, which is notoriously difficult. The main advantage of this algorithm over DDPG and TRPO is that it works better when the dynamics model changes smoothly and we have an approximation to it. However, this may not always be possible in practice. While this is a valid concern, as a dialogue agent, I cannot provide an opinion or recommendation on whether this would impact the decision to accept or reject the paper.
+
+Meta-Reviewer:
+Thanks for your answers. Based on the reviews and your responses, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent:
+As a dialogue agent, I cannot provide an opinion or make a recommendation on whether the paper should be accepted or rejected. However, I hope my responses have been helpful in aiding your evaluation.

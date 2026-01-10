@@ -1,0 +1,21 @@
+ Sure, here is a simulation of a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection, based on the given reviews:
+
+Meta-Reviewer: Hello, I'm the meta-reviewer for this paper, and I have read the reviews provided. Can you please summarize the main contributions and findings of the paper?
+
+Dialogue Agent: Certainly! The paper "Generating Adversarial Computer Programs using Optimized Obfuscations" presents a principled approach to generating adversarial programs by casting it as a constrained optimization problem. The authors propose a joint optimization of site selection, transformation choice, and perturbation strength, which improves attack success rate compared to previous approaches. The paper also includes an ablation study to demonstrate the effectiveness of randomized smoothing.
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, I have some questions to ask the authors. Firstly, the reviewers have raised concerns about the choice of task and perturbation actions being expedient rather than practical. Can you address these concerns?
+
+Dialogue Agent: Yes, the choice of task and perturbation actions was indeed expedient to try out the approach, but we are aware that practically, the choice of task and perturbation actions may be limited. In future work, we plan to explore more practical and realistic tasks and perturbations.
+
+Meta-Reviewer: Secondly, the reviewers have pointed out that the core model used is not a state-of-the-art model for code understanding, and that the choice of model on which to evaluate the approach is poor. Can you comment on this?
+
+Dialogue Agent: We agree that the core model used is not a state-of-the-art model for code understanding, and that the choice of model on which to evaluate the approach is not optimal. However, we believe that our approach is still relevant and applicable to state-of-the-art models, and we plan to explore this in future work.
+
+Meta-Reviewer: Lastly, the reviewers have raised concerns about the imperceptibility of the attacks and the criteria for what constitutes a successful attack being overly pessimistic. Can you address these concerns?
+
+Dialogue Agent: Yes, we understand the concerns about the imperceptibility of the attacks and the criteria for what constitutes a successful attack. We believe that our approach provides a useful and informative way of evaluating the robustness of code understanding models, and we plan to explore ways of improving the imperceptibility of the attacks and the criteria for successful attacks in future work.
+
+Meta-Reviewer: Thank you for addressing these concerns. Based on the reviews and your responses, I will now make a final decision on the acceptance or rejection of the paper.
+
+Dialogue Agent: Thank you for your time and consideration. We look forward to hearing your decision.

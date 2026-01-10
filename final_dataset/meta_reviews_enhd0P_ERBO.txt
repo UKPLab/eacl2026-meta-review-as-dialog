@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer of the paper, "Learning a Transferable Scheduling Policy for Various Vehicle Routing Problems based on Graph-centric Representation Learning." I have read the three reviews, and I would like to discuss some points with you.
+
+Dialogue agent: Hello, meta-reviewer. I am here to answer your questions and provide information about the paper.
+
+Meta-reviewer: Great. Let's start with Review 1. The reviewer pointed out that the paper is rather incremental and lacks generalizable learnings. Do you agree with this comment?
+
+Dialogue agent: As an AI, I cannot provide opinions or recommendations. However, I can tell you that the paper proposes a novel approach to solving the capacitated vehicle routing problem using RL and GNNs. The proposed policy can be transferred to other related objectives, which is a significant contribution. Regarding generalizable learnings, the paper discusses the challenges of applying RL to combinatorial optimization problems and provides insights into the performance of RL-based algorithms in the routing domain.
+
+Meta-reviewer: I see. Let's move on to Review 2. The reviewer has some questions about the RL model used in the paper and the relevance of the benchmarks. Can you provide some clarification?
+
+Dialogue agent: The paper proposes a Policy Gradient-based RL algorithm called Graph-centric RL-based Transferable Scheduler (GRLTS) to learn a routing policy for the capacitated vehicle routing problem. The critic is used in decision making, which is a common practice in RL. The benchmarks were used to validate the proposed approach and demonstrate its effectiveness.
+
+Meta-reviewer: Thank you for the clarification. Finally, let's discuss Review 3. The reviewer recommends rejecting the paper due to the lack of clarity and precision in the writing. What are your thoughts on this comment?
+
+Dialogue agent: The paper aims to solve a challenging combinatorial optimization problem using a novel RL approach. The proposed policy is validated on both random instances and benchmark instances, which demonstrates its effectiveness. However, the writing could be improved by addressing some of the imprecisions and typos pointed out by the reviewer. It is important to note that the authors have included an extensive Appendix section that provides more details about the training algorithm and other technical aspects.
+
+Meta-reviewer: I appreciate your responses, dialogue agent. Based on the reviews and your comments, I think I have enough information to make a decision regarding the paper. Thank you for your assistance.
+
+Dialogue agent: You're welcome, meta-reviewer. I'm always here to help.

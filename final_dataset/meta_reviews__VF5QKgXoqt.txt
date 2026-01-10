@@ -1,0 +1,25 @@
+Meta-Reviewer: Hi, thank you both for your reviews on "HumanLiker: A Human-like Object Detector to Model the Manual Labeling Process". Based on your reviews, I would like to start by asking some questions to clarify a few things.
+
+Dialogue Agent: Of course, I'll do my best to answer your questions without providing any opinions or recommendations.
+
+Meta-Reviewer: Great, let's start with the type of paper. Reviewer 1 did not mention anything about the paper type, while Reviewer 2 mentioned that it is a long paper. Can you confirm that this is a long paper?
+
+Dialogue Agent: Yes, according to the paper submission guidelines and the information provided by the authors, "HumanLiker" is a long paper.
+
+Meta-Reviewer: Good to know. Reviewer 1 mentioned the strength of the writing and organization of the paper, while Reviewer 2 criticized the paper for not demonstrating the proposed approach's superiority over existing corner-based methods. Can you provide more information on the experiments conducted to evaluate the proposed approach?
+
+Dialogue Agent: As per the paper, the proposed approach was evaluated on the COCO dataset and compared with other state-of-the-art detectors, including CornerNet, YOLOv3, and faster R-CNN. The proposed method's performance was measured using mean average precision (mAP) at different intersection-over-union (IoU) thresholds. The paper also included a comparison of the proposed method with different backbones, such as ResNetXt-101 + deformable convolutional module and SwinTransformer-L.
+
+Meta-Reviewer: Thank you for that information. Reviewer 1 also mentioned that the current training strategy becomes large-scale jittering and fixed input size, and suggested that the paper could use a new training way without comparisons to produce stronger results. Did the authors address this issue in the paper?
+
+Dialogue Agent: The paper does not mention any changes to the training strategy, and it is unclear if the authors addressed Reviewer 1's concern. However, the authors did discuss the proposed method's computational efficiency and its superior performance compared to other state-of-the-art detectors.
+
+Meta-Reviewer: Okay, understood. Reviewer 3 raised several concerns about the paper, including assumptions about the human labeling process, the paper's hyper-parameters, and the evaluation's lack of control to justify the contribution of the paper. Can you provide any insights into these concerns?
+
+Dialogue Agent: The paper does mention that they take inspiration from how humans label objects but it does not claim that it is an exact replication of the human labeling process. Regarding the hyper-parameters, the paper does discuss the choice of hyper-parameters and their impact on the results. Finally, the evaluation was conducted on the COCO dataset, and the results were compared with other state-of-the-art detectors, which are considered the most challenging benchmarks for object detection.
+
+Meta-Reviewer: I appreciate your responses. Finally, the confidence levels for both reviewers are set at 5 (absolutely certain). Can you provide any insights into their confidence levels?
+
+Dialogue Agent: The confidence levels reflect the reviewers' assertiveness in their assessments of the paper. It means that they are very familiar with the related work and have carefully checked the paper's details and math. However, it does not necessarily mean that their assessments are correct or final.
+
+Meta-Reviewer: Thank you for providing that insight. Based on your responses and the reviews, I believe that "HumanLiker" is a technically solid paper, and the reasons to accept outweigh the reasons to reject. As a meta-reviewer, I would like to recommend accepting the paper. Thank you for your help with this decision.

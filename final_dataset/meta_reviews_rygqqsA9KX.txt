@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, I have read the reviews for the paper "Learning Factorized Multimodal Representations" and I would like to discuss some points before making a decision. Can you tell me if the paper discusses whether this proposed method is a generalization of the Wassertein Autoencoder-based method with broader applications?
+
+Dialogue Agent: The paper briefly mentions this possibility but does not go into great detail. However, the proposed method does offer a more broad approach than the Wassertein Autoencoder-based method when it comes to handling factorized joint distributions over the multimodal space. 
+
+Meta-Reviewer: Thank you for that. Reviewer 1 suggests that the paper should have compared the proposed method to other disentangling approaches such as beta-VAE, InfoGAN and partitioned VAE methods. Can you comment on why this was not done? 
+
+Dialogue Agent: While we appreciate the suggestion made by Reviewer 1, the focus of the paper was to present the proposed method and its application to multimodal datasets. We believe that comparing the proposed method to other approaches would have taken away from this main focus. 
+
+Meta-Reviewer: Reviewer 2 had a few minor questions, one of which was if the proposed approach can be applied to categorical or binary features. Can you elaborate on this?
+
+Dialogue Agent: The proposed method is designed for continuous features. Therefore, it may not be directly applicable to categorical or binary features. However, modifications can be made to apply the method to such features. 
+
+Meta-Reviewer: Finally, Reviewer 3 seemed to have some concerns about the interpretations made by the paper. For instance, in Table. 3 it shows that language is the most informative feature for prediction, but in Table. 2, if audio is missing, the result is worse compared to the other two cases. Can you provide clarification for this?
+
+Dialogue Agent: We appreciate Reviewer 3's concerns and understand the need for clarification. However, as we have limited input from Reviewer 3 on what area specifically needs clarification, we cannot provide a detailed explanation at this time. We would be happy to address any specific point from Reviewer 3 if provided. 
+
+Meta-Reviewer: Thank you for your responses. Based on these reviews and your answers, I think this paper can be accepted. However, I am concerned with Reviewer 2's confidence level. Can you provide any additional information to address this?
+
+Dialogue Agent: While we respect Reviewer 2's opinion, we would like to point out that their questions were mainly technical in nature. We believe the proposed method is technically sound and significant. Therefore, we are confident in the evaluation made in Review 2. 
+
+Meta-Reviewer: Thank you for your response. I am satisfied with the answers provided, and I am confident in my decision to accept this paper.

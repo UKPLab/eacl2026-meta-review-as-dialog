@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about using human attention for image recognition. The title is "Learning what and where to attend." Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new approach to improve deep convolutional neural networks by incorporating human attention. The authors collected a large dataset of human attention maps and used it to train a network module called GALA.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper has several strengths, including a novel dataset and a new network module that can improve image recognition accuracy. However, the paper also has some weaknesses, such as some notational confusion and a lack of interpretability in the results.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the notational confusion?
+
+Dialogue Agent: Yes, the paper has some notation issues, such as the introduction of the global feature attention vector g without proper dimensions. Additionally, some variables are introduced without clear explanations, such as W_expand and W_shrink.
+
+Turn 4:
+
+Meta-reviewer: What about the regularization term added to every layer in the network? Is there any explanation for why this is done?
+
+Dialogue Agent: Yes, the regularization term is added to ensure that the network learns to use human attention effectively. The authors found that without this regularization, the GALA features with ClickMe maps exhibit minimal variation across layers.
+
+Turn 5:
+
+Meta-reviewer: I see. What about the correlation between ClickMe and Clicktionary maps? Is there any explanation for why this is done?
+
+Dialogue Agent: Yes, the correlation between ClickMe and Clicktionary maps is computed to evaluate the effectiveness of the human attention. The authors found that the GALA features with ClickMe maps exhibit higher correlation with the ground truth labels than the features without ClickMe supervision.
+
+Turn 6:
+
+Meta-reviewer: That's interesting. What is the main contribution of the paper, in your opinion?
+
+Dialogue Agent: In my opinion, the main contribution of the paper is the introduction of a new dataset and a novel network module that can improve image recognition accuracy by incorporating human attention. Additionally, the paper provides insights on the effect of human supervision on the performance of deep convolutional neural networks.
+
+Turn 7:
+
+Meta-reviewer: Thank you for your help. Based on our conversation, I think I have a good understanding of the paper's strengths and weaknesses.
+
+Dialogue Agent: You're welcome! I'm glad I could assist you in understanding the paper's main contributions and limitations.

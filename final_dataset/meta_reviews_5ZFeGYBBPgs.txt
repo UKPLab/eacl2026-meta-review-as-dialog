@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Second-Moment Loss: A Novel Regression Objective for Improved Uncertainties":
+
+Turn 1:
+
+Meta-Reviewer: Thank you for the paper titled "Second-Moment Loss: A Novel Regression Objective for Improved Uncertainties". I have some questions before making a final decision. Can you tell me about the novelty of this paper?
+
+Dialogue Agent: The paper proposes a new objective function, called the second-moment loss, to better evaluate uncertainty in regression tasks. This objective function is based on the idea of using a simple regression loss between the model expected output and the data label, in addition to a penalty term that encourages the output variance to follow the variance of the prediction residuals.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the theoretical justification for this objective function?
+
+Dialogue Agent: The theoretical justification for the second-moment loss is based on the idea that the output variance of a regression model should be proportional to the variance of the prediction residuals. This is motivated by the fact that the output variance is a measure of the uncertainty of the model's predictions.
+
+Turn 3:
+
+Meta-Reviewer: I see. But what about the limitations of the proposed approach? The authors claim that the second-moment loss can adapt to domain shift, but there is no explanation why this is the case.
+
+Dialogue Agent: The authors propose the second-moment loss as a novel approach to improve the uncertainty estimation in regression tasks. However, the theoretical grounds for the SML loss look somewhat weak. The authors do not provide a clear explanation for why the proposed approach can adapt to domain shift.
+
+Turn 4:
+
+Meta-Reviewer: I understand. Can you tell me more about the evaluation metrics used in the paper? The authors use the negative log-likelihood with the mean and the variance of the sub-network outputs as one of the evaluation measures. But what about the relationship between MC dropout and the proposed objective function?
+
+Dialogue Agent: The authors use the (gaussian) negative log-likelihood with the mean and the variance of the sub-network outputs as one of the evaluation measures. However, the relationship between MC dropout and the proposed objective function is not clear. The authors do not provide a clear explanation for how the proposed objective function differs from MC dropout.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the discussions, I have some concerns about the novelty and theoretical justification of the proposed approach. I will consider the paper for acceptance with a marginal rating of 4.
+
+Dialogue Agent: Thank you for the feedback. The authors will address the concerns in the rebuttal letter.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper on learning to separate domains in generalized zero-shot and open set learning. Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Certainly! The paper proposes a method for domain separation based on bootstrapping and a Kolmogorov-Smirnoff test to refine the bootstrapped in-distribution zones. The authors apply these techniques to two general recognition problems: open-world recognition, and Generalized Zero-Shot Learning (GZSL).
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the weaknesses of the paper?
+
+Dialogue Agent: Sure. The writing is a bit rough throughout, and there are several elements of the technical exposition that are lacking in clarity. For example, it is unclear what equation 9 is defining exactly, and there is never a clear, complete definition of the end-to-end decision pipeline given. Additionally, the authors seem to have relied on the Xian et al. paper to extract data for their comparative evaluation on GZSL, and there are more recent works from 2018 that should be included.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. The motivations for each element of the proposed approach are fairly well presented and are compelling, and the experimental results on GZSL are impressive, especially compared to established approaches.
+
+Turn 4:
+
+Meta-Reviewer: Okay, I think I have a good understanding of the paper now. Can you summarize the reviews for me?
+
+Dialogue Agent: Sure. Review 1 states that the paper deals with the difficult problem of novelty recognition, which is the core issue in open set learning and generalized zero-shot learning. The idea proposed here consists in starting from the extreme value theory and then using bootstrapping to model the confidence score for a sample of belonging or not to a certain class. Review 2 states that the paper describes an approach to domain separation based on bootstrapping to identify similarity cutoff thresholds for known classes, followed by a Kolmogorov-Smirnoff test to refine the bootstrapped in-distribution zones. Review 3 states that the paper proposes to introduce a new domain, the uncertain domain, to better handle the division between seen/unseen domains in open-set and generalized zero-shot learning.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for summarizing the reviews for me. Based on the reviews, I think the paper is marginally below the acceptance threshold. However, the proposed method has some interesting ideas and the GZSL results are impressive. I think the writing needs to be improved, and more recent works should be included in the comparative evaluation.
+
+Dialogue Agent: Understood. Thank you for your feedback, [Meta-Reviewer]. I will make sure to communicate this information to the authors.

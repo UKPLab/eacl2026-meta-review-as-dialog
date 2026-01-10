@@ -1,0 +1,19 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Towards a Robust Experimental Framework and Benchmark for Lifelong Language Learning":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Towards a Robust Experimental Framework and Benchmark for Lifelong Language Learning". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new benchmark for lifelong language learning that addresses the problem of catastrophic forgetting in existing benchmarks. The proposed benchmark, called the Degree-of-Belief framework, provides a more principled way of evaluating techniques for lifelong learning.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the Degree-of-Belief framework?
+
+Dialogue Agent: Sure! The framework consists of three requirements: (1) no task identifiers, (2) all tasks are treated as a single problem, and (3) a degree-of-belief metric to measure accuracy throughout lifelong learning. The authors claim that this framework provides a more comprehensive and principled way of evaluating lifelong learning models compared to existing benchmarks.
+
+Meta-Reviewer: I see. What do the reviewers think of the paper?
+
+Dialogue Agent: Based on the reviews, Reviewer 1 found the paper to be technically sound and well-written, with a significant amount of work done. However, Reviewer 2 had some concerns about the paper's focus on the degree-of-belief framework, which they felt excluded important aspects of the problem. Reviewer 3 also had some issues with the benchmark's evaluation and presentation, particularly with regards to the lack of information on the selection strategy for the test sets and the failure to discuss broader impacts.
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, I think I have a good understanding of the paper's strengths and weaknesses. Can you tell me more about the authors' rebuttal to the reviewers' comments?
+
+Dialogue Agent: Sure! The authors address most of the reviewers' concerns in their rebuttal, particularly with regards to the degree-of-belief framework and its advantages. They also provide more information on the selection strategy for the test sets and address the lack of broader impact discussion. However, the reviewers still have some reservations about the paper's evaluation and presentation.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the authors' rebuttal, I think I have a good understanding of the paper's contributions and limitations. I will use this information to make my final decision on whether to accept or reject the paper.

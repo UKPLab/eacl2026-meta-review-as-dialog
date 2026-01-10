@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have reviewed the three reviews for the paper entitled "Generalizable Adversarial Training via Spectral Normalization" and I have a few questions to ask before making my final decision whether to accept or reject it.
+
+Dialogue Agent: Sure, Meta-Reviewer. I'm here to answer your questions and provide any clarification I can on the paper based on the reviews.
+
+Meta-Reviewer: In Review 1, the reviewer asks why the numbers reported in Figure 5 do not match with the results of adversarial training in previous papers. Can you shed more light on this?
+
+Dialogue Agent: According to the author of the paper, the scale used in the previous works might be different, as they usually scale each pixel to [0,1] or [-1,1], whereas the authors of this paper might have used the [0, 255] scale. Additionally, the structure of the model used may also have an impact on the results. The author suggests conducting experiments on the same structure as previous works to make the conclusion more clear.
+
+Meta-Reviewer: I see. In the same review, the reviewer asks about the training time of the proposed method compared with vanilla adversarial training. Can you provide more information on this?
+
+Dialogue Agent: Unfortunately, the paper did not provide any information on this. The author only focused on the performance of the proposed method and did not report any details on the training time. However, it might be useful for future work to investigate the training time of the proposed method compared with vanilla adversarial training.
+
+Meta-Reviewer: Review 2 discusses the paper's generalization bounds and the dependency on spectral norms. Can you explain this further?
+
+Dialogue Agent: Yes, the paper uses the results from previous work on generalization bounds that depend on spectral norms of each layer, as described in Review 2. The authors then apply spectral normalization as a regularization for adversarial training, based on Miyato et al. (ICLR 2018), which used spectral normalization for GAN training. The combination of the results from the two previous papers is quite natural since one uses spectral normalization in practice for GAN training, and the other provides generalization bound that depends on spectral norm.
+
+Meta-Reviewer: Lastly, in Review 3, the reviewer mentions weak experimental results. Can you elaborate on this?
+
+Dialogue Agent: The reviewer of Review 3 acknowledges that the proposed method is well-motivated and theoretically solid. However, the experimental results presented in the paper are weak in justifying the paper's claims. Although the problem of degraded generalization after adversarial training is interesting and well-explained, the results presented in the paper are not strong enough to justify the claims made. Additionally, there are some issues with the presentation of figures and the scale of epsilons used in Figure 5.
+
+Meta-Reviewer: I see. Thank you for your answers. Based on these reviews and your responses, I am inclined to accept the paper for publication. However, I remain concerned about the weak experimental results in the paper. Can you provide more information on the reviewer confidence ratings?
+
+Dialogue Agent: Reviewer 1 gave the paper a rating of 6, marginally above the acceptance threshold and a confidence rating of 5, indicating that the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Reviewer 2 gave the paper a rating of 5, marginally below the acceptance threshold and a confidence rating of 3, indicating that the reviewer is fairly confident that the evaluation is correct. Reviewer 3 also gave the paper a rating of 6, marginally above the acceptance threshold and a confidence rating of 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Meta-Reviewer: Thank you. Based on the reviews and your responses, I have decided to accept the paper for publication, despite concerns over the weak experimental results. Thank you for your assistance.

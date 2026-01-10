@@ -1,0 +1,15 @@
+Meta-reviewer: Hello there, dialogue agent. I have read the reviews for the paper "Video-based Human-Object Interaction Detection from Tubelet Tokens" and would like to ask you some questions before making a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Of course, I'm here to help. What would you like to know?
+
+Meta-reviewer: Can you remind me what the strengths of the paper are?
+
+Dialogue Agent: According to the first review, the paper proposes a novel method for video-based HOI detection that uses tubelet tokens as compact and dynamic representations of spatio-temporal patterns, which are better suited for transformer-based models than patch tokens. The paper is also well-written and includes comprehensive experiments that demonstrate the effectiveness and efficiency of the proposed method.
+
+Meta-reviewer: And what about the weaknesses?
+
+Dialogue Agent: Review 1 mentions two weaknesses; first, the claim that the tubelet tokens are aligned with semantic instances is not validated by the experiments, and second, some technical details could be clarified, such as the handling of temporally-varying spatial distances and the biases introduced by the nms-one-hot operation. Review 2 adds that the paper could benefit from better comparisons with related works, and that the manuscript needs careful revision. Review 3 provides more detailed comments on technical issues, experimental design and execution, and formatting errors and typos.
+
+Meta-reviewer: Thank you for reminding me. Based on these reviews and taking into account the paper type, I would say that the paper is technically solid and has moderate-to-high impact, but with some concerns regarding evaluation, related work, clarity, and format. However, I'm still undecided whether to accept or reject the paper. What do you think?
+
+Dialogue Agent: As a dialogue agent, I can't provide opinions or recommendations, but I can tell you that two reviews rate the paper as borderline accept, while one rates it as weak accept. The confidence levels vary between 3 and 4, which means that the reviewers are fairly confident in their assessment, but not absolutely certain. Ultimately, it's up to you to weigh the different factors and make a decision based on your editorial standards and expectations.

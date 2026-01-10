@@ -1,0 +1,43 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "CryptoGCN: Fast and Scalable Homomorphically Encrypted Graph Convolutional Network Inference":
+
+Turn 1:
+
+Meta-Reviewer: Hi there, I'm reviewing a paper titled "CryptoGCN: Fast and Scalable Homomorphically Encrypted Graph Convolutional Network Inference". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a privacy-preserving method for graph convolutional neural network (GCNN) inference using homomorphic encryption. The authors claim that their method is faster and more scalable than previous approaches.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the authors' contributions and how they differ from previous work?
+
+Dialogue Agent: Sure! The authors propose two key techniques to improve the efficiency of GCN inference: Adjacency Matrix-Aware (AMA) multiplication and activation pruning. These techniques are designed to reduce the computational overhead of homomorphic encryption and make GCN inference more scalable.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the AMA multiplication technique? How does it work?
+
+Dialogue Agent: Sure! The AMA technique takes advantage of the sparsity of the graph adjacency matrix to reduce the number of homomorphic operations required for matrix-matrix multiplication. The authors propose a customized data formatting scheme that allows for more efficient spatial convolution and exploits the graph structure to perform matrix-matrix multiplication.
+
+Turn 4:
+
+Meta-Reviewer: That sounds interesting. What about the activation pruning technique? How does it work?
+
+Dialogue Agent: Sure! The activation pruning technique is designed to reduce the number of homomorphic operations required for GCN inference by pruning away redundant activation functions. The authors propose a method to find the less-affecting activation functions and show that this technique can be applied to more general frameworks.
+
+Turn 5:
+
+Meta-Reviewer: I see. Can you tell me more about the authors' evaluation and comparison with previous work?
+
+Dialogue Agent: Sure! The authors evaluate their method on the NTU-XVIEW skeleton joint dataset and demonstrate lower latency compared to existing baseline methods. They also compare their method with previous work on privacy-preserving GCN inference and show that their method is more efficient and scalable.
+
+Turn 6:
+
+Meta-Reviewer: That sounds good. What about the authors' discussion of limitations and negative societal impact?
+
+Dialogue Agent: The authors do not discuss the limitations of their method or any negative societal impact. They focus primarily on the technical contributions of their work.
+
+Turn 7:
+
+Meta-Reviewer: I see. Based on the reviews, I think this paper is borderline accept. The authors make some important contributions to privacy-preserving GCN inference, but there are some presentation issues and the authors could have discussed the limitations and negative societal impact of their work.
+
+Dialogue Agent: Thank you for your feedback. I will pass it on to the authors.

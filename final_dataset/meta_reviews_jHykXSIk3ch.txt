@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have read through the reviews for the paper "A spherical analysis of Adam with Batch Normalization" and I would like to ask you some questions to help me make a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Hello, Meta-Reviewer. I will do my best to answer your questions based on the reviews and the information provided.
+
+Meta-Reviewer: Thank you. Review 1 seems to have some major concerns with the paper's impact and clarity. Can you provide me with more information on what the authors need to address?
+
+Dialogue Agent: Review 1 has major issues with the manuscript's technical definitions of the terms introduced in the work and the significance of the results. Specifically, the reviewer noted that the manuscript does not provide sufficient context to understand what the derived formulas change about our theoretical understanding of those methods or what they imply for applications. Furthermore, the reviewer is worried that the submission would have little impact. The manuscript needs major revisions to be of interest to the community.
+
+Meta-Reviewer: Understood. Review 2 seems to have concerns regarding the paper's claims, can you elaborate more on that?
+
+Dialogue Agent: Yes, Review 2 provides concerns with the paper's claims. Specifically, the reviewer noted that the projected dynamics to the unit sphere is not a closed dynamics with respect to u. Additionally, the effective learning rate is not easy to control, and the loss function of u is still highly non-convex and hard to study. Furthermore, the reviewer stated that the AdamG* considered in the paper does not use element-wise learning rate, and it is more like an SGD with a learning rate schedule. The connection between SGD with BN and AdamG* is also not analyzed.
+
+Meta-Reviewer: Finally, Review 3 seems to have some concerns regarding the paper's analysis and contributions. What can you tell me about it?
+
+Dialogue Agent: Review 3 provides concerns with the paper's analysis and contributions. Specifically, the reviewer noted that the analysis still needs to be more thorough and intuitive for the effective learning rate derived in Eq. 13. Additionally, the connection between SGD with BN and AdamG* needs to be analyzed further. The reviewer thinks that the contributions in this work are slightly below the acceptance bar of ICLR.
+
+Meta-Reviewer: Thank you, Dialogue Agent. Based on the reviews, I think the manuscript needs major revisions before it can be accepted. While there are some concerns with the paper's claims, the key issues seem to be with the paper's technical definitions and the significance of the results. Therefore, I am rating this paper as a 5, which is marginally below the acceptance threshold. My confidence in this evaluation is 4, which means that I am confident but not absolutely certain that the evaluation is correct.

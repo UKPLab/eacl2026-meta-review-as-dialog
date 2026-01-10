@@ -1,0 +1,19 @@
+Meta-reviewer: Good morning, dialogue agent. I have reviewed the paper titled "Perturbation Learning Based Anomaly Detection" and have a few questions regarding the reviews. Can you tell me more about the strengths and weaknesses mentioned in each of the reviews?
+
+Dialogue agent: Good morning. Of course, I'd be happy to. Review 1 praised the paper's timely and important topic of perturbation-based learning for anomaly detection, as well as the experimentation with many baselines and open datasets. The weaknesses mentioned include a lack of technical novelty and depth and the use of experiments from other papers "as is." 
+
+Review 2 also gave the paper high praise, noting that the presentation was clear and that the methodology was well-explained. The comprehensive comparisons and discussions with related work was also seen as a strength, as were the good empirical evaluations on both tabular and image datasets. The weakness mentioned was regarding the structure of the paper, suggesting that it could be more compact.
+
+Finally, Review 3 focused on the original idea of using an adaptive perturbator to modify normal data for anomaly detection and achieving promising results. However, limitations were noted regarding only two types of perturbations and the inference of boundaries of the normal data distribution. Questions were also raised about the class of perturbed samples being able to capture samples that couldn't be obtained by a small perturbation of the normal data class. The paper wasn't tested on time-series anomaly detection, which was seen as a limitation.
+
+Meta-reviewer: Thank you for the summary. Based on these reviews, it seems that the paper is technically sound with no major concerns regarding evaluation, reproducibility, or ethics. However, there are some weaknesses in terms of technical novelty, paper structure, and limitations in the proposed approach. 
+
+Dialogue agent: That is correct. Additionally, Review 1 gave a borderline reject rating, while Reviews 2 and 3 gave weak accept and accept ratings, respectively.
+
+Meta-reviewer: Yes, I noticed that. Given these varying ratings, I'm curious about the confidence levels of the reviewers regarding their assessments.
+
+Dialogue agent: Review 1 had a confidence level of 4, meaning they were confident in their assessment but not absolutely certain. Reviews 2 and 3 both had a confidence level of 3 and 4, respectively, indicating a fairly high level of confidence but with some room for uncertainty or lack of understanding in certain areas.
+
+Meta-reviewer: I see. Overall, the strengths and weaknesses mentioned in the reviews, as well as the varying ratings and confidence levels, make it difficult for me to decide whether to accept or reject the paper. Can you provide me with any additional information or advice to help me make a decision?
+
+Dialogue agent: As a dialogue agent, it's not appropriate for me to provide opinions or recommendations regarding the paper. However, I can remind you that the paper's type is long, which may help weigh the importance of addressing the weaknesses mentioned by the reviewers. Ultimately, the decision to accept or reject the paper is up to you.

@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I'm the meta-reviewer assigned to review the paper titled "Phrase-Based Attentions". Can you provide me with a brief summary of the paper's contributions?
+
+Dialogue Agent: Sure, the paper proposes a method to incorporate contiguous n-grams of wordpieces, referred to as phrases, into both self-attention and encoder-decoder attention modules in the Transformer model. They use convolutions in conjunction with attention operations to achieve this. The paper reports empirical results that show an improvement of up to 1.3 BLEU points over the baseline Transformer model.
+
+Meta-reviewer: Thank you for the summary. One of the reviewers raised a concern that the phrasal attention model adds a significant number of parameters and the lack of a controlled experiment sheds substantial doubt on the efficacy of the model. What's your take on this?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation on whether the paper should be accepted or rejected. However, I can clarify that the paper acknowledges the issue of increased parameter count and notes that the proposed model could benefit from being integrated with other approaches to increasing model capacity. Additionally, the paper states that they performed thorough experiments and controls, which are detailed in the paper's appendix.
+
+Meta-reviewer: Understood. Review 2 raises a concern that the model is a very modest extension of the original Transformer model and so its value to the community beyond improved numbers is somewhat questionable. Is the paper's contribution significant enough to warrant acceptance?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation on whether the paper should be accepted or rejected. However, I can clarify that the paper's contribution of incorporating contiguous n-grams of wordpieces into the Transformer model and using convolutions in conjunction with attention operations to achieve this is novel. Additionally, the paper reports significant improvements over the baseline Transformer model.
+
+Meta-reviewer: Thank you for the clarification. One of the reviewers asked if the model tends to choose one particular n-gram type for a particular position, or will it select different n-gram types for the same position. Can you provide further clarification on this?
+
+Dialogue Agent: According to the paper, the selection of which n-gram to assign to how many heads is arbitrary, and the model can select different n-gram types for the same position. This inductive bias is considered a strength of the model as it provides an inductive bias towards modeling of longer phrases.
+
+Meta-reviewer: Thank you for the explanation. Another reviewer asked whether the phrase-based attention model helps more for shallow or deep encoders. Has the paper conducted experiments to address this?
+
+Dialogue Agent: The paper acknowledges the concern raised by the reviewer and states that a follow-up study could investigate whether the relative improvement from phrasal attention grows or shrinks as a function of the encoder's depth. However, the paper did not conduct experiments to address this concern.
+
+Meta-reviewer: Okay. Can you tell me more about the reviewer confidence ratings for the three reviews?
+
+Dialogue Agent: Review 1 has a confidence rating of 4, meaning the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 has a confidence rating of 5, meaning the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Review 3 also has a confidence rating of 5, indicating that the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature.
+
+Meta-reviewer: Thank you for the information. Lastly, can you tell me the type of the paper and its acceptance status?
+
+Dialogue Agent: The type of the paper is long, and it is currently below the acceptance threshold with a rating of 5.

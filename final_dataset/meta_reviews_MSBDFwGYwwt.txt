@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you provide me with a summary of the reviews for TANKBind?
+
+Dialogue agent: Certainly, Review 1 praised the paper for its novel methodology, well-written presentation, and achieving state-of-the-art performance. The reviewer saw no major weaknesses but had some minor questions. Review 2 was positive about the paper's technical soundness and its potential impact on the field. Review 3 acknowledged the novelty of the approach but raised concerns about the lack of clarity regarding the impact of P2rank and questioned the novelty of the approach compared to AlphaFold2.
+
+Meta-reviewer: Thank you. Based on these reviews, what is your recommendation?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations. However, Review 1 gave a rating of 7, indicating a technically solid paper with high impact. Review 2's rating was 5, meaning a borderline accept, and Review 3 also provided a rating of 5, indicating a technically solid paper with reasons to accept outweighing reasons to reject.
+
+Meta-reviewer: I see. I am concerned about Review 3's comments about P2rank and the novelty of the approach. Can you provide additional information?
+
+Dialogue agent: Review 3's concern about P2rank is valid, as it plays an essential role in the paper's methodology. Removing it would significantly reduce the model's performance, as shown in the ablation study. Additionally, while Review 3 questioned the novelty of the approach compared to AlphaFold2, it's important to note that TANKBind is the first algorithm that adopts geometric consistency to protein-small molecule binding.
+
+Meta-reviewer: Thank you for your responses. Given the reviews, I am inclined to accept the paper, but I would like to know how confident the reviewers were about their assessments.
+
+Dialogue agent: Reviewer 1 has a confidence rating of 3, indicating a fairly confident assessment but with a possibility of not fully understanding parts of the submission. Reviewers 2 and 3 have confidence ratings of 3 and 5, respectively, indicating fairly confident and absolutely certain assessments, with Reviewer 3 being very familiar with the related work and checking the math/other details carefully.
+
+Meta-reviewer: Thank you for providing me with this information. I have decided to accept the paper.

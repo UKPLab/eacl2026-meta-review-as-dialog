@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "What are the best Systems? New Perspectives on NLP Benchmarking":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "What are the best Systems? New Perspectives on NLP Benchmarking". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for ranking NLP systems based on their performance across multiple tasks. The authors argue that the naive method of averaging task scores can be biased if the scores have different ranges. Instead, they advocate ranking in order of summed per-task ranks using Borda's count procedure.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper addresses an important problem and proposes a simple, well-motivated solution that performs well. It does a good job motivating the proposal and citing extensive relevant literature. Additionally, the paper carries out experiments on a broad range of task settings.
+
+Turn 3:
+
+Meta-Reviewer: Okay, what about the weaknesses of the paper?
+
+Dialogue Agent: The paper is a bit thin on substance, and some more space might have been devoted to analysis of the results to provide more evidence that the new rankings are better. Additionally, the paper does not address the issue of ties and does not provide confidence intervals on the scores, which are missing from the paper.
+
+Turn 4:
+
+Meta-Reviewer: Based on the reviews, I'm leaning towards rejecting the paper. However, I'm not sure if the weaknesses outweigh the strengths. What do you think?
+
+Dialogue Agent: Based on the reviews, the paper has both strengths and weaknesses. The proposed method addresses an important problem and performs well, but the paper could benefit from more substance and analysis of the results. Additionally, the paper does not address the issue of ties and does not provide confidence intervals on the scores, which are missing from the paper. Overall, the decision to accept or reject the paper should be based on the reviewer's confidence in the paper's contributions and the potential impact of the paper on the field.

@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I've reviewed the three reviews for the paper titled "IMED-RL: Regret optimal learning of ergodic Markov decision processes". Can you confirm the type of the paper?
+
+Dialogue agent: Yes, the type of the paper is long.
+
+Meta-reviewer: Great, thank you. Can you give me an overview of the reviews?
+
+Dialogue agent: Reviews 1 and 2 both rate the paper as a weak accept, with a rating of 6, and highlight the strengths and weaknesses of the paper. Review 1 notes that the paper is clearly written, and the proposed algorithm has strong theoretical guarantee and competitive empirical performance. However, the contribution of this paper is not clear at first glance compared to existing works, and many important details are hidden in the appendix. Review 2 describes the paper's proposed index policy IMED-RL, which is new for RL and different from commonly used optimism-based algorithms, with regret bounds provided for ergodic MDPs, which match the lower bound for ergodic RL problems. However, the provided justification for focusing on ergodic MDPs is not typical, and the ergodic assumption is very strong. Review 3 rates the paper as an accept with a rating of 7 and states that the paper is technically solid with high impact on at least one sub-area or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the originality is limited, and limitations should be discussed more.
+
+Meta-reviewer: Thank you for the overview. Can you provide me with the confidence scores for the reviews?
+
+Dialogue agent: Review 1 has a confidence score of 3, indicating that they are fairly confident in their assessment but that it is possible they did not understand some parts of the submission or are unfamiliar with some pieces of related work. Review 2 has a confidence score of 4, indicating that they are confident in their assessment, but not absolutely certain and that it is unlikely but not impossible that they did not understand some parts of the submission or are unfamiliar with some pieces of related work. Review 3 has a confidence score of 3, indicating that they are fairly confident in their assessment, but that it is possible they did not understand some parts of the submission or are unfamiliar with some pieces of related work.
+
+Meta-reviewer: Thank you. Based on the reviews, I am leaning towards accepting the paper. However, I am concerned about the confidence scores of the reviews. How much weight should I give to the reviewers' opinions when their confidence scores are not high?
+
+Dialogue agent: The confidence scores reflect the level of certainty the reviewer has in their assessment and should be considered when evaluating the reviews. However, they should not be the only factor considered. The strengths and weaknesses highlighted by the reviewers, the paper's originality and impact, as well as its contribution to the field should also be taken into account when making a decision.
+
+Meta-reviewer: That makes sense. Thank you for your help. Based on the overall feedback provided by the reviewers, I have decided to accept the paper.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Paleo: A Performance Model for Deep Neural Networks":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Paleo: A Performance Model for Deep Neural Networks". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors propose a simple model of execution of deep neural networks, which allows to predict the computation time for image recognition networks in single-machine and distributed settings. The model is based on a few key parameters, such as the number of workers, bandwidth, platform, and parallelization strategy. The authors show that even a simple model can accurately predict the running time of the network.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper, in your opinion?
+
+Dialogue Agent: The authors include many freedoms in the variables while calculating the run-time of a network, such as the number of workers, bandwidth, platform, and parallelization strategy. Their results are consistent with the reported results from literature. Additionally, the code is open-source and the live demo is looking good.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the limitations of the paper?
+
+Dialogue Agent: The authors only test their model on a few networks of very similar type (AlexNet, Inception, NiN) and only in a few settings. Much broader experiments, including a variety of models (RNNs, fully connected, adversarial, etc.) in a variety of settings (different batch sizes, layer sizes, node placement on devices, etc.) would probably reveal weaknesses of the proposed very simplified model.
+
+Turn 4:
+
+Meta-reviewer: I see. Based on the reviews, I'm considering the paper borderline - it's a first step, but a very basic one and without sufficiently large experimental underpinning. What is your assessment of the paper?
+
+Dialogue Agent: The reviewers have mixed opinions about the paper. Reviewer 1 considers the paper borderline due to the limited scope of experiments, while Reviewer 2 and Reviewer 3 have more positive views. Reviewer 2 rates the paper as 7: Good paper, accept, while Reviewer 3 rates it as 6: Marginally above acceptance threshold.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. Based on the reviews and your summary, I will consider the paper borderline and weigh the importance of reviewer confidence.
+
+Dialogue Agent: You're welcome. Please let me know if you need further assistance.

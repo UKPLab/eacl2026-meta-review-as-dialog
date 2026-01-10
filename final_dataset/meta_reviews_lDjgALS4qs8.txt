@@ -1,0 +1,27 @@
+Meta-Reviewer: Hello, dialogue agent. I have read all three reviews for the paper "To Understand Representation of Layer-aware Sequence Encoders as Multi-order-graph" and I am now ready to make a decision. Can you provide me with some more information about the paper?
+
+Dialogue Agent: Of course, meta-reviewer. This paper proposes a new multigraph architecture called Multi-Order-Graph (MoG) to explain the representation generation process in neural sequence encoders. The MoG introduces n-order dependency, which can model not only relationships between words but also high order relationships such as syntax and semantics between subgraphs. Taking inspiration from MoG explanation, a self-attention powered Graph Transformer is proposed, which beats the Transformer baselines on the neural machine translation (NMT) tasks. 
+
+Meta-Reviewer: What kind of paper is this?
+
+Dialogue Agent: This is a long paper.
+
+Meta-Reviewer: Can you summarize the main pros and cons based on the reviews?
+
+Dialogue Agent: Sure, the main pros of the paper are that the proposed idea of representing the encoding process as generation of a Multi-Order-Graph is novel and is able to provide good insights for SAN-based models. The proposed Graph Transformer uses self-attention and attends over different orders of subgraphs is also a significant contribution. However, one of the main concerns about the paper is the lack of rigorous experimentation to study the usefulness of the proposed method. Only two datasets are used for the NMT task, and there are no comparison with models like Transformer(big) and other datasets. Another concern is the lack of clear statements about the "unified explanation," model transparency, model generalization across other tasks, and the significance of some model's behaviours in the experiments.
+
+Meta-Reviewer: Thank you for the summary. How confident are you about the evaluations?
+
+Dialogue Agent: Reviewer two and three both have given the paper a rating of 6, which is marginally above acceptance. Reviewer one has also a rating of 6 with a low confidence of 3.
+
+Meta-Reviewer: Thank you. Considering the concerns raised by the reviewers, I am inclined to reject the paper. However, given that two reviewers have rated the paper above acceptance threshold, I would like to hear your opinion on this matter.
+
+Dialogue Agent: As the dialogue agent, I am not able to provide any opinions or recommendations on this matter. However, I can provide you with additional information that can help with the decision-making process. 
+
+Meta-Reviewer: Okay, can you tell me how confident the reviewers were in their evaluations?
+
+Dialogue Agent: Reviewer two and three both have confidence levels of 3 and 4, respectively. Reviewer one has a low confidence level of 3.
+
+Meta-Reviewer: Thank you for the information. I think it's best to reject the paper due to the lack of rigorous experimentation. 
+
+Dialogue Agent: Understood, meta-reviewer. I will notify the authors of the decision.

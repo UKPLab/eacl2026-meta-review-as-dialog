@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Why Robust Generalization in Deep Learning is Difficult: Perspective of Expressive Power":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Why Robust Generalization in Deep Learning is Difficult: Perspective of Expressive Power". Can you help me understand the main findings of the paper?
+
+Dialogue Agent: Sure! The paper presents lower and upper bounds for the number of parameters needed in a ReLU neural network to learn a robust classifier on well-separated data. The analysis considers robust training and testing error, as well as general and linear separability, and intrinsic low-dimensional structural assumption in terms of the structure of the dataset.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I'm not sure if the bounds presented in the paper are tight. Can you tell me more about the confidence of the results?
+
+Dialogue Agent: The paper provides interesting insights into the required level of overparameterization both for achieving low robust training and test error. However, the results are not empirically verified, and the authors acknowledge that the bounds may not be tight.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the scope of the paper? Does it only apply to ReLU neural networks, or can the results be extended to other network families?
+
+Dialogue Agent: The paper only studies FFNs with ReLu activations, and their results hold true for those families. However, the authors acknowledge that the results may not hold true for other network families, and they suggest that some other network families may have stronger ability.
+
+Turn 4:
+
+Meta-Reviewer: Okay, I think I have a good understanding of the paper now. Based on the reviews, I would rate it as a 6: Weak Accept. The paper provides novel insights into the hardness of training robust models, and the lower bounds on the network size seem to be novel. However, the scope of the paper is unclear, and the results may not be tight. Additionally, the proof of the main theorems seems to borrow some ideas or results from Shen et al. (2022) without proper citation.
+
+Dialogue Agent: Thank you for your feedback, Meta-Reviewer. Based on the reviews, the paper seems to have a high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the results may not be empirically verified, and the authors should indicate this point clearly from the beginning. Additionally, the proof of the main theorems seems to borrow some ideas or results from Shen et al. (2022) without proper citation.

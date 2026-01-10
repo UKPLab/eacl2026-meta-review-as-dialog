@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have reviewed the reviews for the paper "Surprise-Guided Search for Learning Task Specifications From Demonstrations" and I am interested in discussing it further with you.
+
+Dialogue agent: Hello, I am happy to answer any questions you may have.
+
+Meta-reviewer: Can you explain to me the main contribution of the paper?
+
+Dialogue agent: The main contribution of the paper is the Demonstration Informed Specification Search (DISS) algorithm for learning formal task specifications from expert demonstrations. The algorithm constructs a structured search space over labeled examples and tasks, and uses a knowledge-injected hill-climbing algorithm to uncover the task that best "explains" the demonstrations. The key algorithmic contribution in DISS is the "surprise-guided sampler" which constructs labeled examples.
+
+Meta-reviewer: Would you say that the experiments in the paper adequately support its claims?
+
+Dialogue agent: While the experiments in the paper show that DISS outperforms two baselines in a gridworld domain, I understand that there have been concerns raised about the limited nature of the experiments and the lack of analysis into the correctness of the learned DFAs. However, the authors have addressed many of these concerns in their responses to the reviews.
+
+Meta-reviewer: It seems that one of the reviewers suggests that the paper is hard to read and lacks clarity. Can you comment on this?
+
+Dialogue agent: Yes, the paper does use a lot of new notation and interchangeable terminology, which can make it challenging to understand. However, the authors have been receptive to this feedback and have addressed some of the concerns raised in their responses. Additionally, it is worth noting that the paper assumes some familiarity with related work in the area.
+
+Meta-reviewer: Finally, what do you think about the reviewer who suggests that the paper is too symbolic and not relevant to the NeurIPS community?
+
+Dialogue agent: While the paper does use symbolic representations, it is focused on a problem that is of interest to the community - learning formal representations of goals directly from expert trajectories without reward functions. Additionally, the DISS algorithm and the surprise-guided sampler have the potential to be applied to other domains beyond the gridworld environment used in the experiments.

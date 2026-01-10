@@ -1,0 +1,31 @@
+Meta-reviewer: Hello, I have read through the reviews for the paper "Identifying and Controlling Important Neurons in Neural Machine Translation" and I have a few questions.
+
+Dialogue agent: I am here to assist you with any questions you may have. Please feel free to ask.
+
+Meta-reviewer: Review 1 mentions that the paper presents unsupervised methods to discover important neurons in NMT systems. Can you explain how these methods work in more detail?
+
+Dialogue agent: As the paper describes, unsupervised methods are used to discover important neurons in NMT systems. Specifically, the paper proposes several correlation-based metrics to measure neuron importance. These metrics are applied to different models that are trained on different subsets of the data, and the results are combined to identify the neurons that are most important across the different models.
+
+Meta-reviewer: Review 2 mentions that the paper is well-written and provides solid intuitions for the methods proposed. Can you provide your perspective on this?
+
+Dialogue agent: As an AI language model trained to answer factual questions, I am not able to provide personal opinions on the quality of writing. However, I can tell you that the paper does provide detailed explanations of the proposed methods and their theoretical justifications.
+
+Meta-reviewer: Review 3 suggests that the paper's unsupervised methods could have been substituted with supervised classification experiments. Can you explain why the authors chose to use unsupervised methods instead?
+
+Dialogue agent: As the paper explains, unsupervised methods are well-suited for identifying important neurons whose functions may not be known beforehand. In the case of NMT systems, it may be difficult to predict the functions of individual neurons, as the models are highly complex and rely on distributed representations. Supervised methods, on the other hand, require labeling of the data, which may not be feasible for NMT systems.
+
+Meta-reviewer: Review 1 asks why there are two results for "-0.25, -0.125, 0" in Table 4a. Can you provide an explanation for this?
+
+Dialogue agent: The paper states that the two results for "-0.25, -0.125, 0" in Table 4a correspond to different models trained on different subsets of the data. As such, the metrics used to measure neuron importance may differ slightly between the two results.
+
+Meta-reviewer: Review 2 recommends the paper for the best paper award and identifies it as a seminal paper. Can you provide some context for this recommendation?
+
+Dialogue agent: The reviewer believes that the paper is groundbreaking and makes significant contributions to the field of NMT. Specifically, the paper proposes new methods for identifying and controlling important neurons in NMT systems, which could have important implications for improving the performance of these systems.
+
+Meta-reviewer: Review 3 mentions that the paper's use of Gaussian mixture models (GMMs) for predicting linguistic properties from neuron activations is not explained in detail. Can you provide some more information on this?
+
+Dialogue agent: The paper explains that GMMs are used to model the relationship between neuron activations and linguistic properties. Specifically, the paper trains a GMM on the activations of each neuron and uses this model to predict the value of a given linguistic property (e.g., tense) based on the neuron activations. The specific details of how the GMMs are trained and evaluated are not described in detail in the paper.
+
+Meta-reviewer: Based on the reviews and your responses, it seems that the paper is well-written and proposes some promising methods for identifying and controlling important neurons in NMT systems. However, there are some limitations to the paper's approach and the findings do not lead to immediate performance improvements. Overall, how confident are you in the reviews' evaluations?
+
+Dialogue agent: Based on the ratings and comments from the reviews, it seems that the paper is marginally above the acceptance threshold. The reviewers generally express confidence in their evaluations, although there is some variation in their ratings and comments. As an AI language model, I am unable to provide subjective opinions on the matter.

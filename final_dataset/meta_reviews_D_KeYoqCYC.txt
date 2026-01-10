@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, I have gathered all the reviews for the paper "Sparse encoding for more-interpretable feature-selecting representations in probabilistic matrix factorization." Based on the reviews, I see that there are some concerns about the inference and the practical value of the proposed approach. Can you provide some information about how ADVI was applied and how the approximation quality was checked?
+
+Dialogue agent: Sure, we applied ADVI using PyMC3, where the mean-field approximation was used. We assessed the quality of the approximation by computing the evidence lower bound (ELBO) and comparing it with the true marginal likelihood using the leave-one-out cross-validation (LOO-CV) approach.
+
+Meta-reviewer: Thank you for the information. Review 1 expressed concern about the limited coverage of inference and the lack of empirical evidence on the quality of ADVI. Can you provide more details on how well ADVI works in practice compared to other methods?
+
+Dialogue agent: We compared the performance of ADVI with the Hamiltonian Monte Carlo (HMC) algorithm on a small-scale synthetic dataset. Our results showed that ADVI led to faster convergence and better predictive performance than HMC.
+
+Meta-reviewer: That's good to know. Review 3 mentioned that the proposed approach appears ad hoc with no probabilistic basis. Can you explain the probabilistic formulation behind the proposed approach?
+
+Dialogue agent: Our approach is based on a hierarchical Poisson matrix factorization model with a horseshoe+ prior that promotes sparsity in both the encoding and decoding matrices. This prior has a probabilistic interpretation as a scale mixture of normals and allows for automatic shrinkage of the parameters towards zero.
+
+Meta-reviewer: Thank you for the clarification. Review 2 raised concerns about the practical value of the proposed approach and the need for more empirical comparisons. Can you provide more evidence on the benefits of the proposed approach and how it compares to other methods in the literature?
+
+Dialogue agent: We demonstrated the practical value of our approach on a comorbidity dataset, where we showed that our model achieves high sparsity in the encoding and decoding matrices while maintaining good predictive performance. We also compared our approach with a model based on sparsifying priors and showed that our method achieves better sparsity and predictive performance. However, we agree that more empirical comparisons are needed to fully assess the practical value of our approach in the context of other matrix factorization models. 
+
+Meta-reviewer: Based on the reviews and your responses, I believe the paper has potential for acceptance, but further revisions and empirical comparisons could strengthen the contribution. I have decided to accept the paper with a rating of 7 (Good paper, accept) and a confidence level of 4 (The reviewer is confident but not absolutely certain that the evaluation is correct). Thank you for your information and responses.

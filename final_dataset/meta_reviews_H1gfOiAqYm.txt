@@ -1,0 +1,41 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Execution-Guided Neural Program Synthesis":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Execution-Guided Neural Program Synthesis" and I have some questions. Can you help me?
+
+Dialogue Agent: Of course! I'll do my best to assist you. What would you like to know?
+
+Meta-Reviewer: Well, first of all, can you tell me a bit about the paper and its main contributions?
+
+Turn 2:
+
+Dialogue Agent: Sure! The paper "Execution-Guided Neural Program Synthesis" introduces two novel techniques for guiding neural program synthesis with information from partial/incomplete program execution. The first technique uses execution-based semantic information to guide the decoding process, while the second technique ensembles multiple synthesizers to achieve better performance. The paper also presents an elegant approach to handle conditionals and loops by building up custom decoding algorithms for partially synthesizing the conditionals and then synthesizing appropriate statement bodies.
+
+Meta-Reviewer: That sounds interesting! Can you tell me more about the evaluation of these techniques?
+
+Turn 3:
+
+Dialogue Agent: Certainly! The paper evaluates the proposed techniques on the challenging Karel synthesis domain and achieves a significant improvement of over 13% compared to the state-of-the-art. The evaluation shows that the use of execution-based semantic information and ensembling can lead to practical gains.
+
+Meta-Reviewer: Great! I'm particularly interested in the use of execution-based semantic information. Can you tell me more about how this technique works?
+
+Turn 4:
+
+Dialogue Agent: Sure! The technique uses the intermediate states of a partial program to guide the decoding process. By executing partial programs, synthesizers can obtain information about the state the partial program ended in and use that information to condition the next step. This allows the synthesizer to generate more accurate and efficient programs.
+
+Meta-Reviewer: That makes sense. Can you tell me more about the ensembling technique and how it relates to the execution-based semantic information?
+
+Turn 5:
+
+Dialogue Agent: Certainly! The ensembling technique is used to train multiple synthesizers and then select a program based on a majority vote or shortest length criterion. The ensembling technique is novel and has not been used much in synthesis approaches. The evaluation shows that the use of ensembling can lead to better performance and more diverse synthesized programs.
+
+Meta-Reviewer: I see. I have a few minor questions about the paper, but overall I think it's well-written and the ideas are interesting. Can you tell me more about the changes to the beam search and how the synthesizers are trained?
+
+Turn 6:
+
+Dialogue Agent: Sure! The paper uses a modified beam search algorithm that takes into account the execution-based semantic information. The synthesizers are still trained on original input-output examples like Bunel et al. 2018, but the paper also proposes using an ensembling approach to train multiple synthesizers and then select a program based on a majority vote or shortest length criterion.
+
+Meta-Reviewer: That's helpful to know. Overall, I think the paper is well-written and the ideas are interesting. I'll give it a rating of 7: Good paper, accept, and a confidence of 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Thank you for your help!
+
+Dialogue Agent: You're welcome! It was my pleasure to assist you. If you have any other questions, feel free to ask!

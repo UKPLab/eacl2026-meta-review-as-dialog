@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, can you tell me about the paper's contributions?
+
+Dialogue Agent: The paper proposes several improvements to cryptonet, particularly on low latency privacy preserving inference. The contributions include better implementation to improve speed and throughput, a modified architecture (LoLa) to reduce latency, and using features from a deep network rather than raw input.
+
+Meta-Reviewer: I see. Reviewer 1 mentioned that the better implementation with modern libraries and more efficient parallelism has limited academic novelty. Can you comment on that?
+
+Dialogue Agent: As an AI language model, I cannot provide opinions or recommendations. However, I can say that each contribution has its own merit, and the significance of each contribution depends on the perspective of the reader.
+
+Meta-Reviewer: How about the modified architecture (LoLa)? Reviewer 1 mentioned that it seems interesting but is poorly explained. What can you tell me about it?
+
+Dialogue Agent: LoLa is a low latency neural network architecture that operates on encrypted data. It is designed to improve the latency of homomorphic encryption-based neural network inference. The authors proposed a flexible data representation scheme that allows users to represent the data in a way that suits their needs. They also investigated the use of a convolutional layer instead of a dense layer as the input layer to improve the performance of the network. However, Reviewer 3 also mentioned that the improvements in LoLa-Conv appear to be simply due to the use of a conv versus dense layer as input.
+
+Meta-Reviewer: Reviewer 1 also pointed out some writing issues such as lack of self-containment and undefined notations. Have the authors addressed these concerns?
+
+Dialogue Agent: Yes, according to Reviewer 1's rebuttals, the writing of the introduction has been greatly improved, and the authors have suggested a practical scenario of using high-level features. However, the presentation of LoLa can still be improved. Reviewer 3 also suggested a modular and diagrammatic presentation of the central contribution to aid understanding.
+
+Meta-Reviewer: I see. Reviewer 2 mentioned that the paper proposes a low latency data representation/network architecture to operate on encrypted data and it has a brief review of HE. Is that correct?
+
+Dialogue Agent: Yes, that is correct.
+
+Meta-Reviewer: Finally, can you tell me about the ratings and confidence levels of the reviewers?
+
+Dialogue Agent: Reviewer 1 gave a rating of marginally below acceptance threshold and a confidence level of 3. Reviewer 2 gave a rating of marginally above acceptance threshold and a confidence level of 2. Reviewer 3 gave a rating of marginally below acceptance threshold and a confidence level of 4.

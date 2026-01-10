@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Active Tuning":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Active Tuning" and I would like to ask some questions about it.
+
+Dialogue Agent: Hello! I'm here to help you with any questions you may have about the paper. Please go ahead and ask your questions.
+
+Turn 2:
+
+Meta-Reviewer: Okay, first of all, can you tell me a little bit about the paper and what it's about?
+
+Dialogue Agent: Sure! The paper "Active Tuning" introduces a new method for adapting an autoregressive model to noisy signals. The proposed approach is called Active Tuning and it uses updates to the hidden state of the past observation to generate noise-free data output.
+
+Turn 3:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the reviews of the paper?
+
+Dialogue Agent: Sure! The paper has received three reviews. Review 1 states that the paper is well-written and the idea is novel, but the reviewer is not convinced on the extent of comparisons in the simulation results. Review 2 states that the paper is well-written and the idea is interesting, but the lack of comparisons with other approaches and theoretical justification of why this approach is superior makes it hard to convince the reader. Review 3 states that the paper is well-written and the proposed method is effective, but the reviewer would like to see the active tuning algorithm itself and some optimizations for the tuning length and tuning cycles.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on what you've told me, it seems like the reviewers have mixed opinions on the paper. Can you give me your opinion on the paper's acceptance?
+
+Dialogue Agent: Based on the reviews, it seems like the paper has some strengths and weaknesses. While the idea is novel and the proposed approach is effective, the lack of comparisons with other approaches and the unclear optimization of the tuning length and tuning cycles may be a concern for some reviewers. However, the paper has also received positive reviews and has the potential to outperform meta-learning and sequence-to-sequence models on the task of model adaptation to noisy samples. Overall, I would say that the paper is marginally below the acceptance threshold.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. Based on the reviews and your summary, I think I have a good understanding of the paper's strengths and weaknesses. I will use this information to make my final decision on the paper's acceptance.
+
+Dialogue Agent: You're welcome! Please let me know if you have any other questions or if there's anything else I can help you with.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you tell me about the strengths and weaknesses of the paper "A Multi-Resolution Framework for U-Nets with Applications to Hierarchical VAEs"?
+
+Dialogue agent: Sure. The paper proposes a multi-resolution framework for U-net architecture and provides insights into the architecture's regularization effect. It also proposes weight sharing of HVAE, which reduces the number of parameters. The authors analyze Hierarchical Gaussian VAE (HVAE) by applying the proposed framework to the model, explaining the instability of sampling in HVAE and helps reduce parameter redundancies. Theoretical results show the regularisation property of a U-Net with average pooling as implicitly learning a Haar wavelet representation of the data. Experimental results overall support the theory part.
+
+Meta-reviewer: That sounds good. What are the main weaknesses of the paper?
+
+Dialogue agent: Reviewer 2 raises concerns regarding the writing quality and clarity. They also question the multi-resolution framework because it uses heavy notations with less explanation, and they do not provide an introduction to practical UNet, which makes it difficult to link the UNet used in practice to the one discussed in this paper. Similarly, Reviewer 3 comments that the author only applies the framework to a single VAE model HVAEs, and the practical technique used to improve parameter efficiencies is just parameter sharing, which is well-studied. 
+
+Meta-reviewer: I see. What is the confidence level of the reviewers in their assessment?
+
+Dialogue agent: Reviewer 1 has rated the paper 8 out of 10 and suggested it be accepted without any negative societal impact observed. They seem confident in their assessment, with a confidence level of 3 out of 5. Reviewer 2 and 3 have rated the paper 5 and 7, respectively, with borderline accept and accept recommendations. However, they seem less confident in their assessment, with a confidence level of 2 out of 5. It is possible that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work. Math/other details were not carefully checked by the reviewers. 
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I am inclined to accept the paper. However, I am concerned about the confidence level of Reviewers 2 and 3. Can you provide any more information to better inform my decision?
+
+Dialogue agent: The confidence level of the reviewers may be lower due to concerns with the writing quality and clarity and lack of introduction regarding practical UNet. However, the paper's strengths include the proposed framework, which provides insights into U-net architecture's regularization effect and reduces parameter redundancies in HVAEs. The theoretical and experimental results are overall convincing and support the theory part. So, it is up to you to weigh the importance of reviewer confidence in making the final decision.

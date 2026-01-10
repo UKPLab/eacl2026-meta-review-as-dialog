@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you dialogue agent for joining me today. I have read through the three reviews for the paper "Offline Deep models calibration with bayesian neural networks" and I must say I am unsure about what action to take. Can you give me a summary of the paper and its contributions?
+
+Dialogue agent: Certainly, the paper investigates the use of Bayesian neural networks with amortized inference as a calibration method for deep neural networks. The paper compared the proposed approach with temperature scaling and showed superior results in terms of calibration error. The paper's primary contribution is evaluating the suitability of using Bayesian neural networks for post-calibration and providing insights into the comparison between the proposed method and temperature scaling.
+
+Meta-reviewer: Thank you. Review 1 seems to suggest that although the paper presents a straightforward idea, it lacks insights as to why it works. How does the paper address this?
+
+Dialogue agent: The paper acknowledges the limitations of Bayesian neural networks and highlights that the proposed approach may not address issues of model mis-specifications or due to the use of approximate inference. However, the paper does not offer any new insights as to why the proposed approach works better than other methods. Review 1 also recommends a detailed analysis or empirical study to explain some of these issues.
+
+Meta-reviewer: Okay. Review 3 also points out several issues with the paper, including several typos and grammar errors. How did the authors respond to these issues in the paper?
+
+Dialogue agent: The paper has no response to the issues raised in Review 3. However, it is worth noting that Review 3 also points out limitations in the paper's scope, methodology, and presentation, which might be more critical in this case.
+
+Meta-reviewer: I see. Finally, Review 2 indicates that the paper lacks clarity and muddled presentation, making it hard for readers to understand the proposed approach. What is your opinion on this?
+
+Dialogue agent: The paper indeed contains some imprecise statements and lacks clarity in some sections. Review 2 also suggests significant interest in improving calibration of deep models by stacking different architectures in such a way that the model is implicitly calibrated at training time, which the paper does not cover. The authors could consider some of these suggestions to improve the clarity and make the paper more comprehensive.
+
+Meta-reviewer: Thank you, dialogue agent, for summarizing the reviews. Based on these reviews, I must say I am conflicted about what to do. However, I note that the authors have achieved superior results compared to temperature scaling and provided some insights into the comparison with other post-calibration methods. Also, the confidence levels of the reviewers vary, but all tend to indicate some limitations of the paper. I will, therefore, ask for another expert opinion before making my final decision.

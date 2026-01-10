@@ -1,0 +1,19 @@
+Meta-reviewer: Hi there, I have reviewed the reviews for the paper "Do Boat and Ocean Suggest Beach? Dialogue Summarization with External Knowledge," and I have a few questions for you, the dialogue agent. Can you tell me a bit more about the proposed model and how it performs compared to the baselines?
+
+Dialogue Agent: Sure, the proposed Trans-KnowAttn model retrieves relevant concepts from ConceptNet and uses them to attend to the input dialogue in a neural sequence-to-sequence abstractive summarization system. In terms of performance, the paper reports small improvements over a range of baselines in automatic evaluation, CODC evaluation, and manual human evaluation.
+
+Meta-reviewer: I see. One of the reviewers mentioned that the improvements in CODC evaluation were only about 0.6% absolute and that the innovation in the model was limited. What are your thoughts on this?
+
+Dialogue Agent: While the improvements may seem small, we believe they are still significant given the difficulty of the CODC task. As for innovation, we agree that the specific way the Knowledge Attention Network retrieves concepts is closely tied to the CODC metrics defined in the paper. However, we believe that our approach is still a valuable contribution to the field.
+
+Meta-reviewer: Another reviewer expressed concerns about the CODC metrics and how they overly favor the Knowledge Attention Network. What are your thoughts on this?
+
+Dialogue Agent: We believe that the CODC metrics provide a reasonable evaluation framework for the task of dialogue summarization with external knowledge. However, we acknowledge that our approach is not the only possible solution, and we encourage future work to explore other evaluation metrics.
+
+Meta-reviewer: Thanks for clarifying that. One reviewer mentioned that the related work section could be improved. Can you tell me more about this?
+
+Dialogue Agent: We agree that the related work section could be more comprehensive. We will consider adding more related work in a revised version of the paper.
+
+Meta-reviewer: Great, thanks for the response. And how confident are you in the evaluation of the paper?
+
+Dialogue Agent: We are fairly confident in the evaluation, as we conducted thorough experiments and evaluations with a range of metrics. However, we acknowledge that there may be limitations to the evaluation, such as the lack of a human ceiling for the CODC task.

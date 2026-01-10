@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Rotation Plane Doubly Orthogonal Recurrent Neural Networks":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Rotation Plane Doubly Orthogonal Recurrent Neural Networks" and I have some questions about the paper. Can you help me?
+
+Dialogue Agent: Of course! I have access to the reviews and the paper's title. Please go ahead and ask your questions.
+
+Meta-Reviewer: Great! First, I would like to know if there is any reason to use the shared R instead of absorbing it into all the R_x?
+
+Dialogue Agent: Based on Review 1, the use of the shared R instead of absorbing it into all the R_x is not necessary and can be seen as an additional assumption. The reviewer notes that the idea of using matrices to represent input objects (and multiplication to update state) is often used in the embedding-knowledge-bases or embedding-logic literature, and in this case, absorbing R into R_x would be more straightforward.
+
+Meta-Reviewer: That makes sense. What about the expressiveness of the model? Can we compare the expressiveness of this model with the equivalent model without the orthogonal matrices?
+
+Dialogue Agent: Based on Review 2, the authors claim that the resulting model is still a universal approximator, but the reviewer notes that providing large enough hidden dimensions and number of layers is necessary for this. The reviewer also mentions that comparing the expressiveness of this model with the equivalent model without the orthogonal matrices would be an interesting direction for future work.
+
+Meta-Reviewer: I see. What about the experiments in the paper? Do they provide enough evidence for the paper's claims?
+
+Dialogue Agent: Based on Review 3, the reviewer notes that the experiments are a bit disappointing and that the number of distinct input/output sequences was in fact very small. The reviewer also mentions that the authors point out that the experiment section needs to be expanded, but as far as they can tell, the authors still haven't done so.
+
+Meta-Reviewer: Okay, I think I have enough information to make my decision. Thank you for your help!
+
+Dialogue Agent: You're welcome! If you have any other questions or need further assistance, please don't hesitate to ask.

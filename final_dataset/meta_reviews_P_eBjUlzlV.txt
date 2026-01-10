@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello dialogue agent, thank you for joining me today. I have reviewed the paper "On the Limitations of Stochastic Pre-processing Defenses" and I have some questions.
+
+Dialogue Agent: Of course, I am happy to help.
+
+Meta-Reviewer: Can you describe the main contributions of the paper and what makes them interesting?
+
+Dialogue Agent: The paper presents multiple contributions. Firstly, it shows that using Expectation over Transformations (EoT) is not always necessary to break randomized defenses, which is an interesting observation as previous work generally considers EoT to be necessary. Secondly, it provides a theoretical result that the robustness of randomized models can be at odds with their utility (accuracy) in certain settings. Finally, the paper supports the theoretical results with empirical evaluations on two types of defenses, BaRT and randomized smoothing.
+
+Meta-Reviewer: That is very helpful. How would you rate the strengths and weaknesses of the paper?
+
+Dialogue Agent: Reviewer 1 rated the paper with a score of 6 and pointed out that the paper is technically solid with moderate-to-high impact, but has a slightly limited contribution. They suggested that the paper could benefit from more discussion on future research and concrete settings where this defense works. Reviewer 2 rated the paper with a score of 7, pointing out that it is technically solid with high impact and that the evaluations are good-to-excellent. However, they suggested that the paper could benefit from evaluating a newer attempted adversarial defense and investigate where it would fall in the categorization of stochastic defenses proposed in this work. Reviewer 3 raised some concerns about the novelty of the findings, but after rebuttal, they tended to accept the paper with a rating of 6. They also suggested that an analysis of the created adversarial noises should be provided and that experiments on a smaller dataset would be insightful.
+
+Meta-Reviewer: Thank you for summarizing the reviews. How confident are you in the paper's acceptance?
+
+Dialogue Agent: Reviewers 1 and 3 have rated the paper with a weak accept and reviewer 2 with an accept. While there are some minor concerns and suggestions for improvement, the paper seems to be technically sound and have moderate-to-high impact in the field. I am confident, but not absolutely certain, in accepting this paper with a score of 6 and a confidence level of 4.

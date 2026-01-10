@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have reviewed the reviews for the paper "Towards Practical Second Order Optimization for Deep Learning". Can you provide me with more information on the paper's contributions and limitations?
+
+Dialogue Agent: Of course, Meta-Reviewer. The paper presents a practical second-order preconditioned method based on the Shampoo algorithm to improve wall-clock time compared to state-of-the-art first-order methods for training deep networks. The algorithmic improvements proposed include using only a left or right preconditioner for large layers, computing inverse pth roots via coupled Newton iteration algorithms, and distributing preconditioner computation across CPU cores in a CPU-GPU/TPU cluster, among others. 
+
+As for the limitations, some of the modifications are heuristic and lack explanation why they work. I can provide more information on each specific question if you would like. 
+
+Meta-Reviewer: Yes, please. How does the proposed preconditioner work, and why is it a good approximation for the full preconditioned matrix from Adagrad?
+
+Dialogue Agent: The proposed preconditioner is based on Lemma 1, which is an interesting theoretical result. However, it is still unclear why the proposed preconditioner is a good approximation in practice. It is possible that the regret bounds provided in the appendix only show that Shampoo with the proposed extensions converges but do not provide a guarantee that it outperforms the original Shampoo. The authors can clarify this question further if required.
+
+Meta-Reviewer: What about the delayed preconditioner computation? Why should it work in practice, and what elements of the method require significant tuning?
+
+Dialogue Agent: The idea behind delaying preconditioner computation is to compute it once every several steps, which appears to lead to faster convergence compared to computing it every step. However, it is not entirely clear why this works, and the authors do not provide a clear explanation. As for the elements that require tuning, the paper describes several parameters, including the number of steps between preconditioner computations, the number of Newton iterations, and the damping factor. The authors suggest tuning these parameters, but it is unclear how sensitive the algorithm is to these parameters or how to set them appropriately.
+
+Meta-Reviewer: I see. Can you comment on the practical relevance of the paper's contributions compared to first-order methods?
+
+Dialogue Agent: The proposed method consistently improves the number of steps required for convergence, but it does not necessarily lead to an improvement in wall-clock time even on ImageNet datasets. The paper suggests that their method is more useful on extremely large datasets and for organizations with access to resources that can handle such datasets. However, it is still unclear how the proposed method performs compared to first-order methods on these datasets or how hardware or software improvements can boost the performance of the proposed method over first-order methods.
+
+Meta-Reviewer: Thank you for your responses, Dialogue Agent. Based on these reviews, I am hesitant to accept the paper. Review 1 raises several concerns regarding minor issues such as font size and suggests that the proposed algorithm is only an incremental improvement over the Shampoo algorithm. Review 2 also raises some limitations, particularly regarding the practical relevance of the paper's contributions to first-order methods. However, Review 3 is more positive and notes that the paper tackles an important problem in second-order optimization in a more practical way. 
+
+Given these reviews, what is your recommendation?
+
+Dialogue Agent: As an impartial dialogue agent, I cannot provide any recommendations or opinions. However, I can provide you with an overview of the reviews and their ratings. Review 1 provides a rating of 6, which is marginally above the acceptance threshold, but the confidence level is only 3. Review 2 provides a rating of 7 and a confidence level of 4, indicating that the reviewer is in favor of acceptance but has some reservations. Review 3 also provides a rating of 7, but the confidence level is only 2, indicating that the reviewer is willing to defend the evaluation but may not have understood some parts of the paper. Ultimately, the decision is up to you, Meta-Reviewer.

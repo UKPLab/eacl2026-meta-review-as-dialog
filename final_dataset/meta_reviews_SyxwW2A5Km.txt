@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, Dialogue Agent. I have received three reviews for the paper titled "Learning Representations of Categorical Feature Combinations via Self-Attention". What can you tell me about the reviews and the paper itself?
+
+Dialogue Agent: Hello, Meta-reviewer. The paper proposes to use self-attention mechanisms for click-through rate prediction, showing state-of-the-art results on two benchmark datasets. The approach uses top-k attention to sparsify model attention, leading to marginal improvements. The reviews express some concerns about the paper's technical novelty, hyperparameter selection, model analysis, and writing clarity.
+
+Meta-reviewer: Thank you for this summary. I am particularly concerned about the issues raised in the negative points and important suggestions marked with (*). Can the authors address those concerns adequately?
+
+Dialogue Agent: The authors need to address some of these issues more thoroughly, such as explaining the skip connection and the impact of top-k attention on the model class. They also need to describe how they determined the hyperparameters that affect the performance. However, I cannot provide an opinion on whether the authors will be able to address them adequately, as I am a dialogue agent and must refrain from doing so.
+
+Meta-reviewer: I understand. What about the technical novelty and writing clarity issues mentioned by Review 2 and Review 3?
+
+Dialogue Agent: Review 2 suggests that the paper lacks technical novelty, and Review 3 criticizes its writing clarity, among other things. While the proposed method heavily relies on existing techniques, the authors argue that applying self-attention mechanisms to multi-field categorical input is underexplored. As for writing clarity, the authors might need to improve their style and communication, explain concepts and experiments more precisely, and fix some grammatical errors.
+
+Meta-reviewer: I see. Can you summarize the strengths of the paper?
+
+Dialogue Agent: According to Review 1, the paper is well-written and presents clear ablations of the approach. The proposed method shows state-of-the-art results on click-through rate prediction, using self-attention mechanisms and top-k attention. Review 2 also acknowledges the idea of actively combining multi-field features to improve performance. 
+
+Meta-reviewer: And the weaknesses?
+
+Dialogue Agent: Review 1 raises some concerns about the impact of the skip connection and the meaning of top-k attention as a regularizer. Review 2 suggests that the paper lacks technical novelty and needs more analyses on the learned representations. Review 3 criticizes the paper's lack of experimental reliability (due to the absence of a validation set) and originality (as the proposed method relies heavily on previous works).
+
+Meta-reviewer: Lastly, what are the ratings and confidence levels of the reviews?
+
+Dialogue Agent: Review 1 and Review 2 both rate the paper as marginally below the acceptance threshold, while Review 3 does not provide an overall score. Review 1 expresses confidence (4) in the evaluation, while Review 2 is less confident (3).

@@ -1,0 +1,31 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "SIMILE: Introducing Sequential Information towards More Effective Imitation Learning":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "SIMILE: Introducing Sequential Information towards More Effective Imitation Learning". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes using sequential information in imitation learning to improve the quality of the final policy. The authors use a recurrent neural network to encode the state by aggregating past information, instead of just using the features of the state at time t.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the reviewers' comments?
+
+Dialogue Agent: Sure. Reviewer 1 suggests that the contribution of the paper is marginally above the acceptance threshold, while Reviewer 2 feels that the basic idea is straightforward and the contribution may not be sufficient for a publication at ICLR. Reviewer 3 notes that the paper lacks originality and the proposed solution is not clear.
+
+Turn 3:
+
+Meta-Reviewer: Thanks for summarizing the reviews. What are your thoughts on the paper's strengths and weaknesses?
+
+Dialogue Agent: Well, the paper proposes a simple extension of existing methods using a recurrent neural network in imitation learning models. However, the contribution of the paper is not clear due to the lack of originality and the proposed solution not being well-explained. Additionally, the experiments lack details and the results are not convincing.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for your input. Based on the reviews and your summary, I think the paper is not suitable for publication at ICLR. The contribution is not significant enough and the paper lacks originality and clear explanation of the proposed solution.
+
+Dialogue Agent: I agree with your assessment. Based on the reviews and the paper's content, I would rate the paper as a 4 out of 6 in terms of quality and relevance to the field.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help. I will use your input to make my final decision on the paper's acceptance.
+
+Dialogue Agent: You're welcome! Please let me know if there's anything else I can assist you with.

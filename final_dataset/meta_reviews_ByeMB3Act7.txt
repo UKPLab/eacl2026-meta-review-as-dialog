@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer assigned to assess the paper Learning to Screen for Fast Softmax Inference on Large Vocabulary Neural Networks. Can you provide me with a brief overview of the paper's reviews?
+
+Dialogue agent: Certainly. The paper received three reviews. Review 1 rated the paper a 7, indicating that it is a good paper and should be accepted. The reviewer expressed confidence level 4, which means they are confident but not absolutely certain that the evaluation is correct. Review 2 gave a rating of 6, which is marginally above the acceptance threshold. The reviewer expressed confidence level 3. Finally, Review 3 rated the paper an 8, which puts it in the top 50% of accepted papers and is a clear accept. The reviewer expressed confidence level 4.
+
+Meta-reviewer: Thank you. Can you tell me what the type of the paper is and what the main idea is?
+
+Dialogue agent: The type of the paper is long. The paper proposes a novel method for speeding up softmax computation at test time, which involves partitioning the large vocabulary set into clusters and selecting the cluster first, then doing a small scale exact softmax within the selected cluster. Training is done by utilizing the Gumbel softmax trick.
+
+Meta-reviewer: Interesting. Could you summarize the pros and cons mentioned in the reviews?
+
+Dialogue agent: Review 1 mentioned the pros of the paper, which include providing another way for the model to learn an adaptive clustering of vocabulary, strong experimental results in terms of precision, and a clear and easily understandable method. The cons mentioned include the desire to see how the model would perform if trained from scratch in NMT tasks, a marginally smaller performance margin in terms of perplexity, and the possibility that the model only fits the rank of predicted words and not their true probabilities.
+
+Review 2 thinks that it would be interesting to see more quantitative results about the speed-up of L2S over full softmax in relation to different vocabulary sizes. They also noted the need for more discussion on L2S's performance with larger vocabularies such as 80K or 100K and a lack of examples of the screening part. Review 3 mostly expressed pros of the paper, such as the brilliant idea, good techniques, and impressive experimental results. One con mentioned was the model not being end-to-end because clusters are not continuous.
+
+Meta-reviewer: Thank you for the summary. It seems that the reviews are divided on their acceptance of the paper. How confident are the reviewers in their evaluations?
+
+Dialogue agent: Reviewers 1 and 3 expressed a high level of confidence with a rating of 4, while Reviewer 2 expressed a lower level of confidence with a rating of 3.
+
+Meta-reviewer: I see. In this case, I think the fact that two reviewers have expressed high confidence in their evaluation of the paper is significant. However, I am still a bit concerned about the cons mentioned in the reviews. Can you tell me more about the author's response to these concerns?
+
+Dialogue agent: I'm sorry, but I cannot provide any opinion or recommendation as I am a dialogue agent and must refrain from offering any such information. However, I can tell you that the author has responded to some of the concerns raised in the reviews.
+
+Meta-reviewer: Thank you for your honesty. Taking into account the reviews and the confidence levels expressed by the reviewers, I think I will accept this paper. Thank you for your assistance.
+
+Dialogue agent: You're welcome. I am glad that I could assist you.

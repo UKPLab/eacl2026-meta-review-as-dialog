@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper titled "Adversarial and Natural Perturbations for General Robustness." Can you give me an overview of the paper's reviews?
+
+Dialogue agent: Of course. There are three reviews, and all of them have rated the paper as "Ok but not good enough - rejection." The reviewers have pointed out several weaknesses, such as poor clarity and presentation, undefined notations, hard-to-interpret figures, and lack of justification for the standardization technique proposed by the authors.
+
+Meta-reviewer: That doesn't sound good. Can you describe the main ideas of the paper and the type of paper it is?
+
+Dialogue agent: The paper is a long paper, and it studies the effect of robustification of models on the accuracy to seen and unseen perturbations. The authors propose a technique to standardize the robustification process across different perturbations. They evaluate their approach on several datasets, highlighting how standardization yields different insights compared to prior work. 
+
+Meta-reviewer: How did the reviews evaluate the paper's contributions?
+
+Dialogue agent: Review 1 pointed out that the paper's contributions are unclear and the experiments do not study the dependence on the standardization level. Review 2 mentioned that the paper's experiments don't fully support the claimed conclusion and the presentation is hard to follow at times. Review 3 stated that the experiments don't fully support the claimed conclusion, and the natural transformations under consideration are all quite similar.
+
+Meta-reviewer: That's unfortunate. Can you tell me the confidence levels of the reviews?
+
+Dialogue agent: Review 1 and Review 2 rated their confidence level as a 4, which means they are confident but not absolutely certain that their evaluation is correct. Review 3 rated their confidence level as a 5, which means they are absolutely certain that their evaluation is correct and they are very familiar with the relevant literature.

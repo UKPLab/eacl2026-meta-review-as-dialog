@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "ALISTA: Analytic Weights Are As Good As Learned Weights in LISTA":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "ALISTA: Analytic Weights Are As Good As Learned Weights in LISTA". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper "ALISTA: Analytic Weights Are As Good As Learned Weights in LISTA" presents a new approach to neural network-based sparse signal recovery, which is based on the LISTA (Learned Iterative Soft Thresholding Algorithm) model. The authors propose a two-stage decomposed pipeline, where the weight matrix in LISTA is pre-computed with a data-free coherence minimization, followed by a separate data-driven learning step for merely (a very small number of) step-size and threshold parameters.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the reviews of the paper?
+
+Dialogue Agent: Certainly! The reviews of the paper are generally positive, with one reviewer stating that the paper raises many important questions about unrolled iterative optimization algorithms and answers many questions for the case of iterative soft thresholding algorithm (ISTA) and learned variant LISTA. The reviewer also mentions that the results are extended to the convolutional-LISTA setting and that the paper presents an interesting new strategy called Robust ALISTA to overcome small perturbations on the encoding basis. Another reviewer states that the paper is well-written and easy to follow, but notes that there are some typos and suggests more proofreading.
+
+Turn 3:
+
+Meta-Reviewer: That's good to know. Can you tell me more about the authors' contributions and the novelty of the paper?
+
+Dialogue Agent: Yes, the authors' contributions include deriving many new theoretical insights into the classical LISTA model and proposing an efficient approximated way to solve the problem. The paper also presents a new strategy called Robust ALISTA to overcome small perturbations on the encoding basis, which is not seen in previous works. Additionally, the paper provides a thorough analysis of the proposed method and demonstrates its effectiveness through experiments.
+
+Turn 4:
+
+Meta-Reviewer: I see. Can you tell me more about the proof of the theorems presented in the paper?
+
+Dialogue Agent: Sure! The paper presents several theorems, including a theorem on the provable efficient approximation of general convolution using circular convolution, which is novel and interesting. The proofs of the theorems are mathematically correct and well-explained in the paper. However, one reviewer notes that the proofs assume a noise-free case and suggests that the authors elaborate on which part of current theory/proof will fail in noisy case.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your summary, I would rate the paper as a 9 out of 10 and have a high confidence in the evaluation. The paper presents novel contributions, is well-written, and provides a thorough analysis of the proposed method. However, I would like to see more discussion on the effectiveness of the proposed method in noisy cases and more proofreading to ensure that the paper is error-free.
+
+Dialogue Agent: Thank you for your feedback! I will make sure to provide more information on the effectiveness of the proposed method in noisy cases and ensure that the paper is well-proofread before submission.

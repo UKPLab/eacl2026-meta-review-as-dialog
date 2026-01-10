@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today. I am reviewing a paper titled "A Kernelised Stein Statistic for Assessing Implicit Generative Models." Can you give me a brief summary of the paper's contributions?
+
+Dialogue agent: Certainly. The paper proposes a novel method called non-parametric kernelised Stein discrepancy (NP-KSD) to assess the quality of implicit generative models that cannot be directly evaluated using kernelised Stein discrepancy (KSD). NP-KSD relies on non-parametric Stein operators and resampling the conditional dimensions, and it uses score matching for gradient estimation. The paper shows that NP-KSD outperforms the standard maximum mean discrepancy (MMD) method on both synthetic and real datasets.
+
+Meta-reviewer: That sounds interesting. How would you rate the paper's overall technical quality and impact?
+
+Dialogue agent: Based on the reviews provided, Review 1 gave the paper a rating of 6: Weak Accept, while Review 2 gave it a rating of 7: Accept. Both reviews praised the paper's technical quality, but Review 2 questioned the paper's novelty and the thoroughness of its experimental evaluation. It's important to note that the paper is of long type and requires a good deal of technical expertise to understand and evaluate.
+
+Meta-reviewer: Thank you for that information. Are there any ethical considerations that need to be taken into account for this paper?
+
+Dialogue agent: None of the reviews mentioned any ethical considerations related to the paper.
+
+Meta-reviewer: Finally, given the reviews and your understanding of the paper, do you have any recommendations on whether to accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can say that both reviews rate the paper as technically solid and of moderate-to-high impact. The decision to accept or reject the paper ultimately rests with you, taking into account the available reviews and your own expertise and understanding of the paper.

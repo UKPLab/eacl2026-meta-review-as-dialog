@@ -1,0 +1,31 @@
+Meta-reviewer: Thank you for your reviews of the paper "Probabilistic Knowledge Graph Embeddings". Based on your feedback, I have some questions for the dialogue agent. 
+
+Dialogue agent: Sure, I'm here to help. What can I provide for you? 
+
+Meta-reviewer: Can you confirm the type of the paper? 
+
+Dialogue agent: Yes, the paper is a long paper. 
+
+Meta-reviewer: Okay, good to know. How confident are you in the evaluations of the reviews? 
+
+Dialogue agent: Review 2 has a confidence level of 3, which means the reviewer is fairly confident in their evaluation. Reviews 1 and 3 have a confidence level of 2 and 3, respectively, indicating that the reviewers have some level of confidence but may have some misunderstandings about certain parts of the paper. 
+
+Meta-reviewer: Thank you for that explanation. Can you tell me more about the proposed method? 
+
+Dialogue agent: Certainly. The authors present a probabilistic treatment of knowledge graph embeddings where the parameter uncertainty is modeled by diagonal Gaussians q_gamma. Variational EM is used to infer the variational parameters gamma as well as the per-entity/per-relation precision (lambda) hyperparameters. The training process has three phases, consisting of pretraining a MAP estimate, variational EM, and another MAP training phase using the updated hyperparameters. 
+
+Meta-reviewer: Can you address Review 1's concerns about the experimental setup? 
+
+Dialogue agent: Review 1 has some concerns about the experimental setup, particularly about hyperparameter optimization. They question the adequacy of some details and suggest investigating the claim that the improvement is most notable for entities with fewer training points. However, as a dialogue agent, I cannot provide opinions or recommendations regarding the paper's experiments. 
+
+Meta-reviewer: Understood. Moving on to Review 2, they ask why the ELBO is not used in Algorithm 1. Can you address that? 
+
+Dialogue agent: The ELBO is not used in Algorithm 1 because it is an intractable marginal likelihood over the data that cannot be directly optimized. Instead, the authors derive an approximate lower bound on the ELBO that can be optimized using stochastic VI. 
+
+Meta-reviewer: Thank you for clarifying. Can you address Review 3's concerns about the paper's arguments and experiments? 
+
+Dialogue agent: Review 3 raises concerns about the paper's argument for parameter uncertainty modeling and the lack of experimental analysis supporting that argument. They also highlight the need for further experiments on other knowledge base embedding methods, analyze the time complexity, and explore the performance of Algorithm 1 with multiple runs. As before, I cannot provide any opinions or recommendations regarding the validity of these concerns. 
+
+Meta-reviewer: Understood. Based on your responses and the reviews, I will make a decision regarding the paper's acceptance. Thank you for your help. 
+
+Dialogue agent: You're welcome. Let me know if you have any further questions or concerns.

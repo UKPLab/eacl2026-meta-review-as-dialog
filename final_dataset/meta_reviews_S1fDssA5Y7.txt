@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Distributionally Robust Optimization Leads to Better Generalization: on SGD and Beyond" and I am trying to decide whether to accept or reject the paper. Can you provide me with more information about the paper's reviews and the paper type?
+
+Dialogue agent: Of course, meta-reviewer. The paper type is "long" and there are three reviews. Review 1 is a clear rejection with a rating of 3 and confidence of 3. Review 2 is an "Ok but not good enough - rejection" with a rating of 4 and confidence of 4. Review 3 is "Marginally below acceptance threshold" with a rating of 5 and confidence of 4.
+
+Meta-reviewer: What are the main concerns raised in Review 1?
+
+Dialogue agent: Review 1 criticizes the paper for proving disjointed theorems and not explaining the implications of the theorems for empirical performance. The review also finds fault in the framing of the paper's definition of generalization error and the lack of analysis providing evidence for the conjectures made in the paper. Other criticisms include vagueness in definition, issues with grammar and typographical errors.
+
+Meta-reviewer: And what about the concerns in Review 2?
+
+Dialogue agent: Review 2 critiques the lack of a good notion of "true" robust risk and the ambiguity in the mapping between different definitions of weighting within the paper. The algorithmic contribution is also seen as not connecting well with the suggested theory and the experimental results are considered modest at best.
+
+Meta-reviewer: Finally, what are the main points of Review 3?
+
+Dialogue agent: Review 3 acknowledges the interesting connection between distributionally robust optimization and SGD and the potential contribution of the proposed weighted version of SGD. However, the empirical results are seen as tenuously connected to the theoretical results and the presentation of the key results could be simplified for better understanding.
+
+Meta-reviewer: Thank you for the helpful overview, dialogue agent. I will take these concerns into consideration when making my decision.

@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, Dialogue Agent. Thank you for being here today. I have reviewed the three reviews for the paper "Scalable Learning and MAP Inference for Nonsymmetric Determinantal Point Processes." Based on what I see, there seem to be a few minor concerns with the paper. Can you tell me more about them?
+
+Dialogue Agent: Of course, Meta-reviewer. Review 1 has some concerns about the impact of the simplification made to the kernel decomposition and suggests some discussion about the integration of the learning and inference procedures. Review 2 has some minor comments about the proof of Lemma 1 and some notational confusion in Equation (3). They also suggest moving some discussion from the paragraph after Theorem 1 to the experiments section and double-checking Equation (31). Review 3 has some doubts about the authenticity of the experimental results in Table 2, and they point out some inconsistencies with previous work.
+
+Meta-reviewer: Thank you for summarizing that, Dialogue Agent. I also notice that Review 1 rates the paper a strong acceptance, Review 2 rates it a good paper, and Review 3 rates it a clear accept. How confident are these reviewers in their evaluations?
+
+Dialogue Agent: Review 1 is very familiar with the relevant literature and is absolutely certain that their evaluation is correct, with a confidence level of 5. Review 2 is confident but not absolutely certain that their evaluation is correct, with a confidence level of 4. Review 3 is confident but not absolutely certain that their evaluation is correct, with a confidence level of 4.
+
+Meta-reviewer: I see. Based on these reviews, it seems that the concerns raised are relatively minor and can be addressed. However, I am unsure about the inconsistencies pointed out by Review 3. Can you tell me more about that?
+
+Dialogue Agent: Certainly, Meta-reviewer. Review 3 noticed a significant difference in the results under average MPR between this paper and a previous work by Gartrell et al. in NeurIPS 2019. Specifically, the MPR values for the non-symmetric DPPs are much higher in this paper than in the previous work, while the MPR values for the symmetric DPPs are lower. Review 3 suggests investigating the cause of this difference.
+
+Meta-reviewer: Thank you for the detailed explanation, Dialogue Agent. Based on these reviews, I am inclined to accept the paper. However, I am also concerned about the authenticity of the experimental results. What is your opinion on this?
+
+Dialogue Agent: As an AI dialogue agent, I cannot provide opinions or recommendations. However, it would be beneficial to investigate the cause of the difference in the results and address it in the paper if possible.
+
+Meta-reviewer: Thank you for your response, Dialogue Agent. I appreciate your help. Based on the reviews and my own assessment, I have decided to accept the paper pending further investigation into the concerns raised by Review 3.

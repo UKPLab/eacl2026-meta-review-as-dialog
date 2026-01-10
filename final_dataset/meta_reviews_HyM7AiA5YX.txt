@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the three reviews for the paper "Complement Objective Training". I have some questions and concerns. 
+
+Dialogue agent: Sure, I am happy to answer any questions you have. 
+
+Meta-reviewer: Firstly, I noticed that one of the reviewers had concerns about the convergence of the algorithm. Can you explain how the alternating optimization procedure used in COT ensures convergence? 
+
+Dialogue agent: While we do not have a theoretical guarantee that the procedure converges, we have observed that the algorithm converges in practice. In each optimization step, we fix one objective and optimize the other using a pre-specified optimizer. This approach is similar to multi-objective optimization methods that alternate between objectives, and these methods are known to converge in practice. 
+
+Meta-reviewer: That makes sense. Another reviewer asked about the computational cost of the additional optimization step. Can you clarify how much more time it takes to train a model using COT compared to a baseline method? 
+
+Dialogue agent: The additional optimization step does make each training iteration more costly. However, the increase in training time is not significant. In our experiments, COT training time was less than twice as long as that of the baseline methods. We will clarify this point in the paper. 
+
+Meta-reviewer: Good to know. Another question I have is about the relevance of the adversarial attacks section. One of the reviewers pointed out that this section may not be fair since the attacks only target part of the COT objective. Can you explain why this is the case and whether there is a way to adapt the attacks to the two objectives to illustrate the conjectured robustness of COT? 
+
+Dialogue agent: Yes, the adversarial attacks section may not be completely fair since the attacks only target the primary objective. However, it is still useful to compare the performance of COT with that of the baseline methods under adversarial attacks. We agree that it would be interesting to adapt the attacks to the two objectives to better illustrate the conjectured robustness of COT. We will consider this for future work. 
+
+Meta-reviewer: Ok, thank you for addressing my questions. Lastly, can you give me an overall recommendation for this paper based on the reviews and the confidence levels of the reviewers? 
+
+Dialogue agent: Based on the reviews and the confidence levels of the reviewers, I would recommend accepting this paper. Two of the reviewers recommended acceptance, with one recommending acceptance marginally below the acceptance threshold. The reviewers were generally positive about the paper, with one suggesting some additional experiments and another raising some theoretical concerns. However, their confidence levels were not absolute, so we should take their evaluations with some caution.

@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Confidence-based Reliable Learning under Dual Noises":
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper titled "Confidence-based Reliable Learning under Dual Noises". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a unified framework for dealing with joint image and label noise. It uses a confidence-based sample filter to distinguish noisy data from clean data, and a learning objective to estimate model uncertainty.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and easy to follow, and it addresses a very important problem of joint noise in input images and labels. The proposed method is also easy to implement and has good evaluation results.
+
+Turn 3:
+
+Meta-reviewer: Okay, what about the weaknesses?
+
+Dialogue Agent: The proposed method seems trivial and incremental, and the hyper-parameters used in the equation 6 and 7 are tuned by hand. The paper does not include a large-scale noisy dataset like ImageNet-C, which contains different types of noises.
+
+Turn 4:
+
+Meta-reviewer: I see. What about the potential societal impact of the paper?
+
+Dialogue Agent: The paper does not address any potential societal impact, and the discussed problem is highly realistic and would be very useful for learning with real-world data.
+
+Turn 5:
+
+Meta-reviewer: Thanks for the information. Based on the reviews, I think the paper is technically solid but has some limitations. What is your assessment?
+
+Dialogue Agent: Based on the reviews, the paper has high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the proposed method seems trivial and incremental, and the paper does not address any potential societal impact.
+
+Turn 6:
+
+Meta-reviewer: I agree with your assessment. Based on the reviews and the discussion, I will give the paper a rating of 7: Accept, with the confidence level of 4.
+
+Dialogue Agent: Thank you for your decision. I'm here to help if you have any other questions or need further assistance.

@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, can you tell me about the paper's contributions? 
+
+Dialogue Agent: The paper proposes a fix for the issue of representation collapse in sparsely gated mixture of expert models (sMoE) in Transformers. They identify that the top-1 routing mechanism pushes the hidden representations clustering around expert centroids, resulting in representation collapse. To mitigate this, the paper proposes adding two more operations to the routing procedure: dimensionality reduction of the hidden representations and L2 normalization of the activations (logits) of pre-softmax/sigmoid at the top-1 expert selection routine. The paper demonstrates improved quality gains over dense and regular sMoE models on pre-training and downstream accuracy benchmarks. 
+
+Meta-reviewer: Are there any weaknesses in the paper that I should be aware of?
+
+Dialogue Agent: Review 1 identified that the proposed method focuses solely on top-1 expert choice sMoE models, and it might be attempting to solve a problem that only exists in that space. Additionally, the assumption that the number of experts is much smaller than the hidden dimension does not always hold, which should have been scoped better. Review 3 pointed out that it's unclear whether the difference between Dense (no MoE) and MoE models is because of the MoE layers or just more parameters. The UMAP plots in figure 2c do not suggest representational collapse, and the paper would benefit from more analysis and quantitative results on representational collapse. 
+
+Meta-reviewer: Based on the strengths and weaknesses you've presented, do you recommend accepting or rejecting the paper? 
+
+Dialogue Agent: Review 1 recommended rejecting the paper, while reviews 2 and 3 recommended accepting it. As a dialogue agent, I cannot provide opinions or recommendations, but I can inform you that both reviews 2 and 3 found the paper to be technically solid, have high impact, good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, you as the meta-reviewer will need to weigh the importance of the weaknesses presented and make the final decision.

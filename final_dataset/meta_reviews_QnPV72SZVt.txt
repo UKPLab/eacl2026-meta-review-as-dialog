@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the reviews for the paper "Joint Reasoning for Multi-Faceted Commonsense Knowledge" and I have some questions. Can you tell me the type and title of the paper, please?
+
+Dialogue Agent: Hello, meta-reviewer. The paper is titled "Joint Reasoning for Multi-Faceted Commonsense Knowledge" and is classified as a long paper.
+
+Meta-Reviewer: Thank you. Review 1 seems to have a positive opinion about the paper, but raises some concerns about the methodology. Can you provide me more information on the methodological choices made in the paper?
+
+Dialogue Agent: I'm sorry, but as a dialogue agent, I cannot provide opinions or recommendations. However, I can tell you that the paper proposes a model that classifies scoring mechanisms in common knowledge bases based on four facets: plausibility, typicality, remarkability, and salience. The authors use logical dependencies and an ILP-based reasoning model to learn these scores. The paper also addresses methodological issues such as the use of embeddings and the choice of using ILPs instead of probabilistic frameworks.
+
+Meta-Reviewer: Okay, thank you. Review 2 seems to have some doubts about the motivation for the proposed facets and the evaluation. Can you tell me more about these issues?
+
+Dialogue Agent: Once again, I cannot provide opinions or recommendations. However, I can tell you that the paper justifies the need for multi-faceted scoring by citing previous work and the limitations of using a single confidence score. The evaluation includes a pairwise ranking for 800 pairs of instantiated facts with facets that are annotated by workers, with 70% of them used to estimate weights and 30% for evaluation. The paper reports accuracy levels for the proposed model compared to a regression model.
+
+Meta-Reviewer: Understood. Review 3 seems to be critical of the methodology and results, with concerns about the relationship between the proposed scores and little detail on the construction and filtering of the extended CSK dataset. Can you comment on these issues?
+
+Dialogue Agent: As I mentioned earlier, the paper proposes a method to score common knowledge based on four facets and uses an ILP-based reasoning model to learn these scores. The paper also includes an extended CSK dataset that is a major contribution of the work. However, I cannot provide an opinion on the issues brought up in Review 3.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews, I'm still uncertain about whether to accept or reject this paper. I'm particularly concerned about the methodological issues raised in Review 1 and Review 3. Do you have any suggestion on how I should proceed?
+
+Dialogue Agent: As a dialogue agent, I cannot provide recommendations or opinions. However, it may be helpful to carefully consider the concerns raised in the reviews and weigh the importance of reviewer confidence in making your final decision.

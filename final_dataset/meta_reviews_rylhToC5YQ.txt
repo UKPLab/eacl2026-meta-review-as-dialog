@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, can you tell me about the paper "Unsupervised Neural Multi-Document Abstractive Summarization of Reviews"?
+
+Dialogue Agent: Yes, the paper proposes a method for abstractive multi-document summarization using unsupervised neural networks.
+
+Meta-reviewer: I see. The paper received three reviews. Can you summarize the main positives of the paper?
+
+Dialogue Agent: Review 1 noted that the paper provides decent technical contributions with some novel ideas about multi-doc summary learning models without a (supervised) paired data set. The topic of the paper fits well with ICLR. Additionally, the alternative metrics proposed in the paper seem useful and can be applied to other summarization problems. Review 3 also mentioned that the proposed model variations and experiments clearly demonstrate the usefulness of every aspect of the proposed model.
+
+Meta-reviewer: And what were the main criticisms raised by the reviewers?
+
+Dialogue Agent: Review 1 mentioned several issues with the presentation of the problem and models, as well as some questions about the evaluation methodology. Review 2 was particularly critical of the evaluation methodology, stating that the proposed evaluation measures do not correlate with human judgments and that using poor evaluation measures may harm the research field. Review 3 also noted that the proposed model assumes that the output summary is similar in writing style and length to each of the inputs, which is not the case for most summarization tasks.
+
+Meta-reviewer: Hmm, I'm concerned about the evaluation methodology. Can you elaborate on the critiques raised by review 2 and the response from the authors?
+
+Dialogue Agent: Review 2 noted that the evaluation measures proposed in the paper don't measure the quality of abstractive systems well. For example, word overlap with the original documents is a poor measure of quality for abstractive systems. In response, the authors made an effort to address the criticism by including more human evaluation results. However, review 2 still had concerns about the suitability of the automatic metrics proposed.
+
+Meta-reviewer: That's a valid concern. What is the recommended decision for this paper?
+
+Dialogue Agent: Review 1 rated the paper as marginally below acceptance threshold, while review 2 suggested rejection due to the unsuitability of the evaluation methodology. On the other hand, review 3 rated the paper as top 15% of accepted papers with strong acceptance. Based on these conflicting reviews, it's up to you to decide whether to accept or reject the paper.
+
+Meta-reviewer: Can you tell me more about the reviewer confidence levels?
+
+Dialogue Agent: Reviewers 1 and 3 expressed some degree of confidence in their evaluations, but not absolute certainty. Reviewer 2 also expressed some confidence but ultimately recommended rejection due to concerns about the evaluation methodology.

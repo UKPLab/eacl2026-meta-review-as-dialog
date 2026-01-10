@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Advocacy Learning":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Advocacy Learning". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes a novel framework for supervised learning called "advocacy learning". In this framework, the network is divided into two subnetworks: advocates and a judge. The advocates generate evidence in the form of attention for individual classes, and the judge decides the final class labels.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But I see some major issues with the paper. Firstly, there is no formal justification of the idea. Can you tell me more about this?
+
+Dialogue Agent: Yes, the paper does not provide a clear theoretical background or intuition for the idea. Reviewer 1 mentions that the idea looks interesting but lacks formal justification.
+
+Turn 3:
+
+Meta-reviewer: Okay, that's a concern. What about the experiments? The paper evaluates the method on very small datasets, and the results are inconsistent. Can you tell me more about this?
+
+Dialogue Agent: Yes, Reviewer 2 notes that the experiments are weak and inconsistent. The paper evaluates the method on two datasets, but the results are contradictory. Reviewer 3 also mentions that the gains on classification accuracy are marginal and the interpretability of the evidences has not been convincingly demonstrated.
+
+Turn 4:
+
+Meta-reviewer: I see. Based on these issues, I'm leaning towards rejecting the paper. But I want to hear your thoughts on this. Can you provide any insights or suggestions for the authors?
+
+Dialogue Agent: Based on the reviews, the paper lacks a clear theoretical background and formal justification of the idea, and the experiments are weak and inconsistent. To improve the paper, the authors could provide more detailed explanations of the method and its limitations, and conduct more comprehensive experiments on larger datasets to demonstrate the effectiveness of the approach.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your insights. Based on the reviews and our conversation, I'm going to reject the paper. But I appreciate your help in understanding the main idea of the paper and the issues with the method.
+
+Dialogue Agent: You're welcome! I'm here to help. If you have any other questions or need further assistance, feel free to ask.

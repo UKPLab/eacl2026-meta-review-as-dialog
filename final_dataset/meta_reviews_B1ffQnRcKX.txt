@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper and I would like to know if it's a good paper or not. Can you help me?
+
+Dialogue Agent: Of course! I'd be happy to help. Can you tell me the title of the paper and what type of paper it is?
+
+Meta-Reviewer: The title is "Automatically Composing Representation Transformations as a Means for Generalization" and it's a long paper.
+
+Turn 2:
+
+Dialogue Agent: Great! Based on the title and type of paper, I can provide a summary of the paper. The authors propose a model called Compositional Recursive Learner (CRL) that learns to compose representation transformations to solve problems with compositional and recursive structure. The paper presents experiments on two synthetic datasets, translating an arithmetic expression written in one language to its outcome written in another language, and classifying MNIST digits that were distorted by an unknown random sequence of affine transformations.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the experiments?
+
+Turn 3:
+
+Dialogue Agent: Sure! The authors present experiments on two synthetic datasets. The first dataset involves translating an arithmetic expression written in one language to its outcome written in another language. The second dataset involves classifying MNIST digits that were distorted by an unknown random sequence of affine transformations. The authors show that CRL is able to generalize both to longer sequences and to unseen language pairs when trained on few examples, while RNN can achieve similar performance only using many more examples.
+
+Meta-Reviewer: That's impressive. How does the paper relate to existing work?
+
+Turn 4:
+
+Dialogue Agent: The paper relates to existing work in the field of neural programming and neural module networks. The authors highlight the similarities and differences from prior approaches, and present a careful review of the related works. However, the true contributions of the paper are somewhat muddied by presenting CRL as more general than what is actually supported by the experiments.
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper?
+
+Turn 5:
+
+Dialogue Agent: The strengths of the paper include the novel approach of learning compositionally and recursively, the ability to generalize to longer sequences and unseen language pairs, and the qualitative analysis that illustrates well how the subfunctions specialize to particular tasks. However, the weaknesses of the paper include the fact that the true contributions of the paper are somewhat muddied by presenting CRL as more general than what is actually supported by the experiments, and the limited scope of the experiments, which are mostly synthetic.
+
+Meta-Reviewer: Thank you for your help! Based on your summary, I think I have a good understanding of the paper and its contributions.
+
+Dialogue Agent: You're welcome! I'm glad I could help. If you have any more questions or need further clarification, feel free to ask.

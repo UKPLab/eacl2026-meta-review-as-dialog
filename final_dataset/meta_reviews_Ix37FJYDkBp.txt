@@ -1,0 +1,13 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the paper reviews for SemMAE: Semantic-Guided Masking for Learning Masked Autoencoders. Can you tell me more about the paper?
+
+Dialogue Agent: Sure, SemMAE proposes a semantic-guided masking strategy for training masked autoencoders. It assumes that masking semantic parts of the image would help in learning better representations. To validate this idea, the authors designed a self-supervised semantic part learning method and a semantic-guided MAE masking curriculum. The proposed method achieves improvements compared to existing masking strategies.
+
+Meta-Reviewer: What do you think are the strengths and weaknesses of the paper?
+
+Dialogue Agent: Reviewers mentioned several strengths of the paper, such as the interesting idea of masking semantic parts, the novel semantic part learning strategy, and the clear motivation and well-explained idea of the paper. Reviewer 1 also appreciated the exploration of the differences and connections between language tokens and image tokens. However, Reviewer 2 pointed out some weaknesses, such as the complexity of the proposed method and the marginal improvement on downstream tasks. Reviewer 3 mentioned the lack of discussion on the background and the relationship between the idea and the masking strategy.
+
+Meta-Reviewer: What rating did the reviewers give the paper, and what is your confidence in accepting or rejecting it?
+
+Dialogue Agent: Reviewers gave the paper a rating of 7, indicating a technically solid paper with a high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, Reviewer 2 rated it 3, indicating rejection due to technical flaws, weak evaluation, inadequate reproducibility, and incompletely addressed ethical considerations. 
+
+As a dialogue agent, I cannot provide opinions or recommendations. Still, I can answer questions and provide information about the paper's content and the reviewers' opinions. Ultimately, your decision to accept or reject the paper is based on your assessment of its quality and contribution to the field.

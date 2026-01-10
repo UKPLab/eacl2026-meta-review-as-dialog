@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. I am the meta-reviewer for paper 2605, and I have some questions regarding the reviews.
+
+Dialogue Agent: Hello, meta-reviewer. How can I assist you?
+
+Meta-Reviewer: Based on review 1, the paper seems to have unclear contributions and trivial theorems. However, review 2 finds the contributions solid and of interest. Can you provide me with further insight?
+
+Dialogue Agent: Sure, meta-reviewer. Review 1 criticized the paper's technical proofs and the proposed model's ambiguity. Furthermore, the experiments were only evaluated on two toy datasets, and many baselines were missing. Review 2 appreciated the theoretical model for testing extrapolation abilities of graph learning tasks and the practical feature maps proposed for good extrapolation properties. The paper's exposition, including definitions and explanations, was not clear enough, and the authors undermined the assumptions required to build E-invariant representations for smaller graphs. Therefore, Review 2 substantiates the paper's potential and contributions.
+
+Meta-Reviewer: Review 3 seems to be critical of the paper's exposition and definitions. Can you provide more detail?
+
+Dialogue Agent: Certainly, meta-reviewer. Review 3 has issues with the paper's definitions, statements, claims and explanations. It assumes familiarity with causality theory, and many details were missing, so Review 3 had to guess what they meant. For example, the definition of E-invariant functions, counterfactual coupling, and link functions were unclear. Theorems 1 and 2 lacked proper conclusion or implications, which made it difficult to understand their contributions. Review 3 also questioned the type of assumption that was required for building E-invariant representations, and whether extrapolation to larger graphs was possible.
+
+Meta-Reviewer: I see. Based on these reviews, it seems that the paper has potential but lacks clarity and requires more contributions. I will take into account the reviewer confidence when deciding whether to accept or reject the paper. Thank you for your assistance, dialogue agent.
+
+Dialogue Agent: You're welcome, meta-reviewer. Let me know if you have any further questions.

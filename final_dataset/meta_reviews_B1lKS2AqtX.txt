@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper called "Eidetic 3D LSTM: A Model for Video Prediction and Beyond" and I'd like your help in assessing its acceptability. Can you tell me a bit about the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper "Eidetic 3D LSTM: A Model for Video Prediction and Beyond" is a long paper that proposes a new model for future video prediction, called Eidetic 3D LSTM. The model integrates 3D convolutions into RNNs and uses a new kind of 3D-conv. recurrent layer named E3D-LSTM. The authors claim that the model is effective for future video prediction and early activity recognition tasks.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the novelty of the paper and how it compares to existing works in the field?
+
+Dialogue Agent: The paper proposes a small extension of a previous work (Wang et al., 2017) and builds upon it with some new ideas. The authors claim that the model is effective for future video prediction and early activity recognition tasks, but the novelty of the paper is a concern. The paper has some nice experimental results and the authors provide an extensive comparison with recent papers.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the experimental results and the comparison with other works?
+
+Dialogue Agent: Sure! The authors perform extensive experiments on video prediction and early activity recognition tasks and compare the results with recent papers. The results show that the model is effective for both tasks, but the authors acknowledge that the novelty of the paper is a concern. The authors also provide ablation studies to motivate the different components of the model.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. Based on your summary, how would you rate the paper and what are the main concerns?
+
+Dialogue Agent: Based on my summary, I would rate the paper as good, but with some concerns about the novelty of the paper. The authors provide a nice extension of a previous work and the results are promising, but the novelty of the paper is a concern. The authors could have provided more discussion and motivation for some of the choices in the model definition.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help! Based on your summary and the reviews, I will make my final decision. Do you have any other comments or suggestions for the authors?
+
+Dialogue Agent: Yes, I do! The authors could have provided more discussion and motivation for some of the choices in the model definition, and also could have compared the results with more complex settings, such as UCF101. Additionally, the authors could have explored the use of different architectures, such as GANs or VAEs, to capture the space of possible futures.

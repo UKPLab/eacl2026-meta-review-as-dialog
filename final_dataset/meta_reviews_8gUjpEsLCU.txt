@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, thank you for joining me today. I have some questions about the paper "Empirical Gateaux Derivatives for Causal Inference".
+
+Dialogue agent: Of course, I'll do my best to answer your questions.
+
+Meta-reviewer: One of the reviews mentioned that they were unclear on the motivation behind the paper. Can you elaborate on that?
+
+Dialogue agent: The motivation behind the paper is to provide an alternative method for approximating the Gateaux derivative empirically, with applications to causal inference. The authors believe that the proposed method can broaden the utility of one-step estimators, as it does not require explicit derivations in the case of new statistical functionals.
+
+Meta-reviewer: Another review mentioned that there were limitations to the empirical Gateaux derivatives approach. Can you expand on that?
+
+Dialogue agent: Yes, there are limitations to the approach. The approximation is based on a density estimator of the underlying data distribution, which could bear serious practical limitations. Additionally, the conditions impose a product-form rate condition on the smoothed estimates, which may not always be met in practice.
+
+Meta-reviewer: I see. And what about practical applications of this method? Do the authors provide any concrete recipes?
+
+Dialogue agent: The authors provide a simulation to demonstrate the method, but they do not provide concrete practical recipes for the running example that can flexibly incorporate different underlying distributions, dimensions, smoothness, etc. However, they do believe that the method has the potential to broaden the utility of one-step estimators and be applied to a variety of statistical functionals.
+
+Meta-reviewer: Thank you for your answers. Based on the reviews and your responses, it seems that this is a technically solid paper with some limitations and potential for practical application. I think I will rate this paper as a borderline accept, with a confidence of 2.

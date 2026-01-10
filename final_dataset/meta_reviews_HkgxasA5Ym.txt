@@ -1,0 +1,19 @@
+ Sure, here is a simulated dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors":
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Reliable Uncertainty Estimates in Deep Neural Networks using Noise Contrastive Priors". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for obtaining reliable uncertainty estimates in deep neural networks using noise contrastive priors. The method is based on adding Gaussian noise to the input points and respective outputs, and using a Bayesian approach to quantify the uncertainty. The authors demonstrate the effectiveness of the method on two datasets, and show that it can improve the performance of active learning in deep learning tasks.
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper has several strengths, including its novel approach to uncertainty estimation in deep learning, its ability to improve active learning performance, and its well-written and clear presentation. However, the reviews also mention some weaknesses, such as the need for more experimental evaluation on a wider range of datasets, the sensitivity of the method to the choice of hyperparameters, and the lack of a thorough discussion on the reliability of the obtained uncertainty estimates.
+
+Meta-Reviewer: Can you summarize the main concerns of the reviewers?
+
+Dialogue Agent: The reviewers' main concerns include the need for more experimental evaluation, the sensitivity of the method to the choice of hyperparameters, and the lack of a thorough discussion on the reliability of the obtained uncertainty estimates. One reviewer also mentions that the paper targets an important direction of uncertainty estimation for neural networks, but is not mature in terms of results obtained. Another reviewer suggests that the method may not be robust to the choice of OOD data generating mechanism and the parameters thereof.
+
+Meta-Reviewer: Thank you for the summary. Based on these concerns, what is your recommendation for the paper?
+
+Dialogue Agent: Based on the reviews and the concerns mentioned, I would recommend that the paper be accepted with minor revisions. The authors should address the concerns mentioned by the reviewers, such as providing more experimental evaluation and discussing the reliability of the obtained uncertainty estimates. Additionally, the authors may want to consider addressing the sensitivity of the method to the choice of hyperparameters and the OOD data generating mechanism.
+
+Meta-Reviewer: Thank you for your help. I will consider your recommendation and make a final decision based on the reviews and your summary.

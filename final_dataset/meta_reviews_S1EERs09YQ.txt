@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read through the reviews for the paper "Discovery of Natural Language Concepts in Individual Units of CNNs". I have a few questions before I make a decision on acceptance or rejection.
+
+Dialogue Agent: Of course, I am here to answer any questions you may have.
+
+Meta-reviewer: Reviewer 1 had some questions about the methodology used in the paper. Can you address those concerns?
+
+Dialogue Agent: Certainly. Reviewer 1 was interested in the importance of repeating the concepts to reach the average sentence length. Our approach was to repeat the concepts to provide a greater activation of the given unit in response to subparts of those sentences that have been isolated and repeated. We also observed that without the repetition, there was a bias towards lengthy concepts. By repeating the concepts, we were able to get a more even distribution of activations across the different concepts. Additionally, we did not experiment with other values for M because we chose the value based on what worked well in our experiments. 
+
+Meta-reviewer: Reviewer 1 also asked about the proportion of units that do not respond in an interpretable way. Can you provide more information on that?
+
+Dialogue Agent: Yes, we did not provide an exact number for the proportion of units that do not respond in an interpretable way. However, in our analysis of the sensitivities of different units, we did observe that some units seemed to learn more semantically meaningful concepts, while others focused on more frequent or relevant elements for the end task. 
+
+Meta-reviewer: Reviewer 2 had concerns about the concept of "concepts" used in the paper, and suggested using external resources like WordNet or ConceptNet to substantiate that the detected concepts are indeed semantic objects. Can you comment on that?
+
+Dialogue Agent: While we acknowledge the concern raised by Reviewer 2, we believe that the notion of "concepts" used in our analysis is appropriate. We defined concepts as morphemes, words, and phrases that capture the fundamental building blocks of natural language. That being said, we agree that using external resources like WordNet or ConceptNet to validate our detected concepts is a good suggestion, and we will consider integrating that into our future work.
+
+Meta-reviewer: Reviewer 3 was interested in an empirical study of concepts coverage over multiple layers, and studying the multiple occurrences of single concepts at different layers. Can you address that?
+
+Dialogue Agent: Our current results do indeed show a layer-wise evolution of the granularity of concepts, where channels in convolutional representations are selectively sensitive to specific natural language concepts. We also discuss how the granularity of concepts evolves with layer depth. However, we did not specifically study the multiple occurrences of single concepts at different layers. We will definitely consider adding that to our future work.
+
+Meta-reviewer: Thank you for addressing the reviewers' concerns. Based on the reviews and your responses, I am inclined to accept the paper. Can you comment on the level of confidence in the reviews?
+
+Dialogue Agent: Reviewer 1 had a confidence of 4, meaning they were confident but not absolutely certain that their evaluation was correct. Reviewer 2 had a confidence of 3, meaning they were fairly confident that their evaluation was correct. Reviewer 3 did not provide a confidence rating. 
+
+Meta-reviewer: Thank you for the information. I will take everything into consideration before making my final decision.

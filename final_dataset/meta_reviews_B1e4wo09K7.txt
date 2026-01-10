@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, I am the meta-reviewer for this paper. Can you summarize the main findings of the paper in a few sentences?
+
+Dialogue agent: The paper proposes a generative model for images that explicitly separates the within-class variation from the across-class variation. In simpler terms, it provides an approach to probabilistic modelling that enables meaningful representations of the learned representation. The paper reports results on the MNIST dataset and evaluates the proposed method against other related works.
+
+Meta-reviewer: Can you tell me about the reviews and their ratings?
+
+Dialogue agent: There are three reviews. Review 1 rated the paper a 7, which is good enough for acceptance. Review 2 gave a rating of 5, which is marginally below the acceptance threshold. And Review 3 rated the paper a 4, which means it is not good enough for acceptance.
+
+Meta-reviewer: What are the reviewers' confidence levels in their evaluations?
+
+Dialogue agent: Review 1's confidence level is 2, which means that they are quite likely to have not understood central parts of the paper. Review 2's confidence level is 5, indicating that the reviewer is absolutely certain that the evaluation is correct and is very familiar with the relevant literature. Finally, Review 3's confidence level is 3, which means that the reviewer is fairly confident that the evaluation is correct.
+
+Meta-reviewer: What are the major criticisms of the paper?
+
+Dialogue agent: Review 2 has several criticisms, including the lack of sufficient discussion about related works and the paper's meandering writing. Review 3 criticized the writing, limited novelty, and limited experiments in the paper. 
+
+Meta-reviewer: What are the positives of the paper?
+
+Dialogue agent: Review 1 thinks that the paper is clean with a clear goal. The proposed generative model for images that explicitly separates the within-class variation from the across-class variation is a nice approach to probabilistic modelling. Review 2 also agrees that the general direction is important and should be pursued further, although there are issues that need to be addressed. 
+
+Meta-reviewer: Given the reviews, what is your recommendation for this paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide a recommendation for the paper. However, I can provide you with an overview of the reviews and their ratings, as well as the reviewers' confidence levels and their criticisms of the paper. It's up to you to weigh the importance of reviewer confidence in making your final decision.

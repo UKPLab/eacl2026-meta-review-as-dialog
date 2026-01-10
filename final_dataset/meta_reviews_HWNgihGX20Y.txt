@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for providing me with the reviews for the paper "Reproducibility study of "Robust Counterfactual Explanations on Graph Neural Networks." Overall, they seem positive, but I do have a few questions. First, Reviewer 1 gives a rating of 8 and a clear accept recommendation. How confident is the reviewer in their evaluation?
+
+Dialogue agent: Reviewer 1's confidence level is 4, which means they are confident but not absolutely certain that their evaluation is correct.
+
+Meta-reviewer: That's good to know. Reviewer 2 also gives a clear accept recommendation with a rating of 8, but their confidence level is 3. Can you give me more information about their evaluation?
+
+Dialogue agent: Reviewer 2 believes that the paper is well-written and easy to follow, and the proposed method for counterfactual explanation on GNN is quite novel and has potential for high impact. They also suggest that the noise robustness analysis should be run on at least 20 runs and provide more explanation on the extrapolation of piecewise linear neural networks to the larger family of GNNs.
+
+Meta-reviewer: Thank you for that information. Reviewer 3 provides some concerns and suggestions for improving the paper, giving it a rating of 5. Can you provide more information about their evaluation and concerns?
+
+Dialogue agent: Reviewer 3 believes that the paper is well organized and easy to follow, but they expected more effort in the experiments involving hyperparameter optimization and ablation study. They suggest that the replicators should have provided clearer recommendations and an in-depth analysis of hyperparameter optimization or ablation study. Reviewer 3 also finds it unfortunate that the replicators had to modify the code and struggled with it, and would have suggested communication with the original authors.
+
+Meta-reviewer: I see. Based on these reviews, it seems that the paper is well-written and presents careful experiments and analysis, but there are some concerns regarding the experiments involving hyperparameter optimization and ablation study. Considering the confidence levels of the reviewers, I am inclined to lean towards accepting the paper, but I also want to weigh the importance of reviewer confidence in my decision. Can you provide more information about the type of paper and its reviews?
+
+Dialogue agent: The paper is a long one, and the reviews are all positive with rating scores of 5, 8, and 8. Reviewers 1 and 2 give clear accept recommendations, while Reviewer 3 believes the paper is marginally below acceptance threshold.
+
+Meta-reviewer: Thank you for the information. Based on these reviews and considering the confidence levels of the reviewers, I think we should accept the paper. However, I would like to suggest to the authors that they address the concerns raised by Reviewer 3 regarding the experiments involving hyperparameter optimization and ablation study.

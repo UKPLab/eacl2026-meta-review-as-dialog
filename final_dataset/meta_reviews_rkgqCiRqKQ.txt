@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you for submitting your paper titled "Inferring Reward Functions from Demonstrators with Unknown Biases." I have reviewed the three reviews and have some questions for you to help me decide whether to accept or reject your paper. 
+
+Dialogue Agent: Thank you for your time. I'm happy to answer any questions you have and provide any clarifications you need.
+
+Meta-Reviewer: Review 1 mentioned several related works that you did not cite in your paper. Can you explain why you did not include those references and their relevance to your work? 
+
+Dialogue Agent: Thank you for bringing up Review 1. We apologize for missing those references. We will add them to our related work section. Regarding their relevance to our work, we agree that there are similarities between our approach and some of those works mentioned. However, we believe that our specific problem formulation, our focus on multiple task settings, and our use of differentiable planners set us apart from those works.
+
+Meta-Reviewer: In Review 2, the reviewer raised concerns about your experimental evaluation and the assumption 3 being too strong. Can you discuss those issues?
+
+Dialogue Agent: Sure. With regards to the experimental evaluation, we acknowledge that Algorithm 2 did not outperform the optimal and Boltzmann assumptions consistently. However, we believe that this is an interesting finding because it highlights the importance of distinguishing between different types of biases in modeling demonstrators. As for assumption 3, we agree that it is a restrictive assumption. However, it is currently the best inductive bias we can use to learn reward functions in a noisy environment. We also believe that as differentiable planners become more sophisticated, this assumption will become weaker.
+
+Meta-Reviewer: Can you provide more details about the technical formulation you used in your paper, particularly in Section 4?
+
+Dialogue Agent: Certainly. We used the demonstrator's policies or trajectories as input to our algorithm. The algorithm then learns a model of the demonstrator's planning behavior using value iteration networks and invert that model using backpropagation to infer the reward from actions. We made some assumptions on the relationship between the reward function and the planning behavior, which we described in detail in Section 4.
+
+Meta-Reviewer: Review 3 mentioned that the technical formulations in Section 4 were not presented clearly. Can you explain why and how you would improve them?
+
+Dialogue Agent: We apologize for any confusion caused by our technical formulations in Section 4. We will review and revise it to make it clearer. One suggestion would be to use more concrete examples to help readers better understand the technical details.
+
+Meta-Reviewer: Thank you for addressing my questions. Based on the reviews and your responses, I believe the paper requires some improvements before it can be accepted. However, I am confident that your work has merit and the potential to contribute to the field. I suggest you make the necessary revisions and resubmit your paper for further review.

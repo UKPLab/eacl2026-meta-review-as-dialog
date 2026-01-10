@@ -1,0 +1,13 @@
+Meta-reviewer: Thank you for your reviews. Review 1, can you elaborate on the concerns you raised, particularly about the choice of evaluation metric and the use of time series cross validation?
+
+Review 1: Certainly. While the paper uses MSE as the primary evaluation metric, it has some drawbacks. Additionally, using traditional means of time series cross validation would have been preferable to ensure that there is no leakage when training on time series that might have correlations across time across sites.
+
+Meta-reviewer: Thank you for clarifying. And Review 2, you have raised concerns about the novelty of the proposed technique. Can you elaborate on that?
+
+Review 2: Yes, I believe that while the paper proposes some interesting techniques, particularly with the Information Theoretic Clustering algorithm, the technical contributions are not significant enough to justify the claims made in the introduction. The choice of using LSTM for long-range prediction and using MSE loss for data generation are standard principles in the literature.
+
+Meta-reviewer: Thank you for your comments, Review 2. And Review 3, can you elaborate on your comments about the necessity of using cWGAN-GEP and two-stage approach for long-range forecasting?
+
+Review 3: While the proposed technique is promising and outperforms various baselines, it is not strongly justified that the use of cWGAN-GEP and two-stage approach is helpful in long-range forecasting. Additionally, it is not well motivated why a two-stage approach is specifically helpful for long-range forecasting. The authors could have easily used an ensemble approach that would have been way easier since this would obviate the necessity of ITC.
+
+Meta-reviewer: Thank you for your insights, Review 3. Based on your reviews, I can see some areas of improvement in the paper, particularly in justifying the technical contributions and evaluating the necessity of the proposed techniques. However, there are also some promising aspects of the paper, particularly its methodology and performance on various datasets. Therefore, I would give the paper a rating of 6 which is marginally above the acceptance threshold.

@@ -1,0 +1,11 @@
+Meta-reviewer: Thank you for your reviews. Based on Review 1, I am concerned about the novelty and contribution of the paper, as there are already similar approaches proposed in the literature. Can the authors address this concern?
+
+Dialogue agent: We appreciate Review 1's concerns and the comparisons made with previous works. Our approach differs from previous works by formulating the problem as learning a probabilistic graphical model by optimizing the mean performance over the graph distribution, which is parameterized by a neural network and encapsulated in a single differentiable objective. Besides, we also proposed a structural prior-based regularization in our GTS approach. Empirical evidence suggests that the proposed GTS outperforms its competitor approaches, as shown in section 4.2. Therefore, we believe our approach contributes to the field of time series forecasting with graph neural networks.
+
+Meta-reviewer: Review 2 seems to be positive overall, but it raises some improvement points. Can the authors address these points?
+
+Dialogue agent: Yes, we appreciate Review 2's positive evaluation and improvement points. We will revise the text accordingly and clarify the points raised, including the differences between GTS and NRI in terms of the structural prior, the approach for constructing the kNN graph in the PMU dataset, the reasoning behind the decision to extract the data for February 2017, the inconsistency in Tables 2 and 3, and some minor textual errors throughout the paper.
+
+Meta-reviewer: Review 3 also seems to be positive overall, but it raises a question about how the proposed idea performs for non-time-series data. Can the authors address this question?
+
+Dialogue agent: Thank you for bringing up this question. While our proposed approach is not restricted to time-series data, we focused on time series forecasting in this paper. As such, we did not explore the performance of our approach on non-time-series data in this paper. This is an interesting direction for future work, and we appreciate the suggestion.

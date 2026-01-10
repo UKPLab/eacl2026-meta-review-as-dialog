@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Lie Algebra Convolutional Neural Networks with Automatic Symmetry Extraction":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Lie Algebra Convolutional Neural Networks with Automatic Symmetry Extraction". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Certainly! The paper proposes a new approach to making deep learning robust to arbitrary symmetries, using Lie algebra convolutional neural networks (L-conv) with automatic symmetry extraction. The authors introduce a group equivariance architecture of neural networks, which ensures that the function learned by the network has the equivariance property with respect to the symmetry group action.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the L-conv layers and how they relate to the symmetry group action?
+
+Dialogue Agent: Sure! The L-conv layers are the building block of the group equivalence architecture. They are designed to model the Lie algebra of the symmetry group, and they ensure that the function learned by the network has the equivariance property with respect to the symmetry group action. The authors show that the L-conv layers can be used to construct fully connected layers, convolutional layers, and graph convolutional networks that are equivariant to the symmetry group action.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the experiments? Do they demonstrate the advantage of the proposed approach over other methods?
+
+Dialogue Agent: The authors conduct experiments on several benchmark datasets, including CIFAR10/100 and FashionMNIST. They show that the L-conv based architecture outperforms traditional convolutional neural networks (CNNs) and fully connected layers in terms of robustness to arbitrary symmetries. However, the authors note that the experimental results are not sufficient to prove the advantage of the proposed approach over other methods that use the power of data symmetry.
+
+Turn 4:
+
+Meta-reviewer: I understand. What about the theoretical contributions of the paper? Do they provide any novel insights or results?
+
+Dialogue Agent: Yes, the paper provides several novel insights and results. The authors introduce a new parametrization of convolutional kernels, which allows considering standard convolution from a different perspective. They also reveal a useful connection between the Lie algebra-Lie group correspondence and a network of L-conv layers. Additionally, the authors propose a new approach to learning the structure of the group directly from the training data instead of incorporating it in the network a priori.
+
+Turn 5:
+
+Meta-reviewer: That's impressive. Based on the strengths and weaknesses you've outlined, what is your overall recommendation for the paper?
+
+Dialogue Agent: Based on the novelty, relevance, and contributions of the paper, I would recommend accepting it with minor revisions. The authors provide a clear and well-organized presentation of their approach, and the experimental results demonstrate the advantage of the proposed method over traditional CNNs and fully connected layers. However, the authors could provide more information on the learned generators $L$ and the convergence of the network of L-conv layers to a group equivariant network. Additionally, the paper could benefit from more extensive experiments to demonstrate the advantage of the proposed approach over other methods that use the power of data symmetry.

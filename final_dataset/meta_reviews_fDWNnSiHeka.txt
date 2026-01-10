@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, can you please summarize the main contributions of "Sketching based Representations for Robust Image Classification with Provable Guarantees"?
+
+Dialogue Agent: The paper proposes a sketching algorithm that uses a locality sensitive hash to produce a succinct sketch of an image, which can be used for image reconstruction. The authors leverage LSH to split an image into regions, train parameters within each hash bucket, and use the resulting parameters to reconstruct image regions. The paper provides theoretical guarantees for the proposed method that the sketch accurately represents the original image. 
+
+Meta-Reviewer: I see. Can you tell me more about the strengths and weaknesses of this paper?
+
+Dialogue Agent: Reviewer 1 praised the detailed descriptions of the proposed method, but pointed out that the experiments are limited only to synthetic images with simple shapes. Reviewer 2 agreed with the motivation and methodology, but expressed concerns about the evaluation, which may not be convincing. Reviewer 3 liked the theoretical results but felt that the paper lacked intuitive explanations and real application examples.
+
+Meta-Reviewer: Based on these reviews, what is your recommendation on whether to accept or reject this paper?
+
+Dialogue Agent: As a dialogue agent, I am not allowed to provide recommendations. However, I can tell you that the paper received borderline accept ratings from two reviewers, indicating that the technical quality of the paper is solid despite some weaknesses and limitations. The confidence levels of the reviewers vary, with one being fairly confident, one being willing to defend their assessment, and one making an educated guess. Therefore, you may want to weigh the confidence levels of the reviewers in addition to their ratings and comments when making your final decision.

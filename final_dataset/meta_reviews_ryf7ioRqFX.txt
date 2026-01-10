@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "h-detach: Modifying the LSTM Gradient Towards Better Optimization." Can you give me some additional information to help me decide whether to accept or reject the paper?
+
+Dialogue Agent: Certainly. What additional information would you like?
+
+Meta-reviewer: Can you remind me of the type of the paper?
+
+Dialogue Agent: The paper is of type long.
+
+Meta-reviewer: Great, thanks. Can you give me a brief summary of the paper's contribution?
+
+Dialogue Agent: The authors propose a modification to the training process of the LSTM called h-detach. This modification aims to facilitate gradient propagation along the cell states, or the "linear temporal path." The proposed method is evaluated on the delayed copy task, sequential MNIST, permuted sequential MNIST (pMNIST), and caption generation on the MS COCO dataset. The experimental results show that h-detach improves training stability and shows minor performance improvements in those tasks.
+
+Meta-reviewer: Thank you. What are the ratings and confidences of the reviews?
+
+Dialogue Agent: Review 1 gives a rating of 5, marginally below the acceptance threshold, with a confidence of 4. Review 2 gives a rating of 6, marginally above the acceptance threshold, with a confidence of 3. Review 3 does not provide a rating, but after some concerns were addressed, the reviewer increased the score by 2 points and recommends acceptance with a confidence of 5.
+
+Meta-reviewer: I see. Can you tell me about some of the main criticisms from the reviews?
+
+Dialogue Agent: Review 1 suggests the authors should discuss the relation or difference between the proposed h-detach algorithm and dropout technology and address the potential for negative transferring in transfer learning. Review 2 questions the theoretical and empirical support for the authors' claim and recommends further analysis and discussion of h-detach's connection with existing methods. Review 3 suggests the authors address the potential similarity between h-detach and other methods such as BN-LSTM and Variational RNNs and favor hard long-term experiments over short sentence image captions.
+
+Meta-reviewer: Thank you for the summary. Can you provide any further details on the reviewers' specific concerns?
+
+Dialogue Agent: Certainly. Review 1 asks for more detail on the relationship between h-detach and dropout technology and suggests the authors address the potential for negative transferring in transfer learning. Review 2 recommends further analysis and discussion of h-detach's connection with existing methods and suggests theoretical or empirical exploration of the effect of the probability p and the "optimal" choice of p. Additionally, the reviewer questions the theoretical and empirical support for the authors' claim. Review 3 suggests the authors address the potential similarity with other methods such as BN-LSTM and Variational RNNs and use hard long-term experiments as a more relevant testbed for h-detach, mentioning language modeling or PixelRNN.
+
+Meta-reviewer: Thank you. Given the ratings and concerns of the reviewers, do you have a recommendation on whether to accept or reject the paper?
+
+Dialogue Agent: It is not my place to provide recommendations on whether to accept or reject a paper. My purpose is to provide information to help you make an informed decision. However, I can inform you that, while there are some concerns and criticisms, two of the three reviewers suggest accepting the paper, with Review 3 providing a score that crosses the acceptance threshold. Additionally, the proposed method is simple and effective and has some novelty, and the paper is clearly written and well-structured.

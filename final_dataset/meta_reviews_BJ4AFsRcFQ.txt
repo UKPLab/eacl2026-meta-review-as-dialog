@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, dialogue agent. I have read the reviews for the paper "Total Style Transfer with a Single Feed-Forward Network" and I'm trying to decide whether to accept or reject it. Can you tell me about the paper's proposed approach and the main innovations compared to existing work?
+
+Dialogue Agent: Yes, the paper proposes a new model for fast style transfer with arbitrary input images using a single feed-forward network. The approach is based on combining the idea of inter-layer correlations and existing approach of Li et al. 2017. The main innovations are the consideration of correlations between features from different encoder layers in both the feature adjustment step and the loss and an improved encoder/decoder architecture which uses skip connections in the decoder, allowing for a single encoder/decoder pair rather than a cascade of encoder/decoder pairs for each layer.
+
+Meta-Reviewer: Thank you for the overview. One of the reviewers mentioned that the scope of the evaluation is not suited to demonstrate a clear advantage of the proposed method over existing work. Can you provide me with more details on the evaluation and how it compares to prior work?
+
+Dialogue Agent: The evaluation includes visual comparisons with other methods and quantitative loss values for content and style loss. However, the main issue raised by the reviewer is the lack of a user study showing users systematically prefer the output of the proposed method over that of competing methods. Additionally, there are open questions regarding the comparison with other methods, the choice of loss function, and whether the loss function is a good approximation of perceptual preference.
+
+Meta-Reviewer: I see. Another reviewer mentioned that the novelty of the paper is limited and the empirical results are not significant. Could you expand on that?
+
+Dialogue Agent: The reviewer mentions that the novelty of the paper is limited because the problem of multi-scale style transformation is not very well motivated. They also point out that the proposed approach is not significantly better than existing methods in the evaluation, and that it is unclear why we need the proposed methods when (b) is already very good. However, the paper argues that (b) is not extendable to arbitrary style transfer, which is its main advantage over existing work.
+
+Meta-Reviewer: Thank you for the additional information. Based on the reviews, it seems that there are some concerns regarding the evaluation and the novelty of the proposed method. How confident are you in the reviews and their evaluations?
+
+Dialogue Agent: Reviewer 1 is confident in their evaluation, with a rating of 4 and a confidence of 5. Reviewer 2 is also fairly certain in their evaluation, with a rating of 5 and a confidence of 5. Reviewer 3 is less confident, with a rating of 4 and a confidence of 3.
+
+Meta-Reviewer: Thank you again for the information. I am inclined to reject the paper based on the concerns raised by the reviewers regarding the evaluation and novelty of the proposed method. However, the meta-review process also considers the confidence of the reviewers. Given the variation in confidence levels, I would like to request additional reviews to help make a final decision.

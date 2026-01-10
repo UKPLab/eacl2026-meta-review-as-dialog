@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)". The reviews are [Review 1, Review 2, and Review 3]. The meta-reviewer is aware only of the paper's title and reviews.
+
+Turn 1:
+
+Meta-reviewer: Hello, I am reviewing a paper titled "Robustness in deep learning: The good (width), the bad (depth), and the ugly (initialization)". Can you tell me about the paper's main findings and contributions?
+
+Dialogue Agent: The paper discusses the interplay of network width, depth, and initialization on their average robustness, with theoretical bounds. The authors show that width affects robustness in the under-parameterized setting and improves robustness in the over-parameterized setting. Depth affects robustness depending on initialization and training mode. The paper provides novel insights and extends previous results on the robustness of neural networks.
+
+Turn 2:
+
+Meta-reviewer: Can you summarize the strengths and weaknesses of the paper as mentioned in the reviews?
+
+Dialogue Agent: The paper has original and well-established theoretical derivations, and the results are supported by empirical evaluation. However, some statements in the paper are confusing, and the central parts of the submission may not be fully understood. The paper provides a good contribution to the field, but some minor improvements in clarity are necessary.
+
+Turn 3:
+
+Meta-reviewer: Can you provide more information about the theoretical assumptions and limitations of the paper?
+
+Dialogue Agent: The paper properly states and explains the theoretical assumptions and limitations. The authors provide a criterion under which a network will train in the non-lazy regime and discuss the difference of perturbation stability in expectation and stability with respect to all data points. The paper also includes a brief discussion on the difference of perturbation stability in expectation and stability with respect to all data points.
+
+Turn 4:
+
+Meta-reviewer: Can you summarize the ratings and confidence levels of the reviews?
+
+Dialogue Agent: The reviews have a rating of 5: Borderline accept, and a confidence level of 4: You are confident in your assessment, but not absolutely certain. It is unlikely, but not impossible, that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work.
+
+Turn 5:
+
+Meta-reviewer: Based on the information provided, I am leaning towards accepting the paper. Can you provide any additional information to support my decision?
+
+Dialogue Agent: The paper provides a well-written and in-depth interpretation of the results, and the theoretical derivations are technically solid. The paper has a high impact on at least one sub-area and moderate-to-high impact on more than one areas. The paper has good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Meta-reviewer: Thank you for the information. Based on the information provided, I have decided to accept the paper.
+
+Dialogue Agent: You're welcome. Thank you for your time and consideration.

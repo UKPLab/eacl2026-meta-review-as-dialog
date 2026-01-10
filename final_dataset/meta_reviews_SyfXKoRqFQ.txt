@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. Can you give me a brief overview of the paper Ada-Boundary?
+
+Dialogue Agent: Certainly, the paper Ada-Boundary proposes a method for accelerating the training of deep neural networks by adapting the selection of batches. The proposed method intelligently selects the batches for training based on the prediction variance and correctness of each sample. The paper also presents experimental results on three image classification datasets, including Fashion MNIST, CIFAR-10, and MNIST, to evaluate the performance of the proposed approach.
+
+Meta-Reviewer: Thank you for the brief. From the reviews, it seems that the experimental methodology and results have some issues. Can you tell me more about the concerns raised in Review 1?
+
+Dialogue Agent: Certainly. Review 1 raised concerns about the experimental methodology and results. Specifically, the reviewer found that the proposed method was only run three times, once for each value of the selection pressure parameter, and that the best run was selected for comparison. This indicates that the proposal may not be practical. Further, the benefits of the proposed method were only clearly apparent in one of the three experiments (Fashion MNIST). In the MNIST case, the proposed method did not seem to improve upon the online batch method. For CIFAR-10, which is a more complex architecture and potentially more difficult to train, the improvement was slight. The reviewer also pointed out that it wasn't clear whether a relevant baseline was included and that some discussion on computational cost incurred by the method should have been provided, with better results reported wrt/wall clock training time.
+
+Meta-Reviewer: I see. There seem to be some experimental issues. Could you also explain the concerns raised in Review 2?
+
+Dialogue Agent: Sure, Review 2 raised concerns about the novelty and practical contribution of the paper. The reviewer found the technical contribution to be incremental, with limited novelty. The second contribution of the paper, which is an empirical study, could also be more supportive with more challenging datasets. Although the proposed method is well-motivated and presented clearly, it falls short of demonstrating significant improvement. 
+
+Meta-Reviewer: Okay, thank you. Review 3 seems to have some criticisms about the design choices of the proposed method. Can you explain more about it?
+
+Dialogue Agent: Yes, Review 3 raised concerns about the design choices of Ada-Boundary. The reviewer found design choices, such as the uncertainty function, the probability distribution, the discretization, and the algorithm (when to update), appear rather arbitrary without any theoretical guidance or experimental verification. For example, the uncertainty function is a signed standard deviation of the softmax output, which is a novelty in its own but is not compared with other uncertainty measures like margin or entropy. Further, the experiments could be designed better, such as stopping the learning curves too early and not comparing the improvement for faster convergence or lower asymptotic error. Finally, the reviewer noted that the work appears similar to the recent work "Active Bias," and the paper fails to mention or cite it as a related work.
+
+Meta-Reviewer: Thank you for your elaboration. From the reviews, it is clear that the confidence of the reviewers is only marginally below the acceptance threshold. Can you tell me if the paper meets the threshold for acceptance?
+
+Dialogue Agent: As a dialogue agent and not a reviewer, I cannot provide opinions or recommendations. It is the meta-reviewer's responsibility to weigh the importance of the reviewer confidence in making the final decision.

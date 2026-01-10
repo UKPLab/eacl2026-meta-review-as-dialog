@@ -1,0 +1,37 @@
+Meta-Reviewer: Hello, can you please provide me with a summary of the reviews for the paper titled "Scalable Neural Theorem Proving on Knowledge Bases and Natural Language"?
+
+Dialogue Agent: Certainly. Review 1 praises the paper's increments on top of Neural Theorem Provers (NTP) and its ability to scale the approach to larger datasets. However, it also mentions that the empirical performance on larger datasets needs further investigation and suggests that an ablation study should be performed to better understand the effect of incorporating mentions and attention. Review 2 believes that the paper proposes interesting and valuable results, but it requires further elaboration on the proposed techniques and more insights on how they improve the results. Review 3 also approves of the paper's contributions, but is skeptical about the model used to integrate textual mentions and suggests that the evaluation proposed may not be sufficient for longer, more realistic sentences.
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, what is the type of paper?
+
+Dialogue Agent: The paper is a long one.
+
+Meta-Reviewer: Can you tell me more about the criticism of the empirical performance on larger datasets in Review 1?
+
+Dialogue Agent: Review 1 mentions that the performance on larger datasets, specifically on FB15k-237, seems weak compared to the original papers and more recent works. They suggest that, without further explanation, the paper's claim that scores are competitive with the state of the art for FB15k-237 seems unjustified. The reviewer wonders if this is due to the d=100 restriction or the absence of pretrained embeddings. The reviewer suggests that further investigation is needed.
+
+Meta-Reviewer: I see. And how confident is Review 1 in their evaluation?
+
+Dialogue Agent: Review 1 appears fairly confident in their evaluation of the paper's experimental results, with a confidence rating of 3.
+
+Meta-Reviewer: Moving on to Review 2, can you tell me more about their criticisms of the paper?
+
+Dialogue Agent: Review 2 believes that the paper's proposed techniques are interesting and valuable to the community but requires further elaboration. They suggest that the speed-up through nearest neighbor search and the attention mechanism are well-known techniques, and their effects in this particular framework are unclear. The reviewer also suggests that the section on experiment results seems rushed and that the authors should provide more insights into how the proposed techniques improve the results.
+
+Meta-Reviewer: I understand. And what is Review 2's confidence in their evaluation?
+
+Dialogue Agent: Review 2 appears fairly confident in their evaluation, with a confidence rating of 3.
+
+Meta-Reviewer: Finally, can you elaborate on Review 3's criticisms of the paper?
+
+Dialogue Agent: Review 3 praises the paper's contributions and relevance but is skeptical about the model used to integrate textual mentions, specifically whether a simplistic model that averages word embeddings is sufficient for longer, more realistic sentences. The reviewer suggests that the evaluation proposed in section 6.3 may not be sufficient for longer, more realistic sentences. The reviewer also suggests some minor issues with the paper's language in certain places.
+
+Meta-Reviewer: Thank you for the summary. And what is Review 3's confidence in their evaluation?
+
+Dialogue Agent: Review 3 appears fairly confident in their evaluation, with a confidence rating of 3.
+
+Meta-Reviewer: Based on these reviews, it seems that the paper has some interesting and valuable contributions, but there are also some areas that require further elaboration and investigation. Given this, what rating would you give the paper?
+
+Dialogue Agent: Based on the reviews, the paper is rated as marginally below acceptance threshold with a rating of 5.
+
+Meta-Reviewer: Thank you for your help. Your responses were informative and helpful in my decision-making process.

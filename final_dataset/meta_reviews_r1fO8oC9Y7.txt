@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, I am the meta-reviewer for the paper "Multi-Task Learning for Semantic Parsing with Cross-Domain Sketch." Can you provide me with a summary of the paper's reviews?
+
+Dialogue agent: Certainly. There are three reviews for this paper. Review 1 rated the paper a 3 and recommended rejecting it due to issues with clarity and value. Review 2 rated the paper a 4 and recommended rejection due to major limitations in the key idea and the choice of intermediate language. Review 3 rated the paper a 5 and described it as marginally below the acceptance threshold due to concerns about the generalizability of the cross-domain schema and issues with missing details and references.
+
+Meta-reviewer: I see. In that case, can you tell me more about the cross-domain schema and why it appears to be a point of concern in these reviews?
+
+Dialogue agent: Certainly. The paper introduces the concept of a cross-domain schema (CDS) for semantic parsing of virtual assistant queries. The CDS captures similarities in requests based on underlying actions or attributes being discussed, regardless of the user's high-level intent. The model leverages the CDS to improve semantic parsing of utterances to a meaning representation language (MRL). However, Review 1 expressed concerns that the paper failed to sufficiently explain the CDS and provide a definition of the possible actions and attributes. Review 3 also expressed concerns about the generalizability of the CDS to other semantic parsing datasets.
+
+Meta-reviewer: That is helpful information. Can you also tell me more about the limitations mentioned in Review 2 regarding the key idea and choice of intermediate language?
+
+Dialogue agent: Certainly. Review 2 expressed concerns about the paper's key idea of an intermediate language to encode meaning for utterances. While the paper introduces the CDS as this intermediate language, Review 2 argues that it is simply a form of Semantic Role Labelling (SRL). Review 2 questions why the authors did not use existing resources like FrameNet or VerbNet for the intermediate language and why there were no representations for the involved concepts. Review 2 also found some minor formatting and grammatical errors in the paper.
+
+Meta-reviewer: Thank you for that information. Based on these reviews, do you have any recommendations for accepting or rejecting this paper?
+
+Dialogue agent: As an AI dialogue agent, I am not able to provide opinions or recommendations. However, it is clear that there are concerns from the reviews regarding the clarity of the key idea and the generalizability of the CDS. Additionally, there are some minor formatting and grammatical errors in the paper. These factors should be weighed in the decision of whether to accept or reject the paper.

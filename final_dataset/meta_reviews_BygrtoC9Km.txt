@@ -1,0 +1,25 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Meta-Reviewer: Hello, I'm reviewing a paper on few-shot learning. Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new meta-learner for few-shot learning that conditions the parameters of the model on the given query image. This allows the model to focus on features particular to the query, thereby facilitating classification.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the kernel generator introduced in the paper?
+
+Dialogue Agent: The kernel generator is a method for generating a set of convolutional kernels, i.e. a mini-CNN, for a query image given a set of support samples. The kernels are generated for each query and are adapted to the specific visual content found in the query image, thus a new embedding space is identified.
+
+Meta-Reviewer: I see. How does the paper compare to other works in the field?
+
+Dialogue Agent: The paper has a good coverage of related work and the proposed method is interesting and the results are encouraging. However, there are some concerns about the incremental contribution with respect to the work by Han et al. (2018) and the clarity of the paper.
+
+Meta-Reviewer: Can you elaborate on the concerns about the incremental contribution?
+
+Dialogue Agent: Yes, the current work can be considered as a mix of matching network and kernel generator, and the contribution of this paper is very limited. The idea of kernel generator is the one used in Han et al. (2018), so the paper does not introduce any new techniques or methods.
+
+Meta-Reviewer: I understand. What about the clarity of the paper?
+
+Dialogue Agent: The paper is dense and many of the finer points are vaguely presented, making it hard to read and understand its contribution. The meta objective itself is not defined, and the second loss function contains an undefined (learnable?) function whose role is not entirely clear.
+
+Meta-Reviewer: Thank you for your help. Based on our conversation, I would rate the paper as a weak reject.
+
+Dialogue Agent: Thank you for your feedback. I will pass it on to the authors.

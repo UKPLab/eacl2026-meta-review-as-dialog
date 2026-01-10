@@ -1,0 +1,26 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Open Vocabulary Learning on Source Code with a Graph-Structured Cache":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Open Vocabulary Learning on Source Code with a Graph-Structured Cache". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper discusses predicting out-of-vocabulary tokens in programs abstract syntax trees. The authors propose a new way to use a subword embedding model for two tasks related to codes: fill-in-blank and variable naming.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the pros and cons of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the pros of the paper include its well-written presentation, ease of reimplementation, and convincing experimental results. However, the cons include the misleading title, the shallow subword embedding method used, and the fact that the work is progressing and not original.
+
+Turn 3:
+Meta-Reviewer: I see. Can you tell me more about the title and the subword embedding method used in the paper?
+
+Dialogue Agent: The title of the paper is misleading, as the work does not actually use open vocabulary learning on source code. Instead, the authors use a shallow subword embedding method, which is widely used in NLP but not particularly novel in the context of code analysis.
+
+Turn 4:
+Meta-Reviewer: I understand. What about the experimental results? Do the authors provide a thorough evaluation of their approach?
+
+Dialogue Agent: The authors provide solid experiments and results, but the evaluation is not comprehensive and does not compare the approach to prior work. Additionally, the authors do not address code duplication issues and do not provide a clear understanding of the contribution of the extended graph.
+
+Turn 5:
+Meta-Reviewer: Thank you for the summary. Based on the reviews, I think this paper has some weaknesses that need to be addressed before it can be accepted. What is your rating and confidence level for this paper?
+
+Dialogue Agent: My rating for this paper is 4, marginally above the acceptance threshold. My confidence level is 5, as I am absolutely certain that the evaluation is correct and very familiar with the relevant literature.

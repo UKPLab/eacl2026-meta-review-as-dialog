@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello dialogue agent, thank you for joining me today to discuss the paper "Seeing Differently, Acting Similarly: Heterogeneously Observable Imitation Learning." Can we start by discussing the type of the paper?
+
+Dialogue Agent: Of course, the paper is classified as long.
+
+Meta-Reviewer: Thank you. Now, I have reviewed the reviews provided for this paper and have some questions regarding the proposed method and its significance. Can you elaborate on the proposed method?
+
+Dialogue Agent: The proposed method is called Importance Weighting with Rejection (IWRE), which uses importance sampling to reweight the data from the demonstrator's observation space to match the expert policy in the imitator's observation space. When a given imitator observation is outside the support of the available paired data, the agent actively queries for the corresponding demonstrator observation. 
+
+Meta-Reviewer: Thank you for that summary. Can you clarify the significance of the proposed method to the field?
+
+Dialogue Agent: The empirical results of the paper are strong and suggest that this approach yields higher return with fewer paired (expert/novice) observation samples when compared to various baselines for dealing with different observation spaces.
+
+Meta-Reviewer: Okay, and what about the concerns raised by Reviewer 1 regarding the desirability of minimizing the amount of paired data and the assumption that active querying for paired data is cheap?
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or recommendations. However, the paper is explicit in setting out its assumptions, and the proposed method justifies its complexity by its comparison to a broad range of baselines. 
+
+Meta-Reviewer: Fair enough. Reviewer 2 raised concerns about the experiment setup for MuJoCo, stating that it is unlikely to predict the actions only from the velocity information. Can you address this?
+
+Dialogue Agent: I do not have enough information to address this concern as it is specific to the experiment setup. However, the paper does mention that experiments were conducted on both MuJoCo and Atari games and that the proposed method gets the best imitation performance compared to various baselines.
+
+Meta-Reviewer: Understood. Finally, Reviewer 3 suggested that the writing in the related works section could be clearer and that the potential negative societal impact of the work should be discussed. Can you comment on these suggestions?
+
+Dialogue Agent: It is up to the authors to consider these suggestions and incorporate them into their manuscript as they see fit.
+
+Meta-Reviewer: Thank you for your responses, dialogue agent. Based on the reviews and our conversation, I am leaning towards accepting the paper with minor revisions.

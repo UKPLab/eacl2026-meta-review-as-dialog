@@ -1,0 +1,37 @@
+Meta-reviewer: Hello, I have read through the reviews for the paper titled "Conditional Network Embeddings". Can you give me a summary of the reviews?
+
+Dialogue Agent: Sure, the paper received three reviews. Review 1 gave a rating of 4, indicating that the paper is okay but not good enough for acceptance. The reviewer suggested comparing the proposed approach to other stronger methods such as graph convolution neural network/message passing neural networks/structure2vec. The reviewer expressed confidence in their evaluation, but not with absolute certainty. Review 2 gave a rating of 6 after reading the rebuttal, indicating that the paper is marginally above the acceptance threshold. The reviewer expressed concerns about the prior distribution and suggested using a more robust method for certain applications. Review 3 gave a rating of 5, indicating that the paper is marginally below the acceptance threshold. The reviewer highlighted unclear parts, the high complexity of the proposed algorithm, and the small data sets used in the experiments.
+
+Meta-reviewer: Based on these reviews, what is your overall impression of the paper?
+
+Dialogue Agent: As a dialogue agent, I do not provide opinions or recommendations. However, I can provide more information if needed.
+
+Meta-reviewer: Can you tell me more about the paper's type and title?
+
+Dialogue Agent: Yes, the type of the paper is "long," and the title is "Conditional Network Embeddings."
+
+Meta-reviewer: Given the reviews, I would like to know about the confidence levels of the reviewers in their evaluations.
+
+Dialogue Agent: Reviewer 1 expressed confidence but not with absolute certainty in their evaluation, giving a confidence level of 4. Reviewer 2 did not mention a confidence level. Reviewer 3 expressed confidence but not with absolute certainty in their evaluation, giving a confidence level of 4.
+
+Meta-reviewer: Thank you for the information. Based on the reviews, the paper seems to have a mixed reception. Can you provide more details on the proposed approach of the paper?
+
+Dialogue Agent: Certainly. The paper proposes the use of a prior distribution to constrain network embeddings by learning embeddings and pairing them with a prior distribution over networks. The proposed approach was tested on several datasets, and the experimental results showed that it is effective compared to existing state-of-the-art approaches for unsupervised node embeddings.
+
+Meta-reviewer: In Review 1, the reviewer suggested comparing the proposed approach to other stronger methods. Did the paper do this comparison?
+
+Dialogue Agent: The paper did not compare the proposed approach to other methods such as graph convolution neural network/message passing neural networks/structure2vec, as suggested in Review 1.
+
+Meta-reviewer: It seems that Review 2 had concerns about the prior distribution used in the paper and suggested using a more robust method for certain applications. Can you elaborate more on this?
+
+Dialogue Agent: Reviewer 2 suggested that a more predictive generative model that makes less hard assumptions on graph data would be interesting, as opposed to the current approach, which imposes structure on the network. The reviewer mentioned that recent work on neural generative models, such as GraphRNN, proposes models of networks with a higher degree of fidelity and fewer hand-picked features.
+
+Meta-reviewer: Finally, Review 3 expressed concerns about unclear parts and the high complexity of the proposed algorithm. Can you provide more information about this?
+
+Dialogue Agent: Reviewer 3 highlighted the lack of clarity in parts of the paper related to the definition of P_ij, the definition of the posterior distribution in Equation 6, and the integration of degree and block information into the model. The reviewer also expressed concern about the high complexity of the proposed algorithm.
+
+Meta-reviewer: Based on these reviews, I appreciate your help, but I am still undecided. Can you provide more information about the confidence levels of the reviewers?
+
+Dialogue Agent: Reviewer 1 expressed confidence but not with absolute certainty in their evaluation, giving a confidence level of 4. Reviewer 2 did not mention a confidence level. Reviewer 3 expressed confidence but not with absolute certainty in their evaluation, giving a confidence level of 4.
+
+Meta-reviewer: Thank you for your help. After considering the reviews and the confidence levels of the reviewers, I have decided to reject the paper.

@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I am reviewing the paper "Not All Memories Are Created Equal: Learning to Expire" and I have a few questions.
+
+Dialogue agent: Certainly. What can I help you with?
+
+Meta-reviewer: First off, could you tell me what type of paper this is?
+
+Dialogue agent: Yes, the paper is labeled as "long."
+
+Meta-reviewer: Thank you. I noticed that one of the reviews had concerns about the scalability and stability of the proposed approach. Do you have any additional information on this?
+
+Dialogue agent: The paper does acknowledge that the method is somewhat brittle to hyperparameter choice and that it requires sophisticated forms of regularization for the benchmarks performed. However, without a specific question, I cannot provide further information.
+
+Meta-reviewer: That's understandable. I'm also curious about the comparison with other baselines. Could you clarify the type of baselines used?
+
+Dialogue agent: Some reviewers pointed out that the baselines used in the experiments were not diverse enough and lacked comparison to other efficient transformers. Specifically, the paper only compares to standard transformers on certain benchmarks and only includes one efficiency-optimized model comparison with limited improvement. The authors did not specify how they controlled the memory size of the baselines in some of their figures. 
+
+Meta-reviewer: Thank you for the clarification. Lastly, I was curious about the value shown in Table 2 and how memory was computed in Figure 11. Do you have any information on those?
+
+Dialogue agent: The authors did not provide an explanation of the values shown in Table 2, and the caption is inconsistent with the numbers in Figure 7. For Figure 11, I believe the memory was computed by taking the hidden state of Memory Network at each time step and concatenating them into a tensor.
+
+Meta-reviewer: I see. Thank you for your help, dialogue agent. Your responses have been helpful in informing my decision on whether to accept or reject this paper.

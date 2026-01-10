@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Isometric 3D Adversarial Examples in the Physical World":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Isometric 3D Adversarial Examples in the Physical World". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for generating robust and natural adversarial examples in the physical world. The authors introduce a novel framework based on maintaining $\epsilon$-isometry between the original and adversarial point cloud model.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper considers a novel setting where the author's goal is to generate robust and natural adversarial examples for NNs working on 3-D point clouds that can also be realized in the physical world. The technical contributions are novel and tailored for creating physical, natural, and robust adversarial examples in the 3-D point cloud setting.
+
+Turn 3:
+
+Meta-Reviewer: Can you tell me more about the technical details of the paper?
+
+Dialogue Agent: The paper proposes a new attack algorithm called $\epsilon$-ISO, which is motivated by the fact that the distance metric on the Euclidean space does not consider geometric features and cannot accurately measure the similarity between 3D objects. The proposed method constrains the adversarial sample to be $\epsilon$-isometric to the original sample to ensure the geometric similarity and adopts the Gaussian curvature as the regularization.
+
+Turn 4:
+
+Meta-Reviewer: That sounds like a solid paper. What are the weaknesses of the paper?
+
+Dialogue Agent: The paper has some weaknesses, such as the lack of discussion on the potential societal impact of the proposed attack and the fact that the experiments are mostly focused on the recognition task, which may not be the most relevant application of point clouds in the real world.
+
+Turn 5:
+
+Meta-Reviewer: Based on the reviews, I'm leaning towards rejecting the paper. Can you provide any insights that might change my mind?
+
+Dialogue Agent: The paper has received mixed reviews, with some reviewers praising the novelty and technical contributions of the paper, while others have raised concerns about the relevance of the proposed attack and the lack of discussion on the potential societal impact. However, the paper does provide thorough evaluation comparisons between the proposed attack and other attacks, which may be a strength.
+
+Turn 6:
+
+Meta-Reviewer: After considering the reviews and your insights, I have decided to reject the paper. Thank you for your help in understanding the paper.
+
+Dialogue Agent: You're welcome! I'm here to assist you with any questions or concerns you may have.

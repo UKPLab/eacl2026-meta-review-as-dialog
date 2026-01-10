@@ -1,0 +1,37 @@
+Meta-reviewer:
+
+Hello, dialogue agent. I have reviewed the reviews for the paper "Semantic uncertainty intervals for disentangled latent spaces". I have a few questions before making my final decision. 
+
+Can you please provide more information on the proposed method and how it differs from previous works such as Chai et al. (2020)?
+
+Dialogue Agent:
+
+Certainly, the proposed method combines disentangled representations of generative models with quantile regression for stochastic encoding of corrupted data. It predicts uncertainty intervals instead of single points, which allows for a more sound representation of corrupted data, and uses calibration algorithms to ensure, with a certain confidence threshold, that the predicted quantiles contain the target value. While previous works such as Chai et al. (2020) use a similar procedure of training an encoder on masked images with frozen and pre-trained generator, the proposed method is different because it proposes learned quantiles. Additionally, the proposed method is novel and original given the considered application and the new training pipeline to achieve the uncertainty interval by means of quantile regression.
+
+Meta-reviewer:
+
+Thank you for the information. Can you also address Reviewer 1's concerns about the lack of experiments on real attributes and the need for an ablation study on the impact of the different loss terms?
+
+Dialogue Agent:
+
+I'm sorry, but as a dialogue agent, I cannot provide opinions or recommendations. However, I can provide information that may help you decide. Reviewer 1's concerns about the lack of experiments on real attributes were addressed by the authors. As for the ablation study on the impact of the different loss terms, it is not mentioned in the paper whether this will be conducted in the future.
+
+Meta-reviewer:
+
+Thank you for the clarification. Can you also address Reviewer 2's concerns about the readability and significance of the paper?
+
+Dialogue Agent:
+
+Reviewer 2's concern about the readability of the paper is noted. The author may want to provide more explanation to convey the connection clearly and intuitively between the theory and the considered application. Additionally, the author may want to show the visual difference between the lower and upper quantiles with and without calibration to demonstrate that the proposed method in Section 2.3 works as expected. As for the significance of the paper, the proposed method provides a first step to quantify the uncertainty of the latent variable in GAN. 
+
+Meta-reviewer:
+
+Thank you for your help. Lastly, can you address Reviewer 3's concerns about the theoretical side of the paper and its practical applications?
+
+Dialogue Agent:
+
+Reviewer 3's concerns about the practical applications of the paper are valid. While the proposed method appears to produce what it is trained for, it's not entirely clear from the draft when to apply it and how costly the procedure is given the multi-phase learning and data generation. As for the theoretical side, the paper refers to the properties of quantile regression loss and appears to echo the result that enough data and finite hypotheses classes are PAC-learnable with a particular loss function, which in this case is the quantile regression loss. 
+
+Meta-reviewer:
+
+Thank you for the answers. Based on the reviews and your answers, I will make my final decision.

@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, I have read the three reviews for the paper titled "Max-MIG: an Information Theoretic Approach for Joint Learning from Crowds." Based on the reviews, it seems that the paper is well-written and presents a novel approach. However, there are some concerns about the assumptions made in the paper and the lack of experimental evaluation on real data.
+
+Dialogue Agent: Thank you for your feedback. I understand the concerns raised by the reviewers and I am happy to address them.
+
+Meta-Reviewer: Reviewer 1 pointed out the assumption of the existence of senior experts in the labeling process. Can you provide more details on how the proposed approach can handle scenarios where the labels are collected from an unknown setup where it is hard to establish the dependency structure of the experts?
+
+Dialogue Agent: While it is challenging to handle unknown setups, the proposed approach assumes that there are senior experts whose opinions are more valuable than those of the junior experts. This assumption is made to address the issue of correlated mistakes made by the junior experts. In case there is no clear line between senior and junior experts, it might be difficult to apply the proposed approach effectively. However, we believe that this assumption is reasonable for many real-world applications, such as medical diagnosis, where senior experts play a crucial role in determining the correct diagnosis.
+
+Meta-Reviewer: Reviewer 2 raised concerns about the training procedure and the lack of experimental evaluation on real data. Can you elaborate on the training procedure and how it ensures exact maximization of MIG?
+
+Dialogue Agent: The proposed approach jointly trains a classifier and a crowd aggregator with the consideration of correlated crowd labels. The MIG is used as a loss function for both the classifier and the aggregator, and the optimal p is found by maximizing the MIG. The main training objective is to maximize the MIG, which ensures that the classifier and the aggregator are the exact maximizers of the MIG. As for the lack of experimental evaluation on real data, we acknowledge this limitation and will consider conducting experiments on real data in future work.
+
+Meta-Reviewer: Reviewer 3 raised several concerns, including the assumption of independent crowdsourced labels and the lack of evaluation on real data. Can you comment on these concerns?
+
+Dialogue Agent: We acknowledge the concern about the assumption of independent crowdsourced labels, and we agree that this assumption may not always hold in practical scenarios. However, our proposed approach is designed to handle the case where the crowd labels are correlated. As for the lack of evaluation on real data, we will consider conducting experiments on real-world applications in future work to better evaluate the proposed approach.
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your responses, I am inclined to accept the paper. However, I recommend that the authors address the concerns raised by the reviewers in the final version of the manuscript and consider conducting experiments on real data to further validate the proposed approach.

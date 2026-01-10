@@ -1,0 +1,21 @@
+ Sure! Here is the dialogue between the meta-reviewer and the dialogue agent for the paper "Universal Successor Features for Transfer Reinforcement Learning":
+
+Meta-Reviewer: Hello, I am reviewing the paper "Universal Successor Features for Transfer Reinforcement Learning". Can you tell me what the paper is about?
+
+Dialogue Agent: Sure! The paper proposes a generalization of the Successor Features (SFs) framework to a goal conditioning representation that could, in principle, generalize over a collection of goals at test time. This is akin to universal value functions [1] (and more generally GVFs). The paper claims three contributions: introducing the USF, proposing an appropriate deep learning architecture for it, and showing experimentally that USFs improve transfer both within a goal set and to novel goals.
+
+Meta-Reviewer: That sounds interesting. What are the main strengths of the paper?
+
+Dialogue Agent: The paper presents a simple yet elegant application of the USF framework, and the experiments demonstrate a significant advantage for USFs. The novel-goal results are particularly impressive, and the addition of Hindsight Experience Replay (HER) experiments pushes the results to a marginally above acceptance threshold.
+
+Meta-Reviewer: Okay, that sounds good. What about the weaknesses of the paper?
+
+Dialogue Agent: The paper's main weakness is that the extension to SFs is rather straightforward, and the authors do not attempt to extend the theoretical grounding of the framework. Additionally, the architecture is unsurprising, and the lack of ablations or alternatives makes it seem rather unmotivated. Finally, the usage of a Q-learning loss instead of a reward-prediction loss for updating phi is mentioned without citation, which could be a significant contribution if its advantage was demonstrated experimentally.
+
+Meta-Reviewer: I see. What are your recommendations for the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I recommend that the authors address the following points prior to publication acceptance: (1) provide a more motivated architecture, (2) attempt to extend the theoretical grounding of the framework, and (3) provide more detailed comparisons with existing methods, including UVFAs and HER. Additionally, the authors should consider addressing the omission of HER experiments in the novel-goal results. With these revisions, the paper could be marginally above the acceptance threshold.
+
+Meta-Reviewer: Thank you for your input. I will consider your recommendations when making my decision.
+
+Dialogue Agent: You're welcome! I hope my input is helpful.

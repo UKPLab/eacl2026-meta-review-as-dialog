@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you summarize the main contributions of the paper "Large Batch Size Training of Neural Networks with Adversarial Training and Second-Order Information"?
+
+Dialogue agent: The paper proposes an algorithm for training neural networks using large batch sizes. This is achieved by using information from the Hessian matrix to adaptively adjust the batch size during training. The authors also incorporate adversarial training as a regularization method and second-order information to automatically generate the step size and batch size in each iteration. The proposed algorithm is demonstrated on various datasets and compared with baseline algorithms.
+
+Meta-reviewer: The review ratings seem to be conflicting. One reviewer gave a rating of 7 and recommended acceptance, while the other two gave a rating of 4 and recommended rejection. How confident are the reviewers in their evaluations?
+
+Dialogue agent: The first reviewer who recommended acceptance is confident with a rating of 4, while the other two reviewers who recommended rejection are both confident with a rating of 4. However, the first reviewer's evaluation is based on the paper's strengths, while the other two reviewers' evaluations are based on the paper's weaknesses and shortcomings.
+
+Meta-reviewer: Can you elaborate on the weaknesses and shortcomings mentioned by the reviewers?
+
+Dialogue agent: Reviewer 1 criticized the paper for lacking detail in the description of the algorithm and for being essentially unreproducible in its current form. The reviewer also noted that the description of their method is lacking detail and that the description of Hessian computation is confusing. Reviewer 2 pointed out that the theoretical analysis is somewhat trivial and that the authors did not carefully characterize the learning rate to ensure that the loss function achieves epsilon-accuracy. The reviewer also found inconsistencies with the description of the algorithm and questioned how the authors determined the number of iterations for different algorithms shown in Tables 1 and 2. Reviewer 3 criticized the paper for having a poorly described algorithm and not providing sufficient explanation regarding the details of the algorithm. The reviewer also pointed out that the paper lacks a detailed theoretical analysis, that some of the theoretical results are inconsequential, and that the additional hyperparameters in the procedure are not given.
+
+Meta-reviewer: Given these criticisms, what do you recommend? Should we accept or reject the paper?
+
+Dialogue agent: Based on the reviews, it seems that the paper has significant weaknesses and shortcomings that need to be addressed before it can be considered for publication. The first reviewer found the paper "Ok but not good enough," while the other two reviewers recommended rejecting the paper. However, it ultimately depends on the meta-reviewer's judgement on the importance of improving the weaknesses and shortcomings versus the strengths of the paper.

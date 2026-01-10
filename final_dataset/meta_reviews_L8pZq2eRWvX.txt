@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper ProtoVAE and I have a few questions before I make a decision on whether to accept or reject the paper.
+
+Dialogue agent: Sure, I'm happy to help. What would you like to know?
+
+Meta-reviewer: Can you give me an overview of the strengths and weaknesses of the paper?
+
+Dialogue agent: Certainly. The paper proposes a self-explainable method that is capable of producing transparent, diverse, and trustworthy explanations for deep models. The proposed method achieves better predictive performance compared to related methods with five different datasets. The paper is well-written and the presentation is clear. The model also allows for both global and local explanations. However, the technique used to generate the prototypes could be explained more clearly, and the paper does not comment on the potential negative societal impact of their work. Additionally, some results do not have error bars in them, and the prototypes learned in CIFAR-10 are hard to interpret, which casts some doubt on the applicability of this method to real-world distributions.
+
+Meta-reviewer: Thank you. Do the reviewers raise any concerns about technical aspects or ethical considerations of the paper?
+
+Dialogue agent: No, all the reviews conclude that the paper is technically solid, with moderate-to-high impact, and no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. One reviewer suggests a more detailed discussion of the limitations with respect to scalability and current bottlenecks, but there are no obvious negative societal impacts that the authors need to address in more detail.
+
+Meta-reviewer: Can you tell me about the level of confidence the reviewers have in their assessment?
+
+Dialogue agent: The first two reviews have a confidence level of 3 and 4, respectively. They are fairly confident in their assessment, but it is possible that they did not understand some parts of the submission or are unfamiliar with some pieces of related work. The reviews suggest that math and other details were not carefully checked.

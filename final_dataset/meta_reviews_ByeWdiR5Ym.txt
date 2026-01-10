@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Adaptive Convolutional Neural Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Adaptive Convolutional Neural Networks" and I'd like to get your opinion on it.
+
+Dialogue Agent: Sure, I can provide you with a summary of the reviews. The first review states that the paper presents a cool idea for enabling "adaptive" kernels for CNNs, which allow for dramatic reduction in model size with moderate to large performance drops. However, the reviewer suggests that the authors should add more explanation about the value of this adaptation. The second review states that the paper introduces adaptive kernels to the framework of CNN, which reduces memory usage and training speedups. However, the evaluation of the proposed adaptive kernels is rather limited.
+
+Turn 2:
+
+Meta-Reviewer: Thank you for the summary. I'm particularly interested in the adaptive kernels idea. Can you tell me more about that?
+
+Dialogue Agent: Sure. The authors propose using adaptive kernels that adapt their weights as a function of image content, which reduces memory usage and training speedups. The reviewers suggest that the authors should provide more explanation about the value of this adaptation and explore the idea further.
+
+Turn 3:
+
+Meta-Reviewer: That's interesting. What about the comparison to other methods?
+
+Dialogue Agent: The reviewers suggest that the authors should include more comparisons to other methods in the experimental section and position the ideas from the paper w.r.t. existing works. Additionally, one reviewer mentions that the ideas presented in the paper seem related to general concept of hypernetworks, where one network learns (or helps to learn) parameters of the other network.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper has some interesting ideas but the evaluation is rather limited. I'm leaning towards rejecting the paper. What do you think?
+
+Dialogue Agent: Based on the reviews, the paper presents some interesting ideas with some degree of originality, but the evaluation is limited. I agree with the reviewer that the authors should extend the intro and position the ideas w.r.t. existing works and extend the evaluation. However, I cannot make a final decision on the paper's acceptance or rejection.
+
+Turn 5:
+
+Meta-Reviewer: I see. Well, I think I've made my decision. Thank you for your help.
+
+Dialogue Agent: You're welcome. If you have any other questions or need further assistance, feel free to ask.

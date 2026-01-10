@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer assigned to review the paper titled "FERMI: Fair Empirical Risk Minimization via Exponential Rényi Mutual Information." Can you please provide me with a brief summary of this paper?
+
+Dialogue Agent: Certainly. This paper introduces a new fairness notion that takes an exponential form of Renyi mutual information. The paper establishes that the Exponential Renyi Mutual Information is a strong notion to ensure fairness and proposes an algorithm to train a fair classifier, with the mutual information being penalized in the objective function. The performances of the method are then demonstrated on three datasets and compared with some prior algorithms.
+
+Meta-reviewer: Based on the reviews, it seems that Reviewer 1 is marginally below the acceptance threshold, while Reviewers 2 and 3 recommend accepting the paper. Could you tell me more about the strengths and weaknesses mentioned by the reviewers?
+
+Dialogue Agent: Reviewer 1 noted that Theorems 1/2/3 establish that ERMI is an upper bound of other popular notions, and explicit algorithms are developed for estimating the notion as differential functions w.r.t. model parameters. However, the reviewer indicated that the tightness analysis is more important than the upper bound, no justification is provided behind the assumption in Algorithm 1, some baselines based on mutual information are missing in the experiments, among other points.
+
+On the other hand, Reviewer 2 appreciated the idea of combining information theory notions to quantify independence and applying it to fair machine learning. Still, some of the mathematical notations in the paper were concerning. Additionally, it is not clear why a stronger notion is preferable for the penalized optimization proposed in the paper.
+
+Finally, Reviewer 3 noted that FERMI leads to a better tradeoff between performance and fairness, and the authors provide a unified view of the existing fairness violation notions and propose a new notion: Exponential Rényi Mutual Information (ERMI). However, the quality of the empirical estimate of the probability distributions P(s), P(y) and P(y,s) is a concern, and they suggested specifying whether some of the upper bounds are known before this work and how tight they are.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, it seems that there are some concerns and suggestions regarding the methodology and explanations provided in the paper. However, Reviewers 2 and 3 recommend accepting the paper, while Reviewer 1 is marginally below the acceptance threshold. Given this, I have to weigh the importance of reviewer confidence in making a final decision. 
+
+Dialogue Agent: I understand. Do you have any questions or need me to provide any further information?
+
+Meta-reviewer: No, thank you for your help. I will need some time to make a final decision.

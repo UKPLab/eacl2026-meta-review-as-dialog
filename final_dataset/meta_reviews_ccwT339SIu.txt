@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Contrastive Video Textures":
+
+Turn 1:
+
+Meta-Reviewer: Hi there, I'm reviewing a paper titled "Contrastive Video Textures" and I'd like your help in assessing its quality. Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a non-parametric approach for video generation, inspired by Video Textures (Schodl et al., 2000). The authors improve the classic video texture synthesis method by replacing pixel similarity with a distance metric learning to measure the transition probabilities. Additionally, they extend the proposed approach to audio conditioned video synthesis.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include improving the classic video texture synthesis method and extending the approach to audio conditioned video synthesis. However, the weaknesses include the fact that the proposed approach is not able to generalize to different videos or has to be video-specific, and the lack of analysis or comparisons to justify some important hyper-parameters.
+
+Turn 3:
+
+Meta-Reviewer: Okay, I see. What is the rating and confidence level of the reviews?
+
+Dialogue Agent: Based on the reviews, the rating is 4: Ok but not good enough - rejection, and the confidence level is 5: The reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. Based on the reviews, do you think the paper is acceptable or should it be rejected?
+
+Dialogue Agent: Based on the reviews, the paper should be rejected due to its limited novelty and lack of analysis or comparisons to justify some important hyper-parameters.
+
+Turn 5:
+
+Meta-Reviewer: I see. Thank you for your help in assessing the paper.
+
+Dialogue Agent: You're welcome! Is there anything else I can help with?

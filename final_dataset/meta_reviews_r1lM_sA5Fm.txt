@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Assumption Questioning: Latent Copying and Reward Exploitation in Question Generation":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Assumption Questioning: Latent Copying and Reward Exploitation in Question Generation". Can you tell me a little bit about the paper?
+
+Dialogue Agent: Sure! The paper investigates the use of copy mechanisms for the question generation task, specifically looking at the SQuAD dataset. It proposes a popular seq2seq/encoder-decoder model with copy mechanisms using pointer networks.
+
+Turn 2:
+
+Meta-reviewer: Okay, I see. What are some of the strengths and weaknesses of the paper?
+
+Dialogue Agent: Well, the paper is well-motivated and the authors provide an interesting analysis of human/automatic metrics. However, some reviewers have noted that the tricks used in the paper are a bit ad hoc and the baseline results are too low. Additionally, the paper only evaluates on one dataset and lacks comparison results of question generation in literature.
+
+Turn 3:
+
+Meta-reviewer: I see. What do you think about the authors' use of copy mechanisms in the paper?
+
+Dialogue Agent: The authors use copy mechanisms to improve the question generation task, specifically addressing the issue of overlap between global and location vocabulary lists. However, some reviewers have noted that the paper could benefit from a more systematic study of the copy mechanisms.
+
+Turn 4:
+
+Meta-reviewer: Okay, I think I have a good sense of the paper now. Can you tell me about the reviews it has received?
+
+Dialogue Agent: Sure! The paper has received three reviews. Review 1 notes that the results are interesting, but the authors could provide more insights on which features contribute to the improvement. Review 2 states that the paper is poorly written and lacks novelty, and Review 3 states that the paper is well-motivated but could benefit from a more systematic study of the copy mechanisms.
+
+Turn 5:
+
+Meta-reviewer: Thanks for the information. Based on the reviews and your summary, I think I have a good sense of the paper's strengths and weaknesses. What is your final recommendation for the paper?
+
+Dialogue Agent: Based on the reviews and the paper's content, I recommend that the paper be rejected. While it has some interesting aspects, the baseline results are too low and the paper lacks a more systematic study of the copy mechanisms.
+
+Meta-reviewer: Okay, I agree with your recommendation. Thank you for your help in evaluating this paper!

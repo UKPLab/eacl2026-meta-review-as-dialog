@@ -1,0 +1,25 @@
+ Sure, I'd be happy to help you with that! Here's a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, based on the provided reviews:
+
+Meta-Reviewer: Hello, I'm reviewing a paper on Star Temporal Classification (STC) for weakly supervised sequence labeling tasks. Can you help me understand the key contributions of this paper?
+
+Dialogue Agent: Sure! STC proposes a new approach to train sequential models when some labels are missing. The key idea is to use a special star token to allow alignments including all possible tokens whenever a token could be missing.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of this paper?
+
+Dialogue Agent: The paper is well-written and clearly formulates the problem of missing labels. The proposed method uses differentiable WFSTs to implement the loss function, which is a new technique. The experiments are conducted on speech recognition and handwriting recognition tasks, and demonstrate the effectiveness of STC.
+
+Meta-Reviewer: Can you tell me more about the experiments?
+
+Dialogue Agent: The experiments are conducted on Librispeech and IAM datasets, and show that STC outperforms CTC training on these datasets. However, some reviewers have raised concerns about the practical motivation of the paper and the limited evaluation.
+
+Meta-Reviewer: What are the concerns about the practical motivation and limited evaluation?
+
+Dialogue Agent: Some reviewers have pointed out that the practical motivation of the paper is somewhat strained, as the instances where labels may be missing (e.g., occlusion) are not fully explored. Additionally, the baseline comparison is limited to fully labeled data, and there is no evaluation at pDrop=0.0, which limits the impact of the paper.
+
+Meta-Reviewer: I see. How do you think these concerns should be addressed?
+
+Dialogue Agent: The authors could provide more practical examples and exploration of the instances where labels may be missing. Additionally, the authors could provide an evaluation at pDrop=0.0 to demonstrate the effectiveness of STC in more realistic scenarios.
+
+Meta-Reviewer: Thank you for your help! Based on these reviews, I think the paper has some strengths, but also some concerns that need to be addressed. I will consider these factors when making my final decision.
+
+Dialogue Agent: You're welcome! I hope this helps you make an informed decision. If you have any further questions, please don't hesitate to ask.

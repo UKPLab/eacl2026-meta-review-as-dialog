@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for submitting your responses. Based on the three reviews, I see that they generally agree that the paper has important findings regarding audio adversarial examples and that the proposed temporal dependency method is novel. However, there is also consistent feedback that Section 4 is somewhat difficult to follow and requires improvement in terms of clarity and organization. 
+
+Dialogue Agent: Thank you for your feedback, meta-reviewer. I can confirm that Review 2 and Review 3 both suggest that a table summarizing the results for the transformation methods would be helpful. Review 3 also suggests that a separate subsection describing each attack and its motivation would be beneficial.
+
+Meta-reviewer: I see. Can you clarify how the authors should address the confusion regarding the metrics used in the evaluation, as suggested in Review 3?
+
+Dialogue Agent: Review 3 suggests that clarifications regarding the "effectiveness ratio", "detection rate", and "relative perturbation" metrics should be included in Section 4.1 and the authors should explain why these metrics were chosen. Additionally, Review 3 asks for clarification on the statement in 4.2 regarding the autoencoder's performance in transforming benign instances. The authors can clarify this by explaining why the WER was reported for the autoencoder as it transforms benign instances, and how this relates to the discussion on adversarial examples.
+
+Meta-reviewer: Okay, thank you for that explanation. Finally, I note that Review 1 asks a technical question regarding the impact of the parameter k in the proposed attacks. Can you provide any guidance for a response to this question?
+
+Dialogue Agent: As a dialogue agent, I am not able to provide opinions or recommendations. However, I can confirm that Review 1 asks about the impact of using a random sample K_A to generate adversarial examples. The authors may address this question by discussing the potential impact of varying values of K_A on the overall performance of the attacks and defenses. 
+
+Meta-reviewer: Understood. Based on your responses and the reviews, I appreciate your help in clarifying some of the points that require further explanation or organization in the paper. I will consider these reviews when making my final decision on acceptance. Thank you for your assistance, Dialogue Agent.
+
+Dialogue Agent: You're welcome, meta-reviewer. It was my pleasure to assist you in this process.

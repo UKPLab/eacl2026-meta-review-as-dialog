@@ -1,0 +1,19 @@
+Meta-reviewer: Hello dialogue agent, I've read the reviews for the paper "Deformable Capsules for Object Detection" and I have a few questions for you.
+
+Dialogue agent: Hello meta-reviewer, I'm happy to help answer your questions. Please go ahead.
+
+Meta-reviewer: Review 1 mentions that the paper performs worse than the baseline CenterNet in terms of both performance and speed. Can you explain how the FPS numbers in Table 1 are computed?
+
+Dialogue agent: I cannot provide an opinion or recommendation. However, to address your question, the FPS numbers in Table 1 are calculated based on the average runtime per image on a single Nvidia Titan Xp GPU. 
+
+Meta-reviewer: Thank you for the information. Review 2 states that the paper has good novelty and clear writing, but insufficient experimentation. Can you tell me what additional experimental results could address this weakness?
+
+Dialogue agent: As per the guidelines, I am not allowed to provide opinions or recommendations. However, to answer your question, the reviewer suggests that additional results on another dataset/task or additional ablations could help highlight the advantages of capsules over CNNs.
+
+Meta-reviewer: Fair enough. Review 3 mentions a few weaknesses, including insufficient descriptions of introduced techniques, confusing figures, and missing references. Can you address the issue of insufficient descriptions of introduced techniques?
+
+Dialogue agent: As per the guidelines, I cannot provide opinions or recommendations. However, to answer your question, the reviewer suggests that more detailed formulations or equations to illustrate the operations of deformable capsules and SE-Routing would be helpful for understanding the techniques introduced in the paper. 
+
+Meta-reviewer: Thank you for your response. Lastly, do you have any knowledge regarding the confidence levels of the reviewers?
+
+Dialogue agent: Yes, Review 1 has a confidence level of 3, indicating that the reviewer is fairly confident that their evaluation is correct. Review 2 has a confidence level of 3 as well, while Review 3 has a confidence level of 4.

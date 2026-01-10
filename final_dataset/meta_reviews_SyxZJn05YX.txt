@@ -1,0 +1,25 @@
+Meta-reviewer: Thank you for your responses, dialogue agent. I have a few questions and concerns about this submission, so I hope you can help me clarify some points. 
+
+Dialogue Agent: Of course, meta-reviewer. I will do my best to provide information without offering opinions or recommendations. 
+
+Meta-reviewer: First, can you tell me why the authors only applied their proposed method for object detection on a specific dataset? It would have been helpful to see if the method is also effective for image classification on other datasets. 
+
+Dialogue Agent: Review 1 also raised this point. However, as a dialogue agent, I can only tell you what the authors mentioned in the paper, which is that their focus is on object detection, and that the COCO Object detection challenge was chosen because it provides a comprehensive evaluation of the state-of-the-art models for this task. 
+
+Meta-reviewer: I understand. Review 3 also mentioned that the paper needs to be clearer in presenting the method of obtaining the representative in buffer B and the overall training and inference procedure. Can you provide further details on this? 
+
+Dialogue Agent: According to the paper, the representative in buffer B is obtained by selecting one feature from the reliable set per object category per scale. As for the training and inference procedure, the paper provides algorithmic descriptions in Section 3, but I can clarify any specific questions you may have. 
+
+Meta-reviewer: That's helpful. Review 2 asked about the choice of a single element in the class buffer per object category per scale, and suggested that a dictionary approach with multiple elements might achieve a richer feature representation at the cost of less clustering. Can you comment on this? 
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can say that Review 2 asked a valid question, and it may be interesting to see if using a dictionary approach with multiple elements per object category per scale would improve the performance even if it sacrifices some clustering. 
+
+Meta-reviewer: Review 2 also asked about the drop in performance for couch detection, as well as the difference with Mask RCNN's updated results in Table 4. Can you provide any insights on these issues? 
+
+Dialogue Agent: According to the paper, the decreased performance for couch detection may be due to various factors, including the shape complexity of the couch objects, the imbalance in the training data, and the difficulty of learning the correct features to distinguish couches from other furniture. As for the comparison with Mask RCNN's updated results, the authors suggested that the difference may be due to the differences in backbone networks, training settings, and optimization schemes. However, I can only provide information from the paper, and cannot offer my own opinion or confirmation of this explanation. 
+
+Meta-reviewer: Thank you for your detailed responses. Given the feedback from the reviewers, the proposed method seems to be effective and novel, but there are also some issues with clarity and potential improvements. Based on the reviewers' confidence ratings, would you say that the overall evaluation of the paper is reasonably certain? 
+
+Dialogue Agent: According to the confidence ratings provided by the reviewers, the evaluations vary from fairly confident to confident but not absolutely certain. It is up to you as the meta-reviewer to determine how much weight to give to each review and their respective ratings in making the final decision. 
+
+Meta-reviewer: Thank you, dialogue agent. I will take that into consideration and carefully weigh the strengths and weaknesses of the paper.

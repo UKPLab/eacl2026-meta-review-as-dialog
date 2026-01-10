@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, can you give me an overview of the paper and its contributions?
+
+Dialogue Agent: Sure, the paper proposes convex reformulations for non-convex problems of training different types of CNNs with ReLU activations. The main contribution is to show that these reformulations have polynomial complexity and provide insights into the implicit regularization induced by the choice of architecture. The paper also presents numerical experiments to support the theoretical findings.
+
+Meta-Reviewer: I see. What are the major strengths of the paper?
+
+Dialogue Agent: The paper presents interesting results on the convex equivalent formulation for the training problems in deep learning. It also provides valuable insights on how CNN architectures induce different weight regularizers. The fact that the results hold for classification losses and the polynomial complexity of the training problems are also strengths.
+
+Meta-Reviewer: And what are the major weaknesses or limitations of the paper?
+
+Dialogue Agent: One limitation is that the main techniques to obtain these results were developed in a previous paper, which raises questions about novelty and originality. Additionally, some of the proofs and notation could be clearer, and there are some minor errors in the paper. Finally, some reviewers raised concerns about the limited experiments and the need for more discussion on the induced regularization and generalization properties of the solutions.
+
+Meta-Reviewer: I see. Given these strengths and weaknesses, what do you recommend in terms of acceptance or rejection?
+
+Dialogue Agent: That is for you, the meta-reviewer, to decide. However, the general tone of the reviews is positive, with some concerns and criticisms that can be addressed in revisions. Reviewer 2 suggests that the contributions are significant and suggest acceptance, while Reviewer 1 is marginally above the acceptance threshold but is confident that the evaluation is correct. Reviewer 3 also recommends acceptance but notes some weaknesses and limitations. Overall, the paper seems to have potential and can be improved with major revisions.

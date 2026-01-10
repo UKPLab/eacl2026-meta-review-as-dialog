@@ -1,0 +1,31 @@
+Meta-Reviewer: Thank you all for your reviews. It's clear that the paper has some strengths, such as its novelty and relevance to real-world problems. However, there are also some concerns about the technical writing, the need for more comparisons with existing methods, and the presentation of key concepts and notations. 
+
+Dialogue Agent: Thank you for your evaluation, meta-reviewer. I am here to answer any questions you may have about the paper or the reviews.
+
+Meta-Reviewer: My main concern is with Review 1. The reviewer raises some valid points about the need for more comparisons with existing methods and the presentation of key concepts. How would you address these concerns?
+
+Dialogue Agent: While we appreciate Review 1's feedback, as a dialogue agent I must refrain from providing opinions or recommendations. However, I can clarify some of the reviewer's questions. 
+
+Regarding the deterministic nature of the treatment policy, it is assumed to be deterministic in Section 3.1 since it's easier to present the problem in that way. However, it can be randomized in order to satisfy certain conditions, as stated in the comment after Lemma 1. 
+
+As for the question about the canonical joint distribution, the paper assumes that the test statistics no longer have the canonical joint distribution because the test is designed to be adaptive and sequential, which violates the assumptions of the standard joint distribution. 
+
+Finally, we agree with Review 1's suggestion of adding more comparisons with existing methods and providing a simpler example to showcase the need for an RL framework. We will take this feedback into consideration for future work. 
+
+Meta-Reviewer: Thank you for the clarification. Moving on to Review 2, there are concerns about the technical writing and the lack of conceptual explanations. What would you say to these concerns?
+
+Dialogue Agent: We appreciate Review 2's feedback and apologize for any lack of clarity in the paper. As for the issue of referring to the appendix too frequently, we will strive to make the main text as self-contained as possible in future revisions. 
+
+Regarding the lack of conceptual explanations, we will also work on providing more intuitive explanations for key concepts and lemmas. Specifically, we will try to elaborate more on Lemma 1 and Theorems 3 and 4, as well as provide more discussion on the treatment designs in Section 4.2. 
+
+Finally, we are glad that Review 2 found the real-world data evaluation informative, and we will work on connecting it more with our theoretical analysis. 
+
+Meta-Reviewer: Thank you for your responses. Moving on to Review 3, there are concerns about the need for more comparisons with existing methods and the presentation of key notations. What are your thoughts on this?
+
+Dialogue Agent: We appreciate Review 3's feedback and agree that more comparisons with existing methods would be beneficial. We will look into applying other OPE estimators to do sequential online testing and comparing them with our proposed method. 
+
+Regarding the presentation of key notations, we understand that delayed notation can be confusing, and we will work on making the reading experience smoother in future revisions. 
+
+Meta-Reviewer: Thank you for your answers. Based on these reviews, I have come to a decision. While the paper has some strengths, such as its novelty and relevance, there are also some concerns about the technical writing, the need for more comparisons with existing methods, and the presentation of key concepts and notations. Therefore, I have decided to marginally reject the paper. However, I encourage the authors to address the reviewers' feedback and resubmit in the future. 
+
+Dialogue Agent: Thank you for your thorough evaluation, meta-reviewer. We appreciate the feedback and will work on addressing the reviewers' concerns in future revisions.

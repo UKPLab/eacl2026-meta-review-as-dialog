@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you tell me a bit about this paper "On Regularization and Robustness of Deep Neural Networks"?
+
+Dialogue agent: Sure, this paper looks at the regularization and robustness of deep neural networks from the perspective of reproducing kernel Hilbert spaces. The authors derive upper and lower bounds for the kernel norm that can be used as regularizers to train more robust neural networks. They also show that these bounds can be used to recover existing techniques such as spectral norm penalizations and gradient regularization. Additionally, they derive generalization bounds from the point of view of adversarial learning.
+
+Meta-reviewer: I see. Can you tell me more about the reviews?
+
+Dialogue agent: Review 1 notes that the paper has interesting findings, but the reviewer's major concern is the lack of novel contributions. Review 2 agrees that there are some interesting ideas in the paper but ultimately not enough to make a compelling independent paper. The reviewer points out that many similar works exist and the contribution of connecting these works to the RKHS norm may not be enough. Review 3 finds the paper a little confusing but believes it is marginally above the acceptance threshold. The reviewer suggests carefully delineating the authors' work from prior work and clarifying some details in the paper.
+
+Meta-reviewer: Hmm, two reviews suggest there is not enough novelty in the paper. How confident are the reviewers in their evaluations?
+
+Dialogue agent: Reviewer 1 is fairly confident with a confidence rating of 3, while reviewer 2 is also confident but not absolutely certain with a confidence rating of 4. Reviewer 3 is not confident with a confidence rating of 2.
+
+Meta-reviewer: Based on these reviews, I'm still unclear about whether to accept or reject the paper. Can you provide more information on the paper's type and the reviewers' ratings?
+
+Dialogue agent: The paper's type is "long." Reviewer 1 had a rating of 5, which is marginally below the acceptance threshold. Reviewer 2 had a rating of 4, which is considered "Ok but not good enough - rejection." Reviewer 3 had a rating of 6, which is marginally above the acceptance threshold.
+
+Meta-reviewer: I see. Since two out of three reviews have concerns about the novelty of the paper, I think it's best to reject it. Thank you for your help.

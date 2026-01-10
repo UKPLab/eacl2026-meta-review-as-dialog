@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hi there, I'm reviewing a paper called "Synergy-of-Experts: Collaborate to Improve Adversarial Robustness". Can you tell me a bit about the paper and its type?
+
+Dialogue Agent: Sure! The paper is a long paper that introduces a model collaboration scheme to tackle the insufficient model capacity against adversarial examples. The proposed algorithm uses a selective routing module to route each sample to the best model for prediction, which can improve the model's adversarial robustness.
+
+Turn 2:
+
+Meta-Reviewer: Great, I've read the reviews for the paper. What do you think of the reviews?
+
+Dialogue Agent: Based on the reviews, the paper has some strengths, such as the authors' rethinking of the classic voting-based strategy and their proposal of a new "collaboration" strategy. However, there are also some weaknesses, such as the formulation of the evaluator head in the SoE and the lack of direct demonstrations of the method's effectiveness.
+
+Turn 3:
+
+Meta-Reviewer: Interesting. What are your thoughts on the reviews? Do you think they accurately reflect the paper's quality?
+
+Dialogue Agent: I cannot provide an opinion on the reviews, but I can summarize the strengths and weaknesses of the paper based on the reviews. The reviews highlight the paper's technical solidity, impact on at least one sub-area, and good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the reviews also mention some weaknesses, such as the formulation of the evaluator head in the SoE and the lack of direct demonstrations of the method's effectiveness.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful. Based on your summaries, do you think the paper should be accepted or rejected?
+
+Dialogue Agent: Based on the reviews, I would say that the paper should be accepted with a rating of 7: Technically solid paper, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the reviews also mention some weaknesses, such as the formulation of the evaluator head in the SoE and the lack of direct demonstrations of the method's effectiveness.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help. I think I have a good understanding of the paper and its reviews now.
+
+Dialogue Agent: You're welcome! Is there anything else I can help with?

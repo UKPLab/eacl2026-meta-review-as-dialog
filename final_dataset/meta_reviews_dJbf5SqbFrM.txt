@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper on continuous transfer learning:
+
+Turn 1:
+
+Meta-reviewer: I have read the paper and have some questions about the C-divergence measure and its relation to previous divergence measures. Can you help me understand the reason for the label dependency in the paper?
+
+Dialogue Agent: Sure! The label dependency in the paper is motivated by the fact that the target domain varies/evolves over time, and the source domain is considered static. The C-divergence measure is well-motivated and related to previous divergence measures such as A-distance and disc distance. However, I cannot provide a detailed explanation without knowing the specific questions you have. Can you provide more information about what you would like to know?
+
+Turn 2:
+
+Meta-reviewer: I have some minor questions about the notation and the supplementary material. Specifically, I would like to know more about how to get Eq 4 from Lemme 4.2 and why the ELBO term is needed in the bound. Additionally, I noticed some notational issues in Equation 9 and the supplementary material. Can you help me understand these points?
+
+Dialogue Agent: Certainly! The notation issues in Equation 9 and the supplementary material are minor and do not affect the main results. The ELBO term is needed in the bound to ensure that the distance measure is non-negative. As for how to get Eq 4 from Lemme 4.2, I can provide a brief explanation. The bound in Lemme 4.2 is a upper bound on the distance between the joint distribution of the target domain and the source domain. To get Eq 4 from Lemme 4.2, we can use the fact that the bound is a upper bound on the distance to show that the distance between the joint distribution of the target domain and the source domain is upper bounded by the bound. Would you like me to provide more information or clarify any specific points?
+
+Turn 3:
+
+Meta-reviewer: I have some major questions about the applicability of the C-divergence measure and the CONTE algorithm to practical applications. Specifically, I would like to know how the method can be adapted to the problem setting of product reviews, where the review data is not only from the same target distribution but samples different regions of the same target distribution. Additionally, I would like to know more about the potential improvement of the algorithm and the comparison to baselines in Continual learning.
+
+Dialogue Agent: The C-divergence measure and the CONTE algorithm can be adapted to the problem setting of product reviews by using the time-evolving domain decay rate in the main results and algorithm. This allows the method to be more broadly applicable to practical applications. Additionally, the potential improvement of the algorithm is to assign the weight $\omega_j$ inverse proportional to $d_c(\cdot, \cdot)$ and the error could be potentially reduced. As for the comparison to baselines in Continual learning, the method can be compared to Negative transfer (such as Gradient Episodic Memory) which is the most recent work in Continual learning. Would you like me to provide more information or clarify any specific points?
+
+Turn 4:
+
+Meta-reviewer: I have some additional minor questions about the proof of the main results and the algorithm. Specifically, I would like to know more about the time-evolving domain decay rate and how it is related to the C-divergence measure. Additionally, I noticed some potential improvement of the algorithm that could be made.
+
+Dialogue Agent: The time-evolving domain decay rate is related to the C-divergence measure in that it allows the method to be more broadly applicable to practical applications. Additionally, the potential improvement of the algorithm is to assign the weight $\omega_j$ inverse proportional to $d_c(\cdot, \cdot)$ and the error could be potentially reduced. As for the proof of the main results and the algorithm, I can provide a brief explanation. The proof of the main results is based on the C-divergence measure and the upper bound on the distance between the joint distribution of the target domain and the source domain. The algorithm is based on the C-divergence measure and the time-evolving domain decay rate. Would you like me to provide more information or clarify any specific points?
+
+Turn 5:
+
+Meta-reviewer: Thank you for the clarification. Based on the information provided, I would rate the paper as marginally above acceptance threshold with a confidence level of 4. The paper presents a well-motivated and related measure of the joint distribution discrepancy in the two domains, and the results seem to be interesting and the problem this paper studies is important. However, the domain rate in the main results and algorithm could be easily generalized which can make the results more broadly applicable. Additionally, it needs more clarification about the motivation of using the C-divergence measure in the time-evolving target domain.
+
+Dialogue Agent: Thank you for the feedback. Based on the information provided, I would rate the paper as marginally above acceptance threshold with a confidence level of 4. The paper presents a well-motivated and related measure of the joint distribution discrepancy in the two domains, and the results seem to be interesting and the problem this paper studies is important. However, the domain rate in the main results and algorithm could be easily generalized which can make the results more broadly applicable. Additionally, it needs more clarification about the motivation of using the C-divergence measure in the time-evolving target domain.

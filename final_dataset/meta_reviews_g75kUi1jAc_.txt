@@ -1,0 +1,26 @@
+ Sure, here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "WAFFLe: Weight Anonymized Factorization for Federated Learning":
+
+Turn 1:
+Meta-reviewer: Hi there, I'm reviewing a paper titled "WAFFLe: Weight Anonymized Factorization for Federated Learning". Can you tell me a little bit about the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper proposes a novel approach to federated learning called WAFFLe, which decomposes model parameters into two sub-modules with task-specific weight factors. The authors adopt the IBP process for sparse selections of the factors per client, which mitigates interferences across local clients. The paper shows that WAFFLe largely outperforms baselines like FedAvg, FedProx, and p-FFL on two different non-iid settings.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the IBP process and how it relates to the proposed method?
+
+Dialogue Agent: Sure! The IBP process is used to learn the local active factors in Section 2.2, which is almost incomprehensible. The terms $v$ and $\pi$ are never defined, and it is unclear what the distribution $q$ corresponds to. While there may not be sufficient space in the main body to provide a detailed description, it should be included in the supplementary material without assuming detailed prior knowledge of Bayesian nonparametrics.
+
+Turn 3:
+Meta-reviewer: I see. What about the motivation and privacy claims of the paper? Are they clear and well-justified?
+
+Dialogue Agent: The motivation and privacy claims of the paper are not entirely clear. The authors propose WAFFLe as a solution to the problem of non-iid data in federated learning, but they do not provide a detailed analysis of the privacy guarantees of the proposed method. The paper only mentions that the IBP prior induces sparsity, but it does not provide a theoretical guarantee that WAFFLe indeed can protect clients' data.
+
+Turn 4:
+Meta-reviewer: I see. What about the experimental results and comparison with other methods? Are they sufficient to support the claims of the paper?
+
+Dialogue Agent: The experimental results in Section 4.4 show that WAFFLe largely outperforms baselines like FedAvg, FedProx, and p-FFL on two different non-iid settings. However, the authors only considered single-model FL algorithms and did not compare with other methods that also maintain individual local models or multiple global models. Additionally, the authors did not provide an adaptive attack algorithm, which could have performed much better.
+
+Turn 5:
+Meta-reviewer: Thank you for the information. Based on the reviews, I would rate this paper as marginally below acceptance threshold. The proposed method seems reasonable, but the lack of intuition about the architectural design and the limited experimental comparison may be a concern.
+
+Dialogue Agent: Thank you for your feedback. The authors should address these concerns in their revision and provide more insights into the necessity of the proposed method and a more comprehensive comparison with other methods in the field.

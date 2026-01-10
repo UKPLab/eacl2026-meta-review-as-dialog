@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper titled "Trust Region Policy Optimization with Optimal Transport Discrepancies: Duality and Algorithm for Continuous Actions." Can you give me a brief summary of the paper?
+
+Dialogue agent: Certainly. The paper proposes a new approach to the trust region policy optimization problem by replacing the KL divergence policy discrepancy constraint in TRPO with optimal transport discrepancies, such as Wasserstein distance. The paper derives a dual form of the constrained problem, which contains a Lagrange multiplier, and shows that the optimal solution of each step can be efficiently computed using off-the-shelf solvers. Experiments on both discrete and continuous settings are conducted to validate the approach.
+
+Meta-reviewer: That sounds interesting. I see that there are some pros and cons listed in the reviews. Can you elaborate further on them?
+
+Dialogue agent: Review 1 commends the paper for clear writing and proposing a new dual form of TRPO problem using optimal transport discrepancy, which can be efficiently computed compared to line-search using KL divergence. However, the reviewer points out that the benchmark environments used in the experiments are somewhat limited and insufficient. To thoroughly evaluate the empirical performance of OT-TRPO, the reviewer recommends using more standard RL benchmarks such as the Atari suite and Mujoco families.
+
+Review 2 also commends the paper for the proposed update algorithm and the use of optimal transport discrepancy, but raises a question about the convergence properties of the algorithm.
+
+Review 3 notes that the problem statement is interesting and gives insight into optimal transport formulation of the TRPO, and the mathematical implementation is solid. However, the reviewer suggests providing more experimental evidence on failure modes and the impact of different policy parameterizations.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on these reviews, what would you say is your recommendation for accepting or rejecting the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can tell you that Review 1 suggests a borderline accept for the paper, while Review 2 suggests a weak accept, and Review 3 suggests an accept with high impact. It is up to you, as the meta-reviewer, to weigh the feedback from the reviewers and make a decision based on your own judgement.

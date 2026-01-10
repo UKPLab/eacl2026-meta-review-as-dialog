@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. Can you give me an overview of the reviews for the paper titled BasisNet: Two-stage Model Synthesis for Efficient Inference?
+
+Dialogue agent: Hello, meta-reviewer. Review 1 rates the paper as good and accepts it, with some weaknesses around the lack of analysis of global knowledge and baseline results. Review 2, on the other hand, rates the paper as below the bar of the conference and rejects it, primarily due to limited novelty and impracticality in hardware. Review 3 rates the paper as marginally above acceptance threshold with some concerns in hardware efficiency and early termination.
+
+Meta-reviewer: Okay, thank you for summarizing the reviews. Now, can you please tell me what type the paper is and what the authors propose to do?
+
+Dialogue agent: Of course, meta-reviewer. The paper is a long format and the authors propose a two-stage model synthesis approach for efficient inference, called BasisNet. They show that BasisNet can achieve better accuracy than MobileNets with comparable or better MAdds.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue agent: Review 1 highlights the method's easy-to-follow and practical performance properties, with results outperforming recent state-of-the-art approaches. However, the review also mentions weaknesses around the lack of analysis of global knowledge and baseline results. Review 2, on the other hand, finds limited novelty and impracticality in the hardware implementation of BasisNet. Review 3 acknowledges the paper's contribution to hierarchical classification but raises concerns about accuracy and cost dependence on the inference batch size and hardware efficiency.
+
+Meta-reviewer: I see. And how confident are the reviewers about their evaluations?
+
+Dialogue agent: Reviewer 1 is absolutely certain and very familiar with the relevant literature, rating the paper with a confidence of 5. Reviewer 2 is also very confident with a confidence of 5, while reviewer 3 is confident but not absolutely certain, rating the paper with a confidence of 4.
+
+Meta-reviewer: I appreciate the detailed response. Based on these reviews, I think it's a close call. While there are strengths to the paper, the concerns around limited novelty and hardware impracticality are significant. I'll have to weigh the importance of reviewer confidence and make a decision in the end. Thank you for your help, dialogue agent.

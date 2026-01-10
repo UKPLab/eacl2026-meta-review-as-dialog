@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about improving commonsense reasoning in natural language processing. What are your thoughts on the paper's contributions?
+
+Dialogue Agent: The paper presents several experiments that utilize combined knowledge from language models and unstructured knowledge bases to improve commonsense reasoning. The authors also propose several methods to infuse or provide potentially useful knowledge to BERT-style models.
+
+Turn 2:
+
+Meta-reviewer: I see. What are the reviewer's opinions on the paper's claims?
+
+Dialogue Agent: One reviewer suggests that the paper's claims about the ability of the models to reason with implicit knowledge are not supported by the evidence. They also suggest that the paper's contributions would be stronger without these claims.
+
+Turn 3:
+
+Meta-reviewer: Interesting. What are the reviewer's suggestions for improvement?
+
+Dialogue Agent: The reviewer suggests that the authors consider adding the CommonsenseQA task and an additional dataset, and using the OMCS corpus or GenericsKB as the knowledge resource. They also suggest that the authors do not claim the methods as part of the novelty of the paper and instead focus on the analysis and evaluation protocol.
+
+Turn 4:
+
+Meta-reviewer: That sounds like a good idea. What are the strengths of the paper?
+
+Dialogue Agent: The paper provides convincing experiments and analyses, and yields interesting results about the usefulness of external-ish knowledge. The authors also explore multiple ways to combine useful knowledge with questions, which is a valuable contribution.
+
+Turn 5:
+
+Meta-reviewer: Great. Based on the reviews and the paper's contributions, what is your recommendation for acceptance or rejection?
+
+Dialogue Agent: Based on the reviews and the paper's contributions, I would recommend accepting the paper with minor revisions. The paper provides valuable insights and contributions to the field of commonsense reasoning in natural language processing.
+
+Output:
+
+The meta-reviewer should weigh the importance of reviewer confidence and the paper's contributions when making a final decision. Based on the reviews and the paper's contributions, the meta-reviewer should accept the paper with minor revisions. The dialogue agent should provide a summary of the reviews and the paper's contributions to support the recommendation.

@@ -1,0 +1,25 @@
+ Sure, I can simulate a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection. The meta-reviewer is aware only of the paper's title, "Uncertainty Estimation in Autoregressive Structured Prediction."
+
+Meta-reviewer: Hello, I'm assessing your paper, "Uncertainty Estimation in Autoregressive Structured Prediction." Can you tell me a bit about the paper and its contributions?
+
+Dialogue Agent: Certainly! Our paper introduces a new framework for uncertainty estimation in autoregressive structured prediction models. We propose several metrics for computing uncertainty, including expected pair-wise KL-divergence, mutual information, and reverse mutual information (RMI). We also demonstrate the efficiency of the proposed RMI using machine translation and speech recognition models for error detection and out-of-distribution detection.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the proposed RMI measure and how it improves over other methods?
+
+Dialogue Agent: Sure! The proposed RMI measure is based on the idea of reverse mutual information, which is a new way of measuring the uncertainty of an ensemble of models. Unlike traditional methods that rely on the variance of the predictions, RMI is based on the concept of entropy and can be computed more efficiently using relative-entropy chain-rule. Our experiments show that RMI improves the performance of OOD detection in structured prediction compared to traditional methods.
+
+Meta-reviewer: I see. Can you tell me more about the experiments and the results you obtained?
+
+Dialogue Agent: Of course! We conducted experiments on two benchmark datasets, LibriSpeech and WMT, using a variety of evaluation metrics such as predictive performance, OOD detection, and error detection. Our results show that the proposed RMI measure outperforms traditional methods in terms of OOD detection and error detection. We also provide ablation studies to demonstrate the effectiveness of the proposed method.
+
+Meta-reviewer: That's impressive. Can you tell me more about the theoretical aspects of your paper and how it relates to other works in the field?
+
+Dialogue Agent: Certainly! Our paper builds on previous works in uncertainty estimation and structured prediction. We introduce a new framework for uncertainty estimation that is based on the concept of reverse mutual information. This framework provides a more principled way of computing uncertainty in structured prediction models. Our paper also compares the proposed RMI measure with other methods, such as MC-dropout and reverse KL-divergence, and demonstrates the advantages of our approach.
+
+Meta-reviewer: I see. Based on your summary, I would say that your paper is well-written and makes an important contribution to the field of uncertainty estimation in structured prediction. However, I would like to see more discussion on the theoretical aspects of your paper and how it relates to other works in the field. Additionally, I would like to see more experimental results to further support your claims. Can you address these points and provide more information?
+
+Dialogue Agent: Of course! We can provide more discussion on the theoretical aspects of our paper and how it relates to other works in the field. Additionally, we can provide more experimental results to further support our claims. For example, we can provide more detailed analysis of the computational complexity of the proposed method and compare it with other methods. We can also provide more experiments on different datasets and tasks to demonstrate the versatility and effectiveness of our approach.
+
+Meta-reviewer: Thank you for addressing my concerns. Based on your responses, I would say that your paper is well-written and makes an important contribution to the field of uncertainty estimation in structured prediction. I would recommend acceptance of your paper with minor revisions to address the points I raised.
+
+Dialogue Agent: Thank you for your decision. We will address the minor revisions and provide more information to support our claims. Thank you for the opportunity to discuss our paper with you.

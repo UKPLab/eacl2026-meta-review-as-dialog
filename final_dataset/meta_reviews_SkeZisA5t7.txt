@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Adaptive Estimators Show Information Compression in Deep Neural Networks" and have a few questions before I make a decision. Can you please clarify some of the concerns raised in the reviews?
+
+Dialogue agent: Yes, of course. I will do my best to provide clear and concise answers to your questions.
+
+Meta-reviewer: Review 1 mentions some concerns about Figure 7 not being clear and that Figure 9b shows a positive correlation between compression score and accuracy, which seems contradictory. Can you explain these concerns?
+
+Dialogue agent: Regarding Figure 7, the authors do acknowledge that the compression behavior for ELU, Swish, and centered softplus is not as apparent as it is for the other activation functions. However, the experiments conducted did reveal some compression behavior for these functions. In terms of Figure 9b, while there is a positive correlation between compression score and accuracy, it is not necessarily a strong correlation. The authors conclude that good performance can be achieved without information bottleneck (information compression), meaning that compression is not the only factor in achieving good performance.
+
+Meta-reviewer: Review 2 mentions concerns about the binning process not being clear and creating unnecessary distortions in the DNN. Can you clarify how the binning process was used in the experiments?
+
+Dialogue agent: The binning process was used to add noise to the hidden activity by discretizing the continuous values into a finite number of bins. This was done to make the computation of mutual information estimation feasible. However, the authors do acknowledge that this process can create distortions and that care should be taken when interpreting the results.
+
+Meta-reviewer: Review 3 mentions that the proposed compression score is simplistic and that more principled analysis methods are required. Can you address these concerns?
+
+Dialogue agent: While the proposed compression score is simplistic, it serves as a useful comparison tool between different models. It is important to note that the authors do acknowledge the need for more principled analysis methods in the conclusion of the paper. The experiments conducted in this paper serve as a foundation for future work in this area.
+
+Meta-reviewer: Based on these responses, I'm inclined to accept the paper. However, I notice that the confidence levels of the reviewers vary. How important is reviewer confidence in making a decision?
+
+Dialogue agent: Reviewer confidence is certainly an important factor to consider, as it indicates the level of certainty in their evaluation. However, it is important to also consider the content of their review and the concerns raised, as well as the strengths of the paper. In this case, all three reviews recommend acceptance, with varying levels of confidence. It is ultimately up to you, the meta-reviewer, to weigh these factors and make a decision based on the overall merit of the paper.

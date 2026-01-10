@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, thank you both for your reviews of the paper "The Franz-Parisi Criterion and Computational Trade-offs in High Dimensional Statistics." Based on your reviews, it seems that the paper is technically strong and interesting, with potential impact in the area of statistical physics and computational hardness. However, there are concerns about the fit for NeurIPS, the limited applicability of the criterion for other problems, the heavy technicality of the proofs, and the specific assumptions required. Do you have any questions or further discussions regarding the paper?
+
+Dialogue Agent: Thank you for the summary. I'm happy to answer any questions or provide further clarification on the paper's contents.
+
+Meta-Reviewer: Can you explain more about the specific assumptions required for the FP criterion to work and how generalizable they are?
+
+Dialogue Agent: Sure. The FP criterion requires that the signal prior distribution has certain symmetries, and that the planted and null distributions have specific local geometric properties. Specifically, in Gaussian additive models, the null distribution must have iid Gaussian entries, and the prior on the signal must have rotational and reflection symmetries. In planted sparse models, the prior on the signal must have certain sparsity and undersampling properties. These assumptions are needed to establish the equivalence between FP hardness and low-degree hardness, and to show that FP hardness implies failure of local MCMC algorithms. It's unclear how generalizable these assumptions are to other problems, and the authors state explicitly that the FP criterion has limitations and does not provide a complete characterization of computational hardness.
+
+Meta-Reviewer: I see. And what about the fit for NeurIPS? Do you think this paper is appropriate for this conference?
+
+Dialogue Agent: While the paper is technically strong and interesting, it may be more suited for a more theory-focused conference or journal, as it is quite long and the proofs are highly technical. However, the paper does address an important problem in statistical physics and computational complexity, and it may be of interest to the NeurIPS community interested in these topics.
+
+Meta-Reviewer: Thank you for your insights. Can you elaborate on the limitations of the FP criterion and how the authors address them?
+
+Dialogue Agent: The authors show that the FP criterion fails to capture sharp thresholds in some Boolean settings and fails to predict the right thresholds for estimation and recovery problems. They also provide counterexamples to suggest that their results do not point towards a complete equivalence between low-degree hardness and FP hardness. The authors address these limitations by discussing them in detail in the paper and in the supplementary materials, and by providing insights and directions for future research. Overall, the authors are transparent about the limitations of their approach and provide a balanced discussion of their results.

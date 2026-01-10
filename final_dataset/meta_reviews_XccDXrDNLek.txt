@@ -1,0 +1,21 @@
+Meta-Reviewer: Thank you all for your reviews on "Pervasive Label Errors in Test Sets Destabilize Machine Learning Benchmarks." Overall, it seems that the paper highlights a significant problem in the field and proposes a potential solution using confident learning and crowdsourced validation to address the issue of incorrect test labels in popular datasets. However, I do have some concerns that I would like to discuss with the dialogue agent.
+
+Dialogue Agent: I'll do my best to address your concerns without providing any opinions or recommendations.
+
+Meta-Reviewer: Thank you. Review 1 mentions that only a subset of the label errors detected were corrected by humans, leaving it unclear how many errors in total were missed. How can we be confident that the subset of corrected labels in Figure 3b represents the property of the other undetected label errors?
+
+Dialogue Agent: The paper acknowledges this limitation, and it's important to note that the current corrected labels are not assumed to be perfect. While it would be ideal to correct all label errors, it's not feasible due to cost and time constraints. The paper employs several mechanisms to minimize the impact of the limited corrected labels, such as using alpha-investing to control false discovery rates and analyzing sensitivity to the subset of corrected labels. The paper also demonstrates that its core findings hold across different types of datasets and test errors, providing further evidence that there are widespread label errors that can impact machine learning benchmarks.
+
+Meta-Reviewer: That's reasonable. Review 3 suggests that there might be "dark matter" of hard-to-detect label errors and that it would be useful to compare the statistics with the errors found using random samples. What is your take on this?
+
+Dialogue Agent: While it is possible that there are hard-to-detect label errors that confident learning might miss, the paper does demonstrate that confident learning is effective in detecting errors that are easier to detect, but still have significant impact on benchmark performance. The paper also provides evidence that the impact of these errors is substantial by comparing the performance of models on uncorrected versus corrected test labels. The paper acknowledges the limitation and potential for improvement in future work.
+
+Meta-Reviewer: Understood. Review 2 provides a rating of 10 and considers this paper as a strong candidate for the best paper award of this track. However, they suggest breaking up the materials in Section 5 into sub-sections or paragraphs. Do you agree with this suggestion?
+
+Dialogue Agent: As a dialogue agent, I don't have any opinions on this matter. However, it is worth noting that the authors have provided detailed statistics, data annotation process, and release of the cleaned tests for the data sets, all of which are valuable resources for the machine learning community. It is up to the discretion of the authors whether to make further changes to the paper.
+
+Meta-Reviewer: I see. Lastly, Review 1 suggests an experiment to show the difference between the real label errors and the current subset of corrected labels. What are your thoughts on this?
+
+Dialogue Agent: That could be an interesting direction to explore in future work. However, it would require a significant amount of additional effort and resources to correct more labels and conduct an experiment that compares the corrected labels to the real label errors. As it stands, the paper already provides compelling evidence that confident learning can be an effective method for detecting label errors in popular benchmarks and that such errors can have significant consequences for machine learning models. 
+
+Meta-Reviewer: Thank you for your thoughts. Based on these discussions, I have decided to accept this paper for publication. The contributions of the paper are significant and the reviewers have pointed out some limitations and potential areas for future improvement, which I am confident the authors will address.

@@ -1,0 +1,23 @@
+Meta-Reviewer: Thank you both for your reviews. It seems like Review 1 has some concerns with the quality and clarity of the paper, while Review 2 finds the paper's investigation interesting and innovative. Review 3 highlights the importance of using different architectures for tabular data. 
+
+Dialogue Agent: Thank you for your summary of the reviews. I understand that Review 1 had some concerns with the presentation and methodology of the paper, while Review 2 appreciated the unique investigation of subgroup robustness of tree-based models. Review 3 correctly points out the limited evaluation of subgroup robustness and fairness algorithms on tree-based architectures. 
+
+Meta-Reviewer: Yes, Review 1 specifically raises concerns about limited evaluation on traditional fairness datasets and limited discussion on limitations of the analysis. Can you please address these concerns? 
+
+Dialogue Agent: I understand these concerns. While the investigation is limited to traditional fairness datasets, we believe that these are the most commonly used datasets in the fairness literature. We agree that it would be interesting to extend this analysis to other datasets. Additionally, we will add a discussion on the limitations of our analysis and its applicability to other datasets and domains. 
+
+Meta-Reviewer: That sounds reasonable. Another concern raised by Review 1 was the lack of uncertainty estimates and graphical summaries. Can you address this concern as well? 
+
+Dialogue Agent: We understand the concern raised by Review 1. While we did not focus on quantifying uncertainty, we agree that it would be beneficial to do so in future work. We will consider adding graphical summaries to make it easier to interpret the results. 
+
+Meta-Reviewer: Thank you for your response. Review 2 had some interesting thoughts on why tree-based methods tend to find subgroup-robust models, and suggested that the takeaway could be that trees are effective tabular learners. Can you address this point? 
+
+Dialogue Agent: While it is true that tree-based methods are effective tabular learners, we still believe that the investigation of subgroup robustness is important. Trees are not guaranteed to be robust to subpopulation shift, and our analysis shows that they can be when the subgroups are well-defined. Additionally, our investigation shows that tree-based methods are often on par with distributionally-robust and fairness-aware methods, which is significant in its own right. 
+
+Meta-Reviewer: Thank you for your response. Review 3 also highlighted the need for better base architectures for tabular data specifically. Can you address this point? 
+
+Dialogue Agent: We agree with Review 3 that there is a need for better base architectures for tabular data, particularly for subgroup robustness and fairness. However, we believe that our investigation highlights that tree-based methods can be a strong baseline for subgroup-robust learners on tabular data. 
+
+Meta-Reviewer: Thank you for your responses. Overall, I believe that this paper is a technically solid paper with innovation, but with some concerns raised regarding clarity and limitations of the analysis. I am leaning towards an accept with minor revisions. 
+
+Dialogue Agent: Thank you for your assessment. We will address the concerns raised in the reviews and resubmit the paper for your final decision.

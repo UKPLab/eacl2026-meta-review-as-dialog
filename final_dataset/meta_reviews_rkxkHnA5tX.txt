@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the paper's title being "Learning from Noisy Demonstration Sets via Meta-Learned Suitability Assessor":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper and I would like your help in assessing its quality. Can you provide a summary of the paper's contributions and weaknesses based on the reviews I've provided?
+
+Dialogue Agent: Sure, based on the reviews you've provided, the paper focuses on an imitation learning setup where some of the provided demonstrations are irrelevant to the task being considered. The authors propose a MAML-based algorithm to determine the suitability of the demonstrations. The reviews mention that the problem statement is somewhat limited in scope and the use of task heuristics seems ad-hoc. The final policies are unimpressive, and the method is an amalgamation of other recent work.
+
+Turn 2:
+
+Meta-Reviewer: Can you tell me more about the reviewer's concerns regarding the scope of the problem and the use of task heuristics?
+
+Dialogue Agent: Yes, Reviewer 1 mentions that the setup is of limited scope since receiving irrelevant demonstrations in the form used by the paper would be costly. Reviewer 2 also mentions that the problem is artificial and the final task performance is not impressive. Additionally, Reviewer 3 notes that the method is not convincingly tested to handle the case where some demonstrations are bad.
+
+Turn 3:
+
+Meta-Reviewer: How do the reviewers feel about the method's ability to detect bad demonstrations and select good ones?
+
+Dialogue Agent: Based on the reviews, the reviewers have mixed opinions on this aspect. Reviewer 1 mentions that the method is not able to detect the bad demonstrations and select the good ones, while Reviewer 2 notes that the method is an amalgamation of other recent work and does not provide a clear justification for the use of mutual information regularization term. Reviewer 3 mentions that the method is not convincingly tested to handle the case where some demonstrations are bad.
+
+Turn 4:
+
+Meta-Reviewer: What are the reviewers' opinions on the writing and grammar of the paper?
+
+Dialogue Agent: Based on the reviews, the reviewers have mixed opinions on the writing and grammar of the paper. Reviewer 1 mentions that the writing and grammar need serious revision and there are errors throughout the paper, while Reviewer 2 notes that the paper is well-conceived and potentially novel, but the writing itself needs a thorough revision. Reviewer 3 mentions that the writing is not convincing and needs revision.
+
+Turn 5:
+
+Meta-Reviewer: Based on the reviews, what is your assessment of the paper's quality and suitability for publication?
+
+Dialogue Agent: Based on the reviews, the paper has several weaknesses, including limited scope, ad-hoc use of task heuristics, unimpressive final policies, and lack of convincing testing to handle the case where some demonstrations are bad. Additionally, the writing and grammar of the paper need revision. Therefore, I would recommend rejecting the paper.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your help in assessing the paper's quality. Your summarized answers based on the reviews have been helpful in making my final decision.
+
+Dialogue Agent: You're welcome! I'm glad I could help. Please let me know if you need further assistance.

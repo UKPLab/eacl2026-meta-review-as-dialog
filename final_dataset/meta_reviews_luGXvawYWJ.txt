@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am reviewing a paper titled "Dataset Distillation via Factorization." Can you give me an overview of the reviews?
+
+Dialogue Agent: Certainly. There are three reviews, with two reviewers giving positive feedback on the paper's novelty and convincing results. Reviewer 1 states that the proposed method is well-motivated and focuses on an essential problem for current dataset condensation methods. Reviewer 2 also agrees that the paper is novel, but has some concerns about the authors' choice of metrics and improper credit assignment. Reviewer 3 finds the paper well-written and the experimental results convincing, but has some questions about the limitations of the proposed method.
+
+Meta-reviewer: I see. Can you give me a summary of the strengths and weaknesses of the paper?
+
+Dialogue Agent: Yes. The paper's strengths include its novelty and well-supported arguments, clear presentation, and convincing experimental results. A weakness raised by Reviewer 2 is the improper credit assignment, which can damage the integrity and openness of the academic community. Reviewer 3 also has some questions about the effect of model size on performance and the usage of compressed data for knowledge distillation.
+
+Meta-reviewer: Thanks for the summary. What is your recommendation for the paper?
+
+Dialogue Agent: As a dialogue agent, I cannot provide recommendations or opinions on the paper's acceptance or rejection. My role is to provide information and answer questions raised by the meta-reviewer.
+
+Meta-reviewer: I understand. Can you tell me more about the proposed method and its contribution to the field?
+
+Dialogue Agent: The proposed method is a new algorithm for dataset condensation that introduces a dataset factorization approach called HaBa, which frames the factorization as a hallucinator-basis problem. The authors also introduce a pair of adversarial contrastive constrains to increase the diversity of generated images and inject more discriminant information into the factorization. The method achieves a better compression rate and better cross-architecture generalization performance than previous methods, according to the experimental results. Its contribution to the field lies in its novel approach to dataset condensation and its promising results.
+
+Meta-reviewer: Thanks for the information. Is there anything else I should know about the reviews or the paper?
+
+Dialogue Agent: Reviewer 2 raised some concerns about the authors' choice of metrics and improper credit assignment that should be addressed. Reviewer 3 also has some questions about the limitations of the proposed method, such as the effect of model size on performance and the usage of compressed data for knowledge distillation.

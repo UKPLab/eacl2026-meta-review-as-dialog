@@ -1,0 +1,19 @@
+Meta-reviewer: Hi dialogue agent, thank you for joining me today. I have read the reviews for the paper "Hybrid-Regressive Neural Machine Translation" and I would like to discuss them with you before making my decision to accept or reject the paper. Can you tell me about the type of paper and the reviews?
+
+Dialogue Agent: Sure. The paper is classified as long and the reviews have been provided by three reviewers. Reviewer 1 raised questions on the reliance of small batch size and GPU for computation, and also asked for elaboration on the balanced distribution of deterministic tokens. Reviewer 2 has given a positive feedback and has also pointed out some details regarding the claims made in the paper. Reviewer 3 has mentioned the concerns related to the experiment and comparison of proposed hybrid-regressive translation method.
+
+Meta-reviewer: Thank you for the summary. Can you explain the proposed approach briefly?
+
+Dialogue Agent: The proposed approach combines autoregressive (AT) and non-autoregressive (NAT) paradigms. It first uses an AT model to generate a "gappy" sketch and then fills the gaps with NAT model in a single pass. The AT and NAT models share a majority part of the parameters and can be trained jointly with a carefully designed curriculum learning procedure.
+
+Meta-reviewer: Excellent. Now, can you tell me about the confidence level of the reviews?
+
+Dialogue Agent: The confidence levels range from 4 to 7. For instance, Reviewer 2 has given a rating of 7 and is confident that it is a good paper that should be accepted. However, Reviewer 3 has given a rating of 5 and has some concerns regarding the experiment and comparison of the proposed approach.
+
+Meta-reviewer: Interesting. I am particularly intrigued by Reviewer 1's question on the reliance of small batch size and GPU for computation. Can you provide me with an explanation?
+
+Dialogue Agent: The paper investigates that the non-autoregressive decoder (NAT) is more sensitive to batch size and computing devices than the standard auto-regressive decoder (AT). The proposed method aims to alleviate this issue by combining both NAT and AT as hybrid-regressive translation (HRT). The paper does not offer a clear explanation for this observation but it is an interesting point that deserves further investigation.
+
+Meta-reviewer: Thank you for the explanation. Now, looking at the reviews, what is your recommendation for me?
+
+Dialogue Agent: As a dialogue agent, I cannot provide recommendations or opinions. However, I can provide the information that the paper is rated marginally above the acceptance threshold by Reviewer 1 and marginally below the acceptance threshold by Reviewer 3. Reviewer 2 has given a positive review and has recommended acceptance of the paper. Therefore, it is your decision to weigh the reviews and decide whether to accept or reject the paper.

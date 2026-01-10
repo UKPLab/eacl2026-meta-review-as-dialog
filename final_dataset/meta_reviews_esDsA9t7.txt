@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Better Accuracy with Quantified Privacy: Representations Learned via Reconstructive Adversarial Network". Can you provide an overview of the paper's contributions?
+
+Dialogue agent: Certainly. The paper proposes a privacy-preserving classification framework that uses a Reconstructive Adversarial Network (RAN) to prevent the reconstruction of raw data while improving classification accuracy. The framework consists of an encoder that extracts features from data, a classifier that performs the classification, and a decoder that tries to reconstruct the original data.
+
+Meta-reviewer: I noticed that Review 1 suggested that more solid evaluations are needed. Can you provide more detail regarding the evaluations made in the paper?
+
+Dialogue agent: The paper does provide experimental results demonstrating the usefulness of the algorithm. However, Review 1 suggested that more solid evaluations are needed. Additionally, Review 1 noted that it would be better to back up arguments with some experiments, and to make clearer how reconstruction error works as a measure of privacy.
+
+Meta-reviewer: Review 2 raises concerns about the notion of privacy considered by the paper. Can you elaborate on this and how the paper addresses this concern?
+
+Dialogue agent: Review 2 expressed concern regarding the notion of privacy considered by the paper, highlighting two assumptions that the reviewer is not comfortable with. The paper defines privacy as the difficulty of reconstructing raw data via a generative model. Review 2 points out that there is no formal relationship between reconstruction error and privacy, and that weaker attacks like membership attacks can be equally damaging. The paper does not explicitly address these concerns, as it focuses on demonstrating the usefulness of the RAN framework.
+
+Meta-reviewer: Review 3 suggests that the privacy definition employed in this work is problematic and that the proposed method is not appropriately compared with other methods in experiments. Can you comment on this?
+
+Dialogue agent: Review 3 expresses concern about the definition of privacy used in the paper, noting that larger reconstruction error does not necessarily indicate stronger privacy protection. Additionally, Review 3 suggests that the proposed method is not appropriately compared to other methods in experiments. Review 3 asserts that the proposed method does not achieve high privacy as noisy methods do and that the range of the regularization parameter is inappropriately set. The paper does not address these concerns directly.
+
+Meta-reviewer: Thank you for clarifying these points. Based on the reviews, I am inclined to reject the paper, as the evaluations and definitions of privacy seem to be insufficiently addressed. However, the reviewers differ in their level of confidence regarding their evaluations. How confident should I be in the evaluations presented in the reviews?
+
+Dialogue agent: Review 1 expresses moderate confidence regarding the evaluation, suggesting that the paper is "Ok but not good enough" for acceptance. Review 2 expresses a similar level of confidence, noting that the paper is marginally below the acceptance threshold. Review 3 expresses a higher degree of confidence, suggesting that the paper should be clearly rejected.

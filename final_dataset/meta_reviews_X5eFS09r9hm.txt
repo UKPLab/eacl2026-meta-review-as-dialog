@@ -1,0 +1,21 @@
+Meta-Reviewer: So I've read through all three reviews and it seems that the paper is technically solid and has moderate-to-high impact. However, there are still some concerns raised by the reviewers. Let me first ask the dialogue agent, what type of paper is this?
+
+Dialogue Agent: This is a long paper.
+
+Meta-Reviewer: And what are the main contributions of the paper?
+
+Dialogue Agent: The paper presents a new method for contrastive explanations of classification networks, which is an extension of existing methods. The method uses the attributions of other classes, weighted by the softmax of their logits. The applicability and computational efficiency of the method are demonstrated through experiments. The paper also properly cites related work and proposes directions for future work.
+
+Meta-Reviewer: Great, thank you for that summary. Now, Reviewer 1 gave a positive review, with no major concerns, but did mention that information about details of finetuning required to reproduce the reported numbers is missing. Is that a concern?
+
+Dialogue Agent: The paper does not provide details of finetuning required to reproduce the reported numbers in the experiments, but it is unlikely to pose a major concern since the claims are well supported theoretically and the authors provide convincing experimental evaluation.
+
+Meta-Reviewer: That's good to know. Reviewer 2 also gave a positive review, but raised some concerns regarding the difficulty in understanding equations (3) and (4), and the lack of comparison against previously proposed methods. What's your take on that?
+
+Dialogue Agent: While equations (3) and (4) may be difficult to understand, the authors do provide a proof for the approximate equality of the weighted sum of standard GradCAM/LA explanations and the weighted contrastive explanation. As for the lack of comparison against previously proposed methods, the authors dismiss them as being "against Occam's razor", but I understand the reviewer's concern. However, the proposed method is computationally cheaper than some previously proposed contrastive explanation methods and its superiority over non-contrastive explanations is demonstrated through experiments.
+
+Meta-Reviewer: Okay, I see your point. Finally, Reviewer 3 gave a positive review but raised some concerns regarding the lack of baselines, the novelty/additional discussion on the choice of backpropagating with respect to softmax/sigmoid outputs, the presentation of experimental results, and writing clarity. How do you respond to those?
+
+Dialogue Agent: The lack of baselines is a valid concern, but the authors do show that their proposed method is equivalent to a standard explanation of softmax/sigmoid outputs. Regarding the choice of backpropagating with respect to softmax/sigmoid outputs, the authors provide a theoretical perspective suggesting that it is always preferable, but I agree that it may not be applicable to some previously proposed methods. The presentation of experimental results in Figures 3 and 4 may be improved, but the main findings are still clear. As for writing clarity, the authors may need to revise Section 3 to make it more understandable.
+
+Meta-Reviewer: Thank you for your responses. Overall, it seems that the paper is technically solid and has moderate-to-high impact, but some concerns have been raised. I will consider the confidence levels of the reviewers in making the final decision.

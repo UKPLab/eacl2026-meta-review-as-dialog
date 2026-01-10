@@ -1,0 +1,26 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Detecting Out-Of-Distribution Samples Using Low-Order Deep Features Statistics". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method for detecting out-of-distribution (OOD) samples using low-order deep features statistics. The authors use simple statistics, such as the mean and variance, of the activations of each Batch Normalization (BatchNorm) layer to construct feature representations that are later fed into a simple linear classifier. The proposed method is evaluated on several datasets and shows superior performance compared to previous state-of-the-art methods.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper, in your opinion?
+
+Dialogue Agent: The paper has several strengths. Firstly, the authors evaluate the generalization of their OOD detection model through evaluation against unseen OOD samples, which is a critical aspect of the literature. Secondly, the organization of the material and the depth of the discussion are of high quality. The authors provide a thorough series of evaluations to support their claims and discuss possible failure cases. Additionally, the proposed method is easy to implement and has a minimal runtime complexity.
+
+Turn 3:
+Meta-Reviewer: Can you address the concerns raised by the reviewers? One reviewer mentions that the choice of datasets/networks needs to be understood, and another reviewer raises a concern about the permutation invariance in the feature space.
+
+Dialogue Agent: Sure! The authors address the concerns raised by the reviewers in their rebuttal. They explain that the choice of datasets/networks is well-justified and provide a detailed analysis of the influence of the dataset on the OOD scores. Additionally, they address the concern about the permutation invariance in the feature space by discussing possible failure cases and the weaknesses of their method.
+
+Turn 4:
+Meta-Reviewer: Based on the reviews and your summary, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews and my summary, I would recommend accepting the paper with minor revisions. The authors have addressed the concerns raised by the reviewers, and the paper has several strengths, such as its novel combination of existing techniques, thorough series of evaluations, and insightful empirical evidence.
+
+Turn 5:
+Meta-Reviewer: Thank you for your assistance. I will consider your recommendations when making my final decision.
+
+Dialogue Agent: You're welcome! Please feel free to ask any further questions or seek additional information to support your decision.

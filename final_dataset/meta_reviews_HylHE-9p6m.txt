@@ -1,0 +1,19 @@
+Meta-reviewer: Hi, dialogue agent. I have read the reviews for the paper "Fine-grained Entity Recognition with Reduced False Negatives and Large Type Coverage" and I would like to ask you some questions. Are you aware of the type and length of the paper?
+
+Dialogue agent: Yes, I am aware that the paper is of long type.
+
+Meta-reviewer: Great. Review 1 mentions a specific request regarding table 3. Can you tell me if the authors addressed this request?
+
+Dialogue agent: I'm sorry, as a dialogue agent, I cannot provide opinions or recommendations, but I can tell you that Review 1 made a request for additional information on table 3.
+
+Meta-reviewer: I see, thank you. Review 2 seems to have concerns with the experimental evaluation of the proposed methodology. Can you provide me with more information on this?
+
+Dialogue agent: Review 2 does indeed express concerns about the evaluation, specifically regarding incomplete reference to previous work on FIGER, insufficient description of new datasets, and missing pieces of a broader story introducing a new form of supervision. Additionally, there are concerns about the inconsistent results across different datasets. However, the reviewer's main concern seems to be the lack of a comprehensive evaluation.
+
+Meta-reviewer: Thank you for clarifying that. Finally, Review 3 mentions a potential limitation of the proposed methodology. Can you provide me with more details?
+
+Dialogue agent: Yes, Review 3 points out that the proposed methodology is very tailored towards texts from Wikipedia and it is unclear how it may be generalized beyond this specific domain. The reviewer also suggests conducting an experiment to verify if an NER tagger trained on the produced data performs well on other types of texts.
+
+Meta-reviewer: Thank you very much for your answers, dialogue agent. Can you give me an overall assessment of the reviews and help me make a decision on whether to accept or reject the paper?
+
+Dialogue agent: Based on the reviews, I gather that the paper has a very strong contribution in creating a high-recall linked corpus with linked entities to the KB and the type hierarchy, as shown in the intrinsic and extrinsic analysis. However, there are concerns about the evaluation and some potential limitations of the proposed methodology. Overall, the decision to accept or reject the paper ultimately rests with you, as the meta-reviewer, and your evaluation of the reviews and the paper as a whole.

@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, I've looked over the reviews for "Lorentzian Distance Learning" and I'd like to get a better understanding of the paper before making a decision. Dialogue Agent, can you tell me more about the proposed approach?
+
+Dialogue Agent: Certainly. The paper proposes an approach for learning embeddings of graphs in hyperbolic space using the Lorentzian model. The main contribution is a closed-form solution for each node representation that is close to the centroid of its descendants. The authors introduce two additional hyperparameters, one of which is used to control the curvature of the space, and demonstrate results on different graph embedding benchmark tasks.
+
+Meta-Reviewer: Review 1 mentions that Riemannian optimization is not necessary for this model. Can you confirm if the authors have tried optimizing the model with Riemannian optimization methods?
+
+Dialogue Agent: Unfortunately, I cannot provide an opinion or recommendation on this matter. However, the authors do mention in the paper that regular SGD can be used to tune the embedding of the model without requiring the use of Riemannian optimization techniques.
+
+Meta-Reviewer: Review 2 mentions that the representation using Weierstrass coordinates may have limited practical benefit. Can you explain why this is the case?
+
+Dialogue Agent: Weierstrass coordinates allow for the use of standard optimization methods without leaving the manifold, but optimization using some popular methods like Adam or SVRG is still not directly applicable. Therefore, it seems that the practical benefit of this representation is limited.
+
+Meta-Reviewer: Review 3 suggests that the contributions are incremental and may not meet the publication standards of ICLR. Can you elaborate on the contributions of the paper?
+
+Dialogue Agent: The paper proposes an unconstrained reparametrization of the hyperboloid model that does not require projections of the embedding points onto the hyperbolic manifold in each update. Additionally, the paper proposes to use the Lorentzian distance as a cost function, which is a monotonic transformation of the Riemannian distance, allowing for different similarity measurements in the embedding. The paper also discusses empirical results that show the benefits of tuning the beta hyperparameter.
+
+Meta-Reviewer: Thank you for your responses. Can you tell me more about the experiment results presented in the paper?
+
+Dialogue Agent: The authors conducted experiments on different graph embedding benchmark tasks and demonstrated that the proposed approach performs better than other methods. However, it is noted that the experiments were only conducted on small-scale traditional graph datasets, and it would be interesting to see the performance on large-scale datasets, such as to learn knowledge-base embeddings or for recommendation systems. 
+
+Meta-Reviewer: Based on these reviews, it seems that the contributions of the paper are incremental, but the results are promising. What is the confidence level for the acceptance or rejection of the paper?
+
+Dialogue Agent: Review 1 rates the paper a 6 which is marginally above the acceptance threshold, while Reviews 2 and 3 both rate the paper a 5 which is marginally below the acceptance threshold. All three reviewers express confidence that their evaluations are correct but not absolutely certain. 
+
+Meta-Reviewer: Thank you. Based on these evaluations, I'm inclined to lean towards acceptance of the paper. However, reviewer confidence levels are not strong enough to make a final decision. I will read the paper and reviews more closely before making a decision.

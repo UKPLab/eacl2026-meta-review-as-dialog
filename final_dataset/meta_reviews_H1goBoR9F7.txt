@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Dynamic Sparse Graph for Efficient Deep Learning":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Dynamic Sparse Graph for Efficient Deep Learning". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a method called "Dynamic Sparse Graph" for reducing the computation memory and time cost in deep neural networks (DNNs) during both training and inference. The method prunes the activations on the fly during training and inference, which is an interesting and novel exploration.
+
+Turn 2:
+
+Meta-reviewer: That sounds like a promising approach. What are the strengths of the paper?
+
+Dialogue Agent: The paper addresses the computational burden in both memory and time from a novel angle than previous network pruning methods. It can be applied to reduce the computation in both network training and inference, but also preserve the representation ability of the network. Additionally, the authors proposed a simple but efficient dimension reduction method, random sparse projection, to project the original activations and weights into a lower-dimensional space.
+
+Turn 3:
+
+Meta-reviewer: I see. What about the limitations of the paper?
+
+Dialogue Agent: The total computational speed-up demonstrated is not fully convincing, as the method does not lead to the same sparsity pattern in a full minibatch. This means that the method cannot be implemented using matrix-matrix multiplications (GEMM), which limits the potential speedups. Additionally, the authors did not provide code for implementing the method, which would have been helpful for evaluating the efficiency.
+
+Turn 4:
+
+Meta-reviewer: I understand. What are some follow-up questions I could ask the authors to better understand their approach?
+
+Dialogue Agent: The authors could be asked about the potential for adapting the method to choose a joint sparsity across a mini-batch, which would likely lead to worse approximation properties but enable the use of matrix-matrix operations. Additionally, the authors could be asked about the impact of the method on the convergence of the training, and whether there are any techniques to recover fast convergence in the event of slowdowns due to variance.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your help. Based on the reviews and the information you provided, I think the paper has some interesting contributions, but the limitations and lack of code may impact its overall evaluation.
+
+Dialogue Agent: You're welcome! I hope this information helps you make a final decision about the paper. Let me know if you have any other questions or need further clarification.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read through the reviews for the paper titled “So3krates: Equivariant attention for interactions on arbitrary length-scales in molecular systems.” Can you provide me with some additional information regarding the paper’s originality?
+
+Dialogue Agent: Thank you for your question. Review 1 notes that while the use of convolution with spherical harmonic wavelets is not new, the interpretation of these SPHC features as living in a coordinate space where interesting neighborhoods can be learned for message passing that correspond to very distant communication in Euclidean space is an interesting new insight. Additionally, the use of higher order interactions and equivariant self-attention is a novel approach towards addressing the problem of capturing non-local effects in molecular modeling.
+
+Meta-reviewer: Thank you for your response. Review 1 also raises some significance concerns regarding the paper's missing comparisons with other models like SpookyNet and PhysNet for the QM7-X dataset. Can you provide me with any additional insight on this matter?
+
+Dialogue Agent: I am not able to provide a recommendation or opinion on which models should have been included in the paper's comparison. However, Review 1 mentions that the choice of baseline model NequIP may not have been the best, as other models like SpookyNet that make a more deliberate effort to model non-local behavior exist. Review 1 also suggests that a more detailed description of what sort of non-locality SPHC is particularly adept or not adept at capturing might be useful. 
+
+Meta-reviewer: That is understandable. Review 2 raises a weakness regarding the lack of results from multiple diverse datasets. Can you provide any additional information regarding the dataset used in the paper's experiments?
+
+Dialogue Agent: Of course. The paper presents results for two datasets: QM7-X250 and MD17. However, Review 1 notes that the paper only tests a subset of QM7-X and that it would be helpful to know why the paper chose that subset. Nevertheless, the paper's method is still found to be adequately generalizable and competitive with other recent methods like Nequip.
+
+Meta-reviewer: I see. Review 3 suggests that the proposed approach is based on long-established methods in signal processing. Can you provide any additional information on how the paper's approach compares to existing methods in molecular modeling?
+
+Dialogue Agent: Review 3 notes that the paper's approach allows for message passing to local neighborhoods in the spherical harmonic coordinates, which translates to non-local neighborhoods in Euclidean space, thereby enabling modeling of long-range interaction effects that are typically too expensive for existing hop-limited message-passing graph neural networks. Additionally, the paper's approach is useful for low-data cases because its fewer number of parameters require less training data to estimate.
+
+Meta-reviewer: Thank you for providing these additional insights. Based on these reviews, I am leaning towards accepting the paper. However, I notice that the confidence levels of the reviews vary. Can you provide me with any insight on how I should weigh the reviewers' confidence levels in my final decision?
+
+Dialogue Agent: While it may be helpful to consider the reviewers' confidence levels, it is ultimately up to you to decide how much weight to assign them. It may be helpful to consider the content of each review, such as their strengths, weaknesses, and recommendations, in addition to their confidence levels.

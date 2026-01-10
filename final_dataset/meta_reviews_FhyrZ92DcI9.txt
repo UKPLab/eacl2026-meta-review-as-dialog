@@ -1,0 +1,17 @@
+ Sure, here is a simulated dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection, based on the given reviews:
+
+Meta-Reviewer: Hello, I'm evaluating a paper for acceptance or rejection. The title of the paper is "Task-level Differentially Private Meta Learning". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Certainly! Based on the reviews, the paper proposes a task-level differentially private meta learning algorithm based on the meta-regularization approach, which provides privacy and utility guarantees based on convex and Lipschitz loss assumptions. Additionally, the authors propose a private clustering-based meta learning algorithm for multiple meta models.
+
+Meta-Reviewer: That sounds interesting. What are the limitations of the paper, according to the reviews?
+
+Dialogue Agent: One reviewer mentions that the contribution of the paper seems limited, as the authors directly apply existing differential privacy optimization techniques like Noisy SGD on the newly defined "data point" and loss function, which achieves task-level differential privacy naturally. Another reviewer notes that the proposed meta-clustering algorithm is directly derived from the HYP CLUSTER algorithm in [2], and that the authors make strong assumptions, such as the assumption of strongly convexity of the base learner $R_{Z,\lambda}$. Additionally, the experiment evaluation is limited, with a small dataset and no comparison with baselines.
+
+Meta-Reviewer: I see. What is the confidence level of the reviews?
+
+Dialogue Agent: Based on the reviews, the confidence level is 3, which means that the reviewers are fairly confident in their assessment but may have not understood some parts of the submission or be unfamiliar with some pieces of related work.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your summary, I think the paper has some interesting contributions, but the limitations outweigh the benefits. I will rate the paper as "Borderline reject: Technically solid paper where reasons to reject, e.g., limited evaluation, outweigh reasons to accept, e.g., good evaluation." Please use sparingly.
+
+Dialogue Agent: Understood. Thank you for the feedback. Is there anything else I can assist you with?

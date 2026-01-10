@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for being here. Can you explain to me what the paper is about and what problem it aims to solve?
+
+Dialogue agent: The paper is titled "On the Computational Efficiency of Adapting Transformer Models via Adversarial Noise", and it proposes a method called ScaLA that aims to improve the computational efficiency of fine-tuning pre-trained language models while preserving generalization. Specifically, the paper addresses the problem of speeding up adaptation training by introducing an adversarial training algorithm that is compatible with large batch training.
+
+Meta-reviewer: I see. And how does ScaLA work, exactly?
+
+Dialogue agent: ScaLA combines several optimization tricks such as delayed and one-shot perturbations, and it uses a large batch size to lower the total training iterations while employing adversarial training to mitigate the generalization drop brought by using a large batch size. This is done in order to bring down the computation overhead. The paper shows that ScaLA is faster than previously-proposed solutions like FreeLb and LAMB, while also improving the performance of the model, which indicates stronger generalization capabilities.
+
+Meta-reviewer: Interesting. And what are the strengths and weaknesses of the paper, according to the reviewers?
+
+Dialogue agent: Reviewers have identified several strengths of the paper, including that the research problem is well-motivated by the related work survey and the preliminary analyses, the presentation of the solution is mostly clear, and experiments show clear benefit over existing methods in terms of adaptation training speed, while also showing strong performance. Weaknesses identified include the fact that it is unclear if any of the modification here is specifically targeted to speed-up the adaptation training process (as opposed to pre-training), there are a few non-ideal presentation choices, and the paper heavily builds on the findings of existing works, making it hard to argue for technical novelty.
+
+Meta-reviewer: Thank you for summarizing that for me. Based on the reviews, I am fairly confident in my assessment that this is a technically solid paper, with some strengths and weaknesses. I noticed that one of the reviewers had a confidence level of 5, which indicates that this is a borderline accept paper. Can you give me more information on why that might be?
+
+Dialogue agent: Yes, that reviewer noted that the proposed method is simple and effective, and that addressing the challenges of large mini-batch training is important and timely. However, they also noted that the paper heavily builds on the findings of existing works, and that it is hard to argue for technical novelty. Additionally, the paper could be better organized, and the current presentation has several separate ideas floating around lacking a clear central theme.
+
+Meta-reviewer: I see. Thank you for that additional context. Given all of this information, I am going to keep my rating unchanged, which is a weak accept. I do not see any potential negative social impact, and I believe that the technical aspects of the paper are reasonable. Thank you for your help in making this decision.

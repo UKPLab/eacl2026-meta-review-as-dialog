@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have reviewed the reviews of the paper titled "Understanding Programmatic Weak Supervision via Source-aware Influence Function". I have a question for the dialogue agent: can you explain the method proposed in the paper for evaluating the influence of weak sources on the end model's performance? 
+
+Dialogue agent: Yes, the proposed method involves decomposing the training loss of the end model into multiple components corresponding to the individual weak sources. Then, we use two techniques called reweighting and weight-moving to compute a source-aware influence function. The source-aware influence function takes into account the choice of the label model, which is a critical component in weak supervision pipelines. By using the proposed source-aware influence function, we can evaluate the influence of each weak source on the end model's performance.
+
+Meta-reviewer: Thank you for the explanation. Review 1 mentioned that it is hard to understand why the proposed method should be effective across label model choices. Can you provide any insights on that?
+
+Dialogue agent: As the proposed method decomposes the training loss into individual components corresponding to the weak sources, we can evaluate the influence of each weak source on the end model's performance irrespective of the choice of the label model. By doing so, we can determine which weak sources are more informative or misleading, and use that knowledge to improve the quality of the labeling process.
+
+Meta-reviewer: Another concern raised by Review 1 is that it is not clear whether the proposed method explains the real influence of each component when $\sigma(\cdot)$ is not the identity function. Can you speak to that?
+
+Dialogue agent: The proposed method uses an approximate label model based on the identity function in cases where the label model involves an exponential function in its generation process. While this approximation may not explain the real influence of each component, it still provides a good estimate of the influence of each weak source on the end model's performance. Additionally, we can compare the predicted labels of the original and approximated label models to give an idea of how well the latter approximates the former.
+
+Meta-reviewer: Thank you for the clarification. Review 2 mentioned that the motivation for certain aspects of the method and experiments are unclear. Can you comment on that?
+
+Dialogue agent: While we understand the concerns raised in Review 2, we believe that the proposed framework provides a fine-grained analysis tool for the behavior of the end model. The influence of individual PWS components can be analyzed with our framework, and the most responsible labeling functions as well as their capacity to mislabel can be identified. We have also shown the effectiveness of our method on a variety of use-cases and datasets across tabular, textual, and image domains. 
+
+Meta-reviewer: Thank you for the response. Review 3 mentioned that the proposed framework hasn't been shown to work with one-stage methods. Can you explain what one-stage methods are and why they were not included in the experiments?
+
+Dialogue agent: One-stage methods involve directly generating hard labels from the input features rather than generating probabilistic labels through a label model. These methods are becoming more popular in weak supervision, but our framework is not well-suited for them. As for why they were not included in the experiments, it was mainly because the focus of our paper was on the source-aware influence function, which is specifically designed for multi-stage approaches. However, we believe that future work could explore adapting our framework for one-stage methods.

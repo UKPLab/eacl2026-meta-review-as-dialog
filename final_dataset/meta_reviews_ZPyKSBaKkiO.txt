@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "FR: Folded Rationalization with a Unified Encoder":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "FR: Folded Rationalization with a Unified Encoder". Can you provide me with a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for the task of rationalized classification, where a (latent, discrete) rationale is extracted and then used in a prediction module to render a classification decision. The core idea of this paper is to share the encoders for both the generator (= selector) and the predictor modules.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the strengths and weaknesses of the paper?
+
+Dialogue Agent: Sure! The paper has several strengths, including the observation and idea presented in the paper, which is interesting and addresses the degeneration problem in two-phase models for rationalization. The authors also provide solid empirical results and a thorough analysis of their work. However, the paper has some weaknesses, such as the assumption made about the structure of language, which may not hold in all cases. Additionally, the paper does not provide human evaluation of the produced rationales, and the models used are relatively weak compared to current state-of-the-art models.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the theoretical results in the paper?
+
+Dialogue Agent: The paper presents some theoretical results on why the rationalizer structure should be effective. However, I am not convinced of the correctness of the theory in this work, particularly with regards to the assumption made about the structure of language. Additionally, the paper does not provide derivations of the lemmas from first principles, which I believe is necessary to fully understand the theoretical results.
+
+Turn 4:
+
+Meta-Reviewer: I understand. Can you provide me with a summary of the paper's contributions and limitations?
+
+Dialogue Agent: The paper's contributions include the proposal of a new method for rationalized classification, which addresses the degeneration problem in two-phase models for rationalization. The paper also provides solid empirical results and a thorough analysis of their work. However, the paper has some limitations, such as the assumption made about the structure of language, which may not hold in all cases, and the use of relatively weak models compared to current state-of-the-art models. Additionally, the paper does not provide human evaluation of the produced rationales, which I believe is necessary to fully assess the effectiveness of the proposed method.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on my assessment, I would recommend borderline acceptance of the paper, as the reasons to accept outweigh the reasons to reject. However, I would suggest that the authors address the limitations of their work, such as the assumption made about the structure of language, and provide human evaluation of the produced rationales to fully assess the effectiveness of their proposed method.

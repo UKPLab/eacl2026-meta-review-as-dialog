@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Multilingual Neural Machine Translation With Soft Decoupled Encoding". Can you give me some insights into the paper's strengths and weaknesses?
+
+Dialogue Agent: Hello, Meta-reviewer. The paper proposes a special multilingual lexicon encoding framework that can share the lexical-level information among low-resource languages, named soft decoupled encoding (SDE). It outperforms existing methods on the translation of low-resource languages based on the experiments they conducted. One of the strengths of the paper is that it performs informative ablation studies that explain the relative importance of different parts of the proposed model. However, the paper seems to lack some novelty in terms of the proposed architecture, and more experiments are essential for justification.
+
+Meta-reviewer: I see. Do you have any suggestions on how the authors could improve the paper further?
+
+Dialogue Agent: The first reviewer's comments concern the proposed architecture. The authors could clarify how different languages are handled by SDE. They could also explain in more detail how the number of core semantic concepts is decided, whether the matrix for the semantic embeddings is jointly trained in a multilingual setting, and whether multiple languages including low-resource ones naturally align with the semantic embeddings during multilingual training. The second reviewer suggested that the authors should test the model with different latent embedding sizes and provide more empirical evidence to explain why their method outperforms similar ones. Finally, the third reviewer suggested that the authors should explain how the proposed method relates to previous works, whether they co-train LRLs with HRLs in the experiments, and what the total number of parameters in the SDE section of the encoder is. The authors should also present results for all languages in all sections of the paper.
+
+Meta-reviewer: Thank you. How confident are you in these reviews?
+
+Dialogue Agent: The first two reviewers seem to be confident about their evaluations (with a score of 5 and 4). The third reviewer also seems to be confident (with a score of 4) but is slightly more positive, giving the paper a rating of 7.

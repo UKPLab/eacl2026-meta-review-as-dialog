@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Multi-objective Deep Data Generation with Correlated Property Control":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Multi-objective Deep Data Generation with Correlated Property Control". Can you tell me a bit about the paper?
+
+Dialogue Agent: Sure! The paper addresses the problem of controllable data generation when the controlled attributes are correlated. It proposes a deep generative model that uses invertible mapping to map correlated properties to latent independent variables.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper addresses a challenging problem in a principled way and has been evaluated on real molecular data in addition to synthetic images. It also proposes a novel mask pooling layer to identify and control correlated properties.
+
+Turn 3:
+
+Meta-Reviewer: What about the weaknesses of the paper?
+
+Dialogue Agent: The paper does not provide sufficient evaluation of the generated data and does not mention its limitations. Additionally, the proposed experimental protocol does not assess the quality of the generated data, only the preservation of a few attributes.
+
+Turn 4:
+
+Meta-Reviewer: I see. How does the paper compare to other works in the field?
+
+Dialogue Agent: The paper does not compare its proposed method to other approaches that explicitly model the dependency between the properties using hierarchical models or those that do unconditional generative model coupled with Bayesian optimization to do conditional generation.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the strengths and weaknesses you've outlined, I would rate the paper as a borderline accept with a confidence level of 2.
+
+Dialogue Agent: I understand. The paper does have some limitations, but it also addresses a challenging problem in a novel way. I will make sure to summarize the key points for you before you make your final decision.
+
+Turn 6:
+
+Meta-Reviewer: That would be great. Can you tell me more about the proposed mask pooling layer and how it contributes to the paper's novelty?
+
+Dialogue Agent: The mask pooling layer is a novel aspect of the paper's approach. It allows the model to learn to identify and control correlated properties using independent latent variables. This also adds interpretability to the model.
+
+Turn 7:
+
+Meta-Reviewer: I see. Based on what you've told me, I think I will rate the paper as a borderline accept with a confidence level of 2. The paper does have some limitations, but it also addresses a challenging problem in a novel way.
+
+Dialogue Agent: I understand your decision. The paper does have some limitations, but it also has some novel and interesting aspects. I will make sure to summarize the key points for you before you make your final decision.

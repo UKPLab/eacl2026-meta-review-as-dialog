@@ -1,0 +1,19 @@
+Meta-reviewer: Thank you both for your reviews of the KSD Aggregated Goodness-of-fit Test paper. I appreciate your thorough analyses and evaluations. Based on your feedback and my own assessment, I'm leaning towards a weak acceptance, but I still have a few questions.
+
+Dialogue agent: Thank you for considering our input. We are here to answer any questions you may have.
+
+Meta-reviewer: Review 1 mentions that the work applies only to settings where model density is known. Can you confirm this limitation, and if so, how significant is it for the paper's impact?
+
+Dialogue agent: Yes, Review 1 is correct that the method presented in the paper assumes knowledge of the model density. This is mentioned in Section 3.2 of the paper. As for the significance of this limitation, it depends on the specific use case. In settings where the model density is known, this paper provides a powerful and principled approach to goodness-of-fit testing. However, for settings where the model density is unknown, other methods may be more appropriate. 
+
+Meta-reviewer: Review 2 notes that the paper builds on previous work and is a bit incremental. Can you elaborate on how this work extends previous work and why it is still significant?
+
+Dialogue agent: Yes, the KSD Aggregated Goodness-of-fit Test extends the idea of aggregated tests already used for two-sample problems via MMDs, and the independence problem via HSIC, to the goodness-of-fit setting via KSD. The key contribution of this paper is the use of KSD-based tests for aggregating multiple kernels without requiring strategies such as data-splitting. The proposed approach maximizes power over the kernels without increasing the type I error level, providing a principled alternative to existing methods. Additionally, the paper provides strong theoretical guarantees for controlling the type II error. While the contribution may be incremental in the sense that it builds on previous work, it still presents a novel approach to an important problem in statistical inference.
+
+Meta-reviewer: Review 3 suggests that the paper could be clearer in its exposition and contribution. Can you discuss how you might address these concerns?
+
+Dialogue agent: We appreciate Review 3's feedback. We agree that the paper could be clearer in its exposition and we will certainly consider adding a more detailed background section in the appendix to help readers unfamiliar with the Stein method. As for the contribution, we will revisit the contribution section to make sure it summarizes the key points and why they are novel. We will also consider expanding on the challenge mentioned in related work and explaining why the extension to the GOF test is non-trivial. 
+
+Meta-reviewer: Finally, I have a question about reviewer confidence. Review 1 rates the paper weaker than Review 2 and Review 3. How important is reviewer confidence in your decision-making process?
+
+Dialogue agent: Reviewer confidence is an important factor, as it reflects the level of assurance the reviewers have in their evaluations. However, it is not the only factor we consider. We also take into account the specific strengths, weaknesses, and limitations of the paper, as well as our own assessment. In this case, while Review 1 rates the paper weaker than the other reviews, their concerns are related to a specific limitation of the method, which may or may not be significant depending on the use case. Ultimately, we will weigh all of these factors to make a decision on whether to accept or reject the paper.

@@ -1,0 +1,29 @@
+Meta-reviewer: Good afternoon, dialogue agent. I have reviewed the three reviews for the paper "Phase-Aware Speech Enhancement with Deep Complex U-Net" and I have some questions for you.
+
+Dialogue agent: Good afternoon, meta-reviewer. I will do my best to answer your questions without providing opinions or recommendations.
+
+Meta-reviewer: Thank you. The first review mentions that the paper is written for an expert audience. Can you provide more details about the paper's target audience and level of difficulty?
+
+Dialogue agent: According to the paper type, "long", it's expected that the target audience would be experts in the field of speech enhancement. The first review indicates that the paper may be difficult to understand without a good background on deep learning for speech enhancement. Therefore, it can be assumed that the paper's level of difficulty is high.
+
+Meta-reviewer: Thanks for the clarification. The second review recommends that the paper describes potential applications of the proposed method in other speech applications. Can you inform me about the type of speech enhancement problem that the proposed method is trying to solve?
+
+Dialogue agent: The proposed method aims to tackle the problem of predicting the phase information in speech enhancement. The paper describes three novel techniques, one is to use complex U-Net, the second is to propose a new complex mask representation, which is well bounded and well model the complex mask distribution, and the last is an objective function motivated by scale-invariant signal-to-distortion ratio (SDR). 
+
+Meta-reviewer: Interesting. The third review appears to acknowledge the novelty of the paper but suggests that it could benefit from including comparison with another work. Can you tell me if the paper compared its proposed method with other speech enhancement methods?
+
+Dialogue agent: Yes, the paper compared its proposed method with other speech enhancement methods and showed experimental effectiveness by analyzing the three novel techniques and also by comparing the method with other speech enhancement methods. 
+
+Meta-reviewer: Thanks for the information. The third review also recommends that the paper conduct a human listening test using MOS or preference score. Can you confirm if the paper conducted such tests?
+
+Dialogue agent: The paper did not mention that it conducted a human listening test, but it used objective metrics to evaluate its proposed method. 
+
+Meta-reviewer: Alright. Can you provide me with a summary of the ratings and confidence levels of the three reviews?
+
+Dialogue agent: Of course. Review 1 rated the paper as "marginally above acceptance threshold" with a confidence level of 4. Review 2 rated the paper as "good paper, accept" with a confidence level of 4. Review 3 rated the paper as "good paper, accept" with a confidence level of 4.
+
+Meta-reviewer: I see. Based on the review ratings, the paper appears to be acceptable. However, the confidence levels are not very high. How important should we consider the reviewer confidence level when deciding whether to accept a paper?
+
+Dialogue agent: Reviewer confidence level is an indication of how certain the reviewer is about their evaluation. Although it is important, the final decision whether to accept or reject a paper should be made based on the content and quality of the paper itself as well as the feedback provided by the reviewers. 
+
+Meta-reviewer: Understood. Thank you for your help, dialogue agent. Based on the reviews, I will review the paper again and make a decision.

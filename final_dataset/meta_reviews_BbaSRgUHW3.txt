@@ -1,0 +1,49 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "LTMD: Learning Improvement of Spiking Neural Networks with Learnable Thresholding Neurons and Moderate Dropout":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "LTMD: Learning Improvement of Spiking Neural Networks with Learnable Thresholding Neurons and Moderate Dropout". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper proposes a learnable thresholding scheme and moderate dropout method for spiking neural networks (SNNs) to improve their learning performance and robustness. The proposed approach is evaluated on several benchmark datasets, including MNIST, CIFAR10, and NMNIST.
+
+Turn 2:
+
+Meta-Reviewer: What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to Review 1, the authors proposed a learnable (authors called dynamic) threshold scheme and a moderate dropout method for SNNs, which improves the classification performance and robustness of the model. However, the review also mentions that the proposed approach is not a "dynamic" threshold scheme, and that the validation mainly relies on DenseNet. Additionally, the review notes that the authors did not compare their approach to other existing dynamic threshold schemes, and that the validation only based on DesneNet is very limited.
+
+Turn 3:
+
+Meta-Reviewer: Can you provide more information about the learnable thresholding scheme proposed by the authors?
+
+Dialogue Agent: Sure! The authors propose a learnable thresholding scheme that uses learnable threshold values to incorporate heterogeneity in the neuronal parameters of SNNs. This approach allows for flexible neuronal mechanisms across layers with proper information flow within the network, and fast network convergence.
+
+Turn 4:
+
+Meta-Reviewer: How does the proposed approach address the issue of homogeneity in the neuronal parameters of SNNs?
+
+Dialogue Agent: The proposed approach addresses the issue of homogeneity in the neuronal parameters of SNNs by introducing dynamic thresholding, which allows for flexible neuronal mechanisms across layers with proper information flow within the network, and fast network convergence. This approach enables the model to learn more complex and abstract representations of the input data.
+
+Turn 5:
+
+Meta-Reviewer: What are the weaknesses of the paper, according to Review 2?
+
+Dialogue Agent: According to Review 2, the authors introduce two very different concepts - dynamic thresholding and moderate dropout - which seems to be two independent modifications both of which are supposed to greatly increase the computational load. Additionally, the review notes that the authors did not discuss the limitations of their work or the potential negative social impact of their work in the paper.
+
+Turn 6:
+
+Meta-Reviewer: Can you provide more information about the moderate dropout method proposed by the authors?
+
+Dialogue Agent: Sure! The authors propose a moderate dropout method based on the DenseNet structure to enhance the SNN modeling capability. This method involves randomly deactivating a fraction of the neurons in the network during training, which helps to prevent overfitting and improve the generalization performance of the model.
+
+Turn 7:
+
+Meta-Reviewer: How does the proposed approach compare to other existing dynamic threshold schemes, according to Review 3?
+
+Dialogue Agent: According to Review 3, the authors did not compare their approach to other existing dynamic threshold schemes, such as r1 and r2. The review suggests that the authors should have compared their approach to these existing schemes to provide a more comprehensive evaluation of their work.
+
+Turn 8:
+
+Meta-Reviewer: What is the final decision of the paper, based on the reviews?
+
+Dialogue Agent: Based on the reviews, the final decision of the paper is borderline reject. The reviewers have raised several concerns about the limited evaluation, lack of comparison to other existing schemes, and potential negative social impact of the work. However, the paper has also received some positive feedback, such as the introduction of a new dynamic thresholding scheme and the use of a moderate dropout method to enhance the SNN modeling capability.

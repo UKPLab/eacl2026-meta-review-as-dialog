@@ -1,0 +1,19 @@
+Meta-Reviewer: Hi there, can you briefly explain what this paper is about?
+
+Dialogue Agent: This paper proposes an approach to multi-modal imitation learning using a trajectory variational auto-encoder (VAE). The VAE embeds demonstrated trajectories into a structured latent space, which captures the multi-modal structure of the trajectories. The model is trained using expert demonstrations and generates state and action trajectories at test time. The paper aims to show that this approach can learn structured latent spaces and generate good trajectory reconstructions.
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of this paper, according to the reviews?
+
+Dialogue Agent: Review 1 points out that the paper is incremental, lacks good experimental results and comparisons, and needs substantial work before it can be accepted. Review 2 notes that the paper is clear and well-written, but lacks baseline comparisons and contributions, and could be improved by demonstrating its usefulness on more complex environments. Review 3 suggests that the paper lacks a clear contribution and needs better descriptions of its model architecture and how the model can be used to obtain a real policy. The reviewer also recommends using stronger use cases for the experiments and providing a comparison with state of the art.
+
+Meta-Reviewer: That sounds quite critical. How confident are the reviewers in their evaluations?
+
+Dialogue Agent: All three reviewers rate the paper as "Ok but not good enough - rejection" with a confidence level of four, meaning that they are confident but not absolutely certain that their evaluations are correct. 
+
+Meta-Reviewer: Okay, I understand. Based on the reviews, what do you think is the main issue with this paper?
+
+Dialogue Agent: It seems that the main issue is that the paper lacks clear contributions, needs better experimental design and results, and could benefit from comparisons with state of the art and baseline methods.
+
+Meta-Reviewer: I see. Considering the reviewers' comments, what is your recommendation for this paper?
+
+Dialogue Agent: Based on the reviewers' comments, I cannot provide an opinion or recommendation. However, I can provide you with a summary of the main issues raised in the reviews and the reviewers’ level of confidence in their evaluations. It is up to you, the meta-reviewer, to weigh these issues and make your own recommendation on whether to accept or reject the paper.

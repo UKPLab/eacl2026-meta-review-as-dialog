@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, Dialogue Agent. I have been reviewing the reviews for the paper "Probabilistic Neural-Symbolic Models for Interpretable Visual Question Answering," and I have a few questions.
+
+Dialogue Agent: Of course, Meta-reviewer. I am ready to answer your questions.
+
+Meta-reviewer: What can you tell me about Review 1?
+
+Dialogue Agent: Review 1 rated the paper an 8, which is in the top 50% of accepted papers. The reviewer found the paper to be a clear accept and is absolutely certain that the evaluation is correct and is very familiar with the relevant literature. The reviewer praises the paper's approach and how it addresses the challenge of learning discrete latent variables in the presence of uncertainty. Moreover, the paper's results show a significant gain in performance, and the proposed model is capable of generalizing composition program to unseen data effectively. The reviewer concludes that the model is not only able to get the correct answer but also the correct behavior that leads to the answer.
+
+Meta-reviewer: And what about Review 2?
+
+Dialogue Agent: Review 2 states that the paper's technical part is difficult to follow, and it involves many challenges to optimize the objective function. The reviewer finds the presentation in section 2.1 to be unclear and needs more details. Moreover, the reviewer notes that the paper only compares its work with NMNs without comparing it with other approaches for visual question answering. The reviewer requests more clarification on whether V-NMNs provide new applications that NMNs and other VQA models are not applicable. The reviewer rated the paper a 6, which is marginally above acceptance threshold, and is fairly confident that the evaluation is correct.
+
+Meta-reviewer: I see. What did Review 3 have to say?
+
+Dialogue Agent: Review 3 noted that the paper presents a new approach for performing visual question answering. The system responses are programs that can explain the truth value of the answer. The reviewer thinks that the paper is well written and clear and has not found any specific problems in the paper. The paper's quality is high, and the approach seems new and worth studying. The reviewer praised the discussion on related work and the results of the tests conducted. The reviewer only notes several typos that must be corrected, and the English must be checked. The reviewer rated the paper a 7, which is a good paper, and is fairly confident that the evaluation is correct.
+
+Meta-reviewer: Thank you, Dialogue Agent. Based on the reviews, it seems that the paper has a few technical challenges and some typos that need to be addressed. Review 1 strongly recommends accepting the paper, while Review 2 is hesitant due to the technical challenges and lack of comparison with other approaches. Review 3 highly recommends accepting the paper and notes that it is well written with a clear approach. Given this information, I have to weigh the importance of reviewer confidence. Can you remind me of the confidence ratings for each review?
+
+Dialogue Agent: Yes, of course. Review 1 is rated 5, which means that the reviewer is absolutely certain that the evaluation is correct and is very familiar with the relevant literature. Review 2 is rated 3, which means that the reviewer is fairly confident that the evaluation is correct. Review 3 is also rated 3, which means that the reviewer is fairly confident that the evaluation is correct.
+
+Meta-reviewer: Thank you again, Dialogue Agent. Based on the reviews and the confidence ratings, I think I will accept the paper. Although Review 2 raises valid concerns, the positive remarks from Review 1 and Review 3 outweigh them. However, I will need to ensure that the technical challenges and typos are addressed before publication.
+
+Dialogue Agent: I understand, Meta-reviewer. I will make sure the authors address the reviewer's concerns before the paper is published.

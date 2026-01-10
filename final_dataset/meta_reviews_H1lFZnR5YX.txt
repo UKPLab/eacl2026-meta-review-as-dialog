@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Neural Regression Tree" and I would like to discuss with you the potential acceptance or rejection of this paper. Can you provide me with some information about the paper type and what the reviewers have said about it?
+
+Dialogue agent: Hello, meta-reviewer. The paper type is long and the reviewers have provided mixed feedback. Reviewer 1 rated it marginally below the acceptance threshold and pointed out that the paper lacks detailed motivation, insufficient baselines and applied tasks. Reviewer 2 gave a clear rejection and noted that the paper failed to give motivations for the significance of the work, and that the presented experiments are not thorough. Reviewer 3 rated it as ok but not good enough for acceptance and discussed several points that could have been considered more carefully.
+
+Meta-reviewer: Thank you. Based on these reviews, it seems that the paper has some flaws. Can you elaborate on the strengths and weaknesses of this paper? 
+
+Dialogue agent: I'm sorry, meta-reviewer, but as a dialogue agent, I am not allowed to express any opinions or recommendations regarding the paper. However, I can provide you with more information about the reviewers' comments if you have any questions.
+
+Meta-reviewer: Yes, actually, I have a question. Reviewer 1 mentioned that the paper would be significantly more compelling if the strategy was applied to more varied tasks. Can you provide me with more information about what other tasks the paper could have used to evaluate the proposed strategy?
+
+Dialogue agent: According to Reviewer 1, it is unclear why RvC is the best strategy for the tasks studied in the paper, and what other tasks one should approach from an RvC standpoint. The reviewer suggested that the paper could have used more varied tasks to show the generalizability of the proposed strategy.
+
+Meta-reviewer: I see. Reviewer 2 also noted that the paper failed to give motivations for the significance of the work and did not explain why regression via classification is useful. Can you provide me with more information about this?
+
+Dialogue agent: Reviewer 2 expressed concerns about the usefulness of regression via classification and questioned the need for the presented model. The reviewer also suggested that the paper should have compared the proposed method to other stronger and simpler baselines for regression. 
+
+Meta-reviewer: Okay, thank you for the information. Reviewer 3 noted that the proposed method seems to lose interpretability because of introducing node splitters by neural nets. Can you elaborate on this?
+
+Dialogue agent: According to Reviewer 3, single CARTs are well interpretable and can be a nice tool to get some interpretations of the given data. However, the proposed method seems to lose this type of interpretability because of introducing node splitters by neural nets. The reviewer suggested that the merits of the proposed approach are somewhat unclear.
+
+Meta-reviewer: I see. Thank you for the explanation. Lastly, can you provide me with the confidence that the reviewers have in their ratings for this paper?
+
+Dialogue agent: Certainly. Reviewer 1 had a confidence level of 3, meaning that the reviewer was fairly confident in the evaluation. Reviewer 2 had a confidence level of 4, indicating that the reviewer was confident but not absolutely certain about the evaluation. Reviewer 3 had a confidence level of 5, expressing that the reviewer was absolutely certain that the evaluation was correct and was very familiar with the relevant literature. 
+
+Meta-reviewer: Thank you for your help. It seems that this paper has some weaknesses that need to be addressed. I will take these into consideration in making a final decision on whether to accept or reject the paper.

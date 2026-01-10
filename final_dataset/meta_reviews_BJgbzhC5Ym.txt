@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "NECST: Neural Joint Source-Channel Coding":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "NECST: Neural Joint Source-Channel Coding". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! NECST is a neural network model that uses discrete binary latents to perform joint source-channel coding. The authors claim that NECST outperforms JPEG+ideal channel code model and VAE+LDPC setup in terms of rate-distortion performance.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The main contribution of the paper is the use of discrete binary latents in the neural network model, which improves the rate-distortion performance compared to standard continuous latents. Additionally, the authors propose a new training method called VIMCO to optimize the discrete latents.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the limitations of the paper?
+
+Dialogue Agent: One limitation of the paper is that the authors only compare NECST with JPEG+ideal channel code model and VAE+LDPC setup, but do not consider other more complex channels or methods. Additionally, the authors do not provide fully reproducible code for their method, which makes it difficult to reproduce the results.
+
+Turn 4:
+
+Meta-reviewer: I understand. Can you provide more information about the choice of VIMCO?
+
+Dialogue Agent: Sure! The authors choose VIMCO to preserve the hard discreteness of the discrete binary latents. However, other methods like Gumbel-SM and several others also referenced in the paper have been used successfully to solve for propagating gradients through discrete units. The authors do not compare the performance of NECST with these methods.
+
+Turn 5:
+
+Meta-reviewer: That's helpful to know. How does the limitation of fixed code-length affect the performance of NECST?
+
+Dialogue Agent: The limitation of fixed code-length means that NECST is not able to adapt to different input lengths, which could limit its performance in certain scenarios. However, the authors do not provide a detailed analysis of the impact of fixed code-length on NECST's performance.
+
+Turn 6:
+
+Meta-reviewer: I see. Based on your summary, I would rate the paper as 7: Good paper, accept. Thank you for your help!
+
+Dialogue Agent: You're welcome! Thank you for the opportunity to assist you.

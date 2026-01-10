@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Efficient Submodular Optimization under Noise: Local Search is Robust":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Efficient Submodular Optimization under Noise: Local Search is Robust". Can you tell me about the paper's main contributions?
+
+Dialogue Agent: Sure! The paper considers the problem of maximizing a monotone submodular function under matroid constraints when the function values are given by a noisy oracle. The authors propose two novel auxiliary functions which can be queried efficiently to improve the algorithms' candidate solutions via local search. The approach for cardinality constraints is then extended to work with matroid constraints.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the novelty of the paper and its significance?
+
+Dialogue Agent: The paper offers technical solid contributions that lead to more practical ways to handle noisy function evaluation. The authors cite previous related work where appropriate and provide strong results with considerable improvements over the state-of-the-art. The paper is well-organized and easy to follow, with intuitive explanations and motivations.
+
+Turn 3:
+
+Meta-Reviewer: How do the authors address the noise model in the paper?
+
+Dialogue Agent: The paper does not include a detailed discussion on the noise model, but it is true that a couple of previous papers also considered the same noise model. The authors mention the limitations of the noise model and the challenges in removing the cardinality bounds altogether.
+
+Turn 4:
+
+Meta-Reviewer: What is your assessment of the paper's impact and relevance?
+
+Dialogue Agent: The paper has high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. The paper describes limitations as opportunities for future work, but does not address any potential negative social impact.
+
+Turn 5:
+
+Meta-Reviewer: Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews, I would recommend accepting the paper with a rating of 7: Accept. The paper is technically solid, with high impact on at least one sub-area, and no unaddressed ethical considerations.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your assistance. I will take your recommendations into consideration when making my final decision.
+
+Dialogue Agent: You're welcome! I hope my responses were helpful in your assessment of the paper.

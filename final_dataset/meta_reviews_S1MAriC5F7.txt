@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me more about the paper "Massively Parallel Hyperparameter Tuning"? Specifically, can you summarize the key contributions and results?
+
+Dialogue agent: Certainly, "Massively Parallel Hyperparameter Tuning" proposes an extension of the Successive Halving Algorithm (SHA) called ASHA, which allows for its deployment in a massively parallel setting. ASHA promotes a hyperparameter configuration to the next rung of successive halving when possible, instead of waiting for all configurations of the current rung to finish. The paper shows that ASHA outperforms other parallel methods such as Vizier and population-based training. The key contributions of the paper are the introduction of ASHA and an extensive experimental evaluation to validate its effectiveness. 
+
+Meta-reviewer: Thank you for the summary. What are the main strengths and weaknesses of this paper according to the reviewers?
+
+Dialogue agent: Review 1 found the work to be of good quality and the contribution incremental but important, although some elements such as the experimental section could benefit from some more rigorous statistical analysis. Review 2 thinks the paper shows little novelty and proposes a fairly straightforward way to parallelize successive halving. Review 3 found ASHA to be a valuable contribution but thought that the technical contribution was minor. All reviewers highlighted the importance of the extensive experimental evaluation.
+
+Meta-reviewer: Some reviewers mentioned concerns about ASHA's performance in more difficult search spaces. What can you tell me about that?
+
+Dialogue agent: Yes, Review 2 noted that ASHA's performance decays with increasing difficulty of the search space due to an increased number of mispromoted configurations. Review 1 also found the final experiment on the large-scale setting to be underwhelming.
+
+Meta-reviewer: The reviewers provided some suggestions for improving the paper. Can you summarize them for me?
+
+Dialogue agent: Review 1 suggests that the presentation of Algorithm 3.2 can be confusing and that the first experiment should not be in an appendix. They also propose combining the CIFAR-10 benchmarks and removing ASHA from sequential experiments. They also think that providing the performance of models with manually tuned hyperparameters as a reference would be interesting. Review 2 suggests investigating how ASHA's performance changes with altered input parameters, including PBT for large-scale experiments, and including a reference to the work by Falkner et al. Review 3 asks for more details on what a configuration is and the theoretical benefits of SHA.

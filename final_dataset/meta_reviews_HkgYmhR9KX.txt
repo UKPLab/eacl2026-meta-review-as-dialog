@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "AD-VAT: An Asymmetric Dueling mechanism for learning Visual Active Tracking":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "AD-VAT: An Asymmetric Dueling mechanism for learning Visual Active Tracking". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a novel reward function called "partial zero sum" for visual active tracking tasks, which encourages the tracker-target competition when they are close and penalizes when they are too far.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the contributions of this paper compared to previous works?
+
+Dialogue Agent: The paper compares the proposed method to [Luo et al (2018)] and [Review 1] mentions that the contributions are incremental compared to the previous work. The proposed method also includes a tracker-aware observation for the target agent.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to [Review 1], the paper's contributions are incremental compared to previous works, but the explanation about the importance of the tracker awareness to the target network seems not sufficient. [Review 2] mentions that the reward function is not completely zero-sum and the work is very incremental over the previous work, but the improvement is quite small and the task is ad-hoc. [Review 3] thinks that the paper is well-written and the "partial zero-sum" idea is novel, but the results obtained from the simulated environment in 2D and 3D are convincing.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for summarizing the reviews. Based on the reviews, I'm considering the acceptance of the paper. What are your thoughts on the paper's acceptance?
+
+Dialogue Agent: Based on the reviews, the paper's contributions are incremental compared to previous works, but the improvement is quite small and the task is ad-hoc. The results obtained from the simulated environment are convincing, but a stronger baseline and real-world test results would be necessary for a stronger acceptance.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. I will consider the reviews and your summary when making my final decision.
+
+Dialogue Agent: You're welcome. Please let me know if there's anything else I can assist you with.

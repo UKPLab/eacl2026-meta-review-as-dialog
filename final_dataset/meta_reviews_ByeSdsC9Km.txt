@@ -1,0 +1,26 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper called "Adaptive Posterior Learning: few-shot learning with a surprise-based memory module". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new algorithm for few-shot learning called Adaptive Posterior Learning (APL). APL uses an external memory module to store information and a surprise-based signal to determine which data points to store. The authors evaluate APL on a few-shot classification task on Omniglot dataset and on a number analogy task.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the strengths of this paper?
+
+Dialogue Agent: The paper considers an interesting approach to life-long learning and introduces a novel technique for writing to external memory based on surprisal. The authors also use an attention mechanism to the most relevant points for prediction. The paper evaluates APL on a few-shot classification task and a number analogy task, and the results are convincing.
+
+Turn 3:
+Meta-reviewer: Can you tell me more about the surprise-based signal? How does it work?
+
+Dialogue Agent: Sure! The authors use a surprise-based signal to determine which data points to store in memory. The signal is based on the negative log of the prediction for the label. The authors define surprise as the negative log of the prediction for the label, and they use this measure to determine which data points to store in memory.
+
+Turn 4:
+Meta-reviewer: I see. What about the limitations of the paper? Are there any issues with the method or the evaluation?
+
+Dialogue Agent: The paper has some limitations. The authors consider a specific learning setting, and the evaluation is done only on a few-shot classification task and a number analogy task. The paper does not consider other learning contexts or tasks, and the evaluation does not show the benefit in an obvious way. Additionally, the paper does not provide a clear explanation of the embeddings used in the paper, and the hyperparameter \sigma is not well justified.
+
+Turn 5:
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper is well-written and the ideas are interesting, but the evaluation is limited and the paper does not fully justify its claims. I would recommend accepting the paper with minor revisions.
+
+Dialogue Agent: Thank you for your feedback! I will pass on your comments to the authors.

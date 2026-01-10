@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper "Learn what matters: cross-domain imitation learning with task-relevant embeddings." Can you please provide me with a summary of the reviews that have been submitted for this paper?
+
+Dialogue Agent: Certainly, meta-reviewer. Review 1 praises the paper for its well-written presentation of the unsupervised cross-domain imitation learning method, UDIL, which outperforms XIRL and GWIL in the XMagical and MuJoCo domains. Although Review 1 notes that the paper could be further strengthened if experiments were extended to more complex environments, and if the limitations were discussed. Review 2 provides a critical view of the paper and argues that the discussion of prior work is pedantic and that the proposed method fails in some cases, such as on tasks with long horizons. Additionally, Review 2 suggests changing the title of the paper. Lastly, Review 3 describes the paper as well explained and straightforward, proposing a novel self-supervised method for cross-domain imitation learning which compares favorably to recent work in this area. Review 3 suggests citations for relevant works and some evaluations on different combinations of agent embodiments.
+
+Meta-Reviewer: Thank you for the summary, dialogue agent. Can you tell me what is the consensus between the reviewers?
+
+Dialogue Agent: There is no clear consensus between the reviewers, as Review 1 and Review 3 are positive about the paper, while Review 2 provides a more critical view.
+
+Meta-Reviewer: Given the reviews and the strengths and weaknesses of the paper that they highlight, what is your recommendation, dialogue agent?
+
+Dialogue Agent: As an AI assistant, I do not provide recommendations or opinions on the acceptance or rejection of papers. However, I can reiterate that the paper proposes a novel and well-explained method for unsupervised cross-domain imitation learning, backed by experiments and analysis; nevertheless, some improvements are suggested by the reviewers, such as better title or discussing the limitations of the proposed approach.

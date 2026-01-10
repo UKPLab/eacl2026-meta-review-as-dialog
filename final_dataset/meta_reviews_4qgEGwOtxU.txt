@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the reviews for the paper "Importance and Coherence: Methods for Evaluating Modularity in Neural Networks". Can you please start by summarizing the main contributions of the paper and how it addresses the problem it sets out to solve?
+
+Dialogue agent: Sure. The paper proposes a method based on importance and coherence to evaluate whether a partitioning of a neural network exhibits modular characteristics. The authors use spectral clustering to identify sets of neurons that appear to be functionally related and assess the importance and coherence of these sets. The paper aims to provide insights into the relationship between the structural properties of a deep network and the emergence of functional properties.
+
+Meta-reviewer: Okay. Let's start with Review 1. The reviewer seems to have concerns about the presentation and results of the paper. What can you tell me about those concerns?
+
+Dialogue agent: The reviewer states that the results are largely qualitative and anecdotal and that the writing and presentation could be improved to highlight the most exciting and surprising findings. Also, they suggest that the results rely on a second paper which was concurrently submitted and cannot be reviewed. Finally, the reviewer notes that the paper does not generate testable predictions or practical insights that could be used by practitioners.
+
+Meta-reviewer: That's helpful. And what about Review 2? What are the main criticisms and suggestions made by that reviewer?
+
+Dialogue agent: Review 2 appreciates the wide range of networks tested by the authors but suggests that the way results are presented does not easily allow to establish robust findings. The reviewer also thinks that the approach can benefit from better assessment of the relationship between modularity and regularization techniques. Additionally, the reviewer proposes that the authors put their method in relation to other approaches that have proven effective to address similar questions.
+
+Meta-reviewer: Thank you. Finally, Review 3 seems to have concerns about the validity of the experimental design and the relevance of the contributions to the field. Can you tell me more about that?
+
+Dialogue agent: Yes, Review 3 questions some of the design choices made in the experiments, such as the subjective nature of the visualizations presented and the reliance on small MLPs and dropout to favor the measuring capabilities of the proposed metrics. The reviewer also notes that the experiments lack consistency and that the added value of the proposed method to interpretability and explainability is not clear. Finally, the reviewer points out that the paper is not self-contained and significant parts of it are delegated to supplementary materials.
+
+Meta-reviewer: Thank you for the summaries. Based on the reviews, the rating is either "Ok but not good enough - rejection" or "Marginally below acceptance threshold". However, there seems to be some disagreement among reviewers about the quality of the paper. Can you tell me about the confidence levels of the reviewers?
+
+Dialogue agent: Reviewer 1 and Reviewer 2 both have a confidence level of 4, meaning they are confident but not absolutely certain that their evaluation is correct. Reviewer 3 has a confidence level of 4 as well, but notes that the manuscript is not self-contained, which is a concern.
+
+Meta-reviewer: I see. It seems like the reviewers have provided some valuable feedback, but their confidence levels are not high enough to make a definitive decision about the paper. As a meta-reviewer, I would like to know if you have any additional insights or suggestions on how to proceed.
+
+Dialogue agent: In my opinion, the paper could benefit from addressing the issues raised by the reviewers, such as improving the presentation of the results, providing more consistent experimental design, and better assessing the relationship between modularity and regularization techniques. Additionally, the paper could be more self-contained, with all relevant information included in the main manuscript. Given the mixed reviews and the overlapping concerns, it might be helpful to have the authors revise the paper and submit it again for further evaluation.

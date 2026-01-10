@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating a paper titled "Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection". Can you provide a summary of the paper and its main contributions?
+
+Dialogue Agent: Certainly! The paper "Untargeted Backdoor Watermark: Towards Harmless and Stealthy Dataset Copyright Protection" proposes a novel approach to protect open-source datasets from illegal DNN training by injecting verifiable backdoor watermarks. The authors propose two versions of the watermarking technique, UBW-P and UBW-C, which are designed for poisoned-label and clean-label settings, respectively. The proposed methods are evaluated on CIFAR-10 and ImageNet, and are found to be effective and dispersible while being stealthy to standard backdoor defenses.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper has several strengths, including a good discussion on the issue of common targeted backdoor watermarks and the need for untargeted backdoor watermarks. The proposed untargeted backdoor watermarking techniques are novel and useful, and the authors provided a thorough evaluation of the proposed methods. However, the paper has some weaknesses, such as the lack of in-depth discussions on the selection of triggers and the potential negative impact of the protected dataset.
+
+Turn 3:
+
+Meta-Reviewer: Can you elaborate on the weaknesses of the paper?
+
+Dialogue Agent: Sure. One weakness of the paper is the lack of in-depth discussions on the selection of triggers and the potential negative impact of the protected dataset. Additionally, the proposed watermarks are perceptible by human subjects and can be manually removed, which may limit their effectiveness in practice. The authors also did not verify the proposed watermarking methods under dataset-based backdoor defenses such as Spectral Signatures and Activation Clustering.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the summary and assessment. Based on your evaluation, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would recommend accepting the paper with a condition that the authors address the weaknesses and provide more details on the selection of triggers and the potential negative impact of the protected dataset. The paper has a high impact on at least one area, and the proposed techniques are novel and useful. However, the weaknesses should be addressed to ensure the effectiveness and practicality of the proposed methods.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your assessment. I will take your recommendations into consideration when making my final decision.
+
+Dialogue Agent: You're welcome. Please let me know if there is anything else I can assist you with.

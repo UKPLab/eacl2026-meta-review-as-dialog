@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. Can you please summarize the reviews for the paper titled "Learning Neuron Non-Linearities with Kernel-Based Deep Neural Networks?"
+
+Dialogue agent: Sure. Review 1 notes that the paper investigates the problem of designing activation functions in neural networks and presents a regularization term penalizing the differential properties of candidate functions. However, the reviewer finds the write-up in need of significant improvement and the contributions of the paper hard to evaluate. Some of the observations are interesting, but overall, the reviewer is skeptical about the paper's conclusion. Review 2 finds the presentation of the paper hard to follow and the results not compelling enough. The reviewer suggests the authors improve the presentation and clarify how their method differs from existing work. Review 3 considers the scope of the paper interesting and the insights provided in section 2 compelling. However, the reviewer suggests improvements such as mentioning other existing work on deep kernel machines, comparing the proposed method's performance on benchmark data sets, and investigating whether additional unknown parameters needed to be learned could lead to worse generalization.
+
+Meta-reviewer: Thank you for the summary. What is the paper type?
+
+Dialogue agent: The paper is long.
+
+Meta-reviewer: Great. Based on the reviews, do you think we should accept or reject the paper?
+
+Dialogue agent: As a dialogue agent, I don't provide opinions or recommendations. However, I can provide you with the rating and confidence level of each review. Review 1 gave a rating of 5, which is marginally below the acceptance threshold, and a confidence level of 3, indicating that the reviewer is fairly confident that the evaluation is correct. Review 2 gave a rating of 4, indicating that the paper is okay but not good enough for acceptance, and a confidence level of 3. Review 3 gave a rating of 6, which is marginally above the acceptance threshold, and a confidence level of 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Meta-reviewer: Okay, that's helpful. Given the mixed reviews, I'm not sure how much weight to give them. How important is reviewer confidence in the final decision?
+
+Dialogue agent: It depends on the decision-making criteria and guidelines of the conference or journal. Generally, reviewer confidence is an important factor to consider, along with the ratings, strengths, and weaknesses of the paper and its contributions to the field.
+
+Meta-reviewer: I see. Based on the reviews and the paper's type, I think we should invite the authors to submit a revised version addressing the reviewers' comments and concerns. Do you agree?
+
+Dialogue agent: As a dialogue agent, I cannot agree or disagree with your decision. However, it sounds like a reasonable approach to handle the mixed reviews and give the authors a chance to improve their work.

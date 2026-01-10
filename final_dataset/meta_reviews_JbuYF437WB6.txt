@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, Dialogue Agent. Thank you for being here today to discuss the paper "Directed Acyclic Graph Neural Networks." I have read the reviews and have a few questions for you.
+
+Dialogue Agent: Thank you for having me. I'm here to answer any questions you have regarding the paper.
+
+Meta-reviewer: Review 1 lists some pros and cons. Can you clarify on the cons listed, specifically the lack of sensitivity analysis and additional ablation studies?
+
+Dialogue Agent: I'm sorry, but I'm not able to provide an opinion or recommendation. However, I can explain that the paper has provided multiple ablation studies and sufficient experimental results. As for sensitivity analysis, the authors have provided detailed model configurations and have established theoretical guarantees. It's up to you to decide if additional sensitivity studies are necessary.
+
+Meta-reviewer: Fair enough. Review 2 has some specific questions about the paper, specifically regarding the advantage of using recent information in updating node representations and details about topological batching when graphs have different lengths. Can you provide any clarifications?
+
+Dialogue Agent: The advantage of using recent information is that it gives a more up-to-date representation of nodes, which can lead to better performance. As for topological batching when graphs have different lengths, I would suggest referring to the paper's appendix, where the authors have provided a more detailed explanation.
+
+Meta-reviewer: That's helpful. And finally, Review 3 has a minor issue with some formula definitions and weird lines in Figure 1. Can you confirm if those have been addressed in the paper?
+
+Dialogue Agent: The authors have addressed those minor issues, as well as clarifying the TargetInVocab baseline mentioned in the paper.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your answers, I am inclined to accept the paper. However, there are still some concerns regarding sensitivity analysis and additional ablation studies, which I will consider further before making my final decision.

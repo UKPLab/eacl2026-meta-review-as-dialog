@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, Dialogue Agent. I have reviewed the reviews for the paper on "Understanding Straight-Through Estimator in Training Activation Quantized Neural Nets" and I have some questions and concerns before making a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Of course, Meta-reviewer. I will do my best to address your questions and concerns.
+
+Meta-reviewer: One reviewer pointed out that the setting of the paper is restrictive, as it only considers gaussian input, no label noise, and non-overlapping architecture. Can you explain why the authors chose this setting and why it is relevant?
+
+Dialogue Agent: The authors chose this setting because they wanted to analyze the effect of straight-through estimator (STE) on binary activation neural networks in a controlled environment. The focus of the paper is not to study the effect of STE on different types of input or architectures, but rather to understand its behavior in a specific setting. Additionally, the authors used a simple setting to make the analysis more tractable and to provide clear theoretical guarantees.
+
+Meta-reviewer: Another reviewer mentioned that the paper incorrectly claims to be the first to analyze STE, when previous work such as Bengio et al. (2013), targeting propagation, and other papers have also provided theoretical justification for STE. Can you explain why the authors made this claim?
+
+Dialogue Agent: The authors claim that their work is the first to provide theoretical justification for the concept of STE for binary activation neural networks in the context of mean squared loss. While previous work has provided theoretical justification for STE in different settings and loss functions, the authors believe that their work is the first to do so for binary activation neural networks with mean squared loss. Nonetheless, the authors acknowledge and discuss the previous work on STE in the related work section.
+
+Meta-reviewer: The same reviewer also pointed out that the paper did not analyze the most common and successful STE, which is the saturated straight-through estimator (SSTE), and asked whether the analysis extends to this STE. Can you explain why the authors did not study SSTE and whether their analysis can be extended to it?
+
+Dialogue Agent: The authors did not study SSTE as their focus was on comparing the performance of the identity and ReLU-based STEs. While it is possible that their analysis can be extended to SSTE, they did not explore this possibility in their paper. However, they acknowledge SSTE as a commonly used STE in their related work section.
+
+Meta-reviewer: One reviewer mentioned that the paper did not discuss the connection between single-layer binarized networks and perceptrons. Can you explain why this connection was not discussed and whether the results of this paper can be extended to multi-layer binarized networks?
+
+Dialogue Agent: The authors did not explicitly discuss the connection between single-layer binarized networks and perceptrons as their focus was on the effect of STE on these networks. As for extending the analysis to multi-layer binarized networks, the authors mention in their conclusion that their theoretical framework can be extended to consider multi-layer binarized networks with binary activations.
+
+Meta-reviewer: Thank you for your responses. Overall, I think the paper offers interesting analysis and has addressed many of the reviewers' concerns. I will therefore increase my rating from 6 to 7, which means I consider the paper good and I recommend it for acceptance. My confidence level remains at 4. 
+
+Dialogue Agent: Thank you, Meta-reviewer. We will take your recommendation into consideration when making the final decision on the paper.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the title "SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts". The reviews are [Review 1, Review 2, and Review 3]. The meta-reviewer is aware only of the paper's title and relies on the dialogue agent, equipped with reviews and paper type information, to make a final decision.
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "SciCo: Hierarchical Cross-Document Coreference for Scientific Concepts". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a new task called Hierarchical Cross-Document Coreference (HCDCR) for scientific concepts, which involves identifying mention clusters and organizing them into a hierarchy. It also introduces a new dataset called SciCo and presents baseline experiments and a unified model for the task.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: Based on the reviews, the paper has strong contributions in terms of data and methodology, and it is well-written with clear descriptions. However, one reviewer mentions that the paper feels somewhat compressed to fit into the format, and some elements in the appendices should be included in the main paper. Another reviewer raises a question about the determination of the "parent concept" for automatically generated groups, and another reviewer has minor comments regarding the presentation of the metrics and the use of "deep neural networks" versus "neural networks".
+
+Turn 3:
+
+Meta-reviewer: Can you summarize the evaluation of the paper and the reviewer confidence?
+
+Dialogue Agent: The paper has an overall rating of 8, indicating that it is in the top 50% of accepted papers, and the reviewer confidence is 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. The evaluation includes an assessment of the paper's contributions, its writing quality, and the results of the baseline experiments and ablation studies.
+
+Turn 4:
+
+Meta-reviewer: Based on the summarized information, I think the paper is of high quality and the contributions are significant. However, I would like to know more about the hierarchical grouping and the impact of lexical diversity on the performance of the model. Can you provide more information on these aspects?
+
+Dialogue Agent: Certainly! The paper introduces a new approach to hierarchical grouping that optimizes an objective function, and it studies the impact of lexical diversity on the performance of the model. The authors also provide an ablation study to examine the performance of the model with coreference and hierarchy only variants. Additionally, the paper includes a thorough evaluation of the baseline models and a comparison of the proposed model with state-of-the-art systems.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the information. Based on the summarized information and my own expertise, I think the paper is of high quality and the contributions are significant. I will accept the paper for publication.
+
+Dialogue Agent: Thank you for your decision. If you have any further questions or concerns, please don't hesitate to ask.

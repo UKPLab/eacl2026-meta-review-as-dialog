@@ -1,0 +1,17 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Denoise while Aggregating: Collaborative Learning in Open-Domain Question Answering":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Denoise while Aggregating: Collaborative Learning in Open-Domain Question Answering". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new open-domain question answering system that uses a combination of a sentence selection model and a semantic labeler to improve the accuracy of the model. The sentence selection model is trained on SQuAD and the semantic labeler is trained on a distant supervision dataset. The proposed method outperforms existing models on three open-domain question answering datasets.
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the semantic labeler and how it addresses the problem of distant supervision?
+
+Dialogue Agent: Certainly! The semantic labeler is a novel method for handling distant supervision, which is a challenge in open-domain question answering. The labeler uses a combination of sentence-level and document-level information to improve the accuracy of the model. The authors also explore two different denoising methods to further improve the performance of the model.
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The strengths of the paper include the proposed method's performance on three open-domain question answering datasets, and the novel approach to handling distant supervision. However, the weaknesses of the paper include the fact that the contribution is marginal, as the idea of sentence discriminator and sentence reader has been widely used before, and the authors do not provide a comprehensive comparison of their method with existing methods.
+
+Meta-Reviewer: Thank you for your summary. Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the information provided, I would recommend rejecting the paper, as the contribution is marginal and the authors do not provide a comprehensive comparison of their method with existing methods. However, the paper does propose a novel approach to handling distant supervision, which could be of interest to the research community.

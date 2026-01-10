@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have received three reviews for the paper "RODE: Learning Roles to Decompose Multi-Agent Tasks". Can you provide me with a brief summary of the paper's contributions and approach? Also, can you confirm the type of the paper?
+
+Dialogue agent: Hello, meta-reviewer. The paper is a long paper that proposes a role-based learning model for multi-agent tasks. The paper's approach involves discovering roles from the joint action spaces and then using a bi-level role assignment to learn roles and actions for each agent. The steps involved are action space reduction using K-means clustering and learning role selectors for each agent. The paper is well-written and extensively tested on the StarCraft II micromanagement environments.
+
+Meta-reviewer: Thank you for the summary. Review 1 mentions some minor issues regarding the outlier roles and action spaces and the impact of changes in the clustering algorithm. How do the authors address these issues?
+
+Dialogue agent: The authors do not provide a response directly addressing these issues.
+
+Meta-reviewer: Review 2 seems to be positive overall with some questions regarding the action clustering and simultaneous training of policies. Can you provide me with any additional insights related to these questions?
+
+Dialogue agent: The authors do not provide a direct response to the question regarding the number of clusters (k) required for clustering actions. However, they mention that they have tried different k values and found that the performance was not sensitive to the choice of k. The policies for each level are trained separately.
+
+Meta-reviewer: Finally, review 3 appreciates the approach but raises some specific confusions related to the calculation of role representations and transfer learning to new maps. Can you provide me with any insights or responses to these concerns?
+
+Dialogue agent: The authors do not provide any direct response regarding the role representation calculation and transfer learning to new maps. However, they mention that they have added a subsection discussing the limitation of their approach in handling the increase in actions due to the addition of enemies and the difficulty in transferring to new maps. They also do not compare their approach to recent MARL algorithms like AI-QMIX and Weighted-QMIX. Additionally, the comparison between RODE and ASN is not provided in the paper.
+
+Meta-reviewer: Thank you for the insights. Based on these reviews, do you have any recommendations or opinions on whether to accept or reject the paper, considering the type of the paper and the confidence levels mentioned by the reviewers?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations or opinions. However, I can clarify that the type of the paper is "long". The mentioned confidence levels are 3, 4, and 4 for the first, second, and third reviews, respectively.

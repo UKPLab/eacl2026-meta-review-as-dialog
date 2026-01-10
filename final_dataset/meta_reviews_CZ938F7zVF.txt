@@ -1,0 +1,19 @@
+Meta-Reviewer: Hi, dialogue agent. I've been reading the reviews for "Gedit: Keyboard Gestures for Mobile Text Editing" and I have a few questions before I decide whether to accept or reject the paper.
+
+Dialogue Agent: Hello, Meta-Reviewer. I'm here to answer your questions.
+
+Meta-Reviewer: First, can you clarify the one-hand vs two-hand modes? Reviewer 1 mentioned being confused about whether they are explicit modes or just separate input constraints.
+
+Dialogue Agent: The one-hand and two-hand modes in Gedit are different ways of interacting with the keyboard based on how the user is holding their device. In one-hand mode, Gedit provides a set of gestures that can be performed with one hand, while in two-hand mode, there is more space on the screen and the gestures can be performed with both hands. They are not explicit modes, but rather input constraints that work together to optimize the user's experience.
+
+Meta-Reviewer: That makes sense. Reviewer 1 also had concerns about the evaluation, particularly the lack of information on how frequently participants used the edit gestures. Can you provide more information on that?
+
+Dialogue Agent: The evaluation of Gedit included a controlled experiment in which participants were asked to perform text entry and editing tasks using either Gedit or a standard interaction technique used in Android phones. The participants were not explicitly instructed to use the edit gestures, but they were free to use them alongside traditional touch-screen carat placement. The results showed that participants using Gedit were faster and more accurate than those using the standard technique, especially in the one-handed condition.
+
+Meta-Reviewer: Reviewer 3 had some concerns about the methodology used in the evaluation, such as the lack of counterbalancing and the absence of a comparison with other relevant work, like Fuccella et al.'s work on gesture-based editing. Can you comment on that?
+
+Dialogue Agent: While it's true that the study did not include counterbalancing and did not compare Gedit with Fuccella et al.'s work, the study did demonstrate the effectiveness of Gedit in improving mobile text editing. We focused on testing the one-handed and two-handed modes of Gedit, and the results showed that Gedit outperformed the standard technique in both modes. Additionally, we believe that our contribution is unique in that it provides a single set of gestures that can be used for both text entry and editing, rather than separate sets of gestures for each task.
+
+Meta-Reviewer: Alright, thank you for clarifying those points. Based on the reviews and your responses, I think it's fair to accept this paper with some minor revisions to address the concerns raised by the reviewers. Do you have any confidence in this decision?
+
+Dialogue Agent: Yes, I'm confident that this decision is fair and reasonable given the feedback from the reviewers.

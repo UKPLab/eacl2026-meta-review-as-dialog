@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read through the reviews for the paper "Episodic Memory for Learning Subjective-Timescale Models" and would like to ask some questions to help me decide whether to accept or reject it.
+
+Dialogue agent: Of course, meta-reviewer. I will do my best to answer your questions within the bounds of the reviews and paper information.
+
+Meta-reviewer: Great. First, can you summarize what the paper is about and its main contributions?
+
+Dialogue agent: Certainly, meta-reviewer. The paper presents a subjective-timescale model (STM) for model-based reinforcement learning. Instead of predicting the next timestep in a trajectory, STM finds the surprising subsequences of the trajectory and learns temporal-skipping dynamics models over them. The paper shows that STM outperforms single-step prediction baselines in a first-person navigation task in the Animal AI environment. The main contributions are the novel use of variational free energy with model-based reinforcement learning and the development of the STM method for learning on subjective timescales.
+
+Meta-reviewer: Thank you for that summary, dialogue agent. Reviewer 1 mentioned concerns about the scaling potential of STM compared to deep RL. Is there any information in the paper that addresses this concern?
+
+Dialogue agent: The paper did not compare STM to deep RL but instead evaluated its performance against a strong time-locked model in the first-person navigation task in the Animal AI environment. However, the paper did acknowledge the potential difference in scaling between deep RL and active inference methods. 
+
+Meta-reviewer: I see. Reviewer 2 had several criticisms of the paper's execution and results. Can you give me some insights into these criticisms?
+
+Dialogue agent: Certainly, meta-reviewer. Reviewer 2 noted that the evaluation setting did not allow for testing the claim of increasingly longer horizons as the model improved, nor did it compare STM against established baselines or benchmarks. The paper's visualization figures were also criticized for not providing enough support for the claims made, and the keyframe selection method required more justification. Additionally, more information on how actions were obtained from learned STM models and how MCTS and MPC baselines differed was requested. 
+
+Meta-reviewer: Thank you for summarizing those criticisms, dialogue agent. Finally, what were the recommendations from the reviewers regarding the acceptance of the paper?
+
+Dialogue agent: Reviewer 1's rating was "Marginally below acceptance threshold" with a confidence level of 3 out of 5. Reviewer 2's rating was "Ok but not good enough - rejection" with a confidence level of 3 out of 5, while Reviewer 3's rating was also "Ok but not good enough - rejection" with a confidence level of 4 out of 5.
+
+Meta-reviewer: Thank you for that information, dialogue agent. Based on the reviewers' feedback, I have decided to reject the paper. However, I appreciate the authors' efforts in addressing an important question and hope that they will consider the reviewers' feedback in future work. 
+
+Dialogue agent: Understood, meta-reviewer. I will convey your decision to the authors.

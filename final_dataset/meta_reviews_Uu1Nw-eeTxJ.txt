@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper called "On Learning Universal Representations Across Languages". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a pre-trained language model variant called HICTL, which extends XLM-R with two new objectives: sentence-level and word-level contrastive learning. The authors claim that this approach leads to significant improvements on the XTREME benchmark and standard MT benchmarks.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and clearly identifies shortcomings in the current landscape of Masked Language Models. The authors propose using HICTL as an approach to learn more universal representations for sentences across different languages. Additionally, the paper includes thorough reviews of previous work and provides comprehensive experimental results.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are some of the weaknesses of the paper?
+
+Dialogue Agent: The paper only fine-tunes on 15 languages, and the improvements on MT are not as convincing as those on the XTREME benchmark. The authors could have provided more ablations and included more languages in their experiments. Additionally, the paper could have been clearer in its writing and had fewer grammar mistakes.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper has some interesting contributions, but the weaknesses outweigh the strengths. What is your assessment?
+
+Dialogue Agent: Based on the reviews, I would assess the paper as marginal below acceptance threshold, with a confidence level of 4. The paper has some positive contributions, but the limitations outweigh them.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your assessment. I agree with your evaluation. Please provide a summary of the paper and its main contributions for the final decision.
+
+Dialogue Agent: Sure! Here is a summary of the paper and its main contributions:
+
+The paper proposes a pre-trained language model variant called HICTL, which extends XLM-R with two new objectives: sentence-level and word-level contrastive learning. The authors claim that this approach leads to significant improvements on the XTREME benchmark and standard MT benchmarks. The paper also includes thorough reviews of previous work and provides comprehensive experimental results. However, the paper has some limitations, such as only fine-tuning on 15 languages and having some grammar mistakes. Based on the reviews, the paper is marginal below acceptance threshold with a confidence level of 4.

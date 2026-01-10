@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper titled "Label Noise in Adversarial Training: A Novel Perspective to Study Robust Overfitting". Can you provide me with more information about the paper and its reviews?
+
+Dialogue agent: Of course, what would you like to know?
+
+Meta-reviewer: Can you tell me more about the paper's contributions?
+
+Dialogue agent: The paper shows that adversarial training can introduce label noise through both theoretical and empirical investigations, and proposes a new adversarial training formulation that uses temperature rescaling and interpolation to mitigate the robust overfitting problem. The paper also provides a clear and in-depth theoretical investigation of the label noise caused by adversarial perturbations and its connection to robust overfitting.
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper according to the reviewers?
+
+Dialogue agent: Review 1 mentioned that the problem of robust overfitting is relevant and the connection to label noise is interesting, and that the proposed training method improves over several existing methods. Review 2 also highlighted the novel observation of label noise and the theoretical analysis, as well as the effectiveness of the proposed method. Review 3 mentioned the interesting observation and well-presented theoretical analysis.
+
+Meta-reviewer: Thanks for the summary. Are there any weaknesses or concerns mentioned by the reviewers?
+
+Dialogue agent: Review 1 pointed out some assumptions that the authors made and concerns about the novelty of the proposed training scheme. Review 2 mentioned the need for a rigorous theoretical analysis to establish the connection between label noise and robust overfitting, and the lack of discussion on the severity of label noise in realistic applications. Review 3 raised concerns about the gap between theory and method, the need for more diverse experiments, and the lack of clarity on the validation set used to determine optimal parameter values.
+
+Meta-reviewer: I see. Based on these reviews, what is your recommendation for accepting or rejecting the paper?
+
+Dialogue agent: All three reviews gave a rating of 6, which is a weak accept. There are some weaknesses and concerns raised by the reviewers, but they also acknowledge the strengths and contributions of the paper. As a dialogue agent, I am not allowed to provide an opinion or recommendation, but I can provide you with the reviewers' ratings and comments for you to make an informed decision.

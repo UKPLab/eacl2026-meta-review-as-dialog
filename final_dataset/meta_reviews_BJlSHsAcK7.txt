@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for the reviews. Based on the feedback, it seems that the paper has some interesting ideas but needs further improvement in terms of presentation and experimental validation. Reviewer 1 suggests that the writing needs significant improvement, which could make it easier to understand what is being proposed. Reviewers 2 and 3 have raised concerns about the lack of experimental validation and the unclear motivation for using adversarial subspaces to store the long-term memory. 
+
+Dialogue Agent: Thank you for the feedback. We appreciate the reviewers' comments and will work to address their concerns.
+
+Meta-Reviewer: Can you clarify the motivation for using adversarial subspaces to store the long-term memory? Reviewer 3 seems particularly concerned about this.
+
+Dialogue Agent: Our motivation for using adversarial subspaces is based on the idea that by storing information about the adversarial directions in which the model is vulnerable, we can better protect against catastrophic forgetting and make the model more robust to future tasks. However, we are aware that this idea needs further explanation and we will work on providing more intuitive explanations in the revised paper.
+
+Meta-Reviewer: Reviewer 2 suggests that experimental validation is lacking in many aspects. Can you address this concern?
+
+Dialogue Agent: We acknowledge that our experimental validation could be improved. In the revised paper, we plan to include comparisons against relevant baselines such as Yoon et al. (2018) and Nguyen et al. (2018) that increase network capacity or store a small subset of the original dataset. We will also expand our experiments to more complex tasks to further validate the proposed method.
+
+Meta-Reviewer: Reviewer 1 suggests that the writing needs significant improvement. Can you elaborate on how you plan to address this?
+
+Dialogue Agent: We will focus on improving the clarity of the writing by providing more detailed explanations of the proposed method and addressing the concerns raised by the reviewers. We will also try to make the paper easier to understand by providing additional visualizations and examples.
+
+Meta-Reviewer: Based on the reviewers' feedback, I have decided to reject the paper. However, it seems that there is potential for the proposed method and I encourage the authors to address the concerns raised and resubmit their work. Thank you for your submission. 
+
+Dialogue Agent: Thank you for your time and feedback. We will work on improving our paper and hope to resubmit it in the future.

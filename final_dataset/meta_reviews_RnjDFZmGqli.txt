@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "NeuForm: Adaptive Overfitting for Neural Shape Editing":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "NeuForm: Adaptive Overfitting for Neural Shape Editing". Can you tell me a bit about the paper?
+
+Dialogue Agent: Sure! The paper proposes an adaptive overfitting method for neural shape editing, which combines the generalizability of generalizable models with the detail preservation of overfitted models. The method is evaluated on reconstruction, shape editing, and shape mixing tasks.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper presents a novel approach to shape editing, which combines the benefits of both generalizable and overfitted representations. The authors provide thorough experiments and demonstrate significant improvements over state-of-the-art methods. Additionally, the paper is well-written and the ideas are presented clearly.
+
+Turn 3:
+
+Meta-reviewer: What about the limitations of the paper?
+
+Dialogue Agent: The paper notes that the method requires overfitting a model for each new target set of parts, which can be time-consuming. Additionally, the method is not always able to extrapolate local detail when parts are edited, since the overfit model is limited to the known regions of the parts.
+
+Turn 4:
+
+Meta-reviewer: How do the reviewers feel about the paper?
+
+Dialogue Agent: Based on the reviews, the reviewers find the paper to be technically solid, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas. The reviewers are confident in their assessment, but not absolutely certain.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, I think I have a good understanding of the paper's strengths and limitations. I will now make my decision on whether to accept or reject the paper.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there's anything else I can help with.

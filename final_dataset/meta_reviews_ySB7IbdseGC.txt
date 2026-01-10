@@ -1,0 +1,17 @@
+ Sure, I'd be happy to help! Here's a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Structured Recognition for Generative Models with Explaining Away":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Structured Recognition for Generative Models with Explaining Away". Can you help me understand the key contributions of this paper?
+
+Dialogue Agent: Of course! The paper proposes a way for amortized inference in structured generative models with explaining away. It defines a specific form of variational posterior that is propositional to the product of the prior distribution and the amortized factor potentials instead of a mean-field ones used in existing work. The paper proves that the proposed inference model gives a tighter ELBO.
+
+Meta-Reviewer: That sounds interesting. What are the strengths of this paper?
+
+Dialogue Agent: The paper has several strengths. First, the motivation for using a "more structured" posterior is clear and theoretically justified. Second, the presentation is easy to follow and related work is properly discussed. Additionally, the paper conducts a toy example to show the promise of the proposed method over SVAE and evaluate the proposed model on the EGG data and Population Neuronal Firing Data, which provides valuable insights.
+
+Meta-Reviewer: That's great. What about weaknesses?
+
+Dialogue Agent: The paper has some weaknesses. The authors are not fully convinced by the experiments, and they suggest that a direct comparison in common settings would strongly support the motivation and theory. Additionally, the paper does not consider the societal impact of the proposed method.
+
+Meta-Reviewer: I see. Based on your summary, I would rate this paper as a weak accept. The paper has a clear contribution, is technically solid, and has a moderate to high impact. However, I would like to see more convincing experiments and a more detailed discussion of the societal implications.
+
+Dialogue Agent: Thank you for your feedback! I will pass it on to the authors.

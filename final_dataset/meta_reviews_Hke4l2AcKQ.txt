@@ -1,0 +1,31 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper called "MAE: Mutual Posterior-Divergence Regularization for Variational AutoEncoders". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new regularization technique for Variational AutoEncoders (VAEs) called Mutual Posterior-Divergence (MPD) regularization. The MPD regularization encourages the learned variational posteriors to be diverse and smooth.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the MPD regularization?
+
+Dialogue Agent: Sure! The MPD regularization is based on the idea of maximizing the expected KL divergence between pairwise posteriors. This encourages the learned posteriors to be diverse and smooth. The authors also add an additional term to the regularization that encourages the pairwise KL-divergences to have a low standard deviation, which helps to encourge more even spreading over the latent space.
+
+Turn 3:
+
+Meta-Reviewer: I see. How does the paper compare to other methods in the literature?
+
+Dialogue Agent: The paper compares well to other methods in the literature, such as InfoVAE. The results on MNIST and Omniglot are solid and encouraging. However, the results on CIFAR10 are a bit concerning, and the authors note that the technique may only help when the data has simpler shared structure.
+
+Turn 4:
+
+Meta-Reviewer: That's helpful to know. Are there any specific questions I should ask the authors?
+
+Dialogue Agent: Yes, the reviewers may want to ask the authors about the choice of the truncated pixelcnn on CIFAR10, and why they do not try the more expressive decoder used in the binary images. Additionally, the reviewers may want to see ablation results that show the effect of each regularization technique separately, and samples from VLVAE in Figure 3 next to the MAE samples to more easily compare them directly.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help! Based on the information you provided, I think the paper is marginally above the acceptance threshold.
+
+Dialogue Agent: You're welcome! I'm glad I could help. Please let me know if you have any other questions.

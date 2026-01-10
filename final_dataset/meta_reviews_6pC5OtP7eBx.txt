@@ -1,0 +1,21 @@
+ Sure, I'd be happy to help! Here's the first turn of the dialogue:
+
+Meta-reviewer: Hello, I'm reviewing your paper on Geodesic Graph Neural Networks. Can you tell me a bit about the motivation behind this work?
+
+Dialogue Agent: Sure! Our paper proposes a new graph neural network architecture that leverages geodesic information to improve the expressive power of GNNs. The idea is to first compute node representations with a standard GNN, and then readout augmented node/edge/graph-level representations via geodesics. We propose two variants, namely horizontal and vertical geodesics. Our contributions include theoretically proving the power of geodesic GNNs and empirically showing their good performance and efficiency.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the theoretical analysis you've done?
+
+Dialogue Agent: Sure! We've proven that geodesic GNNs are more powerful than the 1-WL test, which is a widely-used evaluation metric for GNNs. Our proof shows that geodesic GNNs can capture more structural information beyond the 1-WL test. Additionally, we've empirically shown that geodesic GNNs achieve good results in both performance and time, compared to standard GNNs and other expressive GNN models.
+
+Meta-reviewer: That's impressive. Can you tell me more about the experimental setup you used?
+
+Dialogue Agent: Sure! We've used several benchmark datasets for link prediction and graph classification tasks. Our experimental results show that geodesic GNNs achieve good performance on these tasks, while only taking time similar to standard GNNs. We've also compared our model with other expressive GNN models, such as RNI and PF-GNN, and showed that geodesic GNNs achieve better performance in some cases.
+
+Meta-reviewer: That's great. Can you tell me more about the limitations of your approach?
+
+Dialogue Agent: Sure! One limitation of our approach is that the geodesic readout can be computationally expensive, depending on the complexity of the geodesic algorithm used. Additionally, our model is currently designed for node-level representations, and we haven't experimented with other types of representations, such as edge-level or graph-level representations. Finally, our model is not designed for other types of graph neural networks, such as graph attention networks or graph convolutional networks.
+
+Meta-reviewer: Thank you for the information. I'll keep that in mind as I review your paper. Do you have any other points you'd like to mention?
+
+Dialogue Agent: No, that covers the main points of our paper. However, I would like to mention that our model has the potential to be applied to most standard GNNs, and we plan to explore this in future work. Additionally, we're open to any feedback or suggestions you may have for improving our paper.

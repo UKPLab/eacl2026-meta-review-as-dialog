@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper about an active learning and active search approach for rare classes in large unlabeled datasets. Can you help me understand the novelty and strengths of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method called SEALS that leverages the skewness of the cardinality of rare classes in large datasets to accelerate active learning and active search. The method targets samples for rare classes while reducing the number of overall examples sampled, and scales with the amount of labeled data. The authors evaluate the method on three large-scale datasets and show that it leads to impressive computational speedups in active learning selection rounds.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the motivation behind the paper and the limitations of existing methods?
+
+Dialogue Agent: Sure! The motivation behind the paper is to address the challenge of active learning and active search for rare classes in large datasets, which is a common scenario in real-world applications. Existing methods either rely on random sampling or assume equal class distribution, which can be inefficient or biased for rare classes. The authors propose SEALS to target samples for rare classes while reducing the number of overall examples sampled, and to scale with the amount of labeled data.
+
+Turn 3:
+
+Meta-reviewer: I see. What are some of the strengths of the paper, and what are some of the concerns you have?
+
+Dialogue Agent: The strengths of the paper include its well-motivated task, its ability to scale with the amount of labeled data, and its impressive computational speedups in active learning selection rounds. However, some concerns include the lack of theoretical analysis, the reliance on proprietary data for some of the biggest claims, and the need for an initial pass through an embedding model for all the data, which could be slow and expensive for large datasets. Additionally, the authors could have done a better job analyzing the impact of their chosen embedding function on the efficacy of their method.
+
+Turn 4:
+
+Meta-reviewer: Thank you for your input. Based on your assessment, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the strengths and concerns I have mentioned, I would recommend rejecting the paper. While the paper proposes a well-motivated task and demonstrates impressive computational speedups, the lack of theoretical analysis and the reliance on proprietary data for some of the biggest claims make it difficult to fully endorse the paper. Additionally, the authors could have done a better job analyzing the impact of their chosen embedding function on the efficacy of their method.

@@ -1,0 +1,53 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper about a new approach to compress neural networks by training the student's intermediate representation to match the teacher's. What are the training errors (cross entropy) for LIT, KD, and hint training?
+
+Dialogue Agent: According to the paper, the training errors (cross entropy) for LIT, KD, and hint training are as follows:
+
+* LIT: 2.56%
+* KD: 3.12%
+* Hint Training: 3.34%
+
+The paper also mentions that LIT outperforms KD and hint training on all settings.
+
+Turn 2:
+
+Meta-Reviewer: That's interesting. What about the KD objectives (on the training set) of the model trained with LIT and the one trained with KD?
+
+Dialogue Agent: The KD objectives (on the training set) of the model trained with LIT and the one trained with KD are as follows:
+
+* LIT: 0.56%
+* KD: 1.23%
+
+The paper suggests that the reason for the better performance of LIT is that it uses the output of the teacher's last layer as input during training, which improves the learnability of the student models.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the claim that LIT outperforms the recently proposed Born Again procedure? What are the training errors (cross entropy) before and after the born again procedure?
+
+Dialogue Agent: According to the paper, the training errors (cross entropy) before and after the born again procedure are as follows:
+
+* Before Born Again: 3.12%
+* After Born Again: 2.56%
+
+The paper suggests that the born again procedure does not significantly improve the performance of LIT.
+
+Turn 4:
+
+Meta-Reviewer: Okay, I see. Is the claim that LIT models are pareto optimal in accuracy vs model size statistically significant? Some of the differences are very small.
+
+Dialogue Agent: The paper does not provide statistical significance tests for the differences in accuracy vs model size. However, the authors do provide a thorough analysis of the compression ratio (3-5) and show that LIT outperforms other compression techniques with pruning and quantization techniques, such as Han et al. 2015, Hubara et al. 2016.
+
+Turn 5:
+
+Meta-Reviewer: I see. What about the rating and confidence of the reviewers?
+
+Dialogue Agent: According to the reviews, the rating for the paper is 6: Marginally above acceptance threshold, and the confidence is 4: The reviewer is confident but not absolutely certain that the evaluation is correct.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the information provided, I will accept the paper with minor revisions.
+
+Dialogue Agent: Thank you for your decision. Please let me know if you have any further questions or if there is anything else I can assist you with.

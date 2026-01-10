@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "Tree-Structured Recurrent Switching Linear Dynamical Systems for Multi-Scale Modeling" and I have some questions for you.
+
+Dialogue Agent: Of course, I am ready to answer your questions.
+
+Meta-reviewer: Firstly, can you summarize the key contributions of the paper?
+
+Dialogue Agent: The paper proposes a probabilistic model for modeling nonlinear dynamic systems with multiple granularities. The proposed model is an extension to recurrent switching linear dynamical systems (rSLDS), which in turn is an extension to switching linear dynamical systems (SLDS). The key contributions of the paper include the use of tree-structured stick breaking to partition the entire dynamic space into a hierarchy of linear regimes, the design of a hierarchical prior that is compatible with the tree structure, and a developed Bayesian inference framework for the proposed model.
+
+Meta-reviewer: Thank you for that. Can you clarify the differences between the proposed work and existing literature on hierarchical switching linear dynamic systems?
+
+Dialogue Agent: The proposed framework differs from existing literature on hierarchical switching linear dynamic systems in that it uses a tree-structured stick breaking process to partition the entire dynamic space into a hierarchy of switching linear regimes. This allows the dynamic to be queried at multiple levels of resolution, and it is a non-trivial extension to the previous work on recurrent switching dynamical systems that partition the dynamic space sequentially at the same level of resolution.
+
+Meta-reviewer: That's useful information. Can you explain the experimental results presented in the paper?
+
+Dialogue Agent: The experiments involve synthetic data as well as neural spike train data to demonstrate the utility of the model. The results show that the proposed model is able to recover multi-scale, possibly more interpretable decompositions of the dynamic process. However, the experiments are underwhelming and somewhat sloppy. There is a need for an experiment where the true dynamics and the entire latent structure are known, and then to examine how well this ground-truth structure is recovered. Furthermore, the scalability of the model is a major concern. To use a larger number of discrete states, one would need deeper trees, and it is not clear how well the sampler scales with the number of discrete states.
+
+Meta-reviewer: Thank you for your detailed response. Do you believe the reviews are favorable for accepting the paper?
+
+Dialogue Agent: Review 1 rates the paper as a good paper and recommends acceptance, while Review 2 rates the paper as marginally above acceptance threshold. However, both reviews express concerns about the paper's experimental evidence and scalability. Review 3 also rates the paper as marginally above acceptance threshold, but has more detailed concerns about the experiments. 
+
+Meta-reviewer: Hmm, it seems like the confidence level of the reviewers is not very high. Can you tell me more about the reviewers' confidence levels?
+
+Dialogue Agent: Review 1 and Review 2 both have a confidence level of 2, indicating they are willing to defend their evaluations, but they are quite likely to not fully understand central parts of the paper. Review 3 has a confidence level of 4, indicating they are confident, but not absolutely certain, that their evaluation is correct.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your comments, I will take into consideration the concerns about experimental evidence and scalability of the proposed model before making a decision on whether to accept or reject the paper.

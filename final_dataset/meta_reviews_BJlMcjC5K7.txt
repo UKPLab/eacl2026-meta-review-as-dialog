@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Neural Random Projections for Language Modelling":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Neural Random Projections for Language Modelling". Can you tell me what the main contribution of the paper is?
+
+Dialogue Agent: The main contribution of the paper is the use of random projections as the initial word representations in language modelling, instead of the usual 1-hot representations. This allows for a much smaller matrix for the word embeddings, which can lead to faster training times and more efficient use of resources.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the main criticisms of the paper?
+
+Dialogue Agent: The main criticisms of the paper are that the experiments are not extensive enough, the baseline setups are too simple, and the results are not convincing enough to justify the use of random projections in language modelling. Additionally, the energy-based formulation used in the paper is not well-suited to the random-projection setup, and the PPL expression in the paper is not correct.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the author's responses to these criticisms?
+
+Dialogue Agent: The authors acknowledge the limitations of their paper and suggest that the use of random projections in language modelling is a preliminary idea that requires further exploration. They also mention that the energy-based formulation used in the paper is not the only option, and that the results could be improved by using a more appropriate formulation.
+
+Turn 4:
+
+Meta-Reviewer: Okay, I think I have a good understanding of the paper and its limitations. Based on my evaluation, I would recommend rejecting the paper for now, but with the possibility of resubmission after further improvements.
+
+Dialogue Agent: Thank you for your evaluation. I will convey your feedback to the authors. If they decide to resubmit, I will be happy to assist them in addressing the criticisms and improving their paper.
+
+Output:
+
+The dialogue agent provides a summarized overview of the paper's main contribution and criticisms, and the meta-reviewer evaluates the paper based on these points. The dialogue agent refrains from providing opinions or recommendations, and instead focuses on presenting the information in a clear and concise manner.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello dialogue agent, I am the meta-reviewer for the paper "Riemannian Diffusion Models". Can you please provide me a brief summary of the paper and its contributions?
+
+Dialogue Agent: Sure. The paper proposes a general diffusion model for Riemannian manifolds. It introduces a variational framework based on Riemannian Feynman-Kac representation and Giransov’s theorem, with which a Riemannian continuous-time ELBO is derived. Additionally, the paper suggests a QR decomposition-based method for scalable unbiased estimation to computate the Riemannian ELBO. It also provides a variance reduction technique to approximate the Riemannian ELBO objective. The proposed method is demonstrated on several manifolds and the experiments show SOTA results.
+
+Meta-reviewer: Thank you for the summary. Can you please tell me the strengths and weaknesses of the paper based on the reviews?
+
+Dialogue Agent: Based on the reviews, the strengths of the paper are that it proposes a solid mathematical background based on SDE and generalizes the Euclidean diffusion model into a Riemannian one. It contributes a novel application/expansion of diffusion models on non-Euclidean spaces. Additionally, the paper couples stochastic process theory, variational inference, and geometry.
+
+However, the weaknesses are that the presentation of the background is challenging to understand and requires a lot of effort. Reviewer 1 mentioned the need to clarify the derivations further and the meanings of certain equations. Reviewer 2 noted limited information on the training/sampling complexity and a lack of analysis on the results. Finally, reviewer 3 mentions that the extension to the geometric context is not groundbreaking.
+
+Meta-reviewer: Thank you for the detailed strengths and weaknesses. Based on the ratings, what is the recommendation for the paper?
+
+Dialogue Agent: Reviewer 1 provided a borderline accept rating with a confidence level of 2. Reviewer 2 provided an accept rating with a confidence level of 3. Reviewer 3 provided an accept rating with a confidence level of 4. Thus, all three reviewers recommend accepting the paper with a technically solid rating and a high impact on at least one sub-area or moderate-to-high impact on more than one area. There are no unaddressed ethical considerations. However, reviewers 1 and 2 indicate that limited analysis and clarity issues need to be addressed. 
+
+Meta-reviewer: Thank you very much for your help. I will consider the reviewers' feedback and ratings in my final decision.

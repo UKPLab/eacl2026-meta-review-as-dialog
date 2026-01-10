@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Wavelet Score-Based Generative Modeling":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Wavelet Score-Based Generative Modeling" and I have some questions. Can you help me?
+
+Dialogue Agent: Of course! I have access to the reviews and the paper's title. What would you like to know?
+
+Turn 2:
+
+Meta-Reviewer: Well, I'd like to know more about the paper's strengths and weaknesses, and whether it's technically solid and has high impact.
+
+Dialogue Agent: According to the reviews, the paper has several strengths, including a rigorous theoretical analysis of the connection between normalized wavelet coefficients and the sampling iterations of SGM. The proposed method, the renormalized wavelet decompositions, provides a principled approach to reduce the Lipschitz irregularity [De Bortoli+2021]. Additionally, the experimental results on three classes (Gaussian process, physical process, and natural images) support the theoretical foundation of WSGM, where it surpasses the baseline multi-scale SGM under the same number of discretized reverse diffusion steps.
+
+However, the reviews also mention some weaknesses, such as the missed opportunity to show the result on WSGM on high-resolution images and the lack of descriptions of wavelet approach for the multi-scale generative model.
+
+Turn 3:
+
+Meta-Reviewer: That's helpful. Can you tell me more about the authors' approach to reducing the Lipschitz irregularity?
+
+Dialogue Agent: Certainly! The authors use a renormalized wavelet decomposition to reduce the Lipschitz irregularity in the score estimator. This approach is based on the connection between the normalized wavelet coefficients and the sampling iterations of SGM. By leveraging the wavelet coefficients, the authors are able to reduce the number of required iterations of the score estimator, which in turn reduces the Lipschitz irregularity.
+
+Turn 4:
+
+Meta-Reviewer: I see. And how does the paper compare to other recent works in the field?
+
+Dialogue Agent: According to the reviews, the paper has several strengths compared to other recent works in the field. For example, the authors provide a rigorous theoretical analysis of the connection between normalized wavelet coefficients and the sampling iterations of SGM, which is not present in other recent works. Additionally, the experimental results on three classes (Gaussian process, physical process, and natural images) support the theoretical foundation of WSGM, where it surpasses the baseline multi-scale SGM under the same number of discretized reverse diffusion steps.
+
+However, the reviews also mention that the authors could have provided more descriptions of the wavelet transforms in this paper, and that it is hard for the reviewers to understand the major idea in this paper before learning some necessary knowledge about wavelet whitening, wavelet coefficient, and so on.
+
+Meta-Reviewer: Thank you for your help! Based on the reviews, I would rate this paper as 7: Accept, with a confidence of 3. The paper has high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. However, the authors could have provided more descriptions of the wavelet transforms in this paper, and it is hard for the reviewers to understand the major idea in this paper before learning some necessary knowledge about wavelet whitening, wavelet coefficient, and so on.

@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I'm the meta-reviewer for the paper "Differentially Private Synthetic Data: Applied Evaluations and Enhancements". I've reviewed the three reviews provided for the paper and I'm hoping to get some further clarification before making a decision on whether to accept or reject the paper.
+
+Dialogue agent: Hello, I'm here to answer any questions you may have about the paper.
+
+Meta-reviewer: Great, let me start with Review 1. The reviewer seems to be mostly positive about the proposed method, but there are some limitations mentioned. Can you address those limitations?
+
+Dialogue agent: Review 1 mentions two limitations of the proposed method. The first is that the reason why the proposed scheme can give better classification accuracy is not discussed. We agree with this point and will make sure to provide a more detailed explanation in the paper. The second limitation mentioned is that the reason why the RMSE of the regression model trained with this scheme is worse than other methods is not examined. We believe this is because the metric structure behind the samples is not preserved well. While we cannot be certain this is the case, we will include this explanation in the paper.
+
+Meta-reviewer: Thank you for addressing those limitations. What about Review 2? The reviewer seems to have some concerns regarding the experiments and the organization of the paper.
+
+Dialogue agent: Review 2 raises some valid points about the experiments and the organization of the paper. For the experiments, the reviewer suggests focusing on specific epsilon values and analyzing them in more detail to find trends. We will take this suggestion into consideration when revising the paper. For the organization of the paper, the reviewer suggests clarifying the notations and definitions used in the algorithms, adding intuition after the algorithm descriptions, and improving the figures. We appreciate these suggestions and will make sure to make these improvements in the paper.
+
+Meta-reviewer: Good to hear that you'll be making those improvements. Finally, Review 3 seems to have concerns about the main contribution of the paper and some technical details.
+
+Dialogue agent: Yes, Review 3 raises some important concerns about the main contribution and technical details. While we understand that the main contribution may not be explicitly stated in the paper, we believe that it lies in the proposed QUAIL algorithm and its evaluation against other differentially private generative models. Regarding the technical details, we will make sure to clarify the use of \delta for (\epsilon,\delta)-differential privacy, differentiate between performance measures using something other than \delta, address the privacy of the labels in the conditional GAN, and provide an explanation for why PATECTGAN performs better compared to non-noisy models trained on real data.
+
+Meta-reviewer: Thank you for addressing these concerns. Based on the reviewers' feedback and your responses, I'm inclined to accept the paper pending the revisions you mentioned. How confident are you that the proposed method is sound and the experimental results are robust?
+
+Dialogue agent: While we cannot guarantee absolute certainty, we are fairly confident in the soundness of the proposed method and the robustness of the experimental results. We believe that the proposed QUAIL algorithm has potential for generating differentially private synthetic data with good utility, and that the experimental evaluations provide evidence for its effectiveness.
+
+Meta-reviewer: Thank you for your input. I'll give this some more thought before making a final decision, but I appreciate your responses and your willingness to make revisions to the paper.

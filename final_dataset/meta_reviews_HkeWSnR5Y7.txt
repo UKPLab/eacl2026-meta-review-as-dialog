@@ -1,0 +1,29 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Provable Defenses against Spatially Transformed Adversarial Inputs: Impossibility and Possibility Results":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Provable Defenses against Spatially Transformed Adversarial Inputs: Impossibility and Possibility Results". Can you help me understand the main results and contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes a new attack model based on spatial transformations and formalizes an attack model based on spatial transformation. The authors then study attacks and defenses for this model.
+
+Meta-Reviewer: That sounds interesting. But I have some questions about the paper. First, are there other metrics to measure spatial transformation? The current setting as introduced in section 2.1 looks like there is no uniform spatial transformation on the full image but rather different transformations applied on different local areas. Does it make more sense to say rotate the full image by some angle or shift it by some distance?
+
+Dialogue Agent: The paper focuses on the case of spatial transformations that are applied locally to individual patches of the image, rather than a single global transformation applied to the entire image. The choice of using local transformations is due to the fact that many state-of-the-art defenses are based on the idea of transforming the input image in a way that makes it more difficult for the attacker to find an adversarial example.
+
+Meta-Reviewer: Okay, that makes sense. What about the pi_infty and pi_2 in Theorem 1? Why is it called Lower bound attack in section 3.1?
+
+Dialogue Agent: The pi_infty and pi_2 are bounds on the minimum distance between two points in a high-dimensional space. The Lower bound attack in section 3.1 shows that any defense that is based on the idea of transforming the input image in a way that makes it more difficult for the attacker to find an adversarial example is fundamentally limited in its ability to defend against spatially transformed adversarial examples.
+
+Meta-Reviewer: I see. And what about f_fro, f_spe and f_sdp in section 4? What is the difference between them?
+
+Dialogue Agent: The f_fro, f_spe and f_sdp are different ways of formalizing the notion of spatial transformations. Specifically, f_fro is the frobenius norm of the matrix M, f_spe is the spectral norm of the matrix M and f_sdp is the SDP norm of the matrix M. The choice of which norm to use depends on the specific application and the desired properties of the defense.
+
+Meta-Reviewer: I see. And what about the classification accuracy in figure 6(b)? Is it the nominal test accuracy of a classifier? If so, then the accuracy is too low (<90% for mnist) and thus considering the corresponding attack rates (Fig 6(a)) on these models are not meaningful. Please explain.
+
+Dialogue Agent: The classification accuracy in figure 6(b) is the average test accuracy of the classifier on the clean data, and it is indeed too low for the MNIST dataset. The authors note that the proposed defense method is not effective against all types of attacks and the accuracy is particularly low for the MNIST dataset. The attack rates in figure 6(a) are based on the nominal test accuracy of the classifier and are therefore not meaningful for this dataset.
+
+Meta-Reviewer: Okay, I understand. Overall, what is your assessment of the paper?
+
+Dialogue Agent: Based on the reviews, the paper provides a new attack model based on spatial transformations and formalizes an attack model based on spatial transformation. The authors then study attacks and defenses for this model. However, the current presentation makes it hard to understand the main results provided and the contribution is not very significant. The paper is also missing discussion on the structure of the matrix M and how it changes the attacks and defenses in practice.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews and your summary, I will give the paper a rating of 3 and confidence level of 4.
+
+Dialogue Agent: You're welcome! The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.

@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for your reviews. I have a few questions for the dialogue agent. First, could you explain why traditional methods are NP-hard, as suggested by Review 1?
+
+Dialogue agent: Traditional disease normalization methods involve linking disease named entities to the MeSH and OMIM controlled vocabularies, which can be represented as a graph of possible entity links. The problem of finding the most likely link for each named entity is computationally expensive because it requires combinatorial exploration of the graph. This is the source of the NP-hardness of the problem.
+
+Meta-reviewer: I see, that makes sense. Review 1 also suggested that statistical significance tests should be performed for certain tables. Can you confirm if this was done?
+
+Dialogue agent: I cannot provide an opinion or recommendation, but the paper authors could respond to this inquiry. They may have performed statistical significance tests for these tables, as suggested by Review 1.
+
+Meta-reviewer: Understood. Review 2 pointed out that the results on the BC5 corpus were mixed. Can you explain why this is the case?
+
+Dialogue agent: Again, I cannot provide an opinion or recommendation, but the paper authors may have addressed this issue in their experiments. It is possible that the BC5 corpus contains more difficult cases, or that the proposed method is more effective for certain types of entities.
+
+Meta-reviewer: Lastly, Review 3 mentioned that macro-F1 was not considered in the evaluation. Can you explain why this metric was not used?
+
+Dialogue agent: The paper authors could provide more details on this point, but it is possible that they chose to focus on micro-F1 as a standard evaluation metric for named entity normalization tasks. Macro-F1 is another option for evaluation, but it may be less informative in cases where there is significant class imbalance or when certain entities are particularly difficult to normalize.

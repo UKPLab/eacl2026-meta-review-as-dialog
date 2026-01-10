@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, dialogue agent. Can you tell me about the reviews for the paper "Human-Guided Column Networks: Augmenting Deep Learning with Advice"?
+
+Dialogue Agent: Of course. There are three reviews in total. Review 1 commends the method for its flexibility in incorporating human knowledge but notes that the form of knowledge is limited. The reviewer also mentions that the improvement in convergence speed and results is not significant. Review 2 raises concerns about the correctness of the modified CLN and the presentation of the paper. The reviewer is also unsure about the effectiveness of the method, stating that it may depend on the quality and quantity of human-crafted rules. Review 3 finds the method to be a fresh direction for learning with noisy samples and commends the authors for performing numerical experiments to prove their framework's efficacy. However, the reviewer raises questions about the motivation, related works, and experiment design.
+
+Meta-Reviewer: Thank you for the summary. Can you remind me of the paper type?
+
+Dialogue Agent: Certainly. The paper is classified as long.
+
+Meta-Reviewer: Based on the reviews and the paper's type, what is your recommendation for acceptance?
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can tell you that Review 1 has a rating of 6, which is marginally above the acceptance threshold. Review 2 has a rating of 4, which is below the acceptance threshold. Review 3 has a rating of 5, which is slightly below the acceptance threshold. All reviewers have provided a confidence level for their evaluations. Review 1 has a confidence level of 3, Review 2 has a confidence level of 4, and Review 3 has a confidence level of 5.
+
+Meta-Reviewer: Interesting. It seems like the reviewers have different opinions, but they are all somewhat hesitant about their evaluations. Based on your knowledge of the reviews and the paper type, do you think the variations in the ratings and confidences are significant?
+
+Dialogue Agent: As a dialogue agent, I cannot make that judgment. However, I can speculate that the moderate ratings and confidences may suggest that the reviewers are not entirely convinced by the paper and may require further clarification or improvement.
+
+Meta-Reviewer: I see. Can you provide me with more details about the experiments mentioned in the reviews?
+
+Dialogue Agent: Review 1 mentions that the experiments show an improvement in convergence speed and results even though the improvement is not significant. Review 2 questions the effectiveness of the experiments, stating that they do not support the problem statement about human advice incorporation and that more details about the rule set used in the experiments should be given. Review 3 commends the authors for performing numerical experiments to prove their framework's efficacy but raises concerns about the experiment design, including the choice of datasets and baselines.
+
+Meta-Reviewer: Thank you for the recap. Based on the reviews and the paper type, I think I will lean towards rejection. However, I am hesitant about how confident the reviewers are about their evaluations. Can you provide me with more information about how the reviews' confidence levels may affect the decision?
+
+Dialogue Agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can remind you that Review 1 has a confidence level of 3, indicating that the reviewer is fairly confident that the evaluation is correct. Review 2 has a confidence level of 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 3 has a confidence level of 5, indicating that the reviewer is absolutely certain that the evaluation is correct and is very familiar with the relevant literature. You may decide to weigh the reviewers' confidence levels differently based on your priorities.
+
+Meta-Reviewer: I see. Thank you for the information. I will consider the confidence levels when making my decision.

@@ -1,0 +1,49 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I am reviewing a paper about "Embed and Emulate: Learning to estimate parameters of dynamical systems with uncertainty quantification". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for parameter estimation in dynamical systems, called "embed and emulate". This method combines joint learning of a low-dimensional embedding of the observations and an emulator mapping from parameters to a representation in the latent space. The proposed method is evaluated on the L96 system, and the results are compared to a standard parameter estimation technique.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the limitations of the proposed method?
+
+Dialogue Agent: One limitation is that the method is only evaluated on a single empirical study, and it may not generalize well to other systems or situations. Additionally, the method relies on the choice of the latent space and the embedding, and the choice of these components can greatly affect the performance of the method.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the strengths of the paper?
+
+Dialogue Agent: The paper presents an interesting and novel approach to learning useful low-dimensional representations of high-dimensional models. The experiments demonstrate that the method captures good parameter estimates and uncertainties, outperforming traditional EnKI with significantly less computational cost. Moreover, the approach is robust to noise and can handle complex systems.
+
+Turn 4:
+
+Meta-reviewer: That's great. Can you help me understand the comparison between the proposed method and traditional EnKI?
+
+Dialogue Agent: Sure! The proposed method, "embed and emulate", is compared to traditional EnKI with numerical solvers. The results show that the proposed method has lower computational cost and provides better parameter estimates and uncertainties than EnKI. Additionally, the proposed method can handle complex systems and is more robust to noise than EnKI.
+
+Turn 5:
+
+Meta-reviewer: That's helpful. Can you tell me more about the choice of the latent space and the embedding?
+
+Dialogue Agent: The choice of the latent space and the embedding is a key component of the proposed method. The authors use a combination of techniques such as contrastive learning and dimensionality reduction to learn a low-dimensional embedding of the observations and an emulator mapping from parameters to a representation in the latent space. The choice of the latent space and the embedding can greatly affect the performance of the method, and the authors provide some guidelines for choosing these components.
+
+Turn 6:
+
+Meta-reviewer: I see. Can you help me understand the uncertainty quantification properties of the proposed method?
+
+Dialogue Agent: Sure! The proposed method provides uncertainty quantification properties, which can be useful for making decisions based on the parameter estimates. The method uses a Bayesian approach to estimate the posterior distribution of the parameters, and the authors provide some examples of how the uncertainty quantification properties can be used in practice.
+
+Turn 7:
+
+Meta-reviewer: That's great. Can you tell me more about the additional experiment included in the appendix?
+
+Dialogue Agent: Sure! The additional experiment in the appendix compares the proposed method to other methods for parameter estimation in dynamical systems, such as Bayesian optimization and random search. The results show that the proposed method outperforms these other methods in terms of both MAPE and CRPS.
+
+Turn 8:
+
+Meta-reviewer: That's helpful. Can you summarize the main contributions and limitations of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for parameter estimation in dynamical systems, called "embed and emulate". The method combines joint learning of a low-dimensional embedding of the observations and an emulator mapping from parameters to a representation in the latent space. The proposed method is evaluated on the L96 system, and the results are compared to a standard parameter estimation technique. The paper presents an interesting and novel approach to learning useful low-dimensional representations of high-dimensional models, and the experiments demonstrate that the method captures good parameter estimates and uncertainties. However, the method is only evaluated on a single empirical study, and the choice of the latent space and the embedding can greatly affect the performance of the method.

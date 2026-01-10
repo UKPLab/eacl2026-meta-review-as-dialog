@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Universal Attacks on Equivariant Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Universal Attacks on Equivariant Networks". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper studies the problem of computing non-data specific perturbations, also known as universal perturbations, to attack neural networks and take profit of their inherent vulnerability. The authors focus on equivariant networks and derive geometric insights and methods to compute universal perturbations for these networks.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What do the reviewers think of the paper?
+
+Dialogue Agent: Based on the reviews, Reviewer 1 thinks the paper has a non-classical organisation with a lot of heuristics that are not discussed in depth, giving a sort of high-level impression that the proposed idea is potentially nice but superficially addressed. Reviewer 2 thinks the observation of a common subspace of Gradient/FGSM/Deepfool attacks among all examples is not significant enough, and the experiments are not convincing. Reviewer 3 thinks the paper is poorly written and hard to read, with empirical results that should be better explained to help the readers.
+
+Turn 3:
+
+Meta-Reviewer: Hmm, it seems like the reviewers have some concerns about the paper's organization, depth of analysis, and clarity. Can you summarize the main points of the paper and how it contributes to the field?
+
+Dialogue Agent: The paper proposes a method for computing universal perturbations on equivariant networks, which is an interesting and effective approach. The authors derive geometric insights and methods to compute universal perturbations for these networks, and show that a few adversarial samples are sufficient to identify the principle directions of perturbations. The paper also compares the proposed method with previous works in the domain and provides a theoretical analysis. However, the reviewers have raised concerns about the paper's organization, clarity, and depth of analysis.
+
+Turn 4:
+
+Meta-Reviewer: I see. Based on the reviews and your summary, I think I have a good understanding of the paper's strengths and weaknesses. How do you think the paper should be improved?
+
+Dialogue Agent: Based on the reviews, the paper could benefit from a more classical organization, a deeper analysis of the proposed method, and improved clarity and readability. The authors could also address the reviewers' concerns by providing more convincing experiments and a clearer explanation of the implications of their theorems.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help! Based on the reviews and your summary, I will make my decision on whether to accept or reject the paper.
+
+Dialogue Agent: You're welcome! I'm here to help if you have any other questions or need further assistance.

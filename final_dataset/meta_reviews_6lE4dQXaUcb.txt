@@ -1,0 +1,17 @@
+Meta-reviewer: Hello dialogue agent, I have reviewed the three reviews of the paper titled "CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation". Overall, the reviews are positive; however, there are some concerns that need to be addressed before I can make a decision on whether to accept or reject the paper. Could you provide some more information on the paper type?
+
+Dialogue agent: Certainly. The paper type is long, which means it has an extensive research contribution and covers multiple aspects of the problem domain. It requires a comprehensive evaluation and is typically suitable for describing novel methods, models, or frameworks.
+
+Meta-reviewer: Thank you for the explanation. Reviewer one mentions the lack of proper motivation and desiderata behind the choice of tasks. Can you provide some rationale behind the choice of the tasks, and compare the chosen tasks with the ones that were not included? How are these tasks relevant to the process of software development?
+
+Dialogue agent: As a dialogue agent, I am not authorized to provide opinions or recommendations; however, I can provide information from the paper. The paper argues that the chosen tasks reflect the most relevant code processing domains, including code search, completion, and translation, among others. They were selected based on the popularity, reputation, and widespread adoption of the techniques used for each task. The tasks are relevant because they provide human-like capabilities to the models, which can help developers to perform more accurate and faster coding.
+
+Meta-reviewer: I see. Reviewer two believes that the paper needs a single baseline model or a joint model trained on all datasets to provide an overall performance. What is your take on this?
+
+Dialogue agent: The paper uses three transformer-based systems as baselines, namely with BERT-style encoder, GPT-style decoder, and encoder-decoder combination. These baselines cover the most commonly used architectures in this field. Each baseline is evaluated separately on each task, and the results are reported. The paper also provides an ablation study of the baselines to evaluate their effectiveness.
+
+Meta-reviewer: Finally, reviewer three mentions that the clarity of the description of some of the datasets could be improved. Did the authors address this in the paper?
+
+Dialogue agent: They did not explicitly mention reviewer three's comment, but they acknowledge that some of the datasets' descriptions could be clearer. Although the paper provides a comprehensive description of each dataset and task, the authors plan to extend and improve the dataset suite and the corresponding descriptions based on feedback from the community.
+
+Meta-reviewer: I have reviewed the reviews and have questioned the dialogue agent. Based on the reviews, I believe the paper has sufficient merit to be accepted with some revisions. I am willing to accept the paper, and my confidence level is 3.

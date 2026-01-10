@@ -1,0 +1,23 @@
+Meta-reviewer: Hi, dialogue agent. I have reviewed the reviews for the paper "WaNet - Imperceptible Warping-based Backdoor Attack". Overall, the reviews seem positive but with some concerns raised. Can you provide some more information to help me make a decision about whether to accept or reject the paper?
+
+Dialogue agent: Of course, meta-reviewer. What information would you like me to provide?
+
+Meta-reviewer: Can you first remind me of the paper's contributions?
+
+Dialogue agent: Sure. The paper proposes a new backdoor attack method on vision classifiers that uses a warping-based trigger instead of patched triggers. They also propose a "noise" mode of training poisoned classifiers to bypass backdoor detectors. The attack is imperceptible and effective against popular backdoor defense mechanisms.
+
+Meta-reviewer: Thanks for that. Can you address Review 1's concerns about the experiments only being performed on small datasets, and the reviewer not being confident in their evaluation?
+
+Dialogue agent: Review 1 had low confidence in their evaluation and suggested relying on other reviews to make a decision. As for the small datasets, while the paper presented experiments on CIFAR-10, MNIST, and GTSRB, the proposed attack is general and should work on other datasets as well. However, it is up to your discretion on whether you believe more experiments on other datasets are needed to strengthen the paper's claims.
+
+Meta-reviewer: That's helpful. I also noticed Review 2 raised several concerns about the clarity of the paper and the experimental evidence for the role of Noise Mode. Can you address these?
+
+Dialogue agent: Review 2 had moderate confidence in their evaluation and recommended the authors address their concerns. Specifically, they asked for more supporting evidence for the Ablation Studies (Role of Noise Mode) and more experiments on other datasets and classifier architectures. They also suggested adding difference images for each of the attacks in Figure 1. As for the role of Noise Mode, while the experiments presented only one class from a single dataset, they do demonstrate the effectiveness of the proposed method.
+
+Meta-reviewer: I see. And what about Review 3's remarks about the missing x-axis and y-axis labels in some figures and the clarity of the unsuitability of affine and projective transformations for attack purposes?
+
+Dialogue agent: Review 3 had high confidence in their evaluation and recommended the authors improve the paper's clarity and presentation, such as adding missing labels in some of the figures. As for the unsuitability of affine and projective transformations, the authors do explain this in Section 2.4, but Review 3 recommended the authors clarify their justification for this statement.
+
+Meta-reviewer: Thank you for summarizing the reviews and providing additional information. Based on the reviews, it seems the paper has some valid contributions but with some concerns raised about the clarity and experimental evidence. What recommendation do you have?
+
+Dialogue agent: Based on the reviews, this paper seems to be marginally above the acceptance threshold. Review 2 had moderate confidence in their evaluation and suggested the authors address their concerns. However, Review 3 had high confidence in their evaluation and recommended accepting the paper. It is ultimately up to your discretion on whether you believe the concerns raised can be addressed and if the paper's contributions are significant enough to accept it.

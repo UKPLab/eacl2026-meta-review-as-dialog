@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, can you summarize the main contributions of the paper titled Learning Recurrent Binary/Ternary Weights?
+
+Dialogue Agent: Sure, the paper proposes a method for achieving binary and ternary quantization for recurrent networks using batch normalization. The authors demonstrate accuracy benefits on a variety of datasets including language modeling, MNIST sequence, and question answering. They also provide a hardware implementation based on DaDianNao.
+
+Meta-Reviewer: Can you tell me about the strengths of the paper?
+
+Dialogue Agent: One of the strengths is that the authors propose a relatively simple and easy to understand methodology for achieving aggressive binary and ternary quantization. They also present compelling accuracy benefits on a range of datasets, and they provide a hardware implementation.
+
+Meta-Reviewer: And what are the weaknesses or questions raised by the reviewers?
+
+Dialogue Agent: Some weaknesses include needing more compelling results on why covariate shift is such a problem in LSTMs, and questions about the applicability of the methodology to other recurrent layers like RNNs and GRUs. Reviewers also raised concerns about the complexity of the training process when using batch-normalization, and asked for more detailed information about the hardware implementation, including a breakdown of on-chip SRAM for weights and activations and power consumption. They also questioned the validity of some of the claims made in the paper.
+
+Meta-Reviewer: Based on the given reviews, what is the overall rating and confidence level for the paper?
+
+Dialogue Agent: The overall rating given by Reviewer 1 is marginally above the acceptance threshold, while Reviewer 2 rates it as clear accept and Reviewer 3 rates it as good paper, accept. The confidence level of Reviewer 1 is fairly confident, and the confidence level of Reviewer 2 is also fairly confident. Reviewer 3 is confident but not absolutely certain.

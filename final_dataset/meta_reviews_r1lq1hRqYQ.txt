@@ -1,0 +1,23 @@
+ Sure, I'd be happy to help! Here's a simulation of a dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Dialogue Agent: Hello! I'm here to help you assess the paper "From Language to Goals: Inverse Reinforcement Learning for Vision-Based Instruction Following". What would you like to know?
+
+Meta-Reviewer: Great, I'd like to start by asking about the novelty and significance of the paper. Can you summarize the main contributions and how they differ from previous work in the field?
+
+Dialogue Agent: Certainly! The paper proposes a new approach to learning reward functions for vision-based instruction following tasks using inverse reinforcement learning (IRL). The key contribution is the ability to generalize the learned reward functions across different tasks and environments, which sets it apart from previous work in the field.
+
+Meta-Reviewer: That's interesting. Can you tell me more about the experimental results and how they support the paper's claims?
+
+Dialogue Agent: Sure! The paper presents experimental results on the SUNCG dataset of indoor environments, comparing the proposed approach to behavior cloning and an oracle baseline. The results show that the proposed approach outperforms both baselines on different tasks and environments. Additionally, the paper shows that the learnt reward functions can be used to learn policies using deep Q-networks (DQN), leading to better performance compared to using only the learnt reward functions.
+
+Meta-Reviewer: That sounds promising. What about the technical contributions of the paper? How does it advance the state-of-the-art in the field?
+
+Dialogue Agent: The paper proposes a slight modification to the max-ent IRL gradient equations to generalize across tasks and environments, which is a key contribution. Additionally, the paper shows how the proposed approach can be applied to learning reward functions for vision-based instruction following tasks, which is a new application of IRL in this field.
+
+Meta-Reviewer: I see. What about the writing style and clarity of the paper? Are there any issues with the presentation of the material?
+
+Dialogue Agent: The paper is generally well-written and easy to understand, with clear explanations of the proposed approach and experimental results. However, there are some minor issues with the presentation of the material, such as the lack of a clear comparison to previous work in the field.
+
+Meta-Reviewer: Thank you for the summary. Based on the information you've provided, I would rate the paper as marginally below acceptance threshold. The paper's contributions are interesting and the experimental results support the claims, but there are some issues with the presentation of the material that need to be addressed before acceptance.
+
+Dialogue Agent: Thank you for your feedback! I will make sure to pass on your comments to the authors. Is there anything else you would like to know or discuss?

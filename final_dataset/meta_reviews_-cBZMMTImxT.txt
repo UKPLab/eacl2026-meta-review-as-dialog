@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer tasked with making a decision on the paper "Tree ensemble kernels for Bayesian optimization with known constraints over mixed-feature spaces". Can you tell me a bit about the reviews and your assessment of the paper?
+
+Dialogue agent: Certainly. The paper received three reviews, with Review 1 providing a borderline accept rating and Review 2 providing a weak accept rating. Review 3, on the other hand, gave a strong accept rating. Overall, the reviewers found the paper to be technically sound and the proposed method to be promising for handling mixed-feature spaces in Bayesian optimization. However, they did have some concerns and suggestions for improvement.
+
+Meta-reviewer: What were the strengths and weaknesses highlighted by the reviewers?
+
+Dialogue agent: Review 1 found that the paper's proposed approach, which uses a mixed-integer second-order cone optimization formulation with the lower confidence bound acquisition criterion, is intuitive and works well in practice. They also found the paper to be well-written and well-presented. However, they felt that the novelty of the paper was somewhat limited and that additional experiments were needed to compare the proposed approach with other well-known acquisition criteria and ensemble approaches.
+
+Review 2 praised the paper's novel framework for Bayesian optimization with mixed-type features and flexible feature constraints, as well as its promising performance in various benchmarks. However, they had concerns about the training of the surrogate model and the experiment in Section 5.1. They also suggested that the paper could benefit from additional sensitivity and timing results.
+
+Review 3 highlighted the paper's relevance to a difficult problem and its elegant solution for formulating the acquisition function as a cone problem, which allows for the application of decades of research on convex solvers. They found the paper to be extremely well-written and highly usable, as well as having very few weaknesses. However, they had some technical questions and suggested some minor improvements, such as framing the problem as maximization and using L-BFGS instead of Adam to optimize GP kernel hyperparameters.
+
+Meta-reviewer: I see. From these reviews, it seems that the proposed approach has potential and is technically sound, but there are some weaknesses and suggestions for improvement. How confident are you in the reviews and the ratings provided?
+
+Dialogue agent: The reviewers' ratings were fairly consistent, with Review 1 being the least positive and Review 3 being the most positive. However, there were some differences in their concerns and suggestions for improvement. Overall, I am fairly confident in the reviews and their ratings, although there is always some possibility that I may have missed something important.
+
+Meta-reviewer: Given the reviews and your assessment, what is your recommendation for this paper?
+
+Dialogue agent: Based on the strengths and weaknesses highlighted by the reviews, I would recommend a weak accept for this paper. The proposed approach is technically sound and has the potential to handle mixed-feature spaces in Bayesian optimization. However, there are some weaknesses and suggestions for improvement that should be addressed, such as additional experiments to compare with other acquisition criteria and ensemble approaches. With some minor revisions, I believe that this paper could make a valuable contribution to the field.

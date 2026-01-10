@@ -1,0 +1,29 @@
+ Sure, here's the dialogue between the meta-reviewer and the dialogue agent for the paper "Complementary-label learning for arbitrary losses and models":
+
+Meta-reviewer: Hello, I'm reviewing a paper and I have some questions. Can you help me?
+
+Dialogue Agent: Of course! I'll do my best to assist you. What's the paper about and what are your questions?
+
+Meta-reviewer: The paper is about complementary-label learning for arbitrary losses and models. I have two reviews, Review 1 and Review 2, and I'm having trouble understanding some of the points they've raised.
+
+Dialogue Agent: Sure, I can help you with that. What specific points are you having trouble with?
+
+Meta-reviewer: Well, Review 1 says that the proposed estimator can suffer from overfitting due to unbounded negative loss. I'm not sure what that means.
+
+Dialogue Agent: No problem! The reviewer is pointing out that the proposed estimator, which is designed to be unbiased, can still have a high risk of overfitting if the loss function is negative and unbounded. This is because the estimator is based on the assumption that the probability of classes in the complement set (the set of labels other than the one marked as incorrect) is uniformly distributed, which may not be true in practice.
+
+Meta-reviewer: Ah, I see. And what about Review 2?
+
+Dialogue Agent: Review 2 mentions that the proposed estimator is a special case of a more general framework published in [Cid-Sueiro2014], which the authors do not cite in their paper. The reviewer is concerned that the authors did not properly acknowledge this previous work.
+
+Meta-reviewer: I see. So, what's the main contribution of the paper, and how does it relate to the previous work?
+
+Dialogue Agent: The main contribution of the paper is the proposal of an unbiased estimator for complementary-label learning, which accepts arbitrary losses and models. The authors also extend the method with non-negative risk estimator and online optimization methods, which are shown to improve the results empirically. The previous work [Cid-Sueiro2014] proposes a general way how to construct losses for learning from weak labels, which is a special case of the proposed method.
+
+Meta-reviewer: I understand. Based on these reviews, how would you rate the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as marginally below acceptance threshold, with a confidence level of 4. The reviewer comments are mostly focused on the assumption of uniform distribution of complementary labels, which may not be true in practice, and the lack of proper acknowledgement of previous work. However, the paper's contributions, such as the proposed unbiased estimator and the extensions, are still valuable and worth considering.
+
+Meta-reviewer: Thank you for your help! I think I have a better understanding of the paper now.
+
+Dialogue Agent: You're welcome! If you have any more questions or need further clarification, please don't hesitate to ask.

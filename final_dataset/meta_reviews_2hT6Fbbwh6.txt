@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, dialogue agent. Can you provide me with a summary of the reviews for the paper titled "Deep Positive Unlabeled Learning with a Sequential Bias"?
+
+Dialogue Agent: Certainly! Review 1 notes that the paper presents a novel formulation with good experimental results, but raises concerns about potential issues related to the identifiability of the posterior from the labels and the lack of rigor in the mathematical writing. Review 2 comments on the observation of sequential bias and the proposed method but suggests more insights into the bias, an ablation study, and details on the datasets would be helpful. Finally, Review 3 recommends acceptance of the paper but finds the problem poorly motivated and the contributions limited in scope.
+
+Meta-Reviewer: Thank you, Dialogue Agent. Based on these reviews, it seems like the paper has some merit but also raises concerns. Can you provide me with more details on the strengths and weaknesses highlighted in Review 1?
+
+Dialogue Agent: Sure! Review 1 notes that the algorithm for class prior estimation in PU learning is only derived for the no bias case, so class prior estimated using biased positives might be wildly incorrect and introduce significant bias in the learned posterior. Additionally, the new loss function is a function of the posterior and the propensity function which are both learned from the data. As implied by the authors, it can’t alone be used to learn the true posterior. Review 1 also points out that in general, it seems that q_i and posterior cannot be uniquely identified from the labeled data. Finally, Review 1 raises some concerns with the lack of rigor in mathematical writing, such as the use of g_\theta as a function both of the sequence and as the posterior and the use of q_i in two different ways.
+
+Meta-Reviewer: Thank you for that detailed summary. And what about the concerns raised in Review 2?
+
+Dialogue Agent: Review 2 finds the observations about sequential bias interesting and probably valid, but suggests more insights into the bias, such as what kind of bias is observed and how it can be modeled. Review 2 also misses an ablation study for the effect of Rpu, PMC, and OMC in the final objective, experiments on multi-class datasets, and the details on the datasets.
+
+Meta-Reviewer: Thanks for that information, Dialogue Agent. And what does Review 3 suggest?
+
+Dialogue Agent: Review 3 recommends accepting the paper but finds that the problem is poorly motivated and the contributions limited in scope. Review 3 suggests starting the introduction by defining the problem that the paper solves and that the paper ties the method too closely to NNs, limiting its contributions.
+
+Meta-Reviewer: I see. So, overall, the paper seems to have some merit but also raises concerns. Based on these reviews, what can you tell me about the confidence of the reviewers in their evaluations?
+
+Dialogue Agent: Review 1 is absolutely certain that their evaluation is correct and is very familiar with the relevant literature. Review 2 is fairly confident that their evaluation is correct. Review 3 is confident but not absolutely certain that their evaluation is correct.
+
+Meta-Reviewer: Thanks for that information, Dialogue Agent. After considering the strengths and weaknesses highlighted in the reviews and the confidence of the reviewers, I'm still unsure about whether to accept or reject the paper. Could you provide me with some additional information, such as the paper type?
+
+Dialogue Agent: Yes, the paper type is long.
+
+Meta-Reviewer: Thanks, Dialogue Agent. Based on this information, I think I will need to consider the concerns raised in the reviews further before making a decision. Thank you for your help.

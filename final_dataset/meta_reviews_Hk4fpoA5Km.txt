@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, thank you for joining me today. I have read the reviews for the paper "Discriminator-Actor-Critic: Addressing Sample Inefficiency and Reward Bias in Adversarial Imitation Learning" and I need your help in deciding whether to accept or reject the paper. Can you give me an overview of the paper and its contributions?
+
+Dialogue agent: Sure. The paper addresses two issues with Adversarial Imitation Learning-style algorithms: implicit bias in the reward functions and requiring high interaction with the environment despite coping with little data. To overcome these issues, the paper proposes an off-policy reinforcement learning algorithm called Discriminator-Actor-Critic (DAC) that is unbiased, reducing complexity by up to 10, and very flexible. The paper presents empirical evidence through several standard tasks, a robotic task, and a virtual reality task. The paper's contributions include using TD3 for off-policy updates and explicitly adding a unique absorbing state at the end of each trajectory.
+
+Meta-reviewer: Thank you. Review 1 rated the paper with a confidence level of 2, meaning that the reviewer was willing to defend the evaluation, but it is quite likely that the reviewer did not understand central parts of the paper. What can you tell me about this?
+
+Dialogue agent: Review 1 did not provide any clear criticism of the paper and gave a top 50% rating, indicating a clear accept. However, the confidence level suggests that the reviewer may have missed important details of the paper. 
+
+Meta-reviewer: Review 2 had some concerns regarding the contributions of the paper. They state that the contributions are rather small, such as replacing the policy update and using importance weighting to reuse old trajectories for the discriminator update. They also raise concerns about the high variance and shallow discussion on absorbing states. What do you think about these concerns?
+
+Dialogue agent: Review 2 correctly identified the proposed contributions, but the authors showed that these contributions are effective in solving the issues with Adversarial Imitation Learning. Regarding the concern about the high variance, the authors suggest a solution but do not analyze how such approximation affects the theoretical guarantees. Finally, the discussion on absorbing states is shallow, even though it is an interesting contribution to the paper. 
+
+Meta-reviewer: Review 3 provided a positive review and rated the paper as good enough to be accepted. They had some minor suggestions, including adding more information for figures and providing all result figures for the HalfCheetah environment in the paper. 
+
+Dialogue agent: Yes, Review 3's suggestions are minor and can be easily addressed by the authors.
+
+Meta-reviewer: Thank you for your insights. Based on these reviews, I believe that the paper should be accepted. The contributions may not be groundbreaking, but the proposed solutions are effective in solving the issues with Adversarial Imitation Learning. The paper is well written and presents empirical evidence on several tasks. Do you have any final thoughts?
+
+Dialogue agent: No, I agree with your assessment, and I am happy to assist you in any further discussions.

@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Simple Black-box Adversarial Attacks":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Simple Black-box Adversarial Attacks". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a simple and effective black-box adversarial attack on deep neural networks for image classification tasks. It uses a greedy random search algorithm in the DCT space based on score feedback, which is demonstrated to be quite efficient in terms of query count. The attack is also shown to outperform state-of-the-art attacks in some cases.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But I'm concerned about the novelty of the paper. The idea of using DCT for adversarial attacks is not new, and the paper seems to build heavily on previous work by Guo et al. Can you help me understand the contribution of this paper compared to existing work?
+
+Dialogue Agent: Yes, the paper does build on previous work by Guo et al. However, the proposed method is simpler and more efficient than existing attacks, and it demonstrates a new baseline for black-box attacks. The paper also provides a detailed analysis of the attack in pixel and DCT space, which sets it apart from previous work.
+
+Turn 3:
+
+Meta-reviewer: I see. But I'm still not convinced that the paper is substantially different from existing work. Can you help me understand the comparison between the proposed method and other attacks in the literature?
+
+Dialogue Agent: Sure. The paper compares the proposed method to several state-of-the-art attacks, including Opt Attack and Boundary Attack. The results show that the proposed method is more efficient in terms of query count, and it achieves a high attack success rate. Additionally, the paper demonstrates an untargeted score-based black-box attack on Google Cloud Vision API, which is not possible with existing attacks.
+
+Turn 4:
+
+Meta-reviewer: That's helpful. But I'm still concerned about the lack of comparison to other recent work, such as the QL attack. Can you help me understand why the paper does not include this comparison?
+
+Dialogue Agent: The authors do not include a comparison to the QL attack because the QL attack is not a black-box attack, and it is not directly comparable to the proposed method. The QL attack is a decision-based attack that assumes the attacker has access to the model's decision process, which is not the case for black-box attacks. The proposed method is a black-box attack that only requires access to the model's output, and it is not directly comparable to the QL attack.
+
+Turn 5:
+
+Meta-reviewer: I see. Thank you for helping me understand the paper. Based on our conversation, I think the paper is interesting and makes a valuable contribution to the field of adversarial attacks. However, I have concerns about the novelty of the paper and the lack of comparison to other recent work. I will give the paper a rating of 4: Ok but not good enough - rejection.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. Can you tell me about the reviews for "Learning to Progressively Plan"?
+
+Dialogue agent: Yes, certainly. Review 1 criticized the paper's presentation and lack of experimental details. Review 2 found the approach novel but also pointed out some issues with notation and evaluation. Review 3 had concerns about the paper's contribution and missing details.
+
+Meta-reviewer: Could you give me a summary of the paper?
+
+Dialogue agent: "Learning to Progressively Plan" proposes a method for iteratively refining existing plans to solve optimization problems. The authors use existing tree and DAG-based LSTM architectures to improve local sections of the plan until convergence. The approach is evaluated on job scheduling and Halide expression simplification tasks.
+
+Meta-reviewer: What is the type of paper?
+
+Dialogue agent: The paper is long.
+
+Meta-reviewer: Based on these reviews, do you think this paper should be accepted or rejected?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, the reviews suggest that the paper is marginally below the acceptance threshold and has some issues with presentation, notation, and evaluation. The meta-reviewer may weigh the importance of these issues in making the final decision.

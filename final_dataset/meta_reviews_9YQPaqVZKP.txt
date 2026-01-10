@@ -1,0 +1,31 @@
+Meta-reviewer: Hello, I am the meta-reviewer for the paper "Neuron with Steady Response Leads to Better Generalization". I have looked through the reviews and would like to ask the dialogue agent some questions to help me make a decision on acceptance or rejection of this paper.
+
+Dialogue Agent: Of course, I'm here to assist you with any questions you may have regarding the reviews.
+
+Meta-reviewer: Can you remind me of the type of paper this is?
+
+Dialogue Agent: Yes, the type of the paper is long.
+
+Meta-reviewer: Thank you. So, after reading all the reviews, do you think the paper is technically solid overall?
+
+Dialogue Agent: Based on the reviews, the paper appears to be technically solid overall. Reviewer 1 points out that the proposed method is well motivated and tested empirically on a variety of benchmark/models, while Reviewer 2 notes that there are enough experiments to show the improvement compared to the vanilla case. Reviewer 3 also mentions that the proposed method is consistent with the idea of the Consistency of Representations Complexity and is well-motivated in this sense.
+
+Meta-reviewer: I see. How about the impact of the paper?
+
+Dialogue Agent: Reviewer 1 states that the research questions and experiments are thorough and well-thought-out, while Reviewer 2 notes that the metric is novel and interesting to the community. Reviewer 3 states that the proposed method is well organized and clearly written, and most claims are well supported by theoretical analysis or experimental results. All three reviewers agree on the moderate-to-high impact of the paper.
+
+Meta-reviewer: Great. How confident are the reviewers in their assessments?
+
+Dialogue Agent: Reviewer 1 has given a rating of 7 for acceptance and a confidence level of 4, meaning they are confident in their assessment but not absolutely certain. Reviewer 2 has given a rating of 6 for weak acceptance and a confidence level of 4, while Reviewer 3 has given a rating of 6 for weak acceptance and a confidence level of 3.
+
+Meta-reviewer: Thank you. It seems that the reviewers are fairly confident in their assessments. Do you think their concerns are significant enough to affect the final decision?
+
+Dialogue Agent: Reviewer 1 suggests magnifying the improvements with NSR using stronger baselines, while also suggesting additional results for other models. Reviewer 2 notes that the paper structure needs improvement and that most of the ablation studies were done on MLPs, as well as suggesting additional comparisons with similar metrics. Reviewer 3 mentions that the generalization performance of models when using NSR under input corruptions is unclear, and that utilizing NSR method requires well-annotated data, which limits it to only supervised learning problems. Based on the reviews, these concerns do not appear to be significant enough to affect the final decision, but they could be addressed by the authors.
+
+Meta-reviewer: I see. Based on your understanding of the reviews and the paper type, what would be your recommendation regarding acceptance or rejection of the paper?
+
+Dialogue Agent: As a dialogue agent, I am not authorized to provide my own opinion or recommendation. I can only provide information based on the reviews and paper type in order to assist you in making the final decision.
+
+Meta-reviewer: Thank you for your help. Based on the reviews and paper type, I am leaning towards accepting the paper. However, I will take the reviewers' concerns into account and suggest that the authors address them in a revision, if the authors choose to do so.
+
+Dialogue Agent: Understood. I will record your decision and inform the authors accordingly. Thank you for reviewing this paper.

@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "HYPRO: A Hybridly Normalized Probabilistic Model for Long-Horizon Prediction of Event Sequences":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "HYPRO: A Hybridly Normalized Probabilistic Model for Long-Horizon Prediction of Event Sequences". Can you provide a summary of the paper's main contributions and findings?
+
+Dialogue Agent: Sure! The paper proposes a hybrid approach using an autoregressive model and an energy-based model to predict long-horizon event sequences. The authors claim that their model outperforms baselines on two benchmark datasets. The paper also introduces a novel regularization technique to enforce larger distances between true and noise sequences.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the authors' claims regarding the compounding errors in autoregressive models for long-horizon prediction?
+
+Dialogue Agent: The authors argue that autoregressive models suffer from compounding errors due to the sequential nature of event prediction. They propose a second stage that reweights the probability of an autoregressively generated sequence using an energy function to capture global structure.
+
+Turn 3:
+
+Meta-reviewer: I see. How does the energy function help to capture global structure?
+
+Dialogue Agent: The energy function is trained using a noise-contrastive loss, which encourages the model to distinguish between real and noise sequences. The authors claim that this approach helps the model to learn a more robust representation of global structure.
+
+Turn 4:
+
+Meta-reviewer: That's good to know. Can you tell me more about the experimental details and the results of the paper?
+
+Dialogue Agent: Sure! The authors perform experiments on two benchmark datasets and compare their model to baselines. They also provide ablations to isolate the impact of using the learned energy function. The results show that their model outperforms baselines on both datasets, with a significant improvement on the longer horizon.
+
+Turn 5:
+
+Meta-reviewer: That's convincing. Do you have any questions or concerns about the paper?
+
+Dialogue Agent: I do have a few questions. Firstly, the authors claim that their model is able to capture global structure, but it's not clear how this is achieved. Secondly, the authors do not provide a thorough analysis of the computational cost of their model. Finally, the paper does not address the societal impacts of the proposed approach.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your questions. Based on your summary and my own review, I am leaning towards a weak accept rating for the paper. However, I would like to hear the authors' responses to your questions before making a final decision.
+
+Dialogue Agent: Understood. I will pass on your questions to the authors and provide their responses. Thank you for the opportunity to assist with your review!

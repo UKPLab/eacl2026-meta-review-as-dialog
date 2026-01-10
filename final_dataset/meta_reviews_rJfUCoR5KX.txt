@@ -1,0 +1,35 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "An Empirical Study of Binary Neural Networks Optimization":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "An Empirical Study of Binary Neural Networks Optimization". Can you help me understand the main findings of the paper?
+
+Dialogue Agent: Sure! The paper systematically studies the training of binary neural networks, where binary refers to single-bit weight elements in the network. The authors evaluate different existing training methods and compare their performance using various benchmarks and training procedures.
+
+Turn 2:
+
+Meta-Reviewer: That sounds useful. But I'm not sure if the paper adds much new to the existing suite of techniques. Can you tell me more about the paper's contributions?
+
+Dialogue Agent: The paper provides a comprehensive review of existing training methods for binary neural networks and offers insights into how to make training faster. The authors also propose two two-stage training methods that can further improve performance. However, the paper does not present any novel theoretical justifications or rigorous empirical evaluations.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the empirical verification of the proposed hypotheses? Do the authors provide sufficient evidence to support their claims?
+
+Dialogue Agent: The authors evaluate the performance of different training methods using two small datasets, MNIST and CIFAR-10, and limited network architectures. While the results are informative, the empirical verification of the proposed hypotheses is weak due to the limited scope of the experiments.
+
+Turn 4:
+
+Meta-Reviewer: I agree. The paper does not provide rigorous empirical evaluations or theoretical justifications for its claims. Can you tell me more about the training curves or final performance figures of the proposed methods?
+
+Dialogue Agent: The authors do not provide detailed training curves or final performance figures for the proposed methods. However, they do show that using methods such as AdaGrad, AdaDelta, RMSProp, and ADAM yields better performance than simpler momentum-based methods, and that pre-training the model with full-precision training works well in speeding up training.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the paper's type, I think I'll rate it as "Ok but not good enough - rejection" with a confidence level of 4.
+
+Dialogue Agent: Understood. The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.
+
+Output:
+
+The paper "An Empirical Study of Binary Neural Networks Optimization" provides a comprehensive review of existing training methods for binary neural networks and offers insights into how to make training faster. However, the paper does not present any novel theoretical justifications or rigorous empirical evaluations to support its claims. The empirical verification of the proposed hypotheses is weak due to the limited scope of the experiments. Based on the reviews and the paper's type, the meta-reviewer rates it as "Ok but not good enough - rejection" with a confidence level of 4.

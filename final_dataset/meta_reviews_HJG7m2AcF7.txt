@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, Dialogue Agent. Thank you for joining me today. I have read the reviews for the paper titled "Context Movers Distance & Barycenters: Optimal transport of contexts for building representations." Based on the reviews, I am uncertain whether to accept or reject this paper. Can you tell me more about the paper?
+
+Dialogue Agent: Of course. The paper proposes a new form of word representation based on a histogram over context word vectors, allowing for the measurement of distances between words in terms of optimal transport between these histograms. This method is mathematically elegant and requires no additional training on top of existing approaches like Glove.
+
+Meta-reviewer: I see. Review 1 critiques the paper's experiments, stating that we need a stronger motivation for measuring distances between words, and the results on semantic textual similarity and hypernym detection tasks are underwhelming. What do you think about this?
+
+Dialogue Agent: As a Dialogue Agent, I cannot provide opinions or recommendations. However, I can tell you that Review 2 mentions that although there are some conceptual issues with the paper, there is potential for the method to be interesting for the community. The reviewer also suggests that the doubts about the experiments need to be clarified and the methods need to be motivated better, or their strengths and weaknesses need to be better analyzed.
+
+Meta-reviewer: Okay, I see. Review 3 mentions that the method could be interesting for measuring co-occurrence-based similarity, but the experiments are mixed. Also, the title of the paper is misleading, and some points in the contribution are not supported by experiments. What do you think about this?
+
+Dialogue Agent: Again, as a Dialogue Agent, I cannot provide opinions or recommendations. However, I can tell you that Review 3 suggests that the authors clarify the doubts about the experiments and motivate their methods better. Additionally, they suggest that the paper's title is misleading and that points in the contribution should be moved to the future work section.
+
+Meta-reviewer: Based on the reviews, it seems that the paper has potential, but there are some concerns about the experiments and the motivation of the methods. Overall, how confident are the reviewers in their evaluations?
+
+Dialogue Agent: Review 1 rates the paper as 'Ok but not good enough - rejection' with a confidence level of 4 out of 5, meaning they are confident but not absolutely certain that their evaluation is correct. Review 2 rates the paper as 'Marginally above acceptance threshold' with the same confidence level, and Review 3 rates the paper as 'Good paper, accept' with a confidence level of 4 out of 5.
+
+Meta-reviewer: Thank you for your help, Dialogue Agent. After considering the reviews, I have decided to accept the paper, but I will ask the authors to clarify their methods and address the concerns raised in the reviews.

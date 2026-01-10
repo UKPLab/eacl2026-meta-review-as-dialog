@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper titled "Watermarking for Out-of-distribution Detection" and I have some questions for you to help me decide whether to accept or reject it. Can you summarize the paper's contribution for me?
+
+Dialogue agent: The paper proposes a watermarking method for out-of-distribution (OOD) detection that uses the reprogramming property of deep neural networks (DNNs). The method learns a fixed additive perturbation that can be applied to test images, where in-distribution images have high scores, and the perturbation has a low score. Experimental results show that the proposed method improves the OOD performance of existing detection methods.
+
+Meta-reviewer: Thank you for summarizing. Review 1 states that the paper proposes an interesting approach to improve the performance of existing OOD methods. Can you tell me more about how the proposed method works?
+
+Dialogue agent: Sure. The proposed method learns watermarks that can help separate in-distribution and OOD data better. This is done by optimizing the objective function, which involves minimizing the distance between the perturbed test data and the original test data with respect to a scoring function. The scoring function measures how in-distribution an image is. The learned watermarks are then used to evaluate new test data, where in-distribution images should receive high scores, and OOD images should receive low scores.
+
+Meta-reviewer: Review 3 states that the method is a bit ad hoc and the motivation is unclear. What is your take on that?
+
+Dialogue agent: The paper argues that the watermarking method is needed because existing OOD detection methods only consider the models' outputs and do not fully use the reprogramming property of DNNs. The paper proposes using the models at a higher level by reprogramming the models via changing data slightly. The motivation for the method is to leverage this property to improve OOD detection.
+
+Meta-reviewer: Review 2 points out that the proposed method involves, and is sensitive to hyperparameters. Can you comment on that?
+
+Dialogue agent: Yes, the proposed method involves several hyperparameters such as the learning rate, the temperature parameter, and the regularization strength. The optimal hyperparameter settings depend on the test OOD data, and the paper reports that the hyperparameters were chosen based on validation on a separate validation OOD dataset. However, the exact details of the validation dataset are not mentioned in the main paper or the appendix.
+
+Meta-reviewer: Okay, thanks for the clarification. Review 1 mentions that the paper does not explicitly mention the limitation of the proposed method but thinks that it is discussed in some parts. Can you tell me more about that?
+
+Dialogue agent: The paper discusses the limitations of the proposed method, namely, that the performance improvements of the proposed method saturate when the dataset has more classes or becomes more complex, such as in CIFAR-100 or ImageNet. This makes the proposed method less suitable for use in practice. However, the paper does not provide a dedicated section to discuss the limitation.
+
+Meta-reviewer: I see. Finally, can you give me your recommendation for whether to accept or reject the paper, based on the reviews and your knowledge of the field?
+
+Dialogue agent: Based on the reviews and the paper's contribution, I would recommend a weak accept with a rating of 6. The paper is technically solid and has moderate-to-high impact, with some concerns about hyperparameters and limited evaluation. However, the confidence in the assessment is 4, which means that there is some uncertainty in the decision.

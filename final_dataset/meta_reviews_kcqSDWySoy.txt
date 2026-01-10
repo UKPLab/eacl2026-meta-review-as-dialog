@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper "Sobolev Training for the Neural Network Solutions of PDEs." Can you tell me your overall impression of the paper and its contributions?
+
+Dialogue agent: Hello, meta-reviewer. Based on the reviews provided, Review 1 rated the paper as good and recommended acceptance while Review 2 rated it marginally below the acceptance threshold. Review 3 thinks the paper needs to be strengthened by incorporating more theoretical and numerical aspects and thus recommended rejection. As a dialogue agent, I am not allowed to express personal opinions or make recommendations. However, I can tell you that the paper proposes a novel loss function using Sobolev norms to decrease computational costs when solving PDEs using neural networks. The paper claims that Sobolev training can speed up convergence and aid in data efficiency. The paper also presents some theoretical results and numerical experiments to support these claims.
+
+Meta-reviewer: Can you elaborate more on what these reviews are saying about the paper?
+
+Dialogue agent: Review 1 finds that the motivation for the proposed scheme is clear, and the experiments demonstrate that Sobolev training can achieve target accuracy with fewer overall training points. Review 2, on the other hand, has some concerns, including the high computational cost of training with derivatives in the loss function, the lack of comparison in terms of computational time, the difficulty of including high-dimensional derivatives, the lack of negative results, and the issues with some parts of the appendix. Review 3 believes that the paper needs to be strengthened by incorporating more theoretical and numerical aspects and suggests some ways to improve the paper. 
+
+Meta-reviewer: Based on these reviews, it seems that there are some concerns with the paper's claims. Can you tell me more about the theoretical results presented in the paper and its experiments?
+
+Dialogue agent: The paper presents theoretical results in the form of theorems relating to the convergence of Sobolev training. The results are limited to 1D equations, and the paper does not show how these results can be extended to higher dimensions. As for the experiments, the paper compares Sobolev training with $L^2$-norm training on some PDE problems. The experiments suggest that Sobolev training can achieve similar accuracy levels with fewer overall training points, potentially making the training process more data efficient.
+
+Meta-reviewer: Given the concerns raised and the limitations of the work, how confident are the reviewers in their evaluations?
+
+Dialogue agent: Review 1 is confident but not absolutely certain about their evaluation, giving a rating of 4 for confidence. Review 2 is also confident but not absolutely certain, giving a rating of 4 for confidence. Review 3, on the other hand, is absolutely certain about their evaluation, giving a rating of 5 for confidence. 
+
+Meta-reviewer: Thank you for the information. Based on these reviews, I need to carefully consider the strengths and limitations of the paper before making a decision.

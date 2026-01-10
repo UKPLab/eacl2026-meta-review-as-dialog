@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, I'm reviewing the paper "Unsupervised Cross-Task Generalization via Retrieval Augmentation." Can you provide me with some additional information about the reviews?
+
+Dialogue agent: Sure, what would you like to know?
+
+Meta-reviewer: First off, can you tell me the type of the paper?
+
+Dialogue agent: Yes, the paper is categorized as "long."
+
+Meta-reviewer: Great. And what are the main strengths and weaknesses of the paper according to the reviews?
+
+Dialogue agent: The main strengths, as highlighted by Review 1 and Review 2, are that the proposed approach is simple yet effective and provides a compelling solution to the problem of cross-task generalization. The authors also provide a reasonable set of baselines and ablations. However, one weakness noted by Review 2 is that the paper can sometimes be verbose and difficult to understand. Review 3's main concern is the practicality or usefulness of the "unsupervised" setting, but this is partially addressed in the rebuttal with the addition of Appendix D.2.
+
+Meta-reviewer: It sounds like the paper has some strong points, but there are also some areas of improvement. Can you provide me with the overall rating and confidence level of each review?
+
+Dialogue agent: Review 1 gave the paper a rating of 6 ("Weak Accept") with a confidence level of 4. Review 2 initially gave the paper a rating of 4 but updated it to 6 after the author response, also with a confidence level of 4. Review 3 gave the paper a rating of 6 with a lower confidence level of 3.
+
+Meta-reviewer: Okay, thank you. Can you tell me more about the proposed approach? How does it work?
+
+Dialogue agent: Certainly. The paper proposes using a retrieval augmentation method called ReCross to improve cross-task generalization of seq2seq models. The approach starts with a T5-like model that has been trained on a diverse set of tasks in seq2seq format. The training data is then embedded using the encoder's top layer and stored in a dense index. When evaluating on an unseen task, the query is used to retrieve training data examples that might be helpful in evaluating this new example. These helpful examples are then used to fine-tune the upstream model, which is then used to perform the target task.
+
+Meta-reviewer: That's interesting. Was there any discussion of the evaluation process?
+
+Dialogue agent: Yes, the authors provide a detailed evaluation process, including a reasonable set of baselines and an informative choice of ablations. However, Review 2 notes that it could benefit from more analysis and data-related ablations. 
+
+Meta-reviewer: Finally, can you tell me more about the confidence levels given by the reviewers?
+
+Dialogue agent: Certainly. A confidence level of 4 means that the reviewer is confident in their assessment, but not absolutely certain. It is unlikely, but not impossible, that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work. A confidence level of 3 means that the reviewer is fairly confident in their assessment, but it is possible that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work.

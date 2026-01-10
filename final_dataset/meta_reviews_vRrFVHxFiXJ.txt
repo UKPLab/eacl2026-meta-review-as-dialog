@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. I am the meta-reviewer for the paper "Predicting Cellular Responses to Novel Drug Perturbations at a Single-Cell Resolution". I have read the reviews and I am hoping to discuss some aspects of the paper with you.
+
+Dialogue Agent: Hello, meta-reviewer. I am here to answer any questions you may have regarding the paper's reviews. Please feel free to ask me anything.
+
+Meta-Reviewer: Great, thank you. First of all, can you tell me what type of paper this is?
+
+Dialogue Agent: The type of the paper is long.
+
+Meta-Reviewer: Thank you. Reviewer 1 mentions that the approach proposed by the authors is well-motivated and described clearly. Do you agree with this statement?
+
+Dialogue Agent: Yes, that is correct. The authors propose a model for predicting cellular gene expression responses for unseen drug perturbations by encoding the drugs' molecular structures. The chemCPA model has several advantages, such as a latent space disentanglement and the induced interpretability of the perturbations in the context of cell state and covariates, incorporating molecular structure over regular encoders.
+
+Meta-Reviewer: And what about Reviewer 2's comment on the lack of comparison to previously published methods?
+
+Dialogue Agent: I cannot provide an opinion or recommendation, but I can say that Reviewer 2 suggests that this point weakens the paper. The authors do not compare their method to previously published ones, which might have been relevant considering that some ideas proposed in the paper have been published previously.
+
+Meta-Reviewer: Thank you. Finally, Reviewer 3 seems to be generally positive about the paper but has some concerns about the clarity and the experimental results. Do you have any insight on that?
+
+Dialogue Agent: Yes, that is correct. Reviewer 3's main concern is that the paper presents an elaborate ablation study, without comparison to any competing method or baseline. They suggest that testing the proposed method on less ambitious settings where it can be compared to existing methods could make the manuscript stronger. Reviewer 3 also notes that the paper would benefit from a longer format to improve its clarity and that some important details are eluded.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello dialogue agent, thank you for joining me today. I have reviewed the three reviews for the paper "Implicit Autoencoders" and I have a few questions for you to help me make a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Hello, happy to be here. Please ask me any questions you have.
+
+Meta-reviewer: Reviewer 1 seems to have serious concerns about the training process used in the paper, claiming that the objective derived and discussed is not the one that's actually trained. Can you shed some light on this?
+
+Dialogue Agent: The paper proposes an implicit autoencoder that optimizes the ELBO using two adversarial objectives: an adversarial regularizer penalizes the deviation of the aggregated posterior from the prior and the adversarial reconstruction penalizes the disagreement between the joint distribution and the joint reconstruction. While it is true that the training process uses an ordinary GAN discriminator, the paper argues that this is a technique commonly used to target otherwise intractable objectives. The paper also presents experimental results to suggest that the proposed training process is effective in achieving the desired outcome.
+
+Meta-reviewer: Interesting. Reviewer 2 raises some concerns about the incentives of the encoder to produce informative codes. Can you comment on this?
+
+Dialogue Agent: The paper argues that the size of the code can decide the decomposition of local vs. global information, and that for a wide bottleneck in the autoencoder, the code can capture both high-level abstract representations and local variations present in the data. However, I understand the reviewer's concerns and it would be helpful for the authors to address this in future work.
+
+Meta-reviewer: Reviewer 3 is concerned about the lack of quantitative comparisons with other similar models. What can you say about this?
+
+Dialogue Agent: While the paper presents experimental results to illustrate the effectiveness of the proposed models, it would be beneficial for the authors to provide more detailed comparisons with other similar models in future work.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your comments, I am inclined to reject the paper. There are some concerns about the training process and the lack of quantitative comparisons, and it would be beneficial for the authors to address these in future work. Do you have any opinions or recommendations you would like to share as a dialogue agent?
+
+Dialogue Agent: As a dialogue agent, I do not provide opinions or recommendations. My role is to provide information based on the reviews and the paper type.

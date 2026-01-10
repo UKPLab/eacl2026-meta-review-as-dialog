@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Per-Tensor Fixed-Point Quantization of the Back-Propagation Algorithm":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Per-Tensor Fixed-Point Quantization of the Back-Propagation Algorithm". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes a framework for quantizing the weights and gradients of neural networks, based on five quantization criteria proposed in literature. The proposed framework can quantize the neural network obtaining a minimal or close-to-minimal error for a pre-specified precision level.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But I have some questions about the reviews. In review 1, the reviewer mentions that the paper is poorly written and hard to understand. Did you see any issues with the writing style or clarity of the paper?
+
+Dialogue Agent: I can summarize the reviews for you. Review 1 mentions that the paper is poorly written and hard to understand, and recommends re-organizing the paper and introducing a toy example to illustrate how the proposed method works in the training time and the inference time.
+
+Turn 3:
+
+Meta-Reviewer: Okay, I see. And what about review 2?
+
+Dialogue Agent: Review 2 states that the paper is clear but the important part, the overall architecture, is explained in the appendix, not in the main paper. The reviewer also mentions that the paper is poorly written and hard to understand, and recommends introducing one toy example to illustrate how the proposed method works in the training time and the inference time.
+
+Turn 4:
+
+Meta-Reviewer: I see. And what about review 3?
+
+Dialogue Agent: Review 3 summarizes the paper as presenting a framework of quantizing the weights and gradients of neural networks, based on five quantization criteria proposed in literature. The proposed framework can quantize the neural network obtaining a minimal or close-to-minimal error for a pre-specified precision level. The reviewer mentions that the experiment results on CIFAR have shown that the proposed quantization framework had reduced the representational cost, computational cost, and the communication by up to 6x, 8x, and 4x, respectively, compared to the 32-b FL baseline and related works.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for summarizing the reviews for me. Based on the reviews, do you think the paper is acceptable or should it be rejected?
+
+Dialogue Agent: Based on the reviews, I would say that the paper is acceptable, but with some minor issues that need to be addressed. The reviewers have provided helpful feedback on the writing style and clarity of the paper, and the experimental results show promising results. However, the reviewers have also raised some questions about the methodology and the need for more explanation and comparison with other strategies. Overall, I would recommend accepting the paper with minor revisions.

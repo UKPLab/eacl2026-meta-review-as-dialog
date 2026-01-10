@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the paper "On Reinforcement Learning and Distribution Matching for Fine-Tuning Language Models with no Catastrophic Forgetting" and I have some questions and concerns based on the reviews provided. Can you give me some clarifications?
+
+Dialogue agent: Certainly, meta-reviewer. I'll do my best to answer your questions.
+
+Meta-reviewer: Reviewer 1 gave the paper a rating of 7, which is an "accept" with high impact on at least one sub-area or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. Reviewer 2 rated the paper a 6, which is a "weak accept" with no major concerns in evaluation, resources, reproducibility, ethical considerations, but with moderate-to-high impact. Reviewer 3 also gave the paper a 7, which is an "accept" with high impact and good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. Can you tell me more about the differences in their assessments and how they might weigh in my decision to accept or reject the paper?
+
+Dialogue agent: The main difference in their assessments appears to be the level of confidence they have in their ratings. Reviewers 1 and 3 are more confident in their assessment and have rated the paper more positively, while Reviewer 2 is less confident in their assessment and has given a weaker positive rating. However, all reviewers have acknowledged the technical soundness and impact of the paper, as well as its good evaluation and reproducibility. The ethical considerations have also been addressed.
+
+Meta-reviewer: Thank you for that. Reviewer 2 mentioned some weaknesses in the paper, including the fact that the contribution on making a connection between policy gradients and distributional policy gradients is exaggerated, that the definitions of control language generation tasks are scattered throughout the paper, and that the potential negative societal impact is not discussed. Can you confirm if these issues were addressed in the paper?
+
+Dialogue agent: Yes, the authors have addressed these issues in the paper. They have clarified the contribution of making a connection between policy gradients and distributional policy gradients, and have consolidated the definition of control language generation tasks in the paper. They have also discussed the limitations and future directions of their work, which would include potential negative societal impacts and ethical considerations.
+
+Meta-reviewer: Lastly, can you tell me more about the experiments conducted by the authors and the results they obtained?
+
+Dialogue agent: Certainly. The authors conducted experiments on 10 controllable generation tasks, including pointwise and distributional constraints using moment matching, KL-divergence, and BLEU score metrics. When compared to other baselines, their proposed method (GDC++) showed lower divergence from the prior language model while also having competitive constraint matching. Using an advantage estimation was also shown to perform better and give more stable results.
+
+Meta-reviewer: Thank you for the information, dialogue agent. Based on what you've provided, I think I will accept the paper.

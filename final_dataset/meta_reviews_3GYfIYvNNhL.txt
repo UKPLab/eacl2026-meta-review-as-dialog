@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper about a new consistency score for analyzing the regularity of machine learning models. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new consistency score, called C-score, which measures the expected accuracy of a held-out instance averaged over different training sample sizes. The authors also study the structural regularities of MNIST, CIFAR-10, CIFAR-100, and ImageNet using the C-score.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But, I have some concerns about the novelty of the consistency score and the experiments on utilizing it for outlier detection. Can you address these concerns?
+
+Dialogue Agent: The idea of attributing examples into regular examples and irregular examples is not new, but the C-score provides a new way of measuring it. The authors also provide interesting observations and good visualizations, but they only show simple mislabelling experiments on one model and dataset. Additionally, the paper does not provide baseline methods for comparison.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you explain why the authors choose s=70 for ImageNet, rather than 50 or other numbers? Since ImageNet is much more complex than CIFAR, it is hard to tell if similar observations hold.
+
+Dialogue Agent: The authors choose s=70 for ImageNet because it provides a good balance between sample complexity and computational cost. However, the choice of s=70 is not optimal, and the authors acknowledge that it is a trade-off.
+
+Turn 4:
+
+Meta-reviewer: I'm not sure if the C-score improves the state-of-the-art of outlier detection. Can you address this concern?
+
+Dialogue Agent: The C-score does not improve the state-of-the-art of outlier detection compared to traditional methods. The authors only provide simple mislabelling experiments on one model and dataset, and do not compare the C-score with existing traditional methods.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your responses. Based on my concerns, I will rate this paper as marginally below acceptance threshold.
+
+Dialogue Agent: Thank you for your feedback. The authors will address these concerns in future work.

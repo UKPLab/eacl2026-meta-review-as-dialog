@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you for submitting your paper titled "Analyzing Mathematical Reasoning Abilities of Neural Models" for review. I have reviewed three different reviews and I would like to confirm some details before making my final decision. Can you confirm that your paper proposes a synthetic dataset for evaluating mathematical reasoning ability of sequence-to-sequence models, and that several models, including LSTM, LSTM + Attention, and Transformer models are evaluated on this dataset?
+
+Dialogue agent: That is correct. Our paper proposes a synthetic dataset that evaluates mathematical reasoning of sequence-to-sequence models. We evaluate several models, including those you mentioned.
+
+Meta-reviewer: Reviewer 1 raised concerns about the comparison of standard neural models. How do you respond to that?
+
+Dialogue agent: We appreciate the feedback from Reviewer 1. We addressed this concern by evaluating the models on a standardized benchmark. However, we acknowledge that the use of "thinking steps" in the Simple LSTM and Attentional LSTM models is not a standard approach. We will take this feedback into account if we revise the paper.
+
+Meta-reviewer: Reviewer 2 suggested that prior work should be discussed more thoroughly and that a real-world test would be helpful. How do you respond to these comments?
+
+Dialogue agent: Thank you for bringing up these points. We will definitely take these comments into consideration if we revise the paper. Regarding prior work, we will provide a more extensive discussion of prior dataset comparisons. To address the concern about testing on real-world problems, we plan to extend our experiments by evaluating on a more extensive real-world dataset.
+
+Meta-reviewer: Reviewer 3 suggested that the paper could benefit from more detailed discussion of the dataset generation process and that additional difficulty levels could be included in the test set. How do you respond to these comments?
+
+Dialogue agent: Thank you for bringing up these points. We agree that more details on the dataset generation process would be beneficial, and we will include these details in an appendix in the revised paper. Regarding difficulty levels, we will consider adding multiple difficulty levels to the test set, and will investigate the possibility of a test set with "unsolvable" problems.
+
+Meta-reviewer: Thank you for your responses. Based on these reviews and your responses, I am confident in accepting your paper with a rating of 7 out of 10. Congratulations!

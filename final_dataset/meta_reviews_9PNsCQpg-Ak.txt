@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide me with a brief summary of the paper titled "Better SGD using Second-order Momentum"?
+
+Dialogue Agent: Certainly. The paper proposes a new method of using the Hessian-vector product as a momentum vector instead of the traditional momentum vector. It introduces a correction term in SGD with momentum to reach an $\epsilon$ critical point in stochastic gradient and Hessian-vector product computations. The authors extend the benefit of the correction term to normalized SGD and adaptive algorithms. Finally, they showcase the benefits of their proposed algorithm with an experimental study on CIFAR-10, ImageNet, and neural machine translation.
+
+Meta-reviewer: Thank you. I have read the reviews for this paper, and I have some questions regarding the strengths and weaknesses of the proposed method. Review 1 mentions that there is no convergence guarantee for the current method. Can you elaborate more on this issue?
+
+Dialogue Agent: Review 1 correctly points out that there is no convergence guarantee for the proposed method. However, the proposed method achieves optimal theoretical rates on non-convex problems and high-accuracy performance on deep learning tasks, as mentioned in Review 3. It is important to note that convergence guarantees are not always necessary for practical applications.
+
+Meta-reviewer: Understood. Review 1 also mentions that the computation expense is higher for the proposed approach, but the improvement in accuracy is limited. Can you provide more details on this?
+
+Dialogue Agent: Review 1 is accurate in stating that the computation expense is higher for the proposed approach compared to traditional methods. However, the authors show an improvement in accuracy in their experimental study, as mentioned in Review 2. The authors also mention in their conclusion section that the level of noise is limited, but there is no evidence of this provided, as pointed out in Review 1.
+
+Meta-reviewer: Review 2 mentions that one of the main limitations of the paper is assuming that the function is Lipschitz. Can you explain what this means?
+
+Dialogue Agent: A Lipschitz function is a function that satisfies a certain type of continuity condition. Assuming that the function is Lipschitz means that the function does not have any sudden changes in value and is relatively smooth. This assumption is important in the theoretical analysis of the proposed method.
+
+Meta-reviewer: I see. Review 3 states that the numerical results are convincing about the improved accuracy of the proposed method compared to momentum SGD. Can you provide more information on this?
+
+Dialogue Agent: It is true that the numerical results in the paper are convincing about the improved accuracy of the proposed method compared to momentum SGD. Review 2 also mentions that the authors can show better performance of SGDHess compared to SGD in various vision and NLP settings. However, there is a mismatch between the theoretical claims and the experimental results, as pointed out in Review 2. The authors have also jotted down one of the main limitations of their work, which is assuming that the function is Lipschitz.
+
+Meta-reviewer: Thank you for your answers. Based on these reviews, I am leaning towards accepting this paper, but I am concerned about the lack of convergence guarantees and the mismatch between the theoretical claims and the experimental results. What is your opinion regarding this?
+
+Dialogue Agent: I am sorry, but I cannot provide an opinion or recommendation as I am programmed to solely provide information based on the reviews and paper type. It is ultimately up to your judgement and expertise to decide whether these limitations are acceptable in this paper or not.

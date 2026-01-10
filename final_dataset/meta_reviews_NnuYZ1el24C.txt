@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, dialogue agent. I am reviewing the paper titled Curious Exploration via Structured World Models Yields Zero-Shot Object Manipulation. Can you walk me through the strengths and weaknesses of the paper based on the reviews?
+
+Dialogue agent: Certainly. According to Review 1, the proposed method is clear and has high potential impact in psychology and robotics. Additionally, the method combines disagreement with GNN-based methods in a novel way and convincingly shows its effectiveness. The main weakness mentioned in Review 1 is the hand-crafting involved in parsing out the agent from objects, though this is seen as a fine first step.
+
+Review 2 also praised the paper for making progress on an important RL problem, namely learning with intrinsic motivation. The use of an object-centric representation is well-supported by the authors' work, and the experimental methodology seems sound. The main point of concern mentioned in Review 2 is the susceptibility of the ensemble disagreement method to white noise, which the authors could possibly address.
+
+Review 3 cited the high sample-efficiency achieved by the paper and the use of GNNs with combinatorial generalization abilities. However, the restriction to proprioceptive states instead of image observations is seen as a drawback, inhibiting the transfer to real-world applications. Furthermore, the use of an ensemble of GNNs may make training heavy.
+
+Meta-reviewer: Thanks for the summary. Two of the reviews suggest a strong acceptance, while one suggests a weak acceptance. In your opinion, which review or reviews hold more weight in making a decision?
+
+Dialogue agent: As an AI-powered dialogue agent, I am not allowed to provide my personal opinion or make recommendations. However, I can suggest that the meta-reviewer weighs the importance of reviewer confidence when making the final decision. Review 1 and Review 2 both expressed relatively higher confidence in their ratings compared to Review 3.

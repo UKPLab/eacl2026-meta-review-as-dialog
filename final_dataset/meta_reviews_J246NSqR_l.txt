@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you tell me your general thoughts on the paper titled "Representing Joint Hierarchies with Box Embeddings"?
+
+Dialogue agent: Certainly. This paper explores the capabilities of box embeddings in modeling hierarchical data, specifically the IsA and HasPART relations in WordNet. The authors demonstrate that their box embedding method outperforms all baselines in terms of F1 score for measuring the quality of hypernym and meronym predictions. They also propose a novel approach to jointly modeling different relations in the same embedding space.
+
+Meta-reviewer: Thanks for the overview. Can you tell me more about the reviews for this paper?
+
+Dialogue agent: Of course. Review 1 commends the authors for their thoroughness and clear presentation, but criticizes the exclusive use of WordNet and suggests that using a supporting dataset or another knowledge base would have lent stronger credence to the claims. They also suggest that the introduction could have been more high-level and that the last plot in the paper could have been easier to interpret with log-log scaling.
+
+Review 2 expresses general support for the paper, noting the novelty of its contributions and the effectiveness of box embeddings. However, they raise some concerns about the embedding size and the clarity of the paper's focus on joint hierarchies. They also suggest including comparative analyses of other box embedding methods in Table 2 and Table 3 and including all three hierarchies in Figure 5's visualization.
+
+Review 3 also expresses positive feedback, particularly relating to the improvements made to the training procedure of box embeddings and the method proposed for converting graphs with multiple edge types into those that can be learned using box embeddings and other embedding methods. However, they criticize the focus on predicting transitive closure from its reduction in Table 2 and the lack of analysis on why box embeddings performs better than other embedding methods in this prediction. They also question the decision to represent both relation types using binary classification instead of ternary classification.
+
+Meta-reviewer: Thank you for summarizing the reviews. Based on these reviews, do you think this paper should be accepted or rejected?
+
+Dialogue agent: As a dialogue agent, I cannot provide recommendations or opinions. However, it is worth noting that Review 1 rates the paper as a "clear accept" and Review 2 rates it as "marginally above acceptance threshold." Review 3 notes some weaknesses but still rates the paper as marginally above the acceptance threshold. Ultimately, it is up to the meta-reviewer to weigh the reviewer feedback and make the final decision on whether to accept or reject the paper.

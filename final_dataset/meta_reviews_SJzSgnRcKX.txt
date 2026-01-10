@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "What do you learn from context? Probing for sentence structure in contextualized word representations":
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "What do you learn from context? Probing for sentence structure in contextualized word representations". Can you help me understand the main findings of the paper?
+
+Dialogue Agent: Sure! The paper explores the ability of contextualized word embeddings (ELMo, CoVe, and the Transformer LM) to capture sentence structure. The authors introduce a new method called "edge probing" to probe the representations and examine the relationship between spans rather than individual words.
+
+Meta-reviewer: That sounds interesting. What are the main contributions of the paper?
+
+Dialogue Agent: The paper provides new insights into what is captured in contextualized word embeddings by compiling a set of "edge probing" tasks. The results cover a wider range of tasks than some similar previous works and are timely and relevant given the increasing usage of these types of embeddings.
+
+Meta-reviewer: I see. Can you tell me more about the "edge probing" method?
+
+Dialogue Agent: Sure! The "edge probing" method involves probing the representations using diagnostic classifiers to focus on the relationship between spans rather than individual words. This allows the authors to look at more than just tagging problems and evaluate the ability of the embeddings to capture syntactic constituency, dependencies, entity labels, and semantic role labeling.
+
+Meta-reviewer: I see. What are the limitations of the paper?
+
+Dialogue Agent: The paper is well-written and experimentally thorough, but the discussion of the tables and graphs in the running text feels a bit condensed and at times unclear about which rows are being referred to. Additionally, the authors could have provided more information about the tinted areas around the lines in figures 2 & 3, as it is not clear what they signify.
+
+Meta-reviewer: I understand. What are the reviewer's opinions on the paper?
+
+Dialogue Agent: Based on the reviews, the reviewers have mixed opinions on the paper. Reviewer 1 finds the paper to be a nice attempt to tease apart some questions about the effectiveness of contextual word embeddings and introduces a new method for probing the representations. Reviewer 2 finds the paper to be well-presented and timely, but has some questions about the discussion of the tables and graphs. Reviewer 3 has no major complaints with the work but wonders about more tail phenomena and the evaluation being limited to English.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews and your summary, I will consider the paper's contribution, methodology, and limitations in making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you have any further questions or if there's anything else I can help with.

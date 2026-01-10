@@ -1,0 +1,23 @@
+Meta-reviewer: Hello there, I have reviewed the reviews of the paper "Differentiable Expected BLEU for Text Generation" and have some questions for you. Can you tell me more about the proposed differentiable metric for text generation tasks and how it improves over previous metrics?
+
+Dialogue agent: Certainly. The proposed metric is inspired by BLEU and is differentiable, allowing for optimization during training. It provides a direct perspective on how good the conjunction of a generated sentence is, which has not been provided by other metrics historically used on language generation tasks, such as cross-entropy. The experiments in the paper show that the proposed method improves BLEU compared to simple cross-entropy training and policy gradient training.
+
+Meta-reviewer: I see. One of the reviewers mentioned that there were too many approximations in the formulation of the metric. Can you comment on that?
+
+Dialogue agent: The formulation of the metric does consist of many approximations, which may blur the relationship between the original metric (BLEU) and the derived metric. However, the new metric shares the same motivation as BLEU, which is to introduce accuracy of n-gram conjunction to evaluate outputs. Selecting BLEU as the starting point of this study was a reasonable idea.
+
+Meta-reviewer: Another reviewer mentioned that the experimental setting is problematic. Can you elaborate on that?
+
+Dialogue agent: The corpus size used in the experiments is relatively smaller than other standard tasks, such as WMT, but the size of the network layers is large. This may result in over-fitting of the model easily, as shown in the results of cross-entropy training in Figure 3. The authors acknowledged that this tendency is caused by the "misalignment between cross-entropy and BLEU," however the reviewer suggested that other trivial reasons should be ruled out first before referring to this hypothesis.
+
+Meta-reviewer: I see. And what can you tell me about the missing references mentioned by one of the reviewers?
+
+Dialogue agent: The paper missed some important references such as approaches optimizing BLEU with log-linear models, reinforcement strategies, or structured prediction. The lack of references addressing BLEU optimization with these methods may weaken the motivation of the study. The reviewer recommended comparing the proposed method with other methods that have been tested on en-de translations and reporting results for other policies that optimize BLEU scores.
+
+Meta-reviewer: Thank you. Another reviewer mentioned that Section 3 of the paper is very technical and hard to follow. Can you comment on that?
+
+Dialogue agent: The reviewer's feedback is valid, and the authors should take it into consideration while rewriting the paper. The inclusion of diagrams and more explanations can help to improve the clarity of Section 3.
+
+Meta-reviewer: What are your overall thoughts on the paper and the reviews?
+
+Dialogue agent: Based on the reviews, it seems that the paper has some weaknesses, such as weak empirical results, missing references, and a relatively small corpus size in experiments. However, the proposed method is novel and addresses an important problem. It is up to the meta-reviewer to weigh the importance of the critiques versus the significance of the contribution when making the final decision to accept or reject the paper.

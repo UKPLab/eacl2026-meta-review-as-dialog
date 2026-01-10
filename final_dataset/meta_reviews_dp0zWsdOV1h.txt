@@ -1,0 +1,19 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Retrieve, Reason, and Refine: Generating Accurate and Faithful Patient Instructions":
+
+Meta-reviewer: Hi there! I'm reviewing a paper titled "Retrieve, Reason, and Refine: Generating Accurate and Faithful Patient Instructions". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a deep-learning approach called Re3Writer to automatically generate patient instructions at the point of discharge from the hospital. The approach consists of three components: retrieving instructions of previous patients based on diagnosis, medication, and procedure; reasoning medical knowledge into the current input patient data; and refining relevant information from the retrieved working experience and reasoned medical knowledge to generate final patient instructions.
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the dataset used in the paper?
+
+Dialogue Agent: The authors used a dataset called PI, which is based on the MIMIC 3 data. The dataset includes patient instructions for different diagnoses, medications, and procedures. The authors also built a baseline model to compare the performance of their approach.
+
+Meta-reviewer: I see. What are the strengths and weaknesses of the paper, in your opinion?
+
+Dialogue Agent: The paper has several strengths, including its timely topic, easy-to-follow presentation, and the use of a large and diverse dataset. The authors also provide a thorough evaluation of their approach and compare it to baseline models. However, the paper has some limitations, such as the lack of technical details and the need for further validation.
+
+Meta-reviewer: Thank you for your input. Based on your assessment, what would be your recommendation for the paper?
+
+Dialogue Agent: Based on the strengths and weaknesses of the paper, I would recommend accepting the paper with a borderline confidence level. While the paper has several strengths, there are some limitations that need to be addressed. However, the paper has the potential to make a significant impact in the field of healthcare.
+
+Meta-reviewer: Thank you for your helpful feedback! I will consider your input in my final decision.

@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, can you tell me your overall opinion on the paper, "Generating Liquid Simulations with Deformation-aware Neural Networks"?
+
+Dialogue agent: As a dialogue agent, I must refrain from providing opinions or recommendations. However, I can provide a summary of the reviews. The first and second reviews both rated the paper as good and recommended acceptance. The third review, while appreciative of the practical applications, expressed concerns about the lack of novelty from a machine learning perspective and suggested that the paper may be better suited for a workshop or conference like SIGGRAPH.
+
+Meta-reviewer: Thank you for the summary. Can you give me more information about the approaches used in the paper?
+
+Dialogue agent: According to Review 1, the paper introduces a deep learning approach that combines two networks for synthesizing 4D data that represents 3D physical simulations. The first network outputs an initial guess, and the second network adds details. The first network utilizes a set of precomputed deformations, while the weights can be set to generate different output shapes. The precomputed deformations are applied in a recurrent manner. The second network is a variant of STN.
+
+Meta-reviewer: Are there any strengths or weaknesses of the experimental results mentioned in the reviews?
+
+Dialogue agent: Review 1 notes that the results are impressive from the perspective of the current abilities of deep neural networks, and Review 2 found the experimental results to be sufficient for simulating liquids/smoke. However, Review 2 suggests adding more ablation to strengthen the paper, and Review 3 recommends providing accuracy and computation cost/time comparisons with other methods.
+
+Meta-reviewer: Review 1 suggests adding more intuition to the current approach. Can you elaborate on what that means?
+
+Dialogue agent: Review 1 recommends discussing why the current network design is desired, and if another neural network can be designed to apply the deformation backwards and enforce some consistency to improve the results. Additionally, the review suggests using an adaptive grid-structure to increase resolution and exploring the tradeoff between using more basis for the first network and increasing the complexity of the second network.
+
+Meta-reviewer: Thanks for the information. Review 3 expresses concerns about the lack of novelty from a machine learning perspective. Can you explain why?
+
+Dialogue agent: Review 3 notes that while the paper presents an interesting idea to generate the required training data and build a generalizable model, it does not explicitly incorporate the physical laws within the learning model, and deep learning has been used extensively in a similar manner for shape generation, shape transformation, etc. Thus, Review 3 suggests that the paper is closer to a graphics approach.
+
+Meta-reviewer: Finally, which reviews were more confident in their evaluation of the paper?
+
+Dialogue agent: Review 1 provided a confidence level of 3, indicating that the reviewer is fairly confident that the evaluation is correct. Review 2 provided a confidence level of 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 3 also provided a confidence level of 4.

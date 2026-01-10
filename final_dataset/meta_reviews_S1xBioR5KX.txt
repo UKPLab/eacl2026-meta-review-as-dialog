@@ -1,0 +1,15 @@
+Meta-reviewer: Thank you for your reviews of the paper "Parameter efficient training of deep convolutional neural networks by dynamic sparse reparameterization". After reading the reviews, I have a few questions for the dialogue agent. 
+
+Dialogue agent: Please go ahead and ask your questions. I will try my best to answer them without providing any opinions or recommendations.
+
+Meta-reviewer: Reviewer 1 pointed out the lack of quantitative experiments related to other dynamic reparameterization methods, and no running time or scalability comparison. Can you elaborate on this?
+
+Dialogue agent: The paper only presents empirical results on MNIST, CIFAR-10, and ImageNet datasets, comparing the dynamic sparse reparameterization method with a single existing compression baseline, i.e., the pruning method from Zhu and Gupta (2017). There are some new tests presented using CIFAR-10 data in response to anonymous public comments, but more detailed comparisons are needed with other existing methods like DeepR and SET. Additionally, the paper lacks any running time or scalability comparisons which could be very useful.
+
+Meta-reviewer: Reviewer 2 mentioned that the proposed pipeline seems more like reasonable engineering decisions than research contributions that provide any real insights. Is there a way to address this?
+
+Dialogue agent: The paper proposes a dynamic sparse reparameterization method that enforces an efficient sparse/compressed representation and is validated on MNIST, CIFAR-10, and ImageNet datasets. While the method can be viewed as a heuristic modification of the SET procedure from Mocanu et al. (2018), it provides some useful contributions and tricks to pick the top filters to prune. However, a more detailed comparison with SET and DeepR can make the paper stronger.
+
+Meta-reviewer: Lastly, Reviewer 3 mentioned the importance of positioning the paper appropriately and not using hyperbole in claims such as "first dynamic reparameterization method for training convolutional network". Also, the paper lacked any empirical comparison against SET or DeepR. Can you address these concerns?
+
+Dialogue agent: The paper proposes a novel method for training deep convolutional neural networks using dynamic sparse reparameterization. While it might not be the first dynamic reparameterization method, it provides some limited but useful contributions over existing work like SET and DeepR. The paper can be strengthened by providing a more detailed comparison with these methods. Also, the paper needs to position itself appropriately and not use any hyperbole in claims.

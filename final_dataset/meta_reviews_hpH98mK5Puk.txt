@@ -1,0 +1,26 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the title "InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective":
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper called "InfoBERT: Improving Robustness of Language Models from An Information Theoretic Perspective". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes two regularization methods to improve the robustness of pre-trained language models. The first method is based on the Information Bottleneck (IB) principle, which seeks to maximize the mutual information between the representation and the label, while minimizing the mutual information between the representation and the input. The second method is an "anchoring feature" regularizer, which aims to identify "non-robust and unuseful" tokens in each input.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. Can you tell me more about the experimental results?
+
+Dialogue Agent: The authors evaluate the proposed method on several standard datasets used in adversarial language models and show that it outperforms previous approaches. The method also achieves state-of-the-art robust accuracy on adversarial NLI and SQuAD datasets. However, the authors note that the best numbers reported in the paper are achieved by applying the InfoBERT regularizers to FreeLB adversarial training, and not by using the InfoBERT method alone.
+
+Turn 3:
+Meta-reviewer: I see. Can you address some of the minor comments and questions I have?
+
+Dialogue Agent: Sure! The incomplete sentence in definition 3.1 can be completed by stating that the mutual information between the representation and the label is maximized. The authors define the global representation Z in the paper, but a more explicit description would be helpful. Additionally, the proof of the theorems could be provided.
+
+Turn 4:
+Meta-reviewer: Thank you for addressing those comments. I still have some questions about the experimental results. Can you explain why the method consistently outperforms other adversarial training approaches?
+
+Dialogue Agent: The authors suggest that the proposed method can be attributed to the information-theoretic regularization terms, which encourage the model to learn more robust and meaningful representations. Additionally, the "anchoring feature" regularizer helps to identify and filter out "non-robust and unuseful" tokens in each input, which can improve the overall robustness of the model.
+
+Turn 5:
+Meta-reviewer: I see. Based on our conversation, I think the paper has some interesting contributions, but I have some concerns about the experimental results and the clarity of some of the definitions and theorems. What is your rating and confidence level for this paper?
+
+Dialogue Agent: Based on the ratings and confidence levels provided by the reviewers, I would rate this paper as a 6, marginally above the acceptance threshold, and my confidence level would be 3, as I am fairly confident that the evaluation is correct, but I would like to see more details about the experimental results and the proofs of the theorems.

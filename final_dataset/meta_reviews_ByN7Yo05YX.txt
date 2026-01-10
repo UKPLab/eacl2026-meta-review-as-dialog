@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Adaptive Neural Trees":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Adaptive Neural Trees" and I have some questions. Can you help me?
+
+Dialogue Agent: Of course! I have access to the reviews and the paper's title. What would you like to know?
+
+Turn 2:
+
+Meta-Reviewer: Well, the first review states that the method seems novel and the reviewer has two major questions. Can you summarize the reviewer's concerns?
+
+Dialogue Agent: Sure! The first reviewer questions how the proposed method, Adaptive Neural Trees (ANTs), could benefit from relying on a single DT instead of a random forest type, and why the authors did not address the bias issue.
+
+Turn 3:
+
+Meta-Reviewer: Okay, that helps. The second review also has some reservations about the method. Can you summarize those concerns as well?
+
+Dialogue Agent: Certainly! The second reviewer has doubts about the interpretability and complexity of the proposed method, and believes that the experiments should be extended to other domains.
+
+Turn 4:
+
+Meta-Reviewer: I see. Based on these reviews, I'm still unsure about the paper's acceptance. Can you provide any additional information to help me make my decision?
+
+Dialogue Agent: As the third reviewer noted, the authors proposed a new model that combines representation learning and gradient optimization of neural networks with architecture learning of decision trees. The key advantage of the new model ANTs over existing methods is its ability to achieve high accuracy with relatively fewer parameters. Additionally, the authors proposed single-path inference based on the greedily-selected leaf node to approximate the multi-path inferences with the full predictive distribution. The experiments show that the single-path inference does not lose much accuracy but saves memory and time.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the additional information you provided, I have decided to accept the paper with minor modifications.
+
+Dialogue Agent: Great, I'm glad I could help! Please let me know if you have any other questions or need further assistance.

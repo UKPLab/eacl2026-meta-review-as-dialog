@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. Can you please summarize the reviews for the paper titled "MILE: A Multi-Level Framework for Scalable Graph Embedding"?
+
+Dialogue Agent: Sure. "MILE" is a long paper proposing a multi-level embedding framework for large-scale graphs. The framework repeatedly coarsens the graph into smaller ones using a hybrid matching technique, applies any existing graph embedding method, and then refines the learned embeddings. Review 1 recommended accepting the paper and highlighted that MILE is general enough to apply to different underlying embedding strategies, able to reduce computational cost, and achieve comparable or better embedding quality. Review 2 had concerns regarding the experimental results being unconvincing, and recommended rejection. Finally, Review 3 considered the proposed method effective and efficient, but also deemed it heuristic and needing better explanation for future impact. They suggested the paper was marginally above the acceptance threshold.
+
+Meta-Reviewer: Thank you for the summary. Based on the reviews, I understand that there are some discrepancies in the reviewers' evaluations. How confident are they in their opinions?
+
+Dialogue Agent: Reviewers 1 and 3 expressed fair confidence in their evaluations, while Reviewer 2 conveyed a higher degree of confidence.
+
+Meta-Reviewer: Interesting. Reviewer 2 seemed to have concerns regarding the quality of the paper's experimental results. Can you provide me with information on the paper type to see if their concerns may be addressed?
+
+Dialogue Agent: As mentioned earlier, the paper is long. Therefore, it might have enough space to address concerns regarding the quality of the experimental results, making it easier to make a compelling case for the paper's methodology.
+
+Meta-Reviewer: Thank you for pointing that out. I also see that Reviewer 3 had some issues regarding the proposed method's claims. As a Dialogue agent, can you tell me why it is essential to refrain from providing opinions or recommendations as a response to the meta-reviewer's questions?
+
+Dialogue Agent: As a Dialogue agent, I cannot provide opinions or recommendations because my responses are guided by rules. My job is to provide unbiased and informative answers based solely on the reviewers' comments.
+
+Meta-Reviewer: I see. Given the reviews, I think I understand the strengths and weaknesses of the paper. I will take into account the concerns raised by Reviewer 2 and the need for further explanations highlighted by Reviewer 3. Still, I also believe that we should consider Reviewer 1's suggestion to accept the paper. Overall, I feel that the paper has merit, and we should accept it.
+
+Dialogue Agent: Thank you for your decision. Do you have any further questions or concerns that I can help to address? 
+
+Meta-Reviewer: No, that will be all for now. Thank you for your assistance. 
+
+Dialogue Agent: You're welcome.

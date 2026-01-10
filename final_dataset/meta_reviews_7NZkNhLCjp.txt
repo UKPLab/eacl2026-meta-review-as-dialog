@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper about a protest event corpus. Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper provides a detailed guideline for annotating socio-political corpora, and introduces a new framework for annotating political documents. It also describes the baseline results of the transformer architecture regarding document and sentence level classifications.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the annotation framework and how it compares to existing methods?
+
+Dialogue Agent: The paper proposes a pipelining framework to start annotations from higher levels and get to more detailed annotation if they exist. This approach is designed to save time and not spend time on detailed annotations of negative labels. The author also outlines the baseline results of the transformer architecture regarding the document and sentence level classifications.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you tell me more about the baseline results and how they were obtained?
+
+Dialogue Agent: Sure! The baseline results were obtained using the transformer architecture, and the author provides details on the document and sentence level classifications. However, the author does not provide results on the token level task.
+
+Turn 4:
+
+Meta-reviewer: That's interesting. Can you tell me more about the limitations of the approach and how it compares to existing methods?
+
+Dialogue Agent: The author mentions that the approach assumes that the initial candidate document retrieval is not based purely on keyword matching, but rather uses a random sampling and active learning based approach to find relevant documents. However, the paper does not provide an evaluation of this assumption with the current data. Additionally, the paper does not compare the approach to more general-purpose event extraction methods.
+
+Turn 5:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper is well-written and provides a valuable contribution to the field. However, I have some concerns about the assumptions made in the approach and the lack of comparison to existing methods. What is your final recommendation?
+
+Dialogue Agent: Based on the reviews, I recommend accepting the paper with minor revisions to address the concerns raised by the reviewers. The author should provide more details on the baseline results and compare the approach to more general-purpose event extraction methods. Additionally, the author should examine how many samples are labeled negative and how much time (in percent) and money it reduced for annotations.

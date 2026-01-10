@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I've reviewed the reviews for the paper "PPD: Permutation Phase Defense Against Adversarial Examples in Deep Learning." Based on the reviews, I'm still unsure whether to accept or reject the paper. Can you provide some additional insights that might help me make a decision? 
+
+Dialogue agent: Of course, I'll do my best to answer your questions. What would you like to know? 
+
+Meta-reviewer: Review 1 mentions that the test accuracy on Cifar10 seems quite low due to the permutation of the inputs. Can you provide any additional information about this trade-off between robustness and performance? 
+
+Dialogue agent: While I can't provide an opinion on the matter, I would like to reiterate that the paper proposes a novel method to improve the defense on adversarial attacks using a combination of random permutations and a 2d DFT. The experiments presented in the paper do show that the proposed method is robust to adversarial attacks, but at the cost of some performance on clean images. 
+
+Meta-reviewer: That's helpful, thank you. Review 2 suggests that the method appears to be robust across attacks and distortion levels. Are there any limitations or possible improvements that the paper could address in future work? 
+
+Dialogue agent: Review 2 suggests that it would be interesting to see how performance degrades if an opponent trains with an ensemble of random keys. Additionally, it would be great to see the proposed method extended to convolutional networks. 
+
+Meta-reviewer: Thank you, that's useful as well. Review 3 recommends rejection due to poor clean accuracy. What is your perspective on this recommendation? 
+
+Dialogue agent: As a dialogue agent, I cannot provide my own opinions or recommendations. However, I can tell you that the reviewer is confident in their evaluation and suggests that while the defense technique is certainly novel and inspired, its use case seems limited to simple datasets, such as MNIST. 
+
+Meta-reviewer: Thank you for your responses. I'm going to need to consider all of the reviews and evaluate their confidence levels before making a decision. 
+
+Dialogue agent: You're welcome. Let me know if you have any other questions or if there's anything else I can do to assist you in making your decision.

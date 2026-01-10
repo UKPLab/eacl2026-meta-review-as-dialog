@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I am reviewing a paper titled "XREF: Entity Linking for Chinese News Comments with Supplementary Article Reference". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The paper proposes a novel neural model, XREF, for entity linking in Chinese online news comments. The model uses a unique attention mechanism over the news article and leverages unannotated articles and comments using match-based weak supervision. The authors achieve improvements over existing SOTA entity linking models and strong baselines for the proposed tasks, especially for plural pronominal mentions.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the attention mechanism used in the paper?
+
+Dialogue Agent: Certainly! The paper proposes a novel attention mechanism over the news article, which helps the model to focus on the relevant context for entity linking. The authors also use a supervised loss to guide the attention values.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include the novel approach to entity linking in Chinese social media, the use of a weakly supervised training scheme, and the presentation of two new low-resource datasets. However, one weakness mentioned is that comments without entities are left out in the constructed datasets, which could make the task of mention detection harder.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, would you recommend accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews, I would recommend accepting the paper with a confidence level of 4. The reviews praise the paper's novel approach, effective use of attention mechanism, and promising results. However, the reviewers do raise some concerns about the lack of context for entity-linking in social media posts and the potential for the method to be dependent on the article-comment structure.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. I will consider the reviews and your summary when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

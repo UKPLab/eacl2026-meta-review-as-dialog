@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I have read the three reviews for the paper "Dolores: Deep Contextualized Knowledge Graph Embeddings". Based on the reviews and your knowledge of the paper, can you tell me what the main contributions of this paper are?
+
+Dialogue agent: Yes, of course. The paper proposes Dolores, a method that captures the contextual dependency between entity and relation pairs in a knowledge graph. The method uses random walks and a language model to learn embeddings for these pairs. Dolores is shown to improve on existing work in this area and has compelling results on a range of downstream tasks.
+
+Meta-reviewer: That sounds interesting. Review 1 states that the results are compelling and that the embeddings can be applied effectively to a range of downstream tasks. Can you give me more information on the evaluation of the method?
+
+Dialogue agent: The paper presents experiments on several tasks, including link prediction and entity classification. The method is evaluated on several datasets, including FB15k and WN18RR. The results show that Dolores outperforms several baselines and existing methods on these tasks.
+
+Meta-reviewer: Review 2 raises concerns about the fairness of the comparison in the evaluation and the lack of clarity in certain technical details. Could you provide me more information on these issues?
+
+Dialogue agent: Review 2 notes that the paper compares original versions of existing methods with versions of these methods incorporating Dolores. They argue that this comparison is not fair since the models without pretraining are compared with models that have been pretrained using Dolores. Review 2 also points out several technical details that could be clarified, such as the process of obtaining paths from tasks and the training of the method.
+
+Meta-reviewer: Thank you for this information. Review 3 seems to point out some shortcomings in the method, such as the loss function not being defined and the explanation of the training of the method being missing. Can you comment on these issues?
+
+Dialogue agent: Yes, Review 3 notes that the loss function of the method is not defined and that the training process is not clear. However, the paper does provide detail on the method and its application to downstream tasks. The paper also evaluates the method on several datasets and shows significant improvement over existing work.
+
+Meta-reviewer: Thank you for your input, dialogue agent. Based on the reviews and your explanation, I believe that this paper has significant contributions to the field and should be accepted. However, I am concerned about the lack of clarity regarding the training process and the fairness of the comparison in the evaluation. Therefore, I will need to consider the confidence levels of the reviewers. Based on their confidence levels, which reviewer's evaluation would you say has the most weight?
+
+Dialogue agent: Review 1 seems to have the highest confidence level and rates the paper as a good one to accept. Review 3 also rates the paper highly, but with slightly lower confidence. Review 2, on the other hand, is less confident about the evaluation of the paper and rates it as not good enough for acceptance.
+
+Meta-reviewer: Thank you for your input, dialogue agent. Based on this information, I believe that the paper should be accepted, as the positive reviews outweigh the negative ones, and the positive reviews have higher confidence levels. However, I will ask the authors to provide more clarity on the training process and make sure the comparison in the evaluation is fair.

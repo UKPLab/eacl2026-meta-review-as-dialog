@@ -1,0 +1,27 @@
+Meta-reviewer: Hi, I have received three reviews for the paper "AnoFormer: Time Series Anomaly Detection using Transformer-based GAN with Two-Step Masking." Review 1 rates the paper as borderline accept, while Review 2 rates it as borderline reject. Review 3 also has some concerns regarding the novelty and evaluation of the proposed method. Based on these reviews, I am not sure whether I should accept or reject the paper. Can you give me your opinion about the paper?
+
+Dialogue agent: Sure, I would be happy to answer your questions. What would you like to know about the paper?
+
+Meta-reviewer: Can you give me a brief summary of the paper's contributions and techniques used in the proposed method?
+
+Dialogue agent: The paper proposes a novel approach for time series anomaly detection using a transformer-based generative model called AnoFormer. The proposed method combines the transformer and GAN models by adopting transformer-blocks as the generator and discriminator module of the GAN. In addition, a two-step masking mechanism was designed to improve the model's robustness. Specifically, the mask pool in the random mask step provides different views of the input; the exclusive mask in the re-mask step makes the model consider all parts of the input; the entropy-based mask in the re-mask step makes the model consider the uncertain part. Through extensive experiments on 4 public datasets, including real-world and synthetic datasets, the superiority of AnoFormer was verified.
+
+Meta-reviewer: Thanks for your summary. Review 1 mentions that the paper has well-designed figures and is easy to follow. Can you confirm this?
+
+Dialogue agent: Yes, the paper provides some well-designed figures that visualize the key modules of the AnoFormer framework. Each key module of AnoFormer is elaborated on in the following sections, which makes it easy to follow.
+
+Meta-reviewer: Review 2 notes that there are a few technical tricks incorporated in the proposed method but there is a lack of motivation. Can you elaborate on this?
+
+Dialogue agent: The paper could provide more explanation on why certain design choices were made, such as why the input signal is made discrete instead of continuous, why this particular mask pool is used, why 50% of parts masked in Step 1 are re-masked with the entropy-based mask, and why the hyper-parameter $\epsilon$ is set to random.
+
+Meta-reviewer: Is the proposed method novel and original?
+
+Dialogue agent: While the use of inpainting as a task for reconstruction-based anomaly detection and the use of a GAN discriminator are not novel, the proposed transformer-based generative model approach and the particular masking approach and hyperparameter choices are original contributions.
+
+Meta-reviewer: Review 3 also has concerns about the evaluation of the proposed method. Can you explain this?
+
+Dialogue agent: The evaluation could have been more thorough. The datasets used in the experiments are not standard, and it is not clear how they were selected. Also, simple/classical baselines were not attempted, and it is not clear how the method would scale to multivariate time series. However, the proposed method was evaluated on several benchmark datasets, and it achieved better results than a set of deep learning approaches.
+
+Meta-reviewer: Can you provide any additional information that can help me make a decision on whether to accept or reject the paper?
+
+Dialogue agent: Based on the reviews, the proposed method is technically sound, and it provides some improvements in time series anomaly detection. However, there are concerns about the evaluation, and some reviewers have highlighted the lack of novelty and motivation. The decision to accept or reject the paper ultimately depends on the importance given to these concerns by the meta-reviewer.

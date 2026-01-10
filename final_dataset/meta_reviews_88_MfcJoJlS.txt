@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Guided Exploration with Proximal Policy Optimization using a Single Demonstration":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Guided Exploration with Proximal Policy Optimization using a Single Demonstration". Can you provide a summary of the paper?
+
+Dialogue Agent: Sure! The paper introduces a simple extension of PPO that uses a single expert demonstration and a modified sampling algorithm to show better performance than vanilla PPO in a difficult 3D setting. The authors also introduce a value-prioritized buffer to allow for progress on harder problems.
+
+Turn 2:
+
+Meta-Reviewer: Thank you. Can you tell me more about the strengths of the paper?
+
+Dialogue Agent: The paper is well-written and the method is simple yet powerful. Learning something from a single demonstration is no easy feat, and the videos shown in the submission look impressive in how difficult the setup is and how the agent manages to learn complex strategies.
+
+Turn 3:
+
+Meta-Reviewer: What about the weaknesses of the paper?
+
+Dialogue Agent: The main problem is the lack of further experiments, specifically on Atari and MuJoCo environments. Compared to vanilla PPO, we would expect to see improvements across the board. Additionally, the importance of the hyperparameters $p = 0.1, \phi=0.3$ could be justified.
+
+Turn 4:
+
+Meta-Reviewer: I see. Can you tell me more about the impact and recommendation of the paper?
+
+Dialogue Agent: The paper is fundamentally good material, but the current paper doesn't show the rigor and depth of analysis that I would expect from an ICLR paper. However, the authors can make up for that in the rebuttal week. I would recommend including at least one Atari and one MuJoCo environment, and either adding an ablation study on a single env or explaining the importance of the hyperparameters.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your summary. Based on your responses, I would rate the paper as marginally above acceptance threshold with a confidence level of 3.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

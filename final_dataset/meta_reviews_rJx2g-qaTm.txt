@@ -1,0 +1,43 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Synonym Expansion for Large Shopping Taxonomies". Can you tell me a little bit about the paper?
+
+Dialogue Agent: Certainly! The paper presents two methods for expanding taxonomies with synonyms or aliases. The first method uses WordNet to generate synonym candidates, while the second method uses a binary classifier to refine the candidates. The authors evaluate the effectiveness of the methods using an extensive crowdsourced gold standard.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The reviewers generally agree that the paper is well-written and has ample empirical study and analysis. However, one reviewer notes that the approach may be limited by its reliance on WordNet, and another reviewer questions the effectiveness of the binary classifier in refining the candidates.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the WordNet limitation?
+
+Dialogue Agent: One reviewer notes that the coverage of WordNet is rather limited, which may limit the applicability of the approach. Additionally, the reviewer questions whether using a domain-specific corpus for word embeddings would improve the performance.
+
+Turn 4:
+
+Meta-reviewer: That's helpful to know. What about the binary classifier? Does it perform well?
+
+Dialogue Agent: The classifier performs well, but one reviewer notes that word sense disambiguation is a challenge that has not been fully addressed in the paper.
+
+Turn 5:
+
+Meta-reviewer: I see. What about the gold standard used in the experiments? Is it publicly available?
+
+Dialogue Agent: Yes, the authors provide an extensive crowdsourced gold standard, which is a valuable research outcome on its own.
+
+Turn 6:
+
+Meta-reviewer: That's great. Based on the reviews, I'm considering the paper for acceptance. Can you tell me more about the reviewers' confidence in the evaluation?
+
+Dialogue Agent: Sure! One reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature, while another reviewer is fairly confident but not absolutely certain.
+
+Turn 7:
+
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, I think I'll accept the paper. Thank you for your help!
+
+Dialogue Agent: You're welcome! It was my pleasure to assist you.

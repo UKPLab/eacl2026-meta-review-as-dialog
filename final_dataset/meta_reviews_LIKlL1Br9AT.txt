@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, Dialogue Agent. Can you provide me with a summary of the paper and its contributions?
+
+Dialogue Agent: Yes, the paper is titled Contact-aware Human Motion Forecasting and it proposes a two-stage human motion forecasting framework that explicitly models human-scene contact using a Discrete Cosine Transform (DCT) based network. The two stages involve past pose conditioned contact forecasting and contact-conditioned pose forecasting. The proposed method outperforms state-of-the-art methods in the motion prediction task and can predict more physically plausible motions.
+
+Meta-reviewer: Thank you. Based on the reviews, it seems like the proposed method has strengths in explicit contact modelling and performance compared to state-of-the-art, but also some weaknesses in the lack of generative modelling and the coarse contact maps used. Can you provide more information on these weaknesses?
+
+Dialogue Agent: Review 1 points out that while the proposed method excels in better modality with explicit contact, there is limited novelty given the existence of similar methods. It also lacks generative and stochastic modelling, which could lead to memorization of past observed interactions. Review 2 suggests that it may be more plausible to compute the contact map between body surface vertices and scene points rather than joints for more fine-grained contact maps. 
+
+Meta-reviewer: I see. Are there any other concerns raised in the reviews?
+
+Dialogue Agent: Review 3 raises concerns with the clarification of the contributions and the necessity of the heavy pipeline for contact maps forecasting. Additionally, while the proposed method performs consistently better on long-term predictions, it may not perform as well on short-term predictions.
+
+Meta-reviewer: Got it. Based on these reviews, and taking their ratings and confidence levels into account, I think I am leaning towards accepting the paper with some minor revisions. Thank you for your assistance. 
+
+Dialogue Agent: You're welcome, Meta-reviewer. Let me know if you need any further information or assistance.

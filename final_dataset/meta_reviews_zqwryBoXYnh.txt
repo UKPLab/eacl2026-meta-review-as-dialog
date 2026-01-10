@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Prompt Learning with Optimal Transport for Vision-Language Models":
+
+Turn 1:
+
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Prompt Learning with Optimal Transport for Vision-Language Models". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: Sure! The main contribution of this paper is the proposal of a new prompt learning method that learns multiple prompts to describe diverse characteristics of categories. The method uses optimal transport to match vision and language modalities.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the motivation behind this work?
+
+Dialogue Agent: Certainly! The authors point out that single prompts may lose the details of local attributes or contexts, and the idea of applying optimal transport to prompt learning makes sense and meets well with the motivation.
+
+Turn 3:
+
+Meta-Reviewer: I see. What about the experimental results? Are they comprehensive?
+
+Dialogue Agent: Yes, the authors provide comprehensive experimental analysis on 11 benchmark visual recognition datasets. The results show that the proposed method outperforms the baseline CoOp. Additionally, the authors provide ablation studies to further analyze the contribution of each component.
+
+Turn 4:
+
+Meta-Reviewer: That's great to hear. What about the limitation of the method? Do the authors address it in the paper?
+
+Dialogue Agent: The authors acknowledge that the main contribution is limited to the application of optimal transport for few-shot adaptation of CLIP. They also address the concern by providing more analysis and explanation on why optimal transport works well. However, the authors do not include a separate part or subsection to introduce the inference strategy.
+
+Turn 5:
+
+Meta-Reviewer: I see. Based on the reviews and the information you provided, what would be your rating for this paper?
+
+Dialogue Agent: Based on the reviews and the information provided, I would rate this paper as 7: Accept, with high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for your help! I will consider your input in my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

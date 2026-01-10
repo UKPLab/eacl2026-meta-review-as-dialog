@@ -1,0 +1,31 @@
+Meta-reviewer: Hello, can you summarize the main contributions of this paper?
+
+Dialogue agent: This paper presents a GAN-based method to perform audio super-resolution using unsupervised feature losses on a long audio type. The proposed approach trains a neural network to produce a high-resolution audio sample given a low resolution input using three losses: sample reconstruction, adversarial loss and feature matching on a representation learned on an unsupervised way.
+
+Meta-reviewer: One of the reviewers suggested that the paper lacks novelty. Can you comment on that?
+
+Dialogue agent: The proposed approach is based on architectures that have been used for image super-resolution, but it is the first attempt to use a GAN-based method for audio super-resolution on an unsupervised setting without the use of an auxiliary classifier. The paper also proposes a new loss measured in the learned feature space, which is a novel contribution.
+
+Meta-reviewer: One of the reviewers suggested that there are better approaches for audio generation that should be explored. Can you explain the advantage of the proposed approach?
+
+Dialogue agent: The paper focuses on the problem of bandwidth extension, which is different from speech conversion, and the proposed approach is better suited for this specific problem. Furthermore, the proposed approach uses unsupervised feature losses, which can be valuable in many other problems where labeled data is difficult to obtain.
+
+Meta-reviewer: One of the reviewers suggested that the proposed method generates noisy audio. Can you address this issue?
+
+Dialogue agent: While the empirical results show that the generated audio is of good quality, it is true that the audio samples are a bit noisy even compared with the baseline. However, the added noise is necessary to preserve the high frequency components. The proposed method can still produce high-quality audio, but this should be verified by further qualitative evaluations.
+
+Meta-reviewer: One of the reviewers suggested that a L2 "pixel" loss is not suitable for audio processing. Can you explain the rationale behind the use of this loss?
+
+Dialogue agent: The L2 loss is commonly used in image processing as a measure of pixel-wise similarity. In audio processing, it is used to ensure that the generated high frequency components can be synthesized with an arbitrary phase. The paper proposes an alternative loss measured in the learned feature space to overcome the limitations of the pixel-wise loss and address the perceptual relevance.
+
+Meta-reviewer: One of the reviewers suggested that the evaluation of the proposed method is not sufficient. Can you address this issue?
+
+Dialogue agent: The paper uses the PESQ metric to evaluate the quality of the audio samples, which is a good proxy but not the best measure of perceptual quality. The paper would be stronger if it included more qualitative evaluations of the generated audio and even blind tests with listeners. 
+
+Meta-reviewer: One of the reviewers suggested that the paper lacks some domain insights. Can you explain?
+
+Dialogue agent: While the proposed method is based on architectures used in image super-resolution, it is adapted to solve a specific problem in audio processing and uses unsupervised feature losses, which are not commonly used in the domain. However, the paper could have included more detailed evaluations of alternative feature spaces and their advantages for audio processing. 
+
+Meta-reviewer: Can you explain the confidence of the reviewers in their evaluations?
+
+Dialogue agent: Reviewer 1 seems confident that the evaluation is correct, but also acknowledges the contribution of the proposed approach. Reviewer 2 is also confident, but expresses some doubts about the novelty of the proposed approach, and suggests further evaluations. Reviewer 3 is more optimistic about the proposed approach, but also suggests additional evaluations and careful explanation of some technical details.

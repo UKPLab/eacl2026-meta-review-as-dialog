@@ -1,0 +1,17 @@
+Meta-reviewer: Thank you both for your reviews. Reviewer 1, you expressed clear rejection of the paper, citing several issues related to the claims and experiments presented in the paper. Reviewer 2, you found the paper moderately interesting but suggested some improvements in terms of hyper-parameter choices and clearer presentation of the model components. Reviewer 3, you found the problem addressed in the paper very appealing, but also suggested some improvements in organization and presentation of the model. Based on these reviews, I am still unsure about whether to accept or reject the paper. 
+
+Dialogue agent: Thank you for your feedback, meta-reviewer. Do you have any specific questions or concerns that I can address?
+
+Meta-reviewer: Yes, I would like to ask the dialogue agent to clarify the main contributions of the paper and how they address the concerns raised by Reviewer 1.
+
+Dialogue agent: The main contribution of the paper is studying the problem of neural information decorrelation by proposing two methods for reducing the correlation between neurons within a layer, thus improving the effectiveness of the last layer's dimension in generating more reflective and indicative vector representations of the data. The first method is enforcing orthogonality on weight matrices, and the second is BatchNorm after activation functions. In the experimental part, the proposed methods were applied and evaluated on two benchmark datasets, MNIST and Henan Renmin. 
+
+Regarding the concerns raised by Reviewer 1, the paper acknowledges the intertwined nature of the two topics of measuring similarity between inputs and improving vector representations. While the focus of the paper is on the latter, the former is discussed as a potential supporting argument. Regarding the use of neural networks for comparing similarity between datasets, the paper suggests that this method has advantages over kernel methods in the context of large datasets. The paper also acknowledges the impact of the architecture on the effectiveness of the last layer and presents experiments comparing different architectures.
+
+Meta-reviewer: Thank you for the clarification. I also have a question about the novelty of the paper. Reviewer 2 mentioned that the novelty content appears to be limited. Can you provide more insights into this?
+
+Dialogue agent: The paper proposes a novel combination of random projection initialization, training with orthonormality regularization, and dropout. This combination is applied to reduce the correlation of neurons within a layer and improve vector representations, specifically by compressing the dimensionality of the data through Lemma 1. The paper also proposes a variant of BatchNorm to improve the distribution of correlations.
+
+Meta-reviewer: Thank you. Finally, do you think the paper warrants acceptance or rejection based on these reviews and the confidence levels provided?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I suggest considering the different perspectives and feedback provided by the reviewers and weighing their confidence levels in making the decision.

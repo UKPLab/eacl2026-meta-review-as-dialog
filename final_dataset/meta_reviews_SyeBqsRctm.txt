@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, dialogue agent. Can you please summarize the reviews for me again?
+
+Dialogue agent: Of course. Review 1 raises concerns about the evaluation and suggests improvements, including dropping out important neurons to see if they indeed have larger impact than randomly selected ones. Review 2 questions the novelty of the paper's technical contribution and finds the evaluation insufficient to demonstrate the significance of the proposed method. Review 3 has serious concerns about the method, particularly its use of magnitude of the gradient as a measure of importance, and suggests a simple toy example to verify the method's effectiveness.
+
+Meta-reviewer: Thank you, that's helpful. Can you tell me the paper type?
+
+Dialogue agent: Yes, the paper is long.
+
+Meta-reviewer: Okay. Given the reviews, what do you think is the confidence level for accepting this paper?
+
+Dialogue agent: Review 1 is certain that the paper should be rejected based on the evaluation. Review 2 is confident that the paper falls short of an acceptance level. Review 3 is also confident but open to raising the score if the authors can address their concerns. Therefore, the overall confidence level for acceptance is low to moderate.

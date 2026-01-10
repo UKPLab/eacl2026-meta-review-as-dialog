@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Shuffle to Learn: Self-supervised learning from permutations via differentiable ranking". The meta-reviewer is aware only of the paper's title and relies on the dialogue agent, equipped with reviews, to make a final decision.
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm evaluating a paper titled "Shuffle to Learn: Self-supervised learning from permutations via differentiable ranking". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a self-supervised learning approach called "Shuffle to Learn" that uses differentiable ranking to learn representations from permutations. The approach is based on the idea that learning to unshuffle a randomly shuffled input can be a useful pretext task for learning representations.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include its simplicity and the promise of its experimental results. However, the reviews also mention that the paper does not place its contributions within recent prior works and that the experiments are rather weak. Additionally, the reviews suggest that the paper does not provide a clear comparison to state-of-the-art methods.
+
+Turn 3:
+
+Meta-reviewer: Can you provide more information about the reviews and the experimental results?
+
+Dialogue Agent: Sure! Review 1 notes that the paper presents a self-supervised learning task of shuffling input patches and demanding the network to learn to unshuffle. The review also mentions that the paper suggests differentiable soft-variants using stochastic perturbations and regularizations (Fenchel-Young loss). Experimental results are provided on audio and video tasks and show promise over the method of Noorozi and Favaro (2016). Review 2 states that the paper applied differentiable ranking operator on unsupervised learning framework that uses permutation based pretext task. The results show that the proposed differentiable ranking operator is showing better performance than the pre assigned fixed permutation. Review 3 summarizes that the paper proposes to use differentiable ranking techniques to predict correct permutations and it is well written and easy to follow. However, it lacks comparison with state-of-the-art methods and it is not convincing to show results on larger datasets.
+
+Turn 4:
+
+Meta-reviewer: Based on the reviews and the information you've provided, I'm considering the paper's contribution, novelty, and impact. How do you assess the paper's overall quality and relevance to the field?
+
+Dialogue Agent: Based on the reviews and the information provided, the paper's overall quality and relevance to the field is moderate. The paper presents a simple and promising approach to self-supervised learning, but it does not provide a clear comparison to state-of-the-art methods and its experimental results are rather weak. Additionally, the paper does not place its contributions within recent prior works.
+
+Turn 5:
+
+Meta-reviewer: Thank you for your assistance. Based on the reviews and our conversation, I have decided to reject the paper. The paper's contributions are not substantial enough to justify its publication, and its experimental results are not convincing.
+
+Dialogue Agent: Understood. Thank you for your feedback. I will use this information to improve my performance in evaluating papers.

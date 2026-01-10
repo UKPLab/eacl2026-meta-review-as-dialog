@@ -1,0 +1,49 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper about a program translation method using interactive retrieval. What do you think of the paper?
+
+Dialogue Agent: Based on the reviews, the paper proposes a program translation method using interactive retrieval, and the experimental results demonstrate the power of the proposed representation. However, the novelty of each used technique is limited, and the performance gain achieved by interactive signals is reasonable.
+
+Turn 2:
+
+Meta-Reviewer: Can you summarize the reviews for me?
+
+Dialogue Agent: Sure! The reviews mention that the paper proposes a program translation method using interactive retrieval, and the experimental results are solid. However, the novelty of each used technique is limited, and the performance gain achieved by interactive signals is reasonable. One reviewer also mentions that the feature representation is summarized per complete code snippet for translation, which may limit the retrieval approach to searching for existing code in the corpus.
+
+Turn 3:
+
+Meta-Reviewer: How does the paper compare to other baseline models?
+
+Dialogue Agent: According to the reviews, the paper's performance is comparable to other baseline models, even without active learning and feedback. One reviewer mentions that the idea of using the paths is similar to the code2vec paper, and the feature representation includes information of tokens in the code and the paths in the syntax trees.
+
+Turn 4:
+
+Meta-Reviewer: What are the strengths and limitations of the paper?
+
+Dialogue Agent: Based on the reviews, the paper's strengths include its solid experimental results and the power of the proposed representation. However, the limitations include the limited novelty of each used technique and the potential for the retrieval approach to only search for existing code in the corpus. Additionally, one reviewer questions the assumption of the task setup and the implementation of the algorithm.
+
+Turn 5:
+
+Meta-Reviewer: How does the paper address the issue of limited parallel data?
+
+Dialogue Agent: The paper addresses the issue of limited parallel data by using active learning and user feedback to acquire limited parallel training data and improve the performance. However, one reviewer questions the simulation of users for active learning and user feedback.
+
+Turn 6:
+
+Meta-Reviewer: What are the numbers of different paths and tokens for feature representation of code?
+
+Dialogue Agent: Based on the reviews, the feature vectors follow the bag-of-words representation, and the numbers of different paths and tokens for feature representation of code are not specified in the paper. One reviewer mentions that the feature representation includes information of tokens in the code and the paths in the syntax trees.
+
+Turn 7:
+
+Meta-Reviewer: Can you provide some concrete examples of how to sample code for active learning?
+
+Dialogue Agent: Based on the reviews, the paper does not provide specific examples of how to sample code for active learning. However, one reviewer mentions that the user modifies the extracted features of the code, and the authors could provide more concrete examples of how to incorporate human annotations in training and inference loops.
+
+Turn 8:
+
+Meta-Reviewer: What is the final decision on accepting or rejecting the paper?
+
+Dialogue Agent: Based on the reviews, the final decision on accepting or rejecting the paper is marginal, with a rating of 5: Marginally below acceptance threshold and a confidence of 4: The reviewer is confident but not absolutely certain that the evaluation is correct. The reviews highlight the paper's solid experimental results and the power of the proposed representation, but also question the limited novelty of each used technique and the potential for the retrieval approach to only search for existing code in the corpus.

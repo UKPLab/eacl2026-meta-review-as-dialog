@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, can you provide an overview of the paper's contributions and methodology?
+
+Dialogue Agent: Certainly. The paper proposes Set Transformer, a new attention-based neural network designed for set inputs. It introduces attention mechanisms for learning the feature embeddings of the set inputs during "encoding" and aggregating these embeddings during "decoding." The paper compares several variants of attention-based algorithms for set inputs to previous approaches that process each instance separately and then pooling. The experiments demonstrate the effectiveness of the proposed Set Transformer in various tasks.
+
+Meta-Reviewer: Thank you for the summary. Reviewers 1 and 2 have provided positive evaluations, albeit with some limitations and suggestions for improvement. However, Reviewer 3 raises some significant concerns about the paper's methodology and omissions of relevant literature. Can you provide a response to these concerns?
+
+Dialogue Agent: While the paper focuses on attention-based algorithms for learning over sets, we acknowledge the importance of permutation equivariant mappings in DeepSets (Zaheer 2017) and similar work. We have revised the experiments to include permutations equivariant DeepSet layers and conducted additional experiments on modelnet with 5000 points. We have also included previous research that considers set and distribution data through kernels and other nonparametric methods. 
+
+Meta-Reviewer: Thanks for addressing these concerns. So, what is your opinion regarding the reviews and the paper's acceptance status?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can say that Reviewers 1 and 2 seem to view the paper favorably but with some limitations and suggestions for improvement. Reviewer 3 has initially expressed hesitance in recommending publication due to significant concerns. However, after the paper's revisions and additional experiments, the reviewer is now inclined to recommend publication. Ultimately, it's up to you to weigh the importance of each evaluation and make the final decision.

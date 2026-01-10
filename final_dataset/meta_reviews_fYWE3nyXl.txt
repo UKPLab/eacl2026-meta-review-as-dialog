@@ -1,0 +1,23 @@
+Meta-Reviewer: Thank you for submitting this paper titled "Are All Losses Created Equal: A Neural Collapse Perspective" with three reviews. After reviewing the reviews and the submission, I have a few questions that I need clarification on before making a final decision. 
+
+Dialogue Agent: I'm glad you're taking the time to consider the paper carefully. I'm here to answer your questions to the best of my ability.
+
+Meta-Reviewer: One of the reviewers raises a concern about whether all models can learn towards convergence in real tasks. What evidence do you have to ensure that the models are sufficiently trained until convergence?
+
+Dialogue Agent: We understand this concern. In our experiments, we have trained the models until their accuracy reaches the plateau, and we have conducted global solution and landscape analyses to study the convergence, which supports our conclusion that all losses converge to equivalent NC solutions. However, we understand that there might be possibilities that some models do not converge to NC solutions. 
+
+Meta-Reviewer: Another reviewer questions the empirical evidence regarding largely identical test performances of different losses. Can you provide more concrete evidence to support this claim?
+
+Dialogue Agent: We agree that our experiments are limited to CIFAR-10 and CIFAR-100 datasets, and we acknowledge in the paper that more experiments on different datasets are needed to reinforce this point. That being said, our findings are based on extensive experiments where we have monitored the test accuracy, and we have shown that the test performance of different losses until convergence is largely similar. We also have conducted landscape analyses, where we show that all the relevant losses achieve the same global minimizers at convergence. 
+
+Meta-Reviewer: One of the reviewers suggests that the paper lacks original contributions compared to previous studies of neural collapse. What are your responses to this concern?
+
+Dialogue Agent: We respectfully disagree with this concern. Our paper extends previous studies on neural collapse by analyzing a broad family of loss functions that have not been studied before, such as label smoothing and focal loss. We also introduce the Contrastive property for different losses, which is a unique contribution to the field. Additionally, our empirical findings show that all the relevant losses produce equivalent NC features at convergence, which have strong implications for training deep neural networks. 
+
+Meta-Reviewer: One of the reviewers suggests modifications to the phrasing of some parts of the paper and points out several minor typos. Could you address these issues?
+
+Dialogue Agent: We appreciate this feedback and will make sure to carefully proofread the paper to ensure its clarity and readability. We will also make sure to address any minor typos or formatting issues. 
+
+Meta-Reviewer: Overall, I find the paper to be technically sound and potentially impactful. However, I have some concerns about the empirical evidence supporting claims regarding the largely identical performances of different losses until convergence. I would like to know more about the empirical basis for this claim before making a final decision. 
+
+Dialogue Agent: We understand your concern and value your thorough assessment. We will make sure to perform more experiments on different datasets and models to reinforce our findings and address this reviewer's concern before resubmitting the paper. Thank you for your feedback and careful consideration.

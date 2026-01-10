@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Top-Down Neural Model For Formulae":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Top-Down Neural Model For Formulae". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The authors propose a new neural model that can determine whether a logical formula is a tautology or not. The model is based on a top-down approach, where the neural network traverses the parse tree of the formula from the root to the leaves.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. But, I have some concerns about the model's performance. Can you tell me more about the results of the experiments?
+
+Dialogue Agent: Sure! The authors evaluated the model on Evans et al.'s dataset for logical entailment queries. The results show that the top-down model outperforms existing models that encode formulae bottom-up. Specifically, the authors report an accuracy of 83.6% on the most difficult category of problems.
+
+Turn 3:
+
+Meta-Reviewer: That's impressive. But, I'm not sure if I understand how the model works. Can you explain the key features of the model?
+
+Dialogue Agent: Sure! The model uses a combination of feedforward and recurrent neural networks to process the formula. The feedforward network is used to build the parse tree of the formula, while the recurrent network is used to traverse the tree and generate vectors for the leaves. The vectors are then used to answer queries about the formula.
+
+Turn 4:
+
+Meta-Reviewer: I see. But, I have some concerns about the lack of explanation for why the model works. Can you tell me more about the theoretical or intuitive explanation of the model?
+
+Dialogue Agent: The authors do not provide a detailed explanation of why the model works. However, they do provide some minor comments that suggest that the model is effective because it allows for the creation of a vector representation of the formula that captures its logical structure.
+
+Turn 5:
+
+Meta-Reviewer: That's helpful. But, I'm still not convinced that the model is robust enough for practical applications. Can you tell me more about the limitations of the model?
+
+Dialogue Agent: The authors note that the model is not able to handle all types of logical queries, and that it is sensitive to the specific name given to each symbol in the formula. Additionally, the authors note that the model is not able to provide a detailed explanation for why it is making a particular prediction.
+
+Turn 6:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and the discussion, I think that the paper is marginally above the acceptance threshold. However, I would like to see more explanation of the model's performance and its limitations before making a final decision.
+
+Dialogue Agent: Understood. Thank you for the feedback. I will pass on your comments to the authors.

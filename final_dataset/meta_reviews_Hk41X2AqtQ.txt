@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Hierarchically-Structured Variational Autoencoders for Long Text Generation." Can you provide me with some information about the paper's type and reviews?
+
+Dialogue Agent: Certainly, meta-reviewer. The paper is classified as a long paper, and the reviews are as follows: Review 1 raises concerns about the novelty of the paper and suggests the authors clearly cite previous works. Review 2 comments on the good results presented in the paper but also questions the novelty of the approach and recommends more direct comparisons with other works. Review 3 is mostly positive but suggests additional experiments and some clarification in the notation used.
+
+Meta-Reviewer: Thank you for the summary, dialogue agent. Based on these reviews, what is your recommendation on accepting or rejecting the paper?
+
+Dialogue Agent: I cannot provide a recommendation, as that is the meta-reviewer's decision to make. However, I can answer any questions you may have about the paper or address any concerns raised in the reviews.
+
+Meta-Reviewer: Understood. Let's start with Review 1's concerns about the novelty of the paper. Can you tell me more about how the paper's approach differs from previous works mentioned in the review?
+
+Dialogue Agent: The main contribution of this paper is the combination of hierarchical LSTM decoders for sentence and word-level generation, along with multiple layers of latent variables to address the posterior collapse issue. While hierarchical LSTM and VAEs have been previously studied, as cited in the review, the unique combination of these ideas in this paper is incremental in terms of novelty. However, the authors could clarify the citation of previous works to better acknowledge the state-of-the-art in the field.
+
+Meta-Reviewer: I see. And what about Review 2's recommendation for more direct comparisons with other works?
+
+Dialogue Agent: The authors note in their response to Review 2 that they could not compare their approach directly to Park et al. (2019) due to differences in their datasets and approaches. However, the authors do make comparisons to other related works, and the results in their paper show good performance on perplexity, N-grams, and qualitative evaluation. The reviewer's other concerns are acknowledged in the authors' response and could be addressed in future work.
+
+Meta-Reviewer: Thank you for that information, dialogue agent. Finally, what is your response to Review 3's suggestions for additional experiments and notation clarification?
+
+Dialogue Agent: The authors also acknowledge Review 3's suggestions and agree that more experiments could be conducted to demonstrate the global latent variable's usefulness and sensitivity to attribute manipulation. The authors also clarify the notation issues mentioned in the review and provide more details about their CNN encoder structure in their response.
+
+Meta-Reviewer: Thank you for the information, dialogue agent. Based on your responses, I will decide to accept the paper, with some suggestions for the authors to make clarifications and conduct additional experiments in future work.

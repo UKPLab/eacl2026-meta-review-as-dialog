@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Cost-efficient Gaussian tensor network embeddings for tensor-structured inputs":
+
+Turn 1:
+Meta-reviewer: Hi there! I'm reviewing a paper titled "Cost-efficient Gaussian tensor network embeddings for tensor-structured inputs". Can you tell me a bit about the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper discusses a sketching method for tensor network (TN) structured input data. Unlike previous methods that focus on specific TN structures, this paper considers more general structures. The authors also provide theoretical guarantees and improve two popular tensor decomposition algorithms, CP-ALS and TT-rounding.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper's strengths include its technical solidity, moderate-to-high impact, and broad application on different tensor decompositions. However, some reviewers noted that the paper's weaknesses include a lack of real-data experiments and a focus on simple TN structures. Additionally, one reviewer mentioned that the assumption of lower TN ranks compared to mode dimensions may not be reasonable in practice.
+
+Turn 3:
+Meta-reviewer: I see. How do the reviewers rate the paper, and what is their confidence level in their assessment?
+
+Dialogue Agent: Based on the reviews, the paper received a rating of 5: Borderline accept, with a confidence level of 2. This means that while the reviewers are willing to defend their assessment, they are not absolutely certain and recognize that they may have not fully understood some parts of the submission or be unfamiliar with some related work.
+
+Turn 4:
+Meta-reviewer: Thank you for the information. Based on the reviews and your summary, I think I have a good understanding of the paper's strengths and weaknesses. Can you tell me more about the theoretical analysis in the paper?
+
+Dialogue Agent: Sure! The paper's theoretical analysis is strong, particularly in the context of Theorem 3.1, which discusses the accuracy of the tensor network embedding. The authors also proposed an efficient sketching algorithm that enjoys lower computational cost per iteration compared to previous methods.
+
+Turn 5:
+Meta-reviewer: That's helpful. How does the paper compare to previous works in the field?
+
+Dialogue Agent: The paper compares favorably to previous works in the field, particularly in terms of its technical solidity and moderate-to-high impact. However, one reviewer noted that the paper's focus on simple TN structures may limit its applicability in practice. Additionally, the assumption of lower TN ranks compared to mode dimensions may not be reasonable in practice, which could affect the paper's impact.
+
+Turn 6:
+Meta-reviewer: I see. Based on the reviews and our conversation, I think I have a good understanding of the paper's strengths and weaknesses. Thank you for your help!
+
+Dialogue Agent: You're welcome! It was my pleasure to assist you. If you have any further questions or need additional information, please don't hesitate to ask.

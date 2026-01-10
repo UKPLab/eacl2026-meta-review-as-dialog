@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Enriching Large-Scale Eventuality Knowledge Graph with Entailment Relations":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Enriching Large-Scale Eventuality Knowledge Graph with Entailment Relations". Can you provide a summary of the paper and its main contributions?
+
+Dialogue Agent: Sure! The paper focuses on the problem of adding entailment relations in an eventuality (activities, states, events) knowledge graph. The main contribution is a pipelined unsupervised method for this problem, which consists of three stages: decomposing eventualities, local inference, and global inference. The method is reported to produce high-quality entailment relations, but the reviewer raises concerns about the choice of aggregating scores and the drop in performance for a specific subset of entailment relations.
+
+Turn 2:
+
+Meta-Reviewer: Thank you for the summary. I have some questions about the method. Firstly, the reviewer questions the choice of aggregating scores over aligned arguments. Can you explain why the authors chose to use logical OR instead of logical AND?
+
+Dialogue Agent: The authors chose to use logical OR because it allows for a more flexible and efficient inference process. By aggregating scores over aligned arguments using logical OR, the method can handle ambiguous unary relations between predicates and arguments more effectively. However, the reviewer raises a valid point that the choice of logical OR may not be well-motivated, and a discussion on this aspect would be useful.
+
+Turn 3:
+
+Meta-Reviewer: That makes sense. Another question I have is about the drop in performance for a specific subset of entailment relations. Can you explain why this occurs and whether the authors have any insights into this issue?
+
+Dialogue Agent: The drop in performance for the specific subset of entailment relations, referred to as s-v, is due to the ambiguity of unary relations between predicates and arguments. The authors attribute this drop in performance to the fact that the s-v entailment relations are more complex and require a more nuanced understanding of the eventuality graph. However, the authors do not provide a detailed analysis of this issue, and the reviewer notes that a more in-depth exploration of this phenomenon would be useful.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the clarification. Based on the reviewer's comments, I have some concerns about the usefulness of the proposed method and the lack of empirical evaluation. Can you provide any insights into these aspects?
+
+Dialogue Agent: The authors acknowledge that their method is not compared to prior work or evaluated on a downstream application, which the reviewer notes as a significant limitation. Additionally, the authors change the representation of the eventuality graph in a way that makes it less applicable to a wide range of applications. The reviewer raises concerns about the recall and usefulness of the proposed method, and suggests that a better evaluation and comparison to prior work would be necessary to establish its value.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for the summary. Based on the reviewer's comments and my own evaluation, I am leaning towards rejecting the paper. However, I would like to hear your final thoughts on the matter.
+
+Dialogue Agent: Thank you for your consideration. Based on the reviewer's comments and the limitations of the proposed method, I agree that the paper does not meet the standards of AKBC. However, I would like to note that the authors have made a significant contribution to the field of knowledge graph construction, and their work has the potential to be useful in future research and applications. A more in-depth exploration of the method and its limitations, as well as a comparison to prior work, would be necessary to establish its value.

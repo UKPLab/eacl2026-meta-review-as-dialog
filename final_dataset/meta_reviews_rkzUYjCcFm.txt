@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, I have reviewed the paper "FAST OBJECT LOCALIZATION VIA SENSITIVITY ANALYSIS" and I believe it has potential, but I have some concerns that need to be addressed before I can make a final decision.
+
+Dialogue Agent: Thank you for your review. What are your concerns?
+
+Meta-Reviewer: My main concern is that there seems to be some misleading claims in the paper, such as the idea that any deep CNN for image classification must contain implicit knowledge about object location. Also, there are inconsistencies in the way attention maps are aggregated, and the experiments are not convincing enough for me.
+
+Dialogue Agent: Thank you for pointing those out. Regarding the first concern, we could add a reference to support the assertion. Also, we could explain in more detail why we believe the method works. As for the inconsistencies in aggregation, we can revise the paper to explain why different operations were used for different datasets. Finally, we can run additional experiments and provide more detailed analysis to make the results more convincing.
+
+Meta-Reviewer: That sounds like a good plan. I also noticed that the paper's title mentions "interpreting deep neural networks," but the focus of the paper is on object localization. It would be more appropriate if the title focuses on the latter.
+
+Dialogue Agent: We agree, and we will change the title accordingly.
+
+Meta-Reviewer: In addition, the readability of the paper needs improvement. There are several typos and inconsistent notations that should be addressed.
+
+Dialogue Agent: Thank you for bringing that up. We will go through the paper carefully and fix any errors.
+
+Meta-Reviewer: Given these concerns, I am willing to give the paper another chance, but I need to ask how confident you are in addressing them.
+
+Dialogue Agent: We are fairly confident that we can address your concerns and improve the paper's quality. We have carefully reviewed your comments and believe that we can make the necessary revisions to make the paper publishable.
+
+Meta-Reviewer: Okay, I will give you the benefit of the doubt. I look forward to seeing your revisions.

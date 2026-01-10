@@ -1,0 +1,25 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Predictive Querying for Autoregressive Neural Sequence Models":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Predictive Querying for Autoregressive Neural Sequence Models". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper introduces the problem of predictive querying in neural autoregressive models, which involves answering probabilistic queries about future steps. The authors propose an importance-sampling based framework and a proposal distribution for estimating these queries, and also combine it with beam search for better results.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The paper is technically solid, with high impact on at least one sub-area, and moderate-to-high impact on more than one areas. The authors provide a framework, baselines, and an improved hybrid method, as well as some understanding of why beam search approaches are worse. However, the paper lacks novelty, and the definition of "probabilistic queries" is quite broad. The experiments are not sufficient, and the actual metric relies on the sampling.
+
+Turn 3:
+
+Meta-reviewer: I see. What are the societal implications of this work?
+
+Dialogue Agent: The paper raises an important question about how to answer probabilistic queries about future steps, which could be applied to decision-making systems that require some forecasting. The authors also provide some understanding of the failures of beam search for predictive querying. However, the paper does not discuss the potential biases of using forecasting models for decision-making, especially on data like student interactions.
+
+Turn 4:
+
+Meta-reviewer: Thank you for the information. Based on the reviews, I think the paper has some novel ideas, but lacks novelty in the methods proposed. The experiments are not sufficient, and the actual metric relies on the sampling. I'm leaning towards a weak accept. What do you think?
+
+Dialogue Agent: Based on the reviews, I agree with your assessment. The paper has some important contributions, but the lack of novelty and the limited experiments are a concern. I would rate the paper as a weak accept, but with the suggestion that the authors should provide more thorough experiments and address the potential biases of their approach.

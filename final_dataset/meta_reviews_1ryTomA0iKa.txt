@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Riemannian Neural SDE: Learning Stochastic Representations on Manifolds":
+
+Turn 1:
+
+Meta-reviewer: Hi, I'm reviewing a paper titled "Riemannian Neural SDE: Learning Stochastic Representations on Manifolds". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: Sure! The paper proposes a method for learning stochastic representations on manifolds using neural networks, called Riemannian Neural SDE (RNSDE). The method is based on the idea of extending the neural SDE framework to manifolds, allowing for modeling of stochastic processes on these manifolds.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the background of this paper and how it relates to previous work in the field?
+
+Dialogue Agent: Certainly! The paper builds on the existing literature on neural SDEs, which have been used for modeling stochastic processes in Euclidean space. The authors propose a novel extension of these methods to manifolds, which allows for modeling on more complex and structured domains. There are some relevant works in the field that the authors mention in the literature review, such as [1].
+
+Turn 3:
+
+Meta-reviewer: I see. Can you tell me more about the experiments in the paper and how they support the claims made by the authors?
+
+Dialogue Agent: Sure! The authors present several experiments on toy tasks and real-world benchmarks to demonstrate the effectiveness of RNSDE. The experiments show that RNSDE outperforms some of the related deep learning baselines in terms of probability density estimation and generative modeling. The authors also provide an analysis of the computational complexity of the method and show that it is competitive with other state-of-the-art methods.
+
+Turn 4:
+
+Meta-reviewer: That sounds good. Can you tell me more about the limitations of the paper and any areas where the authors could improve in future work?
+
+Dialogue Agent: Sure! The authors acknowledge that the method is not as flexible as some other related methods, such as diffusion models on manifolds [2]. They also mention that the paper focuses only on Euclidean manifolds and that there are other domains (non-compact Lie groups, product spheres) that are important for downstream applications to consider. Additionally, the authors could provide more background on manifold theory to help readers better understand the method and its theoretical basis.
+
+[1] De Bortoli, Valentin, et al. "Riemannian score-based generative modeling." arXiv preprint arXiv:2202.02763 (2022).
+
+[2] Reference to a relevant work on diffusion models on manifolds.
+
+Output:
+
+The dialogue agent provides a summary of the paper's main contribution, background, and experimental results, and also mentions some limitations and areas for future work. The meta-reviewer can use this information to make a decision on the paper's acceptance or rejection.

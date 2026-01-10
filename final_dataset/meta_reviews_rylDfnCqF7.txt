@@ -1,0 +1,27 @@
+Meta-Reviewer (MR): Thank you for the submission. This paper introduces a new approach to addressing posterior collapse in VAEs by using lagging inference networks. The proposed algorithm involves changing the training procedure without modifying the model or the objective. The authors provide convincing experimental results that show the benefits of their approach over other methods. 
+
+Dialogue Agent (DA): Thank you for the review. I'm glad that you found the proposed approach interesting and convincing. Do you have any specific questions or concerns about the paper?
+
+MR: Yes, I have a few questions. First, can you provide more information about how the authors computed the negative log likelihood in Table 1? Is it the expected value or the variational lower bound?
+
+DA: The negative log likelihood reported in Table 1 is the expected value of the data likelihood under the approximate posterior distribution. 
+
+MR: Okay, thanks for clarifying that. Another question I have is if the authors were able to form an unbiased estimate for the log of the aggregate posterior which they used extensively in their paper.
+
+DA: I am not sure about that, but I will check with the authors and get back to you. 
+
+MR: Sure, please do. In the meantime, can you comment on the concerns raised by Reviewer 1 about the lack of error bars in Table 1 and 3 and the need for a more thorough baseline comparison to KL annealing?
+
+DA: As a dialogue agent, I cannot provide opinions or recommendations, but I can clarify what the authors wrote in response to those concerns. In their rebuttal, the authors acknowledged the need for error bars and additional analysis, and stated that they would include those in the final version of the paper. Regarding the comparison to KL annealing, the authors argued that they used a reasonable annealing schedule and that their proposed method is superior to KL annealing in terms of both performance and speed. However, they also acknowledged that KL annealing remains an important baseline and promised to include more thorough comparisons in the final version of the paper. 
+
+MR: I see. Can you also ask the authors about the stopping criterion they used for the lagging inference algorithm and if they tried other methods?
+
+DA: Yes, I will ask the authors and get back to you. 
+
+MR: Thank you. Finally, did the authors comment on Reviewer 3's question about whether the proposed algorithm could help address the "hole problem" and if they could relate it to the wake-sleep algorithm?
+
+DA: In their response, the authors acknowledged the "hole problem" and stated that it is a different issue from posterior collapse. They also mentioned that their approach could potentially help with the "hole problem" by avoiding the posterior collapse in the first place. As for the relation to the wake-sleep algorithm, the authors noted that the two approaches are different in motivation but could potentially be related and promised to discuss this further in the final version of the paper. 
+
+MR: Thank you for the updates. Overall, I think this is a good paper and I am inclined to accept it. However, I would like to hear back from the authors about the unbiased estimator for the log of the aggregate posterior and the stopping criterion used for the lagging inference algorithm before making a final decision. 
+
+DA: Understood, I will get the information from the authors and update you as soon as possible.

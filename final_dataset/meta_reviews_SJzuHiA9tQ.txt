@@ -1,0 +1,23 @@
+Meta-reviewer: Hello dialogue agent, can you give me a summary of the reviews for "Generative Adversarial Network Training is a Continual Learning Problem"?
+
+Dialogue agent: Certainly. Review 1 commended the paper for its clear writing and thorough experiments but expressed doubt about the usefulness of GANs as a benchmark for continual learning. Review 2 was critical of the technical contributions and experimental analyses, suggesting that the paper is not good enough to be accepted. Review 3 praised the paper for its clever adaption of EWC and IS into the context of GAN training and its well-written presentation, but expressed concern about the empirical evidence for mode oscillation and noted similarities to prior work.
+
+Meta-reviewer: Thank you for the summary. It seems that there are differing opinions on the paper's merit. Can you tell me more about the proposed approach and its strengths and weaknesses?
+
+Dialogue agent: The paper proposes a plug-and-play regularizer for GAN training that adapts EWC and IS in the context of continual learning. This regularizer accounts for the discriminator's parameters from all previous "tasks" with extra memory budget of only one set of parameters while assigning higher regularization strengths to parameters learned from recent tasks. The paper's strengths are its clear writing, clever formulation of online memory and controlled forgetting, and demonstrated improvements to multiple GAN models in both image and text generation tasks. Its weaknesses include doubts about the usefulness of GANs as a benchmark for continual learning, the lack of strong empirical evidence for mode oscillation, and concern about similarities to prior work.
+
+Meta-reviewer: Thank you for that information. The reviews seem to agree that the paper has some technical contributions but also has some weaknesses. Can you tell me more about the confidence levels of the reviewers?
+
+Dialogue agent: Reviewer 1 expressed marginal confidence in their evaluation, while Reviewer 2 was absolutely certain that the paper should be rejected and had familiar knowledge of the relevant literature. Reviewer 3 was confident but not absolutely certain that the paper should be accepted.
+
+Meta-reviewer: Thank you for the clarification. It seems that reviewer opinions are mixed, with Reviewer 2 expressing a clear rejection and Reviewers 1 and 3 expressing more nuanced opinions. I would like to hear more about the experimental methodology and results. Can you expand on those?
+
+Dialogue agent: The paper conducted experiments on a toy mixture of Gaussians, CelebA and CIFAR-10 image generation tasks, and textGANs. The experiments demonstrated that the proposed regularizer was superior to historical averaging and spectral normalization on the synthetic dataset and that it improved GAN models such as DCGAN, SN-DCGAN, and WGAN-GP on image generation tasks and textGAN on text generation tasks. However, Reviewer 1 noted that the empirical gains in terms of improving GAN metrics were relatively minor.
+
+Meta-reviewer: Got it. It seems that the proposed approach has some positive experimental results but also some limitations, and that there are differing opinions on the importance of the empirical gains. Can you remind me of the paper type and rating of Reviewer 1?
+
+Dialogue agent: Reviewer 1 considered the paper to be marginally below the acceptance threshold, and the paper type is long.
+
+Meta-reviewer: Thank you for that information. Based on the reviews and your responses, I am inclined to accept the paper but with some reservations. I would like to see more discussion of the doubts about the usefulness of GANs as a benchmark for continual learning and more evidence for mode oscillation. Additionally, I would like to see more consideration of alternative approaches such as storing fake examples from the generator and constraining the generator to not forget about previously generated samples. Finally, I would like to see more discussion of the goals of continual learning and why existing toy benchmarks are not sufficient. Can you relay these concerns to the authors? 
+
+Dialogue agent: Yes, I will do so. Thank you for your feedback.

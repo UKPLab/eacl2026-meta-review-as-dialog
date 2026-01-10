@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, dialogue agent. Can you provide me with a brief summary of the main contributions and findings of the paper "Exploration-Guided Reward Shaping for Reinforcement Learning under Sparse Rewards"?
+
+Dialogue Agent: Sure. The paper proposes a novel method called Exploration-Guided Reward Shaping (ExpRS) for learning informative rewards in extremely sparse reward settings with noisy distractions. ExpRS combines self-supervised reward shaping and exploration bonus rewards in a single algorithm. The paper derives the update rules for ExpRS in a general setting, not specific to policy gradients, and shows results on three environments comparing to other reward shaping methods. The method is designed to be intuitive and to provide benefits of both an intrinsic shaped reward and intrinsic bonus rewards.
+
+Meta-Reviewer: Thank you for the overview. Reviewer 1 mentioned that while the simple environments used in the paper are helpful, more complex environments are important to verify the utility of ExpRS. Have the authors discussed any limitations of their method?
+
+Dialogue Agent: Yes, the authors acknowledge that they have not conducted a rigorous theoretical analysis of the method in terms of convergence speed and stability, and they suggest that future work could evaluate the method on more complex environments and consider how to extend the method to continuous and multi-agent settings. The paper also briefly discusses limitations of the method, but Reviewer 2 suggested that the discussion could benefit from more detail.
+
+Meta-Reviewer: Reviewer 1 also raised a concern about the SORS baseline, which was briefly explained, and asked for a more detailed description. Can you provide more information about this?
+
+Dialogue Agent: SORS stands for Self-supervised Optimistic Reward Shaping and the paper references prior work that introduced SORS. The authors of this paper state on line 114 that SORS is a similar algorithm to theirs, but with a fixed shaping function. The authors of this paper extend SORS by allowing self-supervised learning of the shaping function. They do not compare the two methods on the same set of environments.
+
+Meta-Reviewer: Okay, thank you. Lastly, I noticed that Reviewer 3 mentioned concerns about clarifying which derivations in the paper are original versus reported from previous works. Can you provide more information on this?
+
+Dialogue Agent: Some of the prior methods and derivations described in the paper are reported from previous works, and it can be unclear which are original contributions. Reviewer 3 suggests that the paper could improve in this regard by clarifying which derivations are original and which are not. 
+
+Meta-Reviewer: Thank you for the information. Based on the reviews and your responses, I think this paper has some promising contributions but also some limitations and areas for improvement. Given the borderline reject rating from Reviewer 1 and the weak accept rating from Reviewers 2 and 3, I will carefully consider all the feedback and make a decision.

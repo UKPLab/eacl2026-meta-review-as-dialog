@@ -1,0 +1,30 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-Reviewer: Hi there! I'm reviewing a paper titled "Active Learning in CNNs via Expected Improvement Maximization". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new acquisition function for active learning in deep learning, specifically for convolutional neural networks (CNNs). The acquisition function is based on the expected improvement (EI) framework, which has been shown to be effective in other contexts.
+
+Turn 2:
+Meta-Reviewer: That sounds interesting. But I have some concerns about the novelty and methodological contribution of the paper. Can you address these concerns?
+
+Dialogue Agent: Of course! The paper builds upon existing ideas in active learning and uncertainty estimation, but it applies them in a new and specific setting of CNNs. The proposed approach is also simpler and more computationally efficient than previous methods. Additionally, the paper shows that the proposed acquisition function is effective in improving the performance of CNNs in both classification and regression tasks.
+
+Turn 3:
+Meta-Reviewer: I see. But I'm not sure if the paper fully justifies the claim of deriving the EI-based acquisition function for active learning. Can you comment on this?
+
+Dialogue Agent: Yes, the reviewer raises a valid point. The paper does not fully derive the EI-based acquisition function, but instead uses a simplified form of the function that only depends on the uncertainty of the training data given the select point. However, the authors do show that the proposed acquisition function is equivalent to maximizing the expected improvement in the experimental section.
+
+Turn 4:
+Meta-Reviewer: I see. Well, I'm still not convinced about the novelty and contribution of the paper. Can you address my other concerns as well?
+
+Dialogue Agent: Sure! The paper does not fully address the issue of relative contribution of the x_new toward the final performance E(y_train | x_new), as pointed out by the reviewer. However, the authors do show that the proposed acquisition function is effective in improving the performance of CNNs in both classification and regression tasks. Additionally, the paper considers the setting for CNN classification and regression where the authors derive the variance estimations. The paper also extends to the batch mode to select multiple points simultaneously.
+
+Turn 5:
+Meta-Reviewer: Okay, I think I have a good understanding of the paper now. Can you summarize the main points for me?
+
+Dialogue Agent: Sure! The paper proposes a new acquisition function for active learning in deep learning, specifically for convolutional neural networks (CNNs). The proposed approach is based on the expected improvement (EI) framework, which has been shown to be effective in other contexts. The paper shows that the proposed acquisition function is effective in improving the performance of CNNs in both classification and regression tasks. However, the paper does not fully address the issue of relative contribution of the x_new toward the final performance E(y_train | x_new).
+
+Output:
+
+Based on the reviews, the meta-reviewer may accept or reject the paper, weighing the importance of reviewer confidence. The output should feature only the dialogue, without duplicated sentences, and the dialogue agent should present answers in a summarized form without bullet points.

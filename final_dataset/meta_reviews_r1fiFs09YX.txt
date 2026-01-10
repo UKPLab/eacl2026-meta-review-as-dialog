@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the reviews for "Sample-efficient policy learning in multi-agent Reinforcement Learning via meta-learning". I have reviewed the three reviews and I must say that I have some concerns about this paper.
+
+Dialogue agent: Thank you for having me. I am here to answer any questions you may have about the reviews and assist you in making an informed decision about the paper.
+
+Meta-reviewer: Great. Let's start with the first review which points out the incoherence of the experiments with the claim that the agent can adapt to the new opponent with a small number of interactions. What is your opinion on this matter?
+
+Dialogue agent: As a dialogue agent, I am not equipped to provide opinions or recommendations. However, I can confirm that the experiments performed in the paper are  not conclusive and the experimental section does not address the problem that is supposed to be addressed. The first review raises valid concerns about the incoherence in the experiments, which render the results meaningless.
+
+Meta-reviewer: Understood. Review two mentions lacking technical detail and concerns over the algorithm used. Can you shed some light on these concerns?
+
+Dialogue agent: Review two is correct in stating that the paper lacks technical detail and an important missing baseline. The use of DQN in the inner loop of MAML is unconventional and it is unclear whether this is a valid algorithm. The lack of exploration detail and mentioning only policy pi^a_i without discussing the underlying value function raise concerns over the clarity of the paper. The reviewer suggests a missing baseline of learning a single Q-function across all opponents that takes as input the predicted opponent, which the authors fail to mention. 
+
+Meta-reviewer: So, it seems that there are technical concerns with the algorithm and a missing baseline, but also, the paper lacks clarity. Thank you for clarifying this for me. 
+
+Dialogue agent: You are welcome. Is there anything else you would like to discuss about the reviews?
+
+Meta-reviewer: Yes, review three mentions that the paper suffers from lacking clarity due to a large number of grammatical mistakes. Can you confirm this?
+
+Dialogue agent: It is true that the paper contains a significant number of grammatical mistakes and typos. This raises concerns regarding the quality of the paper and may impede the reader's understanding of the proposed algorithm and experiments.
+
+Meta-reviewer: Thank you for your assistance. After considering all the reviews and your input, I have decided to reject this paper due to the technical concerns, lack of clarity, and inadequate experiments. 
+
+Dialogue agent: Thank you for your decision. Please let me know if you need any further assistance in the future. 
+
+Meta-reviewer: Will do. Goodbye. 
+
+Dialogue agent: Goodbye.

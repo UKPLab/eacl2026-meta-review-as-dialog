@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "Prior Preference Learning From Experts: Designing A Reward with Active Inference." Can you provide some insight into the strengths and weaknesses of the paper?
+
+Dialogue agent: Certainly. The paper proposes a theoretical connection between active inference and reinforcement learning, and shows how the concept of expected free energy can be extended to a stochastic setting. They also propose a prior preference learning approach to learn from expert demonstrations. The paper sheds light on a novel interpretation of active inference from the point of view of RL and demonstrates a theoretical connection between the two. However, some reviewers noted that the concepts of active inference should be more clearly introduced and some intuition should be provided. Additionally, it is quite hard for readers not truly familiar with the field to follow. 
+
+Meta-reviewer: That's important feedback. What about the experiments?
+
+Dialogue agent: Some reviewers found the experiment section lacking in terms of comparison to traditional RL algorithms. Reviewer 2 noted that there is no comparison between the pre-existing baseline method. Additionally, there were some concerns about the definition of "global preference" and "expert batch." Reviewer 3 pointed out that Q appears to be overloaded many times in the mathematics of the paper and makes it a bit difficult to follow the theory and section 2. 
+
+Meta-reviewer: Okay, but reviewer 1 seemed to be satisfied with the experiments, right? 
+
+Dialogue agent: Reviewer 1 did note that the experiment section is lacking comparison with traditional RL algorithms and suggested the authors compare their approach to classic RL/IRL algorithms. Additionally, the reviewer suggested providing more details regarding the approximations used in the derivations and clarifying which algorithms are compared in the study. 
+
+Meta-reviewer: I see. Overall, what is the confidence level for the reviews?
+
+Dialogue agent: Reviewer 1 rated the paper marginally above the acceptance threshold and expressed some level of confidence in their evaluation, but it is quite likely that the reviewer did not understand central parts of the paper. Reviewer 2 rated the paper marginally below the acceptance threshold and was fairly confident in their evaluation. Reviewer 3 also rated the paper marginally below the acceptance threshold and was confident, but not absolutely certain, in their evaluation. 
+
+Meta-reviewer: Thank you for the summary. Based on these reviews, do you think we should accept or reject the paper? 
+
+Dialogue agent: As a dialogue agent, I'm not able to provide opinions or recommendations. It's ultimately up to you to weigh the importance of reviewer confidence and the strengths and weaknesses of the paper in making the final decision.

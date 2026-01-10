@@ -1,0 +1,21 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I'm reviewing a paper about adversarial attacks and defenses for deep reinforcement learning. The title is "Distilled Agent DQN for Provable Adversarial Robustness". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a method called Distilled Agent DQN (DaDQN) to improve the robustness of deep reinforcement learning agents against adversarial attacks. The approach involves separating the learning of Q-values from the incorporation of adversarial defenses, which enables training the student network with provably robust training.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. But I have some concerns about the paper. First, the white-box poisoning attack proposed in the paper is not a true poisoning attack, as it attacks not just at training time but also at test time. Can you explain why the authors chose to use this attack?
+
+Dialogue Agent: The authors chose to use the Untargeted Q-Poisoning (UQP) attack because it is a simple and effective way to fool the agent. The attack adds the negative of the FGSM perturbation during training time, which reinforces the choice of the best action w.r.t. the learned Q-values. However, I can provide a summary of the reviews to address your concerns.
+
+Turn 3:
+Meta-reviewer: That's great. Can you summarize the reviews for me?
+
+Dialogue Agent: Sure! Review 1 notes that the paper proposes a promising approach to separating the learning of Q-values from the incorporation of adversarial defenses. However, the reviewer has some concerns about the choice of attack and the experimental results. Review 2 states that the paper is very limited in originality and scope, as it only applies to one type of RL algorithm and has a limited number of experiments. Review 3 suggests that the paper could benefit from providing more intuition about the UQP attack and the proposed approach.
+
+Turn 4:
+Meta-reviewer: Thank you for summarizing the reviews. Based on the reviews, I think the paper has some limitations and could benefit from more explanation and intuition about the proposed approach. I will give it a rating of 3: Clear rejection.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, could you tell me about the main contributions of the paper?
+
+Dialogue agent: The paper proposes extensions to the RML Mapper to support Excel spreadsheets. These extensions cover spreadsheet formulation, Javascript filter, valueRichText, and ss:SelectedObjects, which allows for only selected objects to be mapped in an object map.
+
+Meta-reviewer: I see. Review 1 mentions the issue of scalability. What is the biggest number of rows and columns that Excel can handle, and can your tool support streaming?
+
+Dialogue agent: The paper acknowledges these scalability aspects as future work but does not currently comment on the limitations of the tool. Therefore, I cannot provide an answer to your question.
+
+Meta-reviewer: That is concerning. Another point Review 1 raised is the use of relative references. Can the tool use Excel headers instead of cell address ranges and relative references like "(1,0).valueString", which can become brittle when rearranging the sheet format?
+
+Dialogue agent: The paper addresses using relative references but does not mention using Excel headers. I cannot provide additional information beyond what is already stated in the paper.
+
+Meta-reviewer: Review 2 suggests that the paper is a bit in-between a system/demo paper and a short research paper. Could you clarify the type of paper submitted and make changes accordingly to manage reader expectations?
+
+Dialogue agent: The paper submitted is a long research paper, and we will take into account the reviewer's feedback to make any necessary changes to manage reader expectations.
+
+Meta-reviewer: Review 3 proposes analyzing how data is commonly presented in Excel files across organizations and converting this into patterns. What are your thoughts on this suggestion?
+
+Dialogue agent: This is an interesting suggestion to consider for future work on this topic. We appreciate the recommendation and will take it into consideration.

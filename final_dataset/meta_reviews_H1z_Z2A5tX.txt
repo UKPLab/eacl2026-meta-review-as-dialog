@@ -1,0 +1,31 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper titled "Don't Judge a Book by its Cover - on the Dynamics of Recurrent Neural Networks." I am looking to decide whether to accept or reject this paper. Can you provide more information about the reviews and what is the paper about?
+
+Dialogue agent: Certainly, meta-reviewer. Review 1 found the experimental design sensible but expressed concerns about the definitions of key concepts in the paper, which could affect the generalization of results across RNNs. Reviewer 2 enjoyed reading the paper but raised questions regarding repeatability, sensitivity to initial conditions, and the need for better-defined terms. Finally, Reviewer 3 was initially concerned about the experimental setup but was satisfied with the revised version, which included more statistically significant results and addressed some concerns about the paper's structure. In terms of what the paper is about, it examines the hidden state dynamics of RNNs and how they can be trained to better generalize. The authors propose curricula specific to the task and demonstrate how they affect the stability of the network's fixed points.
+
+Meta-reviewer: Thanks for the information. What is the type of the paper, and what are the ratings and confidence levels of each review?
+
+Dialogue agent: The type of the paper is long. Review 1 rated the paper as marginally below the acceptance threshold, with a confidence level of 4. Review 2 rated the paper as good and acceptable with a confidence level of 4. Review 3 rated the paper as marginally above the acceptance threshold, with a confidence level of 3.
+
+Meta-reviewer: Okay. Help me understand why Reviewer 1 rated the paper as "marginally below the acceptance threshold"?
+
+Dialogue agent: Reviewer 1 had concerns about the definitions of key concepts in the paper, which could affect the generalization of results across RNNs. The reviewer also found the paper to be too narrow, with limited results on a toy setting. Additionally, the paper lacked clarity as to its purpose or takeaway message. However, the reviewer did find the paper to be a genuine effort to explore the dynamics of RNNs and suggested that improvements could be made through further clarification of the questions being asked, broadening results to make a much more rigorously supported point, or ideally, both.
+
+Meta-reviewer: Thanks for clarifying that. And what about Reviewer 2's concerns regarding repeatability and sensitivity to initial conditions?
+
+Dialogue agent: Reviewer 2 enjoyed reading the paper but raised questions about the repeatability of results, the sensitivity to initial conditions, and the need for better-defined terms. The reviewer also suggested investigating the generalizability of findings on other tasks. Additionally, the reviewer found some parts of the paper to be poorly written, with errors in grammar and spelling.
+
+Meta-reviewer: I see. And what led Reviewer 3 to rate the paper as "marginally above the acceptance threshold"?
+
+Dialogue agent: Reviewer 3 was initially concerned about the experimental setup but was satisfied with the revised version, which included more statistically significant results and addressed some concerns about the paper's structure. However, the reviewer suggested further investigation into the CIFAR-10 dataset and the use of LSTMs instead of only GRUs, given that LSTMs are more powerful. The reviewer also found some minor grammatical and spelling errors throughout the text.
+
+Meta-reviewer: Thank you for the summary. It appears that the reviewers have different opinions about the paper. How important is the confidence level of each review in making the final decision?
+
+Dialogue agent: The confidence level reflects how certain the review is about their evaluation of the paper. However, the meta-reviewer should take into account all reviews and their specific concerns about the paper before making a final decision.
+
+Meta-reviewer: Understood. Based on these reviews, I think I need more information before making the final decision. Can you provide me with more details about the experimental setup and generalization of results across RNNs?
+
+Dialogue agent: Certainly, meta-reviewer. The experimental setup involves training a 200-GRU-RNN to report the class label of a MNIST frame hidden among noisy frames. By introducing two curricula specific to the task, the authors study how the trained RNNs behave under different deviations from the training protocol. The authors demonstrate that under the curriculum that exhibited the best generalization, there exist more robust fixed/slow points in the hidden state dynamics. The extended optimization procedure developed by Sussillo & Barak is then used to find these points and track the speed of these points during the course of training, linking spikes in speed to one of the curricula which introduces new classes over time. However, Reviewer 1 had concerns about the definitions of key concepts in the paper, which could affect the generalization of results across RNNs.
+
+Meta-reviewer: I understand. Based on the reviews and the information you provided, I think I need to read the paper myself to make a more informed decision about acceptance or rejection. Thank you for your help.
+
+Dialogue agent: You're welcome. Please let me know if you need any further information.

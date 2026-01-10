@@ -1,0 +1,19 @@
+Meta-reviewer: Hello dialogue agent, can you tell me about the paper "Learning to Search for Fast Maximum Common Subgraph Detection"?
+
+Dialogue agent: Certainly. The paper proposes GLSEARCH, a model that combines reinforcement learning with graph neural networks to efficiently search for the maximum common subgraph between two input graphs. It has been evaluated on both artificial and real-world graphs, and compared against traditional and learning-based baselines.
+
+Meta-reviewer: What are the strengths of the paper?
+
+Dialogue agent: Review 1 highlighted some of the strengths of the paper, such as its presentation and the ablation study. Review 2 mentioned the clear and interesting motivation, and the many experiments conducted to demonstrate the effectiveness of the proposed method. Review 3 praised the combination of graph neural network embeddings and RL to guide the search more efficiently, and found the paper overall interesting.
+
+Meta-reviewer: And what are the weaknesses?
+
+Dialogue agent: Review 1 expressed concern about the evaluation, specifically the use of unlabeled datasets and the lack of consideration of large-scale networks. Review 2 pointed out several issues with the presentation, such as missing details and the lack of time complexity analysis. Review 3 raised some computational concerns with the exploration strategy, and suggested potential modifications for different graph settings and applications.
+
+Meta-reviewer: Based on these reviews, what is your opinion on the paper?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can tell you that two of the reviews were marginally below the acceptance threshold, and one rated the paper as good and recommended acceptance with some concerns.
+
+Meta-reviewer: I see. Can you provide any additional information about the paper type and reviewer confidence levels?
+
+Dialogue agent: Yes, the paper is a long paper type, and all three reviewers expressed confidence in their evaluations, with one being fairly confident and the other two being confident but not absolutely certain.

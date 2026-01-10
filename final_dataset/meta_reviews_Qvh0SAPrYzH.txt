@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Non-Monotonic Latent Alignments for CTC-Based Non-Autoregressive Machine Translation":
+
+Turn 1:
+
+Meta-Reviewer: Hi, I'm reviewing a paper titled "Non-Monotonic Latent Alignments for CTC-Based Non-Autoregressive Machine Translation". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new approach to train non-autoregressive machine translation models by relaxing the monotonic alignment restriction in the CTC loss. The authors introduce a simplified CTC (SCTC) and two non-monotonic alignment methods, bipartite matching and n-gram matching.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper according to the reviews?
+
+Dialogue Agent: According to Review 1, the paper has a clear motivation for allowing non-monotonic alignment of the CTC model, and the authors provide a systematic study on invoking non-monotonic alignment. The paper also achieves strong performance and provides a bridge to n-gram matching for the general CTC model. Review 2 states that the proposed non-monotonic alignment methods may facilitate the development of this field, but the relationship of this paper to related work is not very clear. Review 3 states that the proposed systems achieve comparable results with related works, but the experimental results are not convincing enough.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to Review 2, the paper could improve with more clear descriptions of the proposed methods, and the experimental results are not convincing enough. Review 3 states that the proposed method could improve Fully-NAT further as an addition, but the role of the bipartite matching in this paper is not clear.
+
+Turn 4:
+
+Meta-Reviewer: Okay, I think I have a good understanding of the paper now. What is the final decision based on the reviews?
+
+Dialogue Agent: Based on the reviews, the paper has both strengths and weaknesses. The motivation is clear, and the paper provides a systematic study on invoking non-monotonic alignment. However, the experimental results are not convincing enough, and the relationship of this paper to related work is not clear. The final decision will depend on the importance of these factors and the confidence of the reviewer.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your help! I think I will accept the paper with minor revisions based on the reviews.
+
+Dialogue Agent: You're welcome! I'm glad I could help. Please let me know if you need any further assistance.

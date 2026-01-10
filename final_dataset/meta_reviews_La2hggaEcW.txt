@@ -1,0 +1,21 @@
+Meta-reviewer: Hello dialogue agent, I have some questions about the reviews for the paper "AuthAR: Concurrent Authoring of Tutorials for AR Assembly Guidance" before I make my decision to accept or reject the paper.
+
+Dialogue Agent: Sure, I'll do my best to answer your questions based on the reviews.
+
+Meta-reviewer: Review 1 states that the paper describes the technical details of the system well, but there are concerns about the validation framework and the unclear derivation of the design guidelines and design space. Can you provide more information on these points?
+
+Dialogue Agent: Certainly. The paper describes an AR-based authoring tool for assembly tutorials and presents a set of design guidelines and design space, which are used to guide the design of the system. Reviewer 1 raises valid concerns about how these guidelines and design space were derived and whether they are based on empirical evidence. Additionally, the paper's validation framework is not clear and would benefit from more thorough testing and comparison to other AR-based authoring tools. 
+
+Meta-reviewer: Thanks for the clarification. Review 2 seems to have some significant concerns about the paper's research contribution and overall lack of focus. Can you elaborate on these points?
+
+Dialogue Agent: Of course. Reviewer 2 criticizes the paper for lacking a clear research contribution and not defining a clear scope or target audience. The paper's design and interactions are described as straightforward and not based on domain expert knowledge or a thorough identification of challenges in the authoring process. The review also suggests that the paper lacks strong reflection and a clear definition of goals. 
+
+Meta-reviewer: I see. Review 3 appears to be more positive overall, but has some concerns about the quality of the produced tutorials and the tracking limitations of the system. Can you provide more information on these points?
+
+Dialogue Agent: Certainly. Reviewer 3 praises the paper's system for combining multiple instruction representations and its contributions in design and interaction challenges for building such systems. However, the review raises valid concerns about the lack of a formal evaluation and the quality of the produced tutorials. Additionally, there are concerns about the generalizability of the approach and the tracking limitations of the system in certain scenarios.
+
+Meta-reviewer: Thank you for the detailed responses. Based on the reviews, I am inclined to accept the paper, but I am concerned about the lack of thorough validation and clarity in certain areas. Can you provide any insights into the confidence levels of the reviewers?
+
+Dialogue Agent: Based on the confidence ratings provided in the reviews, it seems that Reviewer 1 is fairly confident in their evaluation, Reviewer 2 is confident but not absolutely certain, and Reviewer 3 is also confident but not absolutely certain.
+
+Meta-reviewer: Thank you, dialogue agent. Taking all of these factors into consideration, I believe that the paper has potential but would benefit from further improvements and validation. Therefore, I have decided to conditionally accept the paper with the requirement that the authors address the concerns raised in the reviews and provide more detailed validation of their system.

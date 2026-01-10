@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Achieving Linear Speedup with Partial Worker Participation in Non-IID Federated Learning". Overall, the reviewers are positive about the theoretical contributions and empirical evaluations of the paper. However, there are concerns about the clarity of certain parts of the paper, the comparison with existing work, and the experimental section. Based on these reviews, I am inclined to accept the paper. Can you provide me with more information to help me make a final decision?
+
+Dialogue agent: Of course. I am aware of the reviews and can answer any specific questions you may have.
+
+Meta-reviewer: Thank you. I am interested in knowing how the paper compares to existing work in terms of convergence rate.
+
+Dialogue agent: The paper provides a new analysis for the FedAvg algorithm, which significantly improves the existing bounds of FedAvg. While the convergence rate metric used in this paper is slightly less common compared to some existing works, the results in this paper show a clear linear speedup. Additionally, the paper provides a thorough analysis of the impact of non-iid distributions among clients and the number of local steps on the convergence rate. This analysis has not been presented in previous works on FedAvg.
+
+Meta-reviewer: That's helpful. What about the experimental section? Can you provide more information on how the proposed algorithm compared with SCAFFOLD?
+
+Dialogue agent: While the experimental section mainly focuses on the proposed algorithm's convergence w.r.t. steps/epochs and various hyperparameter variants, the paper does mention that SCAFFOLD requires maintaining an additional set of variables for variance reduction, which may introduce more communication and computation costs. Unfortunately, the paper doesn't provide a direct comparison between the two algorithms in terms of communication complexity. However, the paper does show that the proposed algorithm achieves a clear linear speedup, which implies reduced communication rounds compared to FedAvg.
+
+Meta-reviewer: Okay. I appreciate the information. One reviewer mentioned that the model for the non-stationary network is too strong. Can you explain this?
+
+Dialogue agent: Yes. The model assumes the number of participants in each round is fixed, and each worker has an equal probability to participate, which may not be representative of real-world scenarios. However, the authors provide this model to demonstrate the potential convergence guarantees under this assumption, and also provide an empirical evaluation on a non-stationary network with varying participation probabilities.
+
+Meta-reviewer: I see. In summary, the paper provides clear theoretical contributions to the understanding of FedAvg and its convergence properties under non-iid distributions and partial worker participation scenarios. While there are some concerns about the clarity of certain parts of the paper, the overall reviews are positive, and the empirical evaluations validate the theoretical claims. Based on this, I will accept the paper.
+
+Dialogue agent: That sounds great. Thank you for your time.

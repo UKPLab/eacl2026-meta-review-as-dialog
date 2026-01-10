@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "HC-Net: Memory-based Incremental Dual-Network System for Continual Learning":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "HC-Net: Memory-based Incremental Dual-Network System for Continual Learning". Can you tell me what this paper is about?
+
+Dialogue Agent: Sure! The paper proposes a memory-based incremental dual-network system for continual learning, called HC-Net. The system consists of two networks: a classification network (C-Net) and a generative network (H-Net). The C-Net is trained on new tasks while the H-Net is trained on task-specific data to predict the task id.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the key contributions of this paper?
+
+Dialogue Agent: The key contributions of this paper are the use of a generative model to predict the task id and the ability to remove the need for task id during inference. Additionally, the paper proposes a new training method called "HC-Net" that can handle multiple tasks simultaneously.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the pros and cons of this paper, according to the reviews?
+
+Dialogue Agent: According to the reviews, the pros of this paper include its relatively easy understanding and the originality of using a generative model to predict the task id. However, the cons include the fact that the paper does not provide a fair comparison with other existing approaches and the accuracy of the C-Net is not a good measure of how good this method is. Additionally, some reviewers have raised concerns about the feasibility of the approach for real-world applications.
+
+Turn 4:
+
+Meta-Reviewer: I see. Based on these reviews, do you think this paper is ready for acceptance or rejection?
+
+Dialogue Agent: Based on the reviews, I would say that the paper is not ready for acceptance. While it has some original contributions, the lack of a fair comparison with other approaches and the feasibility concerns raise doubts about its suitability for publication in ICLR.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. I will take these factors into consideration when making my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further assistance.

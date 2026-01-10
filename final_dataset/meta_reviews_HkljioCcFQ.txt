@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I'm reviewing the paper "Marginalized Average Attentional Network for Weakly-Supervised Learning". Can you tell me a bit about the reviews that the paper has received?
+
+Dialogue agent: Yes, of course. The paper has received three reviews. Review 1 expresses concerns about the experiments and the reliance on pre-trained parameters. Review 2 gives a positive evaluation of the proposal and suggests additional applications. Review 3 praises the originality of the paper but also raises some concerns about the clarity of the explanations, the experimental evidence, and the gaps in the literature review.
+
+Meta-reviewer: I see. I'm particularly concerned about the reliability of the experimental evidence. Review 3 points out that the paper does not clearly show where the improvements come from and that there are some gaps in the comparison with other works. Can you give me more information about the experiments?
+
+Dialogue agent: Yes, the experiments evaluate the proposed method on two datasets, THUMOST14 and ActivityNet 1.3. The paper compares the proposed method to other potential feature aggregators and shows that it outperforms them in terms of mean average precision. However, Review 3 questions the significance of the improvement and the possibility of confounding factors.
+
+Meta-reviewer: That's a good point. Review 1 also questions the validity of the experiments, as the paper relies on pre-trained parameters. Can you explain this?
+
+Dialogue agent: Certainly. The paper uses pre-trained parameters of the I3D network from a previous work by Carreira and Zisserman (2017). Review 1 argues that this makes the attention averaging easier and raises doubts about the effectiveness of the proposed method. However, the paper also proposes a fast algorithm to reduce the complexity of constructing MAA, which Review 1 does not comment on.
+
+Meta-reviewer: I see. On the other hand, Review 2 suggests that the proposed method can be generally applicable to other tasks. Can you give me more details about this?
+
+Dialogue agent: Review 2 suggests applying the idea of stochastic pooling to semantic segmentation, as it shares a similar problem setting with weakly-supervised action localization. This would involve plugging the proposed pooling method on top of a CNN feature map, instead of global average pooling, which might be computationally feasible. Review 2 also notes that the proposed method has a high computational complexity, which is a drawback that needs to be taken into account.
+
+Meta-reviewer: Thank you for the detailed information, dialogue agent. It seems that there are both positive and negative aspects to the paper, and that the experimental evidence is not completely convincing. Given the mixed evaluations, I'm inclined to rely on the confidence levels of the reviews to make the final decision. Review 1 and Review 3 seem to have lower confidence levels in their evaluations than Review 2. Taking this into account, I'm leaning towards rejection of the paper. Do you have any comments on this?
+
+Dialogue agent: As an AI language model, I'm not authorized to provide opinions or recommendations. However, I can assist you in generating rebuttals or clarifications to the reviewers, if you wish to submit a revised version of the paper.

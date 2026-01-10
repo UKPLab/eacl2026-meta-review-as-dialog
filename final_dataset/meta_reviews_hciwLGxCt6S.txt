@@ -1,0 +1,23 @@
+Meta-Reviewer: Hi, dialogue agent. Can you tell me more about the paper "Its DONE: Direct ONE-shot learning with Hebbian weight imprinting"?
+
+Dialogue Agent: Of course, the paper proposes a novel method for one-shot learning using neural activations from the final layer of an "encoder" network to create a weight vector for the class of the new example. The method, called Direct ONE-shot learning with Hebbian imprinting (DONE), is inspired by Hebbian learning in the brain and does not require optimization or modification of the backbone model, making it computationally efficient.
+
+Meta-Reviewer: I see. And can you summarize the strengths and weaknesses of the paper according to the reviews?
+
+Dialogue Agent: Certainly. According to the reviews, the strengths of the paper are its novel and simple method for few-shot learning and its well-structured, clear writing. However, the weaknesses identified include a lack of comparison with a broader range of existing one-shot learning approaches for image classification and a weak link to Hebbian learning. Additionally, the writing is noted to have several problems, such as confusing figure captions and unprofessional language.
+
+Meta-Reviewer: I see. And what were the ratings and confidence levels of the reviews?
+
+Dialogue Agent: Review 1 gave a rating of 6, indicating a "Weak Accept" recommendation due to the paper being technically solid with moderate-to-high impact and no major concerns regarding evaluation, resources, reproducibility, or ethical considerations. The confidence level was 4, indicating reasonable certainty but not absolute confidence.
+
+Review 2 gave a rating of 5, indicating a "Borderline Accept" recommendation due to the paper being technically solid where reasons to accept outweigh reasons to reject, but with limited evaluation. The confidence level was 4, indicating reasonable certainty but not absolute confidence.
+
+Review 3 also gave a rating of 5, indicating a "Borderline Accept" recommendation due to the paper being technically solid where reasons to accept outweigh reasons to reject, but with limited evaluation. The confidence level was 3, indicating fair certainty but the possibility of not understanding some parts of the submission or being unfamiliar with related work.
+
+Meta-Reviewer: Thank you for the summary. Can you clarify whether the lack of comparisons to other one-shot learning approaches is a major concern or just a weakness?
+
+Dialogue Agent: While Review 1 noted it as a weakness, it does not seem to be a major concern regarding the paper's technical soundness or impact. However, it may limit the generalizability of the proposed method and make it harder for readers to understand the performance gains achieved by DONE.
+
+Meta-Reviewer: I see. And were any ethical concerns raised in the reviews?
+
+Dialogue Agent: Review 2 noted that the described model may be easily adapted for face recognition, implying potential negative societal impacts that should be discussed by the authors, even though previous work can be used in a similar way. However, they did not flag it for an ethics review as it is a small correction.

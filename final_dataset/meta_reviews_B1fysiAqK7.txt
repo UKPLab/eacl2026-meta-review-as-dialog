@@ -1,0 +1,15 @@
+Meta-reviewer: Hi, I have read the reviews for the paper "Probabilistic Binary Neural Networks". Can you tell me more about the proposed method and the experimental results?
+
+Dialogue agent: The paper presents a novel approach for training efficient binary networks with both binary weights and binary activations, which achieves promising results on benchmark datasets. The authors also propose improvements to related batch normalization and pooling layers. As for the experimental results, the paper compares the performance with one related work (Hubara et al., 2016) and shows that the proposed method outperforms it.
+
+Meta-reviewer: Review 1 mentioned a concern about whether the proposed method can be well applied on large scale datasets such as ImageNet. Do you have any information about this?
+
+Dialogue agent: The paper does not mention any experiments on large-scale datasets such as ImageNet, so I cannot provide further information on this matter.
+
+Meta-reviewer: Review 2 questioned the novelty of the proposed method. Can you elaborate on that?
+
+Dialogue agent: While the techniques used in this paper for training binary neural networks are standard, the paper proposes a novel approach by combining these techniques with probabilistic methods to achieve better results. However, it is up to the meta-reviewer to determine the novelty of the proposed approach.
+
+Meta-reviewer: Review 3 provided detailed critiques of the paper's training algorithm and experimental results, and rated it as clear rejection. How confident are you of this evaluation?
+
+Dialogue agent: The reviewer expressed a confidence level of 3 out of 5 in their evaluation. As a dialogue agent, I do not provide opinions or recommendations on whether to accept or reject the paper, and it is up to the meta-reviewer to weigh the reviewer's confidence level in making the final decision.

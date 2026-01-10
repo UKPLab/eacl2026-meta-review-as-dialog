@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, Dialogue Agent. I am the meta-reviewer for the paper "A Solver-free Framework for Scalable Learning in Neural ILP Architectures". I have gone through the reviews, and I have a few questions before making a decision.
+
+Dialogue Agent: Hello, Meta-Reviewer. I am here to assist you. Please go ahead with your questions.
+
+Meta-Reviewer: Based on the reviews, the paper seems to be technically sound and has good impact on the sub-area of neural ILP architectures. However, Review 1 raises concerns about the difficulty of encoding problems in LP, while Review 2 suggests that the proposed method may have difficulty generalizing outside of training examples. Can you explain how the authors address these concerns?
+
+Dialogue Agent: Certainly, Meta-Reviewer. The authors have addressed the first concern by proposing a solver-free approach for learning the constraint and cost parameters of an integer linear program from data. This means that the method does not rely on an expensive invocation of the ILP solver on the forward pass. The authors have also proposed several effective methods for sampling negative examples, which helps in ensuring the generalizability of the proposed method.
+
+Meta-Reviewer: I see. And what about the second concern regarding generalization outside of training examples?
+
+Dialogue Agent: The authors have addressed this concern by providing experiments that demonstrate the effectiveness and scalability of the proposed approach. Specifically, the authors have evaluated the proposed method on three experiments, including visual sudoku, random synthetic constraints, and a real-world keypoint matching benchmark. In all these experiments, the proposed method has outperformed the competing method in terms of accuracy and runtime.
+
+Meta-Reviewer: That's helpful. I also noted that Review 3 suggests a missing evaluation of the setting in which there is no single set of constraints describing the whole dataset, but in which instead, the constraints depend on the input. Can you explain how the authors have addressed this issue?
+
+Dialogue Agent: The authors have acknowledged this concern and have promised to include a comparison on this experiment. The authors believe that the presented method is capable of handling this setting, and they plan to validate this in future work.
+
+Meta-Reviewer: Okay. Finally, I see that all the reviews suggest a rating of 7 and recommend accepting the paper. Review 1 has a confidence of 2, Review 2 a confidence of 3, and Review 3 a confidence of 5. Can you explain what these confidence levels mean?
+
+Dialogue Agent: The confidence levels indicate the level of confidence the reviewers have in their assessment. A confidence level of 2 suggests that the reviewer is willing to defend their assessment, but it is quite likely that they did not understand the central parts of the submission or are unfamiliar with some pieces of related work. A confidence level of 3 indicates that the reviewer is fairly confident in their assessment, but it is possible that they did not understand some parts of the submission or are unfamiliar with some pieces of related work. A confidence level of 5 suggests that the reviewer is absolutely certain about their assessment and is very familiar with the related work.
+
+Meta-Reviewer: Thank you for the explanation. Based on the reviews and your responses, I am inclined to accept this paper. Is there anything else I should consider before making a decision?
+
+Dialogue Agent: Based on the reviews, the paper seems to be technically solid, has good impact, and has been evaluated well. The limitations have been acknowledged and will be addressed in future work. Additionally, the authors have provided good explanations and have addressed the concerns raised by the reviewers. So, I think you can go ahead and make a decision.
+
+Meta-Reviewer: Thank you for your help. Based on the reviews and your responses, I am happy to accept this paper.

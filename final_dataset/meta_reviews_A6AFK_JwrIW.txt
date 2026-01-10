@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Learning Causally Invariant Representations for Out-of-Distribution Generalization on Graphs". Can you tell me what the paper is about?
+
+Dialogue Agent: Sure! The paper discusses the problem of out-of-distribution (OOD) generalization on graphs, where shifts in the distribution can change both the attributes and the structure of the graphs. The authors propose a method based on causal-based invariant learning objectives and empirically evaluate its effectiveness.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. What are the strengths of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the paper poses a great challenge towards existing OOD generalization algorithms on graphs, provides some sort of explanation, and has a sound connection between semi-supervised contrastive learning and invariance principles. However, one reviewer mentions that the results in the experiments are sometimes misleading and the method seems complex with two GNNs and three loss functions. Another reviewer mentions that the presentation can be improved and some equations can be made clearer.
+
+Turn 3:
+
+Meta-Reviewer: I see. What are the weaknesses of the paper according to the reviews?
+
+Dialogue Agent: According to the reviews, the method seems complex and the presentation can be improved. One reviewer mentions that the reasoning process between the multiple objective functions is poorly organized and hard to evaluate. Another reviewer mentions that the assumption of the presence of an invariant subgraph is interesting and reasonable, but the method would not work in the single environment setting.
+
+Turn 4:
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I think the paper is technically solid, but the presentation and explanation of the method could be improved. I'm leaning towards a weak accept. What do you think?
+
+Dialogue Agent: Based on the reviews, I agree with your assessment. The paper presents a thorough study from the causal view, which should enlighten future research in this field. However, the method seems complex and the presentation can be improved. I would rate the paper a weak accept with a confidence level of 4.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your input. I think I'll go with a weak accept rating of 6, with a confidence level of 4.
+
+Dialogue Agent: That's a fair assessment. The paper presents a novel and interesting approach to OOD generalization on graphs, but the presentation and explanation of the method could be improved. I'm glad I could help with the review process.

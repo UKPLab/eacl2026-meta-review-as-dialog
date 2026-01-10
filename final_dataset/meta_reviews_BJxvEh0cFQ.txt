@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I've read through the reviews for the paper titled "K for the Price of 1: Parameter-efficient Multi-task and Transfer Learning." I need to decide whether to accept or reject this paper. Can you provide me with more information about the reviews?
+
+Dialogue Agent: Of course. Please let me know what information you need.
+
+Meta-reviewer: I see that Review 1 rates the paper as "Good" and suggests that the memory benefit is clear. However, the reviewer also raises some questions about the training speed between the last layer and whole network fine-tuning methods. Can you provide me with more information about this?
+
+Dialogue Agent: Review 1 suggests that it would be interesting to know about the training speed comparison between the methods, but the review does not provide any further details.
+
+Meta-reviewer: Alright. I'll keep that in mind. Moving on, Review 2 rates the paper as "Marginally above acceptance threshold" and raises concerns about the experiment design and analysis. Can you tell me more about these issues?
+
+Dialogue Agent: Review 2 raises several points, including the fact that only certain models were evaluated, and that the organisation of the paper could be improved for clarity. The reviewer also questions why the results of fine-tuning the last layer only are not included in the analysis.
+
+Meta-reviewer: I see. Finally, Review 3 rates the paper as a "clear accept" and highlights the novelty of the proposed method. However, the reviewer also requests that the authors address a few concerns during the rebuttal stage. What are these concerns?
+
+Dialogue Agent: Review 3 requests that the authors explain the choice of hyper-parameters in Table 1, fix Figure 3, and provide an explanation for how the average number of parameters per model is computed in Tables 4 and 5. The reviewer also requests that the authors provide a proper discussion for the domain adaptation part of the paper and consider leaving out the discussion of cost-efficient model cascades. Lastly, the reviewer requests an explanation for how the method manages different resolutions in the domain adaptation experiments.
+
+Meta-reviewer: Thank you for the thorough summary. Based on these reviews, I am inclined to accept the paper. However, I am concerned about the confidence levels of each reviewer. Reviewer 1 seems to be more confident in their evaluation than Reviewer 2 or 3. How important is reviewer confidence in making our final decision?
+
+Dialogue Agent: As a dialogue agent, I am not programmed to give opinions or recommendations. However, it is generally accepted that higher confidence levels are more desirable in evaluations. Nonetheless, it is important to consider the quality and relevance of the concerns raised by each reviewer, regardless of their confidence level.
+
+Meta-reviewer: Thank you for the reminder. I will take that into account when making my final decision.

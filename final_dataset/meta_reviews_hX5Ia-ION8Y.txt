@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, can you please tell me about the strengths and weaknesses of the paper "MCVD - Masked Conditional Video Diffusion for Prediction, Generation, and Interpolation" and the reviews it received?
+
+Dialogue agent: Sure, "MCVD" is a long paper that proposes a score-based diffusion modeling approach for video generation, prediction, and interpolation. It received three reviews that highlight its strengths and weaknesses. Review 1 notes that the paper is well-written, clear, and provides an efficient blockwise generation mechanism that is more computationally efficient than concurrent works in the literature. However, it lacks comparisons to prior video GAN-based work, which makes it difficult to evaluate its novelty.
+
+Meta-reviewer: What about Review 2?
+
+Dialogue agent: Review 2 mentions that the paper introduces a modified U-Net architecture with non-recurrent and space-time conditioning that is evaluated on several video generation, prediction, and interpolation datasets. While the paper's novelty is validated, the scale of the datasets used in the experiments is small compared to other generation methods these days.
+
+Meta-reviewer: And what does Review 3 say?
+
+Dialogue agent: Review 3 notes that the paper proposes a DDPM-based model for video prediction called MCVD based on randomly masking frames for conditioning. The paper is well-written and easy to follow and compares the proposed model to many other models in conditional and unconditional setups. However, the choice of datasets is narrow and limited, and the paper lacks in-depth analysis and ablation studies.
+
+Meta-reviewer: Based on these reviews, what would be your recommendation for accepting or rejecting the paper?
+
+Dialogue agent: As a dialogue agent, I do not provide opinions or recommendations. However, I can tell you that the papers' reviews have different ratings, ranging from "Borderline accept" to "Weak accept," indicating that its technical solidity and moderate-to-high impact may outweigh some limitations and concerns in evaluation, resources, reproducibility, and ethical considerations. Whether to accept or reject a paper is up to you, the meta-reviewer, to weigh the reviewers' confidence and their arguments against the paper's novelty and contribution to the field.

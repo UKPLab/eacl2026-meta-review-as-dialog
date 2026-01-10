@@ -1,0 +1,25 @@
+Meta-reviewer: Hello, dialogue agent. I have read the three reviews of the paper titled "Abstractified Multi-instance Learning (AMIL) for Biomedical Relation Extraction" and I need some clarification before making a decision about its acceptance. Can you help me?
+
+Dialogue agent: Of course. I'll do my best to provide you with helpful information.
+
+Meta-reviewer: The first reviewer praised the paper's experimental setup and strong results with AMIL outperforming the baseline. However, they pointed out that the instance grouping step is not discussed in detail. Can you explain why this is and whether it affects the reproducibility of the method?
+
+Dialogue agent: The instance grouping step is briefly mentioned in Section 4.1, but we understand that more detailed discussion might be useful for reproducibility. We will take this comment into account in our final version and try to provide more details about the instance grouping step.
+
+Meta-reviewer: The same reviewer also asked about the quality of the UMLS semantic types used in the paper and suggested showing some entities with types in the appendix. Can you provide any additional information about this?
+
+Dialogue agent: The UMLS semantic network is curated by human experts for decades and provides a rich ontology of biomedical concepts. We rely on the accuracy and quality of this ontology to group instances by semantic types. In our experiments, we use all semantic types available in the UMLS network. We will consider the suggestion of showing entities with types in the appendix to provide more information about this.
+
+Meta-reviewer: The second reviewer mentioned the lack of a clear and proper problem formulation in the paper. Can you explain how the paper addresses this concern?
+
+Dialogue agent: While we believe that our introduction provides a clear problem statement, we understand the reviewer's suggestion of adding a formal problem formulation to make the problem more explicit and accessible to readers. We will consider adding a formal problem formulation in our final version.
+
+Meta-reviewer: The same reviewer asked about the difference between corpus-level and sentence-level evaluation and requested more justification for the differences in evaluation between our paper and the previous work of Dai et al. (2019). Can you address these concerns?
+
+Dialogue agent: The difference between corpus-level and sentence-level evaluation is based solely on the distinction between rare and common triples, as mentioned in Table 3. For rare triples, we evaluate on the sentence-level since these may only appear in a few sentences. For common triples, we evaluate on the corpus-level. Regarding the comparison to Dai et al. (2019), we were only able to compare precision on the top K predictions due to a difference in data, as explained in the paper. Nonetheless, we will consider providing a more detailed justification in our final version.
+
+Meta-reviewer: The third reviewer suggested that the evaluation protocol might have defects and asked about the possibility of including trainable embeddings for semantic types in the baseline. Can you respond to these questions?
+
+Dialogue agent: We acknowledge the reviewer's concern about the evaluation protocol. We tried our best to construct a fair evaluation setting, but we understand that distant supervision can result in noisy data and some errors. In response to the suggestion about including trainable embeddings for semantic types in the baseline, we agree that this is a reasonable baseline and we will consider adding it to our experiments in our final version.
+
+Meta-reviewer: Thank you for addressing these concerns. Based on the reviews and your responses, I am confident in recommending the acceptance of the paper.

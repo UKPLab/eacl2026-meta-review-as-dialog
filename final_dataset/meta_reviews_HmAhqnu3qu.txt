@@ -1,0 +1,27 @@
+Meta-Reviewer: Hello, Dialogue Agent. I have read the three reviews for the paper "Graph Representation Learning for Multi-Task Settings: a Meta-Learning Approach", and I would like to ask you some questions to help me make a decision regarding the paper's acceptance. Can you please give me a brief summary of the paper's content and contribution?
+
+Dialogue Agent: Sure. The paper proposes SAME, a model for learning multi-task node embeddings based on GNN and meta-learning. SAME aims to quickly adapt to multiple tasks, different from the multi-task learning setting. The paper introduces two model variants, iSAME and eSAME, based on different settings in inner/outer loop of parameter update. The paper presents experiments on several datasets to demonstrate the good performance of SAME. The paper's main contribution is to propose a new model for learning multi-task node embeddings through a meta-learning way.
+
+Meta-Reviewer: Thank you for the summary. Review 1 mentions that the novelty of the work is incremental, and the model is quite simple. Can you give me more information about the novelty and contribution of the work? 
+
+Dialogue Agent: As Review 1 notes, the framework of SAME adopts a similar procedure as the general meta-learning procedure. However, SAME is novel in the sense that it is the first work to study a single set of node embeddings for multi-tasks in a graph. Moreover, SAME introduces a new approach to learn multi-task node embeddings through meta-learning, which is a promising direction for future research in this area.
+
+Meta-Reviewer: Review 2 raises a concern about the proposed meta-learning approach being a direct application of the MAML method and asks for a comparison with existing works on multi-task learning. What can you tell me about this?
+
+Dialogue Agent: Review 2 correctly notes that the proposed meta-learning approach is similar to the MAML method. However, SAME differs from the MAML method in that it is designed for learning multi-task node embeddings in a graph setting. As for the comparison with existing works on multi-task learning, the paper mentions related works in the literature review section. However, Review 3 suggests that the related work section can be strengthened, and more baseline models could be added to the experiments to provide a more comprehensive comparison.
+
+Meta-Reviewer: I see. Review 3 recommends accepting the paper and suggests some minor and major concerns. Can you tell me more about these concerns?
+
+Dialogue Agent: Review 3 recommends accepting the paper and notes that the methodology is well-motivated and well-written, with experimental results illustrating the effectiveness of the model. The major concern raised by Review 3 is that the related work section can be strengthened, and the authors could add more baselines for comparison in the experiments. Review 3 also suggests introducing the dataset more specifically. The minor concerns involve the formatting of the figures and the redundancy of Section 3 for the related readers.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, it seems that the paper has some strengths, such as proposing a new approach to learning multi-task node embeddings through meta-learning, and demonstrating good performance in experiments. However, there are also some concerns, such as the incremental novelty of the work, the similarity with existing methods, and the need for more comparisons with baseline models. I would like to ask you about the confidence levels of the reviewers.
+
+Dialogue Agent: Review 1 expresses a confidence level of 5, meaning that the reviewer is absolutely certain that the evaluation is correct and very familiar with the relevant literature. Review 2 expresses a confidence level of 4, which means the reviewer is confident but not absolutely certain that the evaluation is correct. Review 3 expresses a confidence level of 3, indicating that the reviewer is fairly confident that the evaluation is correct.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews' strengths and weaknesses and the reviewers' confidence levels, I think the paper is marginally above the acceptance threshold and should be accepted. What is your opinion?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation. However, I can provide more information or clarification if needed.
+
+Meta-Reviewer: Thank you. I think I have enough information to make an informed decision. I will accept the paper and provide the authors with some suggestions to address the concerns raised by the reviewers. 
+
+Dialogue Agent: Thank you for using me as your dialogue partner. I hope I was able to assist you in making a decision.

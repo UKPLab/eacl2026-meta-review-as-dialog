@@ -1,0 +1,19 @@
+ Meta-Reviewer: Hello, I'm reviewing a paper titled "Approximation and non-parametric estimation of ResNet-type convolutional neural networks via block-sparse fully-connected neural networks". The paper is long and has three reviews. The first review states that the authors show the statistical error of the ERM for non-parametric regression using the family of ResNet-type CNNs. The second review states that the authors demonstrate the function expression properties for the Residual type convolutional neural networks to approximate the block-sparse fully connected neural networks. The third review states that the paper studies approximation and estimation properties of CNNs with residual blocks in the context of non-parametric regression.
+
+Dialogue Agent: Hello! I'd be happy to help you assess this paper. Based on the reviews, the authors have shown that ResNet-type CNNs can be used for non-parametric regression and have demonstrated the function expression properties of Residual type CNNs. Can you tell me what specific aspects of the paper you would like to discuss?
+
+Meta-Reviewer: Well, I'm not sure if the authors have provided enough insight into their construction of block-sparse fully-connected neural networks. The second review mentions that the authors demonstrate the function expression properties for the Residual type convolutional neural networks to approximate the block-sparse fully connected neural networks, but it's not clear to me how this is done. Can you help me understand this aspect of the paper?
+
+Dialogue Agent: Sure! The authors have shown that any block-sparse fully-connected neural network can be embedded in a ResNet-type CNN. This is done by constructing a residual block that is composed of multiple layers, each of which is a fully-connected neural network with a specific structure. The authors then show that this construction can be used to approximate any function that can be expressed by a block-sparse fully-connected neural network.
+
+Meta-Reviewer: I see. But isn't it true that the obtained CNN approximating architectures look quite unrealistic compared to most practical use-cases of CNNs? The second review mentions that the authors specifically try to reproduce a fully-connected architecture, leading to residual blocks of depth ~= D/K, which is very deep compared to usual CNNs/ResNets.
+
+Dialogue Agent: Yes, that is a valid point. The authors have constructed a specific type of ResNet-type CNN that is designed to approximate fully-connected neural networks, but this construction may not be practical for most use-cases of CNNs. However, the authors have also shown that their construction can be used to approximate any function that can be expressed by a block-sparse fully-connected neural network, which may be useful in certain scenarios.
+
+Meta-Reviewer: I see. Another concern I have is that the paper could be significantly improved in terms of presentation. The introduction and related work sections could be more clearly written, and more insight and discussion of the obtained results could be provided in the main paper.
+
+Dialogue Agent: Yes, I agree. The authors could have done a better job of introducing the relevant notions and providing more insight and discussion of the obtained results. However, the authors have provided a clear and concise summary of their results, and the paper is well-organized and easy to follow.
+
+Meta-Reviewer: Okay, I think that's all I have for now. Thank you for your help!
+
+Dialogue Agent: You're welcome! Is there anything else you would like to discuss before I end our conversation?

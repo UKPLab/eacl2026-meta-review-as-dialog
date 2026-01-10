@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews of the paper titled "Continuous MDP Homomorphisms and Homomorphic Policy Gradient," and I have a few questions before making a decision.
+
+Dialogue agent: Of course, please let me know.
+
+Meta-reviewer: The first review mentions that the paper could be of interest in the field of symmetries in RL. Can you confirm if the paper explores this direction in-depth?
+
+Dialogue agent: The paper does include plots that seem to show some degree of symmetry recovery, but this direction is not explored in-depth. The authors allude to the potential of their approach to find symmetries in MDPs, but they do not provide a thorough exploration in the paper.
+
+Meta-reviewer: I see. Review three also mentions the limitations of assuming deterministic policies. Does the paper discuss these limitations in detail?
+
+Dialogue agent: Yes, the paper discusses the limitations of assuming deterministic policies in Section 4.2.
+
+Meta-reviewer: That's good to know. Review two mentions the paper is overall well-written. However, the same review says that the literature review is insufficient. Can you comment on this?
+
+Dialogue agent: While the paper aligns with prior literature on using bisimulation metrics in model-free learning, the review suggests that the paper should discuss the similarities between the proposed model and prior works such as DBC and the benefits of adding action abstraction to this framework. Additionally, the review provides a list of prior works on MDP homomorphisms and bisimulations that could be of interest to the authors.
+
+Meta-reviewer: Thank you for conveying this to me. Finally, reviews one and three mention missing experiments or limitations that are not discussed thoroughly. Can you provide further information on this?
+
+Dialogue agent: Review one mentions that the paper could be stronger by including experiments with background distraction videos to show robustness to distractors irrelevant to the task, which was demonstrated in the original DBC paper. Review three mentions that the paper demonstrates the benefit of state and action abstractions in learning compact representations, but does not provide a discussion on whether the quantitative benefits are due to increased model capacity only. Also, there is no clear information on the size of the state-action encoding.
+
+Meta-reviewer: I see. Thank you for summarizing the reviews for me. Based on the strengths and weaknesses mentioned in the reviews, I am inclined to accept the paper. Do you have any suggestions for me?
+
+Dialogue agent: As a dialogue agent, I cannot provide opinions or recommendations. However, I can remind you that the reviews rate the paper as a 7, which represents a technically solid paper with high impact, good evaluation, resources, reproducibility, and no unaddressed ethical considerations. Both reviewers are fairly confident in their assessment, although they acknowledge some limitations in understanding some parts of the submission or unfamiliarity with some pieces of related work. Ultimately, the decision is up to you, and I am here to assist you with any questions you may have.

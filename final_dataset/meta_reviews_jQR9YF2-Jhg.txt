@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the paper titled "Respecting Transfer Gap in Knowledge Distillation" along with the three reviews provided. Can you give me a brief overview of the paper, please?
+
+Dialogue agent: Certainly. The paper proposes a new method called Inverse Probability Weighting Distillation (IPWD), which is used to balance the weight of each sample in the knowledge distillation loss. The authors observed that even if the teacher model is trained with balanced data, the transferred information may be imbalanced, which harms the performance of knowledge distillation. The proposed IPWD method aims to address this issue, and the experimental results show its effectiveness.
+
+Meta-reviewer: Thank you for the summary. I noticed that Review 1 mentioned a concern about the long-tailed property of the teacher's predictions. Can you elaborate more on that?
+
+Dialogue agent: Yes, Review 1 pointed out that Figure 1 in the paper shows a long-tailed property of the teacher's predictions. The reviewer wondered whether this issue could be fixed by some techniques from long-tailed classification. 
+
+Meta-reviewer: I see. And what was the authors' response to this concern?
+
+Dialogue agent: The authors did not provide a direct response in the paper. However, they could address this concern in future work.
+
+Meta-reviewer: Review 2 mentioned that the proposed IPWD method performed worse than another method called WSLD on ResNet-18 student. Can you comment on that?
+
+Dialogue agent: Yes, Review 2 pointed out this limitation. However, the paper also reported that the proposed IPWD method outperformed the WSLD on some other datasets and student models. Therefore, it is possible that the IPWD method may specialize in certain scenarios.
+
+Meta-reviewer: Review 3 mentioned that the use of Inverse Probability Weighting (IPW) is not well motivated or explained in the paper. Can you provide more information on that?
+
+Dialogue agent: Review 3 pointed out that the paper did not explain the use of IPW clearly and did not provide a well-motivated reason for its use in this context. The reviewer also stated that the technical contribution of the paper may be limited because the use of IPW has been established before.
+
+Meta-reviewer: That is concerning. Overall, considering the three reviews, what is your confidence level in the paper?
+
+Dialogue agent: Based on the reviews, the paper seems to be technically solid and the proposed method shows promising results. However, there are also limitations and concerns mentioned in the reviews regarding the experimental evaluation and the technical contribution. Therefore, my confidence level is moderate, and the decision to accept or reject the paper should be made based on the final judgment of the meta-reviewer.

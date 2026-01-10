@@ -1,0 +1,23 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "Dynamic Sparse Network for Time Series Classification: Learning What to See," and I have some questions.
+
+Dialogue Agent: Hello, meta-reviewer. I am here to answer your questions to the best of my ability.
+
+Meta-Reviewer: Okay. Review 1 mentioned that the paper needs substantial effort to improve its presentation. Can you give me more information about that?
+
+Dialogue Agent: I cannot provide opinions or recommendations, but I can confirm that Review 1 noted that the paper needs improvement in its presentation.
+
+Meta-Reviewer: Understood. Review 2 mentioned that there are concerns about significant originality and technical contribution. Can you tell me more about that?
+
+Dialogue Agent: Again, I cannot provide opinions or recommendations, but Review 2 did raise questions about the paper's technical contribution and originality. The review suggested additional clarification about the space of problems solved and comparing the proposed method with transformer-based works and attention mechanisms.
+
+Meta-Reviewer: I see. Finally, Review 3 raised concerns about whether there are simpler ways to achieve the same result and whether the baselines are strong enough. Can you give me more information about that?
+
+Dialogue Agent: Review 3 noted that the proposed method is an effective way to cover various receptive fields without cumbersome hyper-parameters tuning. However, the review raised a question about whether there are simpler ways to achieve this, such as combining the prediction of several models with different receptive fields. The review also suggested running experiments multiple times and reporting both mean and standard deviation for better comparison with baselines. 
+
+Meta-Reviewer: Thank you for your answers. Can you remind me of the type of the paper?
+
+Dialogue Agent: The paper is classified as long.
+
+Meta-Reviewer: Got it. Based on these reviews, it seems like Review 2 and Review 3 have some concerns about the paper's technical contribution. However, Review 1 noted that the paper has strength in reducing the cost of DNN and extensive experimentation on public datasets. Considering this, I think I will accept the paper with a rating of 5: Borderline accept: Technically solid paper where reasons to accept outweigh reasons to reject, e.g., limited evaluation. Please use sparingly.
+
+Dialogue Agent: Understood, meta-reviewer. Thank you for your decision.

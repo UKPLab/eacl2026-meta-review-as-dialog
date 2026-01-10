@@ -1,0 +1,13 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the paper titled "S3GC: Scalable Self-Supervised Graph Clustering" and I have two reviews from different reviewers. Can you tell me more about the reviewer's feedback on the paper?
+
+Dialogue agent: Hello, meta-reviewer. Sure, I can summarize the feedback for you. Reviewer 1 appreciated the simplicity and scalability of the proposed method but raised concerns about the novelty of the idea, the applicability of the method to heterogeneous graphs, and the lack of a direct theoretical justification. Reviewer 2 acknowledged the importance of the problem and the extensive experimental results but pointed out that the proposed method's novelty is unclear, and deeper discussion about the combination of the three modules is needed.
+
+Meta-reviewer: I see. Can you tell me more about the strengths and weaknesses of the proposed method?
+
+Dialogue agent: Certainly. According to Reviewer 1, the proposed method is simple, intuitive, and scalable to large-scale graphs while combining both graph and node feature information. The author has provided extensive experimental validation, and the paper is written well. However, Reviewer 1 suggests applying to an applied conference for a larger impact. Also, the novelty is questionable, and there is a lack of theoretical justification. Reviewer 1 also raised concerns about the method's applicability to heterogeneous graphs.
+
+According to Reviewer 2, the proposed method addresses existing limitations and produces better quality embedding clusters. The author applied self-supervised learning to the graph clustering problem in a scalable way. The author has conducted extensive experiments and gave correlated analysis. As for weaknesses, Reviewer 2 pointed out that the novelty is unclear. Although the three modules are combined, the effectiveness is not discussed in detail, and deeper ablation study is needed.
+
+Meta-reviewer: Thank you for the summary. Which rating and confidence level would you suggest given these reviews?
+
+Dialogue agent: Given these reviews, I would suggest a rating of 6: Weak Accept: Technically solid, moderate-to-high impact paper, with no major concerns with respect to evaluation, resources, reproducibility, ethical considerations, and a confidence level of 3: You are fairly confident in your assessment. It is possible that you did not understand some parts of the submission or that you are unfamiliar with some pieces of related work. Math/other details were not carefully checked.

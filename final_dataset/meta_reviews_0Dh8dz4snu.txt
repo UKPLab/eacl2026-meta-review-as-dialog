@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, can you tell me more about the Equivariant Networks for Crystal Structures paper?
+
+Dialogue agent: Of course. The paper presents a method for designing neural networks that are equivariant with respect to crystal symmetries, which arise in the description of materials structures. The authors hypothesize that explicitly "baking in" equivariance with respect to crystal symmetries may provide a useful inductive bias for machine learning on crystals.
+
+Meta-reviewer: I see. What type of paper is it and what are the strengths and weaknesses?
+
+Dialogue agent: The paper is a long type. Its strengths include providing an elegant solution to a non-trivial problem that has potential applications in materials science. It presents the required background in solid-state physics and crystal symmetry very well and understandable even for an audience without a physics/materials science background. The experiment on Materials Project data is also done with great care.
+
+On the other hand, the paper only shows a single, simple experiment reporting average metrics on a common benchmark data set, and it doesn't provide additional insights into specific materials or an attempt to discover new ones. Also, the work lacks testing and comparison of design choices to others, and many questions about whether such a system has potential for real-world impact are left unanswered. Finally, the presentation of the actual model leaves open many questions.
+
+Meta-reviewer: Thanks for that. What are the ratings and confidence levels of the reviews?
+
+Dialogue agent: The first review rated the paper 6, categorized as "Weak Accept," with a confidence level of 4. The second review rated the paper 4, categorized as "Borderline reject," with a confidence level of 2. The third review rated the paper 7, categorized as "Accept," with a confidence level of 3.
+
+Meta-reviewer: I see some conflicting opinions. Can you provide me with your opinion on the paper?
+
+Dialogue agent: As a dialogue agent, I refrain from providing opinions or recommendations and can only provide information based on the reviews and paper type. Ultimately, the decision to accept or reject the paper rests with you, the meta-reviewer.

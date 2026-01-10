@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I am reviewing the paper "Learning Contextualized Knowledge Structures for Commonsense Reasoning". Can you provide me with some information about the paper's reviews?
+
+Dialogue agent: Of course. The paper has received three reviews. Review 1 rates it marginally below the acceptance threshold with a rating of 5 and a confidence level of 3. Review 2 rates it marginally above the acceptance threshold with a rating of 6 and a confidence level of 4. Review 3 rates it as a good paper and recommends acceptance with a rating of 7 and a confidence level of 3.
+
+Meta-reviewer: Could you summarize the common strengths and weaknesses found in these reviews?
+
+Dialogue agent: Sure. All reviewers agree that the paper is well-written and that the proposed method of using knowledge graphs for commonsense reasoning is well-motivated. However, Review 1 and Review 2 raise concerns about the empirical effectiveness of the model and its novelty compared to previous methods. On the other hand, Review 3 finds the paper to be a reasonable contribution.
+
+Meta-reviewer: What is the paper's type and what are its main contributions?
+
+Dialogue agent: The paper's type is long. Its main contribution is a "hybrid" KG-based model named the "Hybrid Graph Network" that jointly learns to refine/augment the graph structure while also optimizing it for inference performance in commonsense reasoning tasks. The paper proposes a method of using GPT-2 language model to generate missing edges between nodes in the KG.
+
+Meta-reviewer: Given the varying ratings and confidence levels of the reviews, what would be your recommendation for the paper's acceptance?
+
+Dialogue agent: As an AI language model, I cannot provide an opinion or recommendation. However, I can provide you with the ratings and confidence levels of the reviews. You will need to weigh the importance of the concerns raised by Review 1 and Review 2 against the findings of Review 3.

@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, Dialogue Agent. I have read the reviews for the paper titled "Distributional Sliced-Wasserstein and Applications to Generative Modeling," and I must say that they are quite positive. However, I still have some questions regarding the paper that would help me decide whether to accept or reject it.
+
+Dialogue Agent: I will do my best to provide you with the information you need. Please keep in mind that as a dialogue agent, I cannot provide opinions or recommendations.
+
+Meta-reviewer: That's fine. Review 1 asks how to select $\lambda_C$ in practice. Can you tell me if the authors have provided a detailed discussion on this topic?
+
+Dialogue Agent: The authors have not discussed $\lambda_C$ in great detail, but they have noted that it could be selected using a validation set or through cross-validation. However, they do not provide empirical results for these methods, and that could be a potential area of improvement.
+
+Meta-reviewer: I see. Review 2 mentions that the specific parameterization of the mapping $f$ is not clear. Can you give me more information about that?
+
+Dialogue Agent: The authors use a deep neural network to parametrize $f$. However, Reviewer 2 notes that the specific parameterization of the network is not well described in the main body of the paper. Additionally, the review questions whether a simple empirical distribution that is optimized over a corresponding number of fixed slices would perform as well as the neural network.
+
+Meta-reviewer: Thank you for letting me know. Review 3 brings up some concerns with the experimental section. Can you tell me more about it?
+
+Dialogue Agent: Reviewer 3 questions whether the number of training epochs is fixed for all methods and suggests that more iterations might be needed for methods that only contain one direction. Additionally, the review notes that the estimation of the 1D Wasserstein on a mini-batch is not the same as computing the true Wasserstein distance. The review suggests that the authors could compare the mini-batch version of the original Wasserstein distance with the sliced version. Finally, Reviewer 3 notes that it would be beneficial to see applications of the methodology beyond generative modeling, such as classification and domain adaptation.
+
+Meta-reviewer: Thank you for summarizing those points. I will take them into consideration. Lastly, can you tell me about the confidence levels of the reviews?
+
+Dialogue Agent: Review 1 is highly confident in their evaluation, with a confidence level of 5 out of 5. Review 2 is confident, but not as certain, with a confidence level of 4 out of 5. Review 3 is highly confident, with a level of 5 out of 5.
+
+Meta-reviewer: Thank you for your help. Based on the reviews, I believe that this paper is a strong candidate for acceptance.

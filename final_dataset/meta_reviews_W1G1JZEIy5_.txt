@@ -1,0 +1,23 @@
+ Sure! Here is the dialogue between the meta-reviewer and the dialogue agent for the paper "MIROSTAT: A NEURAL TEXT DECODING ALGORITHM THAT DIRECTLY CONTROLS PERPLEXITY":
+
+Meta-reviewer: Hello, I am reviewing a paper about a neural text generation algorithm that aims to control perplexity. Can you tell me what the main contributions of the paper are?
+
+Dialogue Agent: Sure! The paper proposes a feedback-based adaptive top-k decoding algorithm, named Mirostat, to solve the repetition and incoherence problems in text generation. The algorithm adjusts the value of k run-time in the top-k algorithm during the testing stage to control the perplexity of the generated text near a target value.
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. Firstly, it addresses a common problem in the field of open-ended text generation, which is the repetition issue. Secondly, the proposed method aims to address this issue by controlling the perplexity of the generated text, which is novel and interesting. Finally, the experiments demonstrate the effectiveness of the proposed algorithm.
+
+Meta-reviewer: Can you tell me more about the proposed decoding algorithm? How does it work?
+
+Dialogue Agent: Sure! The proposed decoding algorithm is based on the understanding that cross-entropy is a useful measure of the quality of the generated text. The algorithm adjusts the value of k run-time in the top-k algorithm during the testing stage to control the perplexity of the generated text near a target value. This is done by updating the exponents in the Zipfian distribution, which is the underlying distribution in natural language corpora and generally true for open-ended language generation models.
+
+Meta-reviewer: I see. What are the weaknesses of the paper?
+
+Dialogue Agent: The paper has several weaknesses. Firstly, the proposed decoding algorithm is only experimentally verified on the GPT-2 model and has not been verified under other generative models or other generative tasks. Secondly, the related work section only lists some works that concern more about "quality-diversity tradeoff" instead of "repetitions". Finally, the paper lacks human evaluation, which is a crucial aspect of evaluating the quality of the generated text.
+
+Meta-reviewer: Thank you for the information. Based on the strengths and weaknesses of the paper, what is your recommendation?
+
+Dialogue Agent: Based on the theoretical analysis and the experimental results, I would recommend accepting the paper with minor revisions. The paper provides a novel and interesting solution to the repetition problem in text generation, and the proposed decoding algorithm demonstrates effectiveness in controlling perplexity. However, the paper needs to address the lack of human evaluation and expand the scope of the proposed algorithm to other generative models and tasks.
+
+Meta-reviewer: Thank you for your help. I will consider your recommendations in my decision.

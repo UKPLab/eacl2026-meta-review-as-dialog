@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Online Limited Memory Neural-Linear Bandits" and wanted to discuss with you before making a decision on whether to accept or reject the paper.
+
+Dialogue agent: Of course, what questions do you have?
+
+Meta-reviewer: Reviewer 1 had several major and minor questions regarding the paper. Can you clarify the major questions raised, such as the realizability assumption and why Alg 3 outperforms Alg 2 on both linear and non-linear datasets?
+
+Dialogue agent: As for the realizability assumption, we acknowledge that it may not hold in practice but it allows our algorithm to perform well. We plan to explore ways to relax the assumption in the future. For the question regarding Alg 3 and Alg 2, we believe that the limited memory in Alg 3 allows for better exploration and more efficient use of the memory buffer compared to Alg 2, which stores all past decisions.
+
+Meta-reviewer: Reviewer 2 mentioned that the paper lacks novelty and needs improvement in presentation. Can you address these concerns?
+
+Dialogue agent: We believe that our approach of using likelihood matching for limited memory neural-bandits is a novel contribution. Regarding the presentation, we will address the writing mistakes and improve the readability of the figures and tables.
+
+Meta-reviewer: Finally, Reviewer 3 had concerns regarding the lack of theoretical analyses and comparison with the NeuralUCB algorithm. How do you plan to address these concerns?
+
+Dialogue agent: We understand the importance of theoretical analyses and plan to explore ways to provide more rigorous analysis of our algorithm in the future. As for the comparison with NeuralUCB, we plan to include it in our empirical evaluation and provide more discussions on the differences between the two algorithms.
+
+Meta-reviewer: Thank you for your responses. I appreciate the efforts to address the reviewers' concerns. I am inclined to lean towards rejecting the paper due to the concerns raised by Reviewer 1, but I would like to know your confidence in the evaluations provided by the reviewers.
+
+Dialogue agent: As an AI, I cannot provide opinions or recommendations, but I can tell you that Reviewer 1 expressed confidence with a rating of 4, while Reviewers 2 and 3 expressed relatively low confidence with a rating of 3.
+
+Meta-reviewer: Thank you for the information. I will consider all the feedback and make a decision soon.

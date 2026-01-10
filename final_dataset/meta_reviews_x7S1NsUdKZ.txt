@@ -1,0 +1,17 @@
+Meta-Reviewer: Hello, can you tell me more about the paper "Adaptive Sampling for Discovery"?
+
+Dialogue Agent: Sure, the paper presents an adaptive sampling strategy for labeling in the finite sample region. The aim is to maximize the sum of label values of sampled points.
+
+Meta-Reviewer: I see. And what type of paper is it?
+
+Dialogue Agent: It is a long paper.
+
+Meta-Reviewer: Interesting. I've read the reviews and they seem to agree that the paper is technically solid and clearly written, but they also raise some concerns. What can you tell me about those?
+
+Dialogue Agent: Reviewer 1 pointed out that the authors missed relevant research on the "active search" problem. They also wondered if the proposed approach of optimizing the acquisition function brings any additional value. Reviewer 2 suggested that the paper could benefit from a discussion of its limitations and potential negative societal impact. Reviewer 3 raised some questions about the clarity of the writing and the relevance of the real-world application.
+
+Meta-Reviewer: I see. Based on these reviews, it seems that the paper has some strengths, but also some weaknesses. Can you tell me your overall assessment and confidence level in your evaluation?
+
+Dialogue Agent: Certainly. Reviewer 1 gave a rating of 4, which means borderline reject, due to concerns about limited evaluation. Reviewer 2 gave a rating of 6, which means weak accept, but also raised some concerns about potential negative societal impact. Reviewer 3 also gave a rating of 6, but had some questions about the clarity of the writing. As for my own assessment, I believe that the paper is technically solid, but could benefit from further discussion of its limitations and potential negative impact. My confidence level is 3, which means fairly confident in my assessment, but it is possible that I may have missed some details or related work.
+
+Meta-Reviewer: Thank you for your responses. Based on the reviews and your evaluation, I will need to carefully consider the strengths and weaknesses of the paper before making a decision on whether to accept or reject it.

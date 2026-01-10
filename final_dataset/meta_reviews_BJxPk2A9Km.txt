@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for these thorough reviews. Reviewer 1 seems to appreciate the novel solutions proposed in the paper, although they would like to see more comparisons with state-of-the-art methods. Reviewer 2 raises concerns about the use of bidirectional GRU to calculate the relationship between each memory entry. And Reviewer 3 is not convinced that the proposed approach is suitable for problems involving vast amounts of streaming data, since the experiments were conducted on tasks that do not fall in this domain. 
+
+Based on these reviews, I have a few questions for the dialogue system. Can you please explain how the proposed Long-term Episodic Memory Networks (LEMN) work in more detail? How does it address the problem of memory management in neural networks when faced with abundant data? 
+
+Dialogue System: The proposed LEMN approach learns to erase less important memory entries to store incoming data effectively by computing a retention score for each memory entry. This score is based on the importance of the memory entry relative to other entries and its historical importance over time. LEMN is able to retain important information while discarding the unnecessary information and thus improve the performance of neural networks on memory-intensive tasks.
+
+Meta-Reviewer: Thank you for the explanation. Reviewer 1 mentions the lack of comparison with state-of-the-art methods, particularly the differentiable neural computer (DNC). Can you provide any insights into why there is no comparison made in the paper?
+
+Dialogue System: As a dialogue agent, I cannot provide opinions or recommendations. However, I can confirm that the authors did acknowledge DNC in the paper and stated that LEMN is an extension of the DNTM, with the introduction of recurrent connections over space and time. It is up to the meta-reviewer to weigh the importance of this comparison in their decision-making process.
+
+Meta-Reviewer: Reviewer 2 raises concerns about the use of bidirectional GRU in calculating the relationship between each memory entry. Can you provide any insights into this issue?
+
+Dialogue System: LEMN utilizes a bidirectional GRU to compute the similarity between each memory entry. While bidirectional RNN models are typically used to obtain the impact from the beginning to the end as well as the end to the beginning, they do not provide a clear view of the relationship between each memory entry. This is a valid concern raised by Reviewer 2, and it is up to the meta-reviewer to decide whether this issue affects the overall quality of the paper.
+
+Meta-Reviewer: Reviewer 3 raises concerns about the suitability of the proposed approach for problems involving vast amounts of streaming data. Can you provide any insights into this issue?
+
+Dialogue System: The proposed approach is aimed at addressing the problem of memory management in neural networks when faced with abundant data. While the experiments were conducted on tasks that do not necessarily involve vast amounts of streaming data, the proposed approach and retention policy are designed to be effective in such scenarios. However, as raised by Reviewer 3, further testing on tasks involving longer stretches of time and significant amounts of distracting, irrelevant data can help evaluate the effectiveness of the proposed approach in solving problems involving streams of abundant data. 
+
+Meta-Reviewer: Thank you for the insights, dialogue agent. Based on the reviews and your responses, I have decided to reject the paper. While the proposed approach is novel and potentially useful in memory-intensive tasks, there are concerns raised about the lack of comparisons with state-of-the-art methods, the validity of using bidirectional GRU to calculate the relationship between each memory entry, and the lack of testing on tasks that involve vast amounts of streaming data.

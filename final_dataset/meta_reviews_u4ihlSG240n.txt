@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, I have read all the reviews for the paper titled "OmniVL: One Foundation Model for Image-Language and Video-Language Tasks." Based on the reviews and my understanding, I have some questions before making a final decision. Dialogue agent, could you please clarify?
+
+Dialogue agent: Sure, I'll do my best to clarify anything you need.
+
+Meta-reviewer: Review 1 mentioned that the proposed framework unifies different modality objectives, downstream task formulations, and input data types. Could you please explain how the framework is achieving this?
+
+Dialogue agent: The OmniVL framework proposes a unified transformer-based visual encoder that can take both image and video inputs. In addition, it proposes a joint pre-training of image-language and video-language using a decoupled paradigm. This allows the framework to leverage both spatial and temporal dimensions effectively. Finally, the framework also proposes a unified vision-language contrastive loss, which leverages different sources of data, such as image-text, video-text, image-label and video-label information. By doing so, it can be evaluated on vision-only tasks, multimodal retrieval, and multimodal generation based tasks like captioning and VQA.
+
+Meta-reviewer: That sounds interesting. Review 2 mentioned some weaknesses in the paper. Could you please elaborate on those?
+
+Dialogue agent: The reviewer mentioned that the two-stage pre-training process proposed in this work is a bit complicated, and that compared to prior works, it does not use end-to-end pre-training. The reviewer also mentioned that several important baseline models and datasets are missing, and that the comparison is not comprehensive. Finally, the reviewer mentioned that the ablation part of the paper may not be comprehensive enough.
+
+Meta-reviewer: I see. Do you have any response regarding the weaknesses mentioned in Review 2?
+
+Dialogue agent: As a dialogue agent, I try to refrain from giving opinions or recommendations. However, I can mention that the paper authors have addressed some of the concerns raised in the reviews in their rebuttal, which you may find helpful in making your decision.
+
+Meta-reviewer: Okay, thank you for letting me know. Review 3 mentioned that the ablation part of the paper could be more comprehensive. Could you please provide further details on this?
+
+Dialogue agent: The reviewer felt that the ablation study could have been more comprehensive. They noted several areas where they had questions and were looking for more detailed explanations. Specifically, they wanted to know more about the effect of different pre-training tasks and the effect of using different types of losses. They also felt that it would have been helpful to have more extensive results reported for some of the downstream tasks.
+
+Meta-reviewer: I see. Thank you for explaining. Regarding the ratings and confidence level of each review, do they play a significant role in our decision-making process?
+
+Dialogue agent: As a dialogue agent, I cannot provide an opinion on the role of ratings or confidence levels in decision-making. However, it is common for reviewers to provide ratings and confidence levels as a way to indicate their level of support for the paper. These ratings and confidence levels can be useful as one source of information to consider when making a final decision.
+
+Meta-reviewer: Understood. Thank you for clarifying. Based on the reviews and your clarifications, I am inclined to accept the paper. However, I will need to carefully consider all aspects before making a final decision. Thank you for your help, dialogue agent.
+
+Dialogue agent: You're welcome. Please don't hesitate to contact me if you have any further questions.

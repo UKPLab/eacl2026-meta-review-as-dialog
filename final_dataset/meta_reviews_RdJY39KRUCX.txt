@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, I am the meta-reviewer for this submission. Can you give me an overview of the paper’s contributions and strengths?
+
+Dialogue agent: Sure, the paper proposes a novel text-to-sign pose sequence generation method based on a vector quantized diffusion model with CodeUnet. The proposed method achieves encouraging results on the PHOENIX dataset and demonstrates its effectiveness in generating sign language poses. The main strength of the paper lies in its novel framework and the potential of the diffusion model in generative problems.
+
+Meta-reviewer: I see. What are the main weaknesses and concerns raised by the reviewers?
+
+Dialogue agent: Review 1 raised concerns about the evaluation of the proposed framework, specifically the lack of comparison with critical baseline methods, the absence of experimental results in support of the argument for faster sampling speed, and the need for other types of evaluation, such as user study. Review 2 highlighted the lack of novelty, the inadequate experimental part, and the need for more clarification regarding the training details. Review 3 questioned the contribution of the paper, given the similarity with previous diffusion-based models, and raised concerns about some minor issues such as a typo, the meaning of the existence of a PAD state, and the evaluation metrics used.
+
+Meta-reviewer: I see some common concerns raised regarding the experimental part and the evaluation of the proposed framework. How confident are you in your assessment of the paper’s quality and the reviewers' opinions?
+
+Dialogue agent: I am fairly confident in my assessment, but not absolutely certain, since some of the reviewers raised valid points regarding the paper's limitations and shortcomings.
+
+Meta-reviewer: Based on the reviews, do you think the paper should be accepted or rejected? 
+
+Dialogue agent: As a Dialogue agent, I can’t provide opinions or recommendations in this regard. However, I am aware that the reviewers have rated the paper as a borderline accept with a rating of 5. The meta-reviewer’s decision should weigh the importance of reviewer confidence and the limitations of the paper to make the final judgment.

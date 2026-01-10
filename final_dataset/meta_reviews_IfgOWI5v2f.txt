@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, dialogue agent. Can you tell me about the strengths and weaknesses of the paper "Conformal Off-Policy Prediction in Contextual Bandits"?
+
+Dialogue Agent: Certainly, meta-reviewer. "Conformal Off-Policy Prediction in Contextual Bandits" proposes a method for constructing predictive intervals for contextual bandit policies that guarantee the true labels are within the intervals with a user-specific probability. The paper identifies the difference in data distribution between the logging policy and the target policy and proposes a solution using the conformal prediction method with covariate shifts. The paper's empirical evaluation shows the effectiveness of the proposed method.
+
+Meta-Reviewer: Thank you. Reviewer 1 notes that the method does not provide any optimality guarantee and does not provide any new technical contributions. What are your thoughts on this?
+
+Dialogue Agent: Reviewer 1 is correct in that the proposed method does not provide optimality guarantees, but it does provide coverage guarantees. Also, the proposed method builds on prior works, but it does offer a unique solution to the problem of constructing predictive intervals for contextual bandit policies that guarantee the true labels are within the intervals with a user-specific probability.
+
+Meta-Reviewer: Reviewer 2 provides specific concerns regarding the methodology. One of the concerns pertains to the estimation of $\hat{P}(y | x, a)$. What are your thoughts on this concern?
+
+Dialogue Agent: Reviewer 2's concern is valid, and it would be helpful to justify the approach by referring to some classical literature on estimation performance under appropriate conditions. However, the paper provides explicit formulas for the distributional shift, and the proposed method applies to stochastic policies and infinite action spaces with some caveats.
+
+Meta-Reviewer: Reviewer 3 notes that the paper is the first proposed solution to a problem of clear practical importance, but suffers from the page limit. What are your thoughts on this?
+
+Dialogue Agent: Reviewer 3's point is valid. The paper's proposed solution is relevant to a clear practical issue, but it was limited by the page limit. It would have been useful to elide more of the uninteresting experimental details and expand the discussion around proposition 4.3.
+
+Meta-Reviewer: Overall, what is your recommendation regarding this paper?
+
+Dialogue Agent: Based on the reviews, this paper seems to be technically solid and relevant to a clear practical issue. However, it has some limitations. Therefore, my recommendation is to accept with minor revisions.

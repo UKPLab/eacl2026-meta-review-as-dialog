@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, can you provide an overview of the paper "Coverage and Quality Driven Training of Generative Image Models"?
+
+Dialogue Agent: Yes, this paper proposes a method to alleviate two issues with VAEs and GANs: poor quality of the samples in VAEs and poor likelihood scores in GANs. The proposed method combines the VAE and GAN-discriminator based loss to minimize a lower bound on the forward and reverse KL divergence. Additionally, the paper shows that adding a flow based module to the generative model increases both the likelihood and the fidelity of the samples. The experiments are conducted on CIFAR10 and some additional datasets such as STL, LSUN, CelebA, and ImageNet.
+
+Meta-reviewer: Thank you for the overview. I have some questions regarding the reviews. Review 1 raises a concern about the novelty of the proposed model. Can you comment on that?
+
+Dialogue Agent: Review 1 suggests that adding a VAE and a GAN has been done before and that the combination of MLE and GAN based losses have been studied in other works, such as Super-Resolution. The reviewer also questions whether adding the flow to the generative VAE model have been done before. However, the main contribution of the paper is combining the VAE and GAN-based loss to alleviate the issues of VAEs and GANs and to achieve better results. Although the components of the model have been used before, the combination in this particular way is novel.
+
+Meta-reviewer: Review 2 suggests that the differences between losses may not fully explain the behavior of GANs and questions the added value of the two-term loss Eq. (8). What is your opinion on this?
+
+Dialogue Agent: While it is true that the mode covering and mode missing behaviors of VAEs and GANs cannot be fully explained by the differences in their losses, the proposed method combines the strengths of the two models. The two-term loss Eq. (8) has shown to produce better results compared to using only the VAE or GAN loss. Additionally, the paper shows that adding a flow-based module to the generative VAE model further improves the results.
+
+Meta-reviewer: Review 3 sounds positive about the paper and its results. Can you provide some more details about their evaluation and feedback?
+
+Dialogue Agent: Review 3 finds the paper well-motivated and the main contribution clearly presented. The paper properly discusses related works and presents convincing results in the experimental section, including ablation tests, quantitative comparison, and qualitative visual images. Overall, Review 3 recommends accepting the paper.
+
+Meta-reviewer: Thank you for your responses. Given these reviews, what is your opinion on the paper and its acceptance?
+
+Dialogue Agent: Review 1 raises some concerns about the novelty of the proposed model, but Reviews 2 and 3 are positive about the paper and its results. It is up to your discretion as the meta-reviewer to weigh these opinions and make the final decision.

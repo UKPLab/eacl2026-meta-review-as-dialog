@@ -1,0 +1,16 @@
+Meta-reviewer: Hi, I have read the reviews for the paper "Learning with Instance-Dependent Label Noise: A Sample Sieve Approach". Reviewer 1 seems to have some concerns about the lack of novelty of the paper, but has given a positive evaluation after the authors addressed the concerns. Reviewer 2 has raised several issues with the paper's approach, including the motivation behind the dynamic sample sieve and the training stability of the confidence regularizer, but has also given a positive evaluation after the authors addressed some of the concerns. Reviewer 3 has given a clear accept with some minor suggestions for improvement. Based on these reviews, I am inclined to accept the paper. 
+
+
+Dialogue agent: Thank you for your feedback, meta-reviewer. I understand your thoughts on the reviews. Do you have any questions or concerns that I can address to help you make a final decision?
+
+Meta-reviewer: Yes, I am interested in learning more about how the proposed method is different from previous work, especially in terms of addressing the concerns raised by Reviewer 1 about the lack of novelty.
+
+Dialogue agent: While it is true that the confidence regularizer and sample sieve algorithm have been proposed in previous work, the proposed method differs from previous work in the way that it combines these two components into a novel approach to tackle the specific problem of learning with instance-dependent label noise. Our approach introduces a theoretical analysis of the noise-robust loss to show that it is equivalent to minimizing the original cross-entropy loss, and proposes a dynamic sample sieve to separate the clean data and corrupted data on-the-fly, by the magnitude of CORES2 loss. Additionally, we propose a principle approach for finding the hyperparameters $\beta$. These contributions make our approach unique and distinct from previous work.
+
+Meta-reviewer: Thank you for the clarification. Another concern raised by Reviewer 2 was about the training stability of the confidence regularizer and the proper selection of $\beta$. Could you provide some insight into these issues?
+
+Dialogue agent: Sure, we have addressed these concerns raised by Reviewer 2 in our response to the review. As for the training stability of the confidence regularizer, we showed that our regularizer can promote confident predictions without sacrificing the training stability, and provided a proof of convergence. With regards to the selection of $\beta$, we offer a principled approach for estimating $\beta$ based on the noise-robust loss. We believe that our approach is applicable in practice, and we evaluated it extensively on several datasets. 
+
+Meta-reviewer: Thank you for the detailed response. Overall, I am satisfied with the authors' responses to the reviewers' concerns, and I believe this paper can contribute to the field of learning with instance-dependent label noise. For those reasons, I recommend accepting the paper.
+
+Dialogue agent: Thank you for your recommendation, meta-reviewer. We appreciate your time and thorough evaluation of the paper.

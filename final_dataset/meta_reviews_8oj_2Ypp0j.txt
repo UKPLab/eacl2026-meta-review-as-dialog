@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, dialogue agent. Thank you for joining me today. Let's discuss the reviews for the paper "Robustness to Unbounded Smoothness of Generalized SignSGD."
+
+Dialogue agent: Hello, meta-reviewer. It's my pleasure to have this discussion with you.
+
+Meta-reviewer: So, based on the reviews, what's your overall assessment of the paper?
+
+Dialogue agent: Review 1 gives the paper a rating of 6, which is a weak accept. The reviewer thinks the paper is technically solid with moderate-to-high impact, and they have no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations. Review 2 gives the paper a rating of 5, a borderline accept. The reviewer thinks the paper is technically solid, and the reasons to accept outweigh the reasons to reject. However, the evaluation is limited, and the generalized SignSGD algorithm seems to be a little worse than the best existing algorithm, which may make it difficult to be widely used in practice. Finally, Review 3 gives the paper a rating of 7, an accept. The reviewer thinks the paper is technically solid, with high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Meta-reviewer: I see. So, overall, the paper seems to be technically sound, but there are some concerns about the evaluation and impact. Can you tell me more about the strengths and weaknesses mentioned in the reviews?
+
+Dialogue agent: According to Review 1, the core idea of the paper follows the intuition of the (L0, L1)-smooth observation, and both theoretical proofs and experimental results are shown. However, the (L0, L1)-smooth observation is well demonstrated by Zhang et al. 2019, which already proves the fast convergence rate of normalized gradient methods with the (L0, L2)-smooth. This reduces the novelty of the paper. Review 2 thinks the smoothness assumption seems unreasonable, and there is an important work missing in the related work section. On the other hand, Review 3 appreciates the motivation of the paper and thinks that there is a need to investigate better smoothness conditions that align well with practice.
+
+Meta-reviewer: I see. So, based on the reviews, it seems like there are both strengths and weaknesses to the paper. Can you remind me of the paper type and title?
+
+Dialogue agent: Yes, certainly. The paper type is long, and the title of the paper is "Robustness to Unbounded Smoothness of Generalized SignSGD."
+
+Meta-reviewer: And can you remind me of the ratings and confidence levels of the reviewers?
+
+Dialogue agent: Review 1 gives a rating of 6 (Weak Accept) with a confidence level of 4. Review 2 gives a rating of 5 (Borderline Accept) with a confidence level of 4. Finally, Review 3 gives a rating of 7 (Accept) with a confidence level of 5.
+
+Meta-reviewer: Thank you for the reminder. Finally, can you provide me with any additional information or insights that might help me make a decision on whether to accept or reject the paper?
+
+Dialogue agent: One possible additional insight to consider is that Review 3 thinks the proposed algorithm is clean and novel and shows that the efficacy of the algorithm does not depend on $L_1$ or the gradient upper bound when $\epsilon$ is small enough. The related work section is comprehensive, despite there is an important work missing. Therefore, the reviewer suggests addressing the major concerns to increase the score.

@@ -1,0 +1,19 @@
+ Sure, here is a simulated dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Scalable Interpretability via Polynomials":
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Scalable Interpretability via Polynomials". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a fully-interpretable model based on Generalized Additive Models (GAMs) that can capture any-order interactions among features. The proposed model is scalable by leveraging tensor decomposition and low-rank properties of the weight matrices.
+
+Meta-reviewer: That sounds interesting. What are the strengths of the paper?
+
+Dialogue Agent: The paper has several strengths. First, the idea of using polynomials to improve GAMs is novel and addresses an important problem in interpretable machine learning. Second, the authors provide thorough analysis for the proposed models and show their performance on several datasets. Finally, the human evaluation setting is novel and provides more evidence on why a fully-interpretable model might be better.
+
+Meta-reviewer: Okay, what about the weaknesses?
+
+Dialogue Agent: The paper has some weaknesses. For example, the authors could have included results for NA^2M since SPAM at least uses order-2 interactions. Additionally, the running time of the SPAM on different datasets could be explored to help understand the scalability of the proposed model.
+
+Meta-reviewer: I see. Based on the reviews, how would you rate the paper?
+
+Dialogue Agent: Based on the reviews, I would rate the paper as a 7: Accept. The paper has a high impact on at least one sub-area, or moderate-to-high impact on more than one areas, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations.
+
+Meta-reviewer: Thank you for your help. I will consider your assessment in my decision.

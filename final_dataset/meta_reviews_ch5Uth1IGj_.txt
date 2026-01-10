@@ -1,0 +1,23 @@
+Meta-reviewer: Hello, can you tell me about your understanding of the paper "Neural-Symbolic Entangled Framework for Complex Query Answering"?
+
+Dialogue agent: Sure, the paper proposes a novel neural-symbolic approach called ENeSy to answer FOL-based queries over KGs. The paper represents a given KG via two parts, a neural part that uses rotatE to embed entities and relations into a complex space and a symbolic part where an entity and a relation are encoded as a one-hot vector and an adjacent matrix, respectively. The proposed approach focuses on the intermediate entities, which previous approaches did not consider to answer multi-hop queries. The paper proposes an entangled version of some key operations such as projection, intersection, union, and negation for answering complex queries.
+
+Meta-reviewer: How do you rate the paper in terms of technical soundness, based on the reviews?
+
+Dialogue agent: Based on the reviews, the paper is considered technically solid. Reviewer one and three rated the paper with a score of 7, which implies a technically sound paper with high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. Reviewer two rated the paper with a score of 5, which implies a technically solid paper where reasons to accept outweigh reasons to reject, e.g., limited evaluation.
+
+Meta-reviewer: How confident are the reviewers in their assessments?
+
+Dialogue agent: Reviewer one and three have a confidence score of 2 and 3, respectively, which implies that they are willing to defend their assessment, but it is quite likely that they did not understand the central parts of the submission or that they are unfamiliar with some pieces of related work. Math/other details were not carefully checked. Reviewer two has a confidence score of 4, which implies that they are confident in their assessment, but not absolutely certain. It is unlikely, but not impossible, that they did not understand some parts of the submission or that they are unfamiliar with some pieces of related work.
+
+Meta-reviewer: Do any of the reviews raise any concerns about the proposed approach?
+
+Dialogue agent: Reviewer two raised some concerns about the proposed approach. The main concern is that the entangling framework adds more possible answers to the queries, and they would like to see a comparison of how many of the possible answers added by the symbolic logic are actually correct. Reviewer two also notes that important baselines are missing, such as CQD and GNN-QE, which are closely related to this work but not discussed. Additionally, performances on FB15k are missing. However, they also acknowledge that the proposed entangling framework can include any other embedding methods, thus adding a performance improvement to all previous KGE methods.
+
+Meta-reviewer: How important is it for you that the approach outperforms the baselines?
+
+Dialogue agent: It depends on the importance of the improvement. Reviewer one notes that the proposed approach does not fully outperform the strongest baseline FuzzQE on benchmark datasets, but still rates the paper as technically solid with a score of 7. Additionally, reviewer two rated the paper with a score of 5, indicating that the reasons to accept outweigh the reasons to reject, despite the fact that important baselines are missing. Therefore, it seems that while outperforming the baselines could be important, it is not necessarily a requirement for a technically solid paper, provided that the proposed approach still has merits over the baselines.
+
+Meta-reviewer: Can you tell me about the confidence of the reviewers in their assessments?
+
+Dialogue agent: As I mentioned earlier, the confidence scores of the reviewers vary, with reviewer one and three having a higher level of confidence compared to reviewer two. However, all reviewers seem to have a good understanding of the proposed approach, and their assessments are based on thorough evaluations of the paper.

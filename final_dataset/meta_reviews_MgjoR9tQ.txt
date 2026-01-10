@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I am a meta-reviewer and I have some questions regarding the reviews for the paper "CBOW Is Not All You Need: Combining CBOW with the Compositional Matrix Space Model". Can you provide more information about the main contributions of this paper?
+
+Dialogue agent: Certainly. The paper presents new training schemes and experiments for a matrix-multiplicative variant of CBOW called CMSM, which swaps the bag of vectors to a product of square matrices for encoding context to incorporate word ordering. The main contributions are an initialization scheme for context matrices and a modification of the CBOW objective, both of which counter the vanishing gradient problem and improve the quality of learned representations when evaluated as sentence embeddings. Concatenating CBOW and CMSM architectures is additionally helpful.
+
+Meta-reviewer: Thank you. And what are the weaknesses of the paper?
+
+Dialogue agent: The main weakness of the paper is that the improvements are weak, as stated in Review 1. Additionally, Review 2 points out that the model doesn't seem to make a significant difference on the downstream tasks, and there could be more motivation for the approach. Finally, Review 3 mentions a concern regarding the computational cost of the proposed method compared to simpler models, and a lack of justification as to when it's appropriate to use the method.
+
+Meta-reviewer: I see. Can you tell me more about the overall rating and confidence level of each review?
+
+Dialogue agent: Certainly. Review 1 has a rating of 6, which is marginally above the acceptance threshold, and a confidence level of 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. Review 2 has a rating of 5, which is marginally below the acceptance threshold, and a confidence level of 4. Review 3 has a rating of 6, which is marginally above the acceptance threshold, and a confidence level of 3.
+
+Meta-reviewer: Thank you for the information. Based on these reviews, I am leaning towards rejecting the paper due to its weak improvements and lack of significant impact on downstream tasks. However, the reviewers do note some contributions to the field. What are your thoughts?
+
+Dialogue agent: As a dialogue agent, I can't provide opinions or recommendations on whether to accept or reject the paper. However, I can tell you that the reviews do acknowledge the contributions of the paper, particularly in terms of presenting new training schemes and experiments for a matrix-multiplicative variant of CBOW. Ultimately, the decision is up to you as the meta-reviewer.

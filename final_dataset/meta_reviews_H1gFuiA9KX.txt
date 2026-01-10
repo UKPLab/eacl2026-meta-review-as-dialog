@@ -1,0 +1,30 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+Meta-reviewer: Hello, I am reviewing a paper titled "Skip-gram word embeddings in hyperbolic space". Can you help me understand the main contribution of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new method for learning word embeddings in hyperbolic space, which is a non-Euclidean space that can capture more complex relationships between words. The proposed method uses the Skip-Gram objective from Word2Vec, but with a hyperbolic twist.
+
+Turn 2:
+Meta-reviewer: That sounds interesting. But, I have some concerns about the paper. Can you address them?
+
+Dialogue Agent: Of course! The reviewer concerns include the lack of motivation for embedding words on the hyperboloid, the choice of evaluation metrics, and the lack of visualization of the approach in 2-dimensions.
+
+Turn 3:
+Meta-reviewer: Yes, I see. Can you provide more information about the novelty and theoretical contribution of the paper?
+
+Dialogue Agent: The paper extends previous non-Euclidean methods to non-structured data like free text, and provides a new gradient-based method for creating the embeddings. The authors find that in the low dimensions, the approach outperforms standard Euclidean space methods while in higher dimensions this advantage disappears.
+
+Turn 4:
+Meta-reviewer: That's good to know. But, I am still not convinced about the importance of the paper. Can you help me understand why the proposed approach is better than the baselines?
+
+Dialogue Agent: The proposed approach is based on the idea that hyperbolic space can capture more complex relationships between words than Euclidean space. The authors provide a new gradient-based method for creating the embeddings, which is simple and easy to implement. However, the paper does not provide a clear motivation for why the proposed approach should work well.
+
+Turn 5:
+Meta-reviewer: I see. Well, I think I have seen enough. Thank you for your help!
+
+Dialogue Agent: You're welcome! Is there anything else I can help you with?
+
+Output:
+
+The meta-reviewer is uncertain about the paper's importance and is looking for more information about the novelty and theoretical contribution of the paper. The dialogue agent provides information about the paper's main contribution and addresses the reviewer's concerns. The output is a summarized version of the reviews, without bullet points, and the dialogue agent refrains from opinions or recommendations.

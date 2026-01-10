@@ -1,0 +1,19 @@
+Meta-Reviewer: Hello, can you tell me more about the paper "RotatE: Knowledge Graph Embedding by Relational Rotation in Complex Space"? 
+
+Dialogue Agent: Sure. The paper proposes a method for graph embedding in which entities are represented as complex vectors and relations are modeled as rotations in complex space. The method is able to model symmetry, anti-symmetry, inversion and composition patterns of relations in a knowledge base.
+
+Meta-Reviewer: I see. And what type of paper is this?
+
+Dialogue Agent: This is a long paper.
+
+Meta-Reviewer: Okay. Can you tell me about the reviews for this paper?
+
+Dialogue Agent: There are three reviews. Reviewer 1 gave a 7/10 rating and suggested that the authors investigate the differences between their method and TorusE. They also suggested including the results of the ablation study in the main paper and mentioning the contributions of the negative sampling approach in the abstract. Reviewer 2 also gave a 7/10 rating and suggested that the presentation of the paper could be improved, particularly in the optimization section. They also asked about how the number of parameters used to express representations compare when represented as complex or real numbers. Reviewer 3 gave a 7/10 rating and suggested that a more careful ablation study should have been carried out, but overall found the paper to be interesting and well-written.
+
+Meta-Reviewer: I see. Based on these reviews, how confident are the reviewers in their evaluations?
+
+Dialogue Agent: Reviewer 1 is fairly confident with a confidence rating of 3/5. Reviewer 2 is confident but not absolutely certain with a confidence rating of 4/5. And Reviewer 3 is also confident but not absolutely certain with a confidence rating of 4/5. 
+
+Meta-Reviewer: Thank you for the information. Overall, do you think this paper should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, I cannot provide an opinion or recommendation. It is up to you, the meta-reviewer, to weigh the importance of the reviewers' comments and evaluations in making the final decision.

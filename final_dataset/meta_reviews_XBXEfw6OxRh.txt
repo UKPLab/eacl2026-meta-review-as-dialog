@@ -1,0 +1,21 @@
+Meta-Reviewer: Hello, dialogue agent. I am tasked with making a decision on the paper "Black-box coreset variational inference." Could you provide me with some information on the reviews?
+
+Dialogue Agent: Of course. There are three reviews. Review 1 rates the paper highly, with a score of 7 out of 10, and praises the methodology and technical argument. Review 2 has some reservations and rates the paper a 5 out of 10, citing issues with the experiment results and the clarity of the motivation behind importance sampling. Review 3 also rates the paper 5 out of 10, and highlights concerns about the quality of the variational approximation and suggests exploring more efficient methods.
+
+Meta-Reviewer: Thank you for the summary. Could you remind me of the paper's type and title?
+
+Dialogue Agent: The paper is a long paper titled "Black-box coreset variational inference."
+
+Meta-Reviewer: Great, thank you. Review 1 mentions that the presented results show significant improvements in accuracy and test log-likelihood for the presented models and datasets. Do the other reviews share this view?
+
+Dialogue Agent: Review 2 does not believe that the experiment results on MNIST are very competitive, and Review 3 has reservations about the quality of the variational approximation. However, both reviews acknowledge the novelty and potential of the proposed method.
+
+Meta-Reviewer: Review 1 also raises concerns about the proposed approach's performance on data with complex structure and high intrinsic dimensionality. Does Review 3 mention any concerns about scalability?
+
+Dialogue Agent: Yes, Review 3 suggests that the quality of the coreset may depend on the amount of bias and that importance sampling may work poorly in high dimensions. The reviewer recommends exploring the use of a more powerful posterior, such as a full-covariance Gaussian or flows, to improve performance.
+
+Meta-Reviewer: Thank you. Finally, could you remind me of the confidence levels of the reviewers?
+
+Dialogue Agent: Review 1 is confident in their assessment, with a confidence level of 4. Review 2 is fairly confident, with a confidence level of 3. Review 3 is also fairly confident, with a confidence level of 3.
+
+Meta-Reviewer: Okay, thank you for your help. Based on the reviews, I think I will accept the paper. While there are some concerns, the methodology is sound, and there is potential for future work to address scalability and improve the quality of the coreset.

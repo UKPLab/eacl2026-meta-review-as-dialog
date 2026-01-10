@@ -1,0 +1,27 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper titled "Defective Convolutional Networks." Overall, the reviews seem positive, but there are also some suggestions that need to be addressed. Can you give me your general impression of the paper and its reviews?
+
+Dialogue agent: Hello, meta-reviewer. Thank you for reviewing the paper and its reviews. From what I can gather, the paper proposes a novel method to improve adversarial robustness in convolutional networks by dropping outputs of a fraction of neurons, leading to a shift in focus from texture to shape features. Review 1 thinks the paper is novel, but suggests some improvements and clarifications. Review 2 also thinks the paper is novel but needs more motivation and analysis. Review 3 finds the paper's claims somewhat circumstantial, but raises the score after reading the authors' replies. Overall, the paper seems to have potential but also requires more solid evidence and analysis.
+
+Meta-reviewer: That's an accurate summary. Review 1 points out that the authors need to present more detailed quantitative information on runtime. Can you confirm whether such information is missing?
+
+Dialogue agent: Yes, that is correct. The authors claim that their method has lower runtime than EGC-FL, but they do not present any quantitative information on this matter.
+
+Meta-reviewer: Review 1 also questions the claim that defective CNNs can save a lot of computing and storage. Is there any evidence or explanation in the paper that justifies this claim?
+
+Dialogue agent: No, there is no clear evidence or explanation in the paper regarding this claim. It would be useful for the authors to provide more details on how their method can reduce computation and storage.
+
+Meta-reviewer: Review 1 also raises a concern about the keep probability values in tables 2, 3, and 4. Can you explain this issue?
+
+Dialogue agent: Yes, that is correct. Tables 2 and 3 have keep probability values of 0.1, while table 4 has values of 0.3 and 0.5. The authors do not explain why they chose different values for different tables. This could be seen as cherry-picking the results, so the authors should provide more justification for their choices.
+
+Meta-reviewer: Review 2 suggests that the paper needs better motivation and analysis. What can you say about this?
+
+Dialogue agent: Review 2 thinks that the paper's motivation is not clear enough. The authors should explain why this work is important and applicable to real-world computer vision applications beyond just defending against adversarial attacks. Moreover, Review 2 argues that the authors need to provide a more rigorous analysis of the impact of their proposed method on locality and texture.
+
+Meta-reviewer: Review 3 has some concerns about the paper's claims and experimental evidence. Can you elaborate on this?
+
+Dialogue agent: Review 3 thinks that the paper's claims about shifting the focus of the model from texture to shape features are not supported by solid evidence. The experiments in the paper show only circumstantial evidence of the effectiveness of the proposed method. Review 3 suggests that the authors should perform more experiments to show, for example, which pixels are being used to make classification decisions, using Grad-CAM or similar methods. Moreover, Review 3 suggests that more experiments should be performed to demonstrate the effectiveness of the proposed method against stronger attacks.
+
+Meta-reviewer: Thank you for the helpful summary. Given all the feedback and suggestions from the reviewers, what is your recommendation for the paper?
+
+Dialogue agent: Based on the reviews, the paper seems to have potential, but there are also some issues and concerns that need to be addressed. The reviewers have provided useful suggestions for improving the paper. With appropriate revisions, I would recommend accepting the paper. However, if the authors are unable to address the suggested issues, I would recommend rejecting the paper.

@@ -1,0 +1,17 @@
+Meta-Reviewer: Thank you both for your thorough reviews of this paper. Based on what you've both said, I'm still trying to determine whether to accept or reject this paper. Reviewer 1, you seem to have some concerns about the limited novelty of the paper, while Reviewer 2 has pointed out issues with unclear writing and a missing comparison. Reviewer 3, you raise important questions about the motivation for the paper and the lack of experiments beyond CLEVR. 
+
+Dialogue Agent: Thank you for summarizing the reviews. As the dialogue agent, I would like to provide some additional information without giving opinions or recommendations. This paper proposes a neuro-symbolic model for VQA that turns each question into a probabilistic program and utilizes a differentiable program executor that executes neural modules that can read and write to a stack. The experiments are conducted on the CLEVR dataset, which is a synthetic dataset with lossless mapping between question text and semantics. The paper claims the model achieves high accuracy on CLEVR using small amounts of supervision.
+
+Meta-Reviewer: Thank you for that summary. Can you elaborate on the missing comparison that Reviewer 2 mentioned? 
+
+Dialogue Agent: Reviewer 2 pointed out that the paper is missing a comparison to Prob-NMN, which is another method that achieves data-efficient learning on CLEVR, and it is critical to the prior work. The reviewer suggests a more controlled experiment to compare their method against Prob-NMN.
+
+Meta-Reviewer: Thank you. And Reviewer 1, can you speak more about your concerns regarding the novelty of the paper?
+
+Reviewer 1: Yes, the paper mainly combines together ideas that have been explored in many prior works, rather than offering a particular new idea or insight. The paper's novelty seems limited to me, though I do recognize the importance of the direction this paper takes in combining these ideas. 
+
+Meta-Reviewer: Understood. And Reviewer 3, you bring up the lack of motivation for the paper and the fact that experiments are only conducted on CLEVR. Can you comment more on this?
+
+Reviewer 3: Yes, I find it concerning that the paper lacks justification for why a new model was needed and what is new about it. Additionally, the experiment section is poorly written and there are issues with understanding what all the results mean. The fact that the experiments are only conducted on CLEVR, which is a synthetic dataset, makes it difficult for me to be convinced that this method can be applied to real images.
+
+Meta-Reviewer: Thank you, everyone, for your input. Based on what you have all said, I have decided to reject this paper. While the direction of this paper is important, there are still some major issues that need to be addressed, such as unclear writing and the lack of experiments beyond CLEVR. Additionally, there are concerns about the novelty and motivation of this paper. Thank you all again for your thorough reviews.

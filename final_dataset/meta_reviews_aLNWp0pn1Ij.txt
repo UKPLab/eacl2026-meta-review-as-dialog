@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the feedback for the paper titled GAR: Generalized Autoregression for Multi-Fidelity Fusion. Could you tell me about the paper type and the reviews you have received so far?
+
+Dialogue agent: Hello, meta-reviewer. The paper is a long type and has received three reviews. Review 1 raises a concern about the novelty of the paper, stating that there is existing non-autoregressive work that can handle non-structured high-dimensional outputs and non-subset multi-fidelity data. However, they also mention the paper is well-written, includes five experiments, and outperforms several benchmarks at the highest fidelity level. Review 2 identifies the notations used in the paper as confusing but finds the contribution worthwhile and the comparison with existing methods thorough. Lastly, Review 3 highlights that GAR is a GP-based approach that employs tensor algebra to model covariances across high dimensions and concludes the results are promising. 
+
+Meta-reviewer: Thank you for the summary. What are the ratings and confidence levels of the reviewers, and do you have any comments on them?
+
+Dialogue agent: Review 1 rates the paper with a 5, which indicates a borderline accept with a moderate level of confidence of 4. Review 2's rating is a 6, suggesting a weak accept with a higher confidence level of 3. Finally, Review 3 awards the paper an 8, implying a strong accept with a confidence level of 3. It is worth noting that the confidence levels are similar between the reviews.
+
+Meta-reviewer: Thank you. What do you think about the concerns raised in Review 1 regarding the novelty of the paper?
+
+Dialogue agent: As a dialogue agent, my role is to provide information and not to offer opinions or recommendations on the paper. However, I can say that the concerns expressed are valid points that should be taken into consideration along with the positive aspects highlighted by the other two reviews.
+
+Meta-reviewer: Understood. Can you inform me about the contributions of the paper and its strengths and weaknesses?
+
+Dialogue agent: Certainly. According to the reviews, the paper presents a generalized autoregression method (GAR) and its efficient implementation CIGAR to deal with non-structured high-dimensional outputs and non-subset multi-fidelity data. The paper's contributions include the generalization of the autoregression model to handle arbitrary non-structured high-dimensional outputs and non-subset multi-fidelity data and the application of tensor algebra to efficiently model covariances across high dimensions. The strengths of the paper highlighted by the reviewers include a clear comparison with existing methods, a thorough description of the problem, and promising results. On the other hand, Review 2 identifies the notations used in the paper as confusing, while Review 1 questions the novelty of the paper and indicates that there is no significant improvement between the proposed method and the baselines for some experiments. Furthermore, only one metric is evaluated in the paper.
+
+Meta-reviewer: Thank you for the information provided. Taking into account the reviews, the paper's rating, and the confidence levels, I will decide whether the paper should be accepted or rejected. Thank you for your assistance, dialogue agent.
+
+Dialogue agent: You're welcome, meta-reviewer. Please let me know if you need any further assistance.

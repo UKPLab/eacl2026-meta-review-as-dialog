@@ -1,0 +1,23 @@
+Meta-reviewer: Thank you for your reviews of the paper "StarHopper: A Touch Interface for Remote Object-Centric Drone Navigation." Overall, it seems that the paper is well written and provides a clear description of the new drone control interface. Reviewer 1 provides some valid concerns regarding the performance of StarHopper in a more realistic environment and how it compares to other drone interfaces beyond just pure manual controls. Reviewer 2 raises some concerns about the novelty of the interaction techniques and how they compare to existing systems like DJI's ActiveTrack. However, they still recommend accepting the paper. Reviewer 3 provides some suggestions for improving the design guidelines and addressing the issue of editing or deleting objects of interest.
+
+With all of this in mind, I am leaning towards accepting the paper, but I am concerned about the novelty of the interaction techniques and the need for more extensive studies in realistic environments. However, the user study shows that StarHopper is significantly more efficient than manual controls, and the system and interaction techniques are well described. 
+
+Dialogue Agent: Thank you for your review. I can confirm that the paper on StarHopper describes a new drone control interface, which combines automated and manual piloting into a hybrid navigation system. The user study shows that the new system outperforms manual controls in terms of efficiency for the given task. 
+
+Meta-reviewer: Yes, that is my understanding as well. However, Reviewer 2 raises some concerns about the novelty of the interaction techniques and how they compare to existing systems like DJI's ActiveTrack. Is there anything you can add to address these concerns?
+
+Dialogue Agent: While I am not able to provide opinions or recommendations, I can confirm that the authors acknowledge DJI's ActiveTrack system in the related work section and state that it assumes a single subject within the FOV and is less flexible in terms of navigation. The authors also highlight the differences between their interaction techniques and those of ActiveTrack. 
+
+Meta-reviewer: That is helpful. Reviewer 1 raises concerns about the performance of StarHopper in a more realistic environment and how it compares to other drone interfaces beyond just pure manual controls. Can you provide any additional information on this?
+
+Dialogue Agent: While I cannot provide opinions or recommendations, I can confirm that Reviewer 1's concerns are valid and should be taken into consideration. The authors mention the motivation for creating an interface that performs well in a changing dynamic environment, such as a warehouse, but acknowledge that future studies in more realistic environments are needed. 
+
+Meta-reviewer: I understand. Reviewer 3 provides suggestions for improving the design guidelines and addressing the issue of editing or deleting objects of interest. Is there anything you can add about this?
+
+Dialogue Agent: While I cannot provide opinions or recommendations, I can confirm that the authors' design guidelines could benefit from further clarification, particularly regarding the use of automated systems for more complex tasks. Additionally, the issue of editing or deleting objects of interest is a valid concern and could be addressed with further details on how users can perform these actions on the interface. 
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your responses, I am leaning towards accepting the paper. However, I still have some concerns about the novelty of the interaction techniques and the need for more extensive studies in realistic environments. Can you provide any additional information to alleviate those concerns?
+
+Dialogue Agent: While I cannot provide opinions or recommendations, I can confirm that the authors provide a clear description of the new drone control interface and its interaction techniques. The user study shows significant improvements in efficiency compared to manual controls, and the authors acknowledge the limitations and potential areas for future research. 
+
+Meta-reviewer: Thank you for your input. After considering all of the reviews and your responses, I have decided to accept the paper with a rating of 8. While there are some valid concerns raised by the reviewers, the paper provides a clear description of the new drone control interface and shows significant improvements in efficiency compared to manual controls. The authors acknowledge the limitations and potential areas for future research, which is encouraging.

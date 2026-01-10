@@ -1,0 +1,29 @@
+Meta-reviewer: Hello there. Thank you, dialogue agent, for joining me today. I have read the paper on ZooD: Exploiting Model Zoo for Out-of-Distribution Generalization and I have a few questions.
+
+Dialogue agent: Sure, I am happy to assist you. Please ask your questions.
+
+Meta-reviewer: First of all, can you tell me what kind of paper this is? I see that one of the reviewers mentioned that it is a long paper.
+
+Dialogue agent: Yes, that is correct. This is a long paper.
+
+Meta-reviewer: Alright. Now, can you tell me more about the proposed approach and how it works? How does it rank pre-trained models and how does it ensemble them?
+
+Dialogue agent: The proposed approach aims to improve out-of-distribution generalization by utilizing pre-trained models. It consists of two parts. The first part is to rank pre-trained models based on their predicted generalization ability on out-of-distribution data. The authors proposed a ranking metric that uses inter-class discriminative capacity and inter-domain stability computed in a cross-validation manner. The second part is to ensemble the top ranked pre-trained models using a feature sub-selection method accomplished using an approximate inference EM approach to reduce noise in ensembled features.
+
+Meta-reviewer: Thank you for explaining that. Now, one of the reviewers mentioned that the experimental results show that ZooD outperforms the previous state-of-the-art methods. Can you confirm this? 
+
+Dialogue agent: Yes, that is correct. The experimental results conducted with 35 pre-trained models on a set of six datasets show that ZooD outperforms the previous state-of-the-art methods on most of the datasets.
+
+Meta-reviewer: That sounds promising. However, I also noticed that one of the reviewers raised some concerns about the computational efficiency of the proposed metric and how it compares with other non-finetuning methods. Can you tell me more about that?
+
+Dialogue agent: Indeed, the complexity of computing the proposed metric can be O(m^2), which may be inefficient when there are a large number of domains. However, it is still much faster than brute-force finetuning. As for comparing with other non-finetuning methods, there was no mention of such comparisons in the paper.
+
+Meta-reviewer: I see. Another reviewer mentioned some weaknesses, such as the lack of detail in the main body and the minimal benefits of ensembling over just using the best pre-trained model. What is your take on that?
+
+Dialogue agent: While the paper is technically solid and the proposed approach is interesting, there are some weaknesses that the reviewers have raised. The lack of detail in the main body may make it difficult for readers to fully understand the paper's methodology. Additionally, while the proposed ensemble method does improve performance, the benefits of ensembling over just using the best pre-trained model do not appear to be significant.
+
+Meta-reviewer: Thank you for your insights. Overall, based on the reviews and the strengths and weaknesses of the paper, what is your recommendation? Do you think we should accept or reject this paper?
+
+Dialogue agent: Based on the reviews, the paper is technically solid and there are strong empirical results with thorough methodological ablations. While there may be certain weaknesses, they do not seem to outweigh the reasons to accept the paper. Therefore, I would recommend accepting this paper with a rating of 7, according to Review 1.
+
+Meta-reviewer: I appreciate your recommendation and your thorough explanation. Thank you for your help today.

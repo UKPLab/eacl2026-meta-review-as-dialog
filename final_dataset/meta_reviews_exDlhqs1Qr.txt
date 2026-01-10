@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. Thank you for joining me today to discuss the paper "Amortized Proximal Optimization". Can you give me a summary of the paper and its contributions?
+
+Dialogue Agent: Sure. "Amortized Proximal Optimization" proposes an online meta-optimization method for adjusting parameters like learning rate and preconditioning matrices during the training process. The paper provides background information to motivate the necessity for both a function space distance (FSD) term and a weight space distance (WSD) term for the proximal objective. Then, prior 1st and 2nd order optimization methods are interpreted as proximal point methods with various approximations for the loss, FSD, and WSD. APO is proposed as a meta-optimizer that can be combined with existing optimization strategies to dynamically adjust meta-parameters. Experiments show APO adaptively learns good learning rate schedules that outperform fixed learning rates and are competitive with manually defined learning rate schedules. When applied to preconditioning matrices, APO achieves optimization performance competitive with more computationally expensive second order approaches.
+
+Meta-Reviewer: Thank you for the summary. Could you tell me about the strength and weaknesses of the paper, based on the reviews?
+
+Dialogue Agent: Sure. The reviewers thought that the paper was well-written and provided useful insights into connections between proximal optimization and popular optimization methods and the role of FSD and WSD in improving performance. The papers' experimental results were extensive, sufficient and were able to show the effectiveness of APO. The novelty of the proposed meta-objective was also appreciated. The paper can be improved by providing error bars/std for Tables 2 and 3, and the weaker performance of APO compared to manual decay schedules in Table 4 was not addressed. Also, the addition of comparisons to other hyperparameter optimization methods was requested.
+
+Meta-Reviewer: Based on these strengths and weaknesses, how would you rate the paper?
+
+Dialogue Agent: Both Review 2 and Review 3 rated the paper 7, indicating that they accept the paper since they thought it was technically solid and had moderate to high impact. However, Review 1 suggested that the authors compare their model to a few existing learnable optimizers, and adjustments to the cross-validation procedure are needed. Thus, I would suggest that the authors address the concerns mentioned by Review 1 before making a final recommendation.
+
+Meta-Reviewer: I see. How confident are you in your assessment of this paper?
+
+Dialogue Agent: I am fairly confident in my assessment, since I believe that I have understood the main contributions of the paper, the strengths, and the areas of improvement mentioned by the reviewers.

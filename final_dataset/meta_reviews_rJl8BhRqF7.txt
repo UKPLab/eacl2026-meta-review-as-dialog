@@ -1,0 +1,31 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Improving machine classification using human uncertainty measurements":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Improving machine classification using human uncertainty measurements". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The authors create a new dataset with label distributions for the CIFAR-10 test set and study the effect of fine-tuning using this dataset on the generalization performance of SOTA deep networks. They also study the effects on adversarial robustness. Additionally, they provide a theoretical contribution by deriving the loss under label distributions.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. However, I have some concerns about the experimental design. Specifically, I think the authors should have compared their approach to other calibration methods in the literature. Can you comment on this?
+
+Dialogue Agent: I understand your concern. The authors do mention that their approach is related to distillation and adding a source of relationships between classes into the objective function, which have been studied in the literature. However, they do not provide a comprehensive comparison with other methods.
+
+Turn 3:
+
+Meta-reviewer: Another concern I have is that the authors do not provide enough detail about their experimental setup. For example, they mention that they run each hyperparameter configuration for three random seeds, but they do not provide error bars for the results reported in Tables 1 and 2. Can you comment on this?
+
+Dialogue Agent: Yes, the authors do not provide enough detail about their experimental setup. They do not include error bars for the results reported in Tables 1 and 2, and they do not provide plots for the results in the appendix. This makes it difficult to fully understand the results and evaluate the effectiveness of the approach.
+
+Turn 4:
+
+Meta-reviewer: I also have some concerns about the theoretical contribution of the paper. The authors mention that they derive the loss under label distributions, but it seems like a simple derivation. Can you comment on this?
+
+Dialogue Agent: Yes, the authors do mention that the theoretical contribution is not necessarily a novel contribution, but rather a simple derivation of the loss under label distributions. However, they do provide some new insights into the effect of fine-tuning on adversarial robustness.
+
+Turn 5:
+
+Meta-reviewer: Based on my concerns, I would rate this paper as a 3, marginally above acceptance threshold. The authors provide some interesting results and insights, but the experimental design and presentation could be improved. Additionally, the theoretical contribution is not particularly novel.
+
+Dialogue Agent: Thank you for your feedback. Based on your concerns, I would recommend that the authors provide more detail about their experimental setup, compare their approach to other calibration methods in the literature, and provide more context for the theoretical contribution. Additionally, they could consider providing more plots and error bars to fully understand the results and evaluate the effectiveness of the approach.

@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews for the paper "BMU-MoCo: Bidirectional Momentum Update for Continual Video-Language Modeling" and I want to discuss some points before making the final decision. Can you provide me more information about the paper?
+
+Dialogue agent: Certainly. The paper proposes a new continual video-language modeling setting, where models are trained sequentially on five widely-used video-text datasets. The authors introduce BMU-MoCo, a cross-modal MoCo-based model with a novel bidirectional momentum update strategy. To enhance BMU-MoCo, a pair of global momentum encoders are maintained by the same BMU strategy. The proposed method is tested on the proposed benchmark and shows promising results.
+
+Meta-reviewer: Thanks for the summary. I noticed that Review 1 suggests that the proposed method is only tested on the proposed benchmark and that the authors need to show effectiveness of the proposed method on other continual learning benchmarks. Can you confirm this point?
+
+Dialogue agent: Yes, Review 1 mentions this concern as a weakness of the paper. However, it is important to note that the proposed benchmark is designed specifically to evaluate continual learning for video-language modeling. Additionally, the paper implemented several previous well-known baselines on the newly proposed benchmark, which contribute to the strength of this work.
+
+Meta-reviewer: That makes sense. I also noticed that Review 2 suggests that the setting of two momentum encoder branches (local and global) is too complicated and the gains from global branch in Table 1 seems not significant. Can you provide more details on this?
+
+Dialogue agent: Yes, Review 2 highlights this as a weakness of the paper. The proposed method maintains a pair of global momentum encoders in addition to the local momentum encoder. The authors claim that this strategy improves the performance of BMU-MoCo. However, Review 2 suggests that the gains from the global branch in Table 1 are not significant compared to the local branch. 
+
+Meta-reviewer: I see. Finally, Review 3 suggests that the method section is a bit messy and becomes hard to follow. Can you confirm this point?
+
+Dialogue agent: Yes, Review 3 points out that the method section of the paper is complex and could be simplified. They suggest that the notations in section 3 are overcomplicated and could be simplified by dropping 'i' in some of the equations. Additionally, there are some minor typos and editing issues that could be improved. However, Review 3 also notes that the contribution of the paper is clearly stated and supported in the experimental section.
+
+Meta-reviewer: Thanks for the comprehensive review, dialogue agent. I think the paper has some minor weaknesses, but overall it is technically solid and significant. I have decided to accept the paper with a rating of 6: Weak Accept. 
+
+Dialogue agent: Understood. I will inform the authors of your decision.

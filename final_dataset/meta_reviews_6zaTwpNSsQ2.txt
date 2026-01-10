@@ -1,0 +1,35 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there! I'm reviewing a paper about a new representation for training deep neural networks. The title is "A Block Minifloat Representation for Training Deep Neural Networks". Can you help me understand the main contribution of this paper?
+
+Dialogue Agent: Sure! The paper introduces a new representation called block minifloat, which combines FP8 formats and the shared exponent bias concept to cover the dynamic range of tensors needed for DNN training. The authors claim that this representation has smaller exponents, which allows for more efficient Kulisch accumulator.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. But, I have some questions. Firstly, the shared exponent bias itself is not new and use it for FP8 training is also straightforward and has limited novelty. What interesting is that the author uses this method to push for smaller exponent bits, which in turn allows a more efficient accumulator. However, I would like to know more about the accumulator and why smaller exponent is critical?
+
+Dialogue Agent: The authors explain that the shared exponent bias helps to shorten the exponent field on each individual float element, which reduces the memory bandwidth and computational cost of the accumulator. The smaller exponent bits also allow for more efficient use of the Kulisch accumulator, which is a key contribution of the paper.
+
+Turn 3:
+
+Meta-reviewer: Okay, that makes sense. But, I'm not sure if the authors have fully explored the design space of the block minifloat representation. The paper only discusses a few examples of block sizes and exponent bias settings. Have the authors performed an exhaustive exploration of the design space?
+
+Dialogue Agent: The authors have performed an exhaustive exploration of the design space for the block minifloat representation, including a wide range of block sizes and exponent bias settings. They have also explored the impact of different models and datasets on the performance of the representation.
+
+Turn 4:
+
+Meta-reviewer: That's good to know. But, I have some concerns about the hardware evaluation. The authors use existing CUDA libraries for GEMM, which basically uses standard FP32 floating point accumulation. How do the authors know that the accumulator setting won't impact model convergence?
+
+Dialogue Agent: The authors have performed a thorough evaluation of the hardware performance of the block minifloat representation, including a comparison with FP8 and other low-precision representations. They have also explored the impact of different models and datasets on the performance of the representation. While the authors do not claim that the accumulator setting will not impact model convergence, they do argue that the block minifloat representation offers several advantages over other low-precision representations.
+
+Turn 5:
+
+Meta-reviewer: Okay, I think I have a good understanding of the paper now. But, I have one final question. The authors propose using a Kulisch accumulator for minifloat dot products, which seems like a good idea. However, I'm not sure if the authors have fully explored the hardware overhead of denorm support. How do the authors address this issue?
+
+Dialogue Agent: The authors acknowledge that the hardware overhead of denorm support is a potential issue, but they argue that it is not a significant concern. They have performed a thorough evaluation of the hardware performance of the block minifloat representation, including a comparison with FP8 and other low-precision representations. While the authors do not claim that the accumulator setting will not impact model convergence, they do argue that the block minifloat representation offers several advantages over other low-precision representations.
+
+Output:
+
+Based on the dialogue, the meta-reviewer has a good understanding of the paper's main contribution and the author's arguments. The meta-reviewer has some questions about the design space exploration and the hardware evaluation, but the dialogue agent has provided satisfactory answers. The meta-reviewer may decide to accept the paper with some minor revisions.

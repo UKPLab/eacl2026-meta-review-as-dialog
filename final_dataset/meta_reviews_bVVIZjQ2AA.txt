@@ -1,0 +1,29 @@
+Meta-reviewer: Hello, dialogue agent. Can you give me some insights about the reviews for the paper on Discovered Policy Optimisation?
+
+Dialogue agent: Of course, meta-reviewer. The paper proposes a method to learn how to optimize policy under the framework of Mirror Learning. Review 1 expressed some concerns regarding the claim and experimental results of the paper, while Review 2 sees the approach as sensible and promising, but suggests evaluating the functions in other physics simulators to assess their generalization. Review 3 noted some strengths of the proposed method but also some weaknesses, including the lack of justification for some choices and insufficient experimental validation.
+
+Meta-reviewer: I see. Can you remind me of the type of the paper?
+
+Dialogue agent: The paper is a long paper.
+
+Meta-reviewer: And what is your opinion on the paper?
+
+Dialogue agent: I am an AI language model and cannot provide opinions or recommendations. However, I can provide the ratings and confidence levels provided by the reviewers.
+
+Meta-reviewer: Right. Can you tell me the ratings and confidence levels?
+
+Dialogue agent: Review 1 gave a rating of 6, which means a weak accept. Review 2 gave a rating of 7, which means accept. Review 3 gave a rating of 5, which means borderline accept. The confidence levels vary, with Review 2 being the most confident with a level of 3, and Reviews 1 and 3 having a level of 4.
+
+Meta-reviewer: Thank you for the information. Can you tell me more about the concerns raised in Review 1?
+
+Dialogue agent: Review 1 expressed concerns about the claim that TRPO and PPO are handcrafted by humans rather than discovered by learning. The reviewer also noted that learning drift functions from scratch underperform LPO and even PPO, and that learning from PPO initialization implies more human handcraft. The reviewer suggested comparing the learned methods with these mirror-learning-based methods to better evaluate the claim.
+
+Meta-reviewer: I see. That's a valid concern. How about Review 2's suggestion on evaluating the functions in other physics simulators?
+
+Dialogue agent: Review 2 suggested evaluating the functions in other physics simulators to assess their generalization, as all experiments are conducted in brax-based environments. This suggestion aims to strengthen the evaluation of the proposed method.
+
+Meta-reviewer: And what are the strengths and weaknesses noted in Review 3?
+
+Dialogue agent: Review 3 noted some strengths of the proposed method, including the use of parametrized drift functions to capture the importance of action distribution ratio and advantage in policy improvement, the justified learned behavior based on the advantage being positive or negative, and the well-curated and mechanically optimized/fine-tuned algorithm (DPO) using the discovered drift function model. However, Review 3 also noted some weaknesses, including the lack of justification for some choices, such as the non-linear formulation of $x_{r,A}$ and choice of constants for DPO, and the insufficient experimental validation to prove the improvement claimed by the contribution.
+
+Meta-reviewer: Thank you for the summaries. Based on these reviews, I need to consider the strengths and limitations of the proposed method, the concerns raised, and the confidence levels of the reviewers. It seems that there are some valid concerns, but also some promising contributions that can impact the field. I will carefully consider these factors to decide whether to accept or reject the paper.

@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. I am the meta-reviewer assigned to evaluate the reviews for the paper "Efficiently Troubleshooting Image Segmentation Models with Human-In-The-Loop". Can you provide a summary of the reviews and indicate the confidence levels of the reviewers?
+
+Dialogue Agent: Certainly. There are three reviews for the paper. Review 1 rates the paper as "Ok but not good enough - rejection" and expresses concerns regarding the lack of a competitive baseline, opaqueness around the impact of the algorithm's hyperparameters, and noise in the evaluation criteria. The confidence level of Review 1 is rated as 4, indicating that the reviewer is confident but not absolutely certain that the evaluation is correct. 
+
+Review 2 rates the paper as a "Clear rejection" and expresses concerns regarding the lack of originality and generalizability of the results. The confidence level of Review 2 is also rated as 4.
+
+Review 3 rates the paper as a "Top 50% of accepted papers, clear accept" and highlights the paper's significance in addressing an overlooked problem and proposing a novel solution. The confidence level of Review 3 is rated as 4.
+
+Meta-Reviewer: Thank you for the summary. Can you provide some additional context about the paper, such as its type and the specific concerns raised by Review 1?
+
+Dialogue Agent: Certainly. The paper is a Long paper titled "Efficiently Troubleshooting Image Segmentation Models with Human-In-The-Loop". Review 1 expressed concerns regarding the lack of a competitive baseline, opaqueness around the impact of the algorithm's hyperparameters, and noise in the evaluation criteria due to a small sample size. The review also noted some nits regarding typos, missing legends in figures, and a missing citation.
+
+Meta-Reviewer: Thank you for the additional context. Based on the reviews, how confident are you that the paper should be accepted?
+
+Dialogue Agent: The reviews are mixed, with one reviewer recommending acceptance, one recommending rejection, and one borderline. Given the concerns raised by Review 1 in particular, I am not confident that the paper should be accepted in its current form, and additional revisions and clarification may be necessary.

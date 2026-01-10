@@ -1,0 +1,29 @@
+Meta-Reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "On Disentangled Representations Learned From Correlated Data" and I want to discuss my decision on whether to accept or reject the paper.
+
+Dialogue Agent: Hello, meta-reviewer. I am ready to answer any questions you might have.
+
+Meta-Reviewer: Let's start with the type of the paper. Can you tell me what type it is?
+
+Dialogue Agent: Yes, the paper is classified as long.
+
+Meta-Reviewer: Okay, thank you. Now, I am concerned about the mixed ratings and comments in the reviews. Reviewer 1 recommends a clear rejection with relatively high confidence, while Reviewer 2 recommends acceptance with lower confidence and some suggestions for improvement. Reviewer 3 has some criticisms and suggests the paper is only marginally above the acceptance threshold. Can you give me an overview of the strengths and weaknesses of the paper based on these reviews?
+
+Dialogue Agent: Certainly. The paper presents an extensive empirical study on disentangled representation learning with correlated data. Reviewer 2 sees this as a timely contribution that addresses an important limitation of current unsupervised disentangling methods and applauds the experimental evaluation. Reviewer 3 also appreciates the attempt to address an important problem in the disentanglement literature, but has concerns over some of the conclusions drawn from the evaluation and the viability of the proposed solution via weak supervision. Reviewer 1, on the other hand, sees limitations in the methodology, particularly with the design of induced correlation and the diagnostics of potential entanglement. 
+
+Meta-Reviewer: I see. In light of these varying opinions, could you tell me how confident the dialogue agent is about the evaluation?
+
+Dialogue Agent: As a dialogue agent, I cannot express opinions or make recommendations. However, I can tell you that Reviewer 1 is confident but not absolutely certain that the evaluation is correct with a confidence rating of 4. Reviewer 2 is fairly confident that the evaluation is correct with a confidence rating of 3. Reviewer 3 is absolutely certain that the evaluation is correct and very familiar with the relevant literature with a confidence rating of 5.
+
+Meta-Reviewer: Thank you for that information. I would like to focus on the limitations and concerns raised by Reviewers 1 and 3. Reviewer 1 suggested that the induced correlation was too simple and that diagnostics of potential entanglement should not be limited to pairwise level. Reviewer 3 noted that Figure 2, which showed that existing disentanglement metrics fail to capture correlations, did not account for the behaviour of the models after training on a dataset with correlated FoV, and questioned some of the conclusions drawn from the evaluation. Could you give me more details on these concerns?
+
+Dialogue Agent: Reviewer 1 recommended that the authors use more complicated correlation settings and diagnostic methods that scale up to high dimensional latent factors. As for Reviewer 3, they suggested that the paper's claim that all existing metrics fail to capture correlations is not entirely accurate and that some metrics, such as BetaVAE and FactorVAE, give a perfect score regardless of the degree of correlation by design. Additionally, Reviewer 3 doubts the claim that disentanglement methods cannot help reduce unfairness beyond what is already discussed in Locatello et al. (2019a), given that it is the model assumption of independent FoV, rather than unsupervised learning, that is problematic in the scenario of correlated FoV. 
+
+Meta-Reviewer: Thank you for clarifying those points. I am considering rejecting the paper, but I am interested in the proposed solution via weak supervision. Could you tell me more about that?
+
+Dialogue Agent: The proposed solution involves using weak supervision to break correlations between FoV. This is achieved through data augmentation by modifying the input data before generating the latent space representation. Reviewer 3 expressed some concerns about the feasibility of this approach, especially when the causal relation between FoV is unknown, but overall the proposed solution was seen as a potential avenue for future research.
+
+Meta-Reviewer: Thank you for the summary. Based on these reviews and their concerns, I am leaning towards rejecting the paper. However, I am also interested in the potential of the proposed solution through weak supervision. Would you recommend any revisions or additional experiments to address the concerns raised by the reviewers?
+
+Dialogue Agent: As a dialogue agent, I cannot make recommendations or express opinions. However, the reviewers did suggest some areas for improvement, such as using more complicated settings for induced correlation and diagnostic methods, accounting for the behaviour of models after training on a dataset with correlated FoV, and re-evaluating the claim that all existing metrics fail to capture correlations. Additionally, further research could be done to explore the feasibility of weak supervision methods for breaking correlations between FoV.
+
+Meta-Reviewer: Thank you for your assistance. I will carefully consider these reviews and discussion before making a final decision.

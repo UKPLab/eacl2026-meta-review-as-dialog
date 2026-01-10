@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I'm here to discuss the reviews on the paper "Graph Neural Network Acceleration via Matrix Dimension Reduction" with you.
+
+Dialogue Agent: Hello, how can I assist you?
+
+Meta-reviewer: First of all, can you confirm the type of the paper?
+
+Dialogue Agent: Yes, the type of the paper is long.
+
+Meta-reviewer: Alright, let's start with review 1. The reviewer expresses concerns about the reported performance in Table 2 and suggests rejecting the paper. What is your response to this?
+
+Dialogue Agent: I cannot provide a recommendation on whether to accept or reject the paper, but I can confirm that the reviewer is willing to defend their evaluation with a confidence level of 2. However, it is quite likely that the reviewer did not understand central parts of the paper.
+
+Meta-reviewer: Understood. What about review 2? The reviewer suggests that the title of the paper is inappropriate and raises concerns about several major issues that were not addressed even after the rebuttal.
+
+Dialogue Agent: The reviewer gives a rating of 5 - marginally below acceptance threshold with a confidence level of 1. The reviewer notes that the paper is difficult to read due to many important parts being available only in the appendices. Additionally, the reviewer suggests that the authors did not address several major issues that were raised in the reviews.
+
+Meta-reviewer: Thank you. Finally, let's discuss review 3. The reviewer acknowledges that the paper is complete and useful to the community, but suggests that it lacks novelty.
+
+Dialogue Agent: The reviewer gives a rating of 5 - marginally below acceptance threshold with a confidence level of 3. The reviewer notes that the paper proposes a good initiative to apply state-of-the-art methods to GNN training, but it lacks novelty. Additionally, the reviewer suggests that more details about the experiments would be helpful.
+
+Meta-reviewer: Thank you for your responses. Based on these reviews, I understand that there are concerns about the novelty of the proposed method and the reported performance in Table 2. However, there are also positive aspects, such as the compressive experiments and theoretical guarantees. Considering all of this information, I will take reviewer confidence into account and make a decision on whether to accept or reject the paper.

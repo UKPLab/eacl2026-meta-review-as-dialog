@@ -1,0 +1,11 @@
+Meta-reviewer: Hello, dialogue agent. Can you provide a summary of the reviews for the paper "Squeezeformer: An Efficient Transformer for Automatic Speech Recognition"?
+
+Dialogue agent: Certainly. The paper proposes Squeezeformer, a novel hybrid attention-convolution architecture for ASR which simplifies and improves upon the existing Conformer architecture. Review 1 praises the paper for its extensive ablations and experiments, which provide insights to the community. Review 2 commends the paper for its well-written and clear descriptions of each improvement proposed. Review 3 confirms that the insights garnered from the paper will likely apply to many upcoming models.
+
+Meta-reviewer: Thank you. Based on these reviews, what would you recommend as the final decision, and why?
+
+Dialogue agent: Review 1 and Review 3 both rate the paper as a "Weak Accept" and "Strong Accept", respectively. In addition, Review 1 states that the paper has significant improvements over the Conformer-CTC architecture, and Review 2 calls it a "technically solid, moderate-to-high impact paper". 
+
+However, it is important to note that Review 1 also mentions a weakness in the paper's originality, and Review 2 raises concerns about the baseline performance and suggests that the paper should have been more upfront about the differences between the baseline and prior publications. 
+
+Overall, given the positive feedback on the technical merits of the paper from all three reviewers and the fact that the weaknesses identified do not significantly undermine the strength of the paper, I would recommend accepting the paper with minor revisions addressing the concerns raised in the reviews.

@@ -1,0 +1,25 @@
+Meta-Reviewer: Hello, Dialogue Agent. I'm reviewing the paper "Quality Not Quantity: On the Interaction between Dataset Design and Robustness of CLIP." Can you give me some background on the paper type and the reviews it received?
+
+Dialogue Agent: Hello, Meta-Reviewer. Certainly. The paper is a long type paper and has received three reviews. Review 1 gave a rating of 7 and had some criticisms about the lack of details on how data sources were combined and the need for better dataset design approaches. Review 2 gave a rating of 6 and had concerns about the discrepancy in scale between the experimental setting and SOTA models, and the potential limitations in the experimental methodology. Finally, Review 3 praised the paper for its originality, quality, clarity, and significance, and gave a rating of 8.
+
+Meta-Reviewer: Okay. Based on these reviews, what can you tell me about the central claim of the paper?
+
+Dialogue Agent: The central claim of the paper is that the robustness of pre-trained image-text models like CLIP does not depend on the quantity of the training data or data sources, but rather on the data quality. The authors argue that combining multiple data sources or adding more training data only dilutes the robustness of the best individual data source instead of yielding better models.
+
+Meta-Reviewer: That's interesting. How did the authors arrive at this conclusion?
+
+Dialogue Agent: The authors trained CLIP models using six publicly available datasets containing web-curated image-text pairs and evaluated the models' robustness on ImageNet variants. They showed that no single training data provides consistent out-of-distribution performance and that combining datasets might hurt the model's robustness. The authors also analyzed the results of ensembling model outputs trained on different datasets. Furthermore, they presented a theoretical analysis on the universal line only determined by the training and two test datasets, independent from model architectures.
+
+Meta-Reviewer: I see. Can you tell me more about Review 1's criticisms regarding the lack of details on how data sources were combined and the call for better dataset design approaches?
+
+Dialogue Agent: Review 1 pointed out that the paper did not provide enough details on how the data sources were combined during input mixing in Section 5.1, and how diverse the selected samples were. The reviewer suggested that the authors clarify this, as different samples may contribute differently during pre-training. Furthermore, Review 1 called for the authors to discuss/recommend better dataset design approaches for robust generalization, particularly as the paper title touches on both dataset design and robustness.
+
+Meta-Reviewer: I see. And what about Review 2's concerns regarding the discrepancy in scale between the experimental setting and SOTA models, and the potential limitations in the experimental methodology?
+
+Dialogue Agent: Review 2 voiced concerns about the potential limitations of the experimental methodology, specifically questioning whether the conclusions of the paper hold for other vision-language models trained with contrastive loss. The reviewer pointed out that vision-language pre-training is usually done using noisy massive image-text pairs, whereas the size of the training data used in the paper is quite different. Additionally, the reviewer questioned whether the authors performed an initial investigation for the number of negatives, which is an important factor of contrastive learning. The reviewer also questioned whether the robustness of the models could be different in other tasks.
+
+Meta-Reviewer: I understand. And what do you make of Review 3's strong praise for the paper?
+
+Dialogue Agent: Review 3 praised the paper for its originality, quality, clarity, and significance, and called it a timely contribution that will force practitioners and researchers to think more in-depth about the training data distribution when scaling CLIP-like models. The reviewer also praised the paper for its adequate discussion about limitations and societal impact.
+
+Meta-Reviewer: Thank you for the summary. Based on these reviews, I'm getting a sense that the paper has some limitations and open questions, but that it also presents novel and significant contributions to the field. I will need to weigh the reviewers' comments carefully as I decide whether to accept or reject the paper.

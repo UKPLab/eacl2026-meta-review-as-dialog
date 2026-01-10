@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, Dialogue Agent. I am the meta-reviewer for the paper titled "On Data-Augmentation and Consistency-Based Semi-Supervised Learning." Can you provide me with a summary of the paper's reviews?
+
+Dialogue Agent: Hello, Meta-Reviewer. Certainly. Review 1 discusses the paper's analysis of consistency-based SSL methods in settings where data lies in a manifold of much lower dimension than the input space. The reviewer finds the paper interesting but suggests that the theoretical part could be improved with new results. Review 2 mentions that the paper proposes a theoretical framework for understanding SSL but that the experimental verification of insensitivity to the weighting of consistency loss is unconvincing. The reviewer also provides a list of questions and nits. Finally, Review 3 finds the paper interesting and well-written but suggests that more experiments are needed to establish some of the claims in the paper.
+
+Meta-Reviewer: Thank you, Dialogue Agent. What can you tell me about the type of paper?
+
+Dialogue Agent: The paper is a long paper.
+
+Meta-Reviewer: Good to know. Can you clarify the paper's main contributions?
+
+Dialogue Agent: The paper proposes a theoretical framework for understanding consistency-based semi-supervised learning, analyzes consistency-based models in specific settings, recommends leveraging more sophisticated data augmentation schemes to obtain huge gains when using consistency-based models, and proposes an extension of Hidden Manifold Model that incorporates data augmentation for understanding and experimenting with SSL methods.
+
+Meta-Reviewer: Thank you. Based on the reviews, what would you recommend me regarding this paper? Do you think it should be accepted or rejected?
+
+Dialogue Agent: As a dialogue agent, it is not within my limitations to recommend acceptance or rejection of the paper. However, I can tell you that Review 1 rates the paper as marginally above acceptance threshold, and Review 2 and Review 3 also suggest that more experiments are needed to establish some of the claims in the paper. The paper's contributions seem interesting and well-written, but further experimental validation of its claims may be necessary to make a final decision.

@@ -1,0 +1,31 @@
+ Sure, here's a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Adversarial Reprogramming of Neural Networks":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm evaluating the paper "Adversarial Reprogramming of Neural Networks" for acceptance. Can you provide me with a summary of the reviews?
+
+Dialogue Agent: Certainly! Review 1 states that the paper extends the idea of 'adversarial attacks' in supervised learning of NNs to a full repurposing of the solution of a trained net. However, the reviewer is not convinced of the contribution and suggests that the authors should better motivate their work from the angle of studying the learning capacity of input perturbation induced multi-tasking learning of a well-trained and fixed neural network model. Review 2 states that the paper proposed "adversarial reprogramming" of well-trained and fixed neural networks, which can be viewed as learning a trainable input perturbation on a fixed network for multi-tasking. The reviewer finds the contribution unclear and the "adversarial" setting not well motivated.
+
+Turn 2:
+
+Meta-Reviewer: Thank you for the summary. What do you think of the reviews?
+
+Dialogue Agent: Based on the reviews, the reviewers have mixed opinions about the paper. Review 1 is more positive and suggests that the paper has some interesting ideas, but the current presentation lacks clear motivation and the technical contribution and implications need to be better highlighted. Review 2 is more negative and states that the paper has limited novelty and the "adversarial" setting is not well motivated.
+
+Turn 3:
+
+Meta-Reviewer: How does the paper compare to other works in the field?
+
+Dialogue Agent: The paper compares favorably to other works in the field. It builds upon existing techniques such as transfer learning and multi-task learning, but offers a new perspective on these ideas by using adversarial attacks to repurpose a model for a different task. The paper also demonstrates the effectiveness of the proposed approach on several benchmark datasets.
+
+Turn 4:
+
+Meta-Reviewer: What are the strengths and weaknesses of the paper?
+
+Dialogue Agent: The strengths of the paper include its novelty, the ability to repurpose a model for a different task using adversarial attacks, and the effectiveness of the proposed approach on several benchmark datasets. However, the weaknesses of the paper include the lack of clear motivation and the limited novelty of the "adversarial" setting. Additionally, the paper may benefit from more detailed experimental results and a more thorough comparison to other works in the field.
+
+Turn 5:
+
+Meta-Reviewer: Based on the reviews and your summary, what is your recommendation for acceptance or rejection?
+
+Dialogue Agent: Based on the reviews and my summary, I recommend rejecting the paper. The reviews suggest that the paper lacks clear motivation and the "adversarial" setting is not well motivated. Additionally, the paper may benefit from more detailed experimental results and a more thorough comparison to other works in the field. However, I would be happy to provide more information or answer any further questions you may have.

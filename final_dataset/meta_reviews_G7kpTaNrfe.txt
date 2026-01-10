@@ -1,0 +1,37 @@
+ Sure! Here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Cortico-cerebellar networks as decoupled neural interfaces":
+
+Turn 1:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Cortico-cerebellar networks as decoupled neural interfaces". Can you help me understand the main idea of the paper?
+
+Dialogue Agent: Sure! The paper proposes a new framework for neural networks called "cortico-cerebellar networks" that leverages the strengths of both the cerebellum and cortical networks to improve learning.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. Can you tell me more about the architectural constraints of sparsity within a DNI?
+
+Dialogue Agent: Sure! The authors incorporate several architectural properties of the biological cerebellum into their cerebellar model, such as sparsity-induced de-correlation, to enable learning in neural circuits without waiting for gradients to propagate backwards.
+
+Turn 3:
+
+Meta-reviewer: I see. Can you help me understand the link between DNI and cerebellum?
+
+Dialogue Agent: The authors propose that the cerebellum in the brain computes synthetic gradients, as used in decoupled neural interfaces (DNI), to enable learning in neural circuits without waiting for gradients to propagate backwards. The authors show that a LSTM trained with such synthetic gradients can learn a variety of tasks, from motor reaching to caption generation.
+
+Turn 4:
+
+Meta-reviewer: That's a novel idea. However, the authors made little attempt to actually compare their model with experimental findings from cerebellum, limiting its scientific impact. Can you help me understand why the authors didn't make more attempts to compare their model with experimental findings?
+
+Dialogue Agent: The authors acknowledge that they did not make a comprehensive comparison with experimental findings from cerebellum, citing that it is outside the scope of the current paper. However, they do mention that their work makes numerous predictions and opens the exciting door to explicit comparison with experimental data.
+
+Turn 5:
+
+Meta-reviewer: I see. Can you help me understand the relationship between the predictions made by the authors and the experimental findings from cerebellum?
+
+Dialogue Agent: The authors claim that when a task is very well-learned, the gradients (both real and predicted) should be close to 0, and cerebellum output neurons in the deep cerebellar nuclei should be somehow silent. Another prediction is that cerebellum lesioning should only impact learning, but not performance of well-learned tasks. However, the authors do not provide concrete testable predictions or make attempts to compare their model with experimental data.
+
+Turn 6:
+
+Meta-reviewer: Thank you for your help. Based on the information you provided, I think the paper has some novel ideas but lacks concrete comparisons with experimental findings and testable predictions. I will rate the paper as a 3 and recommend further experimental comparisons and testable predictions to support the authors' claims.
+
+Dialogue Agent: Thank you for your feedback. I will pass on your comments to the authors and help them improve their paper.

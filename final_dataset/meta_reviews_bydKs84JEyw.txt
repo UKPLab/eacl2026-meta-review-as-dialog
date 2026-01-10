@@ -1,0 +1,29 @@
+Meta-reviewer: Hello, I have read the reviews for the paper titled "VLMo: Unified Vision-Language Pre-Training with Mixture-of-Modality-Experts." Before I make a decision on whether to accept or reject the paper, I would like to ask the dialogue agent a few questions based on the reviews.
+
+Dialogue Agent: Of course, I am here to assist you in making an informed decision.
+
+Meta-reviewer: Review 1 praised the paper's support for text-only, image-only, and text-image pretraining, which reduces the need for large datasets with both modalities labeled. Can you confirm if this is true?
+
+Dialogue Agent: Yes, Review 1 accurately states that the paper proposes a method that supports text-only, image-only, and text-image pretraining, leveraging existing datasets and reducing the need for large datasets with both modalities labeled.
+
+Meta-reviewer: Review 2 had concerns about the ordering of pretraining stages. Can you confirm if the paper provides clarification on this matter?
+
+Dialogue Agent: The paper does provide some explanation for the ordering of pretraining stages. However, Review 2 suggested that further clarification is needed on this matter, as well as on how different experts function and cooperate to improve performance. The paper also failed to consider many other representative VL generation tasks such as image captioning.
+
+Meta-reviewer: Review 3 had concerns about the lack of analysis of mixture-of-experts and the unclear introduction to the model details. Can you confirm if the paper addresses these issues?
+
+Dialogue Agent: The paper explains the Mixture-of-Modality-Experts (MOME) Transformer and how it contributes to the performance. However, Review 3 suggested that the paper needs to demonstrate more clearly the number of parameters in the model and illustrate which layers are used for processing vision and text experts for different modalities. The paper also needs to implement the model on more downstream tasks and compare it with state-of-the-art methods.
+
+Meta-reviewer: Based on these reviews and your responses, I have a couple of follow-up questions. What is the paper type?
+
+Dialogue Agent: The paper type is long.
+
+Meta-reviewer: And what is the rating given by the reviewers?
+
+Dialogue Agent: Review 1 gave a rating of 7, indicating that the paper is technically solid, with high impact on at least one sub-area, or moderate-to-high impact on more than one area, with good-to-excellent evaluation, resources, reproducibility, and no unaddressed ethical considerations. Review 2 and Review 3 both gave a rating of 6, suggesting that the paper is technically solid, with moderate-to-high impact, and no major concerns with respect to evaluation, resources, reproducibility, or ethical considerations.
+
+Meta-reviewer: Thank you for your responses. Based on the reviews and your feedback, I am inclined to accept the paper. However, I am concerned about the confidence levels of the reviewers. Review 1 had a confidence level of 2, while Review 2 had a confidence level of 4, and Review 3 had a confidence level of 5. How important is reviewer confidence in making a decision on whether to accept or reject the paper?
+
+Dialogue Agent: Reviewer confidence is an important factor to consider, as it reflects the level of certainty the reviewers have in their assessments. However, it is not the only factor to consider. It is also important to weigh the strengths and weaknesses highlighted in the reviews and assess the overall impact of the paper in the field.
+
+Meta-reviewer: Thank you for clarifying. Based on the feedback and my own assessment, I have decided to accept the paper.

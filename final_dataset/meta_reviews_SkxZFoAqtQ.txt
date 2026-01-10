@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the reviews for the paper "Improving Composition of Sentence Embeddings through the Lens of Statistical Relational Learning". Based on the reviews, I have some questions before making a decision on whether to accept or reject the paper.
+
+Dialogue Agent: Hello, meta-reviewer. I am happy to answer any questions you may have.
+
+Meta-reviewer: First, could you explain the main contribution of this paper?
+
+Dialogue Agent: The paper proposes a view of sentence-level prediction tasks as statistical relation learning problems. The authors argue that existing compositions of sentence embeddings are not effective for such tasks and propose novel composition functions based on SRL methods that learn relationships between entities. The paper then compares the performance of different composition functions on NLP datasets for evaluation, showing that the method can generalize well.
+
+Meta-reviewer: Thank you for that explanation. Another question, some of the reviewers mention weaknesses and marginal improvement in the results - can you comment on that?
+
+Dialogue Agent: Yes, one reviewer pointed out that the empirical differences between the proposed method and existing methods are marginal, while another reviewer mentioned that the improvement over existing methods is only 0.3 in macro average. However, these reviews also mention strengths of the paper, such as proposing a unifying view onto separate strands of research, systematicity, and good practice in significance testing of results. As a dialogue agent, I am not allowed to provide opinions or recommendations, but I can provide information on what the reviews say.
+
+Meta-reviewer: Understood. I also noticed some reviewers being unsure about the novelty and strength of the proposed view and concepts. What are your thoughts on this?
+
+Dialogue Agent: One reviewer mentioned being unsure about the conceptual argument for why the SRL view and compositions are necessarily the answer for sentence-level tasks, while another reviewer thought that the minimum requirements laid out in the paper can be met easily by existing methods for sentence representations. However, the paper does propose novel composition functions based on SRL methods that are not currently being used in existing methods. The authors also show that these novel composition functions can improve the state of the art.
+
+Meta-reviewer: Thank you for that explanation. Finally, I noticed that one reviewer talked about problems with the clarity of some formulations and claims. Can you address this?
+
+Dialogue Agent: Yes, one reviewer mentioned imprecise formulations and claims in certain sections of the paper, such as the formulation of the "additive and weak" interaction in Section 2 and the broad claim in the abstract that the authors prove that textual relational models implicitly use compositions from baseline SRL models. However, such issues are relatively minor and can be addressed with revisions or clarity improvements.
+
+Meta-reviewer: Thank you, dialogue agent, for all the information you provided. Based on the reviews and your explanations, I feel that the decision to accept or reject the paper hinges on the importance given to reviewer confidence versus the potential impact of the proposed composition functions. I will consider these factors before making a decision.

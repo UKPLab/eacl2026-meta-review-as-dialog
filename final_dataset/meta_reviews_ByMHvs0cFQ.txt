@@ -1,0 +1,28 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "Quaternion Recurrent Neural Networks":
+
+Turn 1:
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Quaternion Recurrent Neural Networks" and I have some questions about the paper. Can you help me?
+
+Dialogue Agent: Of course! I have access to the reviews and the paper's type (long). What would you like to know?
+
+Turn 2:
+Meta-Reviewer: Well, I'm not sure if the authors have adequately justified the use of quaternions in their recurrent neural network model. Can you tell me more about the motivation behind this choice?
+
+Dialogue Agent: Sure! The authors have chosen to use quaternions in their model because they provide a more structured representation of the input data. This is particularly useful in speech recognition tasks, where local relationships between elements of a vector can be explicitly represented using quaternions.
+
+Turn 3:
+Meta-Reviewer: I see. But what about the choice of derivatives? The reviewers have mentioned that the choice of derivatives to yield quaternions is not obvious. Can you provide more information on this?
+
+Dialogue Agent: Certainly! The authors have chosen to use the derivative of the input data with respect to the quaternion representation. This allows them to compute the gradients of the loss function with respect to the quaternion parameters, which is necessary for training the model.
+
+Turn 4:
+Meta-Reviewer: I'm still not convinced about the use of quaternions in this model. Can you provide any other examples of successful applications of quaternion-based neural networks?
+
+Dialogue Agent: Sure! There have been several recent papers that have used quaternion-based neural networks in various applications, such as image recognition and natural language processing. For example, (Reference 1) and (Reference 2) have demonstrated the effectiveness of quaternion-based neural networks in these areas.
+
+Turn 5:
+Meta-Reviewer: I see. Based on the reviews and your summarized answers, I think I have a good understanding of the paper's strengths and weaknesses. Thank you for your help!
+
+Dialogue Agent: You're welcome! Is there anything else you would like to know before making your decision?
+
+Meta-Reviewer: No, I think I have everything I need. Thank you again for your assistance!

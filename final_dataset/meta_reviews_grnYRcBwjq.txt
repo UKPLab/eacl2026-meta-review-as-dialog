@@ -1,0 +1,51 @@
+Meta-Reviewer: Hello, can you introduce yourself and summarize the paper in a few sentences?
+
+Dialogue Agent: Hello, I am a dialogue agent and my purpose is to provide information based on the reviews of the paper "Procedural Reading Comprehension with Attribute-Aware Context Flow". The paper introduces a model that reads procedural text and tracks the attributes and transitions of the participating entities to answer questions. It proposes a joint modeling approach for accurately tracking both attributes and transitions.
+
+Meta-Reviewer: Thank you. Can you tell me what type of paper this is?
+
+Dialogue Agent: Yes, this is a long paper.
+
+Meta-Reviewer: Reviewer 1 raises a few points of improvement. What can you say about point 1 of the review?
+
+Dialogue Agent: Reviewer 1 suggests that the paper could have a more clear separation between task reformulation and model implementation. Section 3 talks about procedural text, but the specific task reformulation of the paper is only exposed in Section 4. This is a valid point and the authors should consider clarifying this.
+
+Meta-Reviewer: I see. What about point 2?
+
+Dialogue Agent: Reviewer 1 is confused about the BERT() operator in Section 4.1. The authors should add a clear description of this representation.
+
+Meta-Reviewer: And point 3?
+
+Dialogue Agent: Reviewer 1 suggests that it would be interesting to see how a later step's A{k} compares to A{k-1} of the next step since the later step has more context. The authors should consider discussing or experimenting with this idea.
+
+Meta-Reviewer: Thank you. What can you say about point 4?
+
+Dialogue Agent: Reviewer 1 pointed out a typo in Figure 1, which the authors should correct.
+
+Meta-Reviewer: And what about point 5?
+
+Dialogue Agent: Reviewer 1 had difficulty finding the NPN-Cooking dataset and suggests that the authors should provide more clarity about the dataset in Section 5.1.
+
+Meta-Reviewer: Okay. What about point 6?
+
+Dialogue Agent: Reviewer 1 found some labels in Figure 2 confusing and suggests the authors should double-check them.
+
+Meta-Reviewer: Finally, what can you say about point 7?
+
+Dialogue Agent: Reviewer 1 noticed a missing definition for "loss_{state}" in Section 4.5, which should be corrected.
+
+Meta-Reviewer: Thank you. What about Reviewer 2's comments?
+
+Dialogue Agent: Reviewer 2 believes the paper lacks analysis in certain aspects. For instance, the proposed model struggles with the "movement" class, which is an issue that should be addressed in future work. Reviewer 2 thinks that the paper's approach is complex and suggests comparing it with a strong baseline that does not do joint modeling. Lastly, the paper contains some spelling mistakes that should be corrected, and the notation can be confusing at times.
+
+Meta-Reviewer: Is there anything else that stands out in Reviewer 2's review?
+
+Dialogue Agent: Yes. Reviewer 2 suggests that the paper should explicitly point out the computation complexity of computing entity representations, which is a valid point to consider.
+
+Meta-Reviewer: Okay, thank you. Lastly, can you summarize Reviewer 3's comments?
+
+Dialogue Agent: Reviewer 3 suggests that the paper should consider a strong baseline that does not use joint modeling for comparison. Although the approach performs well in most cases, the benefit of jointly modeling attributes and transitions is not very clear from the ablation study. Reviewer 3 also wants more details on precision, recall and F1 scores in Section 5.4 and suggests adding a "no span prediction" experiment in Table 3. Additionally, the paper claims to predict attributes and transitions consistently, but there is no explicit consistency check between the two. Lastly, Reviewer 3 asks how often prediction errors belong to type 1 in Table 4 and suggests exploring this further.
+
+Meta-Reviewer: Thank you for the comprehensive summary. Based on these reviews, do you have any recommendations on whether to accept or reject the paper?
+
+Dialogue Agent: Reviewers 1 and 2 had some valid concerns and suggestions for improvement, but overall, they both recommended accepting the paper with a rating of 9 and 7, respectively. Reviewer 3 also had some concerns, but still recommended accepting the paper with a rating of 7. Based on these reviews, I would recommend accepting the paper.

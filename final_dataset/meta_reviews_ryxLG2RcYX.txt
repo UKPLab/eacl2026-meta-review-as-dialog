@@ -1,0 +1,21 @@
+ Sure, I'd be happy to help! Here's a dialogue between a meta-reviewer and a dialogue agent for a paper titled "Learning Abstract Models for Long-Horizon Exploration":
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "Learning Abstract Models for Long-Horizon Exploration". Can you help me understand the main contributions of the paper?
+
+Dialogue Agent: Sure! The paper proposes a hierarchical approach to model-based planning for reinforcement learning tasks with high-dimensional state spaces and long-horizon times. The approach uses an abstract MDP to learn a model of the environment and then uses this model to train sub-policies for transitioning between abstract states.
+
+Meta-Reviewer: That sounds interesting. What are the main strengths of the paper?
+
+Dialogue Agent: The paper demonstrates good performance on three difficult Atari games, and the approach is shown to achieve better performance than previous non-demonstration SOTA approaches in all three domains. Additionally, the paper provides a general approach for hierarchical model-based planning when the mapping from the hard MDP to the easy one is known.
+
+Meta-Reviewer: What are the main weaknesses of the paper?
+
+Dialogue Agent: The paper assumes significant prior knowledge for state encoding, and the approach is limited by the assumption that the mapping to abstract states is known. Additionally, the paper uses hardcoded features rather than the standard setup which uses pixels, which makes comparison to other methods more complicated.
+
+Meta-Reviewer: How does the paper compare to other relevant works in the field?
+
+Dialogue Agent: The paper compares to other recent works on contextual MDPs, such as Schmidhuber's subgoal generation. However, the comparison to DQN-PixelCNN is unfair, as this other method makes very few assumptions about the inputs. The authors point out that their approach achieves more than 2x the reward of prior non-demonstration SOTA approaches, but this statement is misleading and unfair to other methods which do not assume access to prior knowledge.
+
+Meta-Reviewer: Thank you for the information. Based on the reviews, I'm considering a final decision of 4: Marginally below acceptance threshold. What is your confidence in the evaluation?
+
+Dialogue Agent: My confidence is 4: The reviewer is confident but not absolutely certain that the evaluation is correct. The paper has some interesting ideas and demonstrates good performance, but the assumptions made by the approach limit its comparison to other methods. Additionally, the high sample complexity and lack of results in pixel space are concerns.

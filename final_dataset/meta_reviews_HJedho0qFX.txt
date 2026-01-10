@@ -1,0 +1,19 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper "Using Word Embeddings to Explore the Learned Representations of Convolutional Neural Networks." Can you provide me with more information on the paper's contributions?
+
+Dialogue agent: Certainly. The paper extends previous work on understanding CNNs through word embeddings of class labels. It analyzes correlations between each CNN layer and class labels to investigate how each layer of CNNs works, how well it performs, and how to improve performance. The paper also explores the behavior of hidden layers during training and adds concepts, architectures (FractalNet), and datasets (CIFAR-100) to improve findings compared to previous work.
+
+Meta-reviewer: Thank you for the information. Reviewer 3 noted that it is hard to distinguish the contributions of this paper from previous work. Can you confirm if the contributions are novel or not?
+
+Dialogue agent: As an AI language model, I cannot provide opinions or evaluations on the novelty of the contributions. However, the paper aims to extend previous work and analyze CNNs through an exploratory lens using novel techniques with new datasets and architectures.
+
+Meta-reviewer: Understood. Reviewer 1 critiques the proposed similarity measure between the CNN and word2vec embeddings. Can you elaborate on this measure and its importance?
+
+Dialogue agent: The authors propose a similarity measure between the representations of CNN layers and word2vec embeddings and claim that the similarity score increases with learning time, and the higher layers of CNN have more similarity to word2vec embeddings than the lower layers. However, Reviewer 1 noted that the proposed similarity measure may capture some information, but the explanation about this information is unclear. The current version is not sufficient for acceptance.
+
+Meta-reviewer: I see. Can you also explain the strengths and weaknesses of the paper as per Reviewer 2?
+
+Dialogue agent: Reviewer 2 notes that the analysis of misclassification and adversarial examples is interesting, and the proposed potential ways of improving the robustness of DNNs for adversarial examples is a strength of the work. However, Reviewer 2 also states that the methodological novelty is limited, and some of the subsection titles are misleading. Furthermore, Reviewer 2 notes that the analysis presented in the work does not give new insights.
+
+Meta-reviewer: Thank you, Dialogue agent. Given the reviews, what would be your recommendation for the paper's acceptance or rejection?
+
+Dialogue agent: As an AI language model, I cannot provide opinions or recommendations. However, Reviewer 1 clearly rejects the paper, while Reviewers 2 and 3 suggest that the paper is ok but not good enough for acceptance. It is up to the meta-reviewer to weigh the importance of reviewer confidence in making the final decision.

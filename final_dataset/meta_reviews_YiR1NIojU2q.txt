@@ -1,0 +1,19 @@
+ Sure! Here is a dialogue between a meta-reviewer and a dialogue agent for reviews about a paper, with the meta-reviewer aware only of the paper's title:
+
+Meta-reviewer: Hello, I'm reviewing a paper titled "Counterfactual Explanations for Optimization-Based Decisions in the Context of the GDPR". Can you help me understand the main contributions of this paper?
+
+Dialogue Agent: Sure! The authors propose a novel approach to counterfactual explanations for optimization-based decisions using inverse combinatorial optimization. They show how to formulate the inverse problem, including constraints from the GDPR regulation, and solve it under two common objective functions. The approach is applicable to simple models like weighted binary variables and weighted integer variables.
+
+Meta-reviewer: That sounds interesting. What are the simplifying assumptions made in the paper?
+
+Dialogue Agent: The authors make strong assumptions about the form of the problem, such as restricting the alternative requested by the user to a single component of the solution, and the explanation generation process only updating a single parameter. These restrictions make the problem tractable, but may limit the applicability of the approach to real-world scenarios.
+
+Meta-reviewer: I see. Can you tell me more about the usefulness of the generated explanations for practical problems?
+
+Dialogue Agent: The authors do not fully demonstrate the usefulness of the generated explanations in realistic problem situations, and certainly not in a GDPR context. The example of appointment scheduling is unlikely to be reducible to a single variable in practice. Additionally, the claim that the restriction affords a level of privacy to other individuals involved has not been adequately defended or demonstrated in the paper.
+
+Meta-reviewer: Thank you for the information. Based on your summary, I would rate this paper as 4: Ok but not good enough - rejection. The paper has some preliminary results, but the usefulness of the generated explanations for practical problems is not fully demonstrated, and the restrictions made in the paper may limit its applicability.
+
+Dialogue Agent: Understood. The paper has some limitations, and the authors could strengthen the motivation and make space by compacting some of the proof steps. Additionally, the related work section could be improved by discussing more recent and relevant works in the field.
+
+Meta-reviewer: Thank you for your feedback. I will consider these points in my final decision.

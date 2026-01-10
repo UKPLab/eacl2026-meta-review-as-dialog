@@ -1,0 +1,19 @@
+Meta-Reviewer: Hi, I've read the reviews for the paper "Learning a Meta-Solver for Syntax-Guided Program Synthesis" and I'd like to clarify some questions before making a final decision on acceptance.
+
+Dialogue Agent: Sure, I'm happy to help answer any questions you may have.
+
+Meta-Reviewer: First off, let me ask you about Review 1's issues with the paper. Can you explain the reasoning behind the decision to use only a subset of the SyGuS 2017 dataset and not compare the model to EUSolver? Also, why is there a need for a large number of parameters for W?
+
+Dialogue Agent: The authors chose to use the cryptographic circuit synthesis tasks from SyGuS 2017 because it is a challenging problem and requires the model to operate on different grammars. The decision not to compare the model to EUSolver was due to the fact that ESymbolic was chosen as the baseline for comparison. As for the large number of parameters for W, it is necessary to learn a conditional distribution over actions for each grammar and propagation step.
+
+Meta-Reviewer: Thanks for the explanation. Review 2 mentioned some issues with model description and evaluation. Can you tell me about the SSA form of the grammar and specification? Also, how does the policy learn a conditional distribution over variable number of actions?
+
+Dialogue Agent: Sure. The SSA form of the grammar and specification is a way to represent variables in the program as unique entities in the graph structure, making it easier to construct the graph-based embedding. As for the policy learning a conditional distribution over variable number of actions, the authors use padding of the H_d matrix and masking to handle variable-sized expansion rules.
+
+Meta-Reviewer: That makes sense. Review 3 had some suggestions for improvement, such as adding a Monte Carlo Tree Search baseline. Can you comment on that?
+
+Dialogue Agent: While Monte Carlo Tree Search can be a useful baseline, it is not the focus of this paper. The authors chose to use reinforcement learning as their approach, which has shown to be effective for this problem. However, the suggestion is worth considering for future work.
+
+Meta-Reviewer: Alright. Overall, the reviews seem positive and the paper is interesting. Review 1 rated the paper as 7 and recommended acceptance. What was your impression of the paper and what would be your recommendation?
+
+Dialogue Agent: As a dialogue agent and given the reviews provided, I cannot provide an opinion or recommendation. However, I can say that the paper provides a significant contribution to the field of program synthesis and handles a challenging problem.

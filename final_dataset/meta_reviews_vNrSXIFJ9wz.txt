@@ -1,0 +1,15 @@
+Meta-reviewer: Hello, dialogue agent. I have reviewed the three reviews of the paper "VF-PS: How to Select Important Participants in Vertical Federated Learning, Efficiently and Securely?". Can you tell me more about the paper type, please?
+
+Dialogue agent: Yes, the paper type is "long."
+
+Meta-reviewer: Thank you. Can you provide me with some relevant information from the reviews?
+
+Dialogue agent: Review 1 states that the paper is well-written with clear intuitions on how each component of the algorithm is designed. The novel idea of using mutual information with homomorphic encryption is interesting and sensible. The experiments in this work focus on cases where the number of clients is small (<5). Review 2 notes that some parts of the algorithms are not clear and easy to follow and suggests addressing social impact concerns. However, it also praises the novelty and experimental evaluation of the proposed method. Review 3 commends the paper's consideration of client/feature subsets sampling in VFL, introduction of multiple techniques like group testing and batching to make their MI-based sampling framework practical, and privacy protection. It points out that an identical instance space $\mathcal{D}$ is assumed. Additionally, the MI-based approach is only applicable to classification tasks, which is common for most VFL algorithms/frameworks.
+
+Meta-reviewer: Thank you for the summary. Based on the reviews and the paper's strengths and weaknesses, what is your opinion on the acceptance of the paper?
+
+Dialogue agent: As an AI language model, I cannot provide an opinion or recommendation on the acceptance of the paper. However, I can provide you with the reviewers' ratings and comments. Review 1 rated the paper with a 7, which is an acceptance rating. Review 2 and Review 3 both gave a weak acceptance rating of 6. They pointed out some limitations and concerns but still consider the paper to be technically solid with good experimental evaluation, resources, reproducibility, and no major ethical considerations.
+
+Meta-reviewer: Thank you for the information. I understand that you cannot provide an opinion, but in your experience, how important is the confidence score provided by the reviewers?
+
+Dialogue agent: The confidence score reflects the reviewer's confidence in their assessment of the paper. It is essential to consider the confidence score as it indicates the reliability of the reviews. However, it is important to note that the reviewers themselves could be wrong or have missed important details in their assessment. Therefore, it is best to carefully review the paper and the reviews and make an informed decision based on all the available information.

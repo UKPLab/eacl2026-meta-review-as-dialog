@@ -1,0 +1,17 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Visual Concepts Tokenization" and I am now in the process of deciding whether to accept or reject it for publication. Can you tell me more about the paper and its contributions?
+
+Dialogue Agent: Certainly. The paper proposes a novel transformer-based architecture called Visual Concepts Tokenization (VCT) for learning disentangled visual concepts. It represents images as a set of tokens, where each token reflects a visual concept. The paper also introduces a concept disentangling loss to encourage the model to predict mutated concept tokens. The authors conduct experiments on several datasets, including Shapes3D, MPI3D, and Cars3D, and demonstrate that VCT outperforms existing works in terms of disentangling and scene decomposition capabilities.
+
+Meta-reviewer: Thank you for the summary. Reviewer 2 seems to have provided quite positive feedback with a rating of 7 and described the paper as technically solid. However, Reviewer 3 has raised some concerns regarding the lack of experimentation on naturalistic images and doubts about the disentangled representations being truly independent visual concepts. Can you provide any insights on these concerns?
+
+Dialogue Agent: I cannot provide opinions or recommendations. However, I can confirm that Reviewer 3 has accurately summarized the main concerns raised in their review.
+
+Meta-reviewer: Understood. Reviewer 1 rated the paper as borderline accept, with one of the concerns being the lack of convincing results on real-world scenarios. Can you tell me if the paper provides any insight on how transferable the VCT approach is to real-world datasets?
+
+Dialogue Agent: The paper mainly conducts experiments on synthetic datasets and does not provide extensive analysis of the method's performance on naturalistic images. However, the paper does acknowledge this limitation and suggests possible areas for future research to improve the generalization of the proposed method.
+
+Meta-reviewer: Thank you for the clarification. In terms of the overall confidence of the reviews, Reviewer 1 gave a confidence rating of 3, while Reviewer 2 gave a rating of 4. Can you explain the difference in their confidence levels?
+
+Dialogue Agent: I can only provide a possible explanation without providing opinions or recommendations. Reviewer 2 may have had a more thorough understanding of the paper and related work, leading to a higher confidence rating, while Reviewer 1 may have had some uncertainties or questions regarding the evidence provided in the paper.
+
+Meta-reviewer: That's a fair explanation. Overall, based on the reviews, it seems that the paper has some strengths in terms of the proposed method and experimental results, but also has some limitations and concerns regarding its generalization to real-world scenarios. I will consider these factors when making my final decision. Thank you for your assistance.

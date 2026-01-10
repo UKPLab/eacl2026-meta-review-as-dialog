@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper:
+
+Turn 1:
+
+Meta-reviewer: Hi there, I'm reviewing a paper about text infilling. Can you tell me a bit about it?
+
+Dialogue Agent: Sure! The paper proposes a setting for evaluating a text infilling task, where a system needs to fill in blanks in incomplete sentences. The authors compare the performance of a GAN model, a Recurrent Seq2seq model with attention, and a Transformer model in terms of BLEU, perplexity, and human evaluation.
+
+Turn 2:
+
+Meta-reviewer: That sounds interesting. What are the main flaws of the paper, in your opinion?
+
+Dialogue Agent: Based on the reviews, the main flaws are the size of the dataset being far from sufficient and the lack of description of the baseline systems. The reviewers also mention that the authors fail to describe their experimental setting in detail, making it difficult to reproduce the results.
+
+Turn 3:
+
+Meta-reviewer: Can you tell me more about the dataset used in the paper?
+
+Dialogue Agent: The dataset consists of sentences from three different sources: Yahoo Reviews, fairy tales, and NBA scripts. The authors blank out words with varying strategies, ranging from taking out prepositions and articles to removing all but two anchor words from a sentence. However, the size of the dataset is only 1M tokens, which is considered too small by some of the reviewers.
+
+Turn 4:
+
+Meta-reviewer: That's interesting. What about the baseline systems? Can you tell me more about them?
+
+Dialogue Agent: Sure! The authors compare their proposed method to a GAN model, a Recurrent Seq2seq model with attention, and a Transformer model. However, the reviewers mention that the authors fail to describe the baseline systems in detail, making it difficult to understand how they were implemented.
+
+Turn 5:
+
+Meta-reviewer: Can you summarize the reviewers' opinions for me?
+
+Dialogue Agent: The reviewers generally agree that the paper proposes an interesting and important task, but they have concerns about the size of the dataset and the lack of detail in the experimental setting. Some reviewers also mention that the proposed method feels not satisfactory as generation proceeds left to right, while the rightmost and the leftmost missing word in the gap should be treated as equal citizens.
+
+Turn 6:
+
+Meta-reviewer: Thank you for the summary. Based on the reviews, I think I have a good understanding of the paper's strengths and weaknesses. Can you tell me more about the relevance of the paper to this conference?
+
+Dialogue Agent: Certainly! The paper targets an interesting and important task, i.e. general text filling, where the incomplete sentence can have arbitrary number of blanks and each blank can have arbitrary number of missing words. The proposed method is based on a Transformer model, which is relevant to this conference. Additionally, the paper presents convincing experiments both qualitatively and quantitatively, which is also relevant to this conference.

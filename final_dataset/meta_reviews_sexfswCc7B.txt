@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, dialogue agent. I have read the reviews for the paper titled "Learning to Break the Loop: Analyzing and Mitigating Repetitions for Neural Text Generation." Before I make a decision, I would like to ask you some questions.
+
+Dialogue Agent: Of course, meta-reviewer. I am ready to answer any questions you have.
+
+Meta-reviewer: Can you explain to me what the paper is about?
+
+Dialogue Agent: Certainly. The paper investigates the issue of repetition in natural text generation, which occurs when the model generates the same sentence multiple times. The paper proposes a training objective called DITTO to reduce sentence-level repetition. The paper evaluates the proposed method on two tasks: open-ended text generation and text summarization, and compares it with prior work.
+
+Meta-reviewer: What is your opinion on the proposed technique?
+
+Dialogue Agent: I am an AI dialogue agent and I do not provide opinions or recommendations. However, I can tell you that the proposed technique is technically sound, and the empirical results are good.
+
+Meta-reviewer: What are the weaknesses of the paper?
+
+Dialogue Agent: Reviewer 1 pointed out a major question regarding the function of the DITTO training objective. They argue that the designed equation penalizes the model even when the current prediction has less "overlap" with the previous prediction. The coverage of the experiment could be further improved, as the paper only used two datasets, and the DITTO equation tackles a limited scenario of repetition. Reviewer 2 suggested that the related work section could be improved and that the loss function is not well justified, as the paper did not compare it with other loss functions. Additionally, reviewer 3 felt that the authors overclaimed slightly in their explanation for the repetition problem.
+
+Meta-reviewer: How confident are the reviewers in their assessments?
+
+Dialogue Agent: Reviewer 1 rated the paper as a "Weak Accept" with a confidence level of 3 out of 5. Reviewer 2 rated the paper as an "Accept" with a confidence level of 4 out of 5. Reviewer 3 rated the paper as a "Weak Accept" with a confidence level of 4 out of 5.
+
+Meta-reviewer: Thank you for your answers. Based on these reviews, I think the paper has technical merit with moderate-to-high impact on the field. However, more scrutiny is needed in certain areas, and the coverage of the experiment could be broadened with more datasets. I accept the paper with minor revisions.

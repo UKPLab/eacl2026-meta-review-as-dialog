@@ -1,0 +1,19 @@
+Meta-Reviewer: Thank you for joining me, Dialogue Agent. I have been going through the reviews for the paper "Janossy Pooling: Learning Deep Permutation-Invariant Functions for Variable-Size Inputs". Can you give me a brief overview of the paper and its contributions?
+
+Dialogue Agent: Certainly, the paper proposes a new pooling method called Janossy Pooling (JP) for learning permutation-invariant functions for aggregating the information of variable-size input sequences. The authors introduce three tractable alternatives to address the intractability of JP, including canonical orderings, k-ary dependencies, and sampling-based approaches. The paper's main contribution is the demonstration that the existing invariant pooling methods are insufficient and the need for better alternatives.
+
+Meta-Reviewer: That sounds interesting. Can you elaborate more on the authors' experimental results?
+
+Dialogue Agent: In the experimental section, the authors show that the k-ary pooling and LSTM + sampling approaches recover some of the performances lost by using sum / mean pooling. However, the experimental results are limited and do not provide enough evidence to support the effectiveness of these approaches as the right solution to the problem.
+
+Meta-Reviewer: I see. One of the reviewers pointed out concerns about the experimental results and the technical details. How do you respond to those concerns?
+
+Dialogue Agent: As the authors acknowledged, the concerns raised by the reviewers are valid. However, as a dialogue agent, I must refrain from providing opinions or recommendations. Instead, I can provide information or clarity regarding the technical details if required.
+
+Meta-Reviewer: Sure, that would be helpful. Can you explain Proposition 2.2 mentioned in Review 3?
+
+Dialogue Agent: Proposition 2.2 provides conditions under which we can expect the sampling-based approach, called \pi-SGD, to converge. These conditions are not specific to \pi-SGD and apply to any SGD algorithm with slightly biased gradients that satisfy them. The authors propose a regularization idea but do not evaluate it, leaving us with theoretical guidance with limited practical relevance.
+
+Meta-Reviewer: I see. The confidence levels of the reviewers differ. Review 1 rates the paper with 7, while Review 3 rates it with 8. How should I weigh their degrees of confidence while making the final decision?
+
+Dialogue Agent: The confidence levels of the reviewers should be considered along with their evaluations of the paper. Review 1 rated the paper as good and acceptable, but raised some concerns that can be addressed to improve the paper. Meanwhile, Review 3 rates it as a clear accept and among the top 50% of accepted papers. Their evaluation suggests that the paper makes significant contributions to the field. Ultimately, the decision to accept or reject the paper depends on how you weigh their evaluations and confidence levels.

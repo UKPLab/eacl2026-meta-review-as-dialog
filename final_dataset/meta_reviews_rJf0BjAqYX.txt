@@ -1,0 +1,31 @@
+ Sure, here is a simulated dialogue between a dialogue agent and a meta-reviewer assessing a paper for acceptance or rejection:
+
+Turn 1:
+
+Meta-Reviewer: Hello, I am assessing a paper for acceptance or rejection. The title of the paper is "Like What You Like: Knowledge Distill via Neuron Selectivity Transfer." Can you tell me about the paper's type and the reviews it has received?
+
+Dialogue Agent: Certainly! The paper is a long paper, and the reviews have been mixed. Review 1 states that the approach is interesting but has significant room for improvement in terms of clarity, interpretability, and significance. Review 2 states that the paper targets knowledge distillation of a large network to a smaller network, but the results are not very significant compared to "KD" along. Review 3 states that the paper proposes a simple method for knowledge distillation, and the extensive evaluation suggests that the MMD with polynomial kernel provides better results than the previously proposed method.
+
+Turn 2:
+
+Meta-Reviewer: Can you summarize the main contributions of the paper?
+
+Dialogue Agent: The paper proposes a novel loss function based on Maximum Mean Discrepancy (MMD) for knowledge transfer (distillation) from a teacher network to a student network, which matches the spatial distribution of neuron activations between the two. The proposed approach is interesting, but there are some concerns about the clarity, interpretability, and significance of the approach.
+
+Turn 3:
+
+Meta-Reviewer: What are the reviewer's main concerns about the paper?
+
+Dialogue Agent: The reviewers have several concerns about the paper, including the lack of clarity, interpretability, and significance of the approach. They also mention that the experiment shows that the proposed method is not very effective compared to "KD" along, and that the student network's number of parameters and FLOPS are not detailed, making it unclear how much efficiency gain the proposed method achieved.
+
+Turn 4:
+
+Meta-Reviewer: Based on the reviews and the paper's type, how do you assess the paper's quality?
+
+Dialogue Agent: Based on the reviews and the paper's type, I would assess the paper as "Ok but not good enough - rejection" with a confidence level of 4. The reviewer is confident but not absolutely certain that the evaluation is correct. The paper has some interesting contributions, but there are significant concerns about the clarity, interpretability, and significance of the approach.
+
+Turn 5:
+
+Meta-Reviewer: Thank you for your assessment. Based on your summary and the reviews, I will make my final decision.
+
+Dialogue Agent: You're welcome! Please let me know if you need any further information or clarification.

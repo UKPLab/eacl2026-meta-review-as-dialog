@@ -1,0 +1,37 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "When Do Curricula Work?":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "When Do Curricula Work?" and I have some questions about the findings. Can you help me?
+
+Dialogue Agent: Of course! I have access to the reviews and can provide summarized answers based on the reviews. What would you like to know?
+
+Turn 2:
+
+Meta-Reviewer: I'm having trouble understanding the sentence on page 5. Can you explain what the authors mean by "these pacing functions"?
+
+Dialogue Agent: Sure! The authors are referring to the pacing functions used in Fig 3-right, which determine the order in which examples are learned. The pacing functions are: step pacing, random pacing, and dynamic pacing.
+
+Turn 3:
+
+Meta-Reviewer: I see. I also have a question about the implicit curricula experiments. How do the authors ensure that the learned iteration of a sample is consistent across different architectures?
+
+Dialogue Agent: The authors use a first epoch definition to ensure consistency across different architectures. The learned iteration of a sample is defined by the first epoch from which the prediction remains correct for all subsequent epochs.
+
+Turn 4:
+
+Meta-Reviewer: I noticed that the paper has some minor issues that may need clarification. For example, the authors mention that the random ordering is not the same as i.i.d. training, but it's not clear what the difference is. Can you help clarify this?
+
+Dialogue Agent: Sure! The authors are referring to the fact that the random ordering has a dynamic training size, whereas i.i.d. training has a fixed training size. The authors could have discussed this point in more detail.
+
+Turn 5:
+
+Meta-Reviewer: I see. I also have a question about the pacing functions used in the experiments. Can you explain why the authors chose to use specific pacing functions and not others?
+
+Dialogue Agent: The authors chose to use step pacing, random pacing, and dynamic pacing to explore the effects of different pacing functions on curriculum learning. The pacing functions were selected based on their ability to influence the order in which examples are learned.
+
+Turn 6:
+
+Meta-Reviewer: I'm satisfied with the answers to my questions. Based on the reviews, I would rate this paper as 7: Good paper, accept. My confidence in the evaluation is 3: The reviewer is fairly confident that the evaluation is correct.
+
+Dialogue Agent: Thank you for your feedback! I'm glad I could help you understand the paper better. The final decision will be based on the weighted average of the reviewers' ratings and their confidence in the evaluation.

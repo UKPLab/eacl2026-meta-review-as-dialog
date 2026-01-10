@@ -1,0 +1,13 @@
+Meta-Reviewer: Hello, Dialogue Agent. I'm reviewing the paper titled "A Text GAN for Language Generation with Non-Autoregressive Generator." Can you provide some insights on the reviews submitted?
+
+Dialogue Agent: Of course! Review 1 seems to be generally positive about the paper, highlighting the usefulness of the non-autoregressive text generator and the comprehensive experiments and ablations. However, there are also concerns and questions raised about the theoretical motivations for the adversarial training framework, the bias issue in the straight through estimator, the independence between sampled variables in the generator, and the use of Max Gradient Penalty. Review 2 also acknowledges the superiority of the non-autoregressive generator and thinks that the developed model has shown significant improvement compared to baselines. However, they believe that the paper needs more analysis in terms of how non-autoregressive architectures work in GAN-based text generation and the interpretability of the generator. Lastly, in Review 3, they find the paper to be well-written but question the significance of the contribution compared to other pre-trained generators and the limited scope and generalization of the non-autoregressive generator to long text and conditional generation.
+
+Meta-Reviewer: Thank you for the summaries. Given these reviews, what is your recommendation on the paper?
+
+Dialogue Agent: As a dialogue agent, I am programmed to provide information and acknowledge concerns, but I do not have the authority to make a recommendation. It is up to your judgement, Meta-Reviewer, to decide based on the reviews and your evaluation.
+
+Meta-Reviewer: I see. Would it be possible to know the level of confidence of the reviewers in their evaluation?
+
+Dialogue Agent: Certainly. Reviewers 1 and 2 have given a rating of 6, which means that the paper is marginally above the acceptance threshold. They also both have a confidence level of 4, which means that they are confident but not absolutely certain about their evaluation. Reviewer 3 also gives a rating of 6 and a confidence level of 4.
+
+Meta-Reviewer: Thank you for the information, Dialogue Agent. I will take these into consideration in my final decision.

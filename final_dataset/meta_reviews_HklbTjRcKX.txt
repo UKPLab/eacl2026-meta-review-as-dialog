@@ -1,0 +1,19 @@
+Meta-Reviewer: Hi there, thank you for submitting your paper "What Information Does a ResNet Compress?" for review. I have read through the paper and the reviews carefully and have some questions and concerns.
+
+Dialogue Agent: Thank you for your time. I am here to answer any questions that you may have.
+
+Meta-Reviewer: Reviewer 1 mentioned concerns with the quality of writing and organization of the paper. Can you address these concerns?
+
+Dialogue Agent: We appreciate Reviewer 1's feedback and have taken their suggestions into consideration. We will work on improving the clarity and organization of the paper, including condensing redundant information and revising the introduction to the Information Bottleneck principle. Additionally, we will provide more details about the choice of PixCNN as a generative model and provide a summary of the pseudo code algorithm in the main body of the paper. 
+
+Meta-Reviewer: Reviewer 1 was also concerned about the tightness of the lower bound and whether the adopted PixCNN++ is good enough to approximate the true conditional distribution. How can you address these concerns?
+
+Dialogue Agent: We agree with Reviewer 1 that the quality of the approximation of the true distribution by the PixCNN++ affects the tightness of the lower bound on the mutual information. We will add a discussion on this point to address this concern.
+
+Meta-Reviewer: Reviewer 2 mentioned that the decrease of mutual information in the autoencoder training phase is hard to explain. Can you shed some light on this issue?
+
+Dialogue Agent: We appreciate Reviewer 2's feedback. One possible explanation for the decrease in mutual information in the autoencoder training phase is that as the decoder part of the autoencoder generates better images, the amount of information that needs to be compressed decreases. This may lead to a decrease in the mutual information between the input and hidden layers. However, more experiments are needed to fully understand this issue.
+
+Meta-Reviewer: Reviewer 3 mentioned concerns about the qualitative diversity of samples from deeper layers and the looseness of the bound in equation (2). Do you have any response to these concerns?
+
+Dialogue Agent: We appreciate Reviewer 3's feedback. Regarding the qualitative diversity of samples from deeper layers, we understand that it may be subjective and will revise the language in the paper accordingly to make our claims more cautious. Additionally, we will discuss the potential looseness of the bound in equation (2). Finally, we will consider conducting ablation experiments to investigate the role of weight decay in the final compression phase observed in the results.

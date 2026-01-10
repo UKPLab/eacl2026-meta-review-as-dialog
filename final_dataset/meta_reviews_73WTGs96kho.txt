@@ -1,0 +1,21 @@
+Meta-reviewer: Hello, I have read the reviews for the paper "Net-DNF: Effective Deep Modeling of Tabular Data" and I am now ready to decide whether to accept or reject it. Before making my final decision, I would like to ask the dialogue agent a few questions.
+
+Dialogue agent: Of course, I will do my best to answer them to the best of my abilities.
+
+Meta-reviewer: Reviewer 1 raises concerns about the limited datasets used in the experimental analysis and the fact that the performance metrics are limited to log-loss, which is difficult to interpret. Can you provide me with more information about the datasets used and the rationale behind the choice of performance metrics?
+
+Dialogue agent: I am aware of Reviewer 1's comments. The paper uses a variety of tabular datasets, including UCI datasets, synthetic datasets, and real-world datasets. The authors chose log-loss as the primary performance metric because it is commonly used in classification tasks. However, they also provide other metrics such as F1-score and AUC-ROC. Overall, the experimental analysis shows that Net-DNF outperforms fully connected networks.
+
+Meta-reviewer: Reviewer 2 raises some questions about the feature selection method and its impact on the performance of Net-DNF. Can you provide me with more information about the feature selection method used in the paper and its effectiveness?
+
+Dialogue agent: Certainly, the feature selection method proposed in the paper is based on a trainable binarized selection with a modified L1 and L2 regularization. The parameter $w_t$ is a learnable parameter that controls the sparsity of the selected feature. In the experiments, the authors show that this feature selection method improves the performance of Net-DNF compared to the same architecture without feature selection. 
+
+Meta-reviewer: Reviewer 3 raises concerns about the empirical evaluations of Net-DNF and suggests that the authors have neglected to demonstrate where Net-DNF stands in relation to other tabular-inspired approaches. Can you comment on this?
+
+Dialogue agent: Reviewer 3 is correct that the authors have not compared Net-DNF to all tabular-inspired approaches but only to XGBoost and FCN. However, the authors claim that their approach is unique in that it uses a neural architecture that emulates the characteristics of decision-tree variants. Therefore, they argue that it is difficult to compare their approach to other tabular-inspired approaches that do not use this architecture. Nonetheless, the authors acknowledge that they should have compared their approach to other similar systems, such as the VAE approach proposed by Nazabal et al. (2020).
+
+Meta-reviewer: Thank you for your answers. Based on the reviews and your responses, I am inclined to accept the paper. However, I am concerned about the confidence levels of the reviewers. Reviewer 1 had low confidence in their evaluation, and Reviewer 2 had some doubts about the paper, although they were willing to defend their evaluation. Can you provide me with more information about the confidence levels of the reviewers and how they may impact the final decision?
+
+Dialogue agent: The confidence levels of the reviewers should be taken into consideration when making the final decision. Reviewer 1 had low confidence in their evaluation, which suggests that their evaluation may be less reliable than that of other reviewers. Reviewer 2 was willing to defend their evaluation, which suggests that their evaluation is reliable, but they did not fully understand some parts of the paper. Reviewer 3 had high confidence in their evaluation, which suggests that their evaluation is reliable. Overall, it is important to take into account both the ratings and confidence levels of the reviewers to make an informed decision.
+
+Meta-reviewer: Thank you for your insight. Based on the reviews and your responses, I have decided to accept the paper. Thank you for your help.

@@ -1,0 +1,15 @@
+Meta-Reviewer: Hello, dialogue agent. Can you summarize the reviews for me regarding the paper titled "Graph Classification with Geometric Scattering," which is a long paper?
+
+Dialogue Agent: Sure. Review 1 states that the paper is well-written and easy to understand, but it has two major issues. Firstly, the theoretical novelty is only partially new and is limited. Secondly, the improvement over other published methods is small. Reviewer one rates the paper marginally below the acceptance threshold with a confidence level of 4.
+
+Review 2 notes that the paper is interesting and new but might be weak in terms of theoretical and experimental results. The reviewer finds Table 3 results to be less convincing, and the use of a single set of hyper-parameters seems like architectural overfitting. The reviewer also asks about using only 1/10 of the data for training and suggests training each classifier on a 90% random subset instead. Reviewer 2 rates the paper marginally above the acceptance threshold with a confidence level of 3.
+
+Finally, Review 3 mentions that while the paper is well-written and clearly explains its method, the paper lacks originality, and the experimental setup is slightly confusing. Reviewer 3 recommends discussing the complexity of the approach, adding theoretical considerations such as memory and runtime complexity. Reviewer 3 demands reporting the accuracies in a transfer learning setup in which the beneficial properties of the new method can be better explored. Reviewer 3 rates the paper marginally below the acceptance threshold with a confidence level of 4.
+
+Meta-Reviewer: Thank you for summarizing the reviews. Can you tell me about the paper's contributions?
+
+Dialogue Agent: The paper describes a new method for graph classification based on a designed deep filter bank, which then uses lazy random walks that are expressed in terms of graph signal processing, which is similar to wavelets. The paper calculates graph node features at various scales and then sums them in order to remain invariant under permutations. The paper presents several experiments on different graph datasets to demonstrate the performance of the new method.
+
+Meta-Reviewer: Based on the reviews, do you think we should accept or reject the paper?
+
+Dialogue Agent: That depends on the weightage given to reviewer confidence. Reviewer 2's confidence level is the lowest, so we can weigh their review to be less influential in our decision. However, Reviewer 1's and Reviewer 3's confidence levels are high, so their reviews should be given more weight. Based on these reviews, the paper seems to be marginally below the acceptance threshold. However, it is important to note that there are some significant issues that need to be addressed.

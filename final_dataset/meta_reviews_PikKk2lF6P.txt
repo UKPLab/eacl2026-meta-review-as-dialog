@@ -1,0 +1,11 @@
+Meta-Reviewer: Hello, dialogue agent. Can you tell me about the reviews for the paper "Better Uncertainty Calibration via Proper Scores for Classification and Beyond"?
+
+Dialogue Agent: Of course, meta-reviewer. The paper received three reviews, with ratings of 5, 8, and 7, respectively.
+
+Meta-Reviewer: Can you give me a summary of the strengths and weaknesses mentioned in each of the reviews?
+
+Dialogue Agent: Certainly. Review 1 praised the paper for its comprehensive literature review and robust experiment results, but mentioned weaknesses such as a lack of theoretical justification for existing calibration estimators' sensitivity to data size and unclear use of the root calibration upper bound (RBS) term. Review 2 found the paper to make important contributions in proposing a taxonomy of calibration errors and defining proper calibration errors, and commended its well-selected evaluation metrics. However, their minor issues included unclear definition of RBS and lack of practical guidance for computing upper bound calibration errors. Finally, Review 3 appreciated the paper's addressing of reliability in calibration metrics and clear taxonomy of calibration estimators, but raised a concern about the usefulness of upper-bound proper calibration errors at individual instance level and for out-of-distribution detection.
+
+Meta-Reviewer: Thank you, that was helpful. Based on these reviews, what is your assessment of the paper and its suitability for acceptance?
+
+Dialogue Agent: As an AI model, I am not able to provide opinions or recommendations. My purpose is to provide information and answer questions to assist in the decision-making process. However, I can mention that the reviews do highlight strengths in the paper's theoretical foundations, comprehensive literature review, and robust experiment results, with minor issues raised about practicality and clarity of specific parts. It is up to you, as the meta-reviewer, to weigh the importance of these factors in making your decision.

@@ -1,0 +1,33 @@
+ Sure, here is a multi-turn dialogue between a meta-reviewer and a dialogue agent for reviews about a paper titled "SheetKey: Generating Touch Events by a Pattern Printed with Conductive Ink for User Authentication":
+
+Turn 1:
+
+Meta-Reviewer: Hello, I'm reviewing a paper titled "SheetKey: Generating Touch Events by a Pattern Printed with Conductive Ink for User Authentication". Can you help me understand the main contribution of this work?
+
+Dialogue Agent: Sure! The authors present SheetKey, a tangible electronics-based system used for password/pin authentication. The paper includes a discussion of the implementation of SheetKey and a preliminary evaluation of 13 participants acting as valid users who use sheetkey for password authentication and as attackers who try to guess the password.
+
+Turn 2:
+
+Meta-Reviewer: That sounds interesting. Can you tell me more about the technical implementation of SheetKey?
+
+Dialogue Agent: Sure! The main contribution of this work is the technical development of SheetKey, which uses conductive ink to generate touch events. The authors argue that this method is more accessible than other techniques because it can be easily reproduced by people. However, I noticed that the paper does not provide a detailed comparison with related work, such as CipherCard project cited in the paper.
+
+Turn 3:
+
+Meta-Reviewer: I see. Can you tell me more about the evaluation of SheetKey?
+
+Dialogue Agent: The paper includes a preliminary evaluation of 13 participants acting as valid users who use sheetkey for password authentication and as attackers who try to guess the password. However, I found it difficult to fully understand the contributions of this work and below I elaborate on my main concerns. For example, the paper mentions that 27% of the attackers were successful in identifying the pattern, which seems like a relatively high number for critical tasks concerned with security.
+
+Turn 4:
+
+Meta-Reviewer: I understand your concerns. Can you tell me more about the user experiences related to SheetKey?
+
+Dialogue Agent: The paper indicates that a majority of the user experiences related questions were indicated as future work. While the engineering efforts are extremely important, it is difficult to fully assess the benefits of the work without a sense of how and when would people use such techniques.
+
+Turn 5:
+
+Meta-Reviewer: I see. Based on the reviews, I think the work is interesting but needs more detail on the technical implementation and user experiences. Can you provide me with a summary of the reviews?
+
+Dialogue Agent: Sure! The reviews include [Review 1: The authors present Sheetkey, a sheet with conductive patterns that allow the users to quickly enter complicated touch pattern passwords (<0.3s). I like the idea of this prototype, its simple, straightforward, and powerful. The application is appropriate. Of course, the big downside to this method is the necessity for yet again another thing for users to carry, and that it can easily be stolen. The authors do discuss this in the paper. Introduction lists a number of future work to clarify where the paper stands. This is an interesting writing technique, but it leaves me with more questions than I had before, mainly why werent some of these done here? They seem very basic and critical to evaluating the usability of the method. None the less, the effect is that the papers aim and scope is clear and I very much appreciate that. Similarly, I think that the paper is well organized with regards to its content: there are small studies, but the improvement sections clearly outlines issues and how to fix them, its not left to future work, which strengthens the work.], [Review 2: Overall, this is a clever and interesting idea which takes the idea of a physical key and applies it to a capacitive touchscreen. The analogy to a key is quite apt - the proposed devices produce inputs that have combinatorially many possibilities, that are physically distinct and need to be physically protected, and whose inputs are hard to forge by hand (without simply designing a replacement key).The idea of printing conductive sheets to interact with a screen is not new (as evidenced by the related work, and also [A] below), but this is a nice physical-key based technique for authentication that could complement existing capacitive-biometric techniques (e.g. [B]) as a primary or secondary authentication factor. I have a few concerns about the paper. The accuracy as demonstrated in the paper seems somewhat low (~80%), which could significantly impair usability, and it's not clear why the accuracy is low (touch sensing on the screen itself is in excess of 99% accurate). Details on the recognition algorithm are not clear; I wonder if the authors are matching on the absolute positions of the touch points, or on their positions relative to other touch events.], and [Review 3: This paper contributes to the development of SheetKey, a tangible electronics-based system used for password/pin authentication. The paper includes a discussion of the implementation of SheetKey and a preliminary evaluation of 13 participants acting as valid users who use sheetkey for password authentication and as attackers who try to guess the password.  The paper also discussed several future directions for improving the system.Overall, the paper is well written and easy to read. The development of a relatively accessible solution i.e., printing sheetkeys using a regular printer is promising. However, I found it difficult to fully understand the contributions of this work and below I elaborate on my main concerns. For example, the paper mentions that the main contribution of this work is the technical development of SheetKey, but I am not convinced that the silver nano-particle ink is as widely accessible as the paper argues to emphasize the benefit for mass production. Also, I found it difficult to understand what the technical differences are compared to the CipherCard project cited in the paper i.e., what additional features does this technique offer? The paper mentions the use of sheetkeys on alphabetical keyboards but I missed seeing any evaluation for that.].
+
+Based on the reviews, I think the work is interesting but needs more detail on the technical implementation and user experiences. Can you provide me with a summary of the reviews?
