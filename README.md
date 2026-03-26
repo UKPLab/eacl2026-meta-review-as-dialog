@@ -122,13 +122,24 @@ The final dataset created is in the folder ``final_dataset`` in this repository.
 ## Citation
 
 ```bib
-@misc{purkayastha2025decisionmakingdeliberationmetareviewingdocumentgrounded,
-      title={Decision-Making with Deliberation: Meta-reviewing as a Document-grounded Dialogue}, 
-      author={Sukannya Purkayastha and Nils Dycke and Anne Lauscher and Iryna Gurevych},
-      year={2025},
-      eprint={2508.05283},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2508.05283}, 
+@inproceedings{purkayastha-etal-2026-decision,
+    title = "Decision-Making with Deliberation: Meta-reviewing as a Document-grounded Dialogue",
+    author = "Purkayastha, Sukannya  and
+      Dycke, Nils  and
+      Lauscher, Anne  and
+      Gurevych, Iryna",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.eacl-long.158/",
+    doi = "10.18653/v1/2026.eacl-long.158",
+    pages = "3424--3465",
+    ISBN = "979-8-89176-380-7",
+    abstract = "Meta-reviewing is a pivotal stage in the peer-review process, serving as the final step in determining whether a paper is recommended for acceptance. Prior research on meta-reviewing has treated this as a summarization problem over review reports. However, complementary to this perspective, meta-reviewing is a decision-making process that requires weighing reviewer arguments and placing them within a broader context. Prior research has demonstrated that decision-makers can be effectively assisted in such scenarios via dialogue agents. In line with this framing, we explore the practical challenges for realizing dialog agents that can effectively assist meta-reviewers. Concretely, we first address the issue of data scarcity for training dialogue agents by generating synthetic data using Large Language Models (LLMs) based on a self-refinement strategy to improve the relevance of these dialogues to expert domains. Our experiments demonstrate that this method produces higher-quality synthetic data and can serve as a valuable resource towards training meta-reviewing assistants. Subsequently, we utilize this data to train dialogue agents tailored for meta-reviewing and find that these agents outperform *off-the-shelf* LLM-based assistants for this task. Finally, we apply our agents in real-world meta-reviewing scenarios and confirm their effectiveness in enhancing the efficiency of meta-reviewing."
 }
 ```
